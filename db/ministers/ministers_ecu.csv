@@ -1,0 +1,21 @@
+ECU;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+23000;Head of State;Lucio Gutierrez;2003;2050;2050;SC;Powerhungry Demagogue;High;M23000;x
+23001;Head of Government;Lucio Gutierrez;2003;2050;2050;SC;Happy Amateur;High;M23000;x
+23002;Foreign Minister;Patricio Zuquilanda;2003;2050;2050;SC;Great Compromiser;High;M23002;x
+23003;Minister of Armament;Nelson Herrera;2003;2050;2050;SC;Military Entrepreneur;High;M23003;x
+23004;Minister of Security;Mario Canessa;2003;2050;2050;SD;Silent Lawyer;High;M23004;x
+23005;Head of Military Intelligence;Jaime Andrade;2003;2050;2050;SC;Political Specialist;High;M23005;x
+23006;Chief of Staff;Octavio Romero;2003;2050;2050;SC;School of Defence;High;M23006;x
+23007;Chief of Army;Luis Aguas;2003;2050;2050;SC;Static Defence Doctrine;High;M23007;x
+23008;Chief of Navy;Víctor Rosero;2003;2050;2050;SC;Indirect Approach Doctrine;High;M23008;x
+23009;Chief of Air Force;Ángel Córdova;2003;2050;2050;SC;Air Superiority Doctrine;High;M23009;x
+;Replacements;;;;;;;x
+23010;Minister of Security;Luis Felipe Mantilla Huerta;2003;2050;2050;SC;Compassionate Gentleman;High;M23010;x
+23011;Minister of Security;Raúl Baca;2003;2050;2050;SD;Crime Fighter;High;M23011;x
+23012;Minister of Security;Jaime Damerval;2003;2050;2050;SD;Compassionate Gentleman;High;M23012;x
+23013;Minister of Security;Xavier Ledesma;2003;2050;2050;SC;Silent Lawyer;High;M23013;x
+23014;Minister of Security;Óscar Ayerve;2003;2050;2050;SC;Crime Fighter;High;M23014;x
+23015;Chief of Staff;Luis Aguas;2003;2050;2050;SC;School of Fire Support;High;M23007;x
+23016;Chief of Navy;Luis Palacio;2003;2050;2050;SC;Indirect Approach Doctrine;High;M23016;x
+23017;Head of State;Rafael Correa;2003;2050;2050;LWR;Benevolent Gentleman;High;M23017;x
+23018;Head of Government;Rafael Correa;2003;2050;2050;LWR;Flamboyant Tough Guy;High;M23017;x

@@ -1,0 +1,34 @@
+NIG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+60001;Head of State;Olusegun Obasanjo;2003;2050;2050;ML;Die-hard Reformer;High;Oobasanjo;x
+60002;Head of Government;Olusegun Obasanjo;2003;2050;2050;ML;Flamboyant Tough Guy;High;Oobasanjo;x
+60003;Foreign Minister;Joy Ogwu;2003;2050;2050;ML;Great Compromiser;High;Jogwu;x
+60004;Minister of Armament;Theophilus Danjuma;2003;2050;2050;ML;Resource Industrialist;High;Tdanjuma;x
+60005;Minister of Security;Godwin Abbe;2003;2050;2050;SC;Crime Fighter;High;Gabbe;x
+60006;Head of Military Intelligence;Uche Okeke;2003;2050;2050;NA;Political Specialist;High;Uokeke;x
+60007;Chief of Staff;Alexander Ogomudia;2003;2050;2050;NA;School of Manoeuvre;High;Unknown;x
+60008;Chief of Army;Alexander Ogomudia;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Unknown;x
+60009;Chief of Air Force;Jonah Wuyep;2003;2050;2050;NA;Air Superiority Doctrine;High;Unknown;x
+60010;Chief of Navy;Samuel Afolayan;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;Soafolayan;x
+;Replacements;;;;;;;x
+60011;Head of State;Umaru Yar'Adua;2007;2050;2050;ML;Benevolent Gentleman;High;Uyaradua;x
+60012;Head of Government;Umaru Yar'Adua;2007;2050;2050;ML;Silent Workhorse;High;Uyaradua;x
+60013;Head of State;Muhammadu Buhari;2003;2050;2050;PA;Stern Imperialist;High;Mbuhari;x
+60014;Head of Government;Muhammadu Buhari;2003;2050;2050;PA;Flamboyant Tough Guy;High;Mbuhari;x
+60015;Foreign Minister;Ojo Maduekwe;2003;2050;2050;ML;Biased Intellectual;High;Omaduekwe;x
+60016;Foreign Minister;Bagudu Hirse;2003;2050;2050;ML;Apologetic Clerk;High;Bhirse;x
+60017;Minister of Armament;Godwin Abbe;2003;2050;2050;SC;Military Entrepreneur;High;Gabbe;x
+60018;Minister of Armament;Rabiu Kwankwaso;2003;2050;2050;ML;Administrative Genius;High;Rkwankwaso;x
+60019;Minister of Armament;Thomas Aguiyi-Ironsi;2006;2050;2050;ML;Tank Proponent;High;Taironsi;x
+60020;Minister of Armament;Yayale Ahmed;2006;2050;2050;ML;Corrupt Kleptocrat;High;Yahmed;x
+60021;Head of Military Intelligence;Emmanuel Imohe;2003;2050;2050;NA;Logistics Specialist;High;Unknown;x
+60022;Chief of Air Force;Paul Dike;2003;2050;2050;NA;Army Aviation Doctrine;High;Pdike;x
+60023;Chief of Staff;Paul Dike;2006;2050;2050;NA;School of Fire Support;High;Pdike;x
+60024;Chief of Air Force;Oluseyi Petinrin;2007;2050;2050;NA;Air Superiority Doctrine;High;Opetinrin;x
+60025;Chief of Staff;Owoye Andrew Azazi;2005;2050;2050;NA;School of Psychology;High;Oazazi;x
+60026;Chief of Army;Owoye Andrew Azazi;2003;2050;2050;NA;Decisive Battle Doctrine;High;Oazazi;x
+60027;Chief of Staff;Martin Luther Agwai;2006;2050;2050;NA;School of Psychology;High;Mlagwai;x
+60028;Chief of Army;Martin Luther Agwai;2003;2050;2050;NA;Guns and Butter Doctrine;High;Mlagwai;x
+60029;Chief of Navy;Ganiyu Adekeye;2003;2050;2050;NA;Indirect Approach Doctrine;High;Gadekeye;x
+60030;Chief of Army;Luka Yusuf;2006;2050;2050;NA;Elastic Defence Doctrine;High;Lyusuf;x
+60031;Chief of Air Force;Gabriel Odesola;2008;2050;2050;NA;Army Aviation Doctrine;High;Godesola;x
+60032;Chief of Air Force;Anene Okafor;2006;2050;2050;NA;Air Superiority Doctrine;High;Aokafor;x

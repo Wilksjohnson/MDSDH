@@ -1,0 +1,62 @@
+# Third phase of Chinese invasions
+# Triggered once Philipines are annexed (?)
+
+# After this, Japan will become the target. This should not be very difficult, as the japanese army is 
+# relatively small compared to the number of provinces it is covering. After a certain number of Victory 
+# points has been taken, Japan will "surrender", which means that Japan will be out of the war. (not puppeted) 
+# China will gain a portion of the Japanese fleet, (if still existing) some technology and military access.   
+
+# China needs to keep conquering, and thereby ensuring that the US have no spare troops to send to Europe in 
+# aid of the war against Russia. I will not go further in specific goals, just archiving the above will be 
+# quite formidable. I've not set any specific provinces in terms of province ID, as you might have a better 
+# idea than me on what will be the best route to victory. However, if you wish more detailed instructions, 
+# I can give that.
+
+
+
+combat = { JAP = 100 USA = 50 }
+
+
+garrison = {
+
+	country_priorities = { JAP = 80 KOR = 40 USA = 20 }
+	province_priorities = { 1201 = 30 # Pyongyang
+1362 = 20 # Taipei
+1683 = 20 # Guam
+1565 = 30 # Manilla
+1232 = 40 # Busan
+1563 = 20 # Okinawa
+1564 = 20
+}
+}
+
+front = {
+	province_priorities = {
+1228 = 80 # Seoul
+1683 = 20 # Guam
+1565 = 40 # Manila
+1232 = 90 # Busan
+1552 = 90 # Tokyo
+1560 = 90 # Nagasaki
+1554 = 90 # Hiroshima
+}
+}
+invasion = {
+
+	staging_province = {
+1221 # Pyongyang
+1346 # Ningbo
+1362 # Taipei
+1228 # 
+}
+
+	target = { 
+1228 = 50 # Seoul
+1683 = 20 # Guam
+1232 = 50 # Busan
+1552 = 90 # Tokyo
+1561 = 90 # Nagasaki
+1554 = 90 # Hiroshima
+} 
+} 
+}

@@ -1,0 +1,856 @@
+################################
+# Generic set of decisions
+################################
+#### Create Public Jobs
+event = {
+	id = 9000021
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		OR = {
+			money = 3000
+			AND = {
+				NOT = { IC = 80 }
+				money = 2000
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 1500
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 500
+				}	
+			}
+		OR = { 
+			NOT = { policy = { type = free_market value = 8 } }
+		}
+	}
+
+	decision_trigger = {
+		OR = {
+			money = 6000
+			AND = {
+				NOT = { IC = 80 }
+				money = 4000
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 3000
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 1000
+				}	
+			}
+		atwar = no
+	}
+
+	trigger = {
+		money = 6000
+		OR = { 
+			NOT = { policy = { type = free_market value = 8 } }
+		}
+	}
+   
+	name = "Create Public Works"
+	desc = "One of the options we have to reduce unemployment is to create public works. Not only will these jobs create goods for our economy, but they will also help please the population by lowering unemployment and increasing living standards for the working-poor." 
+	style = 2
+	picture = "Public_Works"
+	decision_picture = "decision_public_works"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "Public works create growth"
+		command = { type = dissent value = -2 }
+		command = { trigger = { IC = 80 } type = money value = -6000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -4000 }
+		command = { trigger = { IC = 15 NOT = { IC = 50 } } type = money value = -3000 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -1000 }
+		command = { type = domestic which = free_market value = -1 }
+		command = { type = event which = 9000040 where = -1 when = 60 }
+	}
+}
+
+event = {
+	id = 9000040
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+
+	name = "New Industries Created!"
+	desc = "Our public works program for the unemployed has been a complete success! The unemployment rate has been lowered and new industries under government control have been created." 
+	style = 2
+	picture = "Public_Works"
+	
+	action = {
+		name = "Great!"
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { }
+	}
+}
+	
+#### Issue Currency
+event = {
+	id = 9000022
+	random = no
+	persistent = yes
+
+	decision = { 
+		NOT = { money = 150 }
+		atwar = no
+	}
+
+	decision_trigger = {
+		NOT = { money = 100 }
+	}
+
+	trigger = {
+		ai = no
+		NOT = { money = 10 }
+	}
+   
+	name = "Issue Currency"
+	desc = "Our monetary authority can print new money to solve our budget problems without having to borrow money. However, it increases inflation which could cause problems for industry." 
+	style = 2
+	picture = "Issue_Currency"
+	decision_picture = "decision_issue_currency"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "A more balanced budget"
+		command = { type = dissent value = -1 }
+		command = { trigger = { IC = 80 } type = money value = 1000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 800 }
+		command = { trigger = { IC = 15 NOT = { IC = 50 } } type = money value = 400 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 200 }
+		command = { type = industrial_modifier which = total value = -1 }
+	}
+}
+#### Money Devaluation
+event = {
+	id = 9000023
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		OR = {
+			money = 1000
+			AND = {
+				NOT = { IC = 80 }
+				money = 700
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 500
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 150
+				}	
+			}
+		atwar = no
+	}
+
+	decision_trigger = {
+		OR = {
+			money = 3000
+			AND = {
+				NOT = { IC = 80 }
+				money = 2000
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 1500
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 500
+				}	
+			}
+	}
+
+	trigger = {
+		ai = no
+		money = 3000
+		NOT = { dissent = 5 }
+	}
+   
+	name = "Money Devaluation"
+	desc = "Devaluation is a reduction in the value of a currency, with respect to those goods, services, or monetary units with which that currency can be exchanged. This would make our economy more competitive in foreign markets."
+	style = 2
+	picture = "Money_Devaluation"
+	decision_picture = "decision_money_devaluation"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "A more competitive economy"
+		command = { type = dissent value = 3 }
+		command = { trigger = { IC = 80 } type = money value = -3000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -2000 }
+		command = { trigger = { IC = 15 NOT = { IC = 50 } } type = money value = -1500 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -500 }
+		command = { type = industrial_modifier which = total value = 0.5 }
+	}
+}
+
+#### Allow Foreign Volunteers
+event = {
+	id = 9000025
+	random = no
+	persistent = yes
+
+	decision = { 
+		NOT = { local_flag = foreign_volunteers }
+		government = democratic
+		atwar = yes
+	}
+
+	decision_trigger = {
+		government = democratic
+		NOT = { manpower = 100 }
+		atwar = yes
+	}
+
+	trigger = {
+		NOT = { local_flag = foreign_volunteers }
+		random = 20
+		government = democratic
+		NOT = { manpower = 100 }
+		atwar = yes
+	}
+   
+	name = "Allow Foreign Volunteers"
+	desc = "By allowing foreign volunteers in our army, we can increae the number of recruits and the quantity of available manpower. However, this decision can also lead to problems as these foreign recruits may have trouble integrating into our army. Moreover, as foreigners they may not be trusted by other soldiers and this could lower the morale of our units." 
+	style = 2
+	picture = "Foreign_Volunteers"
+	decision_picture = "decision_foreign_volunteers"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "Long live the Foreign Legion!"
+		command = { type = manpowerpool value = 1 when = 1 }
+		command = { type = relative_manpower value = 0.01 }
+		command = { type = morale which = land value = -2 }
+		#command = { type = unit when = morale value = -0.500 }
+		command = { type = local_setflag which = foreign_volunteers }
+	}
+}
+
+#### Press Censorship
+event = {
+	id = 9000027
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		NOT = { local_flag = press_censorship }
+		government = democratic
+		atwar = yes
+	}
+
+	decision_trigger = {
+		government = democratic
+		atwar = yes
+		OR = {
+			money = 500
+			AND = {
+				NOT = { IC = 80 }
+				money = 400
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 250
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 100
+				}	
+			}
+	}
+
+	trigger = {
+		NOT = { local_flag = press_censorship }
+		OR = {
+			random = 80
+			dissent = 3
+		}
+		government = democratic
+		atwar = yes
+		money = 500
+	}
+   
+	name = "Press Censorship"
+	desc = "We can enforce censorship in the press to hold back information from our citizens that may harm our government. Thanks to this we can exert control over the population and prevent free expression that might forment rebellion." 
+	style = 2
+	picture = "censorship"
+	decision_picture = "decision_censorship"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "Newspapers are anti-patriotic"
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = dissent value = -3 }
+		#command = { type = dissent value = -0.1000 } # Should be 10%
+		command = { trigger = { IC = 80 } type = money value = -500 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -400 }
+		command = { trigger = { IC = 15 NOT = { IC = 50 } } type = money value = -250 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -100 }
+		command = { type = local_setflag which = press_censorship }
+	}
+}
+#### War Propaganda
+event = {
+	id = 9000028
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		NOT = { local_flag = war_propaganda }
+		atwar = yes
+		NOT = { local_flag = MOB9 }
+	}
+
+	decision_trigger = {
+		atwar = yes
+		OR = {
+			money = 500
+			AND = {
+				NOT = { IC = 80 }
+				money = 400
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 250
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 100
+				}	
+			}
+	}
+
+	trigger = {
+		NOT = { local_flag = war_propaganda }
+		OR = {
+			random = 80
+			dissent = 3
+		}
+		atwar = yes
+		money = 500
+		NOT = { local_flag = MOB9 }
+	}
+   
+	name = "War Propaganda"
+	desc = "The aim of war propaganda is to influence the attitude of our population toward the war. This should make them stand united to support our government and endure the brutality of war." 
+	style = 2
+	picture = "War_Propaganda"
+	decision_picture = "decision_war_propaganda"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 60
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "United we will win"
+		command = { type = domestic which = freedom value = -1 }
+		command = { type = dissent value = -3 }
+		command = { type = manpowerpool value = 0.1 when = 1 }
+		command = { trigger = { IC = 80 } type = money value = -500 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -400 }
+		command = { trigger = { IC = 15 NOT = { IC = 50 } } type = money value = -250 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -100 }
+		command = { type = local_setflag which = war_propaganda }
+	}
+}
+#### Ersatz Conversion
+event = {
+	id = 9000029
+	random = no
+	persistent = yes
+	tag = { GER ITA JAP U08 U09 }
+
+	decision = { 
+		money = 100
+		energy = 4000
+		NOT = { rare_materials = 500 }
+	}
+
+	decision_trigger = {
+		money = 100
+		energy = 5000
+		NOT = { rare_materials = 300 }
+	}
+
+	trigger = {
+		NOT = { dissent = 5 }
+		NOT = { rare_materials = 200 }
+		money = 100
+		energy = 5000
+	}
+   
+	name = "Ersatz Conversion"
+	desc = "Instead of acquiring the materials that we need for our industry from other countries, we can choose to produce them on our own. The Ersatz Conversion is a costly process to produce materials that we need when we are facing a shortage of them." 
+	style = 2
+	picture = "ersatz_conversion"
+	decision_picture = "decision_ersatz_conversion"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "We are a self-sufficient nation!"
+		command = { type = dissent value = 2 }
+		command = { type = money value = -100 }
+		command = { type = energypool value = -5000 }
+		command = { type = rarematerialspool value = 500 }
+	}
+}
+#### Invest in National Infrastructures
+event = {
+	id = 9000030
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		OR = {
+			money = 800
+			AND = {
+				NOT = { IC = 80 }
+				money = 650
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 400
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 200
+				}	
+			}
+		NOT = { policy = { type = free_market value = 8 } }
+	}
+
+	decision_trigger = { 
+		OR = {
+			money = 1000
+			AND = {
+				NOT = { IC = 80 }
+				money = 800
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 600
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 300
+				}	
+			}
+	}
+
+	trigger = {
+		random = 20
+		money = 1000
+		#NOT = { policy = { type = free_market value = 8 } }
+	}
+   
+	name = "Invest in National Infrastructures"
+	desc = "By investing in infrastructure, we're going to extend our road and railroad networks. This will not only help and please the population, but it will also increase our capacity to transfer men and supplies in case of war." 
+	style = 2
+	picture = "infrastructure"
+	decision_picture = "decision_infrastructure"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {  trigger = { IC = 80 money = 1000 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -1000 }
+		command = { type = tc_mod value = 0.5 }
+	}
+	action = {  trigger = { IC = 80 money = 2000 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -2000 }
+		command = { type = tc_mod value = 1 }
+	}
+	action = {  trigger = { IC = 80 money = 4000 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -4000 }
+		command = { type = tc_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}
+	
+	action = {  trigger = { IC = 50 NOT = { IC = 80 } money = 800 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -800 }
+		command = { type = tc_mod value = 0.5 }
+	}
+	action = {  trigger = { IC = 50 NOT = { IC = 80 } money = 1600 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -1600 }
+		command = { type = tc_mod value = 1 }
+	}
+	action = {  trigger = { IC = 50 NOT = { IC = 80 } money = 3200 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -3200 }
+		command = { type = tc_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}
+	
+	action = {  trigger = { IC = 15 NOT = { IC = 50 } money = 600 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -600 }
+		command = { type = tc_mod value = 0.5 }
+	}
+	action = {  trigger = { IC = 15 NOT = { IC = 50 } money = 1200 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -1200 }
+		command = { type = tc_mod value = 1 }
+	}
+	action = {  trigger = { IC = 15 NOT = { IC = 50 } money = 2400 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -2400 }
+		command = { type = tc_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}	
+	
+	action = {  trigger = { NOT = { IC = 15 } money = 300 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -300 }
+		command = { type = tc_mod value = 0.5 }
+	}
+	action = {  trigger = { NOT = { IC = 15 } money = 600 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -600 }
+		command = { type = tc_mod value = 1 }
+	}
+	action = {  trigger = { NOT = { IC = 15 } money = 1200 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -1200 }
+		command = { type = tc_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}	
+}
+#### Invest in National Research
+event = {
+	id = 9000031
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		OR = {
+			money = 800
+			AND = {
+				NOT = { IC = 80 }
+				money = 650
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 400
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 200
+				}	
+			}
+		NOT = { policy = { type = free_market value = 8 } }
+	}
+
+	decision_trigger = { 
+		OR = {
+			money = 1000
+			AND = {
+				NOT = { IC = 80 }
+				money = 800
+				}
+			AND = {
+				NOT = { IC = 50 }
+				money = 600
+				}
+			AND = {
+				NOT = { IC = 15 }
+				money = 300
+				}	
+			}
+	}
+
+	trigger = {
+		random = 60
+		money = 1000
+		#NOT = { policy = { type = free_market value = 8 } }
+	}
+   
+	name = "Invest in National Research"
+	desc = "By investing in our universities and research centers, we will provide our scientists with funds and state-of-the-art tools. This should help with their work and increase their ability to discover new technologies." 
+	style = 2
+	picture = "Research"
+	decision_picture = "decision_research"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {  trigger = { IC = 80 money = 1000 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -1000 }
+		command = { type = research_mod value = 0.5 }
+	}
+	action = {  trigger = { IC = 80 money = 2000 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -2000 }
+		command = { type = research_mod value = 1 }
+	}
+	action = {  trigger = { IC = 80 money = 4000 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -4000 }
+		command = { type = research_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}
+	
+	action = {  trigger = { IC = 50 NOT = { IC = 80 } money = 800 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -800 }
+		command = { type = research_mod value = 0.5 }
+	}
+	action = {  trigger = { IC = 50 NOT = { IC = 80 } money = 1600 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -1600 }
+		command = { type = research_mod value = 1 }
+	}
+	action = {  trigger = { IC = 50 NOT = { IC = 80 } money = 3200 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -3200 }
+		command = { type = research_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}		
+	
+	action = {  trigger = { IC = 15 NOT = { IC = 50 } money = 600 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -600 }
+		command = { type = research_mod value = 0.5 }
+	}
+	action = {  trigger = { IC = 15 NOT = { IC = 50 } money = 1200 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -1200 }
+		command = { type = research_mod value = 1 }
+	}
+	action = {  trigger = { IC = 15 NOT = { IC = 50 } money = 2400 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -2400 }
+		command = { type = research_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}	
+		
+	action = {  trigger = { NOT = { IC = 15 } money = 300 }
+		ai_chance = 30
+		name = "Limited investment"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -300 }
+		command = { type = research_mod value = 0.5 }
+	}
+	action = {  trigger = { NOT = { IC = 15 } money = 600 }
+		ai_chance = 30
+		name = "Substantial investment"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -600 }
+		command = { type = research_mod value = 1 }
+	}
+	action = {  trigger = { NOT = { IC = 15 } money = 1200 }
+		ai_chance = 40
+		name = "Comprehensive investment"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -1200 }
+		command = { type = research_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}	
+}
+
+#### Wargames
+event = {
+	id = 9000033
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+	decision = { 
+		money = 400
+		supplies = 100
+		policy = { type = defense_lobby value = 3 }
+	}
+
+	decision_trigger = { 
+		money = 800
+		supplies = 200
+	}
+
+	trigger = {
+		random = 50
+		money = 800
+		supplies = 200
+		policy = { type = defense_lobby value = 3 }
+	}
+   
+	name = "War Games"
+	desc = "We can train the officers in our Army thanks to use of war games. The simulations of war will make them discover new tricks and be ready to face setbacks and incident." 
+	style = 2
+	picture = "War_Games"
+	decision_picture = "decision_war_games"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 90
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "Great"
+		command = { type = money value = -800 }
+		command = { type = supplies value = -200 }
+		command = { type = trigger which = 9000035 }
+	}
+}
+event = {
+	id = 9000035
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }   
+	name = "War Games"
+	desc = "We can train the officers in our Army thanks to use of war games. The simulations of war will make them discover new tricks and be ready to face setbacks and incident." 
+	style = 2
+	picture = "War_Games"
+
+	action = {
+		ai_chance = 33
+		name = "Great"
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 34
+		name = "Great"
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 33
+		name = "Great"
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { }
+	}
+}
+
+#### War Bonds
+event = {
+	id = 9000037
+	random = no
+	persistent = yes
+	tag = { USA }
+	decision = { 
+		NOT = { local_flag = war_bonds }
+		atwar = yes
+	}
+
+	decision_trigger = { }
+
+	trigger = {
+		NOT = { local_flag = war_bonds }
+		OR = {
+			random = 80
+			NOT = { supplies = 1000 }
+		}
+		atwar = yes
+		NOT = { dissent = 5 }
+	}
+   
+	name = "National War Bonds"
+	desc = "EVT_9000037_DESC;" 
+	style = 2
+	picture = "War_Bonds"
+	decision_picture = "decision_War_Bonds"
+
+	date = { day = 1 month = january year = 2003 }
+	offset = 90
+	deathdate = { day = 30 month = december year = 2050 }
+
+	action = {
+		name = "Buy Victory Bonds!"
+		command = { type = money value = 2000 }
+		command = { type = supplies value = 5000 }
+		command = { type = dissent value = 2  }
+		command = { type = local_setflag which = war_bonds }
+	}
+}

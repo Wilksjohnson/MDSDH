@@ -1,0 +1,16 @@
+ARG;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+600;National Military College;argacademy;4;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+601;TAMSE;T600;3;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+602;CITEFA;T601;4;1000;2999;general_equipment;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+603;Lockheed Martin Argentina;arglockheed;6;1000;2999;aeronautics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+604;Secretariat of Intelligence;argintel;5;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+605;INVAP;invap;4;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+606;GALILEO;galileo;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+607;Argentine Army;argarmy;4;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+608;Joint General Staff;T606;4;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+609;Logistics Command;arglogistic;5;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+610;CNEA;cnea;3;1000;2999;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+611;Argentine Air Force;T607;4;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+612;Naval Aviation;argnavyair;4;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+613;Argentine Navy;argnavy;5;1000;2999;seamanship;naval_training;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+614;AFNE;afnearg;3;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

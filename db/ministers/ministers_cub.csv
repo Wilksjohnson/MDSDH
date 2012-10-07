@@ -1,0 +1,43 @@
+CUB;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+19001;Head of State;Fidel Castro;2003;2050;2050;ST;Stern Imperialist;High;M19001;x
+19002;Head of Government;Fidel Castro;2003;2050;2050;ST;Flamboyant Tough Guy;High;M19001;x
+19003;Foreign Minister;Felipe Pérez;2003;2050;2050;ST;Ideological Crusader;High;M19003;x
+19004;Minister of Armament;Raúl Castro Ruz;2003;2050;2050;ST;Infantry Proponent;High;M19007;x
+19005;Minister of Security;Abelardo Colomé Ibarra;2003;2050;2050;ST;Prince of Terror;High;M19005;x
+19006;Head of Military Intelligence;Eduardo Delgado Rodríguez;2003;2050;2050;ST;Logistics Specialist;High;Unknown;x
+19007;Chief of Staff;Raúl Castro Ruz;2003;2050;2050;ST;School of Mass Combat;High;M19007;x
+19008;Chief of Army;Álvaro López Miera;2003;2050;2050;ST;Guns and Butter Doctrine;High;M19008;x
+19009;Chief of Navy;Álvaro López Miera;2003;2050;2050;ST;Indirect Approach Doctrine;High;M19009;x
+19010;Chief of Air Force;Pedro Mendiondo Gómez;2003;2050;2050;ST;Air Superiority Doctrine;High;M19010;x
+;Replacements;;;;;;;x
+19011;Head of State;Raúl Castro Ruz;2003;2050;2050;ST;Ruthless Powermonger;High;M19007;x
+19012;Head of State;Oswaldo Payá Sardinas;2003;2050;2050;SC;Die-hard Reformer;High;M19012;x
+19013;Head of State;Vladimiro Roca Antúnez;2003;2050;2050;SD;Die-Hard Reformer;High;M19013;x
+19014;Head of State;Martha Beatriz Roque;2003;2050;2050;ML;Die-Hard Reformer;High;M19014;x
+19015;Head of Government;Raúl Castro Ruz;2003;2050;2050;ST;Political Protege;High;M19007;x
+19016;Head of Government;Oswaldo Payá Sardinas;2003;2050;2050;SC;Flamboyant Tough Guy;High;M19012;x
+19017;Head of Government;Vladimiro Roca Antúnez;2003;2050;2050;SD;Flamboyant Tough Guy;High;M19013;x
+19018;Head of Government;Martha Beatriz Roque;2003;2050;2050;ML;Flamboyant Tough Guy;High;M19014;x
+19019;Foreign Minister;Vladimiro Roca Antúnez;2003;2050;2050;SD;Ideological Crusader;High;M19013;x
+19020;Foreign Minister;Juan Carlos Acosta;2003;2050;2050;SD;Ideological Crusader;High;Unknown;x
+19021;Foreign Minister;Carlos Alberto Montaner;2003;2050;2050;ML;Biased Intellectual;High;M19021;x
+19022;Foreign Minister;José Ignacio Rasco;2003;2050;2050;SC;Ideological Crusader;High;M19022;x
+19023;Minister of Armament;Georgina Barri;2003;2050;2050;ST;Resource Industrialist;High;Unknown;x
+19024;Minister of Armament;Martha Beatriz Roque;2003;2050;2050;ML;laissez-faire capitalist;High;M19014;x
+19025;Minister of Armament;Cándido José Hidalgo-Gato;2003;2050;2050;SD;Resource Industrialist;High;Unknown;x
+19026;Minister of Armament;Félix Bonne Carcassés;2003;2050;2050;SL;laissez-faire capitalist;High;M19026;x
+19027;Minister of Armament;Marcelino Miyares Sotolongo;2003;2050;2050;SC;laissez-faire capitalist;High;M19027;x
+19028;Minister of Security;René Gómez Manzano;2003;2050;2050;SL;Silent Lawyer;High;M19028;x
+19029;Minister of Security;Elizardo Sánchez Santa-Cruz;2003;2050;2050;SD;Silent Lawyer;High;M19029;x
+19030;Minister of Security;Andrés Hernández;2003;2050;2050;SC;Crime Fighter;High;Unknown;x
+19031;Head of Military Intelligence;Félix Bonne Carcassés;2003;2050;2050;SL;Political Specialist;High;M19026;x
+19032;Head of Military Intelligence;Andrés Hernández;2003;2050;2050;SC;Political Specialist;High;Unknown;x
+19033;Head of Military Intelligence;Elizardo Sánchez Santa-Cruz;2003;2050;2050;SD;Political Specialist;High;M19029;x
+19034;Minister of Armament;Julio Casas Regueiro;2003;2050;2050;ST;Military Entrepreneur;High;Jcregueiro;x
+19035;Head of State;Carlos Lage Dávila;2008;2050;2050;ST;Benevolent Gentleman;High;Cldavila;x
+19036;Minister of Security;Juan Contino Aslán;2006;2050;2050;ST;Prince of Terror;High;Jcaslan;x
+19037;Minister of Security;Rubén Remigio Ferro;2008;2050;2050;ST;Silent Lawyer;High;Rrferro;x
+19038;Foreign Minister;Alfonso Praga;2003;2050;2050;ST;Great Compromiser;High;Afraga;x
+19039;Foreign Minister;Alcibiades Hidalgo;2003;2050;2050;SL;Biased Intellectual;High;Ahidalgo;x
+19040;Head of Government;Carlos Lage Dávila;2008;2050;2050;ST;Silent Workhorse;High;Cldavila;x
+19041;Foreign Minister;Rodrigo Malmierca;2006;2050;2050;LE;Ideological Crusader;High;Rmalmierca;x

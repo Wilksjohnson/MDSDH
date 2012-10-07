@@ -1,0 +1,96 @@
+AST;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+3500;Head of State;Queen Elizabeth II;2003;2050;2050;ML;Popular Figurehead;High;M87000;x
+3501;Head of Government;John Howard;2003;2050;2050;ML;Political Protege;High;M3502;x
+3502;Foreign Minister;Alexander Downer;2003;2050;2050;ML;Ideological Crusader;High;M3503;x
+3503;Minister of Armament;Robert Hill;2003;2050;2050;ML;Administrative Genius;High;M3504;x
+3504;Minister of Security;Daryl Williams;2003;2050;2050;ML;Man of the People;High;dwilliams;x
+3505;Head of Military Intelligence;Frank Lewincamp;2003;2050;2050;NA;Political Specialist;High;Flewincamp;x
+3506;Chief of Staff;Peter Cosgrove;2003;2050;2050;NA;School of Manoeuvre;High;pcosgrove;x
+3507;Chief of Army;Peter Leahy;2003;2050;2050;NA;Decisive Battle Doctrine;High;M3508;x
+3508;Chief of Navy;Chris Ritchie;2003;2050;2050;NA;Open Seas Doctrine;High;M3509;x
+3509;Chief of Air Force;Allan Grant Houston;2003;2050;2050;NA;Army Aviation Doctrine;High;M3510;x
+;Replacements;;;;;;;x
+3511;Minister of Security;Peter Dutton;2010;2050;2050;ML;Crime Fighter;High;Pdutton;x
+3512;Head of Government;Mark Latham;2003;2050;2050;SD;Flamboyant Tough Guy;High;Mlatham;x
+3513;Minister of Armament;Brendan Nelson;2003;2050;2050;ML;Battle Fleet Proponent;High;bnelson;x
+3514;Minister of Armament;Joel Fitzgibbon;2006;2050;2050;SD;Air Superiority Proponent;High;jfitzgibbon;x
+3515;Head of Government;Kevin Rudd;2007;2050;2050;SD;Silent Workhorse;High;krudd;x
+3516;Minister of Security;Phillip Ruddock;2003;2050;2050;ML;Silent Lawyer;High;pruddock;x
+3517;Minister of Security;Robert McClelland;2003;2050;2050;SD;Crime Fighter;High;rmcclelland;x
+3518;Foreign Minister;Stephen Smith;2003;2050;2050;SD;Great Compromiser;High;ssmith;x
+3519;Minister of Armament;Nick Minchin;2003;2050;2050;ML;Military Entrepreneur;High;nminchin;x
+3520;Minister of Armament;Lindsay Tanner;2005;2050;2050;ML;Resource Industrialist;High;ltanner;x
+3521;Head of Military Intelligence;David Irvine;2003;2050;2050;NA;Political Specialist;High;dirvine;x
+3522;Chief of Navy;Russ Shalders;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;rshalders;x
+3523;Chief of Air Force;Geoff Shepherd;2004;2050;2050;NA;Air Superiority Doctrine;High;gshepherd;x
+3524;Chief of Staff;Allan Grant Houston;2004;2050;2050;NA;School of Mass Combat;High;M3510;x
+3525;Chief of Army;Ken Gillespie;2007;2050;2050;NA;Guns and Butter Doctrine;High;kgillespie;x
+3526;Head of Military Intelligence;Paul O'Sullivan;2003;2050;2050;NA;Political Specialist;High;Posullivan;x
+3527;Head of Military Intelligence;Peter Varghese;2003;2050;2050;NA;Dismal Enigma;High;Unknown;x
+3528;Head of Military Intelligence;Dennis Richardson;2003;2050;2050;NA;Dismal Enigma;High;Drichardson;x
+3529;Head of Military Intelligence;Maurice McNarn;2003;2050;2050;NA;Logistics Specialist;High;Mmcnarn;x
+3530;Chief of Staff;Ken Gillespie;2009;2050;2050;NA;School of Manoeuvre;High;kgillespie;x
+3531;Chief of Staff;Russ Shalders;2007;2050;2050;NA;School of Psychology;High;rshalders;x
+3532;Chief of Staff;David Hurley;2010;2050;2050;NA;School of Fire Support;High;Dhurley;x
+3533;Chief of Navy;Russel Crane;2007;2050;2050;NA;Power Projection Doctrine;High;Rcrane;x
+3534;Chief of Air Force;Mark Binskin;2007;2050;2050;NA;Naval Aviation Doctrine;High;Mbinskin;x
+3535;Chief of Army;David Hurley;2003;2050;2050;NA;Decisive Battle Doctrine;High;Dhurley;x
+3536;Chief of Navy;Matt Tripovich;2009;2050;2050;NA;Power Projection Doctrine;High;Mtripovich;x
+3537;Chief of Army;Mick Slater;2010;2050;2050;NA;Armoured Spearhead Doctrine;High;Mslater;x
+3538;Chief of Staff;Mick Slater;2012;2050;2050;NA;School of Fire Support;High;Mslater;x
+3539;Chief of Army;Grant Cavenagh;2010;2050;2050;NA;Guns and Butter Doctrine;High;Gcavenagh;x
+3540;Chief of Staff;Grant Cavenagh;2012;2050;2050;NA;School of Psychology;High;Gcavenagh;x
+3541;Head of Military Intelligence;Greg Farr;2003;2050;2050;NA;Technical Specialist;High;Gfarr;x
+3542;Minister of Armament;Roger Lough;2003;2050;2050;ML;Theoretical Scientist;High;Rlough;x
+3543;Chief of Navy;Allan du Toit;2010;2050;2050;NA;Power Projection Doctrine;High;Adutoit;x
+3544;Chief of Army;Dave Chalmers;2012;2050;2050;NA;Armoured Spearhead Doctrine;High;Dchalmers;x
+3545;Chief of Staff;Dave Chalmers;2014;2050;2050;NA;School of Manoeuvre;High;Dchalmers;x
+3546;Chief of Navy;Nigel Stephen Coates;2010;2050;2050;NA;Indirect Approach Doctrine;High;Nscoates;x
+3547;Chief of Staff;Nigel Stephen Coates;2012;2050;2050;NA;School of Fire Support;High;Nscoates;x
+3548;Chief of Army;David Morrison;2010;2050;2050;NA;Guns and Butter Doctrine;High;Dmorrison;x
+3549;Chief of Staff;David Morrison;2012;2050;2050;NA;School of Psychology;High;Dmorrison;x
+3550;Chief of Army;Mark Kelly;2010;2050;2050;NA;Decisive Battle Doctrine;High;Mkelly;x
+3551;Chief of Army;Michael Hindmarsh;2010;2050;2050;NA;Decisive Battle Doctrine;High;Mhindmarsh;x
+3552;Chief of Staff;Andrew Molan;2005;2050;2050;NA;School of Fire Support;High;Amolan;x
+3553;Chief of Army;Andrew Molan;2003;2050;2050;NA;Decisive Battle Doctrine;High;Amolan;x
+3554;Chief of Air Force;John Blackburn;2005;2050;2050;NA;Air Superiority Doctrine;High;Jblackburn;x
+3555;Minister of Armament;Simon Crean;2003;2050;2050;SD;laissez-faire capitalist;High;Screan;x
+3556;Foreign Minister;Kim Beazley;2003;2050;2050;SD;Biased Intellectual;High;Kbeazley;x
+3557;Head of Government;Brendan Nelson;2007;2050;2050;SD;Naive Optimist;High;bnelson;x
+3558;Minister of Armament;Warren Snowdon;2007;2050;2050;SL;Administrative Genius;High;Wsnowdon;x
+3559;Foreign Minister;Bob McMullan;2003;2050;2050;SL;Ideological Crusader;High;Bmcmullan;x
+3560;Minister of Armament;Greg Combet;2003;2050;2050;SD;Resource Industrialist;High;Gcombet;x
+3561;Minister of Armament;Mike Kelly;2007;2050;2050;SL;Military Entrepreneur;High;Mkelly2;x
+3562;Foreign Minister;Mike Kelly;2010;2050;2050;SL;General Staffer;High;Mkelly2;x
+3563;Foreign Minister;Bruce Billson;2006;2050;2050;ML;Great Compromiser;High;Bbillson;x
+3564;Minister of Security;David Johnston;2003;2050;2050;ML;Silent Lawyer;High;Djohnston;x
+3565;Minister of Security;Chris Ellison;2003;2050;2050;ML;Crime Fighter;High;Cellison;x
+3566;Head of Government;John Anderson;2003;2050;2050;SC;Silent Workhorse;High;Janderson;x
+3567;Head of Government;Mark Vaile;2005;2050;2050;SC;Naive Optimist;High;Mvaile;x
+3568;Head of Government;Warren Truss;2005;2050;2050;SC;Flamboyant Tough Guy;High;Wtruss;x
+3569;Foreign Minister;Larry Anthony;2003;2050;2050;SC;Apologetic Clerk;High;Lanthony;x
+3570;Minister of Armament;Bill Baxter;2003;2050;2050;SC;Administrative Genius;High;Bbaxter;x
+3571;Minister of Security;John Cobb;2003;2050;2050;SC;Man of the People;High;Jcobb;x
+3572;Head of State;Queen Elizabeth II;2003;2050;2050;SL;Popular Figurehead;High;M87000;x
+3573;Minister of Armament;Bob Baldwin;2003;2050;2050;ML;Battle Fleet Proponent;High;Bbaldwin;x
+3574;Foreign Minister;Cory Bernardi;2009;2050;2050;SC;Biased Intellectual;High;Cbernardi;x
+3575;Head of Government;Julie Bishop;2013;2050;2050;ML;Silent Workhorse;High;Jbishop;x
+3576;Minister of Security;George Brandis;2007;2050;2050;ML;Man of the People;High;Gbrandis;x
+3577;Minister of Security;Russel Broadbent;2005;2050;2050;ML;Compassionate Gentleman;High;Rbroadbent;x
+3578;Minister of Security;David Bushby;2007;2050;2050;ML;Silent Lawyer;High;Dbushby;x
+3579;Head of Government;Michael Caltalbiano;2013;2050;2050;ML;Flamboyant Tough Guy;High;Mcaltalbiano;x
+3580;Minister of Armament;Grant Chapman;2003;2050;2050;ML;Resource Industrialist;High;Gchapman;x
+3581;Minister of Armament;Steven Chiobo;2012;2050;2050;ML;laissez-faire capitalist;High;Schiobo;x
+3582;Minister of Security;Andrea Coote;2005;2050;2050;ML;Man of the People;High;Acoote;x
+3583;Minister of Armament;Peter Debnam;2004;2050;2050;ML;Battle Fleet Proponent;High;Pdebnam;x
+3584;Minister of Armament;David Fawcett;2008;2050;2050;ML;Air Superiority Proponent;High;Dfawcett;x
+3585;Foreign Minister;Robert Hill;2003;2050;2050;ML;Apologetic Clerk;High;M3504;x
+3586;Foreign Minister;Michael Johnson;2010;2050;2050;ML;Great Compromiser;High;Mjohnsonast;x
+3587;Foreign Minister;Rob Lucas;2008;2050;2050;ML;Ideological Crusader;High;Rlucas;x
+3588;Foreign Minister;Amanda Vanstone;2007;2050;2050;ML;Iron Fisted Brute;High;Avanstone;x
+3589;Foreign Minister;Mike Rann;2007;2050;2050;SD;Biased Intellectual;High;Mrann;x
+3590;Foreign Minister;Tim Gartrell;2008;2050;2050;SD;Apologetic Clerk;High;Tgartrell;x
+3591;Minister of Security;John Stanhope;2006;2050;2050;SD;Silent Lawyer;High;Jstanhope;x
+3592;Minister of Security;John Brumby;2003;2050;2050;SD;Man of the People;High;Jbrumby;x
+3593;Foreign Minister;John Brumby;2003;2050;2050;SD;Great Compromiser;High;Jbrumby;x
+3594;Foreign Minister;Bob Carr;2003;2050;2050;SD;Great Compromiser;High;Bob Carr;x

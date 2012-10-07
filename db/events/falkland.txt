@@ -1,0 +1,5663 @@
+##contents:
+#
+# falkland question
+#	and events leading to second falkland war
+#		by scud
+#
+##############################
+## revision 1:
+#
+#	a trigger chance = 50% was added
+#	to all events to prevent them all
+#	from happening on the same day
+#
+#
+##############################
+## revision 2:
+#
+#	later 2008 events were moved back to 2007
+#	so there will be a constant chain
+#	not a pause till the begining of '08
+#
+#
+##############################
+## revision 3:
+#
+#	media capmaign -> assasinations
+#	
+#	war is much more likely
+#
+#	added militias to argentina
+#
+#
+###############################
+
+
+##Picking up the topic
+event = {
+	id = 7771001
+	random = no
+	country = ARG
+	
+	trigger = {
+		NOT = {
+			control = { province = 2045 data = ARG }
+			control = { province = 2045 data = U72 } #wont go against whole UE
+			alliance = { country = ARG country = BRA } #this would spoil the fun
+		}
+		atwar = no #not at war
+		army = 6 #at least 6 land units, starting 3 divisions
+	 	OR = { 
+			domestic = { type = interventionism value = 8 }	#at least somewhat aggresive
+	 		random = 10		#or random
+			atwar = ENG		#or use the fact that they're in war
+		}
+	}
+	
+	date = { day = 2 month = april year = 2007 } #25 years from the first conflict + random 30 days
+	offset = 30	#if not at first, then repeat check every month
+	deathdate = { day = 1 month = july year = 2012 } #30 years from end of conflict
+	
+	name = "EVT_7771001_NAME" 
+	desc = "EVT_7771001_DESC"
+	picture = "shipport"
+	style = 0
+	
+	
+	action_a = {
+		name = "Let's talk."
+	ai_chance = 99
+		command = { type = money value = -10 }
+		command = { type = trigger which = 7771002 }
+	}
+
+	action_b = {
+		name = "We are not really interested anyway"
+	ai_chance = 1
+		command = { type = removecore which = 2045 }
+	}
+}
+##English react
+event = {
+	id = 7771002
+	random = no
+	country = ENG
+	name = "EVT_7771002_NAME" 
+	desc = "EVT_7771002_DESC"
+	picture = "shipport"
+	style = 0
+
+	action_a = {
+		name = "OK, let's talk."
+	ai_chance = 40
+		command = { type = money value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_talk }
+	}
+	action_b = {
+		name = "The islands will remain ours!"
+	ai_chance = 40
+		command = { type = relation which = ARG value = -50 }
+		command = { type = belligerence value = 2 }
+		command = { type = setflag which = falkland_refused }
+	}
+	action_c = {
+		name = "Not now, we have more important stuff to do"
+	ai_chance = 20
+		command = { type = relation which = ARG value = -5 }
+		command = { type = setflag which = falkland_later }
+	}
+}
+
+##Talks underway
+event = {
+	id = 7771003
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_talk
+		random = 50	#after 6 months chance is 98%
+	}
+
+	date = { day = 2 month = april year = 2007 }
+	offset = 29
+	deathdate = { day = 1 month = july year = 2020 }
+	
+	name = "EVT_7771003_NAME" 
+	desc = "EVT_7771003_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "State our claims peacefully"
+	ai_chance = 70
+		command = { type = clrflag which = falkland_talk }
+		command = { type = setflag which = falkland_state }
+		command = { type = relation which = ENG value = -5 }
+		command = { type = sleepevent which = 7771004 }
+	}
+	action_b = {
+		name = "Demand the Islands"
+	ai_chance = 28 
+		command = { type = clrflag which = falkland_talk }
+		command = { type = setflag which = falkland_demand }
+		command = { type = relation which = ENG value = -50 }
+		command = { type = belligerence value = 2 }
+		command = { type = sleepevent which = 7771004 }
+	}
+	action_c = {
+		name = "Back out our claims"
+	ai_chance = 2
+		command = { type = clrflag which = falkland_talk }
+		command = { type = relation which = ENG value = 50 }
+		command = { type = belligerence value = -10 }
+		command = { type = money value = 50 }
+		command = { type = removecore which = 2045 }
+		command = { type = sleepevent which = 7771004 }
+	}
+}
+##alternate talks (shanghai conference), may happen later, more aggresive
+event = {
+	id = 7771004
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_talk
+		NOT = { atwar = CHC }
+		random = 50	
+	}
+
+	date = { day = 2 month = april year = 2007 }
+	offset = 31
+	deathdate = { day = 1 month = july year = 2020 }
+	
+	name = "EVT_7771004_NAME" 
+	desc = "EVT_7771004_DESC"
+	picture = "newchina"
+	style = 0
+
+	action_a = {
+		name = "State our claims peacefully"
+	ai_chance = 9
+		command = { type = clrflag which = falkland_talk }
+		command = { type = setflag which = falkland_state }
+		command = { type = relation which = ENG value = -5 }
+		command = { type = sleepevent which = 7771003 }
+	}
+	action_b = {
+		name = "Demand the Islands"
+	ai_chance = 90 
+		command = { type = clrflag which = falkland_talk }
+		command = { type = setflag which = falkland_demand }
+		command = { type = relation which = ENG value = -50 }
+		command = { type = belligerence value = 2 }
+		command = { type = sleepevent which = 7771003 }
+	}
+	action_c = {
+		name = "Back out our claims"
+	ai_chance = 1
+		command = { type = clrflag which = falkland_talk }
+		command = { type = relation which = ENG value = 50 }
+		command = { type = belligerence value = -10 }
+		command = { type = money value = 50 }
+		command = { type = removecore which = 2045 }
+		command = { type = sleepevent which = 7771003 }
+	}
+}
+
+##After some time ENG gets back to talks
+event = {
+	id = 7771005
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_later
+		atwar = no
+		random = 50
+	}
+
+	date = { day = 1 month = january year = 2008 }
+	offset = 28
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771005_NAME" 
+	desc = "EVT_7771005_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Let's talk"
+	ai_chance = 99
+		command = { type = money value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_talk }
+		command = { type = clrflag which = falkland_later }
+	}
+	action_b = {
+		name = "Never mind that, the islands will remain ours!"
+	ai_chance = 1
+		command = { type = relation which = ARG value = -50 }
+		command = { type = belligerence value = 2 }
+		command = { type = setflag which = falkland_refused }
+		command = { type = clrflag which = falkland_later }
+	}
+}
+
+##Talk are going the right way
+event = {
+	id = 7771006
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_state
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 32
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771006_NAME"
+	desc = "EVT_7771006_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "We can't say no outright"
+	ai_chance = 20	#30
+		command = { type = clrflag which = falkland_state }
+		command = { type = setflag which = falkland_maybe }
+		command = { type = relation which = ARG value = 10 }
+	}
+	action_b = {
+		name = "But we can't give it up!"
+	ai_chance = 40	#30
+		command = { type = clrflag which = falkland_state }
+		command = { type = setflag which = falkland_cant }
+		command = { type = relation which = ARG value = -10 }
+	}
+	action_c = {
+		name = "Maybe the UN should decide"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_state }
+		command = { type = setflag which = falkland_un }
+	}
+	action_d = {
+		name = "Maybe a popular vote should decide"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_state }
+		command = { type = setflag which = falkland_vote }
+	}
+}
+
+##Talks go very good - offer to compensate (buy)
+event = {
+	id = 7771007
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_maybe
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771007_NAME"
+	desc = "EVT_7771007_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Offer money (2500$)" #impossible?
+	ai_chance = 20
+		command = { type = clrflag which = falkland_maybe }
+		command = { type = setflag which = falkland_offer1 }
+	}
+	action_b = {
+		name = "Ask for land, let them keep naval bases"
+	ai_chance = 30	#40
+		command = { type = clrflag which = falkland_maybe }
+		command = { type = setflag which = falkland_offer2 }
+	}
+	action_c = {
+		name = "Offer money and keeping the naval bases"
+	ai_chance = 20	#30
+		command = { type = clrflag which = falkland_maybe }
+		command = { type = setflag which = falkland_offer3 }
+	}
+	action_d = {
+		name = "Argument but don't offer anything"
+	ai_chance = 30	#10
+		command = { type = clrflag which = falkland_maybe }
+		command = { type = setflag which = falkland_offer4 }
+	}
+}	
+
+##Argentinian offer no1 - money
+event = {
+	id = 7771008
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_offer1
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 31
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771008_NAME"
+	desc = "EVT_7771008_DESC"
+	picture = "un"
+	style = 0	
+
+	action_a = {
+		name = "Sell it! (2500$)"
+	ai_chance = 50
+		command = { type = clrflag which = falkland_offer1 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = trigger which = 7771012 }
+	}
+	action_b = {
+		name = "No!"
+	ai_chance = 50
+		command = { type = clrflag which = falkland_offer1 }
+		command = { type = setflag which = falkland_no }
+		command = { type = relation which = ARG value = -50 }
+	}
+}
+##Argentinian offer no2 - bases
+event = {
+	id = 7771009
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_offer2
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 29
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771009_NAME"
+	desc = "EVT_7771009_DESC"
+	picture = "un"
+	style = 0	
+
+	action_a = {
+		name = "Yes"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_offer2 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = trigger which = 7771013 }
+	}
+	action_b = {
+		name = "No!"
+	ai_chance = 80
+		command = { type = clrflag which = falkland_offer2 }
+		command = { type = setflag which = falkland_no }
+		command = { type = relation which = ARG value = -50 }
+	}
+}
+##Argentinian offer no3 - bases and money
+event = {
+	id = 7771010
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_offer3
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 28
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771010_NAME"
+	desc = "EVT_7771010_DESC"
+	picture = "un"
+	style = 0	
+
+	action_a = {
+		name = "Sell it! (2500$)"
+	ai_chance = 80
+		command = { type = clrflag which = falkland_offer3 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = trigger which = 7771014 }
+	}
+	action_b = {
+		name = "No!"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_offer3 }
+		command = { type = setflag which = falkland_no }
+		command = { type = relation which = ARG value = -50 }
+	}
+}
+##Argentinian offer no4 - nothing
+event = {
+	id = 7771011
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_offer4
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 32
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771011_NAME"
+	desc = "EVT_7771011_DESC"
+	picture = "un"
+	style = 0	
+
+	action_a = {
+		name = "Yes"
+	ai_chance = 10
+		command = { type = clrflag which = falkland_offer4 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = trigger which = 7771015 }
+	}
+	action_b = {
+		name = "No!"
+	ai_chance = 90
+		command = { type = clrflag which = falkland_offer4 }
+		command = { type = setflag which = falkland_no }
+		command = { type = relation which = ARG value = -50 }
+	}
+}
+
+##Argentinian offer no1 - money - accepted
+event = {
+	id = 7771012
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771012_NAME"
+	desc = "EVT_7771012_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Great!"
+		command = { type = money value = -2500 }
+		command = { type = trigger which = 7771016 } #prov give up
+		command = { type = trigger which = 7771017 } #money
+	}
+}
+##Argentinian offer no2 - bases - accepted
+event = {
+	id = 7771013
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771013_NAME"
+	desc = "EVT_7771013_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Great!"
+		command = { type = access which = ENG }
+		command = { type = trigger which = 7771016 } #prov give up
+	}
+}
+##Argentinian offer no3 - bases and money - accepted
+event = {
+	id = 7771014
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771014_NAME"
+	desc = "EVT_7771014_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Great!"
+		command = { type = money value = -2500 }
+		command = { type = access which = ENG }
+		command = { type = trigger which = 7771016 } #prov give up
+		command = { type = trigger which = 7771017 } #money
+	}
+}
+##Argentinian offer no4 - accepted
+event = {
+	id = 7771015
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771015_NAME"
+	desc = "EVT_7771015_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Great!"
+		command = { type = trigger which = 7771016 } #prov give up
+	}
+}
+##British give up Falklands
+event = {
+	id = 7771016
+	random = no
+	country = ENG
+	
+
+	name = "EVT_7771016_NAME"
+	desc = "EVT_7771016_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = secedeprovince which = ARG value = 2045 } #prov give up
+		command = { type = removecore which = 2045 }
+	}
+}
+##British receive money
+event = {
+	id = 7771017
+	random = no
+	country = ENG
+	
+
+	name = "EVT_7771017_NAME"
+	desc = "EVT_7771017_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = money value = 2500 }
+	}
+}
+
+
+##brits propose UN decision
+event = {
+	id = 7771018
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_un
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771018_NAME"
+	desc = "EVT_7771018_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "That will be fair"
+	ai_chance = 80
+		command = { type = clrflag which = falkland_un }
+		command = { type = setflag which = falkland_un_go }
+		command = { type = relation which = ENG value = 10 }
+		command = { type = relation which = USA value = 5 }
+		command = { type = relation which = RUS value = 5 }
+		command = { type = relation which = CHC value = 5 }
+		command = { type = relation which = FRA value = 5 }
+	}
+	action_b = {
+		name = "No! Demand the Islands now!"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_un }
+		command = { type = setflag which = falkland_demand }
+		command = { type = belligerence value = 2 }
+		command = { type = relation which = ENG value = -50 }
+	}
+}
+##UN Votes
+event = {
+	id = 7771019
+	random = no
+	country = USA
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 31
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771019_NAME"
+	desc = "EVT_7771019_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "The Falklands should be British"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_usa_eng }
+		command = { type = relation which = ENG value = 10 }
+		command = { type = relation which = ARG value = -10 }
+	}
+	action_b = {
+		name = "The Falklands should be Argentinian"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_usa_arg }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = relation which = ENG value = -10 }
+	}
+}
+##UN Votes
+event = {
+	id = 7771020
+	random = no
+	country = RUS
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 32
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771020_NAME"
+	desc = "EVT_7771020_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "The Falklands should be British"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_rus_eng }
+		command = { type = relation which = ENG value = 10 }
+		command = { type = relation which = ARG value = -10 }
+	}
+	action_b = {
+		name = "The Falklands should be Argentinian"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_rus_arg }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = relation which = ENG value = -10 }
+	}
+}
+##UN votes
+event = {
+	id = 7771021
+	random = no
+	country = CHC
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 29
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771021_NAME"
+	desc = "EVT_7771021_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "The Falklands should be British"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_chc_eng }
+		command = { type = relation which = ENG value = 10 }
+		command = { type = relation which = ARG value = -10 }
+	}
+	action_b = {
+		name = "The Falklands should be Argentinian"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_chc_arg }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = relation which = ENG value = -10 }
+	}
+}
+##UN Votes
+event = {
+	id = 7771022
+	random = no
+	country = FRA
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 28
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771022_NAME"
+	desc = "EVT_7771022_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "The Falklands should be British"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_fra_eng }
+		command = { type = relation which = ENG value = 10 }
+		command = { type = relation which = ARG value = -10 }
+	}
+	action_b = {
+		name = "The Falklands should be Argentinian"
+	ai_chance = 50
+		command = { type = setflag which = falkland_un_fra_arg }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = relation which = ENG value = -10 }
+	}
+}
+###UN Vote Result - British
+event = {
+	id = 7771023
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+		OR = {
+			AND = {
+				flag = falkland_un_usa_eng
+				flag = falkland_un_fra_eng
+				flag = falkland_un_chc_eng
+			}
+			AND = {
+				flag = falkland_un_usa_eng
+				flag = falkland_un_fra_eng
+				flag = falkland_un_rus_eng
+			}
+			AND = {
+				flag = falkland_un_usa_eng
+				flag = falkland_un_chc_eng
+				flag = falkland_un_rus_eng
+			}
+			AND = {
+				flag = falkland_un_rus_eng
+				flag = falkland_un_fra_eng
+				flag = falkland_un_chc_eng
+			}
+		}
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 40
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771023_NAME"
+	desc = "EVT_7771023_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = clrflag which = falkland_un_go }
+		command = { type = clrflag which = falkland_un_usa_eng }
+		command = { type = clrflag which = falkland_un_usa_arg }
+		command = { type = clrflag which = falkland_un_chc_eng }
+		command = { type = clrflag which = falkland_un_chc_arg }
+		command = { type = clrflag which = falkland_un_rus_eng }
+		command = { type = clrflag which = falkland_un_rus_arg }
+		command = { type = clrflag which = falkland_un_fra_eng }
+		command = { type = clrflag which = falkland_un_fra_arg }
+		command = { type = trigger which = 7771026 }
+	}
+}
+##UN Vote - Argentina
+event = {
+	id = 7771024
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+		OR = {
+			AND = {
+				flag = falkland_un_usa_arg
+				flag = falkland_un_fra_arg
+				flag = falkland_un_chc_arg
+			}
+			AND = {
+				flag = falkland_un_usa_arg
+				flag = falkland_un_fra_arg
+				flag = falkland_un_rus_arg
+			}
+			AND = {
+				flag = falkland_un_usa_arg
+				flag = falkland_un_chc_arg
+				flag = falkland_un_rus_arg
+			}
+			AND = {
+				flag = falkland_un_rus_arg
+				flag = falkland_un_fra_arg
+				flag = falkland_un_chc_arg
+			}
+		}
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 31
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771024_NAME"
+	desc = "EVT_7771024_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Give up Falklands"
+	ai_chance = 95
+		command = { type = clrflag which = falkland_un_go }
+		command = { type = clrflag which = falkland_un_usa_eng }
+		command = { type = clrflag which = falkland_un_usa_arg }
+		command = { type = clrflag which = falkland_un_chc_eng }
+		command = { type = clrflag which = falkland_un_chc_arg }
+		command = { type = clrflag which = falkland_un_rus_eng }
+		command = { type = clrflag which = falkland_un_rus_arg }
+		command = { type = clrflag which = falkland_un_fra_eng }
+		command = { type = clrflag which = falkland_un_fra_arg }
+		command = { type = trigger which = 7771027 }
+	}
+	action_b = {
+		name = "No! And the bloody UN be damned!"
+	ai_chance = 5
+		command = { type = clrflag which = falkland_un_go }
+		command = { type = clrflag which = falkland_un_usa_eng }
+		command = { type = clrflag which = falkland_un_usa_arg }
+		command = { type = clrflag which = falkland_un_chc_eng }
+		command = { type = clrflag which = falkland_un_chc_arg }
+		command = { type = clrflag which = falkland_un_rus_eng }
+		command = { type = clrflag which = falkland_un_rus_arg }
+		command = { type = clrflag which = falkland_un_fra_eng }
+		command = { type = clrflag which = falkland_un_fra_arg }
+		command = { type = relation which = ARG value = -200 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = CHC value = -100 }
+		command = { type = relation which = FRA value = -100 }
+		command = { type = relation which = RUS value = -100 }
+		command = { type = trigger which = 7771028 }
+	}
+}
+
+##UN vote - draw!
+event = {
+	id = 7771025
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_un_go
+		random = 50	
+		OR = {
+			AND = {
+				flag = falkland_un_usa_arg
+				flag = falkland_un_fra_arg
+				flag = falkland_un_chc_eng
+				flag = falkland_un_rus_eng
+			}
+			AND = {
+				flag = falkland_un_usa_arg
+				flag = falkland_un_fra_eng
+				flag = falkland_un_chc_eng
+				flag = falkland_un_rus_arg
+			}
+			AND = {
+				flag = falkland_un_usa_eng
+				flag = falkland_un_fra_eng
+				flag = falkland_un_chc_arg
+				flag = falkland_un_rus_arg
+			}
+			AND = {
+				flag = falkland_un_usa_eng
+				flag = falkland_un_fra_arg
+				flag = falkland_un_chc_eng
+				flag = falkland_un_rus_arg
+			}
+			AND = {
+				flag = falkland_un_usa_arg
+				flag = falkland_un_fra_eng
+				flag = falkland_un_chc_arg
+				flag = falkland_un_rus_eng
+			}
+			AND = {
+				flag = falkland_un_usa_eng
+				flag = falkland_un_fra_arg
+				flag = falkland_un_chc_arg
+				flag = falkland_un_rus_eng
+			}
+		}
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 29
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771025_NAME"
+	desc = "EVT_7771025_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Give up Falklands on your own"
+	ai_chance = 10
+		command = { type = clrflag which = falkland_un_go }
+		command = { type = clrflag which = falkland_un_usa_eng }
+		command = { type = clrflag which = falkland_un_usa_arg }
+		command = { type = clrflag which = falkland_un_chc_eng }
+		command = { type = clrflag which = falkland_un_chc_arg }
+		command = { type = clrflag which = falkland_un_rus_eng }
+		command = { type = clrflag which = falkland_un_rus_arg }
+		command = { type = clrflag which = falkland_un_fra_eng }
+		command = { type = clrflag which = falkland_un_fra_arg }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = trigger which = 7771029 }
+	}
+	action_b = {
+		name = "This means the Falklands will stay with us"
+	ai_chance = 90
+		command = { type = clrflag which = falkland_un_go }
+		command = { type = clrflag which = falkland_un_usa_eng }
+		command = { type = clrflag which = falkland_un_usa_arg }
+		command = { type = clrflag which = falkland_un_chc_eng }
+		command = { type = clrflag which = falkland_un_chc_arg }
+		command = { type = clrflag which = falkland_un_rus_eng }
+		command = { type = clrflag which = falkland_un_rus_arg }
+		command = { type = clrflag which = falkland_un_fra_eng }
+		command = { type = clrflag which = falkland_un_fra_arg }
+		command = { type = relation which = ARG value = -20 }
+		command = { type = trigger which = 7771030 }
+	}
+}
+
+##Argentinian reaction to UN vote for brits
+event = {
+	id = 7771026
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771026_NAME"
+	desc = "EVT_7771026_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "We will wait"
+		command = { type = setflag which = falkland_rememberance }
+		command = { type = relation which = ENG value = -20 }
+		command = { type = relation which = USA value = -10 }
+		command = { type = relation which = CHC value = -10 }
+		command = { type = relation which = FRA value = -10 }
+		command = { type = relation which = RUS value = -10 }
+	}
+}
+##Argentinians are happy to receive Falklands
+event = {
+	id = 7771027
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771027_NAME"
+	desc = "EVT_7771027_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Great!"
+		command = { type = relation which = ENG value = 20 }
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 7771031 }
+	}
+}
+##Argentinians are mad, because brits dont want to give up islands
+event = {
+	id = 7771028
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771028_NAME"
+	desc = "EVT_7771028_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Ask for foreign help in solving this"
+	ai_chance = 100
+		command = { type = relation which = ENG value = -200 }
+		command = { type = setflag which = falkland_help }
+	}
+	action_b = {
+		name = "We will remember this always!"
+	ai_chance = 0
+		command = { type = setflag which = falkland_rememberance }
+		command = { type = relation which = ENG value = -200 }
+
+	}
+}
+##Argentinians are happy to receive Falklands
+event = {
+	id = 7771029
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771029_NAME"
+	desc = "EVT_7771029_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "Great!"
+		command = { type = relation which = ENG value = 50 }
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 7771031 }
+	}
+}
+##Argentinians are mad, because brits dont want to give up islands, UN draw
+event = {
+	id = 7771030
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771030_NAME"
+	desc = "EVT_7771030_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "We will remember this always!"
+		command = { type = setflag which = falkland_rememberance }
+		command = { type = relation which = ENG value = -50 }
+
+	}
+}
+#british cede falklands due to UN decision
+event = {
+	id = 7771031
+	random = no
+	country = ENG
+	
+
+	name = "EVT_7771031_NAME"
+	desc = "EVT_7771031_DESC"
+	picture = "un"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = secedeprovince which = ARG value = 2045 }
+	}
+}
+
+##brits propose popular vote
+event = {
+	id = 7771032
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_vote
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 28
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771032_NAME"
+	desc = "EVT_7771032_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "That will be fair"
+	ai_chance = 70 #80
+		command = { type = clrflag which = falkland_vote }
+		command = { type = setflag which = falkland_vote_go }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "No! Demand the Islands now!"
+	ai_chance = 30 #20
+		command = { type = clrflag which = falkland_vote }
+		command = { type = setflag which = falkland_demand }
+		command = { type = belligerence value = 2 }
+		command = { type = relation which = ENG value = -50 }
+	}
+}
+#popular vote 1
+event = {
+	id = 7771033
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_vote_go
+		random = 50
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 25
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771033_NAME"
+	desc = "EVT_7771033_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "British Win"
+		command = { type = clrflag which = falkland_vote_go }
+		command = { type = setflag which = falkland_vote_eng }
+		command = { type = sleepevent which = 7771034 }
+		command = { type = sleepevent which = 7771035 }
+	}
+}
+#popular vote 2
+event = {
+	id = 7771034
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_vote_go
+		random = 50
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 24
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771034_NAME"
+	desc = "EVT_7771034_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Argentinians Win"
+		command = { type = clrflag which = falkland_vote_go }
+		command = { type = setflag which = falkland_vote_arg }
+		command = { type = sleepevent which = 7771033 }
+		command = { type = sleepevent which = 7771035 }
+	}
+}
+#popular vote 3
+event = {
+	id = 7771035
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_vote_go
+		random = 10
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 26
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771035_NAME"
+	desc = "EVT_7771035_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Argentinians Win"
+	ai_chance = 50
+		command = { type = clrflag which = falkland_vote_go }
+		command = { type = setflag which = falkland_vote_arg }
+		command = { type = sleepevent which = 7771034 }
+		command = { type = sleepevent which = 7771033 }
+	}
+
+	action_b = {
+		name = "British Win"
+	ai_chance = 50
+		command = { type = clrflag which = falkland_vote_go }
+		command = { type = setflag which = falkland_vote_eng }
+		command = { type = sleepevent which = 7771034 }
+		command = { type = sleepevent which = 7771033 }
+	}
+}
+
+#Britain wins vote
+event = {
+	id = 7771036
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_vote_eng
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 27
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771036_NAME"
+	desc = "EVT_7771036_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Accept the results"
+	ai_chance = 90
+		command = { type = clrflag which = falkland_vote_eng }
+	}
+	action_b = {
+		name = "The Islands are key to our defense! We'll get back to this."
+	ai_chance = 10
+		command = { type = province_keypoints which = 2045 value = 5 }
+		command = { type = clrflag which = falkland_vote_eng }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+
+#Britain Declines our offer
+event = {
+	id = 7771037
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_no
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 29
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771037_NAME"
+	desc = "EVT_7771037_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Back out"
+	ai_chance = 5
+		command = { type = clrflag which = falkland_no }
+		command = { type = relation which = ENG value = 10 }
+		command = { type = trigger which = 7771038 }
+	}
+	action_b = {
+		name = "Break the talks for a time"
+	ai_chance = 25 #45
+		command = { type = clrflag which = falkland_no }
+		command = { type = setflag which = falkland_broken }
+		command = { type = relation which = ENG value = -1 }
+		command = { type = trigger which = 7771039 }
+	}
+	action_c = {
+		name = "Demand the Islands"
+	ai_chance = 70 #50
+		command = { type = clrflag which = falkland_no }
+		command = { type = clrflag which = falkland_demand }
+		command = { type = relation which = ENG value = 10 }
+	}
+}
+#Argentinians back out
+event = {
+	id = 7771038
+	random = no
+	country = ENG
+	
+
+	name = "EVT_7771038_NAME"
+	desc = "EVT_7771038_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { }
+	}
+}
+#Talks broken
+event = {
+	id = 7771039
+	random = no
+	country = ENG
+	
+
+	name = "EVT_7771039_NAME"
+	desc = "EVT_7771039_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+	}
+}
+
+#Argentina asks for help convicing britain
+event = {
+	id = 7771040
+	random = no
+	country = USA
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 31
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771040_NAME"
+	desc = "EVT_7771040_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Do nothing. Britain is our ally."
+	ai_chance = 90
+		command = { type = relation which = ARG value = -10 }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "Pressure UK"
+	ai_chance = 5
+		command = { type = relation which = ENG value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_help1_usa }
+	}
+	action_c = {
+		name = "Stomp on UK"
+	ai_chance = 5
+		command = { type = relation which = ENG value = -50 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = setflag which = falkland_help2_usa }
+	}
+}
+#Argentina asks for help convicing britain
+event = {
+	id = 7771041
+	random = no
+	country = BRA
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771041_NAME"
+	desc = "EVT_7771041_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Do nothing."
+	ai_chance = 5
+		command = { type = relation which = ARG value = -10 }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "Pressure UK"
+	ai_chance = 70
+		command = { type = relation which = ENG value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_help1_bra }
+	}
+	action_c = {
+		name = "Offer full military help to Argentina"
+	ai_chance = 25
+		command = { type = relation which = ENG value = -50 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = setflag which = falkland_help2_bra }
+	}
+}
+#Argentina asks for help convicing britain
+event = {
+	id = 7771042
+	random = no
+	country = U72
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 37
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771042_NAME"
+	desc = "EVT_7771042_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Do nothing."
+	ai_chance = 50
+		command = { type = relation which = ARG value = -10 }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "Pressure UK"
+	ai_chance = 45
+		command = { type = relation which = ENG value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_help1_ue }
+	}
+	action_c = {
+		name = "Stomp on UK"
+	ai_chance = 5
+		command = { type = relation which = ENG value = -50 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = setflag which = falkland_help2_ue }
+	}
+}
+#Argentina asks for help convicing britain
+event = {
+	id = 7771043
+	random = no
+	country = RUS
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 34
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771043_NAME"
+	desc = "EVT_7771043_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Do nothing."
+	ai_chance = 80
+		command = { type = relation which = ARG value = -10 }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "Pressure UK"
+	ai_chance = 10
+		command = { type = relation which = ENG value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_help1_rus }
+	}
+	action_c = {
+		name = "Offer weapons to Argentina"
+	ai_chance = 10
+		command = { type = relation which = ENG value = -50 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = setflag which = falkland_help2_rus }
+	}
+}
+#Argentina asks for help convicing britain
+event = {
+	id = 7771044
+	random = no
+	country = FRA
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 21
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771044_NAME"
+	desc = "EVT_7771044_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Do nothing."
+	ai_chance = 60
+		command = { type = relation which = ARG value = -10 }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "Pressure UK"
+	ai_chance = 35
+		command = { type = relation which = ENG value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_help1_fra }
+	}
+	action_c = {
+		name = "Stomp on UK"
+	ai_chance = 5
+		command = { type = relation which = ENG value = -50 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = setflag which = falkland_help2_fra }
+	}
+}
+#Argentina asks for help convicing britain
+event = {
+	id = 7771045
+	random = no
+	country = CHC
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771045_NAME"
+	desc = "EVT_7771045_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Do nothing."
+	ai_chance = 20
+		command = { type = relation which = ARG value = -10 }
+		command = { type = relation which = ENG value = 10 }
+	}
+	action_b = {
+		name = "Pressure UK"
+	ai_chance = 40
+		command = { type = relation which = ENG value = -10 }
+		command = { type = relation which = ARG value = 10 }
+		command = { type = setflag which = falkland_help1_chc }
+	}
+	action_c = {
+		name = "Offer weapons to Argentina"
+	ai_chance = 40
+		command = { type = relation which = ENG value = -50 }
+		command = { type = relation which = ARG value = 50 }
+		command = { type = setflag which = falkland_help2_chc }
+	}
+}
+
+#Britain is put under pressure
+event = {
+	id = 7771046
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_help
+		random = 50	
+		OR = {
+		#	AND = {
+		#		flag = falkland_help1_fra 
+		#	#	flag = falkland_help1_rus
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_usa
+		#	#	flag = falkland_help1_rus
+		#	}	
+		#	AND = {
+		#		flag = falkland_help1_bra
+		#	#	flag = falkland_help1_rus
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_fra
+		#	#	flag = falkland_help1_rus
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_ue
+		#	#	flag = falkland_help1_rus
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_chc
+		#	#	flag = falkland_help1_ue
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_usa
+		#	#	flag = falkland_help1_ue
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_fra
+		#	#	flag = falkland_help1_ue
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_bra
+		#	#	flag = falkland_help1_ue
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_usa
+		#	#	flag = falkland_help1_bra
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_fra
+		#	#	flag = falkland_help1_bra
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_chc
+		#	#	flag = falkland_help1_bra
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_fra
+		#	#	flag = falkland_help1_chc
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_usa
+		#	#	flag = falkland_help1_chc
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_usa
+		#	#	flag = falkland_help1_fra
+		#	}
+		#	AND = {
+		#		flag = falkland_help1_chc
+		#	#	flag = falkland_help1_rus
+		#	}
+			AND = {
+				flag = falkland_help1_chc
+				flag = falkland_help1_rus
+				flag = falkland_help1_bra
+				flag = falkland_help1_usa
+				flag = falkland_help1_ue
+				flag = falkland_help1_fra
+			}
+			flag = falkland_help2_usa
+			flag = falkland_help2_fra
+			flag = falkland_help2_ue
+		}
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 35
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771046_NAME"
+	desc = "EVT_7771046_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Fold"
+	ai_chance = 90
+		command = { type = secedeprovince which = ARG value = 2045 }
+		command = { type = trigger which = 7771047 }
+		command = { type = clrflag which = falkland_help }
+		command = { type = clrflag which = falkland_help1_usa }
+		command = { type = clrflag which = falkland_help2_usa }
+		command = { type = clrflag which = falkland_help1_fra }
+		command = { type = clrflag which = falkland_help2_fra }
+		command = { type = clrflag which = falkland_help1_bra }
+		command = { type = clrflag which = falkland_help2_bra }
+		command = { type = clrflag which = falkland_help1_chc }
+		command = { type = clrflag which = falkland_help2_chc }
+		command = { type = clrflag which = falkland_help1_rus }
+		command = { type = clrflag which = falkland_help2_rus }
+		command = { type = clrflag which = falkland_help1_bra }
+		command = { type = clrflag which = falkland_help2_bra }
+	}
+	action_b = {
+		name = "The islands will remain our!"
+	ai_chance = 10
+		command = { type = clrflag which = falkland_help }
+		command = { type = setflag which = falkland_help_ref }
+	}
+}
+ 
+#Britain folds
+event = {
+	id = 7771047
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771047_NAME"
+	desc = "EVT_7771047_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { }
+	}
+}
+
+#Brazil helps in conflict (un)
+event = {
+	id = 7771048
+	random = no
+	country = BRA
+		trigger = {
+			random = 50	
+			flag = falkland_help2_bra
+			war = { country = ARG country = ENG }
+		}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 38
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771048_NAME"
+	desc = "EVT_7771048_DESC"
+	picture = "profarmy"
+	style = 0
+
+	action_a = {
+		name = "Ally with Argentina"
+	ai_chance = 95
+		command = { type = alliance which = ARG }
+		command = { type = trigger which = 7771053 }
+	}
+	action_b = {
+		name = "Stay neutral"
+	ai_chance = 5
+		command = { type = relation which = ARG value = -100 }
+	}
+}
+
+#Russia helps in conflict (un)
+event = {
+	id = 7771049
+	random = no
+	country = RUS
+		trigger = {
+			random = 50	
+			flag = falkland_help2_rus
+			war = { country = ARG country = ENG }
+		}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 21
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771049_NAME"
+	desc = "EVT_7771049_DESC"
+	picture = "exports"
+	style = 0
+
+	action_a = {
+		name = "Send weapons"
+	ai_chance = 80
+		command = { type = money value = -200 }
+		command = { type = oilpool value = -1000 }
+		command = { type = supplies value = -5000 }
+		command = { type = relation which = ENG value = -20 }
+		command = { type = trigger which = 7771051 }
+	}
+	action_b = {
+		name = "Stay neutral"
+	ai_chance = 20
+		command = { type = relation which = ARG value = -100 }
+	}
+}
+#China helps in conflict (un)
+event = {
+	id = 7771050
+	random = no
+	country = CHC
+		trigger = {
+			random = 50	
+			flag = falkland_help2_chc
+			war = { country = ARG country = ENG }
+		}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 28
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771050_NAME"
+	desc = "EVT_7771050_DESC"
+	picture = "exports"
+	style = 0
+
+	action_a = {
+		name = "Send weapons"
+	ai_chance = 99
+		command = { type = money value = -2000 }
+		command = { type = oilpool value = -100 }
+		command = { type = supplies value = -5000 }
+		command = { type = relation which = ENG value = -20 }
+		command = { type = trigger which = 7771052 }
+	}
+	action_b = {
+		name = "Stay neutral"
+	ai_chance = 1
+		command = { type = relation which = ARG value = -100 }
+	}
+}
+#Russian weapons arrive
+event = {
+	id = 7771051
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771051_NAME"
+	desc = "EVT_7771051_DESC"
+	picture = "exports"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = money value = 200 }
+		command = { type = oilpool value = 1000 }
+		command = { type = supplies value = 5000 }
+		command = { type = relation which = RUS value = 20 }
+	}
+}
+#China weapons arrive
+event = {
+	id = 7771052
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771052_NAME"
+	desc = "EVT_7771052_DESC"
+	picture = "exports"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = money value = 2000 }
+		command = { type = oilpool value = 100 }
+		command = { type = supplies value = 5000 }
+		command = { type = relation which = CHC value = 20 }
+	}
+}
+#Brazil allies with us
+event = {
+	id = 7771053
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771053_NAME"
+	desc = "EVT_7771053_DESC"
+	picture = "exports"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = relation which = BRA value = 20 }
+	}
+}
+
+#Argentina prepares Covert Ops mission
+event = {
+	id = 7771054
+	random = no
+	country = ARG
+	trigger = {
+		random = 50	
+		flag = falkland_broken
+		NOT = {
+			war = { country = ARG country = ENG }
+		}	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 90	#takes some time
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771054_NAME"
+	desc = "EVT_7771054_DESC"
+	picture = "conscripts"
+	style = 0
+
+	action_a = {
+		name = "A great idea"
+	ai_chance = 99 #90
+		command = { type = clrflag which = falkland_broken }
+		command = { type = setflag which = falkland_ops_prepare }
+		command = { type = free_supplies value = -10 }
+	}
+	action_b = {
+		name = "Wait for a better occassion"
+	ai_chance = 1 #10
+		command = { type = clrflag which = falkland_broken }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+#British find out Argentina prepares Covert Ops mission
+event = {
+	id = 7771055
+	random = no
+	country = ENG
+	trigger = {
+		random = 50	
+		flag = falkland_ops_prepare
+		NOT = {
+			war = { country = ARG country = ENG }
+		}	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 90	#takes some time
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771055_NAME"
+	desc = "EVT_7771055_DESC"
+	picture = "carrier"
+	style = 0
+
+	action_a = {
+		name = "Order a carrier strike on that area"
+	ai_chance = 90
+		command = { type = clrflag which = falkland_ops_prepare }
+		command = { type = trigger which = 7771056 }
+	}
+	action_b = {
+		name = "Try to get them back to negotiations"
+	ai_chance = 10
+		command = { type = clrflag which = falkland_ops_prepare }
+		command = { type = setflag which = falkland_ops_negotiate }
+	}
+}
+#British Air Strike on Argentina
+event = {
+	id = 7771056
+	random = no
+	country = ARG
+
+
+	name = "EVT_7771056_NAME"
+	desc = "EVT_7771056_DESC"
+	picture = "iranstrike"
+	style = 0
+
+	action_a = {
+		name = "This is it. Declare war!"
+	ai_chance = 99
+		command = { type = free_supplies value = 10 }
+		command = { type = setflag which = falkland_war }
+		command = { type = manpowerpool value = -1 }
+		command = { type = war which = ENG }
+		command = { type = belligerence value = -25 }
+		#command = { type = trigger which = 7771057 }
+	}
+	action_b = {
+		name = "We will remember this"
+	ai_chance = 1
+		command = { type = free_supplies value = 10 }
+		command = { type = dissent value = 10 }
+		command = { type = manpowerpool value = -1 }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+
+#British find out Argentina prepares Covert Ops mission, starts negotiations again
+event = {
+	id = 7771060
+	random = no
+	country = ARG
+	trigger = {
+		random = 50	
+		flag = falkland_ops_negotiate
+		NOT = {
+			war = { country = ARG country = ENG }
+		}	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771060_NAME"
+	desc = "EVT_7771060_DESC"
+	picture = "carrier"
+	style = 0
+
+	action_a = {
+		name = "We'll wait for a better occassion"
+	ai_chance = 20 #50
+		command = { type = free_supplies value = 10 }
+		command = { type = clrflag which = falkland_ops_prepare }
+		command = { type = setflag which = falkland_rememberance }
+	}
+	action_b = {
+		name = "Ignore this nonsense and continue"
+	ai_chance = 80 #50
+		command = { type = relation which = ENG value = -50 }
+		command = { type = belligerence which = ARG value = 5 }
+	}
+}
+#Argentinian Covert Ops mission is ready
+event = {
+	id = 7771061
+	random = no
+	country = ARG
+	trigger = {
+		random = 50	
+		flag = falkland_ops_prepare
+		NOT = {
+			war = { country = ARG country = ENG }
+		}	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 90
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771061_NAME"
+	desc = "EVT_7771061_DESC"
+	picture = "conscripts"
+	style = 0
+
+	action_a = {
+		name = "The operation is a go!"
+	ai_chance = 99
+		command = { type = free_supplies value = 10 }
+		command = { type = clrflag which = falkland_ops_prepare }
+		command = { type = surprise which = land value = 100 }
+		command = { type = surprise which = air value = 100 }
+		command = { type = surprise which = naval value = 100 }
+		command = { type = trigger which = 7771062 }
+	}
+	action_b = {
+		name = "It's too risky after all"
+	ai_chance = 1
+		command = { type = free_supplies value = 10 }
+		command = { type = clrflag which = falkland_ops_prepare }
+	}
+}
+#Argentinian CO land on Falkland Islands
+event = {
+	id = 7771062
+	random = no
+	country = ENG
+
+
+	name = "EVT_7771062_NAME"
+	desc = "EVT_7771062_DESC"
+	picture = "shipexpl"
+	style = 0
+
+	action_a = {
+		name = "What is going on?"
+		command = { type = trigger which = 7771063 }
+	}
+}
+#Argentinian CO land on Falkland Islands
+event = {
+	id = 7771063
+	random = no
+	country = ARG
+
+
+	name = "EVT_7771063_NAME"
+	desc = "EVT_7771063_DESC"
+	picture = "shipexpl"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = war which = ENG }
+		command = { type = setflag which = falkland_war }
+		command = { type = add_corps which = "Operation Maledvines" value = land when = -1 where = 2045 }
+		command = { type = add_division which = "SD Maledvines" value = bergsjaeger when = 2 }
+		command = { type = trigger which = 7771064 }
+	}
+}
+#Argentinians take Falklands
+event = {
+	id = 7771064
+	random = no
+	country = ENG
+
+
+	name = "EVT_7771064_NAME"
+	desc = "EVT_7771064_DESC"
+	picture = "shipexpl"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = trigger which = 7771065 }
+	}
+}
+#War is on
+event = {
+	id = 7771065
+	random = no
+	country = ARG
+
+
+	name = "EVT_7771065_NAME"
+	desc = "EVT_7771065_DESC"
+	picture = "shipexpl"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = surprise which = land value = -100 }
+		command = { type = surprise which = air value = -100 }
+		command = { type = surprise which = naval value = -100 }
+	}
+}
+#Britain is weak and Argentina remembers... and strikes!
+event = {
+	id = 7771066
+	random = no
+	country = ARG
+	trigger = {
+		random = 25	
+		flag = falkland_rememberance
+		owned = { province = 2045 data = ENG }
+		NOT = {
+			war = { country = ARG country = ENG }
+			owned = { province = 2045 data = ARG }
+		}	
+		alliance = { country = ARG country = BRA }
+		event = 1071 #england nuked
+	}
+
+	date = { day = 1 month = january year = 1002 }
+	offset = 120
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771066_NAME"
+	desc = "EVT_7771066_DESC"
+	picture = "shipexpl"
+	style = 0
+
+	action_a = {
+		name = "Declare War!"
+		ai_chance = 99
+		command = { type = clrflag which = falkland_rememberance }
+		command = { type = war which = ENG }
+		command = { type = setflag which = falkland_war }
+	}
+	action_b = {
+		name = "We are no longer interested"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = clrflag which = falkland_rememberance }
+		command = { type = removecore which = 2045 }
+	}
+}
+
+#UK refuses to fold under UN pressure, Argentina seeks other ways
+event = {
+	id = 7771067
+	random = no
+	country = ARG
+	trigger = {
+		random = 50	
+		flag = falkland_help_ref
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771067_NAME"
+	desc = "EVT_7771067_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Simply declare war and take the islands"
+	ai_chance = 19 #10
+		command = { type = clrflag which = falkland_help_ref }
+		command = { type = war which = ENG }
+		command = { type = setflag which = falkland_war }
+	}
+	action_b = {
+		name = "Start a global media campaign"
+	ai_chance = 60
+		command = { type = clrflag which = falkland_help_ref }
+		command = { type = money value = -1000 }
+		command = { type = setflag which = falkland_media }
+	}
+	action_c = {
+		name = "Conduct massive navy maneuvres on South Atlantic"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_help_ref }
+		command = { type = supplies value = -1000 }
+		command = { type = oilpool value = -1000 }
+		command = { type = setflag which = falkland_manev }
+	}
+	action_d = {
+		name = "Wait for a better occassion"
+	ai_chance = 1 #10
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+#Argentinian maneuvres near falkland islands - brits see it
+event = {
+	id = 7771068
+	random = no
+	country = ENG
+	trigger = {
+		random = 70	
+		flag = falkland_manev
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 3
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771068_NAME"
+	desc = "EVT_7771068_DESC"
+	picture = "arg_navy"
+	style = 0
+
+	action_a = {
+		name = "Watch it closely"
+		command = { }
+	}
+
+}
+#Argentinian maneuvres near falkland islands - get org from it
+event = {
+	id = 7771069
+	random = no
+	country = ARG
+	trigger = {
+		random = 50	
+		event = 7771068
+		flag = falkland_manev
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 60
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771069_NAME"
+	desc = "EVT_7771069_DESC"
+	picture = "arg_navy"
+	style = 0
+
+	action_a = {
+		name = "Great! Continue the exercise"
+	ai_chance = 99 #70
+      		command = { type = max_organization which = naval value = 2 }
+		command = { type = supplies value = -1000 }
+		command = { type = oilpool value = -1000 }
+	}
+	action_b = {
+		name = "Thats enough... For now"
+	ai_chance = 1 #30
+      		command = { type = max_organization which = naval value = 2 }
+		command = { type = clrflag which = falkland_manev }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+#Argentinian maneuvres near falkland islands - end it?
+event = {
+	id = 7771070
+	random = no
+	country = ARG
+	persistent = yes
+	trigger = {
+		random = 50	
+		event = 7771068
+		flag = falkland_manev
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771070_NAME"
+	desc = "EVT_7771070_DESC"
+	picture = "arg_navy"
+	style = 0
+
+	action_a = {
+		name = "No. Continue the exercise"
+	ai_chance = 99 #70
+ 		command = { type = belligerence which = ARG value = 1 }
+		command = { type = supplies value = -1000 }
+		command = { type = oilpool value = -1000 }
+	}
+	action_b = {
+		name = "Thats enough... For now"
+	ai_chance = 1 #30
+		command = { type = sleepevent which = 7771070 }
+		command = { type = clrflag which = falkland_manev }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+#Argentinian maneuvres near falkland islands - a british sub
+event = {
+	id = 7771071
+	random = no
+	country = ARG
+	trigger = {
+		random = 10	
+		event = 7771068
+		flag = falkland_manev
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771071_NAME"
+	desc = "EVT_7771071_DESC"
+	picture = "arg_navy"
+	style = 0
+
+	action_a = {
+		name = "That will surely infuriate the British. Do it!"
+	ai_chance = 99 #80
+		command = { type = clrflag which = falkland_manev }
+		command = { type = setflag which = falkland_sub }
+	}
+	action_b = {
+		name = "We do not dare attack them"
+	ai_chance = 1 #20
+		command = { }
+	}
+}
+
+#Argentinian maneuvres near falkland islands - a british sub sunk
+event = {
+	id = 7771072
+	random = no
+	country = ENG
+	trigger = {
+		event = 7771068
+		flag = falkland_sub
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771072_NAME"
+	desc = "EVT_7771072_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "Declare war on Argentina"
+	ai_chance = 90 #50
+		command = { type = clrflag which = falkland_sub }
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ARG }
+		command = { type = belligerence which = ENG value = 20 }
+	}
+	action_b = {
+		name = "This would be crazy..."
+	ai_chance = 10 #50
+		command = { type = clrflag which = falkland_sub }
+		command = { type = dissent value = 20 }
+	}
+}
+#Argentinian maneuvres near falkland islands - end of maneuvres
+event = {
+	id = 7771073
+	random = no
+	country = ARG
+	trigger = {	
+		random = 50
+		event = 7771068
+		event = 7771072
+		NOT = { flag = falkland_war }
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 3
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771073_NAME"
+	desc = "EVT_7771073_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "Use it and declare war"
+	ai_chance = 99 #10
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ENG }
+	}
+	action_b = {
+		name = "End the maneuvres and wait..."
+	ai_chance = 1 #90
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+
+#Effects of media campaign hit England
+#revised: a murderer wants to help
+event = {
+	id = 7771074
+	random = no
+	country = ARG
+	trigger = {
+		random = 10
+		flag = falkland_media
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771074_NAME"
+	desc = "EVT_7771074_DESC"
+	#picture = "police1"
+	style = 0
+
+	action_a = {
+		name = "Good. Support him"
+		ai_chance = 20
+		command = { type = setflag which = falkland_killer1 }
+		command = { type = money value = -50 }
+		command = { type = supplies value = -10 }
+	}
+	action_a = {
+		name = "We will not associate with such actions"
+		ai_chance = 80
+		command = { type = setflag which = falkland_killer2 }
+	}
+
+}
+#Effects of media campaign hit England - 2
+#revised: a killer strikes
+event = {
+	id = 7771075
+	random = no
+	country = ENG
+	trigger = {
+		event = 7771074
+		random = 25
+		flag = falkland_media
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771075_NAME"
+	desc = "EVT_7771075_DESC"
+	picture = "police1"
+	style = 0
+
+	action_a = {
+		name = "Start a investigation"
+		command = { type = dissent value = 1 }
+	}
+
+}
+#Effects of media campaign hit England - 3
+#revised: investigation
+event = {
+	id = 7771076
+	random = no
+	country = ENG
+	trigger = {
+		event = 7771075
+		random = 25
+		flag = falkland_media
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771076_NAME"
+	desc = "EVT_7771076_DESC"
+	#picture = "london_terror"
+	style = 0
+
+	action_a = {
+		name = "Continue the investigation"
+		command = { }
+	}
+
+}
+#Effects of media campaign hit England - 4
+#revised: investigation
+event = {
+	id = 7771077
+	random = no
+	country = ENG
+	trigger = {
+		event = 7771076
+		random = 25
+		flag = falkland_media
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771077_NAME"
+	desc = "EVT_7771077_DESC"
+	#picture = "london_terror"
+	style = 0
+
+	action_a = {
+		name = "Continue the investigation"
+		command = { type = dissent value = 1 }
+	}
+
+}
+#Effects of media campaign hit England - 5
+#revised: investigation
+event = {
+	id = 7771078
+	random = no
+	country = ENG
+	trigger = {
+		event = 7771077
+		random = 25
+		flag = falkland_media
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771078_NAME"
+	desc = "EVT_7771078_DESC"
+	#picture = "london_terror"
+	style = 0
+
+	action_a = {
+		name = "Lets finish this"
+		command = { type = relation which = ARG value = -10 }
+		command = { type = clrflag which = falkland_media }
+		command = { type = setflag which = falkland_killer3 }
+	}
+
+}
+#Effects of media campaign hit England and is dying out now
+#event = {
+#	id = 7771079
+#	random = no
+#	country = ENG
+#	trigger = {
+#		event = 7771078
+#		random = 25
+#		flag = falkland_media
+#	}
+#
+#	date = { day = 1 month = january year = 2007 }
+#	offset = 30
+#	deathdate = { day = 1 month = july year = 2100 }
+#
+#	name = "EVT_7771079_NAME"
+#	desc = "EVT_7771079_DESC"
+#	picture = "professionals"
+#	style = 0
+#
+#	action_a = {
+#		name = "Great"
+#		command = { type = dissent value = -1 }
+#		command = { type = domestic which = freedom value = 1 }
+#	}
+#
+#}
+#Effects of media campaign hit England - and lead to war with argentina!
+event = {
+	id = 7771080
+	random = no
+	country = ENG
+	trigger = {
+		NOT = { event = 7771081 }
+		random = 10
+		flag = falkland_killer3
+		flag = falkland_killer2
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771080_NAME"
+	desc = "EVT_7771080_DESC"
+	#picture = ""
+	style = 0
+
+	action_a = {
+		name = "This means war"
+		ai_chance = 90
+		command = { type = dissent value = -1 }
+		command = { type = war which = ARG }
+		command = { type = setflag which = falkland_war }
+	}
+	action_b = {
+		name = "War is never a good idea"
+		ai_chance = 10
+		command = { type = dissent value = 1 }
+	}
+}
+#Effects of media campaign hit England - and lead to war with argentina!
+event = {
+	id = 7771081
+	random = no
+	country = ENG
+	trigger = {
+		NOT = { event = 7771080 }
+		random = 10
+		flag = falkland_uk_police
+		flag = falkland_killer1
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2100 }
+
+	name = "EVT_7771081_NAME"
+	desc = "EVT_7771081_DESC"
+	#picture = ""
+	style = 0
+
+	action_a = {
+		name = "Attack the terrorists in Argentina"
+		ai_chance = 50	#20
+		command = { type = dissent value = -1 }
+		command = { type = war which = ARG }
+	}
+	action_b = {
+		name = "War is never a good idea"
+		ai_chance = 50	#80
+		command = { type = dissent value = 1 }
+	}
+}
+
+#Argentina has agresively demanded Falklands
+event = {
+	id = 7771082
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_demand
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 33
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771082_NAME"
+	desc = "EVT_7771082_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "In the name of peace give them up"
+		ai_chance = 1 #5
+		command = { type = secedeprovince which = ARG value = 2045 }
+		command = { type = trigger which = 7771083 }
+		command = { type = clrflag which = falkland_demand }
+		command = { type = relation which = ARG value = 50 }
+	}
+		action_b = {
+		name = "We can give them up, for a price"
+		ai_chance = 19 #45
+		command = { type = clrflag which = falkland_demand }
+		command = { type = setflag which = falkland_demand_price }
+	}
+		action_c = {
+		name = "We will never give them up"
+		ai_chance = 80 #50
+		command = { type = clrflag which = falkland_demand }
+		command = { type = setflag which = falkland_demand_refused }
+		command = { type = relation which = ARG value = -50 }
+	}
+}
+#Britain caves
+event = {
+	id = 7771083
+	random = no
+	country = ARG
+	
+
+	name = "EVT_7771083_NAME"
+	desc = "EVT_7771083_DESC"
+	picture = "un"
+	style = 0
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -5 }
+	}
+}
+
+##Argentina demanded, but UK would rather sell it
+event = {
+	id = 7771084
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_demand_price
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771084_NAME"
+	desc = "EVT_7771084_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Offer money (2500$)" #impossible?
+		ai_chance = 10
+		command = { type = clrflag which = falkland_demand_price }
+		command = { type = setflag which = falkland_offer1 }
+	}
+	action_b = {
+		name = "Let them keep naval bases"
+		ai_chance = 20
+		command = { type = clrflag which = falkland_demand_price }
+		command = { type = setflag which = falkland_offer2 }
+	}
+	action_c = {
+		name = "Offer money and keeping the naval bases"
+		ai_chance = 10
+		command = { type = clrflag which = falkland_demand_price }
+		command = { type = setflag which = falkland_offer3 }
+	}
+	action_d = {
+		name = "We shall not pay for what is ours!"
+		ai_chance = 60
+		command = { type = clrflag which = falkland_demand_price }
+		command = { type = setflag which = falkland_demand_no_offer }
+	}
+}	
+##Argentina still demands Falklands free
+event = {
+	id = 7771085
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_demand_no_offer
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771085_NAME"
+	desc = "EVT_7771085_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Well then, so be it"
+		ai_chance = 1 #10
+		command = { type = clrflag which = falkland_demand_no_offer }
+		command = { type = secedeprovince which = 2045 }
+		command = { type = trigger which = 7771083 }
+	}
+	action_b = {
+		name = "Then the islands will stay with us"
+		ai_chance = 99 #90
+		command = { type = relation which = ARG value = -100 }
+		command = { type = clrflag which = falkland_demand_no_offer }
+		command = { type = setflag which = falkland_demand_no_no }
+	}
+}	
+##Argentina declares war after demands are refused
+event = {
+	id = 7771086
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_demand_no_no
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771086_NAME"
+	desc = "EVT_7771086_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Declare war"
+		ai_chance = 95 #75
+		command = { type = clrflag which = falkland_demand_no_no }
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ENG }
+	}
+	action_b = {
+		name = "We are not yet ready"
+		ai_chance = 5 #25
+		command = { type = dissent value = 5 }
+		command = { type = clrflag which = falkland_demand_no_offer }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+##Argentina declares war after demands are refused
+event = {
+	id = 7771087
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_demand_refused
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771087_NAME"
+	desc = "EVT_7771087_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Declare war"
+		ai_chance = 99 #50
+		command = { type = clrflag which = falkland_demand_refused }
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ENG }
+	}
+	action_b = {
+		name = "We are not yet ready"
+		ai_chance = 1 #50
+		command = { type = dissent value = 5 }
+		command = { type = clrflag which = falkland_demand_no_offer }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+##Argentina declares war after demands are refused
+event = {
+	id = 7771088
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_refused
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771088_NAME"
+	desc = "EVT_7771088_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Declare war and seize the islands"
+		ai_chance = 80 #20
+		command = { type = clrflag which = falkland_refused }
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ENG }
+	}
+	action_b = {
+		name = "State our claims preacufully and lets see what will happen"
+		ai_chance = 19 #70
+		command = { type = dissent value = 2 }
+		command = { type = clrflag which = falkland_refused }
+		command = { type = setflag which = falkland_state }
+	}
+	action_c = {
+		name = "Wait for a opportunity to strike them"
+		ai_chance = 1 #10
+		command = { type = dissent value = 5 }
+		command = { type = clrflag which = falkland_refused }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+##British say they can't give up Falkland after Arg states peacefully
+event = {
+	id = 7771089
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_cant
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771089_NAME"
+	desc = "EVT_7771089_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Argument, but keep to the facts"
+		ai_chance = 70
+		command = { type = clrflag which = falkland_cant }
+		command = { type = setflag which = falkland_can1 }
+	}
+	action_b = {
+		name = "Argument belligerently"
+		ai_chance = 29 #20
+		command = { type = clrflag which = falkland_cant }
+		command = { type = setflag which = falkland_can2 }
+		command = { type = belligerence which = ARG value = 1 }
+	}
+	action_c = {
+		name = "Drop the issue"
+		ai_chance = 1 #10
+		command = { type = dissent value = 1 }
+		command = { type = clrflag which = falkland_cant }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+##Argentina arguments aggresively
+event = {
+	id = 7771090
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_can2
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771090_NAME"
+	desc = "EVT_7771090_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Let them shout all they want"
+	ai_chance = 79
+		command = { type = relation which = ARG value = -10 }
+		command = { type = clrflag which = falkland_can2 }
+		command = { type = setflag which = falkland_can3 }
+	}
+	action_b = {
+		name = "Give up Falklands, we can't stand it anymore"
+	ai_chance = 1 #20
+		command = { type = clrflag which = falkland_can2 }
+		command = { type = secedeprovince which = ARG value = 2045 }
+		command = { type = trigger which = 7771083 }
+	}
+	action_c = {
+		name = "Leave the talks"
+	ai_chance = 20
+		command = { type = relation which = ARG value = -50 }
+		command = { type = clrflag which = falkland_can2 }
+		command = { type = setflag which = falkland_can4 }
+	}
+}
+##Argentina arguments logically
+event = {
+	id = 7771091
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_can1
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771091_NAME"
+	desc = "EVT_7771091_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Let them argument all they want"
+		ai_chance = 79
+		command = { type = relation which = ARG value = -10 }
+		command = { type = clrflag which = falkland_can1 }
+		command = { type = setflag which = falkland_can3 }
+	}
+	action_b = {
+		name = "Give up Falklands, we can't stand it anymore"
+		ai_chance = 1 #50
+		command = { type = clrflag which = falkland_can1 }
+		command = { type = secedeprovince which = ARG value = 2045 }
+		command = { type = trigger which = 7771083 }
+	}
+	action_c = {
+		name = "Leave the talks"
+		ai_chance = 20
+		command = { type = relation which = ARG value = -50 }
+		command = { type = clrflag which = falkland_can1 }
+		command = { type = setflag which = falkland_can4 }
+	}
+}
+##Argentina declares war after demands are refused
+event = {
+	id = 7771092
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_can4
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771092_NAME"
+	desc = "EVT_7771092_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Thats their final insult! Declare war!"
+		ai_chance = 90 #50
+		command = { type = clrflag which = falkland_can4 }
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ENG }
+	}
+	action_b = {
+		name = "Let them go and start preparing for future war"
+		ai_chance = 10 #50
+		command = { type = clrflag which = falkland_can4 }
+		command = { type = setflag which = falkland_rememberance }
+	}
+}
+##British are deaf to arguments
+event = {
+	id = 7771093
+	random = no
+	country = ARG
+	
+	trigger = {
+		flag = falkland_can3
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771093_NAME"
+	desc = "EVT_7771093_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Thats their final insult! Declare war!"
+		ai_chance = 90 #10
+		command = { type = clrflag which = falkland_can3 }
+		command = { type = setflag which = falkland_war }
+		command = { type = war which = ENG }
+	}
+	action_b = {
+		name = "This talks must continue. Try some other arguments"
+		ai_chance = 10 #90
+		command = { type = clrflag which = falkland_can3 }
+		command = { type = setflag which = falkland_can5 }
+	}
+}
+##Argentina arguments  more
+event = {
+	id = 7771094
+	random = no
+	country = ENG
+	
+	trigger = {
+		flag = falkland_can5
+		random = 50	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+
+	name = "EVT_7771094_NAME"
+	desc = "EVT_7771094_DESC"
+	picture = "un"
+	style = 0
+
+	action_a = {
+		name = "Give up Falklands, we can't stand it anymore"
+	ai_chance = 20
+		command = { type = clrflag which = falkland_can5 }
+		command = { type = secedeprovince which = ARG value = 2045 }
+		command = { type = trigger which = 7771083 }
+	}
+	action_c = {
+		name = "Leave the talks"
+	ai_chance = 80
+		command = { type = relation which = ARG value = -50 }
+		command = { type = clrflag which = falkland_can1 }
+		command = { type = setflag which = falkland_can4 }
+	}
+}
+#####################################
+##All the diplomatic threads ready###
+#####################################
+############WAR######################
+#####################################
+#War with ENG - Peace with US
+event = {
+	id = 7771057
+	random = no
+	country = USA
+	trigger = {	
+		flag = falkland_war	
+		alliance = { country = USA country = ENG }
+		war = { country = ARG country = ENG }
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771057_NAME"
+	desc = "EVT_7771057_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with Australia
+event = {
+	id = 7771058
+	random = no
+	country = AST
+	trigger = {	
+		alliance = { country = AST country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771058_NAME"
+	desc = "EVT_7771058_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with Afganistan
+event = {
+	id = 7771059
+	random = no
+	country = AFG
+	trigger = {	
+		alliance = { country = AFG country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771059_NAME"
+	desc = "EVT_7771059_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with UE
+event = {
+	id = 7771095
+	random = no
+	country = U72
+	trigger = {	
+		alliance = { country = U72 country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771095_NAME"
+	desc = "EVT_7771095_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with FRA
+event = {
+	id = 7771096
+	random = no
+	country = FRA
+	trigger = {	
+		alliance = { country = FRA country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771096_NAME"
+	desc = "EVT_7771096_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with GER
+event = {
+	id = 7771097
+	random = no
+	country = GER
+	trigger = {	
+		alliance = { country = GER country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771097_NAME"
+	desc = "EVT_7771097_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with SPA
+event = {
+	id = 7771098
+	random = no
+	country = SPA
+	trigger = {	
+		alliance = { country = SPA country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771098_NAME"
+	desc = "EVT_7771098_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with IRE
+event = {
+	id = 7771099
+	random = no
+	country = IRE
+	trigger = {	
+		alliance = { country = IRE country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771099_NAME"
+	desc = "EVT_7771099_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with ITA
+event = {
+	id = 7771100
+	random = no
+	country = ITA
+	trigger = {	
+		alliance = { country = ITA country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771100_NAME"
+	desc = "EVT_7771100_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with DEN
+event = {
+	id = 7771101
+	random = no
+	country = DEN
+	trigger = {	
+		alliance = { country = DEN country = ENG }
+		flag = falkland_war	
+		war = { country = ARG country = ENG }
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771101_NAME"
+	desc = "EVT_7771101_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with HOL
+event = {
+	id = 7771102
+	random = no
+	country = HOL
+	trigger = {	
+		alliance = { country = HOL country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771102_NAME"
+	desc = "EVT_7771102_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with BEL
+event = {
+	id = 7771103
+	random = no
+	country = BEL
+	trigger = {	
+		alliance = { country = BEL country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771103_NAME"
+	desc = "EVT_7771103_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with LUX
+event = {
+	id = 7771104
+	random = no
+	country = LUX
+	trigger = {	
+		alliance = { country = LUX country = ENG }
+		flag = falkland_war	
+		war = { country = ARG country = ENG }
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771104_NAME"
+	desc = "EVT_7771104_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with POR
+event = {
+	id = 7771105
+	random = no
+	country = POR
+	trigger = {	
+		alliance = { country = POR country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771105_NAME"
+	desc = "EVT_7771105_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with GRE
+event = {
+	id = 7771106
+	random = no
+	country = GRE
+	trigger = {	
+		alliance = { country = GRE country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771106_NAME"
+	desc = "EVT_7771106_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with CHC
+event = {
+	id = 7771107
+	random = no
+	country = CHC
+	trigger = {	
+		alliance = { country = CHC country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771107_NAME"
+	desc = "EVT_7771107_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with RUS
+event = {
+	id = 7771108
+	random = no
+	country = RUS
+	trigger = {	
+		alliance = { country = RUS country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771108_NAME"
+	desc = "EVT_7771108_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with JAP
+event = {
+	id = 7771109
+	random = no
+	country = JAP
+	trigger = {	
+		alliance = { country = JAP country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771109_NAME"
+	desc = "EVT_7771109_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with BRA ????
+event = {
+	id = 7771110
+	random = no
+	country = BRA
+	trigger = {	
+		alliance = { country = BRA country = ENG }
+		war = { country = BRA country = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771110_NAME"
+	desc = "EVT_7771110_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+#War with ENG - Peace with IND
+event = {
+	id = 7771111
+	random = no
+	country = IND
+	trigger = {	
+		alliance = { country = IND country = ENG }
+		flag = falkland_war
+		war = { country = ARG country = ENG }	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 2	#must be very often
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771111_NAME"
+	desc = "EVT_7771111_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { }
+		command = { type = peace which = ARG value = 1 }	#hopefully will work
+		command = { type = peace which = BRA value = 1 }	#hopefully will work
+	}
+
+}
+
+############################################################
+#peace with all majors and coalition and ue done, now war###
+############################################################
+
+#British land on Arg mainland
+event = {
+	id = 7771112
+	random = no
+	country = ARG
+	trigger = {	
+		OR = {
+			garrison = { country = ENG province = 2049 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2050 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2053 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2048 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2039 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2034 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2038 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2037 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2035 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2036 type = land size = 1 area = yes }
+			## British land on shore or area which has shore province, no paratroopers or attack from other south american country counts (then the war must be won normally)
+		}
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771112_NAME"
+	desc = "EVT_7771112_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "Argentinian people are angry"
+		command = { type = dissent value = 10 }
+		command = { type = clrflag which = falkland_war }
+		command = { type = setflag which = falkland_beach }
+	}
+
+}
+#revolt starts in argentina
+event = {
+	id = 7771113
+	random = no
+	country = ARG
+	trigger = {	
+		OR = {
+			garrison = { country = ENG province = 2049 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2050 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2053 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2048 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2039 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2034 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2038 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2037 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2035 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2036 type = land size = 1 area = yes }
+			## British land on shore or area which has shore province, no paratroopers or attack from other south american country counts (then the war must be won normally)
+		}
+		flag = falkland_beach	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771113_NAME"
+	desc = "EVT_7771113_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "Argentinian people are angry"
+		command = { type = dissent value = 20 }
+		command = { type = clrflag which = falkland_beach }
+		command = { type = setflag which = falkland_beach2 }
+	}
+
+}
+#revolt in buenos aires
+event = {
+	id = 7771114
+	random = no
+	country = ARG
+	trigger = {	
+		OR = {
+			garrison = { country = ENG province = 2049 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2050 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2053 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2048 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2039 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2034 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2038 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2037 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2035 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2036 type = land size = 1 area = yes }
+			## British land on shore or area which has shore province, no paratroopers or attack from other south american country counts (then the war must be won normally)
+		}
+		flag = falkland_beach2	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771114_NAME"
+	desc = "EVT_7771114_DESC"
+	picture = "gotcha"
+	style = 0
+
+	action_a = {
+		name = "Argentinian people are angry"
+		command = { type = dissent value = 20 }
+		command = { type = clrflag which = falkland_beach2 }
+		command = { type = setflag which = falkland_beach3 }
+	}
+
+}
+#argentinian governament falls
+event = {
+	id = 7771115
+	random = no
+	country = ARG
+	trigger = {	
+		OR = {
+			garrison = { country = ENG province = 2049 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2050 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2053 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2048 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2039 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2034 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2038 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2037 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2035 type = land size = 1 area = yes }
+			garrison = { country = ENG province = 2036 type = land size = 1 area = yes }
+			## British land on shore or area which has shore province, no paratroopers or attack from other south american country counts (then the war must be won normally)
+		}
+		flag = falkland_beach3	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771115_NAME"
+	desc = "EVT_7771115_DESC"
+	picture = "buenos_night"
+	style = 0
+
+	action_a = {
+		name = "Governament falls"
+		command = { type = dissent value = -20 }
+		command = { type = regime_falls }
+		command = { type = clrflag which = falkland_beach3 }
+		command = { type = trigger which = 7771116 }
+	}
+}
+#british set up puppet governament in argentina
+event = {
+	id = 7771116
+	random = no
+	country = ENG
+
+	name = "EVT_7771116_NAME"
+	desc = "EVT_7771116_DESC"
+	picture = "buenos_night"
+	style = 0
+
+	action_a = {
+		name = "Puppet Argenitina"
+		ai_chance = 90
+		command = { type = peace which = ARG value = 0 }
+		command = { type = trigger which = 7771117 }
+	}
+	action_b = {
+		name = "A simple peace is enough"
+		ai_chance = 10
+		command = { type = peace which = ARG value = 0 }
+		command = { type = set_relation which = ARG value = 100 }
+	}
+}
+#british set up puppet governament in argentina
+event = {
+	id = 7771117
+	random = no
+	country = ENG
+
+	name = "EVT_7771117_NAME"
+	desc = "EVT_7771117_DESC"
+	picture = "buenos_night"
+	style = 0
+
+	action_a = {
+		name = "Ok"
+		command = { type = make_puppet which = ARG }
+		command = { type = set_relation which = ARG value = 200 }
+		command = { type = trigger which = 7771118 }
+	}
+
+}
+#british set up puppet governament in argentina
+event = {
+	id = 7771118
+	random = no
+	country = ARG
+
+	name = "EVT_7771118_NAME"
+	desc = "EVT_7771118_DESC"
+	picture = "buenos_night"
+	style = 0
+
+	action_a = {
+		name = "Ok"
+		command = { type = removecore which = 2045 }
+	}
+
+}
+#Argentinian blockade of Falklands
+event = {
+	id = 7771119
+	random = no
+	country = ENG
+	trigger = {	
+		garrison = { country = ARG province = 2000 type = naval size = 1 area = no }
+		garrison = { country = ARG province = 2001 type = naval size = 1 area = no }
+		control = { province = 2045 data = ENG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771119_NAME"
+	desc = "EVT_7771119_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Argh!"
+		command = { type = dissent value = 1 }
+		command = { type = supply_dist_mod value = -5 }
+	}
+}
+#British blockade of Falklands
+event = {
+	id = 7771120
+	random = no
+	country = ARG
+	trigger = {	
+		garrison = { country = ENG province = 2297 type = naval size = 1 area = no }
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 30
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771120_NAME"
+	desc = "EVT_7771120_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Argh!"
+		command = { type = dissent value = 1 }
+		command = { type = supply_dist_mod value = -5 }
+	}
+}
+####################################
+#Argentinians land on Falklands
+####################################
+event = {
+	id = 7771121
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2007 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2007 }
+	name = "EVT_7771121_NAME"
+	desc = "EVT_7771121_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_107}
+	}
+}
+event = {
+	id = 7771122
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2008 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2008 }
+	name = "EVT_7771122_NAME"
+	desc = "EVT_7771122_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_108}
+	}
+}
+event = {
+	id = 7771123
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2009 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2009 }
+	name = "EVT_7771123_NAME"
+	desc = "EVT_7771123_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_109}
+	}
+}
+event = {
+	id = 7771124
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2010 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2010 }
+	name = "EVT_7771124_NAME"
+	desc = "EVT_7771124_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_110 }
+	}
+}
+event = {
+	id = 7771125
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2011 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2011 }
+	name = "EVT_7771125_NAME"
+	desc = "EVT_7771125_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_111}
+	}
+}
+event = {
+	id = 7771126
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2012 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2012 }
+	name = "EVT_7771126_NAME"
+	desc = "EVT_7771126_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_112 }
+	}
+}
+event = {
+	id = 7771127
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2013 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2013 }
+	name = "EVT_7771127_NAME"
+	desc = "EVT_7771127_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_113 }
+	}
+}
+event = {
+	id = 7771128
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2014 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2014 }
+	name = "EVT_7771128_NAME"
+	desc = "EVT_7771128_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_114 }
+	}
+}
+event = {
+	id = 7771129
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2015 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2015 }
+	name = "EVT_7771129_NAME"
+	desc = "EVT_7771129_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_115}
+	}
+}
+event = {
+	id = 7771130
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2016 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2016 }
+	name = "EVT_7771130_NAME"
+	desc = "EVT_7771130_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_116}
+	}
+}
+event = {
+	id = 7771131
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2017 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2017 }
+	name = "EVT_7771131_NAME"
+	desc = "EVT_7771131_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_117}
+	}
+}
+event = {
+	id = 7771132
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2018 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2018 }
+	name = "EVT_7771132_NAME"
+	desc = "EVT_7771132_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_118}
+	}
+}
+event = {
+	id = 7771133
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2019 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2019 }
+	name = "EVT_7771133_NAME"
+	desc = "EVT_7771133_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_119}
+	}
+}
+event = {
+	id = 7771134
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 1 month = january year = 2020 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771134_NAME"
+	desc = "EVT_7771134_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_120}
+	}
+}
+event = {
+	id = 7771135
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2020 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2020 }
+	name = "EVT_7771135_NAME"
+	desc = "EVT_7771135_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_220}
+	}
+}
+event = {
+	id = 7771136
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2019 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2019 }
+	name = "EVT_7771136_NAME"
+	desc = "EVT_7771136_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_219 }
+	}
+}
+event = {
+	id = 7771137
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2018 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2018 }
+	name = "EVT_7771137_NAME"
+	desc = "EVT_7771137_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_218 }
+	}
+}
+event = {
+	id = 7771138
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2017 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2017 }
+	name = "EVT_7771138_NAME"
+	desc = "EVT_7771138_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_217 }
+	}
+}
+event = {
+	id = 7771139
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2016 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2016 }
+	name = "EVT_7771139_NAME"
+	desc = "EVT_7771139_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_216 }
+	}
+}
+event = {
+	id = 7771140
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2015 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2015 }
+	name = "EVT_7771140_NAME"
+	desc = "EVT_7771140_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_215 }
+	}
+}
+event = {
+	id = 7771141
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2014 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2014 }
+	name = "EVT_7771141_NAME"
+	desc = "EVT_7771141_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_214 }
+	}
+}
+event = {
+	id = 7771142
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2013 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2013 }
+	name = "EVT_7771142_NAME"
+	desc = "EVT_7771142_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_213 }
+	}
+}
+event = {
+	id = 7771143
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2012 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2012 }
+	name = "EVT_7771143_NAME"
+	desc = "EVT_7771143_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_212 }
+	}
+}
+event = {
+	id = 7771144
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2011 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2011 }
+	name = "EVT_7771144_NAME"
+	desc = "EVT_7771144_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_211 }
+	}
+}
+event = {
+	id = 7771145
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2010 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2010 }
+	name = "EVT_7771145_NAME"
+	desc = "EVT_7771145_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_210 }
+	}
+}
+event = {
+	id = 7771146
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2009 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2009 }
+	name = "EVT_7771146_NAME"
+	desc = "EVT_7771146_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_209 }
+	}
+}
+event = {
+	id = 7771147
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2008 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2008 }
+	name = "EVT_7771147_NAME"
+	desc = "EVT_7771147_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_208 }
+	}
+}
+event = {
+	id = 7771148
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2007 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2007 }
+	name = "EVT_7771148_NAME"
+	desc = "EVT_7771148_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_207 }
+	}
+}
+########################################################
+############# Invasion in effect #######################
+########################################################
+event = {
+	id = 7771149
+	random = no
+	country = ENG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		OR = {
+			flag = falkland_107
+			flag = falkland_108
+			flag = falkland_109
+			flag = falkland_110
+			flag = falkland_111
+			flag = falkland_112
+			flag = falkland_113
+			flag = falkland_114
+			flag = falkland_115
+			flag = falkland_116
+			flag = falkland_117
+			flag = falkland_118
+			flag = falkland_119
+			flag = falkland_120
+			flag = falkland_207
+			flag = falkland_208
+			flag = falkland_209
+			flag = falkland_210
+			flag = falkland_211
+			flag = falkland_212
+			flag = falkland_213
+			flag = falkland_214
+			flag = falkland_215
+			flag = falkland_216
+			flag = falkland_217
+			flag = falkland_218
+			flag = falkland_219
+			flag = falkland_220
+		}
+		flag = falkland_war	
+		random = 90
+	}
+
+	date = { day = 2 month = july year = 2007 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2027 }
+	name = "EVT_7771149_NAME"
+	desc = "EVT_7771149_DESC"
+	picture = "falk_stanley"
+	style = 0
+
+	action_a = {
+		name = "Double the efforts"
+		command = { type = dissent value = 2 }
+	}
+}
+########################################################
+############# War ends in Argentinian Victory###########
+########################################################
+event = {
+	id = 7771150
+	random = no
+	country = ENG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_occupy
+	}
+
+	date = { day = 2 month = july year = 2007 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2027 }
+	name = "EVT_7771150_NAME"
+	desc = "EVT_7771150_DESC"
+	picture = "falk_stanley"
+	style = 0
+
+	action_a = {
+		name = "We have lost it here in London"
+	ai_chance = 99
+		command = { type = dissent value = 2 }
+		command = { type = peace which = ARG value = 0 }
+		command = { type = secedeprovince which = ARG value = 2045 }
+		command = { type = clrflag which = falkland_war }
+		command = { type = clrflag which = falkland_occupy }
+	}
+	action_b = {
+		name = "It is not over yet!"
+	ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = clrflag which = falkland_war }
+		command = { type = clrflag which = falkland_occupy }
+	}
+}
+event = {
+	id = 7771151
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		#event = 7771149
+		flag = falkland_107
+	}
+
+	date = { day = 1 month = january year = 2008 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2008 }
+	name = "EVT_7771151_NAME"
+	desc = "EVT_7771151_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_107 }
+	}
+}
+event = {
+	id = 7771152
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war
+		#event = 7771149	
+		flag = falkland_108
+	}
+
+	date = { day = 1 month = january year = 2009 }
+	offset = 10
+	name = "EVT_7771152_NAME"
+	desc = "EVT_7771152_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_108 }
+	}
+}
+event = {
+	id = 7771153
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war
+		#event = 7771149	
+		flag = falkland_109
+	}
+
+	date = { day = 1 month = january year = 2010 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2010 }
+	name = "EVT_7771153_NAME"
+	desc = "EVT_7771153_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_109 }
+	}
+}
+event = {
+	id = 7771154
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_110
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2011 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2011 }
+	name = "EVT_7771154_NAME"
+	desc = "EVT_7771154_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_110 }
+	}
+}
+event = {
+	id = 7771155
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_111
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2012 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2012 }
+	name = "EVT_7771155_NAME"
+	desc = "EVT_7771155_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_111 }
+	}
+}
+event = {
+	id = 7771156
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_112
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2013 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2013 }
+	name = "EVT_7771156_NAME"
+	desc = "EVT_7771156_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_112 }
+	}
+}
+event = {
+	id = 7771157
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war
+		#event = 7771149	
+		flag = falkland_113
+	}
+
+	date = { day = 1 month = january year = 2014 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2014 }
+	name = "EVT_7771157_NAME"
+	desc = "EVT_7771157_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_113 }
+	}
+}
+event = {
+	id = 7771158
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_114
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2015 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2015 }
+	name = "EVT_7771158_NAME"
+	desc = "EVT_7771158_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_114 }
+	}
+}
+event = {
+	id = 7771159
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war
+		#event = 7771149	
+		flag = falkland_115
+	}
+
+	date = { day = 1 month = january year = 2016 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2016 }
+	name = "EVT_7771159_NAME"
+	desc = "EVT_7771159_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_115 }
+	}
+}
+event = {
+	id = 7771160
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_116
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2017 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2017 }
+	name = "EVT_7771160_NAME"
+	desc = "EVT_7771160_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_116 }
+	}
+}
+event = {
+	id = 7771161
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_117
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2018 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2018 }
+	name = "EVT_7771161_NAME"
+	desc = "EVT_7771161_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_117 }
+	}
+}
+event = {
+	id = 7771162
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_118
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2019 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2019 }
+	name = "EVT_7771162_NAME"
+	desc = "EVT_7771162_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_118 }
+	}
+}
+event = {
+	id = 7771163
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_119
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2020 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2020 }
+	name = "EVT_7771163_NAME"
+	desc = "EVT_7771163_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_119 }
+	}
+}
+event = {
+	id = 7771164
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_120
+		#event = 7771149
+	}
+
+	date = { day = 1 month = january year = 2021 }
+	offset = 10
+	deathdate = { day = 1 month = july year = 2021 }
+	name = "EVT_7771164_NAME"
+	desc = "EVT_7771164_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_120 }
+	}
+}
+event = {
+	id = 7771165
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_220
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2021 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2021 }
+	name = "EVT_7771165_NAME"
+	desc = "EVT_7771165_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_220 }
+	}
+}
+}
+event = {
+	id = 7771166
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_219
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2020 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2020 }
+	name = "EVT_7771166_NAME"
+	desc = "EVT_7771166_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_219 }
+	}
+}
+}
+event = {
+	id = 7771167
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_218
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2019 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2019 }
+	name = "EVT_7771167_NAME"
+	desc = "EVT_7771167_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_218 }
+	}
+}
+event = {
+	id = 7771168
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_217
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2018 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2018 }
+	name = "EVT_7771168_NAME"
+	desc = "EVT_7771168_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_217 }
+	}
+}
+event = {
+	id = 7771169
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_216
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2017 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2017 }
+	name = "EVT_7771169_NAME"
+	desc = "EVT_7771169_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_216 }
+	}
+}
+event = {
+	id = 7771170
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_215
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2016 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2016 }
+	name = "EVT_7771170_NAME"
+	desc = "EVT_7771170_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_215 }
+	}
+}
+event = {
+	id = 7771171
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_214
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2015 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2015 }
+	name = "EVT_7771171_NAME"
+	desc = "EVT_7771171_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_214 }
+	}
+}
+event = {
+	id = 7771172
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_213
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2014 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2014 }
+	name = "EVT_7771172_NAME"
+	desc = "EVT_7771172_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_213 }
+	}
+}
+event = {
+	id = 7771173
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_212
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2013 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2013 }
+	name = "EVT_7771173_NAME"
+	desc = "EVT_7771173_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_212 }
+	}
+}
+event = {
+	id = 7771174
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_211
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2012 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2012 }
+	name = "EVT_7771174_NAME"
+	desc = "EVT_7771174_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_211 }
+	}
+}
+event = {
+	id = 7771175
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_210
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2011 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2011 }
+	name = "EVT_7771175_NAME"
+	desc = "EVT_7771175_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_210 }
+	}
+}
+event = {
+	id = 7771176
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_209
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2010 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2010 }
+	name = "EVT_7771176_NAME"
+	desc = "EVT_7771176_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_209 }
+	}
+}
+event = {
+	id = 7771177
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_208
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2009 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2009 }
+	name = "EVT_7771177_NAME"
+	desc = "EVT_7771177_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_208 }
+	}
+}
+event = {
+	id = 7771178
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 data = ARG }
+		flag = falkland_war	
+		flag = falkland_207
+		#event = 7771149
+	}
+
+	date = { day = 1 month = july year = 2008 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2008 }
+	name = "EVT_7771178_NAME"
+	desc = "EVT_7771178_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great"
+		command = { type = dissent value = -1 }
+		command = { type = setflag which = falkland_occupy }
+		command = { type = clrflag which = falkland_207 }
+	}
+}
+event = {
+	id = 7771179
+	random = no
+	country = ARG
+	trigger = {	
+		control = { province = 2045 country = ENG }
+		OR = {
+			flag = falkland_107
+			flag = falkland_108
+			flag = falkland_109
+			flag = falkland_110
+			flag = falkland_111
+			flag = falkland_112
+			flag = falkland_113
+			flag = falkland_114
+			flag = falkland_115
+			flag = falkland_116
+			flag = falkland_117
+			flag = falkland_118
+			flag = falkland_119
+			flag = falkland_120
+			flag = falkland_207
+			flag = falkland_208
+			flag = falkland_209
+			flag = falkland_210
+			flag = falkland_211
+			flag = falkland_212
+			flag = falkland_213
+			flag = falkland_214
+			flag = falkland_215
+			flag = falkland_216
+			flag = falkland_217
+			flag = falkland_218
+			flag = falkland_219
+			flag = falkland_220
+		}
+	}
+
+	date = { day = 1 month = july year = 2007 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2028 }
+	name = "EVT_7771179_NAME"
+	desc = "EVT_7771179_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Damn it"
+		command = { type = dissent value = 10 }
+		command = { type = sleepevent which = 7771121 }
+		command = { type = sleepevent which = 7771122 }
+		command = { type = sleepevent which = 7771123 }
+		command = { type = sleepevent which = 7771124 }
+		command = { type = sleepevent which = 7771125 }
+		command = { type = sleepevent which = 7771126 }
+		command = { type = sleepevent which = 7771127 }
+		command = { type = sleepevent which = 7771128 }
+		command = { type = sleepevent which = 7771129 }
+		command = { type = sleepevent which = 7771130 }
+		command = { type = sleepevent which = 7771131 }
+		command = { type = sleepevent which = 7771132 }
+		command = { type = sleepevent which = 7771133 }
+		command = { type = sleepevent which = 7771134 }
+		command = { type = sleepevent which = 7771135 }
+		command = { type = sleepevent which = 7771136 }
+		command = { type = sleepevent which = 7771137 }
+		command = { type = sleepevent which = 7771138 }
+		command = { type = sleepevent which = 7771139 }
+		command = { type = sleepevent which = 7771140 }
+		command = { type = sleepevent which = 7771141 }
+		command = { type = sleepevent which = 7771142 }
+		command = { type = sleepevent which = 7771143 }
+		command = { type = sleepevent which = 7771144 }
+		command = { type = sleepevent which = 7771145 }
+		command = { type = sleepevent which = 7771146 }
+		command = { type = sleepevent which = 7771147 }
+		command = { type = sleepevent which = 7771148 }
+
+	}
+}
+
+#so basically the above require argentina to occupy falklands for 6-12 months with 2 events checking if it happens and then they win because of british dissent. otherwise war goes on.
+
+
+#########################################
+#Militias to balance argentinas force####
+#########################################
+event = {
+	id = 7771180
+	random = no
+	country = ARG
+	trigger = {	
+		flag = falkland_war	
+	}
+
+	date = { day = 2 month = july year = 2007 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2208 }
+	name = "EVT_7771180_NAME"
+	desc = "EVT_7771180_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = dissent value = -1 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+	}
+}
+event = {
+	id = 7771181
+	random = no
+	country = BRA
+	trigger = {	
+		random = 50
+		flag = falkland_war	
+		NOT = { alliance = { country = BRA country = ARG } }
+	}
+
+	date = { day = 2 month = july year = 2007 }
+	offset = 10
+	deathdate = { day = 30 month = december year = 2208 }
+	name = "EVT_7771181_NAME"
+	desc = "EVT_7771181_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Allow Brazilians to help"
+	ai_chance = 99
+		command = { type = trigger which = 7771182 }
+		command = { type = manpower value = -25 }
+	}
+	action_b = {
+		name = "Refuse any help in the war"
+	ai_chance = 1
+		command = { type = relation which = ARG value = -50 }
+	}
+}
+event = {
+	id = 7771182
+	random = no
+	country = ARG
+
+	name = "EVT_7771182_NAME"
+	desc = "EVT_7771182_DESC"
+	picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "Great!"
+		command = { type = add_division which = "Brazilian militia" value = militia when = 0 }
+		command = { type = add_division which = "Brazilian militia" value = militia when = 0 }
+	}
+}
+
+
+############################
+# THE FALKLAND WAR AI FILE #
+############################
+event = {
+	id = 7771183
+	random = no
+	country = ARG
+	trigger = {	
+		flag = falkland_war	
+		ai = yes
+	}
+
+	date = { day = 2 month = july year = 2003 }
+	offset = 2
+	deathdate = { day = 30 month = december year = 2208 }
+	name = "AI_EVENT"
+	desc = ""
+	#picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = ai which = "falkland.ai" }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+		command = { type = add_division which = "Local militia" value = militia when = 0 }
+	}
+}
+event = {
+	id = 7771184
+	random = no
+	country = ENG
+	trigger = {	
+		flag = falkland_war	
+		ai = yes
+	}
+
+	date = { day = 2 month = july year = 2003 }
+	offset = 2
+	deathdate = { day = 30 month = december year = 2208 }
+	name = "AI_EVENT"
+	desc = ""
+	#picture = "falk_sat"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = ai which = "falkland.ai" }
+	}
+}

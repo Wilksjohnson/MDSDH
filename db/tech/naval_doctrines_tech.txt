@@ -1,0 +1,1075 @@
+technology =
+{ id          = 8
+  category    = naval_doctrines
+  name        = TECH_ND_NAME
+  desc        = TECH_ND_DESC
+  label =
+  { tag      = TECH_CAT_EACW
+    position = { x = 1 y = -16 }
+  }
+  label =
+  { tag      = TECH_CAT_MICW
+    position = { x = 140 y = -16 }
+  }
+  label =
+  { tag      = TECH_CAT_LACW
+    position = { x = 266 y = -16 }
+  }
+  label =
+  { tag      = TECH_CAT_POCW
+    position = { x = 415 y = -16 }
+  }
+  label =
+  { tag      = TECH_CAT_21ST
+    position = { x = 545 y = -16 }
+  }
+  label =
+  { tag      = TECH_CAT_FFFLO
+    position = { x = 88 y = 154 }
+  }
+  label =
+  { tag      = TECH_CAT_DDFLO
+    position = { x = 212 y = 154 }
+  }
+  label =
+  { tag      = TECH_CAT_CGFLO
+    position = { x = 339 y = 154 }
+  }
+  label =
+  { tag      = TECH_CAT_CVFLO
+    position = { x = 473 y = 155 }
+  }
+  # ############### Frigate Operations ###############
+  application =
+  { id        = 8000
+    name      = TECH_APP_ND_0_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = -2 y = 54 }
+    year      = 2000
+    component = { id = 8001 name = "" type = large_taskforce_tactics difficulty = 3 }
+    component = { id = 8002 name = "" type = large_taskforce_tactics difficulty = 3 }
+    component = { id = 8003 name = "" type = large_taskforce_tactics difficulty = 3 }
+    component = { id = 8004 name = "" type = large_taskforce_tactics difficulty = 3 }
+    component = { id = 8005 name = "" type = large_taskforce_tactics difficulty = 3 }
+    required  = { 3000 8900 }
+    effects =
+    { command = { type = info_may_cause which = 3000 }
+      command = { type = max_positioning which = destroyer value = 0.15 }
+      command = { type = min_positioning which = destroyer value = 0.15 }
+      command = { type = morale which = destroyer value = 5 }
+    }
+  }
+  application =
+  { id        = 8010
+    name      = TECH_APP_ND_1_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 132 y = 54 }
+    year      = 2000
+    component = { id = 8011 name = "" type = large_taskforce_tactics difficulty = 3 }
+    component = { id = 8012 name = "" type = large_taskforce_tactics difficulty = 3 }
+    component = { id = 8013 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8014 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8015 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 8000 8910 }
+    effects =
+    { command = { type = max_positioning which = destroyer value = 0.15 }
+      command = { type = min_positioning which = destroyer value = 0.15 }
+      command = { type = morale which = destroyer value = 5 }
+    }
+  }
+  application =
+  { id        = 8020
+    name      = TECH_APP_ND_2_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 264 y = 54 }
+    year      = 2000
+    component = { id = 8021 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8022 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8023 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8024 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8025 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 8010 8920 }
+    effects =
+    { command = { type = max_positioning which = destroyer value = 0.15 }
+      command = { type = min_positioning which = destroyer value = 0.15 }
+      command = { type = morale which = destroyer value = 5 }
+    }
+  }
+  application =
+  { id        = 8030
+    name      = TECH_APP_ND_3_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 396 y = 54 }
+    year      = 2000
+    component = { id = 8031 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8032 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8033 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8034 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8035 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 8020 8930 }
+    effects =
+    { command = { type = max_positioning which = destroyer value = 0.15 }
+      command = { type = min_positioning which = destroyer value = 0.15 }
+      command = { type = morale which = destroyer value = 5 }
+    }
+  }
+  application =
+  { id        = 8040
+    name      = TECH_APP_ND_4_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 528 y = 54 }
+    year      = 2000
+    component = { id = 8041 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8042 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8043 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8044 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8045 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8030 8940 }
+    effects =
+    { command = { type = max_positioning which = destroyer value = 0.15 }
+      command = { type = min_positioning which = destroyer value = 0.15 }
+      command = { type = morale which = destroyer value = 5 }
+    }
+  }
+  # ############### Destroyer Operations ###############
+  application =
+  { id        = 8100
+    name      = TECH_APP_ND_10_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = -2 y = 72 }
+    year      = 2000
+    component = { id = 8101 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8102 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8103 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8104 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8105 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 3100 8900 }
+    effects =
+    { command = { type = info_may_cause which = 3000 }
+      command = { type = max_positioning which = light_cruiser value = 0.15 }
+      command = { type = min_positioning which = light_cruiser value = 0.15 }
+      command = { type = morale which = light_cruiser value = 5 }
+    }
+  }
+  application =
+  { id        = 8110
+    name      = TECH_APP_ND_11_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 132 y = 72 }
+    year      = 2000
+    component = { id = 8111 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8112 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8113 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8114 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8115 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 8100 8910 }
+    effects =
+    { command = { type = max_positioning which = light_cruiser value = 0.15 }
+      command = { type = min_positioning which = light_cruiser value = 0.15 }
+      command = { type = morale which = light_cruiser value = 5 }
+    }
+  }
+  application =
+  { id        = 8120
+    name      = TECH_APP_ND_12_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 264 y = 72 }
+    year      = 2000
+    component = { id = 8121 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8122 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8123 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8124 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8125 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8110 8920 }
+    effects =
+    { command = { type = max_positioning which = light_cruiser value = 0.15 }
+      command = { type = min_positioning which = light_cruiser value = 0.15 }
+      command = { type = morale which = light_cruiser value = 5 }
+    }
+  }
+  application =
+  { id        = 8130
+    name      = TECH_APP_ND_13_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 396 y = 72 }
+    year      = 2000
+    component = { id = 8131 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8132 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8133 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8134 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8135 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8120 8930 }
+    effects =
+    { command = { type = max_positioning which = light_cruiser value = 0.15 }
+      command = { type = min_positioning which = light_cruiser value = 0.15 }
+      command = { type = morale which = light_cruiser value = 5 }
+    }
+  }
+  application =
+  { id        = 8140
+    name      = TECH_APP_ND_14_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 528 y = 72 }
+    year      = 2000
+    component = { id = 8141 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8142 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8143 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8144 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8145 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required  = { 8130 8940 }
+    effects =
+    { command = { type = max_positioning which = light_cruiser value = 0.15 }
+      command = { type = min_positioning which = light_cruiser value = 0.15 }
+      command = { type = morale which = light_cruiser value = 5 }
+    }
+  }
+  # ############### Cruiser Operations ###############
+  application =
+  { id          = 8200
+    name        = TECH_APP_ND_20_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = -2 y = 90 }
+    year      = 2000
+    component   = { id = 8201 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component   = { id = 8202 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component   = { id = 8203 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component   = { id = 8204 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component   = { id = 8205 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required    = { 8900 }
+    effects =
+    { command = { type = info_may_cause which = 3200 }
+      command = { type = info_may_cause which = 32220 }
+      command = { type = max_positioning which = battlecruiser value = 0.15 }
+      command = { type = min_positioning which = battlecruiser value = 0.15 }
+      command = { type = max_positioning which = battleship value = 0.15 }
+      command = { type = min_positioning which = battleship value = 0.15 }
+      command = { type = morale which = battlecruiser value = 5 }
+      command = { type = morale which = battleship value = 5 }
+    }
+    OR_required = { 3200 32220 }
+  }
+  application =
+  { id        = 8210
+    name      = TECH_APP_ND_21_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 132 y = 90 }
+    year      = 2000
+    component = { id = 8211 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8212 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8213 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8214 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8215 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8200 8910 }
+    effects =
+    { command = { type = max_positioning which = battlecruiser value = 0.15 }
+      command = { type = min_positioning which = battlecruiser value = 0.15 }
+      command = { type = max_positioning which = battleship value = 0.15 }
+      command = { type = min_positioning which = battleship value = 0.15 }
+      command = { type = morale which = battlecruiser value = 5 }
+      command = { type = morale which = battleship value = 5 }
+    }
+  }
+  application =
+  { id        = 8220
+    name      = TECH_APP_ND_22_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 264 y = 90 }
+    year      = 2000
+    component = { id = 8221 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8222 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8223 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8224 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8225 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required  = { 8210 8920 }
+    effects =
+    { command = { type = max_positioning which = battlecruiser value = 0.15 }
+      command = { type = min_positioning which = battlecruiser value = 0.15 }
+      command = { type = max_positioning which = battleship value = 0.15 }
+      command = { type = min_positioning which = battleship value = 0.15 }
+      command = { type = morale which = battlecruiser value = 5 }
+      command = { type = morale which = battleship value = 5 }
+    }
+  }
+  application =
+  { id        = 8230
+    name      = TECH_APP_ND_23_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 396 y = 90 }
+    year      = 2000
+    component = { id = 8231 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8232 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8233 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8234 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8235 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required  = { 8220 8930 }
+    effects =
+    { command = { type = max_positioning which = battlecruiser value = 0.15 }
+      command = { type = min_positioning which = battlecruiser value = 0.15 }
+      command = { type = max_positioning which = battleship value = 0.15 }
+      command = { type = min_positioning which = battleship value = 0.15 }
+      command = { type = morale which = battlecruiser value = 5 }
+      command = { type = morale which = battleship value = 5 }
+    }
+  }
+  application =
+  { id        = 8240
+    name      = TECH_APP_ND_24_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 528 y = 90 }
+    year      = 2000
+    component = { id = 8241 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8242 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8243 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8244 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8245 name = "" type = large_taskforce_tactics difficulty = 7 }
+    required  = { 8230 8940 }
+    effects =
+    { command = { type = max_positioning which = battlecruiser value = 0.15 }
+      command = { type = min_positioning which = battlecruiser value = 0.15 }
+      command = { type = max_positioning which = battleship value = 0.15 }
+      command = { type = min_positioning which = battleship value = 0.15 }
+      command = { type = morale which = battlecruiser value = 5 }
+      command = { type = morale which = battleship value = 5 }
+    }
+  }
+  # ############### Carrier Operations ###############
+  application =
+  { id          = 8300
+    name        = TECH_APP_ND_30_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = -2 y = 108 }
+    year      = 2000
+    component   = { id = 8301 name = "" type = carrier_tactics difficulty = 6 }
+    component   = { id = 8302 name = "" type = carrier_tactics difficulty = 6 }
+    component   = { id = 8303 name = "" type = carrier_tactics difficulty = 6 }
+    component   = { id = 8304 name = "" type = carrier_tactics difficulty = 6 }
+    component   = { id = 8305 name = "" type = carrier_tactics difficulty = 6 }
+    required    = { 6030 8900 }
+    effects =
+    { command = { type = info_may_cause which = 6030 }
+      command = { type = info_may_cause which = 3300 }
+      command = { type = info_may_cause which = 3400 }
+      command = { type = info_may_cause which = 3500 }
+      command = { type = max_positioning which = carrier value = 0.15 }
+      command = { type = min_positioning which = carrier value = 0.15 }
+      command = { type = max_positioning which = escort_carrier value = 0.15 }
+      command = { type = min_positioning which = escort_carrier value = 0.15 }
+      command = { type = morale which = carrier value = 5 }
+      command = { type = morale which = escort_carrier value = 5 }
+    }
+    OR_required = { 3300 3400 3500 }
+  }
+  application =
+  { id        = 8310
+    name      = TECH_APP_ND_31_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 132 y = 108 }
+    year      = 2000
+    component = { id = 8311 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8312 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8313 name = "" type = carrier_tactics difficulty = 6 }
+    component = { id = 8314 name = "" type = carrier_tactics difficulty = 6 }
+    component = { id = 8315 name = "" type = carrier_tactics difficulty = 6 }
+    required  = { 8300 8910 }
+    effects =
+    { command = { type = max_positioning which = carrier value = 0.15 }
+      command = { type = min_positioning which = carrier value = 0.15 }
+      command = { type = max_positioning which = escort_carrier value = 0.15 }
+      command = { type = min_positioning which = escort_carrier value = 0.15 }
+      command = { type = morale which = carrier value = 5 }
+      command = { type = morale which = escort_carrier value = 5 }
+    }
+  }
+  application =
+  { id        = 8320
+    name      = TECH_APP_ND_32_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 264 y = 108 }
+    year      = 2000
+    component = { id = 8321 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8322 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8323 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8324 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8325 name = "" type = carrier_tactics difficulty = 7 }
+    required  = { 8310 8920 }
+    effects =
+    { command = { type = max_positioning which = carrier value = 0.15 }
+      command = { type = min_positioning which = carrier value = 0.15 }
+      command = { type = max_positioning which = escort_carrier value = 0.15 }
+      command = { type = min_positioning which = escort_carrier value = 0.15 }
+      command = { type = morale which = carrier value = 5 }
+      command = { type = morale which = escort_carrier value = 5 }
+    }
+  }
+  application =
+  { id        = 8330
+    name      = TECH_APP_ND_33_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 396 y = 108 }
+    year      = 2000
+    component = { id = 8331 name = "" type = carrier_tactics difficulty = 8 }
+    component = { id = 8332 name = "" type = carrier_tactics difficulty = 8 }
+    component = { id = 8333 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8334 name = "" type = carrier_tactics difficulty = 7 }
+    component = { id = 8335 name = "" type = carrier_tactics difficulty = 7 }
+    required  = { 8320 8930 }
+    effects =
+    { command = { type = max_positioning which = carrier value = 0.15 }
+      command = { type = min_positioning which = carrier value = 0.15 }
+      command = { type = max_positioning which = escort_carrier value = 0.15 }
+      command = { type = min_positioning which = escort_carrier value = 0.15 }
+      command = { type = morale which = carrier value = 5 }
+      command = { type = morale which = escort_carrier value = 5 }
+    }
+  }
+  application =
+  { id        = 8340
+    name      = TECH_APP_ND_34_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 528 y = 108 }
+    year      = 2000
+    component = { id = 8341 name = "" type = carrier_tactics difficulty = 8 }
+    component = { id = 8342 name = "" type = carrier_tactics difficulty = 8 }
+    component = { id = 8343 name = "" type = carrier_tactics difficulty = 8 }
+    component = { id = 8344 name = "" type = carrier_tactics difficulty = 8 }
+    component = { id = 8345 name = "" type = carrier_tactics difficulty = 8 }
+    required  = { 8330 8940 }
+    effects =
+    { command = { type = max_positioning which = carrier value = 0.15 }
+      command = { type = min_positioning which = carrier value = 0.15 }
+      command = { type = max_positioning which = escort_carrier value = 0.15 }
+      command = { type = min_positioning which = escort_carrier value = 0.15 }
+      command = { type = morale which = carrier value = 5 }
+      command = { type = morale which = escort_carrier value = 5 }
+    }
+  }
+  # ############### Submarine Operations ###############
+  application =
+  { id          = 8400
+    name        = TECH_APP_ND_40_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = -2 y = 36 }
+    year      = 2000
+    component   = { id = 8401 name = "" type = submarine_tactics difficulty = 5 }
+    component   = { id = 8402 name = "" type = submarine_tactics difficulty = 5 }
+    component   = { id = 8403 name = "" type = submarine_tactics difficulty = 5 }
+    component   = { id = 8404 name = "" type = submarine_tactics difficulty = 5 }
+    component   = { id = 8405 name = "" type = submarine_tactics difficulty = 5 }
+    required    = { 8900 }
+    effects =
+    { command = { type = info_may_cause which = 3700 }
+      command = { type = info_may_cause which = 3800 }
+      command = { type = info_may_cause which = 3900 }
+      command = { type = max_positioning which = submarine value = 0.15 }
+      command = { type = min_positioning which = submarine value = 0.15 }
+      command = { type = max_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = min_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = morale which = heavy_cruiser value = 5 }
+      command = { type = morale which = submarine value = 5 }
+    }
+    OR_required = { 3700 3800 3900 }
+  }
+  application =
+  { id        = 8410
+    name      = TECH_APP_ND_41_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 132 y = 36 }
+    year      = 2000
+    component = { id = 8411 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8412 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8413 name = "" type = submarine_tactics difficulty = 5 }
+    component = { id = 8414 name = "" type = submarine_tactics difficulty = 5 }
+    component = { id = 8415 name = "" type = submarine_tactics difficulty = 5 }
+    required  = { 8400 8910 }
+    effects =
+    { command = { type = max_positioning which = submarine value = 0.15 }
+      command = { type = min_positioning which = submarine value = 0.15 }
+      command = { type = max_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = min_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = morale which = heavy_cruiser value = 5 }
+      command = { type = morale which = submarine value = 5 }
+    }
+  }
+  application =
+  { id        = 8420
+    name      = TECH_APP_ND_42_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 264 y = 36 }
+    year      = 2000
+    component = { id = 8421 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8422 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8423 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8424 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8425 name = "" type = submarine_tactics difficulty = 6 }
+    required  = { 8410 8920 }
+    effects =
+    { command = { type = max_positioning which = submarine value = 0.15 }
+      command = { type = min_positioning which = submarine value = 0.15 }
+      command = { type = max_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = min_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = morale which = heavy_cruiser value = 5 }
+      command = { type = morale which = submarine value = 5 }
+    }
+  }
+  application =
+  { id        = 8430
+    name      = TECH_APP_ND_43_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 396 y = 36 }
+    year      = 2000
+    component = { id = 8431 name = "" type = submarine_tactics difficulty = 7 }
+    component = { id = 8432 name = "" type = submarine_tactics difficulty = 7 }
+    component = { id = 8433 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8434 name = "" type = submarine_tactics difficulty = 6 }
+    component = { id = 8435 name = "" type = submarine_tactics difficulty = 6 }
+    required  = { 8420 8930 }
+    effects =
+    { command = { type = max_positioning which = submarine value = 0.15 }
+      command = { type = min_positioning which = submarine value = 0.15 }
+      command = { type = max_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = min_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = morale which = heavy_cruiser value = 5 }
+      command = { type = morale which = submarine value = 5 }
+    }
+  }
+  application =
+  { id        = 8440
+    name      = TECH_APP_ND_44_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 528 y = 36 }
+    year      = 2000
+    component = { id = 8441 name = "" type = submarine_tactics difficulty = 7 }
+    component = { id = 8442 name = "" type = submarine_tactics difficulty = 7 }
+    component = { id = 8443 name = "" type = submarine_tactics difficulty = 7 }
+    component = { id = 8444 name = "" type = submarine_tactics difficulty = 7 }
+    component = { id = 8445 name = "" type = submarine_tactics difficulty = 7 }
+    required  = { 8430 8940 }
+    effects =
+    { command = { type = max_positioning which = submarine value = 0.15 }
+      command = { type = min_positioning which = submarine value = 0.15 }
+      command = { type = max_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = min_positioning which = heavy_cruiser value = 0.15 }
+      command = { type = morale which = heavy_cruiser value = 5 }
+      command = { type = morale which = submarine value = 5 }
+    }
+  }
+  # ############### Frigate Flotilla  ###############
+  application =
+  { id        = 8500
+    name      = TECH_APP_ND_50_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 68 y = 170 }
+    year      = 2000
+    component = { id = 8501 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8502 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8503 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8504 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8505 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 8000 }
+    effects =
+    { command = { type = max_organization which = destroyer value = 10 }
+    }
+  }
+  application =
+  { id        = 8510
+    name      = TECH_APP_ND_51_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 68 y = 188 }
+    year      = 2000
+    component = { id = 8511 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8512 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8513 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8514 name = "" type = large_taskforce_tactics difficulty = 4 }
+    component = { id = 8515 name = "" type = large_taskforce_tactics difficulty = 4 }
+    required  = { 8010 8500 }
+    effects =
+    { command = { type = max_organization which = destroyer value = 10 }
+    }
+  }
+  application =
+  { id        = 8520
+    name      = TECH_APP_ND_52_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 68 y = 206 }
+    year      = 2000
+    component = { id = 8521 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8522 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8523 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8524 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8525 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8020 8510 }
+    effects =
+    { command = { type = max_organization which = destroyer value = 10 }
+    }
+  }
+  application =
+  { id        = 8530
+    name      = TECH_APP_ND_53_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 68 y = 225 }
+    year      = 2000
+    component = { id = 8531 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8532 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8533 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8534 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8535 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8030 8520 }
+    effects =
+    { command = { type = max_organization which = destroyer value = 10 }
+    }
+  }
+  application =
+  { id        = 8540
+    name      = TECH_APP_ND_54_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 68 y = 242 }
+    year      = 2000
+    component = { id = 8541 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8542 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8543 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8544 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8545 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required  = { 8040 8530 }
+    effects =
+    { command = { type = max_organization which = destroyer value = 10 }
+    }
+  }
+  # ############### Destroyer Flotilla ###############
+  application =
+  { id        = 8600
+    name      = TECH_APP_ND_60_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 198 y = 170 }
+    year      = 2000
+    component = { id = 8601 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8602 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8603 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8604 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8605 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8100 }
+    effects =
+    { command = { type = max_organization which = light_cruiser value = 10 }
+    }
+  }
+  application =
+  { id        = 8610
+    name      = TECH_APP_ND_61_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 198 y = 188 }
+    year      = 2000
+    component = { id = 8611 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8612 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8613 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8614 name = "" type = large_taskforce_tactics difficulty = 5 }
+    component = { id = 8615 name = "" type = large_taskforce_tactics difficulty = 5 }
+    required  = { 8110 8600 }
+    effects =
+    { command = { type = max_organization which = light_cruiser value = 10 }
+    }
+  }
+  application =
+  { id        = 8620
+    name      = TECH_APP_ND_62_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 198 y = 206 }
+    year      = 2000
+    component = { id = 8621 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8622 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8623 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8624 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8625 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required  = { 8120 8610 }
+    effects =
+    { command = { type = max_organization which = light_cruiser value = 10 }
+    }
+  }
+  application =
+  { id        = 8630
+    name      = TECH_APP_ND_63_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 198 y = 224 }
+    year      = 2000
+    component = { id = 8631 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8632 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8633 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8634 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component = { id = 8635 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required  = { 8130 8620 }
+    effects =
+    { command = { type = max_organization which = light_cruiser value = 10 }
+    }
+  }
+  application =
+  { id        = 8640
+    name      = TECH_APP_ND_64_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 198 y = 242 }
+    year      = 2000
+    component = { id = 8641 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8642 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8643 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8644 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component = { id = 8645 name = "" type = large_taskforce_tactics difficulty = 7 }
+    required  = { 8140 8630 }
+    effects =
+    { command = { type = max_organization which = light_cruiser value = 10 }
+    }
+  }
+  # ############### Cruiser Battlegroup ###############
+  application =
+  { id          = 8700
+    name        = TECH_APP_ND_70_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 330 y = 170 }
+    year      = 2000
+    component   = { id = 8701 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component   = { id = 8702 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component   = { id = 8703 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component   = { id = 8704 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component   = { id = 8705 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required    = { 8200 }
+    effects =
+    { command = { type = max_organization which = battlecruiser value = 10 }
+      command = { type = max_organization which = battleship value = 10 }
+    }
+    OR_required = { 8000 8100 }
+  }
+  application =
+  { id          = 8710
+    name        = TECH_APP_ND_71_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 330 y = 188 }
+    year      = 2000
+    component   = { id = 8711 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8712 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8713 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component   = { id = 8714 name = "" type = large_taskforce_tactics difficulty = 6 }
+    component   = { id = 8715 name = "" type = large_taskforce_tactics difficulty = 6 }
+    required    = { 8210 8700 }
+    effects =
+    { command = { type = max_organization which = battlecruiser value = 10 }
+      command = { type = max_organization which = battleship value = 10 }
+    }
+    OR_required = { 8010 8110 }
+  }
+  application =
+  { id          = 8720
+    name        = TECH_APP_ND_72_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 330 y = 206 }
+    year      = 2000
+    component   = { id = 8721 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8722 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8723 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8724 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8725 name = "" type = large_taskforce_tactics difficulty = 7 }
+    required    = { 8220 8710 }
+    effects =
+    { command = { type = max_organization which = battlecruiser value = 10 }
+      command = { type = max_organization which = battleship value = 10 }
+    }
+    OR_required = { 8020 8120 }
+  }
+  application =
+  { id          = 8730
+    name        = TECH_APP_ND_73_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 330 y = 224 }
+    year      = 2000
+    component   = { id = 8731 name = "" type = large_taskforce_tactics difficulty = 8 }
+    component   = { id = 8732 name = "" type = large_taskforce_tactics difficulty = 8 }
+    component   = { id = 8733 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8734 name = "" type = large_taskforce_tactics difficulty = 7 }
+    component   = { id = 8735 name = "" type = large_taskforce_tactics difficulty = 7 }
+    required    = { 8230 8720 }
+    effects =
+    { command = { type = max_organization which = battlecruiser value = 10 }
+      command = { type = max_organization which = battleship value = 10 }
+    }
+    OR_required = { 8030 8130 }
+  }
+  application =
+  { id          = 8740
+    name        = TECH_APP_ND_74_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 330 y = 242 }
+    year      = 2000
+    component   = { id = 8741 name = "" type = large_taskforce_tactics difficulty = 8 }
+    component   = { id = 8742 name = "" type = large_taskforce_tactics difficulty = 8 }
+    component   = { id = 8743 name = "" type = large_taskforce_tactics difficulty = 8 }
+    component   = { id = 8744 name = "" type = large_taskforce_tactics difficulty = 8 }
+    component   = { id = 8745 name = "" type = large_taskforce_tactics difficulty = 8 }
+    required    = { 8240 8730 }
+    effects =
+    { command = { type = max_organization which = battlecruiser value = 10 }
+      command = { type = max_organization which = battleship value = 10 }
+    }
+    OR_required = { 8040 8140 }
+  }
+  # ############### Carrier Task Force ###############
+  application =
+  { id          = 8800
+    name        = TECH_APP_ND_80_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 462 y = 170 }
+    year      = 2000
+    component   = { id = 8801 name = "" type = carrier_tactics difficulty = 7 }
+    component   = { id = 8802 name = "" type = carrier_tactics difficulty = 7 }
+    component   = { id = 8803 name = "" type = carrier_tactics difficulty = 7 }
+    component   = { id = 8804 name = "" type = carrier_tactics difficulty = 7 }
+    component   = { id = 8805 name = "" type = carrier_tactics difficulty = 7 }
+    required    = { 8300 }
+    effects =
+    { command = { type = max_organization which = carrier value = 10 }
+      command = { type = max_organization which = escort_carrier value = 10 }
+    }
+    OR_required = { 8100 8200 }
+  }
+  application =
+  { id          = 8810
+    name        = TECH_APP_ND_81_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 462 y = 188 }
+    year      = 2000
+    component   = { id = 8811 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8812 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8813 name = "" type = carrier_tactics difficulty = 7 }
+    component   = { id = 8814 name = "" type = carrier_tactics difficulty = 7 }
+    component   = { id = 8815 name = "" type = carrier_tactics difficulty = 7 }
+    required    = { 8310 8800 }
+    effects =
+    { command = { type = max_organization which = carrier value = 10 }
+      command = { type = max_organization which = escort_carrier value = 10 }
+    }
+    OR_required = { 8110 8210 }
+  }
+  application =
+  { id          = 8820
+    name        = TECH_APP_ND_82_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 462 y = 206 }
+    year      = 2000
+    component   = { id = 8821 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8822 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8823 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8824 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8825 name = "" type = carrier_tactics difficulty = 8 }
+    required    = { 8320 8810 }
+    effects =
+    { command = { type = max_organization which = carrier value = 10 }
+      command = { type = max_organization which = escort_carrier value = 10 }
+    }
+    OR_required = { 8120 8220 }
+  }
+  application =
+  { id          = 8830
+    name        = TECH_APP_ND_83_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 462 y = 224 }
+    year      = 2000
+    component   = { id = 8831 name = "" type = carrier_tactics difficulty = 9 }
+    component   = { id = 8832 name = "" type = carrier_tactics difficulty = 9 }
+    component   = { id = 8833 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8834 name = "" type = carrier_tactics difficulty = 8 }
+    component   = { id = 8835 name = "" type = carrier_tactics difficulty = 8 }
+    required    = { 8330 8820 }
+    effects =
+    { command = { type = max_organization which = carrier value = 10 }
+      command = { type = max_organization which = escort_carrier value = 10 }
+    }
+    OR_required = { 8130 8230 }
+  }
+  application =
+  { id          = 8840
+    name        = TECH_APP_ND_84_NAME
+    desc        = TECH_APP_ND_1_DESC
+    position    = { x = 462 y = 242 }
+    year      = 2000
+    component   = { id = 8841 name = "" type = carrier_tactics difficulty = 9 }
+    component   = { id = 8842 name = "" type = carrier_tactics difficulty = 9 }
+    component   = { id = 8843 name = "" type = carrier_tactics difficulty = 9 }
+    component   = { id = 8844 name = "" type = carrier_tactics difficulty = 9 }
+    component   = { id = 8845 name = "" type = carrier_tactics difficulty = 9 }
+    required    = { 8330 8340 }
+    effects =
+    { command = { type = max_organization which = carrier value = 10 }
+      command = { type = max_organization which = escort_carrier value = 10 }
+    }
+    OR_required = { 8140 8240 }
+  }
+  # ############### Naval Logistics ###############
+  application =
+  { id        = 8900
+    name      = TECH_APP_ND_90_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = -18 y = 0 }
+    year      = 2000
+    component = { id = 8901 name = "" type = naval_training difficulty = 9 }
+    component = { id = 8902 name = "" type = naval_training difficulty = 9 }
+    component = { id = 8903 name = "" type = naval_training difficulty = 9 }
+    component = { id = 8904 name = "" type = naval_training difficulty = 9 }
+    component = { id = 8905 name = "" type = naval_training difficulty = 9 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = enable_task which = convoy_raiding }
+      command = { type = enable_task which = asw }
+      command = { type = task_efficiency which = asw value = 0.10 }
+      command = { type = task_efficiency which = convoy_raiding value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8910
+    name      = TECH_APP_ND_91_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 116 y = 0 }
+    year      = 2000
+    component = { id = 8911 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8912 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8913 name = "" type = naval_training difficulty = 9 }
+    component = { id = 8914 name = "" type = naval_training difficulty = 9 }
+    component = { id = 8915 name = "" type = naval_training difficulty = 9 }
+    required  = { 8900 }
+    effects =
+    { command = { type = task_efficiency which = asw value = 0.10 }
+      command = { type = task_efficiency which = convoy_raiding value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8920
+    name      = TECH_APP_ND_92_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 248 y = 0 }
+    year      = 2000
+    component = { id = 8921 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8922 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8923 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8924 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8925 name = "" type = naval_training difficulty = 10 }
+    required  = { 6200 8910 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = task_efficiency which = asw value = 0.10 }
+      command = { type = task_efficiency which = convoy_raiding value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8930
+    name      = TECH_APP_ND_93_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 380 y = 0 }
+    year      = 2000
+    component = { id = 8931 name = "" type = naval_training difficulty = 11 }
+    component = { id = 8932 name = "" type = naval_training difficulty = 11 }
+    component = { id = 8933 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8934 name = "" type = naval_training difficulty = 10 }
+    component = { id = 8935 name = "" type = naval_training difficulty = 10 }
+    required  = { 6300 8920 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = task_efficiency which = asw value = 0.10 }
+      command = { type = task_efficiency which = convoy_raiding value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8940
+    name      = TECH_APP_ND_94_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 512 y = 0 }
+    year      = 2000
+    component = { id = 8941 name = "" type = naval_training difficulty = 11 }
+    component = { id = 8942 name = "" type = naval_training difficulty = 11 }
+    component = { id = 8943 name = "" type = naval_training difficulty = 11 }
+    component = { id = 8944 name = "" type = naval_training difficulty = 11 }
+    component = { id = 8945 name = "" type = naval_training difficulty = 11 }
+    required  = { 6400 8930 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = task_efficiency which = asw value = 0.10 }
+      command = { type = task_efficiency which = convoy_raiding value = 0.10 }
+    }
+  }
+  # ############### Convoy Operations ###############
+  application =
+  { id        = 8950
+    name      = TECH_APP_ND_95_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = -10 y = 16 }
+    year      = 2000
+    component = { id = 8951 name = "" type = naval_training difficulty = 3 }
+    component = { id = 8952 name = "" type = naval_training difficulty = 3 }
+    component = { id = 8953 name = "" type = naval_training difficulty = 3 }
+    component = { id = 8954 name = "" type = naval_training difficulty = 3 }
+    component = { id = 8955 name = "" type = naval_training difficulty = 3 }
+    required  = { 3590 8900 }
+    effects =
+    { command = { type = info_may_cause which = 3590 }
+      command = { type = allow_convoy_escorts }
+      command = { type = convoy_def_eff value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8960
+    name      = TECH_APP_ND_96_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 124 y = 16 }
+    year      = 2000
+    component = { id = 8961 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8962 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8963 name = "" type = naval_training difficulty = 3 }
+    component = { id = 8964 name = "" type = naval_training difficulty = 3 }
+    component = { id = 8965 name = "" type = naval_training difficulty = 3 }
+    required  = { 8910 8950 }
+    effects =
+    { command = { type = convoy_def_eff value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8970
+    name      = TECH_APP_ND_97_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 256 y = 16 }
+    year      = 2000
+    component = { id = 8971 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8972 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8973 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8974 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8975 name = "" type = naval_training difficulty = 4 }
+    required  = { 8920 8960 }
+    effects =
+    { command = { type = convoy_def_eff value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8980
+    name      = TECH_APP_ND_98_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 388 y = 16 }
+    year      = 2000
+    component = { id = 8981 name = "" type = naval_training difficulty = 5 }
+    component = { id = 8982 name = "" type = naval_training difficulty = 5 }
+    component = { id = 8983 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8984 name = "" type = naval_training difficulty = 4 }
+    component = { id = 8985 name = "" type = naval_training difficulty = 4 }
+    required  = { 8930 8970 }
+    effects =
+    { command = { type = convoy_def_eff value = 0.10 }
+    }
+  }
+  application =
+  { id        = 8990
+    name      = TECH_APP_ND_99_NAME
+    desc      = TECH_APP_ND_1_DESC
+    position  = { x = 520 y = 16 }
+    year      = 2000
+    component = { id = 8991 name = "" type = naval_training difficulty = 5 }
+    component = { id = 8992 name = "" type = naval_training difficulty = 5 }
+    component = { id = 8993 name = "" type = naval_training difficulty = 5 }
+    component = { id = 8994 name = "" type = naval_training difficulty = 5 }
+    component = { id = 8995 name = "" type = naval_training difficulty = 5 }
+    required  = { 8940 8980 }
+    effects =
+    { command = { type = convoy_def_eff value = 0.10 }
+    }
+  }
+}

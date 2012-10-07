@@ -1,0 +1,185 @@
+POL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+66501;Head of State;Aleksander Kwasniewski;2003;2050;2050;SD;Benevolent Gentleman;High;M66501;x
+66502;Head of Government;Leszek Miller;2003;2050;2050;SD;Backroom Backstabber;High;M66502;x
+66503;Foreign Minister;Wlodzimierz Cimoszewicz;2003;2050;2050;SD;Biased Intellectual;High;M66503;x
+66504;Minister of Armament;Jerzy Szmajdzinski;2003;2050;2050;SD;Tank Proponent;High;M66504;x
+66505;Minister of Security;Krzysztof Janik;2003;2050;2050;SD;Efficient Sociopath;High;M66505;x
+66506;Head of Military Intelligence;Marek Dukaczewski;2003;2050;2050;SD;Dismal Enigma;High;M66506;x 
+66507;Chief of Staff;Czeslaw Piatas;2003;2050;2050;SD;School of Defence;High;M66507;x
+66508;Chief of Army;Edward Pietrzyk;2003;2050;2050;SD;elastic defence doctrine;High;M66508;x
+66509;Chief of Navy;Ryszard Lukasik;2003;2050;2050;SD;Base Control Doctrine;High;M66509;x
+66510;Chief of Air Force;Ryszard Olszewski;2003;2050;2050;SD;Air Superiority Doctrine;High;M66510;x
+;Replacements;;;;;;;x
+66511;Head of State;Andrzej Olechowski;2003;2050;2050;ML;Weary Stiffneck;High;M66565;x 
+66512;Head of State;Marek Borowski;2003;2050;2050;SD;Die-hard Reformer;High;M66512;x 
+66513;Head of State;Andrzej Lepper;2003;2050;2050;LWR;Powerhungry Demagogue;High;M66513;x 
+66514;Head of State;Wlodzimierz Cimoszewicz;2003;2050;2050;SD;Insignificant Layman;High;M66503;x 
+66515;Head of State;Maciej Giertych;2003;2050;2050;PA;Pig-headed Isolationist;High;M66515;x 
+66516;Head of State;Lech Kaczynski;2003;2050;2050;SC;barking buffoon;High;M66516;x 
+66517;Head of State;Donald Tusk;2003;2050;2050;ML;Benevolent Gentleman;High;M66517;x
+66518;Head of State;Radoslaw Sikorski;2008;2050;2050;SC;Stern Imperialist;Very High;M66518;x
+66519;Head of State;Zbigniew Ziobro;2007;2050;2050;SC;barking buffoon;High;M66519;x
+66520;Head of State;Janusz Korwin-Mikke;2003;2050;2050;PA;Pig-headed Isolationist;High;M66620;x   
+66521;Head of State;Dariusz Rosati;2006;2050;2050;SL;Benevolent Gentleman;High;M66621;x
+66522;Head of State;Brygida Kuzniak;2010;2050;2050;ML;Benevolent Gentleman;High;M66622;x
+66523;Head of State;Rafal Dutkiewicz;2010;2050;2050;SC;Stern Imperialist;High;M66623a;x
+66524;Head of State;Maria Emanuel Wettyn;2010;2050;2050;SC;Benevolent Gentleman;High;M66524;x
+66525;Head of State;Aleksander of Saxe-Gessape;2012;2050;2050;SC;Insignificant Layman;High;M66525;x
+66526;Head of State;Bogdan Zdrojewski;2010;2050;2050;ML;Die-hard Reformer;High;M66526;x 
+66527;Head of State;Marek Jurek;2010;2050;2050;SC;Pig-headed Isolationist;High;M66627;x
+66528;Head of State;Janusz Dobrosz;2009;2050;2050;FA;Ruthless Powermonger;High;M66528;x
+66529;Head of State;Jan Engelgard;2003;2050;2050;FA;Ruthless Powermonger;High;M66529;x
+66535;Head of Government;Marek Belka;2003;2050;2050;SL;Silent Workhorse;Very High;M66535;x
+66536;Head of Government;Donald Tusk;2005;2050;2050;ML;Naive Optimist;High;M66517;x  
+66537;Head of Government;Jan Maria Rokita;2003;2050;2050;SC;Flamboyant Tough Guy;High;M66537;x 
+66538;Head of Government;Roman Giertych;2003;2050;2050;PA;Flamboyant Tough Guy;High;M66538;x 
+66539;Head of Government;Jaroslaw Kaczynski;2003;2050;2050;SC;Backroom Backstabber;High;M66539;x 
+66540;Head of Government;Wladyslaw Frasyniuk;2003;2050;2050;ML;Naive Optimist;High;M66540;x 
+66541;Head of Government;Józef Oleksy;2003;2050;2050;SD;Backroom Backstabber;Medium;M66541;x 
+66542;Head of Government;Tomasz Nalecz;2003;2050;2050;SD;Happy Amateur;Medium;M66542;x 
+66543;Head of Government;Stanislaw Lyzwinski;2003;2050;2050;LWR;Political Protege;High;M66543;x 
+66544;Head of Government;Wojciech Olejniczak;2003;2050;2050;SD;Political Protege;High;M66544;x
+66545;Head of Government;Kazimierz Marcinkiewicz;2003;2050;2050;SC;Political Protege;High;M66545;x 
+66546;Head of Government;Julia Pitera;2003;2050;2050;ML;Flamboyant Tough Guy;High;M66546;x
+66547;Head of Government;Marek Borowski;2004;2050;2050;SL;Silent Workhorse;High;M66552;x
+66548;Head of Government;Marian Filar;2005;2050;2050;ML;Corporate Suit;High;M66548;x
+66549;Head of Government;Wlodzimierz Cimoszewicz;2003;2050;2050;SD;Backroom Backstabber;High;M66503;x
+66550;Head of Government;Janusz Korwin-Mikke;2003;2050;2050;PA;Flamboyant Tough Guy;High;M66624;x
+66551;Head of Government;Kazimierz Ujazdowski;2003;2050;2050;SC;Silent Workhorse;High;M66551;x
+66552;Head of Government;Marek Jurek;2003;2050;2050;SC;Flamboyant Tough Guy;High;M66627;x
+66553;Head of Government;Artur Zawisza;2005;2050;2050;SC;Political Protege;High;M66553;x
+66554;Head of Government;Waldemar Pawlak;2003;2050;2050;SL;Silent Workhorse;Very High;M66554;x
+66555;Head of Government;Grzegorz Schetyna;2003;2050;2050;ML;Ambitious Union Boss;High;M66555;x
+66556;Head of Government;Aleksander Kwasniewski;2005;2050;2050;SD;Naive Optimist;Very High;M66501;x
+66557;Head of Government;Sylwester Chruszcz;2009;2050;2050;FA;Flamboyant Tough Guy;Medium;M66557;x
+66558;Head of Government;Bronislaw Komorowski;2007;2050;2050;ML;Corporate Suit;High;M66598;x
+66559;Head of Government;Bogdan Zdrojewski;2007;2050;2050;ML;Smiling Oilman;High;M66526;x
+66560;Head of Government;Jan Engelgard;2003;2050;2050;FA;Backroom Backstabber;High;M66529;x   
+66564;Foreign Minister;Danuta Hubner;2003;2050;2050;SD;Great Compromiser;Medium;M66564;x 
+66565;Foreign Minister;Andrzej Olechowski;2003;2050;2050;ML;Biased Intellectual;High;M66565;x 
+66566;Foreign Minister;Roman Giertych;2003;2050;2050;PA;Iron Fisted Brute;High;M66538;x
+66567;Foreign Minister;Piort Tymochowicz;2004;2050;2050;LWR;The Cloak N Dagger Schemer;Low;M66567;x 
+66568;Foreign Minister;Ryszard Czarnecki;2004;2050;2050;LWR;Apologetic Clerk;Low;M66568;x
+66569;Foreign Minister;Wojciech Wierzejski;2003;2050;2050;PA;Ideological Crusader;Low;M66569;x  
+66570;Foreign Minister;Bronislaw Geremek;2003;2050;2050;ML;Great Compromiser;High;M66570;x 
+66571;Foreign Minister;Michal Kaminski;2004;2050;2050;SC;Ideological Crusader;Medium;M66571;x 
+66572;Foreign Minister;Jacek Saryusz-Wolski;2003;2050;2050;ML;Great Compromiser;High;M66572;x 
+66573;Foreign Minister;Jan Kulakowski;2003;2050;2050;ML;Great Compromiser;High;M66573;x
+66574;Foreign Minister;Adam Rotfeld;2003;2050;2050;SL;General Staffer;High;M66574;x
+66575;Foreign Minister;Radoslaw Sikorski;2006;2050;2050;SC;General Staffer;Very High;M66518;x
+66576;Foreign Minister;Stefan Meller;2004;2050;2050;SC;Great Compromiser;Medium;M66576;x
+66577;Foreign Minister;Anna Fotyga;2005;2050;2050;SC;Biased Intellectual;Medium;M66577;x
+66578;Foreign Minister;Jerzy Buzek;2003;2050;2050;SC;Biased Intellectual;High;M66578;x 
+66579;Foreign Minister;Jaroslaw Sellin;2003;2050;2050;SC;Biased Intellectual;High;M66579;x 
+66580;Foreign Minister;Andrzej Celinski;2003;2050;2050;SL;Biased Intellectual;High;M66580;x
+66581;Foreign Minister;Boguslaw Rogalski;2009;2050;2050;FA;Ideological Crusader;Medium;M66581;x
+66582;Foreign Minister;Malgorzata Kidawa-Blonska;2006;2050;2050;ML;Great Compromiser;High;M66582;x
+66583;Foreign Minister;Piotr Gadzinowski;2005;2050;2050;LWR;Iron Fisted Brute;Low;M66583;x
+66584;Foreign Minister;Jan Lopuszanski;2003;2050;2050;FA;The Cloak N Dagger Schemer;Low;M66584;x
+66591;Minister of Armament;Jerzy Hausner;2003;2050;2050;SL;Resource Industrialist;High;M66591;x
+66592;Minister of Armament;Zyta Gilowska;2005;2050;2050;ML;laissez-faire capitalist;High;M66592;x 
+66593;Minister of Armament;Renata Beger;2003;2050;2050;LWR;Corrupt Kleptocrat;Low;M66593;x 
+66594;Minister of Armament;Leszek Balcerowicz;2003;2050;2050;ML;Administrative Genius;High;M66594;x 
+66595;Minister of Armament;Zygmunt Wrzodak;2003;2050;2050;PA;Military Entrepreneur;High;M66595;x 
+66596;Minister of Armament;Hanna Gronkiewicz-Waltz;2005;2050;2050;ML;laissez-faire capitalist;High;M66596;x 
+66597;Minister of Armament;Janusz Steinhoff;2003;2050;2050;SC;Resource Industrialist;High;M66597;x 
+66598;Minister of Armament;Bronislaw Komorowski;2003;2050;2050;ML;Military Entrepreneur;High;M66598;x 
+66599;Minister of Armament;Jacek Piechota;2003;2050;2050;SD;Resource Industrialist;High;M66599;x 
+66600;Minister of Armament;Pawel Piskorski;2003;2050;2050;ML;Corrupt Kleptocrat;High;M66600;x 
+66601;Minister of Armament;Adam Lipiñski;2004;2050;2050;SC;Resource Industrialist;High;M66601;x
+66602;Minister of Armament;Aleksander Szczyglo;2005;2050;2050;SC;Infantry Proponent;Low;M66602;x
+66603;Minister of Armament;Bogdan Klich;2005;2050;2050;ML;Air Superiority Proponent;Medium;M66603;x
+66604;Minister of Armament;Radoslaw Sikorski;2004;2050;2050;SC;Air Superiority Proponent;Very High;M66518;x
+66605;Minister of Armament;Wojciech Popiela;2005;2050;2050;PA;Submarine Proponent;Medium;M66605;x
+66606;Minister of Armament;Janusz Onyszkiewicz;2003;2050;2050;ML;Military Entrepreneur;High;M66606;x 
+66607;Minister of Armament;Zbigniew Chlebowski;2005;2050;2050;ML;laissez-faire capitalist;High;M66607;x 
+66608;Minister of Armament;Waldemar Pawlak;2003;2050;2050;SL;Resource Industrialist;High;M66554;x
+66609;Minister of Armament;Jaroslaw Kalinowski;2003;2050;2050;SL;Infantry Proponent;Medium;M66609;x
+66610;Minister of Armament;Marek Belka;2003;2050;2050;SL;Resource Industrialist;High;M66535;x
+66611;Minister of Armament;Marek Borowski;2004;2050;2050;SL;Air to Ground Proponent;High;M66512;x
+66612;Minister of Armament;Andrzej Lepper;2005;2050;2050;LWR;Corrupt Kleptocrat;Medium;M66513;x
+66613;Minister of Armament;Jerzy Polaczek;2005;2050;2050;SC;Resource Industrialist;High;M66613;x 
+66614;Minister of Armament;Wojciech Filemonowicz;2005;2050;2050;SL;Resource Industrialist;High;M66614;x 
+66615;Minister of Armament;Dariusz Grabowski;2003;2050;2050;FA;Resource Industrialist;High;M66615;x
+66616;Minister of Armament;Stanislaw Koziej;2005;2050;2050;ML;Resource Industrialist;High;M66616;x
+66617;Minister of Armament;Michal Fiszer;2003;2050;2050;PA;Air to Ground Proponent;High;M66617;x
+66618;Minister of Armament;Joanna Mucha;2003;2050;2050;ML;laissez-faire capitalist;High;M66618;x
+66624;Minister of Security;Grzegorz Kurczuk;2003;2050;2050;SD;Crime Fighter;High;M66624;x 
+66625;Minister of Security;Wladys³aw Frasyniuk;2003;2050;2050;ML;Man of the People;High;M66540;x 
+66626;Minister of Security;Ludwik Dorn;2003;2050;2050;SC;Prince of Terror;Very High;M66626;x 
+66627;Minister of Security;Józef Oleksy;2003;2050;2050;SD;Compassionate Gentleman;High;M66541;x 
+66628;Minister of Security;Robert Strak;2003;2050;2050;PA;Efficient Sociopath;High;M66628;x 
+66629;Minister of Security;Stanislaw Lyzwinski;2003;2050;2050;LWR;Back Stabber;High;M66543;x 
+66630;Minister of Security;Henryk Dzido;2003;2050;2050;LWR;Crooked Kleptocrat;Low;M66630;x 
+66631;Minister of Security;Zbigniew Ziobro;2004;2050;2050;SC;Man of the People;Medium;M66519;x 
+66632;Minister of Security;Andrzej Kalwas;2003;2050;2050;SD;Silent Lawyer;Medium;M66632;x 
+66633;Minister of Security;Przemyslaw Edgar Gosiewski;2004;2050;2050;SC;Silent Lawyer;Low;M66633;x 
+66634;Minister of Security;Andrzej Zoll;2003;2050;2050;ML;Silent Lawyer;High;M66634;x
+66635;Minister of Security;Grzegorz Schetyna;2004;2050;2050;ML;Compassionate Gentleman;High;M66555;x
+66636;Minister of Security;Zbigniew Cwi¹kalski;2005;2050;2050;ML;Silent Lawyer;High;M66636;x  
+66637;Minister of Security;Marian Filar;2006;2050;2050;ML;Compassionate Gentleman;High;M66548;x
+66638;Minister of Security;Józef Pinior;2006;2050;2050;SL;Silent Lawyer;High;M66638;x
+66639;Minister of Security;Janusz Korwin-Mikke;2003;2050;2050;PA;Efficient Sociopath;High;M66620;x
+66640;Minister of Security;Stanislaw Michalkiewicz;2003;2050;2050;PA;Prince of Terror;High;M66640;x
+66641;Minister of Security;Stefan Niesiolowski;2003;2050;2050;SC;Back Stabber;Medium;M66641;x
+66642;Minister of Security;Janusz Palikot;2003;2050;2050;ML;Man of the People;High;M66642;x
+66643;Minister of Security;Jacek Kurski;2004;2050;2050;SC;Back Stabber;Medium;M66643;x
+66644;Minister of Security;Ryszard Kalisz;2003;2050;2050;SL;Compassionate Gentleman;Medium;M66644;x
+66645;Minister of Security;Piotr Krzywicki;2005;2050;2050;SC;Silent Lawyer;High;M66645;x
+66646;Minister of Security;Jan Maria Rokita;2003;2050;2050;SC;Efficient Sociopath;High;M66537;x
+66647;Minister of Security;Artur Zawisza;2003;2050;2050;SC;Efficient Sociopath;High;M66553;x
+66648;Minister of Security;Wladys³aw Stasiak;2003;2050;2050;SC;Prince of Terror;High;M66648;x 
+66649;Minister of Security;Janusz Kaczmarek;2003;2050;2050;SC;Crooked Kleptocrat;Low;M66649;x
+66650;Minister of Security;Andrzej Czuma;2003;2050;2050;ML;Man of the People;Low;M66650;x
+66651;Minister of Security;Brygida Kuzniak;2009;2050;2050;ML;Compassionate Gentleman;High;M66622;x 
+66652;Minister of Security;Andrzej Zapalowski;2009;2050;2050;FA;Silent Lawyer;High;M66652;x
+66653;Minister of Security;Bogdan Zdrojewski;2009;2050;2050;ML;Compassionate Gentleman;High;M66526;x
+66654;Minister of Security;Julia Pitera;2007;2050;2050;ML;Silent Lawyer;High;M66546;x
+66656;Head of Military Intelligence;Zbigniew Siemiatkowski;2003;2050;2050;SD;Political Specialist;High;M66656;x
+66657;Head of Military Intelligence;Tadeusz Rusak;2005;2050;2050;ML;Technical Specialist;High;M66657;x 
+66658;Head of Military Intelligence;Andrzej Ekiert;2005;2050;2050;SC;Logistics Specialist;High;M66682;x 
+66659;Head of Military Intelligence;Antoni Macierewicz;2003;2050;2050;PA;Political Specialist;High;M66659;x 
+66660;Head of Military Intelligence;Zbigniew Wassermann;2004;2050;2050;SC;Political Specialist;Very High;M66660;x 
+66661;Head of Military Intelligence;Konstanty Miodowicz;2003;2050;2050;ML;Political Specialist;High;M66661;x 
+66662;Head of Military Intelligence;Janusz Bojarski;2003;2050;2050;SL;Industrial Specialist;High;M66662;x
+66663;Head of Military Intelligence;Andrzej Barcikowski;2003;2050;2050;SD;Political Specialist;High;M66663;x
+66664;Head of Military Intelligence;Andrzej Ananicz;2004;2050;2050;ML;Logistics Specialist;High;M66664;x
+66665;Head of Military Intelligence;Zbigniew Nowek;2005;2050;2050;SC;Dismal Enigma;High;M66665;x
+66666;Head of Military Intelligence;Andrzej Karweta;2009;2050;2050;SC;Naval Intelligence Specialist;High;M66693;x
+66667;Head of Military Intelligence;Pawel Gras;2006;2050;2050;ML;Political Specialist;High;M66667;x
+66668;Head of Military Intelligence;Krzysztof Bondaryk;2006;2050;2050;ML;Industrial Specialist;High;M66668;x
+66669;Head of Military Intelligence;Janusz Nosek;2006;2050;2050;ML;Logistics Specialist;High;M66669;x
+66672;Chief of Staff;Mieczyslaw Cieniuch;2004;2050;2050;SD;School of Defence;High;M66672;x 
+66673;Chief of Staff;Tadeusz Wilecki;2003;2050;2050;PA;School of Mass Combat;High;M66673;x 
+66674;Chief of Staff;Edward Pietrzyk;2003;2050;2050;SD;School of Fire Support;High;M66508;x 
+66675;Chief of Staff;Mieczyslaw Bieniek;2004;2050;2050;SD;School of Manoeuvre;High;M66675;x
+66676;Chief of Staff;Franciszek Gagor;2005;2050;2050;SC;School of Psychology;High;M66676;x
+66677;Chief of Staff;Wlodzimierz Potasinski;2009;2050;2050;ML;School of Manoeuvre;High;M66677;x
+66678;Chief of Staff;Roman Krzyzelewski;2004;2050;2050;SD;School of Mass Combat;High;M66692;x
+66679;Chief of Staff;Andrzej Blasik;2006;2050;2050;SC;School of Fire Support;High;M66701;x
+66680;Chief of Staff;Lech Konopka;2003;2050;2050;SL;School of Psychology;High;M66680;x
+66681;Chief of Army;Ryszard Chwastek;2003;2050;2050;PA;Armoured Spearhead Doctrine;High;M66681;x 
+66682;Chief of Army;Andrzej Ekiert;2003;2050;2050;SC;Decisive battle doctrine;High;M66682;x 
+66683;Chief of Army;Waldemar Skrzypczak;2005;2050;2050;SC;Elastic Defence Doctrine;High;M66683;x
+66684;Chief of Army;Piotr Czerwinski;2006;2050;2050;ML;Armoured Spearhead Doctrine;High;M66684;x
+66685;Chief of Army;Franciszek Gagor;2005;2050;2050;SC;Elastic Defence Doctrine;High;M66685;x
+66686;Chief of Army;Mieczyslaw Bieniek;2004;2050;2050;SL;Guns and Butter Doctrine;High;M66675;x
+66687;Chief of Army;Wlodzimierz Potasinski;2011;2050;2050;ML;Guns and Butter Doctrine;High;M66677;x
+66691;Chief of Navy;Jedrzej Czajkowski;2003;2050;2050;SD;Open Seas Doctrine;High;M66691;x
+66692;Chief of Navy;Roman Krzyzelewski;2003;2050;2050;SD;Indirect Approach Doctrine;High;M66692;x
+66693;Chief of Navy;Andrzej Karweta;2006;2050;2050;SC;Indirect Approach Doctrine;High;M66693;x
+66694;Chief of Navy;Waldemar Gluszko;2006;2050;2050;SL;Power Projection Doctrine;High;M66694;x
+66695;Chief of Navy;Maciej Weglewski;2006;2050;2050;ML;Base Control Doctrine;High;M66695;x
+66696;Chief of Navy;Adam Mazurek;2005;2050;2050;SL;Base Control Doctrine;High;M66696;x
+66697;Chief of Navy;Stefan Tandecki;2006;2050;2050;PA;Indirect Approach Doctrine;High;M66697;x
+66698;Chief of Navy;Romuald Waga;2006;2050;2050;LWR;Power Projection Doctrine;High;M66698;x
+66701;Chief of Air Force;Andrzej Blasik;2006;2050;2050;SC;Air Superiority Doctrine;High;M66701;x
+66702;Chief of Air Force;Krzysztof Zaleski;2006;2050;2050;SL;Army Aviation Doctrine;High;M66702;x
+66703;Chief of Air Force;Jerzy Fryczynski;2006;2050;2050;SD;Naval Aviation Doctrine;High;M66703;x 
+66704;Chief of Air Force;Ryszard Hac;2006;2050;2050;ML;Army Aviation Doctrine;High;M66704;x
+66705;Chief of Air Force;Andrzej Andrzejewski;2004;2050;2050;SL;Air Superiority Doctrine;Very High;M66705;x
+66706;Chief of Air Force;Stanislaw Targosz;2003;2050;2050;SL;Air Superiority Doctrine;High;M66706;x
+66707;Chief of Air Force;Zbigniew Galec;2007;2050;2050;SL;Air Superiority Doctrine;High;M66707;x
+66708;Chief of Air Force;Janusz Konieczny;2007;2050;2050;PA;Air Superiority Doctrine;High;M66708;x
+66709;Chief of Air Force;Andrzej Duleba;2003;2050;2050;SD;Army Aviation Doctrine;High;M66709;x
+66710;Chief of Air Force;Jacek Bartoszcze;2003;2050;2050;SL;Air Superiority Doctrine;High;M66710;x

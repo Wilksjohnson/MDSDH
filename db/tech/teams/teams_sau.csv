@@ -1,0 +1,9 @@
+SAU;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+14000;Royal Military Academy;saudiacademy;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14001;Abdallah Al Faris Company;fariscompany;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14002;GID;team_noimage;6;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14003;AEC;aec;6;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14004;SABIC;sabic;6;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14005;Saudi Army;saudiarmy;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14006;RSAF;saudiairforce;5;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14007;Royal Saudi Navy;saudinavy;5;1000;2999;naval_training;large_taskforce_tactics;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

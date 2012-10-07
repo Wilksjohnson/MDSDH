@@ -1,0 +1,60 @@
+UKR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+86001;Head of State;Leonid Kuchma;2003;2050;2050;SC;Ruthless Powermonger;High;M86001;x
+86002;Head of Government;Viktor Yanukovych;2003;2050;2050;SC;Political Protege;High;M86002;x
+86003;Foreign Minister;Kostyantyn Gryshchenko;2003;2050;2050;SC;Apologetic Clerk;High;M86003;x
+86004;Minister of Armament;Volodymyr Shkidchenko;2003;2050;2050;SC;Military Entrepreneur;High;Unknown;x
+86005;Minister of Security;Mykola Bilokon;2003;2050;2050;SC;Silent Lawyer;High;Unknown;x
+86006;Head of Military Intelligence;Valentyn Nalyvaichenko;2003;2050;2050;SC;Political Specialist;High;Unknown;x
+86007;Chief of Staff;Oleksandr Zatynayko;2003;2050;2050;NA;School of Psychology;High;Kirichenko;x
+86008;Chief of Army;Ivan Svyda;2003;2050;2050;NA;Decisive Battle Doctrine;High;Svyda;x
+86009;Chief of Navy;Mykhailo Ezhel;2003;2050;2050;NA;Open Seas Doctrine;High;Ezhel;x
+86010;Chief of Air Force;Anatoliy Toropchyn;2003;2050;2050;NA;Air Superiority Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+86011;Head of State;Viktor Yanukovych;2004;2050;2050;SC;Autocratic Charmer;High;M86002;x
+86012;Head of State;Victor Yuschenko;2004;2050;2050;SL;Die-hard Reformer;High;M86012;x
+86013;Foreign Minister;Leonid Kravchuk;2004;2050;2050;SC;Apologetic Clerk;High;Kravchuk;x
+86014;Head of Government;Yulia Tymoshenko;2010;2050;2050;SL;Corporate Suit;High;M86013;x
+86015;Foreign Minister;Nataliya Vitrenko;2003;2050;2050;LE;Ideological Crusader;High;Vitrenko;x
+86016;Head of State;Petro Symonenko;2003;2050;2050;LE;Powerhungry Demagogue;High;Symonenko;x
+86017;Head of Government;Petro Symonenko;2003;2050;2050;LE;Flamboyant Tough Guy;High;Symonenko;x
+86018;Head of Government;Yulia Tymoshenko;2004;2050;2050;SL;Corporate Suit;High;M86013;x
+86019;Head of Government;Yuriy Yekhanurov;2005;2050;2050;SL;Silent Workhorse;High;M86014;x
+86020;Minister of Armament;Mykola Azarov;2004;2050;2050;SC;Resource Industrialist;High;M86004;x
+86021;Head of Government;Yuriy Lutsenko;2007;2050;2050;SD;Silent Workhorse;High;Lutsenko;x
+86022;Foreign Minister;Andriy Klyuyev;2010;2050;2050;SD;Biased Intellectual;High;Klyuyev;x
+86023;Foreign Minister;Borys Tarasyuk;2003;2050;2050;ML;Great Compromiser;High;M86015;x
+86024;Foreign Minister;Volodymyr Lytvyn;2003;2050;2050;SC;Apologetic Clerk;High;Lytvyn;x
+86025;Foreign Minister;Nataliya Vitrenko;2003;2050;2050;LE;Ideological Crusader;High;Vitrenko;x
+86026;Foreign Minister;Oleksandr Bazylyuk;2003;2050;2050;SC;Great Compromiser;High;Unknown;x
+86027;Foreign Minister;Raisa Bogatyryova;2005;2050;2050;SC;Great Compromiser;High;Unknown;x
+86028;Foreign Minister;Volodymyr Ohryzko;2007;2050;2050;SC;Apologetic Clerk;High;Unknown;x
+86029;Foreign Minister;Petro Poroshenko;2008;2050;2050;SL;Biased Intellectual;High;Unknown;x
+86030;Minister of Armament;Victor Pynzenyk;2004;2050;2050;SL;Administrative Genius;High;M86016;x
+86031;Minister of Armament;Volodymyr Rybak;2004;2050;2050;SC;Administrative Genius;High;Rybak;x
+86032;Head of Government;Anatoliy Kinakh;2003;2050;2050;ML;Smiling Oilman;High;Kinakh;x
+86033;Minister of Armament;Anatoliy Kinakh;2004;2050;2050;ML;Resource Industrialist;High;Kinakh;x
+86034;Minister of Armament;Anatoliy Hrytsenko;2004;2050;2050;ML;Military Entrepreneur;High;Hrytsenko;x
+86035;Head of Government;Yuriy Lutsenko;2005;2050;2050;SD;Silent Workhorse;High;Lutsenko;x
+86036;Minister of Security;Vasyl Tsushko;2004;2050;2050;SD;Crooked Kleptocrat;High;Tsushko;x
+86037;Minister of Armament;Oleksandr Tkachenko;2003;2050;2050;LE;Administrative Genius;High;Unknown;x
+86038;Minister of Armament;Vasyl Volha;2009;2050;2050;ML;laissez-faire capitalist;High;Unknown;x
+86039;Head of Military Intelligence;Ihor Konovalov;2004;2050;2050;SD;Technical Specialist;High;Ikonovalov;x
+86040;Head of Military Intelligence;Valeriy Pidbolyachny;2004;2050;2050;SC;Dismal Enigma;High;Unknown;x
+86041;Head of Military Intelligence;Oleksandr Skipalski;2004;2050;2050;SL;Dismal Enigma;High;Unknown;x
+86042;Head of Military Intelligence;Oleh Skylar;2005;2050;2050;SL;Industrial Specialist;High;Unknown;x
+86043;Chief of Staff;Ihor Kniaz;2003;2050;2050;NA;School of Defence;High;Unknown;x
+86044;Chief of Staff;Igor Tenyuh;2006;2050;2050;NA;School of Defence;High;Tenyuh;x
+86045;Chief of Staff;Ivan Rusnak;2005;2050;2050;NA;School of Fire Support;High;Rusnak;x
+86046;Chief of Staff;Ivan Svyda;2003;2050;2050;NA;School of Mass Combat;High;Svyda;x
+86047;Chief of Staff;Anatoliy Toropchyn;2003;2050;2050;NA;School of Fire Support;High;Itoropchin;x
+86048;Chief of Army;Sergiy Kirichenko;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Kirichenko;x
+86049;Chief of Navy;Ihor Kniaz;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;Unknown;x
+86050;Chief of Navy;Igor Tenyuh;2006;2050;2050;NA;Indirect Approach Doctrine;High;Tenyuh;x
+86051;Chief of Air Force;Ivan Rusnak;2005;2050;2050;NA;Air Superiority Doctrine;High;Rusnak;x
+86052;Minister of Armament;Oleksandr Kuzmuk;2003;2050;2050;SC;Military Entrepreneur;High;Kuzmuk;x
+86053;Chief of Staff;Sergiy Kirichenko;2003;2050;2050;NA;School of Psychology;High;Kirichenko;x
+86054;Head of Government;Yevhen Kushnaryov;2003;2050;2050;SC;Silent Workhorse;High;Ykushnaryov;x
+86055;Minister of Armament;Yuriy Yekhanurov;2007;2050;2050;SL;Administrative Genius;High;M86014;x
+86056;Foreign Minister;Arseniy Yatsenyuk;2007;2050;2050;ML;Apologetic Clerk;High;Ayatsenyuk;x
+86057;Head of State;Viktor Yanukovych;2004;2050;2050;SL;Autocratic Charmer;High;M86002;x
+86058;Head of State;Victor Yuschenko;2004;2050;2050;SC;Die-hard Reformer;High;M86012;x

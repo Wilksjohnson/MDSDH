@@ -1,0 +1,357 @@
+USA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+87501;Head of State;George W. Bush;2003;2050;2050;ML;Die-hard Reformer;High;M87501;X
+87502;Head of Government;George W. Bush;2003;2050;2050;ML;Flamboyant Tough Guy;High;M87502;X
+87503;Foreign Minister;Colin Powell;2003;2050;2050;ML;General Staffer;High;M87503;X
+87504;Minister of Armament;Donald Rumsfeld;2003;2050;2050;ML;Air to Ground Proponent;High;Donald_Rumsfeld;X
+87505;Minister of Security;Condoleeza Rice;2003;2050;2050;ML;Crime Fighter;High;M87505;X
+87506;Head of Military Intelligence;George Tenet;2003;2050;2050;ML;Political Specialist;High;M87506;X
+87507;Chief of Staff;Richard Myers;2003;2050;2050;ML;School of Fire Support;High;M87507;X
+87508;Chief of Army;Peter J. Schoomaker;2003;2050;2050;ML;Decisive Battle Doctrine;High;M87508;X
+87509;Chief of Navy;Vern Clark;2003;2050;2050;ML;Power Projection Doctrine;High;M87509;X
+87510;Chief of Air Force;John P. Jumper;2003;2050;2050;ML;Air Superiority Doctrine;High;M87510;X
+;Replacements;;;;;;;x;;
+87511;Head of State;John Kerry;2003;2050;2050;SL;Weary Stiffneck;High;M87511;X
+87512;Head of State;John Edwards;2004;2050;2050;SL;Benevolent Gentleman;High;john edwards;X
+87513;Head of State;Howard Dean;2004;2050;2050;SL;Benevolent Gentleman;High;howard dean;X
+87514;Head of State;Wesley K. Clark;2004;2050;2050;SL;Die-hard Reformer;High;wesclark;X
+87515;Head of State;Richard Gephardt;2004;2050;2050;SL;Benevolent Gentleman;High;richardgephardt;X
+87516;Head of State;Alfred Sharpton;2004;2050;2050;SD;Barking Buffoon;High;alsharpton;X
+87517;Head of State;Dennis J. Kucinich;2004;2050;2050;SD;Barking Buffoon;High;denniskucinich;X
+87518;Head of State;Ralph Nader;2004;2050;2050;SD;Benevolent Gentleman;High;ralphnader;X
+87519;Head of State;Michael Badnarik;2004;2050;2050;ML;Pig-headed Isolationist;High;michaelbednarik;X
+87520;Head of State;Michael Peroutka;2004;2050;2050;SC;Pig-headed Isolationist;High;michael-peroutka;X
+87521;Head of State;John McCain;2008;2050;2050;ML;Die-hard Reformer;High;johnmccain;X
+87522;Head of State;Newt Gingrich;2008;2050;2050;ML;Benevolent Gentleman;High;newtgingrich;X
+87523;Head of State;Mitt Romney;2008;2050;2050;ML;Benevolent Gentleman;High;romney;X
+87524;Head of State;Sam Brownback;2008;2050;2050;SC;Stern Imperialist;High;sambrownback;X
+87525;Head of State;Condoleeza Rice;2008;2050;2050;ML;Benevolent Gentleman;High;M87505;X
+87526;Head of State;Rudy Guiliani;2004;2050;2050;ML;Die-hard Reformer;High;Rudy_Giuliani;X
+87527;Head of State;Evan Bayh;2003;2050;2050;SL;Benevolent Gentleman;High;evanbayh;X
+87528;Head of State;Joe Biden;2003;2050;2050;SL;Barking Buffoon;High;joebiden;X
+87529;Head of State;Hillary Clinton;2003;2050;2050;SL;Die-hard Reformer;High;M87529;X
+87530;Head of Government;John Kerry;2003;2050;2050;SL;Naive Optimist;High;M87511;X
+87531;Head of Government;John Edwards;2004;2050;2050;SL;Naive Optimist;High;john edwards;X
+87532;Head of Government;Howard Dean;2004;2050;2050;SL;Flamboyant Tough Guy;High;howard dean;X
+87533;Head of Government;Wesley K. Clark;2004;2050;2050;SL;Old General;High;wesclark;X
+87534;Head of Government;Richard Gephardt;2004;2050;2050;SL;Backroom Backstabber;High;richardgephardt;X
+87535;Head of Government;Alfred Sharpton;2004;2050;2050;SD;Happy Amateur;High;alsharpton;X
+87536;Head of Government;Dennis J. Kucinich;2004;2050;2050;SD;Political Protege;High;denniskucinich;X
+87537;Head of Government;Ralph Nader;2004;2050;2050;SD;Ambitious Union Boss;High;ralphnader;X
+87538;Head of Government;Michael Badnarik;2004;2050;2050;ML;Corporate Suit;High;michaelbednarik;X
+87539;Head of Government;Michael Peroutka;2004;2050;2050;SC;Naive Optimist;High;michael-peroutka;X
+87540;Head of Government;John McCain;2008;2050;2050;ML;Backroom Backstabber;High;johnmccain;X
+87541;Head of Government;Newt Gingrich;2008;2050;2050;ML;Flamboyant Tough Guy;High;newtgingrich;X
+87542;Head of Government;Mitt Romney;2008;2050;2050;ML;Silent Workhorse;High;romney;X
+87543;Head of Government;Sam Brownback;2008;2050;2050;SC;Happy Amateur;High;sambrownback;X
+87544;Head of Government;Condoleeza Rice;2008;2050;2050;ML;Silent Workhorse;High;M87505;X
+87545;Head of Government;Rudy Guiliani;2004;2050;2050;ML;Flamboyant Tough Guy;High;Rudy_Giuliani;X
+87546;Head of Government;Evan Bayh;2003;2050;2050;SL;Naive Optimist;High;evanbayh;X
+87547;Head of Government;Joe Biden;2003;2050;2050;SL;Backroom Backstabber;High;joebiden;X
+87548;Head of Government;Hillary Clinton;2003;2050;2050;SL;Naive Optimist;High;M87529;X
+87549;Foreign Minister;Condoleeza Rice;2004;2050;2050;ML;Biased Intellectual;High;M87505;X
+87550;Foreign Minister;Robert B. Zoellick;2004;2050;2050;ML;Great Compromiser;High;robertzoellick;X
+87551;Foreign Minister;R. Nicholas Burns;2008;2050;2050;ML;Biased Intellectual;High;nicholasburns;X
+87552;Foreign Minister;E. Anthony Wayne;2008;2050;2050;ML;Ideological Crusader;High;enathonywayne;X
+87553;Foreign Minister;John R. Bolton;2008;2050;2050;ML;Ideological Crusader;High;johnbolton;X
+87554;Foreign Minister;Christopher B. Burnham;2008;2050;2050;ML;Biased Intellectual;High;Chris_Burnham;X
+87592;Foreign Minister;Paula J. Dobriansky;2008;2050;2050;ML;Biased Intellectual;High;paula_Dobriansky;X
+87555;Foreign Minister;Patricia deStacy Harrison;2008;2050;2050;ML;Ideological Crusader;High;patricia harrisson;X
+87556;Foreign Minister;James Rubin;2004;2050;2050;SL;Apologetic Clerk;High;jamesruben;X
+87557;Foreign Minister;Richard Holbrooke;2004;2050;2050;SL;Ideological Crusader;High;richardholbrooke;X
+87558;Foreign Minister;John Negroponte;2003;2050;2050;ML;Great Compromiser;High;johnnegroponte;X
+87559;Foreign Minister;Joseph Biden;2003;2050;2050;SL;Great Compromiser;High;joebiden;X
+87560;Foreign Minister;Chuck Hagel;2003;2050;2050;SL;Great Compromiser;High;Chuck_Hagel;X
+87561;Foreign Minister;Barack Obama;2003;2050;2050;SL;Ideological Crusader;High;barackobama;X
+87562;Foreign Minister;Pat Buchanan;2003;2050;2050;SC;Iron Fisted Brute;High;pat_buchanan;X
+87563;Foreign Minister;Howard Dean;2003;2050;2050;SL;Apologetic Clerk;High;howard dean;X
+87565;Minister of Armament;Paul O'Neill;2003;2050;2050;ML;laissez-faire capitalist;High;paul_Oneill;X
+87566;Minister of Armament;Henry Paulson;2003;2050;2050;ML;laissez-faire capitalist;High;Henry_Paulson;X
+87567;Minister of Armament;Jay Rockefeller;2003;2050;2050;SL;Resource Industrialist;High;jay_rockefeller;X
+87568;Minister of Armament;Bill Nelson;2003;2050;2050;SL;Strategic Air Proponent;High;Bill_Nelson;X
+87569;Minister of Armament;Jack Reed;2003;2050;2050;SL;Infantry Proponent;High;jack_reed;X
+87570;Minister of Security;John Ashcroft;2003;2050;2050;SC;Prince of Terror;High;johnashcroft;X
+87571;Minister of Security;Alberto Gonzales;2003;2050;2050;ML;Efficient Sociopath;High;Alberto_Gonzales;X
+87572;Minister of Security;Tom Ridge;2003;2050;2050;ML;Crime Fighter;High;tom_ridge;X
+87573;Minister of Security;Robert Mueller;2003;2050;2050;ML;Silent Lawyer;High;robertmueller;X
+87574;Minister of Security;Patrick Leahy;2003;2050;2050;SL;Compassionate Gentleman;High;patrickleahy;X
+87575;Minister of Security;Thomas Carper;2003;2050;2050;SL;Man of the People;High;tomcarper;X
+87576;Minister of Security;Raymond Kelly;2003;2050;2050;SL;Crime Fighter;High;raymondkelly;X
+87577;Head of Military Intelligence;John Negroponte;2003;2050;2050;ML;Political Specialist;High;johnnegroponte;X
+87578;Head of Military Intelligence;Condoleeza Rice;2003;2050;2050;ML;Logistics Specialist;High;M87505;X
+87579;Head of Military Intelligence;Porter Goss;2003;2050;2050;ML;Political Specialist;High;portergoss;X
+87580;Head of Military Intelligence;Daniel Akaka;2003;2050;2050;SL;Technical Specialist;High;danielakaka;X
+87581;Head of Military Intelligence;Jane Harman;2003;2050;2050;SL;Dismal Enigma;High;janeharman;X
+87582;Head of Military Intelligence;Silvestre Reyes;2003;2050;2050;SL;Technical Specialist;High;sylvestrereyes;X
+87583;Chief of Staff;Peter Pace;2003;2050;2050;SL;School of Psychology;High;peterpace;X
+87584;Chief of Staff;Tommy Franks;2003;2050;2050;ML;School of Manoeuvre;High;tommyfranks;X
+87585;Chief of Army;Eric Shinseki;2003;2050;2050;SL;Guns and Butter Doctrine;High;ericshinseki;X
+87586;Chief of Army;Tommy Franks;2003;2050;2050;ML;Armoured Spearhead Doctrine;High;tommyfranks;X
+87587;Chief of Navy;Terry Scott;2003;2050;2050;ML;Indirect Approach Doctrine;High;terryscott;X
+87589;Chief of Navy;Robert Willard;2003;2050;2050;SL;Power Projection Doctrine;High;robertfwillard;X
+87590;Chief of Navy;Michael Hagee;2003;2050;2050;ML;Base Control Doctrine;High;michaelhagee;X
+87591;Chief of Air Force;Michael Moseley;2003;2050;2050;SL;Army Aviation Doctrine;High;michael_moseley;X
+87593;Chief of Air Force;Kevin Chilton;2003;2050;2050;ML;Carpet Bombing Doctrine;High;kevinchilton;X
+87594;Head of State;Mike Gravel;2008;2050;2050;SD;Pig-headed Isolationist;Medium;mikegravel;X
+87595;Head of State;Mike Huckabee;2008;2050;2050;ML;Popular Figurehead;Medium;huckabee;X
+87596;Head of State;Bob Avakian;2003;2050;2050;ST;Ruthless Powermonger;Medium;Bob_Avakian;X
+87597;Head of State;Sam Webb;2003;2050;2050;LE;Die-hard Reformer;Medium;sam_webb;X
+87598;Head of State;Cindy Sheehan;2003;2050;2050;LWR;Pig-headed Isolationist;Medium;Cindy_Sheehan;X
+87599;Head of State;Ron Paul;2008;2050;2050;ML;Pig-headed Isolationist;Medium;ron_paul;X
+87600;Head of State;Tom Tancredo;2008;2050;2050;SC;Barking Buffoon;Medium;Tom-Tancredo;X
+87601;Head of State;Duncan Hunter;2008;2050;2050;SC;Stern Imperialist;Medium;duncanhunter;X
+87602;Head of State;David Duke;2003;2050;2050;FA;Pig-headed Isolationist;Medium;david_duke;X
+87603;Head of State;William Pierce;2003;2050;2050;NS;Powerhungry Demagogue;Medium;william_Pierce;X
+87604;Head of State;Tom Metzger;2003;2050;2050;NS;Powerhungry Demagogue;Medium;tom_metzger;X
+87605;Head of Government;Mike Gravel;2008;2050;2050;SD;Ambitious Union Boss;Medium;mikegravel;X
+87606;Head of Government;Mike Huckabee;2003;2050;2050;ML;Happy Amateur;Medium;huckabee;X
+87607;Head of Government;Billy Roper;2003;2050;2050;NS;Political Protege;Medium;Billy_Roper;X
+87608;Head of Government;Don Black;2003;2050;2050;FA;Flamboyant Tough Guy;Medium;Don_Black;X
+87609;Head of Government;Duncan Hunter;2008;2050;2050;SC;Flamboyant Tough Guy;Medium;duncanhunter;X
+87610;Head of Government;Tom Tancredo;2008;2050;2050;SC;Flamboyant Tough Guy;Medium;Tom-Tancredo;X
+87611;Head of Government;Ron Paul;2008;2050;2050;ML;Naive Optimist;Medium;ron_paul;X
+87612;Head of Government;Cynthia McKinney;2003;2050;2050;LWR;Ambitious Union Boss;Medium;cynthiamckinney;X
+87613;Head of Government;Sam Webb;2003;2050;2050;LE;Backroom Backstabber;Medium;sam_webb;X
+87614;Head of Government;Bob Avakian;2003;2050;2050;ST;Backroom Backstabber;Medium;Bob_Avakian;X
+87615;Foreign Minister;Ward Churchill;2003;2050;2050;LWR;Biased Intellectual;Medium;ward_churchill;X
+87616;Foreign Minister;Noam Chomsky;2003;2050;2050;LWR;Great Compromiser;Medium;noam_chomsky;X
+87617;Foreign Minister;Lenni Brenner;2003;2050;2050;LE;Ideological Crusader;Medium;lenni_brenner;X
+87618;Foreign Minister;Carl Dix;2003;2050;2050;ST;Ideological Crusader;Medium;carl_dix;X
+87619;Foreign Minister;Gary Leupp;2003;2050;2050;ST;Biased Intellectual;Medium;Gary_Leupp;X
+87620;Foreign Minister;Noel Ignatiev;2003;2050;2050;ST;Biased Intellectual;Medium;noel_ignatiev;X
+87621;Foreign Minister;Norman Podhoretz;2003;2050;2050;SC;Iron Fisted Brute;Medium;norman_podhoretz;X
+87622;Foreign Minister;David J. Frum;2003;2050;2050;SC;Ideological Crusader;Medium;david_j_frum;X
+87623;Foreign Minister;Paul Wolfowitz;2003;2050;2050;SC;The Cloak N Dagger Schemer;Medium;paul_wolfowitz;X
+87624;Foreign Minister;Tomislav Sunic;2003;2050;2050;FA;Great Compromiser;Medium;tomislav_sunic;X
+87625;Foreign Minister;Mark Weber;2003;2050;2050;FA;Biased Intellectual;Medium;mark_weber;X
+87626;Foreign Minister;Jared Taylor;2003;2050;2050;FA;Biased Intellectual;Medium;jared_taylor;X
+87627;Foreign Minister;Don Black;2003;2050;2050;FA;The Cloak N Dagger Schemer;Medium;Don_Black;X
+87628;Foreign Minister;Alex Linder;2003;2050;2050;NS;Ideological Crusader;Medium;alex_linder;X
+87629;Foreign Minister;Willis Allison Carto;2003;2050;2050;FA;Ideological Crusader;Medium;willis_carto;X
+87630;Minister of Armament;Jim Hightower;2003;2050;2050;SD;Resource Industrialist;Medium;jim_hightower;X
+87631;Minister of Armament;Michael Albert;2003;2050;2050;LWR;Resource Industrialist;Medium;michael_albert;X
+87632;Minister of Armament;Walter E. Williams;2008;2050;2050;ML;laissez-faire capitalist;Medium;walter_e_williams;X
+87633;Minister of Armament;Peter Brimelow;2003;2050;2050;FA;laissez-faire capitalist;Medium;peter_brimelow;X
+87634;Minister of Armament;Willis Allison Carto;2003;2050;2050;FA;Resource Industrialist;Medium;willis_carto;X
+87635;Minister of Armament;Brian Phillip Bilbray;2003;2050;2050;SC;Resource Industrialist;Medium;Brian_Bilbray;X
+87636;Minister of Armament;M. Shahid Alam;2003;2050;2050;LE;Resource Industrialist;Medium;M_Shahid_Alam;X
+87637;Minister of Armament;Dinesh D'Souza;2003;2050;2050;SC;laissez-faire capitalist;Medium;dinesh_DSouza;X
+87638;Minister of Armament;William Pierce;2003;2050;2050;NS;Theoretical Scientist;Medium;william_Pierce;X
+87639;Minister of Armament;Alex Curtis;2003;2050;2050;NS;Infantry Proponent;Medium;alex_curtis;X
+87640;Minister of Armament;Jeff Schoep;2003;2050;2050;NS;Military Entrepreneur;Medium;jeff_schoep;X
+87641;Minister of Security;Noel Ignatiev;2003;2050;2050;ST;Efficient Sociopath;Medium;noel_ignatiev;X
+87642;Minister of Security;Carl Dix;2003;2050;2050;ST;Prince of Terror;Medium;carl_dix;X
+87643;Minister of Security;Lew Rockwell;2008;2050;2050;ML;Silent Lawyer;Medium;lew_rockwell;X
+87644;Minister of Security;William Ramsey Clark;2003;2050;2050;LWR;Compassionate Gentleman;Medium;ramsey_Clark;X
+87645;Minister of Security;Tim Wise;2003;2050;2050;LWR;Man of the People;Medium;tim_wise;X
+87646;Minister of Security;Alurista;2003;2050;2050;ST;Man of the People;Medium;alurista;X
+87647;Minister of Security;C. Clark Kissinger;2003;2050;2050;ST;Silent Lawyer;Medium;C_Clark_Kissinger;X
+87648;Minister of Security;Janet Murguía;2003;2050;2050;SD;Man of the People;Medium;janet_murquia;X
+87649;Minister of Security;Doris Haddock;2003;2050;2050;LWR;Compassionate Gentleman;Medium;Granny_D;X
+87650;Minister of Security;W. Garrett Chamberlain;2008;2050;2050;SC;Efficient Sociopath;Medium;W_Garrett_Chamberlain;X
+87651;Minister of Security;Bay Buchanan;2003;2050;2050;SC;Efficient Sociopath;Medium;bay_buchanan;X
+87652;Minister of Security;Tom Tancredo;2003;2050;2050;SC;Efficient Sociopath;Medium;Tom-Tancredo;X
+87653;Minister of Security;Bernie Kerik;2003;2050;2050;ML;Crooked Kleptocrat;Medium;bernie_kerik;X
+87654;Minister of Security;Jared Taylor;2003;2050;2050;FA;Efficient Sociopath;Medium;jared_taylor;X
+87655;Minister of Security;Ted Pike;2003;2050;2050;FA;Compassionate Gentleman;Medium;Ted_pike;X
+87656;Minister of Security;David Lane;2003;2050;2050;NS;Prince of Terror;Medium;david_lane;X
+87657;Minister of Security;Kevin Alfred Strom;2003;2050;2050;NS;Efficient Sociopath;Medium;kevin_alfred_strom;X
+87658;Minister of Security;Edgar J. Steele;2003;2050;2050;FA;Silent Lawyer;Medium;Edgar_J_Steele;X
+87659;Head of Military Intelligence;Sunsara Taylor;2003;2050;2050;ST;Political Specialist;Medium;sunsara_taylor;X
+87660;Head of Military Intelligence;Bay Buchanan;2003;2050;2050;SC;Political Specialist;Medium;bay_buchanan;X
+87661;Head of Military Intelligence;Noam Chomsky;2003;2050;2050;LWR;Political Specialist;Medium;noam_chomsky;X
+87662;Head of Military Intelligence;David Horowitz;2003;2050;2050;SC;Political Specialist;Medium;david_hororwitz;X
+87663;Head of Military Intelligence;Sam Francis;2003;2050;2050;FA;Political Specialist;Medium;sam_francis;X
+87664;Head of Military Intelligence;Michael Klonsky;2003;2050;2050;LE;Technical Specialist;Medium;michael_klonsky;X
+87665;Head of Military Intelligence;Gordon Baum;2003;2050;2050;FA;Dismal Enigma;Medium;Gordon_baum;X
+87666;Head of Military Intelligence;Ray McGovern;2003;2050;2050;SD;Dismal Enigma;Medium;ray_mcgovern;X
+87667;Head of Military Intelligence;Vincent Bertollini;2003;2050;2050;NS;Technical Specialist;Medium;vincent_bertollini;X
+87668;Chief of Staff;Bob Avakian;2003;2050;2050;ST;School of Mass Combat;Medium;Bob_Avakian;X
+87669;Chief of Staff;Louis Beam;2003;2050;2050;FA;School of Psychology;Medium;louis_beam;X
+87670;Chief of Staff;Tom Metzger;2003;2050;2050;NS;School of Psychology;Medium;tom_metzger;X
+87671;Chief of Staff;John Trochmann;2003;2050;2050;FA;School of Mass Combat;Medium;john_trochman;X
+87672;Chief of Army;Bo Gritz;2003;2050;2050;FA;Decisive Battle Doctrine;Medium;Bo_Gritz;X
+87673;Chief of Army;Franklin Spinney;2003;2050;2050;ML;Guns and Butter Doctrine;Medium;Franklin_Spinney;X
+87674;Chief of Army;Bob Avakian;2003;2050;2050;ST;Decisive Battle Doctrine;Medium;Bob_Avakian;X
+87675;Chief of Army;Duncan Hunter;2003;2050;2050;SC;Static Defence Doctrine;Medium;duncanhunter;X
+87676;Chief of Navy;Richard Scutari;2003;2050;2050;NS;Base Control Doctrine;Medium;richard_scutari;X
+87677;Chief of Air Force;James Burmeister;2003;2050;2050;NS;Vertical Envelopment Doctrine;Medium;james_Burmeister;X
+87678;Minister of Armament;Mary Starrett;2003;2050;2050;SC;laissez-faire capitalist;Medium;mary_starrett;X
+87679;Minister of Armament;Rick Jore;2003;2050;2050;SC;Resource Industrialist;Medium;rick_jore;X
+87680;Foreign Minister;Howard Phillips;2003;2050;2050;SC;The Cloak N Dagger Schemer;Medium;Howard_Phillips;X
+87681;Head of Military Intelligence;Howard Phillips;2003;2050;2050;SC;Political Specialist;Medium;Howard_Phillips;X
+87682;Foreign Minister;Justin Raimondo;2008;2050;2050;ML;Great Compromiser;Medium;justin_raimondo;X
+87683;Minister of Security;Chuck Baldwin;2003;2050;2050;SC;Compassionate Gentleman;Medium;chuck_Baldwin;X
+87684;Minister of Security;Devy Kidd;2008;2050;2050;SC;Compassionate Gentleman;Medium;devy_kidd;X
+87685;Minister of Security;Jim Gilchrist;2005;2050;2050;SC;Efficient Sociopath;Medium;jim_gilchrist;X
+87686;Head of Military Intelligence;Steven Sailer;2003;2050;2050;FA;Technical Specialist;Medium;steve_sailer;X
+87687;Minister of Security;Paul Craig Roberts;2008;2050;2050;ML;Silent Lawyer;Medium;paul_craig_roberts;X
+87688;Head of Military Intelligence;Paul Craig Roberts;2008;2050;2050;ML;Industrial Specialist;Medium;paul_craig_roberts;X
+87689;Minister of Armament;Chuck Conner;2006;2050;2050;ML;Military Entrepreneur;Medium;chuck_conner;X
+87690;Minister of Armament;Dirk Kempthorne;2006;2050;2050;ML;Resource Industrialist;Medium;Dirk_Kempthorne;X
+87691;Minister of Security;Michael Mukasey;2008;2050;2050;ML;Crime Fighter;Medium;Michael_B_Mukasey;X
+87692;Head of Military Intelligence;Robert M. Gates;2006;2050;2050;ML;Logistics Specialist;Medium;robert_gates;X
+87693;Minister of Armament;Robert M. Gates;2006;2050;2050;ML;Air to Ground Proponent;Medium;robert_gates;X
+87694;Minister of Armament;Elaine Chao;2003;2050;2050;ML;Resource Industrialist;Medium;elaine_Chao;X
+87695;Head of Military Intelligence;Margaret Spellings;2005;2050;2050;ML;Technical Specialist;Medium;margaret_spellings;X
+87696;Minister of Security;Michael Chertoff;2005;2050;2050;ML;Prince of Terror;Medium;Michael_Chertoff;X
+87697;Minister of Security;James Dobson;2003;2050;2050;SC;Man of the People;Medium;james_Dobson;X
+87698;Minister of Armament;Donald Paul Hodel;2003;2050;2050;SC;Resource Industrialist;Medium;Donald_Paul_Hodel;X
+87699;Head of State;Barack Obama;2008;2050;2050;SL;Popular Figurehead;Medium;barackobama;X
+87700;Head of Government;Barack Obama;2008;2050;2050;SL;Flamboyant Tough Guy;Medium;barackobama;X
+87701;Head of State;Bill Richardson;2008;2050;2050;SL;Autocratic Charmer;Medium;Richardson_Bill;X
+87702;Head of Government;Bill Richardson;2008;2050;2050;SL;Backroom Backstabber;Medium;Richardson_Bill;X
+87703;Head of State;Christopher Dodd;2008;2050;2050;SL;Benevolent Gentleman;Medium;chrisdodd;X
+87704;Head of Government;Christopher Dodd;2008;2050;2050;SL;Ambitious Union Boss;Medium;chrisdodd;X
+87707;Minister of Security;Gary Hart;2003;2050;2050;SL;Silent Lawyer;Medium;Gary_Hart;X
+87708;Head of Military Intelligence;Gary Hart;2003;2050;2050;SL;Political Specialist;Medium;Gary_Hart;X
+87709;Foreign Minister;Frank G. Wisner;2003;2050;2050;SL;Biased Intellectual;Medium;frank_G_wisner;X
+87710;Foreign Minister;Lee H. Hamilton;2003;2050;2050;SL;The Cloak N Dagger Schemer;Medium;lee_H_hamilton;X
+87711;Foreign Minister;Warren Bruce Rudman;2003;2050;2050;SL;Great Compromiser;Medium;warren_bruce_rudman;X
+87712;Foreign Minister;Bill Richardson;2003;2050;2050;SL;Great Compromiser;Medium;Richardson_Bill;X
+87713;Minister of Armament;Warren Bruce Rudman;2003;2050;2050;SL;Infantry Proponent;Medium;warren_bruce_rudman;X
+87714;Foreign Minister;Sam Nunn;2003;2050;2050;SL;Great Compromiser;Medium;samnunn;X
+87715;Minister of Armament;Sam Nunn;2003;2050;2050;SL;Air to Ground Proponent;Medium;samnunn;X
+87716;Head of State;Sam Nunn;2008;2050;2050;SL;Stern Imperialist;Medium;samnunn;X
+87717;Head of Government;Sam Nunn;2008;2050;2050;ML;Backroom Backstabber;Medium;samnunn;X
+87718;Head of State;Michael Bloomberg;2008;2050;2050;ML;Autocratic Charmer;Medium;michaelbloomberg;X
+87719;Head of Government;Michael Bloomberg;2008;2050;2050;ML;Corporate Suit;Medium;michaelbloomberg;X
+87720;Head of State;Fred Thompson;2008;2050;2050;ML;Stern Imperialist;Medium;fred_thompson;X
+87721;Head of Government;Fred Thompson;2008;2050;2050;ML;Backroom Backstabber;Medium;fred_thompson;X
+87722;Head of State;Rick Perry;2012;2050;2050;ML;Autocratic Charmer;Medium;rickperry;X
+87723;Head of Government;Rick Perry;2012;2050;2050;ML;Corporate Suit;Medium;rickperry;X
+87724;Minister of Armament;Rick Perry;2004;2050;2050;ML;Military Entrepreneur;Medium;rickperry;X
+87725;Head of State;David Petraeus;2016;2050;2050;ML;Resigned Generalissimo;Medium;petraeus;X
+87726;Head of Government;David Petraeus;2016;2050;2050;ML;Old General;Medium;petraeus;X
+87727;Foreign Minister;David Petraeus;2009;2050;2050;ML;General Staffer;Medium;petraeus;X
+87728;Chief of Air Force;David Petraeus;2009;2050;2050;ML;Vertical Envelopment Doctrine;Medium;petraeus;X
+87729;Chief of Army;David Petraeus;2009;2050;2050;ML;Guns and Butter Doctrine;Medium;petraeus;X
+87730;Foreign Minister;Thomas Lantos;2003;2050;2050;SL;Ideological Crusader;Medium;tom_lantos;X
+87731;Minister of Security;Thomas Lantos;2003;2050;2050;SL;Prince of Terror;Medium;tom_lantos;X
+87732;Minister of Armament;Erskine Bowles;2004;2050;2050;SL;laissez-faire capitalist;Medium;erskine_bowles;X
+87733;Minister of Armament;Bill Bradley;2003;2050;2050;SL;laissez-faire capitalist;Medium;bill_bradley;X
+87734;Minister of Security;Jesse Jackson;2003;2050;2050;SD;Compassionate Gentleman;Medium;jesse_Jackson;X
+87735;Foreign Minister;Randy Scheunemann;2003;2050;2050;SC;Ideological Crusader;Medium;randy_scheunemann;X
+87736;Minister of Armament;Charles Keating;2003;2050;2050;SC;laissez-faire capitalist;Medium;charles_keating;X
+87737;Minister of Security;Orrin Hatch;2003;2050;2050;SC;Prince of Terror;Medium;orrin_hatch;X
+87738;Minister of Armament;Orrin Hatch;2003;2050;2050;SC;Resource Industrialist;Medium;orrin_hatch;X
+87739;Minister of Armament;Thomas  Monaghan;2003;2050;2050;SC;Resource Industrialist;Medium;thomas_monaghan;X
+87740;Head of Military Intelligence;Rob Wasinger;2003;2050;2050;ML;Political Specialist;Medium;ron_wasinger;X
+87741;Foreign Minister;Charles Patrick Roberts;2003;2050;2050;SC;Great Compromiser;Medium;charles_patrick_roberts;X
+87742;Head of Military Intelligence;Sandy Berger;2003;2050;2050;SL;Dismal Enigma;Medium;sandy_berger;X
+87743;Minister of Armament;Sandy Berger;2003;2050;2050;SL;Resource Industrialist;Medium;sandy_berger;X
+87744;Foreign Minister;David Beasley;2003;2050;2050;ML;Apologetic Clerk;Medium;david_beasley;X
+87745;Head of State;David Cobb;2004;2050;2050;SD;Insignificant Layman;Medium;david_cobb;X
+87746;Head of Government;David Cobb;2004;2050;2050;SD;Happy Amateur;Medium;david_cobb;X
+87747;Minister of Security;Patricia  LaMarche;2004;2050;2050;SD;Compassionate Gentleman;Medium;patricia_lemarche;X
+87748;Minister of Security;Peter Camejo;2004;2050;2050;SD;Man of the People;Medium;peter_camejo;X
+87749;Foreign Minister;Cynthia McKinney;2004;2050;2050;LWR;Great Compromiser;Medium;cynthiamckinney;X
+87750;Head of State;Cynthia McKinney;2008;2050;2050;LWR;Pig-headed Isolationist;Medium;cynthiamckinney;X
+87751;Head of Government;Cindy Sheehan;2003;2050;2050;LWR;Naive Optimist;Medium;Cindy_Sheehan;X
+87752;Foreign Minister;Gary Nolan;2004;2050;2050;ML;Great Compromiser;Medium;Gary_Nolan;X
+87753;Minister of Security;Aaron Russo;2004;2050;2050;ML;Silent Lawyer;Medium;aaron_russo;X
+87754;Head of Military Intelligence;Alan R. Weiss;2004;2050;2050;ML;Technical Specialist;Medium;Alan_R_Weiss;X
+87755;Minister of Armament;Nancy Lord;2004;2050;2050;ML;laissez-faire capitalist;Medium;nancy_lord;X
+87756;Head of Military Intelligence;Michael V. Hayden;2004;2050;2050;ML;Logistics Specialist;Medium;hayden;X
+87757;Minister of Security;John Stossel;2004;2050;2050;ML;Compassionate Gentleman;Medium;stossel;X
+87758;Minister of Armament;Dick Cheney;2000;2050;2050;SC;Strategic Air Proponent;Medium;cheney;X
+87759;Head of State;Dick Cheney;2000;2050;2050;SC;Stern Imperialist;Medium;Cheney;X
+87760;Head of Government;Dick Cheney;2000;2050;2050;SC;Backroom Backstabber;Medium;Cheney;X
+87761;Head of State;Nancy Pelosi;2008;2050;2050;SL;Weary Stiffneck;Medium;Nancy_Pelosi;X
+87762;Head of Government;Nancy Pelosi;2008;2050;2050;SL;Happy Amateur;Medium;Nancy_Pelosi;X
+87763;Foreign Minister;Dick Luger;2000;2050;2050;ML;Great Compromiser;High;Dick_Luger;X
+87764;Minister of Armament;Phil Gramm;2000;2050;2050;ML;laissez-faire capitalist;Medium;Phil_Gramm;X
+87765;Minister of Security;Rudy Giuliani;2008;2050;2050;ML;Crime Fighter;Medium;Rudy_Giuliani;X
+87766;Minister of Security;Fred Thompson;2008;2050;2050;ML;Silent Lawyer;Medium;fred_thompson;X
+87767;Foreign Minister;Joe Lieberman;2004;2050;2050;SL;iron fisted brute;Medium;Joe_Lieberman;X
+87768;Foreign Minister;Zbigniew Brzezinski;2008;2050;2050;ML;the cloak n dagger schemer;Medium;Zbigniew_Brzezinski;X
+87769;Head of Military Intelligence;Zbigniew Brzezinski;2008;2050;2050;ML;Political Specialist;Medium;Zbigniew_Brzezinski;X
+87770;Minister of Armament;Arnold Schwarzenegger;2008;2050;2050;ML;laissez-faire capitalist;Medium;Arnold_Schwarzenegger;X
+87771;Minister of Armament;Gene Sperling;2008;2050;2050;SL;laissez-faire capitalist;Medium;Gene_Sperling;X
+87772;Minister of Security;Janet Napolitano;2008;2050;2050;SL;Efficient Sociopath;Medium;Janet_Napolitano;X
+87773;Minister of Armament;Charlene Barshefsky;2008;2050;2050;SL;laissez-faire capitalist;Medium;Charlene_Barshefsky;X
+87774;Minister of Armament;Austan D. Goolsbee;2008;2050;2050;SL;Resource Industrialist;Medium;Austan_D_Goolsbee;X
+87775;Minister of Security;John Edwards;2008;2050;2050;SL;Man of the People;Medium;john edwards;X
+87776;Head of State;Arnold Schwarzenegger;2008;2050;2050;ML;Popular Figurehead;Medium;Arnold_Schwarzenegger;X
+87777;Head of Government;Arnold Schwarzenegger;2008;2050;2050;ML;Flamboyant Tough Guy;Medium;Arnold_Schwarzenegger;X
+87778;Chief of Staff;Michael Mullen;2003;2050;2050;ML;School of Psychology;Medium;Michael_Mullen;X
+87779;Chief of Navy;Michael Mullen;2003;2050;2050;ML;Open Seas Doctrine;Medium;Michael_Mullen;X
+87780;Chief of Navy;Gary Roughead;2003;2050;2050;ML;Open Seas Doctrine;Medium;Gary_Roughhead;X
+87781;Chief of Army;George William Casey;2003;2050;2050;ML;Armoured Spearhead Doctrine;Medium;george_w_casey;X
+87782;Chief of Navy;James T. Conway;2003;2050;2050;ML;Base Control Doctrine;Medium;james_t_conway;X
+87783;Chief of Air Force;Malcom Granger;2016;2050;2050;ML;Air Superiority Doctrine;Medium;cncgeneralsgranger;X
+87784;Chief of Staff;Alexis Alexander;2016;2050;2050;ML;School of Fire Support;Medium;cncgeneralsalexander;X
+87785;Chief of Army;Franklin Townes;2016;2050;2050;ML;Armoured Spearhead Doctrine;Medium;cncgeneralstownes;X
+87786;Chief of Navy;Alexis Alexander;2016;2050;2050;ML;Base Control Doctrine;Medium;cncgeneralsalexander;X
+87787;Chief of Staff;Robert Smith;2016;2050;2050;ML;school of defence;Medium;cncgeneralsironside;X
+87788;Chief of Air Force;James Cartwright;2003;2050;2050;ML;Naval Aviation Doctrine;Medium;james_cartwright;X
+87789;Chief of Army;Richard Cody;2003;2050;2050;ML;elastic defence doctrine;Medium;richard_cody;X
+87790;Chief of Navy;Patrick Walsh;2003;2050;2050;ML;Power Projection Doctrine;Medium;patrick_walsh;X# Texas
+87791;Chief of Staff;Martin Dempsey;2003;2050;2050;ML;School of Manoeuvre;Medium;martin_dempsey;X
+87792;Head of State;Bob Barr;2003;2050;2050;ML;Pig-headed Isolationist;Medium;bob_barr;X
+87793;Head of Government;Bob Barr;2003;2050;2050;ML;Naive Optimist;Medium;bob_barr;X
+87794;Head of State;Chuck Baldwin;2003;2050;2050;SC;Pig-headed Isolationist;Medium;chuck_baldwin;X
+87795;Head of Government;Chuck Baldwin;2003;2050;2050;SC;Naive Optimist;Medium;chuck_baldwin;X
+87796;Head of State;Jesse Ventura;2003;2050;2050;ML;Pig-headed Isolationist;Medium;jesse_ventura;X
+87797;Head of Government;Jesse Ventura;2003;2050;2050;ML;Flamboyant Tough Guy;Medium;jesse_ventura;X
+87798;Minister of Security;Teresa Gutierrez;2003;2050;2050;LE;Prince of Terror;Medium;teresa_gutierrez;X
+87799;Foreign Minister;John Parker;2003;2050;2050;LE;Great Compromiser;Medium;john_parker;X
+87800;Chief of Staff;Michael Prysner;2003;2050;2050;LE;School of Mass Combat;Medium;michael_prysner;X
+87801;Chief of Army;Michael Prysner;2003;2050;2050;LE;Decisive Battle Doctrine;Medium;michael_prysner;X
+87802;Chief of Air Force;H. Bruce Franklin;2003;2050;2050;ST;Naval Aviation Doctrine;Medium;H_Bruce_Franklin;X
+87803;Minister of Armament;H. Bruce Franklin;2003;2050;2050;ST;Battle Fleet Proponent;Medium;H_Bruce_Franklin;X
+87804;Chief of Navy;H. Bruce Franklin;2003;2050;2050;ST;Open Seas Doctrine;Medium;H_Bruce_Franklin;X
+87805;Chief of Air Force;Tim Goodrich;2003;2050;2050;LE;Army Aviation Doctrine;Medium;tim_goodrich;X
+87806;Chief of Navy;Kenneth Mayers;2003;2050;2050;LE;Base Control Doctrine;Medium;kenneth_Mayers;X
+87807;Minister of Armament;Gloria La Riva;2003;2050;2050;LE;Military Entrepreneur;Medium;gloria_la_riva;X
+87808;Minister of Security;Sergio Farias;2003;2050;2050;LWR;Man of the People;Medium;sergio_farias;X
+87809;Minister of Security;Darrell Castle;2003;2050;2050;SC;Silent Lawyer;Medium;darell_castle;X
+87810;Chief of Navy;Tony Zirkle;2003;2050;2050;FA;Open Seas Doctrine;Medium;tony_zirkle;X
+87811;Chief of Air Force;Tony Zirkle;2003;2050;2050;FA;Naval Aviation Doctrine;Medium;tony_zirkle;X
+87812;Minister of Security;Tony Zirkle;2003;2050;2050;FA;Crime Fighter;Medium;tony_zirkle;X
+87813;Minister of Armament;Tony Zirkle;2003;2050;2050;FA;Battle Fleet Proponent;Medium;tony_zirkle;X
+87814;Foreign Minister;Hillary Clinton;2008;2050;2050;SL;Ideological Crusader;High;M87529;X
+87815;Head of Military Intelligence;Janet Napolitano;2008;2050;2050;SL;Political Specialist;High;Janet_Napolitano;X
+87816;Head of Military Intelligence;James L. Jones;2008;2050;2050;SL;Political Specialist;High;Jljones;X
+87817;Chief of Air Force;Norton A. Schwartz;2008;2050;2050;SL;Naval Aviation Doctrine;High;Naschwartz;X
+87818;Minister of Security;Eric Holder;2003;2050;2050;SL;Silent Lawyer;Medium;ericholder;X
+87819;Minister of Armament;Tim Geither;2003;2050;2050;SL;laissez-faire capitalist;Medium;TimGeither;X
+87820;Chief of Army;Peter Chiarelli;2005;2050;2050;ML;Armoured Spearhead Doctrine;High;Pchiarelli;X# PSA
+87821;Chief of Navy;Jonathan Greenert;2006;2050;2050;ML;Indirect Approach Doctrine;High;Jgreenert;X
+87822;Chief of Navy;John Nathman;2003;2050;2050;ML;Power Projection Doctrine;High;Jbnathman;X# Texas
+87823;Chief of Navy;William Fallon;2003;2050;2050;SL;Power Projection Doctrine;High;Wjfallon;X
+87824;Chief of Air Force;Carrol Chandler;2006;2050;2050;ML;Air Superiority Doctrine;High;Cchandler;X
+87825;Chief of Air Force;William Fraser;2003;2050;2050;ML;Carpet Bombing Doctrine;High;Wfraser;X# Texas
+87826;Chief of Air Force;Duncan Mcnabb;2003;2050;2050;SL;Vertical Envelopment Doctrine;High;Dmcnabb;X
+87827;Chief of Air Force;John Corley;2003;2050;2050;ML;Air Superiority Doctrine;High;Jcorley;X
+87828;Head of State;Gary Johnson;2012;2050;2050;ML;Pig-headed Isolationist;High;gary_johnson;x
+87829;Head of Government;Gary Johnson;2012;2050;2050;ML;Naive Optimist;High;gary_johnson;x
+87830;Head of State;Herman Cain;2012;2050;2050;ML;Weary Stiffneck;High;herman_cain;x
+87831;Head of Government;Herman Cain;2012;2050;2050;ML;Corporate Suit;High;herman_cain;x
+87832;Head of State;Michele Bachmann;2012;2050;2050;SC;Autocratic Charmer;High;michele_bachman;x
+87833;Head of Government;Michele Bachmann;2012;2050;2050;SC;Happy Amateur;High;michele_bachman;x
+87834;Head of State;Rick Santorum;2012;2050;2050;SC;Die-hard Reformer;High;rick_santorum;x
+87835;Head of Government;Rick Santorum;2012;2050;2050;SC;Backroom Backstabber;High;rick_santorum;x
+87836;Head of State;Jill Stein;2012;2050;2050;LWR;Pig-headed Isolationist;Medium;jill_stein;x
+87837;Head of Government;Jill Stein;2012;2050;2050;LWR;Happy Amateur;Medium;jill_stein;x
+87838;Head of State;Virgil Goode;2012;2050;2050;SC;Pig-headed Isolationist;High;virgil_goode;x
+87839;Head of Government;Virgil Goode;2012;2050;2050;SC;Backroom Backstabber;High;virgil_goode;x
+87840;Head of State;Chris Christie;2016;2050;2050;ML;Benevolent Gentleman;High;Chris_Christie;x
+87841;Head of Government;Chris Christie;2016;2050;2050;ML;Flamboyant Tough Guy;High;Chris_Christie;x
+87842;Head of State;Rand Paul;2016;2050;2050;ML;Pig-headed Isolationist;Medium;Rand_Paul;x
+87843;Head of Government;Rand Paul;2016;2050;2050;ML;Naive Optimist;Medium;Rand_Paul;x
+87844;Head of State;Paul Ryan;2016;2050;2050;SC;Benevolent Gentleman;High;Paul_Ryan;x
+87845;Head of Government;Paul Ryan;2016;2050;2050;SC;Backroom Backstabber;High;Paul_Ryan;x
+87846;Head of State;Bob McDonnell;2016;2050;2050;ML;Stern Imperialist;High;Bob_McDonnell;x
+87847;Head of Government;Bob McDonnell;2016;2050;2050;ML;Backroom Backstabber;High;Bob_McDonnell;x
+87848;Head of State;Marco Rubio;2016;2050;2050;SC;Die-hard Reformer;High;Marco_Rubio;x
+87849;Head of Government;Marco Rubio;2016;2050;2050;SC;Happy Amateur;High;Marco_Rubio;x
+87850;Head of State;Andrew Cuomo;2016;2050;2050;SL;Die-hard Reformer;High;Andrew_Cuomo;x
+87851;Head of Government;Andrew Cuomo;2016;2050;2050;SL;Happy Amateur;High;Andrew_Cuomo;x
+87852;Head of State;Deval Patrick;2016;2050;2050;SD;Popular Figurehead;Medium;Deval_Patrick;x
+87853;Head of Government;Deval Patrick;2016;2050;2050;SD;Flamboyant Tough Guy;Medium;Deval_Patrick;x
+87854;Head of State;Mark Warner;2016;2050;2050;SL;Die-hard Reformer;High;Mark_Warner;x
+87855;Head of Government;Mark Warner;2016;2050;2050;SL;Backroom Backstabber;High;Mark_Warner;x
+87856;Head of State;Martin O'Malley;2016;2050;2050;SD;Barking Buffoon;High;Martin_O'Malley;x
+87857;Head of Government;Martin O'Malley;2016;2050;2050;SD;Political Protege;High;Martin_O'Malley;x
+87858;Head of State;John Hickenlooper;2016;2050;2050;SL;Stern Imperialist;High;John_Hickenlooper;x
+87859;Head of Government;John Hickenlooper;2016;2050;2050;SL;Happy Amateur;High;John_Hickenlooper;x

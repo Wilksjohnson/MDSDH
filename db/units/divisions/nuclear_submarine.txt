@@ -1,0 +1,145 @@
+#No longer used, since nuclear subs are treated as capital ships
+# 0 - Early CW Nuclear
+model =
+{ cost                       = 15
+  buildtime                  = 340
+  defaultorganisation        = 5
+  morale                     = 30
+  manpower                   = 0.5
+  maxspeed                   = 29
+  surfacedetectioncapability = 7
+  airdetectioncapability     = 1
+  subdetectioncapability     = 5
+  visibility                 = 1
+  seadefence                 = 12
+  airdefence                 = 10
+  seaattack                  = 7
+  subattack                  = 7
+  airattack                  = 1
+  shorebombardment           = 0
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 1
+  fuelconsumption            = 0
+  distance                   = 0.2
+}
+# 1 - Late CW Nuclear
+model =
+{ cost                       = 18
+  buildtime                  = 340
+  defaultorganisation        = 5
+  morale                     = 30
+  manpower                   = 0.5
+  maxspeed                   = 30
+  surfacedetectioncapability = 8
+  airdetectioncapability     = 1
+  subdetectioncapability     = 6
+  visibility                 = 1
+  seadefence                 = 14
+  airdefence                 = 12
+  seaattack                  = 9
+  subattack                  = 9
+  airattack                  = 1
+  shorebombardment           = 0
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 1.2
+  fuelconsumption            = 0
+  distance                   = 0.23
+}
+# 2 - Modern Nuclear
+model =
+{ cost                       = 21
+  buildtime                  = 390
+  defaultorganisation        = 5
+  morale                     = 30
+  manpower                   = 0.5
+  maxspeed                   = 31
+  surfacedetectioncapability = 9
+  airdetectioncapability     = 1
+  subdetectioncapability     = 8
+  visibility                 = 1
+  seadefence                 = 16
+  airdefence                 = 18
+  seaattack                  = 12
+  subattack                  = 12
+  airattack                  = 1
+  shorebombardment           = 0
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 1.4
+  fuelconsumption            = 0
+  distance                   = 0.26
+}
+# 3 - Improved Modern Nuclear
+model =
+{ cost                       = 24
+  buildtime                  = 390
+  defaultorganisation        = 4
+  morale                     = 30
+  manpower                   = 0.5
+  maxspeed                   = 32
+  surfacedetectioncapability = 10
+  airdetectioncapability     = 1
+  subdetectioncapability     = 9
+  visibility                 = 1
+  seadefence                 = 18
+  airdefence                 = 22
+  seaattack                  = 14
+  subattack                  = 14
+  airattack                  = 1
+  shorebombardment           = 0
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 1.6
+  fuelconsumption            = 0
+  distance                   = 0.29
+}
+# 4 - Future Nuclear
+model =
+{ cost                       = 27
+  buildtime                  = 440
+  defaultorganisation        = 4
+  morale                     = 30
+  manpower                   = 0.5
+  maxspeed                   = 33
+  surfacedetectioncapability = 11
+  airdetectioncapability     = 1
+  subdetectioncapability     = 11
+  visibility                 = 1
+  seadefence                 = 20
+  airdefence                 = 26
+  seaattack                  = 17
+  subattack                  = 17
+  airattack                  = 1
+  shorebombardment           = 0
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 1.8
+  fuelconsumption            = 0
+  distance                   = 0.32
+}
+# 5 - Improved Future Nuclear
+model =
+{ cost                       = 30
+  buildtime                  = 440
+  defaultorganisation        = 3
+  morale                     = 30
+  manpower                   = 0.5
+  maxspeed                   = 34
+  surfacedetectioncapability = 12
+  airdetectioncapability     = 1
+  subdetectioncapability     = 12
+  visibility                 = 1
+  seadefence                 = 22
+  airdefence                 = 28
+  seaattack                  = 20
+  subattack                  = 20
+  airattack                  = 1
+  shorebombardment           = 0
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 2
+  fuelconsumption            = 0
+  distance                   = 0.35
+}

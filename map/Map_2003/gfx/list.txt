@@ -1,0 +1,117 @@
+- Aberdeen
+- Auxerre
+- Bruges
+- Cardiff
+- Cluj
+- Contanza
+- Cork
+- Coruna
+- Dubrovnik
+- Eindhoven
+- Florence
+- Gdynia
+- Gibraltar
+- Liepaja
+- Maribor
+- Montpellier
+- oxford
+- Palermo
+- Plovdiv
+- Porto
+- Tartu
+- Thessaloniki
+- Toulouse
+- Trabzon
+- Tuzla
+- Zilina
+- Zurich
+- Agadir
+- Ashkhabad
+- Bergen
+- Bhengazhi
+- Frunze (Bishkek)
+- Debrecen
+- Dushanbe
+- Gothenburg
+- Greenland
+- Haifa
+- Marrakech
+- Masqat
+- Narvik
+- Rabat
+- Rovaniemi
+- Sanaa
+- Szeged
+- Trondheim
+- Vaasa
+- Abidjan
+- Abuja
+- Accra
+- Bamako
+- Bangui
+- Banjul
+- Bissau
+- Brazzaville
+- Conakry
+- Cotonou
+- Dakar
+- Freetown
+- Lome
+- Monrovia
+- Ndjamena (Fort Lamy)
+- Niamey
+- Noakchott
+- Ouagadougou
+- Yaounde
+- Leopoldville (Kenshasa)
+- Luanda
+- Windhoek
+- Gaberones
+- Maseru
+- Durban
+- Porth Elizabeth
+- Mbabane
+- Lourenco Marques (Maputo)
+- Salisbury (Harare)
+- Lusaka
+- Dar es Salaam
+- usumbura (Bujumbura)
+- Kigali
+- Kampala
+- Nairobi
+- Adis Abeba
+- Mogadishu
+- Djibouti
+- Asmara
+- Khartoum
+- Tananarive
+- Belize City
+- Blantyre
+- Canberrra
+- Christchurch
+- Ciudad de Panama
+- Colombo
+- Darwin
+- Dili
+- Georgetown
+- Hamilton
+- Macau
+- Managua
+- Paramaribo
+- Phnom Penh
+- Port Louis
+- Port Moresby
+- Porto Alegre
+- San Salvador
+- Sidney
+- Tegucigalpa
+- Vientiane
+- Wellington
+- JogJakarta
+- Cetinje (Podgorica)
+- Albuquerque
+- Corpus Christi
+- Des Moines
+- Providence
+- Sacramento
+- Singapore

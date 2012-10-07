@@ -1,0 +1,10 @@
+CGX;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+8700;Kharkiv Military University;kharkivuniversity;3;1000;2999;training;large_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8701;KMDB;KMDBukr;7;1000;2999;general_equipment;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8702;Malyshev Plant;Malyshev;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8703;Motor Sich;motorsich;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8704;Yuzhnoye Design Bureau;yuzhnoye;5;1000;2999;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8705;Nikolaev North Shipyard;nikolaevship;5;2099;2999;naval_artillery;small_taskforce_tactics;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8706;Novorossiyan Army;Novorossiyan Army;4;1000;2099;training;large_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8707;Novorossiyan Air Force;Novorossiyan Air Force;4;1000;2099;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8708;Novorissiyan Navy;Novorissiyan Navy;4;2099;2999;large_taskforce_tactics;submarine_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

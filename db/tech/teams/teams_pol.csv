@@ -1,0 +1,17 @@
+POL;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+13300;National Military Academy;polmilac;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13301;Lucznik Arms Factory;lucznik;7;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13302;Bumar;bumarpol;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13303;HSW;hswpol;5;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13304;WZM;wzmpol;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13305;SWW;sww;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13306;FSO;fsopol;4;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13307;MESKO;meskopol;6;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13308;RADWAR;radwar;6;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13309;PZL;pzlpol;5;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13310;Polish Army;polarmy;6;1000;1970;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13311;General Staff;genstaffpol;6;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13312;Logistics Department;ukrlogistics;6;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13313;Polish Air Force;polairforce;6;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13314;Polish Navy;polnavy;5;1000;2999;naval_training;seamanship;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13315;Naval Shipyard Gdynia;gdynia;4;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

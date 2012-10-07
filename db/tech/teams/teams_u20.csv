@@ -1,0 +1,14 @@
+U20;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+95001;Lone Star Steel Company;lonestar;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95002;Bond Arms;bondarms;5;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95003;Bell Helicopter;bell;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95004;TASA;T17515;5;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95005;Arlington Defense;arlington;4;1000;2999;artillery;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95006;Dell;dell;6;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95007;Vanguard Defense;vanguard;5;1000;2999;aeronautics;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95008;Consolidated Robotics;Consolidated Robotics;7;1000;2999;management;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95009;Army National Guard;tanguard;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95010;Air National Guard;anguard;7;1000;2999;fighter_tactics;bomber_tactics;piloting;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95011;Texan Navy;texannavy;5;1000;2999;seamanship;large_taskforce_tactics;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95012;Houston Shipbuilding;houstonship;6;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95013;Military Intelligence Agency;texasintel;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

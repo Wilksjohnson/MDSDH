@@ -1,0 +1,340 @@
+V0.6
+
+LEADERS:
+
+
+### Cyprus ###
+
+# Fixed error with duplicate leader ID
+
+
+### Germany ###
+
+# Fixed error with incorrect leader death date (ID 31002)
+# Fixed error with duplicate leader ID (ID 31007 changed to ID 31161)
+
+
+### Greece ###
+
+# Fixed error with duplicate leader ID (ID 31501 changed to ID 31558)
+# Fixed error with duplicate leader ID (ID 31504 changed to ID 31559)
+# Fixed error with duplicate leader ID (ID 31505 changed to ID 31560)
+# Fixed error with duplicate leader ID (ID 31506 changed to ID 31561)
+# Fixed error with duplicate leader ID (ID 31507 changed to ID 31562)
+# Fixed error with duplicate leader ID (ID 31508 changed to ID 31563)
+# Fixed error with duplicate leader ID (ID 31509 changed to ID 31564)
+# Fixed error with duplicate leader ID (ID 31510 changed to ID 31565)
+# Fixed error with duplicate leader ID (ID 31511 changed to ID 31566)
+# Fixed error with duplicate leader ID (ID 31512 changed to ID 31567)
+# Fixed error with duplicate leader ID (ID 31513 changed to ID 31568)
+# Fixed error with duplicate leader ID (ID 31514 changed to ID 31569)
+# Fixed error with duplicate leader ID (ID 31515 changed to ID 31570)
+# Fixed error with duplicate leader ID (ID 31516 changed to ID 31571)
+# Fixed error with duplicate leader ID (ID 31517 changed to ID 31572)
+# Fixed error with duplicate leader ID (ID 31520 changed to ID 31573)
+# Fixed error with duplicate leader ID (ID 31521 changed to ID 31574)
+
+
+### Guatemala ###
+
+# Fixed error with incorrect leader death date (ID 21020)
+
+
+### North Korea ###
+
+# Fixed error with duplicate leader ID (Byun ID 60542 changed to ID 60554)
+
+
+### Pacific States of America ###
+
+# Had to revise deathdates for every single leader
+
+
+### Romania ###
+
+# Fixed error with incorrect leader death date (ID 12014)
+
+
+### United States of America ###
+
+# Fixed error with incorrect leader death date (ID 87503)
+# Fixed error with incorrect leader death date (ID 87504)
+# Fixed error with incorrect leader death date (ID 87505)
+# Fixed error with incorrect leader death date (ID 87508)
+# Fixed error with incorrect leader death date (ID 87510)
+# Fixed error with incorrect leader death date (ID 87562)
+
+
+MINISTERS:
+
+### Greece ###
+
+# Fixed error with laissez-faire capitalist (ID 32004)
+
+
+### Hungary ###
+
+# Fixed error with laissez-faire capitalist (ID 36015)
+
+
+### Indonesia ###
+
+# Fixed error with laissez-faire capitalist (ID 37019)
+# Fixed error with elastic defence doctrine (ID 37043)
+# Fixed error with elastic defence doctrine (ID 37008)
+
+
+### Iraq ###
+
+# Fixed error with school of defence (ID 38507)
+# Fixed error with iron fisted brute (ID 38564)
+
+
+### Israel ###
+
+# Fixed error with iron fisted brute (ID 39517)
+# Fixed error with air to ground proponent (ID 39527)
+
+### Italy ###
+
+# Fixed error with iron fisted brute (ID 582034)
+# Fixed error with iron fisted brute (ID 582073)
+# Fixed error with iron fisted brute (ID 582082)
+# Fixed error with the cloak n dagger schemer (ID 582036)
+# Fixed error with the cloak n dagger schemer (ID 582058)
+# Fixed error with static defence doctrine (ID 582039)
+# Fixed error with static defence doctrine (ID 582089)
+# Fixed error with crooked kleptocrat (ID 7718)
+# Fixed error with school of manoeuvre (ID 582022)
+# Fixed error with school of manoeuvre (ID 582050)
+
+
+### Japan ###
+
+# Fixed error with laissez-faire capitalist (ID 41520)
+# Fixed error with laissez-faire capitalist (ID 41522)
+# Fixed error with laissez-faire capitalist (ID 41534)
+# Fixed error with laissez-faire capitalist (ID 41563)
+
+
+### Jordan ###
+
+# Fixed error with old airmarshal (ID 42017)
+
+
+### Kazakhstan ###
+
+# Fixed error with laissez-faire capitalist (ID 42504)
+
+
+### Libya ###
+
+# Fixed error with laissez-faire capitalist (ID 48004)
+
+
+### Lebanon ###
+
+# Fixed error with vertical envelopment doctrine (ID 47010)
+
+
+### Liberia ###
+
+# Fixed error with iron fisted brute (ID 47503)
+
+
+### Lithuania ###
+
+# Fixed error with laissez-faire capitalist (ID 48521)
+
+
+### Norway ###
+
+# Fixed error with laissez-faire capitalist (ID 61026)
+
+
+### New Zealand ###
+
+# Fixed error with laissez-faire capitalist (ID 58530)
+
+
+### Philippines ###
+
+# Fixed error with laissez-faire capitalist (ID 66004)
+# Fixed error with laissez-faire capitalist (ID 66015)
+# Fixed error with elastic defence doctrine (ID 66021)
+
+
+### Poland ###
+
+# Fixed error with elastic defence doctrine (ID 66508)
+# Fixed error with barking buffoon (ID 66516)
+# Fixed error with barking buffoon (ID 66519)
+# Fixed error with laissez-faire capitalist (ID 66592)
+# Fixed error with laissez-faire capitalist (ID 66596)
+# Fixed error with laissez-faire capitalist (ID 66607)
+# Fixed error with laissez-faire capitalist (ID 66618)
+
+
+### Romania ###
+
+# Fixed error with laissez-faire capitalist (ID 68504)
+# Fixed error with laissez-faire capitalist (ID 68546)
+# Fixed error with laissez-faire capitalist (ID 68558)
+# Fixed error with barking buffoon (ID 68513)
+# Fixed error with barking buffoon (ID 68548)
+
+
+### Russia ###
+
+# Fixed error with laissez-faire capitalist (ID 69004)
+# Fixed error with laissez-faire capitalist (ID 69042)
+# Fixed error with laissez-faire capitalist (ID 69044)
+# Fixed error with laissez-faire capitalist (ID 69087)
+# Fixed error with powerhungry demagogue (ID 69017)
+# Fixed error with iron fisted brute (ID 69034)
+
+
+### Serbia ###
+
+# Fixed error with laissez-faire capitalist (ID 71004)
+# Fixed error with laissez-faire capitalist (ID 71055)
+
+
+### Slovakia ###
+
+# Fixed error with laissez-faire capitalist (ID 73003)
+# Fixed error with laissez-faire capitalist (ID 73022)
+# Fixed error with elastic defence doctrine (ID 73028)
+
+
+### Slovenia ###
+
+# Fixed error with laissez-faire capitalist (ID 73522)
+# Fixed error with school of manoeuvre (ID 73554)
+
+
+### Sudan ###
+
+# Fixed error with iron fisted brute (ID 77503)
+
+
+### Tajikistan ###
+
+# Fixed error with laissez-faire capitalist (ID 81015)
+
+
+### Tanzania ###
+
+# Fixed error with laissez-faire capitalist (ID 81504)
+
+
+### Tibet ###
+
+# Fixed error with static defence doctrine (ID 93007)
+
+
+### Taiwan/CHI ###
+
+# FIX THESE NEXT!!!!
+
+
+
+### EU Implementation (By CocoBZ) ### 
+
+# Changed Config/Boostertext
+# Changed DB/Revolt
+# Changed MDS2 .EUG File
+# Changed Scenarios/2003/eu file
+# Changed Map_2003/Provine file
+
+# Changed error with EU event file, line 1872. Error in "command" function.
+# The Armenia event file MUST BE HASHED OUT for the EU events to work. This is due to overlapping Event ID's. Need to change ID's in the future.
+
+.........................................................
+
+September 2012
+Extensive code fixes done by novapaddy to get the mod working properly and not crashing any more.
+This was done by going back to an earlier version, fixing that, and working forward to version 0.6.
+Tested by Arcangelus, with his fixes and changes added.
+Fixed version 0.6 is now version 0.7.
+All of the above before this September note, is resolved AFAIK.
+
+version 0.7.1
+
+ARMENIA file fixed, with new ID's. (duplicate id's before).
+99% of missing event pics are now in place (novapaddy).
+OOB's are half-done,and Guglie_ is finishing them off.
+vincesportsman is doing the tech files.
+Other contributions have been included, including new city pics (ottoman master).
+jimian re-did the Taiwan files (extensive).
+AgentSmith2012 contributed the model pics, not allocated yet, as awaiting tech getting sorted.
+Filled in some missing model pics and changed others.
+
+Totally redid the ai files where required.
+Added an event where required.
+
+USA invasion of Iraq now works under AI control. 
+
+Swapped Guglie_'s dprk, south korea and romania inc files
+with Arcangelus's files (got rid of dummies).
+
+Put back Decisions, added previously by Wilksjohnson.
+Sahrawi removed as start up country.
+
+Various minor changes found while playing. 
+
+This version uploaded as MDS20701.
+....................................
+
+
+October 2012, DH 1.03beta released.
+
+Main effort to clean up files in an effort to get rid
+of the LAG issue, and make ready for DH1.03... which
+has a new ERROR CHECKER, which finds ALL ERRORS.
+
+Files in Config folder checked against DH1.03 files
+and found to be in a total mess.
+
+Files in config folder totally redone from scratch
+using the DH1.03 files as Master, and MDS2 files
+added/overwriting DH where needed.
+
+db folder files as above, much less messy.
+map folder files as above, used DH1.03 map files
+and only added province_name file from MDS2.
+New Minister files added from Arcangelus for DH1.03 added. 
+
+Put all bases into the bases.INC file.. removed from
+individual country INC files.
+THIS MAY NEED REWORKING AS bases may be now missing?? cHECK
+
+273 new AI files created so country's can now have their own
+individual AI file, instead of default.ai or minor_default.ai
+being used.
+
+Removed DH Lite map from mod.
+Set Tech year from 1000 to 2000. 
+
+Only did minor gfx changes so far to suit DH1.03 new graphics.
+
+..........
+
+MDS2_07DH03 now the current version.
+Loads and works in DH1.03
+BUT, set error checker to 1, and there are still
+gazillions of errors to be sorted out.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1330 @@
+technology =
+{ id          = 4
+  category    = aircraft
+  name        = TECH_AIRCRAFT_NAME # Localized name
+  desc        = TECH_AIRCRAFT_DESC # Localized description
+  label =
+  { tag      = TECH_CAT_MR
+    position = { x = 74 y = -8 }
+  }
+  label =
+  { tag      = TECH_CAT_LR
+    position = { x = 155 y = 4 }
+  }
+  label =
+  { tag      = TECH_CAT_SR
+    position = { x = 10 y = 4 }
+  }
+  label =
+  { tag      = TECH_CAT_STRIKE
+    position = { x = 282 y = -14 }
+  }
+  label =
+  { tag      = TECH_CAT_STRATEGIC
+    position = { x = 410 y = -14 }
+  }
+  label =
+  { tag      = TECH_CAT_JET
+    position = { x = 278 y = 182 }
+  }
+  label =
+  { tag      = TECH_CAT_CAS
+    position = { x = 408 y = 182 }
+  }
+  label =
+  { tag      = TECH_CAT_AH
+    position = { x = 8 y = 280 }
+  }
+  label =
+  { tag      = TECH_CAT_NAV
+    position = { x = 410 y = 74 }
+  }
+  label =
+  { tag      = TECH_CAT_CAG
+    position = { x = 63 y = 138 }
+  }
+  label =
+  { tag      = TECH_CAT_TRA
+    position = { x = 278 y = 73 }
+  }
+  label =
+  { tag      = TECH_CAT_ATA
+    position = { x = 506 y = 250 }
+  }
+  label =
+  { tag      = TECH_CAT_ATG
+    position = { x = 379 y = 250 }
+  }
+  label =
+  { tag      = TECH_CAT_ATS
+    position = { x = 260 y = 250 }
+  }
+  label =
+  { tag      = TECH_CAT_ECM
+    position = { x = 530 y = -14 }
+  }
+  # Short Range MR Fighter 2nd Gen
+  application =
+  { id        = 4000
+    name      = TECH_APP_AIRCRAFT_1_NAME
+    desc      = TECH_APP_AIRCRAFT_1_DESC
+    position  = { x = -17 y = 20 }
+    year      = 2000
+    component = { id = 4001 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4002 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4003 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4004 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4005 name = "" type = aeronautics difficulty = 8 }
+    required  = { 4700 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = interceptor value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = interceptor }
+    }
+  }
+  # Short Range MR Fighter 3rd Gen
+  application =
+  { id          = 4010
+    name        = TECH_APP_AIRCRAFT_2_NAME
+    desc        = TECH_APP_AIRCRAFT_2_DESC
+    position    = { x = -17 y = 38 }
+    year      = 2000
+    component   = { id = 4011 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4012 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4013 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4014 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4015 name = "" type = aeronautics difficulty = 10 }
+    required    = { 4700 4750 5070 5080 }
+    OR_required = { 4000 4120 }
+    effects =
+    { command = { type = new_model which = interceptor value = 1 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = scrap_model which = interceptor value = 0 }
+      command = { type = activate_unit_type which = interceptor }
+      command = { type = deactivate which = 4000 }
+    }
+  }
+  # Short Range MR Fighter 4th Gen
+  application =
+  { id          = 4020
+    name        = TECH_APP_AIRCRAFT_3_NAME
+    desc        = TECH_APP_AIRCRAFT_3_DESC
+    position    = { x = -17 y = 56 }
+    year      = 2000
+    component   = { id = 4021 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4022 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4023 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4024 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4025 name = "" type = aeronautics difficulty = 12 }
+    required    = { 4710 4760 5170 5180 }
+    OR_required = { 4010 4130 }
+    effects =
+    { command = { type = new_model which = interceptor value = 2 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = interceptor value = 0 }
+      command = { type = scrap_model which = interceptor value = 1 }
+      command = { type = activate_unit_type which = interceptor }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4100 }
+    }
+  }
+  # Short Range MR Fighter 4.5th Gen
+  application =
+  { id          = 4030
+    name        = TECH_APP_AIRCRAFT_4_NAME
+    desc        = TECH_APP_AIRCRAFT_4_DESC
+    position    = { x = -17 y = 74 }
+    year      = 2000
+    component   = { id = 4031 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4032 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4033 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4034 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4035 name = "" type = aeronautics difficulty = 14 }
+    required    = { 4720 4770 5270 5280 }
+    OR_required = { 4020 4140 }
+    effects =
+    { command = { type = new_model which = interceptor value = 3 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5280 }
+      command = { type = scrap_model which = interceptor value = 0 }
+      command = { type = scrap_model which = interceptor value = 1 }
+      command = { type = scrap_model which = interceptor value = 2 }
+      command = { type = activate_unit_type which = interceptor }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4020 }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4600 }
+    }
+  }
+  # Short Range MR Fighter 5th Gen
+  application =
+  { id          = 4040
+    name        = TECH_APP_AIRCRAFT_5_NAME
+    desc        = TECH_APP_AIRCRAFT_5_DESC
+    position    = { x = -17 y = 92 }
+    year      = 2000
+    component   = { id = 4041 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4042 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4043 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4044 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4045 name = "" type = aeronautics difficulty = 16 }
+    required    = { 4730 4780 5370 5380 7280 }
+    OR_required = { 4030 4150 }
+    effects =
+    { command = { type = new_model which = interceptor value = 4 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = info_may_cause which = 7280 }
+      command = { type = scrap_model which = interceptor value = 0 }
+      command = { type = scrap_model which = interceptor value = 1 }
+      command = { type = scrap_model which = interceptor value = 2 }
+      command = { type = scrap_model which = interceptor value = 3 }
+      command = { type = activate_unit_type which = interceptor }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4020 }
+      command = { type = deactivate which = 4030 }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4120 }
+      command = { type = deactivate which = 4600 }
+      command = { type = deactivate which = 4610 }
+    }
+  }
+  # Short Range MR Fighter 5.5th Gen
+  application =
+  { id          = 4050
+    name        = TECH_APP_AIRCRAFT_6_NAME
+    desc        = TECH_APP_AIRCRAFT_6_DESC
+    position    = { x = -17 y = 110 }
+    year      = 2000
+    component   = { id = 4051 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4052 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4053 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4054 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4055 name = "" type = aeronautics difficulty = 18 }
+    required    = { 4730 4780 5470 5480 }
+    OR_required = { 4040 }
+    effects =
+    { command = { type = new_model which = interceptor value = 5 }
+      command = { type = info_may_cause which = 5470 }
+      command = { type = info_may_cause which = 5480 }
+      command = { type = info_may_cause which = 5490 }
+      command = { type = scrap_model which = interceptor value = 0 }
+      command = { type = scrap_model which = interceptor value = 1 }
+      command = { type = scrap_model which = interceptor value = 2 }
+      command = { type = scrap_model which = interceptor value = 3 }
+      command = { type = scrap_model which = interceptor value = 4 }
+      command = { type = activate_unit_type which = interceptor }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4020 }
+      command = { type = deactivate which = 4030 }
+      command = { type = deactivate which = 4040 }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4120 }
+      command = { type = deactivate which = 4130 }
+      command = { type = deactivate which = 4600 }
+      command = { type = deactivate which = 4610 }
+      command = { type = deactivate which = 4620 }
+    }
+  }
+  # Long Range MR Fighter 2nd Gen
+  application =
+  { id        = 4100
+    name      = TECH_APP_AIRCRAFT_7_NAME
+    desc      = TECH_APP_AIRCRAFT_7_DESC
+    position  = { x = 128 y = 20 }
+    year      = 2000
+    component = { id = 4101 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4102 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4103 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4104 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4105 name = "" type = aeronautics difficulty = 8 }
+    required  = { 4700 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = multi_role value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = multi_role }
+    }
+  }
+  # Long Range MR Fighter 3rd Gen
+  application =
+  { id          = 4110
+    name        = TECH_APP_AIRCRAFT_8_NAME
+    desc        = TECH_APP_AIRCRAFT_8_DESC
+    position    = { x = 128 y = 38 }
+    year      = 2000
+    component   = { id = 4111 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4112 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4113 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4114 name = "" type = aeronautics difficulty = 10 }
+    component   = { id = 4115 name = "" type = aeronautics difficulty = 10 }
+    required    = { 4700 4750 5070 5080 }
+    OR_required = { 4100 4020 }
+    effects =
+    { command = { type = new_model which = multi_role value = 1 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = scrap_model which = multi_role value = 0 }
+      command = { type = activate_unit_type which = multi_role }
+      command = { type = deactivate which = 4100 }
+    }
+  }
+  # Long Range MR Fighter 4th Gen
+  application =
+  { id          = 4120
+    name        = TECH_APP_AIRCRAFT_9_NAME
+    desc        = TECH_APP_AIRCRAFT_9_DESC
+    position    = { x = 128 y = 56 }
+    year      = 2000
+    component   = { id = 4121 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4122 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4123 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4124 name = "" type = aeronautics difficulty = 12 }
+    component   = { id = 4125 name = "" type = aeronautics difficulty = 12 }
+    required    = { 4710 4760 5170 5180 }
+    OR_required = { 4110 4030 }
+    effects =
+    { command = { type = new_model which = multi_role value = 2 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = multi_role value = 0 }
+      command = { type = scrap_model which = multi_role value = 1 }
+      command = { type = activate_unit_type which = multi_role }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4500 }
+    }
+  }
+  # Long Range MR Fighter 4.5th Gen
+  application =
+  { id          = 4130
+    name        = TECH_APP_AIRCRAFT_10_NAME
+    desc        = TECH_APP_AIRCRAFT_10_DESC
+    position    = { x = 128 y = 74 }
+    year      = 2000
+    component   = { id = 4131 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4132 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4133 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4134 name = "" type = aeronautics difficulty = 14 }
+    component   = { id = 4135 name = "" type = aeronautics difficulty = 14 }
+    required    = { 4720 4770 5270 5280 }
+    OR_required = { 4120 4040 }
+    effects =
+    { command = { type = new_model which = multi_role value = 3 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5280 }
+      command = { type = scrap_model which = multi_role value = 0 }
+      command = { type = scrap_model which = multi_role value = 1 }
+      command = { type = scrap_model which = multi_role value = 2 }
+      command = { type = activate_unit_type which = multi_role }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4120 }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4500 }
+      command = { type = deactivate which = 4510 }
+      command = { type = deactivate which = 4600 }
+    }
+  }
+  # Long Range MR Fighter 5th Gen
+  application =
+  { id          = 4140
+    name        = TECH_APP_AIRCRAFT_11_NAME
+    desc        = TECH_APP_AIRCRAFT_11_DESC
+    position    = { x = 128 y = 92 }
+    year      = 2000
+    component   = { id = 4141 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4142 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4143 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4144 name = "" type = aeronautics difficulty = 16 }
+    component   = { id = 4145 name = "" type = aeronautics difficulty = 16 }
+    required    = { 4730 4780 5370 5380 7280 }
+    OR_required = { 4130 4050 }
+    effects =
+    { command = { type = new_model which = multi_role value = 4 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = info_may_cause which = 7280 }
+      command = { type = scrap_model which = multi_role value = 0 }
+      command = { type = scrap_model which = multi_role value = 1 }
+      command = { type = scrap_model which = multi_role value = 2 }
+      command = { type = scrap_model which = multi_role value = 3 }
+      command = { type = activate_unit_type which = multi_role }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4120 }
+      command = { type = deactivate which = 4130 }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4020 }
+      command = { type = deactivate which = 4600 }
+      command = { type = deactivate which = 4610 }
+    }
+  }
+  # Long Range MR Fighter 5.5th Gen
+  application =
+  { id          = 4150
+    name        = TECH_APP_AIRCRAFT_12_NAME
+    desc        = TECH_APP_AIRCRAFT_12_DESC
+    position    = { x = 128 y = 110 }
+    year      = 2000
+    component   = { id = 4151 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4152 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4153 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4154 name = "" type = aeronautics difficulty = 18 }
+    component   = { id = 4155 name = "" type = aeronautics difficulty = 18 }
+    required    = { 4730 4780 5470 5480 }
+    OR_required = { 4140 }
+    effects =
+    { command = { type = new_model which = multi_role value = 5 }
+      command = { type = info_may_cause which = 5470 }
+      command = { type = info_may_cause which = 5480 }
+      command = { type = info_may_cause which = 5490 }
+      command = { type = scrap_model which = multi_role value = 0 }
+      command = { type = scrap_model which = multi_role value = 1 }
+      command = { type = scrap_model which = multi_role value = 2 }
+      command = { type = scrap_model which = multi_role value = 3 }
+      command = { type = scrap_model which = multi_role value = 4 }
+      command = { type = activate_unit_type which = multi_role }
+      command = { type = deactivate which = 4100 }
+      command = { type = deactivate which = 4110 }
+      command = { type = deactivate which = 4120 }
+      command = { type = deactivate which = 4130 }
+      command = { type = deactivate which = 4140 }
+      command = { type = deactivate which = 4000 }
+      command = { type = deactivate which = 4010 }
+      command = { type = deactivate which = 4020 }
+      command = { type = deactivate which = 4030 }
+      command = { type = deactivate which = 4500 }
+      command = { type = deactivate which = 4510 }
+      command = { type = deactivate which = 4520 }
+      command = { type = deactivate which = 4600 }
+      command = { type = deactivate which = 4610 }
+      command = { type = deactivate which = 4620 }
+    }
+  }
+  # Early CW Strategic Bomber
+  application =
+  { id        = 4200
+    name      = TECH_APP_AIRCRAFT_16_NAME
+    desc      = TECH_APP_AIRCRAFT_16_DESC
+    position  = { x = 400 y = 0 }
+    year      = 2000
+    component = { id = 4201 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4202 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4203 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4204 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4205 name = "" type = aeronautics difficulty = 12 }
+    required  = { 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = strategic_bomber }
+    }
+  }
+  # Mid CW Strategic Bomber
+  application =
+  { id        = 4210
+    name      = TECH_APP_AIRCRAFT_17_NAME
+    desc      = TECH_APP_AIRCRAFT_17_DESC
+    position  = { x = 400 y = 18 }
+    year      = 2000
+    component = { id = 4211 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4212 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4213 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4214 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4215 name = "" type = aeronautics difficulty = 14 }
+    required  = { 4200 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 1 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = scrap_model which = strategic_bomber value = 0 }
+    }
+  }
+  # Late CW Strategic Bomber
+  application =
+  { id        = 4220
+    name      = TECH_APP_AIRCRAFT_18_NAME
+    desc      = TECH_APP_AIRCRAFT_18_DESC
+    position  = { x = 400 y = 36 }
+    year      = 2000
+    component = { id = 4221 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4222 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4223 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4224 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4225 name = "" type = aeronautics difficulty = 16 }
+    required  = { 4210 4760 5170 5180 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 2 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = strategic_bomber value = 1 }
+    }
+  }
+  # 21st Century Strategic Bomber
+  application =
+  { id        = 4230
+    name      = TECH_APP_AIRCRAFT_19_NAME
+    desc      = TECH_APP_AIRCRAFT_19_DESC
+    position  = { x = 400 y = 54 }
+    year      = 2000
+    component = { id = 4231 name = "" type = aeronautics difficulty = 20 }
+    component = { id = 4232 name = "" type = aeronautics difficulty = 20 }
+    component = { id = 4233 name = "" type = aeronautics difficulty = 20 }
+    component = { id = 4234 name = "" type = aeronautics difficulty = 20 }
+    component = { id = 4235 name = "" type = aeronautics difficulty = 20 }
+    required  = { 4220 4780 5370 5380 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 3 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = scrap_model which = strategic_bomber value = 2 }
+    }
+  }
+  # Early CW Strike Fighter
+  application =
+  { id        = 4500
+    name      = TECH_APP_AIRCRAFT_20_NAME
+    desc      = TECH_APP_AIRCRAFT_20_DESC
+    position  = { x = 270 y = 0 }
+    year      = 2000
+    component = { id = 4501 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4502 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4503 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4504 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4505 name = "" type = aeronautics difficulty = 8 }
+    required  = { 4700 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 1 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = tactical_bomber }
+    }
+  }
+  # Mid CW Strike Fighter
+  application =
+  { id        = 4510
+    name      = TECH_APP_AIRCRAFT_21_NAME
+    desc      = TECH_APP_AIRCRAFT_21_DESC
+    position  = { x = 270 y = 18 }
+    year      = 2000
+    component = { id = 4511 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4512 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4513 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4514 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4515 name = "" type = aeronautics difficulty = 10 }
+    required  = { 4700 4750 5070 5080 }
+    OR_required = { 4500 4120 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 2 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = scrap_model which = tactical_bomber value = 1 }
+    }
+  }
+  # Late CW Strike Fighter
+  application =
+  { id        = 4520
+    name      = TECH_APP_AIRCRAFT_22_NAME
+    desc      = TECH_APP_AIRCRAFT_22_DESC
+    position  = { x = 270 y = 36 }
+    year      = 2000
+    component = { id = 4521 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4522 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4523 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4524 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4525 name = "" type = aeronautics difficulty = 12 }
+    required  = { 4710 4760 5170 5180 }
+    OR_required = { 4510 4130 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 3 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = tactical_bomber value = 2 }
+    }
+  }
+  # 21st CW Strike Fighter
+  application =
+  { id        = 4530
+    name      = TECH_APP_AIRCRAFT_24_NAME
+    desc      = TECH_APP_AIRCRAFT_24_DESC
+    position  = { x = 270 y = 54 }
+    year      = 2000
+    component = { id = 4531 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4532 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4533 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4534 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4535 name = "" type = aeronautics difficulty = 16 }
+    required  = { 4730 4780 5370 5380 7280 }
+    OR_required = { 4520 4150 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 4 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = info_may_cause which = 7280 }
+      command = { type = scrap_model which = tactical_bomber value = 3 }
+    }
+  }
+  # Ground Attack: Cold War CAS
+  application =
+  { id        = 4550
+    name      = TECH_APP_AIRCRAFT_25_NAME
+    desc      = TECH_APP_AIRCRAFT_25_DESC
+    position  = { x = 400 y = 199 }
+    year      = 2000
+    component = { id = 4551 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4552 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4553 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4554 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4555 name = "" type = aeronautics difficulty = 6 }
+    required  = { 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = cas value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = cas }
+    }
+  }
+  # Ground Attack: Post Cold War CAS
+  application =
+  { id        = 4560
+    name      = TECH_APP_AIRCRAFT_26_NAME
+    desc      = TECH_APP_AIRCRAFT_26_DESC
+    position  = { x = 400 y = 217 }
+    year      = 2000
+    component = { id = 4561 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4562 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4563 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4564 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4565 name = "" type = aeronautics difficulty = 10 }
+    required  = { 4550 4770 5270 5280 }
+    effects =
+    { command = { type = new_model which = cas value = 1 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5280 }
+      command = { type = scrap_model which = cas value = 0 }
+    }
+  }
+  # Strike: Jet Light Bomber
+  application =
+  { id        = 4570
+    name      = TECH_APP_AIRCRAFT_27_NAME
+    desc      = TECH_APP_AIRCRAFT_27_DESC
+    position  = { x = 270 y = 199 }
+    year      = 2000
+    component = { id = 4571 name = "" type = aeronautics difficulty = 4 }
+    component = { id = 4572 name = "" type = aeronautics difficulty = 4 }
+    component = { id = 4573 name = "" type = aeronautics difficulty = 4 }
+    component = { id = 4574 name = "" type = aeronautics difficulty = 4 }
+    component = { id = 4575 name = "" type = aeronautics difficulty = 4 }
+    required  = { 4750 5070 5080 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = tactical_bomber }
+    }
+  }
+  # Early CW Naval Patrol
+  application =
+  { id        = 4300
+    name      = TECH_APP_AIRCRAFT_30_NAME
+    desc      = TECH_APP_AIRCRAFT_30_DESC
+    position  = { x = 400 y = 90 }
+    year      = 2000
+    component = { id = 4301 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4302 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4303 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4304 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4305 name = "" type = aeronautics difficulty = 10 }
+    required  = { 4800 5070 5080 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = naval_bomber }
+    }
+  }
+  # Mid CW Naval Patrol
+  application =
+  { id        = 4310
+    name      = TECH_APP_AIRCRAFT_31_NAME
+    desc      = TECH_APP_AIRCRAFT_31_DESC
+    position  = { x = 400 y = 108 }
+    year      = 2000
+    component = { id = 4311 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4312 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4313 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4314 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4315 name = "" type = aeronautics difficulty = 12 }
+    required  = { 4300 4800 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 1 }
+      command = { type = scrap_model which = naval_bomber value = 0 }
+    }
+  }
+  # Late CW Naval Patrol
+  application =
+  { id        = 4320
+    name      = TECH_APP_AIRCRAFT_32_NAME
+    desc      = TECH_APP_AIRCRAFT_32_DESC
+    position  = { x = 400 y = 126 }
+    year      = 2000
+    component = { id = 4321 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4322 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4323 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4324 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4325 name = "" type = aeronautics difficulty = 14 }
+    required  = { 4310 4810 5170 5180 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 2 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = naval_bomber value = 1 }
+    }
+  }
+  # 21st Century Naval Patrol
+  application =
+  { id        = 4330
+    name      = TECH_APP_AIRCRAFT_33_NAME
+    desc      = TECH_APP_AIRCRAFT_33_DESC
+    position  = { x = 400 y = 144 }
+    year      = 2000
+    component = { id = 4331 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4332 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4333 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4334 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4335 name = "" type = aeronautics difficulty = 16 }
+    required  = { 4320 4830 5370 5380 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 3 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = scrap_model which = naval_bomber value = 2 }
+    }
+  }
+  # Adv 21st Century Naval Patrol
+  application =
+  { id        = 4340
+    name      = TECH_APP_AIRCRAFT_34_NAME
+    desc      = TECH_APP_AIRCRAFT_34_DESC
+    position  = { x = 400 y = 162 }
+    year      = 2000
+    component = { id = 4341 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4342 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4343 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4344 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4345 name = "" type = aeronautics difficulty = 18 }
+    required  = { 4330 5470 5480 5490 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 4 }
+      command = { type = scrap_model which = naval_bomber value = 3 }
+      command = { type = info_may_cause which = 5470 }
+      command = { type = info_may_cause which = 5480 }
+      command = { type = info_may_cause which = 5490 }
+    }
+  }
+  # Mid CW Air Transport
+  application =
+  { id        = 4400
+    name      = TECH_APP_AIRCRAFT_35_NAME
+    desc      = TECH_APP_AIRCRAFT_35_DESC
+    position  = { x = 270 y = 90 }
+    year      = 2000
+    component = { id = 4401 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4402 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4403 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4404 name = "" type = aeronautics difficulty = 6 }
+    component = { id = 4405 name = "" type = aeronautics difficulty = 6 }
+    required  = { 5070 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = enable_task which = air_supply }
+      command = { type = task_efficiency which = air_supply value = 0.15 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.15 }
+      command = { type = activate_unit_type which = transport_plane }
+    }
+  }
+  # Late CW Air Transport
+  application =
+  { id        = 4410
+    name      = TECH_APP_AIRCRAFT_36_NAME
+    desc      = TECH_APP_AIRCRAFT_36_DESC
+    position  = { x = 270 y = 108 }
+    year      = 2000
+    component = { id = 4411 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4412 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4413 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4414 name = "" type = aeronautics difficulty = 8 }
+    component = { id = 4415 name = "" type = aeronautics difficulty = 8 }
+    required  = { 4400 5170 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 1 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = task_efficiency which = air_supply value = 0.15 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.15 }
+      command = { type = scrap_model which = transport_plane value = 0 }
+    }
+  }
+  # Post CW Air Transport
+  application =
+  { id        = 4420
+    name      = TECH_APP_AIRCRAFT_37_NAME
+    desc      = TECH_APP_AIRCRAFT_37_DESC
+    position  = { x = 270 y = 126 }
+    year      = 2000
+    component = { id = 4421 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4422 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4423 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4424 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4425 name = "" type = aeronautics difficulty = 10 }
+    required  = { 4410 5270 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 2 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = task_efficiency which = air_supply value = 0.15 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.15 }
+      command = { type = scrap_model which = transport_plane value = 1 }
+    }
+  }
+  # 21st Century Air Transport
+  application =
+  { id        = 4430
+    name      = TECH_APP_AIRCRAFT_38_NAME
+    desc      = TECH_APP_AIRCRAFT_38_DESC
+    position  = { x = 270 y = 144 }
+    year      = 2000
+    component = { id = 4431 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4432 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4433 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4434 name = "" type = aeronautics difficulty = 12 }
+    component = { id = 4435 name = "" type = aeronautics difficulty = 12 }
+    required  = { 4420 5370 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 3 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = task_efficiency which = air_supply value = 0.15 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.15 }
+      command = { type = scrap_model which = transport_plane value = 2 }
+    }
+  }
+  # Adv 21st Century Air Transport
+  application =
+  { id        = 4440
+    name      = TECH_APP_AIRCRAFT_39_NAME
+    desc      = TECH_APP_AIRCRAFT_39_DESC
+    position  = { x = 270 y = 162 }
+    year      = 2000
+    component = { id = 4441 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4442 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4443 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4444 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4445 name = "" type = aeronautics difficulty = 14 }
+    required  = { 4430 5470 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 4 }
+      command = { type = task_efficiency which = air_supply value = 0.15 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.15 }
+      command = { type = scrap_model which = transport_plane value = 3 }
+      command = { type = info_may_cause which = 5470 }
+    }
+  }
+  # Early CW Carrier Air Group
+  application =
+  { id        = 4600
+    name      = TECH_APP_AIRCRAFT_40_NAME
+    desc      = TECH_APP_AIRCRAFT_40_DESC
+    position  = { x = 50 y = 154 }
+    year      = 2000
+    component = { id = 4601 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4602 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4603 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4604 name = "" type = aeronautics difficulty = 10 }
+    component = { id = 4605 name = "" type = aeronautics difficulty = 10 }
+    required  = { 4700 4800 5070 5080 }
+    effects =
+    { command = { type = new_model which = cag value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = cag }
+    }
+  }
+  # Late CW Carrier Air Group
+  application =
+  { id        = 4610
+    name      = TECH_APP_AIRCRAFT_41_NAME
+    desc      = TECH_APP_AIRCRAFT_41_DESC
+    position  = { x = 50 y = 172 }
+    year      = 2000
+    component = { id = 4611 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4612 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4613 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4614 name = "" type = aeronautics difficulty = 14 }
+    component = { id = 4615 name = "" type = aeronautics difficulty = 14 }
+    required  = { 4710 4810 5170 5180 }
+    OR_required = { 4600 4130 4030 }
+    effects =
+    { command = { type = new_model which = cag value = 1 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = cag value = 0 }
+    }
+  }
+  # Post CW Carrier Air Group
+  application =
+  { id        = 4620
+    name      = TECH_APP_AIRCRAFT_42_NAME
+    desc      = TECH_APP_AIRCRAFT_42_DESC
+    position  = { x = 50 y = 190 }
+    year      = 2000
+    component = { id = 4621 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4622 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4623 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4624 name = "" type = aeronautics difficulty = 16 }
+    component = { id = 4625 name = "" type = aeronautics difficulty = 16 }
+    required  = { 4720 4820 5270 5280 }
+    OR_required = { 4610 4140 4040 }
+    effects =
+    { command = { type = new_model which = cag value = 2 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5280 }
+      command = { type = scrap_model which = cag value = 1 }
+    }
+  }
+  # 21st Century Carrier Air Group
+  application =
+  { id        = 4630
+    name      = TECH_APP_AIRCRAFT_43_NAME
+    desc      = TECH_APP_AIRCRAFT_43_DESC
+    position  = { x = 50 y = 208 }
+    year      = 2000
+    component = { id = 4631 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4632 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4633 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4634 name = "" type = aeronautics difficulty = 18 }
+    component = { id = 4635 name = "" type = aeronautics difficulty = 18 }
+    required  = { 4730 4830 5370 5380 7280 }
+    OR_required = { 4620 4150 4050 }
+    effects =
+    { command = { type = new_model which = cag value = 3 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = info_may_cause which = 7280 }
+      command = { type = scrap_model which = cag value = 2 }
+    }
+  }
+  # Attack Helicopters
+  # Transport Conversion
+  application =
+  { id        = 4640
+    name      = TECH_APP_AIRCRAFT_44_NAME
+    desc      = TECH_APP_AIRCRAFT_44_DESC
+    position  = { x = -3 y = 295 }
+    year      = 2000
+    component = { id = 4641 name = "" type = technical_efficiency difficulty = 6 }
+    component = { id = 4642 name = "" type = technical_efficiency difficulty = 6 }
+    component = { id = 4643 name = "" type = technical_efficiency difficulty = 6 }
+    component = { id = 4644 name = "" type = technical_efficiency difficulty = 6 }
+    component = { id = 4645 name = "" type = technical_efficiency difficulty = 6 }
+    required  = { 4750 5070 6170 }
+    effects =
+    { command = { type = new_model which = heavy_armor value = 0 }
+      command = { type = new_model which = engineer value = 0 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 6170 }
+      command = { type = activate_unit_type which = heavy_armor }
+      command = { type = activate_unit_type which = engineer }
+    }
+  }
+  # Early CW Attack Helicopters
+  application =
+  { id        = 4650
+    name      = TECH_APP_AIRCRAFT_45_NAME
+    desc      = TECH_APP_AIRCRAFT_45_DESC
+    position  = { x = 118 y = 266 }
+    year      = 2000
+    component = { id = 4651 name = "" type = technical_efficiency difficulty = 9 }
+    component = { id = 4652 name = "" type = technical_efficiency difficulty = 9 }
+    component = { id = 4653 name = "" type = technical_efficiency difficulty = 9 }
+    component = { id = 4654 name = "" type = technical_efficiency difficulty = 9 }
+    component = { id = 4655 name = "" type = technical_efficiency difficulty = 9 }
+    required  = { 4640 4750 5170 6270 }
+    effects =
+    { command = { type = new_model which = heavy_armor value = 1 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 6170 }
+      command = { type = scrap_model which = heavy_armor value = 0 }
+    }
+  }
+  # Late CW Attack Helicopters
+  application =
+  { id        = 4660
+    name      = TECH_APP_AIRCRAFT_46_NAME
+    desc      = TECH_APP_AIRCRAFT_46_DESC
+    position  = { x = 118 y = 284 }
+    year      = 2000
+    component = { id = 4661 name = "" type = technical_efficiency difficulty = 11 }
+    component = { id = 4662 name = "" type = technical_efficiency difficulty = 11 }
+    component = { id = 4663 name = "" type = technical_efficiency difficulty = 11 }
+    component = { id = 4664 name = "" type = technical_efficiency difficulty = 11 }
+    component = { id = 4665 name = "" type = technical_efficiency difficulty = 11 }
+    required  = { 4650 4760 5170 6270 }
+    effects =
+    { command = { type = new_model which = heavy_armor value = 2 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 6270 }
+      command = { type = scrap_model which = heavy_armor value = 1 }
+    }
+  }
+  # Post CW Attack Helicopters
+  application =
+  { id        = 4670
+    name      = TECH_APP_AIRCRAFT_47_NAME
+    desc      = TECH_APP_AIRCRAFT_47_DESC
+    position  = { x = 118 y = 302 }
+    year      = 2000
+    component = { id = 4671 name = "" type = technical_efficiency difficulty = 13 }
+    component = { id = 4672 name = "" type = technical_efficiency difficulty = 13 }
+    component = { id = 4673 name = "" type = technical_efficiency difficulty = 13 }
+    component = { id = 4674 name = "" type = technical_efficiency difficulty = 13 }
+    component = { id = 4675 name = "" type = technical_efficiency difficulty = 13 }
+    required  = { 4660 4770 5270 6370 }
+    effects =
+    { command = { type = new_model which = heavy_armor value = 3 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 6370 }
+      command = { type = scrap_model which = heavy_armor value = 2 }
+    }
+  }
+  # 21st Century Attack Helicopters
+  application =
+  { id        = 4680
+    name      = TECH_APP_AIRCRAFT_48_NAME
+    desc      = TECH_APP_AIRCRAFT_48_DESC
+    position  = { x = 118 y = 320 }
+    year      = 2000
+    component = { id = 4681 name = "" type = technical_efficiency difficulty = 15 }
+    component = { id = 4682 name = "" type = technical_efficiency difficulty = 15 }
+    component = { id = 4683 name = "" type = technical_efficiency difficulty = 15 }
+    component = { id = 4684 name = "" type = technical_efficiency difficulty = 15 }
+    component = { id = 4685 name = "" type = technical_efficiency difficulty = 15 }
+    required  = { 4670 4780 5370 6470 7280 }
+    effects =
+    { command = { type = new_model which = heavy_armor value = 4 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 6470 }
+      command = { type = scrap_model which = heavy_armor value = 3 }
+    }
+  }
+  # Early CW Air-to-Air Missiles
+  application =
+  { id        = 4700
+    name      = TECH_APP_AIRCRAFT_49_NAME
+    desc      = TECH_APP_AIRCRAFT_49_DESC
+    position  = { x = 500 y = 266 }
+    year      = 2000
+    component = { id = 4701 name = "" type = management difficulty = 5 }
+    component = { id = 4702 name = "" type = management difficulty = 5 }
+    component = { id = 4703 name = "" type = management difficulty = 5 }
+    component = { id = 4704 name = "" type = management difficulty = 5 }
+    component = { id = 4705 name = "" type = management difficulty = 5 }
+    required  = { 5090 }
+    effects =
+    { command = { type = info_may_cause which = 5090 }
+      command = { type = task_efficiency which = air_superiority value = 0.1 }
+    }
+  }
+  # Late CW Air-to-Air Missiles
+  application =
+  { id        = 4710
+    name      = TECH_APP_AIRCRAFT_50_NAME
+    desc      = TECH_APP_AIRCRAFT_50_DESC
+    position  = { x = 500 y = 284 }
+    year      = 2000
+    component = { id = 4711 name = "" type = management difficulty = 6 }
+    component = { id = 4712 name = "" type = management difficulty = 6 }
+    component = { id = 4713 name = "" type = management difficulty = 6 }
+    component = { id = 4714 name = "" type = management difficulty = 6 }
+    component = { id = 4715 name = "" type = management difficulty = 6 }
+    required  = { 4700 5190 }
+    effects =
+    { command = { type = info_may_cause which = 5190 }
+      command = { type = task_efficiency which = air_superiority value = 0.1 }
+    }
+  }
+  # Post CW Air-to-Air Missiles
+  application =
+  { id        = 4720
+    name      = TECH_APP_AIRCRAFT_51_NAME
+    desc      = TECH_APP_AIRCRAFT_51_DESC
+    position  = { x = 500 y = 302 }
+    year      = 2000
+    component = { id = 4721 name = "" type = management difficulty = 7 }
+    component = { id = 4722 name = "" type = management difficulty = 7 }
+    component = { id = 4723 name = "" type = management difficulty = 7 }
+    component = { id = 4724 name = "" type = management difficulty = 7 }
+    component = { id = 4725 name = "" type = management difficulty = 7 }
+    required  = { 4710 5290 }
+    effects =
+    { command = { type = info_may_cause which = 5290 }
+      command = { type = task_efficiency which = air_superiority value = 0.1 }
+    }
+  }
+  # 21st Century Air-to-Air Missiles
+  application =
+  { id        = 4730
+    name      = TECH_APP_AIRCRAFT_52_NAME
+    desc      = TECH_APP_AIRCRAFT_52_DESC
+    position  = { x = 500 y = 320 }
+    year      = 2000
+    component = { id = 4731 name = "" type = management difficulty = 8 }
+    component = { id = 4732 name = "" type = management difficulty = 8 }
+    component = { id = 4733 name = "" type = management difficulty = 8 }
+    component = { id = 4734 name = "" type = management difficulty = 8 }
+    component = { id = 4735 name = "" type = management difficulty = 8 }
+    required  = { 4720 5390 }
+    effects =
+    { command = { type = info_may_cause which = 5390 }
+      command = { type = task_efficiency which = air_superiority value = 0.1 }
+    }
+  }
+  # Early CW Air-to-Ground Missiles
+  application =
+  { id        = 4750
+    name      = TECH_APP_AIRCRAFT_53_NAME
+    desc      = TECH_APP_AIRCRAFT_53_DESC
+    position  = { x = 375 y = 266 }
+    year      = 2000
+    component = { id = 4751 name = "" type = management difficulty = 5 }
+    component = { id = 4752 name = "" type = management difficulty = 5 }
+    component = { id = 4753 name = "" type = management difficulty = 5 }
+    component = { id = 4754 name = "" type = management difficulty = 5 }
+    component = { id = 4755 name = "" type = management difficulty = 5 }
+    required  = { 5090 }
+    effects =
+    { command = { type = info_may_cause which = 5090 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+    }
+  }
+  # Late CW Air-to-Ground Missiles
+  application =
+  { id        = 4760
+    name      = TECH_APP_AIRCRAFT_54_NAME
+    desc      = TECH_APP_AIRCRAFT_54_DESC
+    position  = { x = 375 y = 284 }
+    year      = 2000
+    component = { id = 4761 name = "" type = management difficulty = 6 }
+    component = { id = 4762 name = "" type = management difficulty = 6 }
+    component = { id = 4763 name = "" type = management difficulty = 6 }
+    component = { id = 4764 name = "" type = management difficulty = 6 }
+    component = { id = 4765 name = "" type = management difficulty = 6 }
+    required  = { 4750 5190 }
+    effects =
+    { command = { type = info_may_cause which = 5190 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+    }
+  }
+  # Post CW Air-to-Ground Missiles
+  application =
+  { id        = 4770
+    name      = TECH_APP_AIRCRAFT_55_NAME
+    desc      = TECH_APP_AIRCRAFT_55_DESC
+    position  = { x = 375 y = 302 }
+    year      = 2000
+    component = { id = 4771 name = "" type = management difficulty = 7 }
+    component = { id = 4772 name = "" type = management difficulty = 7 }
+    component = { id = 4773 name = "" type = management difficulty = 7 }
+    component = { id = 4774 name = "" type = management difficulty = 7 }
+    component = { id = 4775 name = "" type = management difficulty = 7 }
+    required  = { 4760 5290 }
+    effects =
+    { command = { type = info_may_cause which = 5290 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+    }
+  }
+  # 21st Century Air-to-Ground Missiles
+  application =
+  { id        = 4780
+    name      = TECH_APP_AIRCRAFT_56_NAME
+    desc      = TECH_APP_AIRCRAFT_56_DESC
+    position  = { x = 375 y = 320 }
+    year      = 2000
+    component = { id = 4781 name = "" type = management difficulty = 8 }
+    component = { id = 4782 name = "" type = management difficulty = 8 }
+    component = { id = 4783 name = "" type = management difficulty = 8 }
+    component = { id = 4784 name = "" type = management difficulty = 8 }
+    component = { id = 4785 name = "" type = management difficulty = 8 }
+    required  = { 4770 5390 }
+    effects =
+    { command = { type = info_may_cause which = 5390 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+    }
+  }
+  # Early CW Air-to-Sea Missiles
+  application =
+  { id        = 4800
+    name      = TECH_APP_AIRCRAFT_57_NAME
+    desc      = TECH_APP_AIRCRAFT_57_DESC
+    position  = { x = 250 y = 266 }
+    year      = 2000
+    component = { id = 4801 name = "" type = management difficulty = 5 }
+    component = { id = 4802 name = "" type = management difficulty = 5 }
+    component = { id = 4803 name = "" type = management difficulty = 5 }
+    component = { id = 4804 name = "" type = management difficulty = 5 }
+    component = { id = 4805 name = "" type = management difficulty = 5 }
+    required  = { 5090 }
+    effects =
+    { command = { type = info_may_cause which = 5090 }
+    }
+  }
+  # Late CW Air-to-Sea Missiles
+  application =
+  { id        = 4810
+    name      = TECH_APP_AIRCRAFT_58_NAME
+    desc      = TECH_APP_AIRCRAFT_58_DESC
+    position  = { x = 250 y = 284 }
+    year      = 2000
+    component = { id = 4811 name = "" type = management difficulty = 6 }
+    component = { id = 4812 name = "" type = management difficulty = 6 }
+    component = { id = 4813 name = "" type = management difficulty = 6 }
+    component = { id = 4814 name = "" type = management difficulty = 6 }
+    component = { id = 4815 name = "" type = management difficulty = 6 }
+    required  = { 4800 5190 }
+    effects =
+    { command = { type = info_may_cause which = 5190 }
+    }
+  }
+  # Post CW Air-to-Sea Missiles
+  application =
+  { id        = 4820
+    name      = TECH_APP_AIRCRAFT_59_NAME
+    desc      = TECH_APP_AIRCRAFT_59_DESC
+    position  = { x = 250 y = 302 }
+    year      = 2000
+    component = { id = 4821 name = "" type = management difficulty = 7 }
+    component = { id = 4822 name = "" type = management difficulty = 7 }
+    component = { id = 4823 name = "" type = management difficulty = 7 }
+    component = { id = 4824 name = "" type = management difficulty = 7 }
+    component = { id = 4825 name = "" type = management difficulty = 7 }
+    required  = { 4810 5290 }
+    effects =
+    { command = { type = info_may_cause which = 5290 }
+    }
+  }
+  # 21st Century Air-to-Sea Missiles
+  application =
+  { id        = 4830
+    name      = TECH_APP_AIRCRAFT_60_NAME
+    desc      = TECH_APP_AIRCRAFT_60_DESC
+    position  = { x = 250 y = 320 }
+    year      = 2000
+    component = { id = 4831 name = "" type = management difficulty = 8 }
+    component = { id = 4832 name = "" type = management difficulty = 8 }
+    component = { id = 4833 name = "" type = management difficulty = 8 }
+    component = { id = 4834 name = "" type = management difficulty = 8 }
+    component = { id = 4835 name = "" type = management difficulty = 8 }
+    required  = { 4820 5390 }
+    effects =
+    { command = { type = info_may_cause which = 5390 }
+    }
+  }
+  # Early CW ECM/EW
+  application =
+  { id        = 4900
+    name      = TECH_APP_AIRCRAFT_61_NAME
+    desc      = TECH_APP_AIRCRAFT_61_DESC
+    position  = { x = 525 y = 0 }
+    year      = 2000
+    component = { id = 4901 name = "" type = chemistry difficulty = 5 }
+    component = { id = 4902 name = "" type = chemistry difficulty = 5 }
+    component = { id = 4903 name = "" type = chemistry difficulty = 5 }
+    component = { id = 4904 name = "" type = chemistry difficulty = 5 }
+    component = { id = 4905 name = "" type = chemistry difficulty = 5 }
+    required  = { 5080 }
+    effects =
+    { command = { type = new_model which = escort value = 0 }
+      command = { type = info_may_cause which = 5080 }
+      command = { type = activate_unit_type which = escort }
+    }
+  }
+  # Late CW ECM/EW
+  application =
+  { id        = 4910
+    name      = TECH_APP_AIRCRAFT_62_NAME
+    desc      = TECH_APP_AIRCRAFT_62_DESC
+    position  = { x = 525 y = 18 }
+    year      = 2000
+    component = { id = 4911 name = "" type = chemistry difficulty = 6 }
+    component = { id = 4912 name = "" type = chemistry difficulty = 6 }
+    component = { id = 4913 name = "" type = chemistry difficulty = 6 }
+    component = { id = 4914 name = "" type = chemistry difficulty = 6 }
+    component = { id = 4915 name = "" type = chemistry difficulty = 6 }
+    required  = { 4900 5180 }
+    effects =
+    { command = { type = new_model which = escort value = 1 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = scrap_model which = escort value = 0 }
+    }
+  }
+  # Post CW ECM/EW
+  application =
+  { id        = 4920
+    name      = TECH_APP_AIRCRAFT_63_NAME
+    desc      = TECH_APP_AIRCRAFT_63_DESC
+    position  = { x = 525 y = 36 }
+    year      = 2000
+    component = { id = 4921 name = "" type = chemistry difficulty = 7 }
+    component = { id = 4922 name = "" type = chemistry difficulty = 7 }
+    component = { id = 4923 name = "" type = chemistry difficulty = 7 }
+    component = { id = 4924 name = "" type = chemistry difficulty = 7 }
+    component = { id = 4925 name = "" type = chemistry difficulty = 7 }
+    required  = { 4910 5280 }
+    effects =
+    { command = { type = new_model which = escort value = 2 }
+      command = { type = info_may_cause which = 5280 }
+      command = { type = scrap_model which = escort value = 1 }
+    }
+  }
+  # 21st Century ECM/EW
+  application =
+  { id        = 4930
+    name      = TECH_APP_AIRCRAFT_64_NAME
+    desc      = TECH_APP_AIRCRAFT_64_DESC
+    position  = { x = 525 y = 54 }
+    year      = 2000
+    component = { id = 4931 name = "" type = chemistry difficulty = 8 }
+    component = { id = 4932 name = "" type = chemistry difficulty = 8 }
+    component = { id = 4933 name = "" type = chemistry difficulty = 6 }
+    component = { id = 4934 name = "" type = chemistry difficulty = 8 }
+    component = { id = 4935 name = "" type = chemistry difficulty = 8 }
+    required  = { 4920 5380 }
+    effects =
+    { command = { type = new_model which = escort value = 3 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = scrap_model which = escort value = 2 }
+    }
+  }
+}

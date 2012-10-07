@@ -1,0 +1,96 @@
+ENG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+87000;Head of State;Queen Elizabeth II;2003;2050;2050;ML;Popular Figurehead;High;M87000;x
+87001;Head of Government;Tony Blair;2003;2050;2050;SL;Naive Optimist;High;M87001;x
+87002;Foreign Minister;Jack Straw;2003;2050;2050;SL;Ideological Crusader;High;M87002;x
+87003;Minister of Armament;Geoff Hoon;2003;2050;2050;SL;Corrupt Kleptocrat;High;Hoon;x
+87004;Minister of Armament;David Blunkett;2003;2050;2050;SL;laissez-faire capitalist;High;M87004;x
+87005;Head of Military Intelligence;Richard Dearlove;2003;2050;2050;SL;Political Specialist;High;M87005;x
+87006;Chief of Staff;Michael Boyce;2003;2050;2050;NA;School of Psychology;High;M87006;x
+87007;Chief of Army;Michael Jackson;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Jackson;x
+87008;Chief of Navy;Alan West;2003;2050;2050;NA;Open Seas Doctrine;High;M87008;x
+87009;Chief of Air Force;Peter Squire;2003;2050;2050;NA;Army Aviation Doctrine;High;Psquire;x
+;Replacements;;;;;;;x
+87011;Head of State;King Charles III;2003;2050;2050;SL;Popular Figurehead;High;Unknown;x
+87012;Head of State;King Charles III;2003;2050;2050;ML;Popular Figurehead;High;Unknown;x
+87013;Head of State;King William V;2003;2050;2050;ML;Popular Figurehead;High;Unknown;x
+87014;Head of State;King William V;2003;2050;2050;SL;Popular Figurehead;High;Unknown;x
+87015;Head of Government;Michael Howard;2003;2050;2050;ML;Backroom Backstabber;High;M87012;x
+87016;Head of Government;Gordon Brown;2007;2050;2050;SL;Naive Optimist;High;Gbrowneng;x
+87017;Foreign Minister;Liam Fox;2003;2050;2050;ML;Biased Intellectual;High;M87013;x
+87018;Minister of Armament;George Osborne;2003;2050;2050;ML;Administrative Genius;High;M87014;x
+87019;Minister of Armament;Vincent Cable;2003;2050;2050;SL;laissez-faire capitalist;High;M87015;x
+87020;Minister of Security;David Davis;2003;2050;2050;ML;Crime Fighter;High;M87016;x
+87021;Minister of Security;Mark Oaten;2003;2050;2050;SL;Man of the People;High;M87017;x
+87022;Head of Military Intelligence;John Scarlett;2003;2050;2050;NA;Dismal Enigma;High;Unknown;x
+87023;Head of Military Intelligence;Eliza Manningham-Buller;2003;2050;2050;SL;Industrial Specialist;High;Unknown;x
+87024;Head of Military Intelligence;Weyman Bennett;2003;2050;2050;LWR;Political Specialist;High;Unknown;x
+87025;Minister of Security;Charles Clarke;2003;2050;2050;SL;Crime Fighter;High;Cclarke;x
+87026;Chief of Air Force;Geoff Hoon;2003;2050;2050;SL;Air Superiority Doctrine;High;Unknown;x
+87027;Foreign Minister;Tony Lecomber;2003;2050;2050;FA;iron fisted brute;High;Unknown;x
+87028;Foreign Minister;Valerie Amos;2003;2050;2050;SL;Great Compromiser;High;Amos;x
+87029;Minister of Security;David Boothroyd;2012;2050;2050;SL;Compassionate Gentleman;High;Boothroyd;x
+87030;Minister of Security;Steve Bullock;2003;2050;2050;SL;Man of the People;High;Bullock;x
+87031;Foreign Minister;Matt Carter;2013;2050;2050;SL;Great Compromiser;High;Carter;x
+87032;Foreign Minister;Michael Cashman;2004;2050;2050;SL;Ideological Crusader;High;Cashman;x
+87033;Foreign Minister;Alun Davies;2005;2050;2050;SL;Biased Intellectual;High;Davies;x
+87034;Minister of Armament;Howard Dawber;2012;2050;2050;SL;laissez-faire capitalist;High;Dawber;x
+87035;Minister of Armament;Paul Drayson;2006;2050;2050;SL;Theoretical Scientist;High;Drayson;x
+87036;Minister of Security;Clive Efford;2004;2050;2050;SL;Man of the People;High;Efford;x
+87037;Foreign Minister;Robert Evans;2003;2050;2050;SL;Great Compromiser;High;Evans;x
+87038;Minister of Security;Richard Howitt;2005;2050;2050;SL;Silent Lawyer;High;Howitt;x
+87039;Minister of Armament;John Reid;2003;2050;2050;SL;laissez-faire capitalist;High;Reid;x
+87040;Minister of Armament;Desmond Browne;2006;2050;2050;SL;laissez-faire capitalist;High;Browne;x
+87041;Foreign Minister;Margaret Beckett;2006;2050;2050;SL;Apologetic Clerk;High;Beckett;x
+87042;Foreign Minister;David Milliband;2007;2050;2050;SL;Biased Intellectual;High;Milliband;x
+87043;Minister of Security;John Reid;2006;2050;2050;SL;Back Stabber;High;Reid;x
+87044;Minister of Security;Jacqui Smith;2007;2050;2050;SL;Silent Lawyer;High;Jacqui;x
+87045;Chief of Staff;Michael Walker;2003;2050;2050;NA;School of Manoeuvre;High;M87007;x
+87046;Chief of Staff;Michael Jackson;2005;2050;2050;NA;School of Psychology;High;Jackson;x
+87047;Chief of Staff;Richard Dannatt;2006;2050;2050;NA;School of Fire Support;High;Dannatt;x
+87048;Chief of Staff;Timothy Granville-Chapman;2005;2050;2050;NA;School of Defence;High;Granville-Chapman;x
+87049;Chief of Army;Timothy Granville-Chapman;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Granville-Chapman;x
+87050;Chief of Army;Richard Dannatt;2004;2050;2050;NA;Armoured Spearhead Doctrine;High;Dannatt;x
+87051;Chief of Army;Redmond Watt;2005;2050;2050;NA;Decisive Battle Doctrine;High;Watt;x
+87052;Head of State;David Cameron;2005;2050;2050;ML;Benevolent Gentleman;High;david_cameron;x
+87053;Minister of Security;William Hague;2005;2050;2050;SC;Crime Fighter;High;William Hague;x
+87054;Minister of Armament;Liam Fox;2004;2050;2050;ML;Administrative Genius;High;M87013;x
+87055;Minister of Armament;James Arbuthnot;2003;2050;2050;ML;Tank Proponent;High;Arbuthnot;x
+87056;Minister of Armament;Robert Ainsworth;2003;2050;2050;SL;laissez-faire capitalist;High;Ainsworth;x
+87057;Chief of Staff;Graham Eric Stirrup;2006;2050;2050;NA;School of Fire Support;High;Stirrup;x
+87058;Chief of Army;Jonathon Band;2003;2050;2050;NA;Decisive Battle Doctrine;High;JBand;x
+87059;Chief of Air Force;Glenn Torpy;2005;2050;2050;NA;Army Aviation Doctrine;High;Gtorpy;x
+87060;Chief of Air Force;Graham Eric Stirrup;2003;2050;2050;NA;Air Superiority Doctrine;High;Stirrup;x
+87061;Chief of Navy;Clive Loader;2006;2050;2050;NA;Open Seas Doctrine;High;Cloader;x
+87062;Chief of Navy;Adrian Johns;2007;2050;2050;NA;Power Projection Doctrine;High;Ajohns;x
+87063;Head of Military Intelligence;Jonathan Evans;2005;2050;2050;ML;Industrial Specialist;High;Unknown;x
+87064;Head of Government;Nick Griffin;2003;2050;2050;FA;Flamboyant Tough Guy;High;Ngriffin;x
+87065;Minister of Armament;Richard Barnbrook;2003;2050;2050;FA;Resource Industrialist;High;Rbarnbrook;x
+87066;Head of Military Intelligence;Simon Darby;2003;2050;2050;FA;Technical Specialist;High;Unknown;x
+87067;Minister of Security;Martin Wingfield;2003;2050;2050;FA;Prince of Terror;High;Unknown;x
+87068;Head of Government;Nina Temple;2003;2050;2050;LE;Backroom Backstabber;High;Unknown;x
+87069;Head of State;Nina Temple;2003;2050;2050;LE;Barking Buffoon;High;Unknown;x
+87070;Chief of Army;David Richards;2007;2050;2050;NA;Armoured Spearhead Doctrine;High;Drichards;x
+87071;Chief of Staff;David Richards;2009;2050;2050;NA;School of Fire Support;High;Drichards;x
+87072;Chief of Air Force;John Day;2003;2050;2050;NA;Air Superiority Doctrine;High;M87009;x
+87073;Chief of Army;Nick Houghton;2008;2050;2050;NA;Guns and Butter Doctrine;High;Nhoughton;x
+87074;Chief of Staff;Nick Houghton;2010;2050;2050;NA;School of Psychology;High;Nhoughton;x
+87075;Chief of Staff;Glenn Torpy;2010;2050;2050;NA;School of Fire Support;High;Gtorpy;x
+87076;Head of Military Intelligence;Alan West;2008;2050;2050;NA;Naval Intelligence Specialist;High;M87008;x
+87077;Chief of Navy;James Burnell-Nugent;2005;2050;2050;NA;Decisive Naval Battle Doctrine;High;Jbnugent;x
+87078;Chief of Navy;Mark Stanhope;2008;2050;2050;NA;Power Projection Doctrine;High;Mstanhope;x
+87079;Chief of Navy;Paul Boissier;2009;2050;2050;NA;Indirect Approach Doctrine;High;Pboissier;x
+87080;Chief of Staff;Paul Boissier;2011;2050;2050;NA;School of Psychology;High;Pboissier;x
+87081;Chief of Navy;Robert Cooling;2009;2050;2050;NA;Base Control Doctrine;High;Rcooling;x
+87082;Minister of Armament;Derek Twigg;2006;2050;2050;SL;Military Entrepreneur;High;Dtwigg;x
+87083;Minister of Armament;Thomas Watson;2006;2050;2050;SL;Corrupt Kleptocrat;High;Twatson;x
+87084;Minister of Armament;Adam Ingram;2003;2050;2050;SL;Resource Industrialist;High;Aingram;x
+87085;Minister of Security;Danny Alexander;2012;2050;2050;SL;Compassionate Gentleman;High;Dalexander;x
+87086;Foreign Minister;Douglas Alexander;2010;2050;2050;SL;Apologetic Clerk;High;Doualexander;x
+87087;Foreign Minister;Michael Ancram;2003;2050;2050;ML;Great Compromiser;High;Mancram;x
+87088;Minister of Armament;Michael Ancram;2003;2050;2050;ML;laissez-faire capitalist;High;Mancram;x
+87089;Foreign Minister;Richard Benyon;2008;2050;2050;ML;Biased Intellectual;High;Rbenyon;x
+87090;Minister of Armament;Edward Dawey;2005;2050;2050;SL;laissez-faire capitalist;High;Edavey;x
+87091;Minister of Armament;Mark Harper;2008;2050;2050;ML;laissez-faire capitalist;High;Mharper;x
+87092;Foreign Minister;Gregory Mulholland;2010;2050;2050;SL;Great Compromiser;High;Gmulholland;x
+87093;Foreign Minister;James Murphy;2008;2050;2050;SL;Great Compromiser;High;Jamurphy;x
+87094;Head of Government;Nick Clegg;2009;2050;2050;SL;Naive Optimist;High;Nclegg;x

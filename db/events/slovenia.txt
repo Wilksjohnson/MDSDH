@@ -1,0 +1,346 @@
+#Slovenian events by Lutenet99
+
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#73501 - 73550# Election events	 
+#73551 - 73950# Main events	
+#73951 - 74000# Political events	
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Election events
+#############################################
+
+#############################################
+#   Parliamentary Election 2004
+#############################################
+event = {
+	id = 73501
+	random = no
+	country = SLV
+	trigger = {
+		government = democratic
+	}
+	name = "EVT_73501_NAME"
+	desc = "EVT_73501_DESC"
+	style = 0
+	picture = "elections"
+	date = { day = 3 month = october year = 2004 }
+
+	action_a = {
+		name = "Keep Liberal - LDS"
+		ai_chance = 20
+		command = { type = set_domestic which = political_left value = 5}
+		command = { type = set_domestic which = freedom value = 10 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = dissent value = -1 }
+	}
+
+	action_b = {
+		name = "Conservative - SDS"
+		ai_chance = 70
+		command = { type = set_domestic which = political_left value = 2 }
+		command = { type = set_domestic which = freedom value = 8 }
+		command = { type = headofgovernment which = 73511 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = domestic which = defense_lobby value = 6 }
+		command = { type = foreignminister which = 73512 }
+		command = { type = armamentminister which = 73513 }
+		command = { type = ministerofsecurity which = 73514 }
+		command = { type = chiefofstaff which = 73546 }
+		command = { type = set_domestic which = free_market value = 9 }
+		command = { type = dissent value = -3 }
+	}
+
+	action_c = {
+		name = "Social - ZLSD"
+		ai_chance = 5
+		command = { type = set_domestic which = political_left value = 8 }
+		command = { type = set_domestic which = freedom value = 10 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = headofgovernment which = 73515 }
+		command = { type = foreignminister which = 73516 }
+		command = { type = armamentminister which = 73517 }
+		command = { type = ministerofsecurity which = 73518 }
+		command = { type = set_domestic which = free_market value = 7 }
+		command = { type = dissent value = -1 }
+	}
+
+	action_d = {
+		name = "Christian - NSi"
+		ai_chance = 5
+		command = { type = set_domestic which = political_left value= 1 }
+		command = { type = set_domestic which = freedom value = 7 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = headofgovernment which = 73520 }
+		command = { type = foreignminister which = 73521 }
+		command = { type = armamentminister which = 73522 }
+		command = { type = ministerofsecurity which = 73514 }
+		command = { type = set_domestic which = free_market value = 9 }
+		command = { type = dissent value = -1 }
+	}
+
+
+}
+
+###########################################
+#   Presidental election 2007
+###########################################
+event = {
+	id = 73502
+	random = no
+	country = SLV
+	trigger = {
+		government = democratic
+	}
+	name = "EVT_73502_NAME"
+	desc = "EVT_73502_DESC"
+	style = 0
+	picture = "slv_election2"
+	date = { day = 11 month = november year = 2007 }
+
+	action_a = {
+		name = "Danilo Turk - Social Democrat"
+		ai_chance = 80
+		command = { type = dissent value = -3 }
+		command = { type = headofstate which = 73547 }
+		command = { type = chiefofarmy which = 73549 }
+
+	}
+
+	action_b = {
+		name = "Lojze Petrle - Conservative"
+		ai_chance = 20
+		command = { type = dissent value = -2 }
+		command = { type = headofstate which = 73548 }
+		command = { type = chiefofarmy which = 73550 }
+		command = { type = sleepminister which = 73521 }
+	}
+}
+
+#########################################
+#   Parliamentary Election 2008
+#########################################
+event = {
+	id = 73503
+	random = no
+	country = SLV
+	trigger = {
+		government = democratic
+	}
+	name = "EVT_73503_NAME"
+	desc = "EVT_73503_DESC"
+	style = 0
+	picture = "elections"
+	date = { day = 21 month = september year = 2008 }
+
+	action_a = {
+		name = "Liberal - ZARES"
+		ai_chance = 10
+		command = { type = set_domestic which = political_left value = 5}
+		command = { type = set_domestic which = free_market value = 8 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = set_domestic which = freedom value = 9 }
+		command = { type = headofgovernment which = 73555 }
+		command = { type = foreignminister which = 73553}
+		command = { type = armamentminister which = 73551}
+		command = { type = ministerofsecurity which = 73552}
+		command = { type = chiefofstaff which = 73554 }
+		command = { type = dissent value = -1 }
+		
+	}
+
+	action_b = {
+		name = "Conservative - SDS"
+		ai_chance = 30
+		command = { type = set_domestic which = political_left value = 2 }
+		command = { type = set_domestic which = free_market value = 9 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = set_domestic which = freedom value = 8 }
+		command = { type = domestic which = defense_lobby value = 6 }
+		command = { type = headofgovernment which = 73511 }
+		command = { type = foreignminister which = 73512 }
+		command = { type = armamentminister which = 73513 }
+		command = { type = ministerofsecurity which = 73514 }
+		command = { type = chiefofstaff which = 73546 }
+		command = { type = dissent value = -1 }
+	}
+
+	action_c = {
+		name = "Social - SD"
+		ai_chance = 50
+		command = { type = set_domestic which = political_left value = 8 }
+		command = { type = set_domestic which = free_market value = 7 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = set_domestic which = freedom value = 9 }
+		command = { type = headofgovernment which = 73515 }
+		command = { type = foreignminister which = 73553}
+		command = { type = armamentminister which = 73551}
+		command = { type = ministerofsecurity which = 73552}
+		command = { type = chiefofstaff which = 73554 }
+		command = { type = dissent value = -2 }
+	}
+
+	action_d = {
+		name = "Left Nationalists - SNS"
+		ai_chance = 10
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = free_market value = 7 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { type = set_domestic which = freedom value = 3 }
+		command = { type = domestic which = defense_lobby value = 5 }
+		command = { type = headofgovernment which = 73529 }
+		command = { type = foreignminister which = 73530 }
+		command = { type = armamentminister which = 73531 }
+		command = { type = ministerofsecurity which = 73532 }
+		command = { type = dissent value = 5 }
+	}
+
+
+}
+
+#############################################
+###### Main events
+#############################################
+
+
+#############################################
+######  Infastructure improvements
+#############################################
+event = {
+	id = 73551
+	random = no
+	country = SLV
+
+	name = "EVT_73551_NAME"
+	desc = "EVT_73551_DESC"
+	style = 0
+	picture = "highway"
+	date = { day = 12 month = august year = 2005 }
+
+	action_a = {
+		name = "Finally!"
+		command = { type = dissent value = -1 }
+		command = { type = construct which = infrastructure where = 349 value = 5 }
+		command = { type = construct which = infrastructure where = 346 value = 10 }
+		command = { type = construct which = infrastructure where = 403 value = 10 }
+
+	}
+}
+#############################################
+######  SKB - The Bank Job
+#############################################
+event = {
+	id = 73552
+	random = no
+	country = SLV
+
+	name = "EVT_73552_NAME"
+	desc = "EVT_73552_DESC"
+	style = 0
+	picture = "news_paper"
+	date = { day = 1 month = november year = 2005 }
+
+	action_a = {
+		name = "My savings are gone!"
+		command = { type = money value = -5 }
+
+	}
+}
+
+#############################################
+######  Floods in Zelezniki
+#############################################
+event = {
+	id = 73553
+	random = no
+	country = SLV
+
+	name = "EVT_73553_NAME"
+	desc = "EVT_73553_DESC"
+	style = 0
+	picture = "zelezniki"
+	date = { day = 18 month = september year = 2007 }
+
+	action_a = {
+		name = "Send the Army to help!"
+		ai_chance = 99
+		command = { type = dissent value = -5 }	
+		 command = { type = supplies value = -200 }
+		command = { type = trigger which = 73554 }
+		command = { type = construct which = infrastructure where = 349 value = -10 }	
+
+	}
+
+	action_b = {
+		name = "They don't need any help."
+		ai_chance = 1
+		command = { type = dissent value = 5 }
+	}
+}
+
+event = {
+	id = 73554
+	random = no
+	country = SLV
+	trigger = {
+         	 event = 73553
+         }
+
+	name = "EVT_73554_NAME"
+	desc = "EVT_73554_DESC"
+	style = 0
+	picture = "news_paper"
+
+	date = { day = 25 month = september year = 2007 }
+
+	action_a = {
+		name = "It's time to start over."
+		ai_chance = 99
+		command = { type = dissent value = -2 }
+		command = { type = money value = -50 }		
+		 command = { type = supplies value = -200 }
+		command = { type = trigger which = 73554 }
+		command = { type = construct which = infrastructure where = 349 value = 10 }	
+
+	}
+
+	action_b = {
+		name = "We cannot afford it any longer."
+		ai_chance = 1
+		command = { type = dissent value = 5 }
+	}
+}
+
+#############################################
+######  The Queen's visit
+#############################################
+event = {
+	id = 73555
+	random = no
+	country = SLV
+	trigger = {
+		   atwar = no
+		   exists = ENG
+
+         }
+
+	name = "EVT_73555_NAME"
+	desc = "EVT_73555_DESC"
+	style = 0
+	picture = "queenvisit"
+	date = { day = 21 month = october year = 2008 }
+
+	action_a = {
+		name = "What a splendid party!"
+		command = { type = money value = -5 }
+		command = { type = relation which = ENG value = 50 }
+
+	}
+}

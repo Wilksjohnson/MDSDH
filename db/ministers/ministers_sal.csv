@@ -1,0 +1,23 @@
+SAL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+24001;Head of State;Francisco Flores Pérez;2003;2050;2050;SC;Die-hard Reformer;High;Ffperez;x
+24002;Head of Government;Francisco Flores Pérez;2003;2050;2050;SC;Flamboyant Tough Guy;High;Ffperez;x
+24003;Foreign Minister;Maria de Avila;2003;2050;2050;SC;Great Compromiser;High;Mdavila;x
+24004;Minister of Armament;Otto Romero Orellana;2003;2050;2050;SC;Military Entrepreneur;High;Ororellana;x
+24005;Minister of Security;René Figueroa;2003;2050;2050;SC;Silent Lawyer;High;Rfigueroa;x
+24006;Head of Military Intelligence;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+24007;Chief of Staff;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+24008;Chief of Army;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+24009;Chief of Navy;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+24010;Chief of Air Force;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+;Replacements;;;;;;;x
+24011;Head of State;Antonio Saca;2004;2050;2050;SC;Benevolent Gentleman;High;Asaca;x
+24012;Head of Government;Antonio Saca;2004;2050;2050;SC;Happy Amateur;High;Asaca;x
+24013;Foreign Minister;Francisco Lainez;2004;2050;2050;SC;Ideological Crusader;High;Flainez;x
+24014;Minister of Armament;Armando Calderón Sol;2003;2050;2050;ML;Administrative Genius;High;Acsol;x
+24015;Head of State;Schafik Handal;2003;2006;2050;LWR;Barking Buffoon;High;Shandal;x
+24016;Head of Government;Schafik Handal;2003;2050;2050;LWR;Ambitious Union Boss;High;Shandal;x
+24017;Head of State;Mauricio Funes;2009;2050;2050;LWR;Benevolent Gentleman;High;Mfunes;x#hog since 2006
+24018;Head of Government;Mauricio Funes;2009;2050;2050;LWR;Flamboyant Tough Guy;High;Mfunes;x;
+24019;Minister of Security;Joaquín Villalobos;2003;2050;2050;SC;Crime Fighter;High;Jvillalobos;x# security
+24020;Minister of Armament;Jorge Alberto Contreras;2003;2050;2050;SC;Military Entrepreneur;High;Jacontreras;x
+24021;Foreign Minister;Marisol Argueta de Barillas;2006;2050;2050;ML;Great Compromiser;High;Madbarillas;X

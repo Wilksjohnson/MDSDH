@@ -1,0 +1,106 @@
+CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+80501;Head of State;Chen Shui-bian;2003;2050;2050;SL;Stern Imperialist;High;M80501;x
+80502;Head of Government;Yu Shyi-kun;2003;2050;2050;SL;Political Protege;High;M80502;x
+80503;Foreign Minister;Eugene Chien;2003;2050;2050;SL;Biased Intellectual;High;M80503;x
+80504;Minister of Armament;Lin Chuan;2003;2050;2050;SL;laissez-faire capitalist;High;TW_Lin_Chuan;x
+80505;Minister of Security;Tsai Tsao-ming;2003;2050;2050;SL;Compassionate Gentleman;High;M80504;x
+80506;Head of Military Intelligence;Dai Po-te;2003;2050;2050;SL;Political Specialist;High;TW_Dai_Po-te;x
+80507;Chief of Staff;Lee Jye;2003;2050;2050;NA;School of Defence;High;M80507;x
+80508;Chief of Army;Chu Kai-sheng;2003;2050;2050;NA;elastic defence doctrine;High;M80528;x
+80509;Chief of Navy;Chen Pang-chih;2003;2050;2050;NA;Power Projection Doctrine;High;M80509;x
+80510;Chief of Air Force;Lee Tien-yu;2003;2050;2050;NA;Air Superiority Doctrine;High;M80510;x
+;Replacements;;;;;;;x
+80511;Head of State;Lien Chan;2004;2050;2050;ML;Weary Stiffneck;High;M80511;x
+80512;Head of State;Lu Hsiu-lien;2003;2050;2050;SL;Die-hard Reformer;High;M80512;x
+80513;Head of State;James Soong;2004;2050;2050;ML;Die-hard Reformer;High;M80513;x
+80514;Head of Government;Frank Hsieh;2008;2050;2050;SL;Corporate Suit;High;M80514;x
+80515;Head of Government;Su Tseng-chang;2006;2050;2050;SL;Flamboyant Tough Guy;High;M80515;x
+80516;Minister of Armament;Lee Jye;2004;2050;2050;SL;Air Superiority Proponent;High;M80507;x
+80517;Minister of Armament;Kao Hua-chu;2003;2050;2050;ML;Administrative Genius;High;M80519;x
+80518;Minister of Armament;Lee Tien-yu;2007;2050;2050;ML;Tank Proponent;High;M80510;x
+80519;Minister of Security;Hsueh Shih-ming;2003;2050;2050;SL;Silent Lawyer;High;M80522;x
+80520;Minister of Security;Weng Yueh-sheng;2003;2050;2050;ML;Crime Fighter;High;M80523;x
+80521;Minister of Security;Shih Mao-lin;2003;2050;2050;ML;Efficient Sociopath;High;M80524;x
+80522;Head of Military Intelligence;Hsueh Shih-ming;2003;2050;2050;SL;Logistics Specialist;High;M80522;x
+80523;Head of Military Intelligence;Shih Mao-lin;2003;2050;2050;ML;Technical Specialist;High;M80524;x
+80524;Head of Military Intelligence;Weng Yueh-sheng;2003;2050;2050;ML;Naval Intelligence Specialist;High;M80523;x
+80525;Chief of Staff;Chu Kai-sheng;2008;2050;2050;NA;School of Fire Support;High;M80528;x
+80526;Chief of Staff;Kao Hua-chu;2003;2050;2050;NA;School of Defence;High;M80519;x
+80527;Chief of Staff;Lee Tien-yu;2007;2050;2050;NA;School of Psychology;High;M80510;x
+80528;Chief of Army;Kao Hua-chu;2003;2050;2050;NA;Decisive Battle Doctrine;High;M80519;x
+80529;Head of State;Ma Ying-jeou;2008;2050;2050;ML;Autocratic Charmer;High;Myjeou;x
+80530;Head of Government;Frank Hsieh;2005;2050;2050;SL;Naive Optimist;High;M80514;x
+80531;Head of Government;Chang Chun-hsiung;2003;2050;2050;SL;Flamboyant Tough Guy;High;Cchsiung;x
+80532;Head of Government;Liu Chao-shiuan;2008;2050;2050;ML;Corporate Suit;High;Lcshiuan;x
+80533;Foreign Minister;Mark Chen;2004;2050;2050;SL;Ideological Crusader;High;Mtschen;x
+80534;Foreign Minister;James Chih-Fang Huang;2006;2050;2050;SL;The Cloak N Dagger Schemer;High;Jcfhuang;x
+80535;Foreign Minister;Francisco Ou;2004;2050;2050;ML;Great Compromiser;High;Fou;x
+80536;Minister of Armament;Chen Chao-min;2005;2050;2050;ML;Administrative Genius;High;Ccmin;x
+80537;Chief of Army;Huo Shou-yeh;2003;2050;2050;SL;elastic defence doctrine;High;M80508;x
+80538;Minister of Armament;Liu Kuei-li;2003;2050;2050;NA;Air to Sea Proponent;High;TW_Liu_Kuei-li;x
+80539;Chief of Staff;Liu Kuei-li;2008;2050;2050;NA;School of Fire Support;High;TW_Liu_Kuei-li;x
+80540;Chief of Army;Hu Chen-pu;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Hcpu;x
+80541;Chief of Staff;Hu Chen-pu;2005;2050;2050;NA;School of Fire Support;High;Hcpu;x
+80542;Chief of Navy;Lin Chen-yi;2006;2050;2050;NA;Power Projection Doctrine;High;TW_Lin_Chen-yi;x
+80543;Chief of Staff;Lin Chen-yi;2007;2050;2050;NA;School of Psychology;High;TW_Lin_Chen-yi;x
+80544;Chief of Air Force;Shen Kuo-chen;2006;2050;2050;NA;Army Aviation Doctrine;High;TW_Shen_Kuo-chen;x
+80545;Head of Government;James Chu-yu Soong;2003;2050;2050;SC;Flamboyant Tough Guy;High;Jcysoong;x
+80546;Head of State;James Chu-yu Soong;2003;2050;2050;SC;Stern Imperialist;High;Jcysoong;x
+80547;Head of Government;Tsai Ing-wen;2008;2050;2050;SL;Silent Workhorse;High;Tiwen;x
+80548;Head of State;Tsai Ing-wen;2012;2050;2050;SL;Benevolent Gentleman;High;Tiwen;x
+80549;Chief of Army;Chaou Shih-Chang;2003;2050;2050;NA;elastic defence doctrine;High;Cschang;x
+80550;Chief of Staff;Chaou Shih-Chang;2006;2050;2050;NA;School of Fire Support;High;Cschang;x
+80551;Chief of Air Force;Peng Sheng-chu;2006;2050;2050;NA;Air Superiority Doctrine;High;Pschu;x
+80552;Chief of Navy;Wang Li-shen;2006;2050;2050;NA;Decisive Naval Battle Doctrine;High;TW_Wang_Li-shen;x
+80553;Minister of Security;Tsai Chao-ming;2003;2050;2050;NA;Compassionate Gentleman;High;L123060;x
+80554;Head of Military Intelligence;Su Chi;2003;2050;2050;NA;Technical Specialist;High;L123025;x
+80555;Head of Government;Wu Poh-hsiung;2007;2050;2050;ML;Silent Workhorse;High;L123018;x
+80556;Minister of Armament;Lin Hsin-i;2005;2050;2050;SL;Resource Industrialist;Medium;L123022;x
+80557;Foreign Minister;Joseph Wu;2003;2050;2050;SL;Biased Intellectual;Medium;L123026;x
+80558;Minister of Armament;Lin Chung-cheng;2004;2050;2050;SL;Corrupt Kleptocrat;Medium;L123031;x
+80559;Minister of Security;Liao Cheng-hao;2003;2050;2050;ML;Crime Fighter;High;L123032;x
+80560;Minister of Security;Shih Mao-lin;2003;2050;2050;ML;Man of the People;High;L123033;x
+80561;Minister of Security;Cheng Chung-mo;2005;2050;2050;ML;Crooked Kleptocrat;High;L123034;x
+80562;Head of Military Intelligence;Chiou I-jen;2003;2050;2050;SL;Dismal Enigma;Medium;L123036;x
+80563;Head of Military Intelligence;Shi Hwei-yow;2004;2050;2050;ML;Political Specialist;High;L123037;x
+80564;Chief of Army;Chen Chen-hsiang;2003;2050;2050;NA;Guns and Butter Doctrine;High;L123106;x
+80565;Chief of Air Force;Liu Gui-li;2003;2050;2050;NA;Carpet Bombing Doctrine;High;L123189;x
+80566;Chief of Air Force;Shen Kuo-chen;2006;2050;2050;NA;Vertical Envelopment Doctrine;High;L123190;x
+80567;Foreign Minister;Jason Hu;2003;2050;2050;ML;Great Compromiser;Very high;L123003;x
+80568;Minister of Security;Wang Cho-chun;2004;2050;2050;ML;Silent Lawyer;High;L123005;x
+80569;Head of Military Intelligence;Hsueh Shih-ming;2005;2050;2050;NA;Logistics Specialist;High;L123006;x
+80570;Foreign Minister;Chen Tan-sun;2004;2050;2050;SL;General Staffer;High;L123062;x
+80571;Head of Government;Lin Ruey-shiung;2011;2050;2050;SC;Naive Optimist;High;TW_Lin_Ruey-shiung;x
+80572;Chief of Staff;Kao Hua-chu;2007;2050;2050;NA;School of Psychology;High;M80519;x
+80573;Head of Government;Wu Den-yih;2009;2050;2050;ML;Backroom Backstabber;High;TW_Wu_Den-yih;x
+80574;Head of Government;Sean Chen;2011;2050;2050;ML;Corporate Suit;High;TW_Sean_Chen;x
+80575;Minister of Armament;Lee Tong-hau;2011;2050;2050;SC;laissez-faire capitalist;High;TW_Lee_Tong-hau;x
+80576;Minister of Armament;Shi Yen-hsiang;2009;2050;2050;ML;Resource Industrialist;Medium;TW_Shi_Yen-hsiang;x
+80577;Minister of Security;Tseng Yongfu;2010;2050;2050;ML;Crime Fighter;High;TW_Tseng_Yongfu;x
+80578;Foreign Minister;Lai Hsing-yuan;2005;2050;2050;ML;Biased Intellectual;Medium;TW_Lai_Hsing-yuan;x
+80579;Foreign Minister;Yang Chin-tien;2009;2050;2050;ML;Great Compromiser;High;TW_Timothy_Yang;x
+80580;Head of State;Wang Jin-pyng;2000;2050;2050;SC;Benevolent Gentleman;High;TW_Wang_Jin-pyng;x
+80581;Head of Government;Shih Ming-teh;2005;2050;2050;PA;Naive Optimist;High;TW_Shih_Ming-teh;x
+80582;Head of State;Shih Ming-teh;2005;2050;2050;PA;Powerhungry Demagogue;High;TW_Shih_Ming-teh;x
+80583;Minister of Security;Chiu Yi;2005;2050;2050;PA;Efficient Sociopath;High;TW_Chiu_Yi;x
+80584;Head of Military Intelligence;Chiu Yi;2005;2050;2050;PA;Political Specialist;High;TW_Chiu_Yi;x
+80585;Minister of Security;Lin Zhenjie;2003;2050;2050;PA;Man of the People;High;TW_Lin_Zhenjie;x
+80586;Head of Government;Lin Zhenjie;2005;2050;2050;PA;Corporate Suit;High;TW_Lin_Zhenjie;x
+80587;Minister of Armament;Chen Yaochang;2005;2050;2050;PA;Theoretical Scientist;High;Unknown;x
+80588;Minister of Security;Chen Jiajun;2005;2050;2050;PA;Compassionate Gentleman;High;TW_Chen_Jiajun;x
+80589;Chief of Army;Lee Hsiang-chou;2010;2050;2050;NA;elastic defence doctrine;High;TW_Lee_Hsiang-chou;x
+80590;Chief of Navy;Dong Hsiang-long;2010;2050;2050;NA;Decisive Naval Battle Doctrine;High;TW_Dong_Hsiang-long;x
+80591;Chief of Air Force;Yen Ming;2010;2050;2050;NA;Air Superiority Doctrine;High;TW_Yen_Ming;x
+80592;Head of State;Frank Hsieh;2005;2050;2050;SL;Barking Buffoon;High;M80514;x
+80593;Chief of Staff;Lin Zhongbin;2003;2050;2050;NA;School of Defence;High;TW_Lin_Zhongbin;x
+80594;Minister of Armament;Lin Zhongbin;2003;2050;2050;NA;Air Superiority Proponent;High;TW_Lin_Zhongbin;x
+80595;Head of State;Wu Ronyuan;2003;2050;2050;LE;Weary Stiffneck;High;TW_Wu_Ronyuan;x
+80596;Head of Government;Tang Shu;2003;2050;2050;LE;Flamboyant Tough Guy;High;TW_Tang_Shu;x
+80597;Foreign Minister;Lin Shuyang;2003;2050;2050;ST;Biased Intellectual;Medium;TW_Lin_Shuyang;x
+80598;Head of Government;Lin Shuyang;2003;2050;2050;ST;Political Protege;High;TW_Lin_Shuyang;x
+80599;Minister of Security;Gao Weikai;2003;2050;2050;LE;Compassionate Gentleman;High;TW_Gao_Weikai;x
+80600;Minister of Armament;Gao Weikai;2003;2050;2050;LE;Resource Industrialist;High;TW_Gao_Weikai;x
+80601;Head of Military Intelligence;Zhang An-le;2003;2050;2050;ST;Dismal Enigma;Medium;unknown;x
+80602;Minister of Armament;Cheng Tian-fu;2009;2050;2050;LE;Corrupt Kleptocrat;Medium;unknown;x
+80603;Head of Military Intelligence;Lu Yue-hsiang;2003;2050;2050;LE;Logistics Specialist;High;TW_Lu_Yue-hsiang;x
+80604;Foreign Minister;Lu Yue-hsiang;2003;2050;2050;LE;Great Compromiser;High;TW_Lu_Yue-hsiang;x

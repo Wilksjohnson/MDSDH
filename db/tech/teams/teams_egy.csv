@@ -1,0 +1,18 @@
+EGY;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+4700;Egyptian Military Academy;T4709;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4701;Abu Zaabal Factory;abuzabaal;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4702;Kader Factory;kaderfac;5;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4703;Helwan Machine Tools;helwan;6;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4704;Maadi Arms Factory;T4711;6;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4705;ABHCO;abhco;4;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4706;AOI Aircraft;gomhuria;4;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4707;Military Intelligence;team_noimage;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4708;Helwan;helwanind;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4709;Arab International Optronics;aboptics;6;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4710;NPPA;nppaegypt;5;1000;2999;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4711;Egyptian Army;T4716;6;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4712;General Staff;genstaffegy;5;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4713;Supply Corps;ukrlogistics;6;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4714;Egyptian Air Force;T4708;6;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4715;Egyptian Navy;egyptnavy;5;1000;2999;naval_training;seamanship;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4716;Alexandria Shipyard;T4702;3;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

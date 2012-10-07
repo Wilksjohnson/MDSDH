@@ -1,0 +1,27 @@
+ENG;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+17400;Sandhurst Royal Military Academy;sandhurst;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17401;BAE Land Systems;BAEland;8;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17402;GKN Sankey;gknsankey;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17403;BAE Ordnance & Munitions;BAEordnance;7;1000;2999;general_equipment;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17404;AgustaWestland;agustawestland;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17405;BAE Aerospace;BAEaerospace;8;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17406;Defence Intelligence Staff;DIStaff;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17407;Smiths Group;smithsgroup;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17408;QinetiQ;qinetiq;8;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17409;BAE Electronics;BAEelectronics;9;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17410;MBDA;mbdamissile;8;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17411;Thales;thaleseng;8;1000;2999;management;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17412;UKAEA;UKAEA;5;1000;2999;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17413;Atomic Weapons Establishment;aweaponsest;5;1000;2999;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17414;British National Space Centre;britishspace;6;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17415;British Army;britisharmy;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17416;Royal Marines;royalmarines;9;1000;2999;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17417;Permanent Joint HQ;pjhq;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17418;RAF;royalairforce;8;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17419;Fleet Air Arm;fleetairarm;8;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17420;Royal Navy;royalnavy;9;1000;2999;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17421;BVT Surface Fleet;bvtsurface;9;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17422;Swan Hunter;swanhunter;7;1000;2007;naval_artillery;naval_engineering;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17423;BAE Submarine Solutions;baesubmarine;7;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17424;Royal Fleet Auxiliary;rnaux;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17425;Submarine Command;rnsubmarine;5;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

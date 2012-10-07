@@ -1,0 +1,14 @@
+GUI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+33501;Head of State;Lansana Conte;2003;2050;2050;PA;Barking Buffoon;High;Lconte;x
+33502;Head of Government;Lansana Conte;2003;2050;2050;PA;Silent Workhorse;High;Lconte;x
+33503;Foreign Minister;Harouna Berete;2003;2050;2050;PA;Great Compromiser;High;Hberete;x
+33504;Minister of Armament;Almamy Camara;2003;2050;2050;PA;Corrupt Kleptocrat;High;Acamara;x
+33505;Minister of Security;Bachir Toure;2003;2050;2050;PA;Man of the People;High;Btoure;x
+33506;Head of Military Intelligence;Nabaniou Mahmoud;2003;2050;2050;NA;Dismal Enigma;High;Nmahmoud;x
+33507;Chief of Staff;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+33508;Chief of Army;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+33509;Chief of Air Force;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+33510;Chief of Navy;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+;Replacements;;;;;;;x
+33511;Head of State;Moussa Dadis Camara;2008;2050;2050;PA;Resigned Generalissimo;High;Mdcamara;x
+33512;Head of Government;Moussa Dadis Camara;2008;2050;2050;PA;Old General;High;Mdcamara;x

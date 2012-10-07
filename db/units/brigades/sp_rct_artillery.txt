@@ -1,0 +1,12 @@
+# 0 - Early Cold War
+model = { cost = 2 buildtime = 130 manpower = 1 defensiveness = 1 toughness = 1 softattack = 4 hardattack = 2 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 0.6 }
+# 1 - Mid Cold War
+model = { cost = 2.4 buildtime = 130 manpower = 1 defensiveness = 1 toughness = 1 softattack = 5 hardattack = 3 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 0.6 }
+# 2 -  Late Cold War
+model = { cost = 2.9 buildtime = 130 manpower = 1 defensiveness = 1 toughness = 1 softattack = 6 hardattack = 4 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 0.6 }
+# 3 -  Post Cold War
+model = { cost = 3.5 buildtime = 130 manpower = 1 defensiveness = 1 toughness = 1 softattack = 7 hardattack = 4 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 0.6 }
+# 4 -  2000's
+model = { cost = 4.1 buildtime = 130 manpower = 1 defensiveness = 1 toughness = 1 softattack = 8 hardattack = 4 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 0.6 }
+# 5 - Advanced 2000's
+model = { cost = 5 buildtime = 130 manpower = 1 defensiveness = 1 toughness = 1 softattack = 9 hardattack = 5 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 0.6 }

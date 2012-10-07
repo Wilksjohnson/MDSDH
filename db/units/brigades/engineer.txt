@@ -1,0 +1,2 @@
+# 0 - Transport Helicopters for Spec. Op. Brigades
+model = { cost = 3 buildtime = 100 manpower = 0 defensiveness = 0 toughness = 0 defaultorganisation = 0 maxspeed = 15 supplyconsumption = 0.1 fuelconsumption = 0.1 upgrade_time_factor = 1.0 upgrade_cost_factor = 1.0 }

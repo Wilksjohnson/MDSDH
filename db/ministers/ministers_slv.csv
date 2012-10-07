@@ -1,0 +1,57 @@
+SLV;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+73501;Head of State;Janez Drnovsek;2003;2050;2050;SL;Insignificant Layman;High;M73501;x
+73502;Head of Government;Tone Rop;2003;2050;2050;SL;Silent Workhorse;High;M73502;x
+73503;Foreign Minister;Ivo Vajgl;2003;2050;2050;SL;Ideological Crusader;High;M73503;x
+73504;Minister of Armament;Rado Bohinjc;2003;2050;2050;SL;Administrative Genius;High;M73504;x
+73505;Minister of Security;Anton Grizold;2003;2050;2050;SL;Silent Lawyer;High;M73505;x
+73506;Head of Military Intelligence;Iztok Podbregar;2003;2050;2050;SL;Logistics Specialist;High;M73506;x
+73507;Chief of Staff;Ladislav Lipic;2003;2050;2050;SL;School of Defence;High;M73508;x
+73508;Chief of Army;Janez Drnovsek;2003;2050;2050;SL;Elastic Defence Doctrine;High;M73501;x
+73509;Chief of Navy;Renato Petric;2003;2050;2050;SL;Open Seas Doctrine;High;M73509;x
+73510;Chief of Air Force;Jozef Zunkovic;2003;2050;2050;SL;Air Superiority Doctrine;High;M73510;x
+;Replacements;;;;;;;x
+73511;Head of Government;Janez Jansa;2003;2050;2050;PA;Backroom Backstabber;High;M73511;x
+73512;Foreign Minister;Dimitrij Rupel;2003;2050;2050;SC;Great Compromiser;High;M73512;x
+73513;Minister of Armament;Dragotin Mate;2003;2050;2050;PA;Resource Industrialist;High;M73513;x
+73514;Minister of Security;Karl Viktor Erjavec;2003;2050;2050;ML;Man of the People;High;M73514;x
+73515;Head of Government;Borut Pahor;2003;2050;2050;SD;Naive Optimist;High;M73515;x
+73516;Foreign Minister;Samo Bevk;2003;2050;2050;SD;Apologetic Clerk;High;M73516;x
+73517;Minister of Armament;Miran Potrc;2003;2050;2050;SD;Military Entrepreneur;High;M73517;x
+73518;Minister of Security;Aurelio Juri;2003;2050;2050;SD;Compassionate Gentleman;High;M73518;x
+73519;Head of Military Intelligence;Dusan Kumer;2003;2050;2050;SD;Political Specialist;High;M73519;x
+73520;Head of Government;Andrej Bajuk;2003;2050;2050;SC;Political Protege;High;M73520;x
+73521;Foreign Minister;Lojze Peterle ;2003;2050;2050;SC;The Cloak N Dagger Schemer;High;M73521;x
+73522;Minister of Armament;Janez Drobnic;2003;2050;2050;SC;laissez-faire capitalist;High;M73522;x
+73523;Minister of Security;Lovro Sturm;2003;2050;2050;ML;Crime Fighter;High;M73523;x
+73524;Head of Government;Janez Podobnik;2003;2050;2050;SC;Naive Optimist;High;M73524;x
+73525;Foreign Minister;Stanislav Brencic;2003;2050;2050;SC;General Staffer;High;M73525;x
+73526;Minister of Armament;Franc Kangler;2003;2050;2050;SC;Infantry Proponent;High;M73526;x
+73527;Minister of Security;Josip Bajc;2003;2050;2050;SL;Silent Lawyer;High;M73527;x
+73528;Head of Military Intelligence;Franc Kangler;2003;2050;2050;SC;Industrial Specialist;High;M73528;x
+73529;Head of Government;Zmago Jelincic Plemeniti;2003;2050;2050;ST;Flamboyant Tough Guy;High;M73529;x
+73530;Foreign Minister;Barbara Zgajner Tavs;2003;2050;2050;LWR;Iron Fisted Brute;High;M73530;x
+73531;Minister of Armament;Bogdan Barovic;2003;2050;2050;LWR;Infantry Proponent;High;M73531;x
+73532;Minister of Security;Saso Pece;2003;2050;2050;LWR;Efficient Sociopath;High;M73532;x
+73533;Head of Government;Karl Viktor Erjavec;2003;2050;2050;ML;Old General;High;M73514;x
+73534;Foreign Minister;Franc Znidarsic;2003;2050;2050;LWR;Biased Intellectual;High;M73534;x
+73535;Minister of Armament;Vili Rezman;2003;2050;2050;SD;Theoretical Scientist;High;M73535;x
+73536;Minister of Security;Ivan Jelen;2003;2050;2050;SD;Man of the People;High;M73536;x
+73537;Head of State;Barbara Brezigar;2003;2050;2050;SC;Weary Stiffneck;High;M73537;x
+73538;Head of State;France Arhar;2003;2050;2050;SC;Benevolent Gentleman;High;M73538;x
+73539;Head of State;France Bucar;2003;2050;2050;SL;Stern Imperialist;High;M73539;x
+73540;Head of State;Anton Bebler;2003;2050;2050;SL;Benevolent Gentleman;High;M73540;x
+73541;Head of State;Jure Cekuta;2003;2050;2050;SD;Benevolent Gentleman;High;M73541;x
+73542;Head of State;Gorazd Drevensek;2003;2050;2050;SL;Benevolent Gentleman;High;M73542;x
+73543;Head of State;Lev Kreft;2003;2050;2050;SD;Benevolent Gentleman;High;M73543;x
+73544;Head of Military Intelligence;Matjaz Sinkovec;2003;2050;2050;PA;Political Specialist;High;M73544;x
+73545;Head of Military Intelligence;Andrej Rupnik;2003;2050;2050;SC;Political Specialist;High;M73545;x
+73546;Chief of Staff;Albin Gutman;2003;2050;2050;SC;School of Defence;High;M73546;x
+73547;Head of State;Danilo Turk;2007;2050;2050;SD;Benevolent Gentleman;High;M73547;x
+73548;Head of State;Lojze Petrle;2007;2050;2050;SC;Benevolent Gentleman;High;M73521;x
+73549;Head of Government;Danilo Turk;2007;2050;2050;SD;Silent Workhorse;High;M73547;x
+73550;Chief of Army;Lojze Petrle;2007;2050;2050;SC;Elastic Defence Doctrine;High;M73521;x
+73551;Minister of Armament;Katarina Kresal;2007;2050;2050;SL;Administrative Genius;High;M73551;x
+73552;Minister of Security;Ljubica Jelusic;2008;2050;2050;SD;Crime Fighter;High;M73552;x
+73553;Foreign Minister;Samuel Zbogar;2008;2050;2050;SD;Great Compromiser;High;M73553;x
+73554;Chief of Staff;Alojz Steiner;2008;2050;2050;SD;school of manoeuvre;High;M73554;x
+73555;Head of Government;Gregor Golobic;2008;2050;2050;SL;Silent Workhorse;High;M73555;x

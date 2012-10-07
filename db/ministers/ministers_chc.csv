@@ -1,0 +1,78 @@
+CHC;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+17001;Head of State;Hu Jintao;2003;2050;2050;ST;Ruthless Powermonger;High;M17001;x
+17002;Head of Government;Wen Jiabao;2003;2050;2050;ST;Flamboyant Tough Guy;High;M17002;x
+17003;Foreign Minister;Li Zhaoxing;2003;2050;2050;ST;Iron Fisted Brute;High;M17003;x
+17017;Minister of Armament;Jin Renqing;2003;2050;2050;LE;laissez-faire capitalist;High;M17017;x
+17088;Minister of Security;Zhou Yongkang;2003;2050;2050;LE;Silent Lawyer;High;M17088;x
+17057;Head of Military Intelligence;Xu Yongyue;2003;2050;2050;LE;Logistics Specialist;High;M17057;x
+17033;Chief of Staff;Liang Guanglie;2003;2050;2050;ST;School of Mass Combat;High;M17062;x
+17077;Chief of Army;Liang Guanglie;2003;2050;2050;ST;Decisive Battle Doctrine;High;M17062;x
+17053;Chief of Navy;Zhang Dingfa;2003;2050;2050;ST;Open Seas Doctrine;High;M17053;x
+17010;Chief of Air Force;Qiao Qingchen;2003;2050;2050;ST;Air Superiority Doctrine;High;M17008;x
+;Replacements;;;;;;;x
+17011;Foreign Minister;Zheng Xianglin;2003;2050;2050;ST;Apologetic Clerk;High;M17011;x
+17012;Foreign Minister;Li Changchun;2003;2050;2050;ST;Great Compromiser;High;M17012;x
+17013;Foreign Minister;Liu Yandong;2003;2050;2050;LWR;Iron Fisted Brute;High;M17013;x
+17014;Foreign Minister;Ma Keqing;2003;2050;2050;LWR;Biased Intellectual;High;M17014;x
+17015;Foreign Minister;Li Baodong;2003;2050;2050;ST;The Cloak N Dagger Schemer;High;M17015;x
+17044;Foreign Minister;Yang Jiechi;2003;2050;2050;LWR;Biased Intellectual;High;M17044;x
+17046;Foreign Minister;Tang Jiaxuan;2003;2050;2050;ST;The Cloak N Dagger Schemer;High;M17046;x
+17016;Minister of Armament;Xie Xuren;2003;2050;2050;ST;Military Entrepreneur;High;M17016;x
+17004;Minister of Armament;Li Jinai;2003;2050;2050;ST;Administrative Genius;High;M17004;x
+17018;Minister of Armament;Ma Chongren;2003;2050;2050;LWR;Resource Industrialist;High;M17018;x
+17019;Minister of Armament;Zhu Zhigang;2003;2050;2050;LWR;Administrative Genius;High;M17019;x
+17020;Minister of Armament;He Bangjing;2003;2050;2050;ST;Strategic Air Proponent;High;M17020;x
+17039;Minister of Armament;Xi Jinping;2003;2050;2050;LWR;laissez-faire capitalist;High;M17039;x
+17040;Minister of Armament;Bo Xilai;2003;2050;2050;LWR;Resource Industrialist;High;M17040;x
+17060;Minister of Armament;Liao Xiaojun;2003;2050;2050;LWR;Tank Proponent;High;M17060;x
+17061;Minister of Armament;Li Yong;2003;2050;2050;LWR;Military Entrepreneur;High;M17061;x
+17063;Minister of Armament;Liu Jibin;2003;2050;2050;LE;Air Superiority Proponent;High;M17063;x
+17064;Minister of Armament;Hui Liangyu;2003;2050;2050;LWR;Corrupt Kleptocrat;High;M17064;x
+17021;Minister of Security;Yu Zhengsheng;2003;2050;2050;LWR;Back Stabber;High;M17021;x
+17022;Minister of Security;Zeng Qinghong;2003;2050;2050;LWR;Crooked Kleptocrat;High;M17022;x
+17023;Minister of Security;Wu Guanzheng;2003;2050;2050;ST;Prince of Terror;High;M17023;x
+17041;Minister of Security;Cai Cheng;2003;2050;2050;ST;Silent Lawyer;High;M17041;x
+17042;Minister of Security;Zhang Fusen;2003;2050;2050;LE;Compassionate Gentleman;High;M17042;x
+17043;Minister of Security;Wu Aiying;2003;2050;2050;LWR;Crime Fighter;High;M17043;x
+17065;Minister of Security;Meng Jianzhu;2003;2050;2050;ST;Efficient Sociopath;High;M17065;x
+17058;Minister of Security;Wei Jianxing;2003;2050;2050;LE;Back Stabber;High;M17058;x
+17005;Minister of Security;He Guoqiang;2003;2050;2050;LWR;Man of the People;High;M17005;x
+17006;Head of Military Intelligence;Kong Quan;2003;2050;2050;ST;Industrial Specialist;High;M17006;x
+17024;Head of Military Intelligence;Zhang Qiyue;2003;2050;2050;LWR;Dismal Enigma;High;M17024;x
+17056;Head of Military Intelligence;Geng Huichang;2003;2050;2050;ST;Political Specialist;High;M17056;x
+17027;Head of Military Intelligence;Bai Jingfu;2003;2050;2050;LE;Naval Intelligence Specialist;High;M17027;x
+17028;Head of Military Intelligence;Xiong Guangkai;2003;2050;2050;ST;Dismal Enigma;High;M17028;x
+17029;Head of Military Intelligence;Yang Yanyi;2003;2050;2050;ST;Technical Specialist;High;M17029;x
+17066;Head of Military Intelligence;Zhang Li;2003;2050;2050;LWR;Industrial Specialist;High;M17066;x
+17030;Chief of Staff;Xu Caihou;2003;2050;2050;ST;School of Fire Support;High;M17030;x
+17031;Chief of Staff;Chi Haotian;2003;2050;2050;LWR;School of Manoeuvre;High;M17031;x
+17032;Chief of Staff;Liao Xilong;2003;2050;2050;ST;School of Defence;High;M17032;x
+17007;Chief of Staff;Fu Quanyou;2003;2050;2050;ST;School of Psychology;High;M17007;x
+17034;Chief of Staff;Qiao Qingchen;2003;2050;2050;ST;School of Mass Combat;High;M17034;x
+17035;Chief of Staff;Guo Boxiong;2003;2050;2050;LWR;School of Defence;High;M17035;x
+17059;Chief of Staff;Yang Huaiqing;2003;2050;2050;LWR;School of Fire Support;High;M17059;x
+17047;Chief of Staff;Cao Gangchuan;2003;2050;2050;ST;School of Mass Combat;High;M17047;x
+17048;Chief of Staff;Li Jinai;2003;2050;2050;ST;School of Defence;High;M17048;x
+17049;Chief of Staff;Liao Xilong;2003;2050;2050;ST;School of Psychology;High;M17049;x
+17050;Chief of Staff;Chen Bingde;2003;2050;2050;ST;School of Mass Combat;High;M17050;x
+17052;Chief of Staff;Jing Zhiyuan;2003;2050;2050;ST;School of Manoeuvre;High;M17052;x
+17051;Chief of Air Force;Xu Qiliang;2003;2050;2050;ST;Army Aviation Doctrine;High;M17051;x
+17067;Chief of Air Force;Yue Xicui;2003;2050;2050;LWR;Air Superiority Doctrine;High;M17067;x
+17068;Chief of Air Force;Zhou Ziyu;2003;2050;2050;ST;vertical envelopment doctrine;High;M17068;x
+17054;Chief of Navy;Ding Yiping;2003;2050;2050;ST;Open Seas Doctrine;High;M17054;x
+17055;Chief of Navy;Shi Yunsheng;2003;2050;2050;ST;Decisive Naval Battle Doctrine;High;M17055;x
+17069;Chief of Navy;Wu Shengli;2003;2050;2050;ST;Power Projection Doctrine;High;M17069;x
+17070;Chief of Navy;Yang Huaiqing;2003;2050;2050;ST;Decisive Naval Battle Doctrine;High;M17059;x
+17071;Chief of Navy;Yue Haiyan;2003;2050;2050;LE;Base Control Doctrine;High;M17071;x
+17072;Chief of Navy;Zhou Kunren;2003;2050;2050;LWR;Indirect Approach Doctrine;High;M17072;x
+17073;Chief of Navy;ABCD;2003;2050;2050;;Power Projection Doctrine;High;Unknown;x
+17074;Chief of Army;Xu Caihou;2003;2050;2050;ST;Guns and Butter Doctrine;High;M17030;x
+17076;Chief of Army;Liao Xilong;2003;2050;2050;ST;elastic defence doctrine;High;M17032;x
+17078;Chief of Army;Qiao Qingchen;2003;2050;2050;ST;Decisive Battle Doctrine;High;M17034;x
+17079;Chief of Army;Guo Boxiong;2003;2050;2050;LWR;elastic defence doctrine;High;M17035;x
+17081;Chief of Army;Cao Gangchuan;2003;2050;2050;ST;Decisive Battle Doctrine;High;M17047;x
+17082;Chief of Army;Li Jinai;2003;2050;2050;ST;Decisive Battle Doctrine;High;M17048;x
+17083;Chief of Army;Liao Xilong;2003;2050;2050;ST;elastic defence doctrine;High;M17049;x
+17084;Chief of Army;Chen Bingde;2003;2050;2050;ST;Static Defence Doctrine;High;M17050;x
+17085;Chief of Army;Jing Zhiyuan;2003;2050;2050;ST;Decisive Battle Doctrine;High;M17052;x
+17087;Chief of Army;ABCD;2003;2050;2050;ST;Decisive Battle Doctrine;High;Unknown;x

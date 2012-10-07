@@ -1,0 +1,1376 @@
+technology =
+{ id          = 3
+  category    = naval
+  name        = TECH_NAVAL_NAME
+  desc        = TECH_NAVAL_DESC
+  label =
+  { tag      = TECH_CAT_FRIGATE
+    position = { x = 150 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_DESTROY
+    position = { x = 275 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_CRUISER
+    position = { x = 386 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_BATTLECRUISER
+    position = { x = 520 y = 8 }
+  }
+  label =
+  { tag      = TECH_CAT_SEATRANS
+    position = { x = 15 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_STS
+    position = { x = 76 y = 293 }
+  }
+  label =
+  { tag      = TECH_CAT_SSK
+    position = { x = 0 y = 95 }
+  }
+  label =
+  { tag      = TECH_CAT_SSN
+    position = { x = 138 y = 110 }
+  }
+  label =
+  { tag      = TECH_CAT_SSGN
+    position = { x = 490 y = 220 }
+  }
+  label =
+  { tag      = TECH_CAT_CARRIER
+    position = { x = 490 y = 103 }
+  }
+  label =
+  { tag      = TECH_CAT_LCARRIER
+    position = { x = 340 y = 103 }
+  }
+  label =
+  { tag      = TECH_CAT_HACC
+    position = { x = 300 y = 220 }
+  }
+  # ############### Frigates ###############
+  application =
+  { id        = 3000
+    name      = TECH_APP_NAVAL_0_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 120 y = 0 }
+    year      = 2000
+    component = { id = 3001 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3002 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3003 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3004 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3005 name = "" type = naval_artillery difficulty = 10 }
+    required  = { 2600 3850 5050 5070 }
+    effects =
+    { command = { type = new_model which = destroyer value = 0 }
+      command = { type = activate_unit_type which = destroyer }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+    }
+  }
+  application =
+  { id        = 3010
+    name      = TECH_APP_NAVAL_1_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 130 y = 16 }
+    year      = 2000
+    component = { id = 3011 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3012 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3013 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3014 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3015 name = "" type = naval_artillery difficulty = 10 }
+    required  = { 2610 3000 3860 }
+    effects =
+    { command = { type = new_model which = destroyer value = 1 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = scrap_model which = destroyer value = 0 }
+    }
+  }
+  application =
+  { id        = 3020
+    name      = TECH_APP_NAVAL_2_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 130 y = 32 }
+    year      = 2000
+    component = { id = 3021 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3022 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3023 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3024 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3025 name = "" type = naval_artillery difficulty = 11 }
+    required  = { 2620 3010 3870 5150 5170 }
+    effects =
+    { command = { type = new_model which = destroyer value = 2 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = scrap_model which = destroyer value = 1 }
+    }
+  }
+  application =
+  { id        = 3030
+    name      = TECH_APP_NAVAL_3_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 130 y = 48 }
+    year      = 2000
+    component = { id = 3031 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3032 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3033 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3034 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3035 name = "" type = naval_artillery difficulty = 11 }
+    required  = { 2630 3020 3880 5250 5270 }
+    effects =
+    { command = { type = new_model which = destroyer value = 3 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = scrap_model which = destroyer value = 2 }
+    }
+  }
+  application =
+  { id        = 3040
+    name      = TECH_APP_NAVAL_4_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 130 y = 64 }
+    year      = 2000
+    component = { id = 3041 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3042 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3043 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3044 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3045 name = "" type = naval_artillery difficulty = 12 }
+    required  = { 2640 3030 3890 5350 5370 }
+    effects =
+    { command = { type = new_model which = destroyer value = 4 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = scrap_model which = destroyer value = 3 }
+    }
+  }
+  # ############### Destroyers ###############
+  application =
+  { id        = 3100
+    name      = TECH_APP_NAVAL_10_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 250 y = 0 }
+    year      = 2000
+    component = { id = 3101 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3102 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3103 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3104 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3105 name = "" type = naval_artillery difficulty = 10 }
+    required  = { 2600 3850 5050 5070 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 0 }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = activate_unit_type which = light_cruiser }
+    }
+  }
+  application =
+  { id        = 3110
+    name      = TECH_APP_NAVAL_11_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 260 y = 16 }
+    year      = 2000
+    component = { id = 3111 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3112 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3113 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3114 name = "" type = naval_artillery difficulty = 10 }
+    component = { id = 3115 name = "" type = naval_artillery difficulty = 10 }
+    required  = { 2610 3100 3860 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 1 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = scrap_model which = light_cruiser value = 0 }
+    }
+  }
+  application =
+  { id        = 3120
+    name      = TECH_APP_NAVAL_12_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 260 y = 32 }
+    year      = 2000
+    component = { id = 3121 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3122 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3123 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3124 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3125 name = "" type = naval_artillery difficulty = 11 }
+    required  = { 2620 3110 3870 5150 5170 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 2 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = scrap_model which = light_cruiser value = 1 }
+    }
+  }
+  application =
+  { id        = 3130
+    name      = TECH_APP_NAVAL_13_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 260 y = 48 }
+    year      = 2000
+    component = { id = 3131 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3132 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3133 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3134 name = "" type = naval_artillery difficulty = 11 }
+    component = { id = 3135 name = "" type = naval_artillery difficulty = 11 }
+    required  = { 2630 3120 3880 5250 5270 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 3 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = scrap_model which = light_cruiser value = 2 }
+    }
+  }
+  application =
+  { id        = 3140
+    name      = TECH_APP_NAVAL_14_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 260 y = 64 }
+    year      = 2000
+    component = { id = 3141 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3142 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3143 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3144 name = "" type = naval_artillery difficulty = 12 }
+    component = { id = 3145 name = "" type = naval_artillery difficulty = 12 }
+    required  = { 2640 3130 3890 5350 5370 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 4 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = scrap_model which = light_cruiser value = 3 }
+    }
+  }
+  # ############### Guided Missile Cruiser ###############
+  application =
+  { id        = 3200
+    name      = TECH_APP_NAVAL_20_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 380 y = 0 }
+    year      = 2000
+    component = { id = 3201 name = "" type = small_taskforce_tactics difficulty = 14 }
+    component = { id = 3202 name = "" type = small_taskforce_tactics difficulty = 14 }
+    component = { id = 3203 name = "" type = small_taskforce_tactics difficulty = 14 }
+    component = { id = 3204 name = "" type = small_taskforce_tactics difficulty = 14 }
+    component = { id = 3205 name = "" type = small_taskforce_tactics difficulty = 14 }
+    required  = { 2600 3850 5050 5070 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 0 }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = activate_unit_type which = battlecruiser }
+    }
+  }
+  application =
+  { id        = 3210
+    name      = TECH_APP_NAVAL_21_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 390 y = 16 }
+    year      = 2000
+    component = { id = 3211 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3212 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3213 name = "" type = small_taskforce_tactics difficulty = 14 }
+    component = { id = 3214 name = "" type = small_taskforce_tactics difficulty = 14 }
+    component = { id = 3215 name = "" type = small_taskforce_tactics difficulty = 14 }
+    required  = { 2610 3200 3860 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 1 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = scrap_model which = battlecruiser value = 0 }
+    }
+  }
+  application =
+  { id        = 3220
+    name      = TECH_APP_NAVAL_22_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 390 y = 32 }
+    year      = 2000
+    component = { id = 3221 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3222 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3223 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3224 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3225 name = "" type = small_taskforce_tactics difficulty = 15 }
+    required  = { 2620 3210 3870 5150 5170 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 2 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = scrap_model which = battlecruiser value = 1 }
+    }
+  }
+  application =
+  { id        = 3230
+    name      = TECH_APP_NAVAL_23_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 390 y = 48 }
+    year      = 2000
+    component = { id = 3231 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 3232 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 3233 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3234 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 3235 name = "" type = small_taskforce_tactics difficulty = 15 }
+    required  = { 2630 3220 3880 5250 5270 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 3 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = scrap_model which = battlecruiser value = 2 }
+    }
+  }
+  application =
+  { id        = 3240
+    name      = TECH_APP_NAVAL_24_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 390 y = 64 }
+    year      = 2000
+    component = { id = 3241 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 3242 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 3243 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 3244 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 3245 name = "" type = small_taskforce_tactics difficulty = 16 }
+    required  = { 2640 3230 3890 5350 5370 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 4 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = scrap_model which = battlecruiser value = 3 }
+    }
+  }
+  # ############### Nuclear Guided Missile Cruiser ###############
+  application =
+  { id        = 32220
+    name      = TECH_APP_NAVAL_222_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 520 y = 22 }
+    year      = 2000
+    component = { id = 32221 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 32222 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 32223 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 32224 name = "" type = small_taskforce_tactics difficulty = 15 }
+    component = { id = 32225 name = "" type = small_taskforce_tactics difficulty = 15 }
+    required  = { 2620 3870 5150 5170 7070 }
+    effects =
+    { command = { type = new_model which = battleship value = 0 }
+      command = { type = activate_unit_type which = battleship }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 7070 }
+    }
+  }
+  application =
+  { id        = 32240
+    name      = TECH_APP_NAVAL_224_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 520 y = 38 }
+    year      = 2000
+    component = { id = 32241 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 32242 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 32243 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 32244 name = "" type = small_taskforce_tactics difficulty = 16 }
+    component = { id = 32245 name = "" type = small_taskforce_tactics difficulty = 16 }
+    required  = { 2640 32220 3890 5350 5370 7090 }
+    effects =
+    { command = { type = new_model which = battleship value = 1 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 7090 }
+      command = { type = scrap_model which = battleship value = 0 }
+    }
+  }
+  # ############### Fleet Carriers ###############
+  application =
+  { id        = 3300
+    name      = TECH_APP_NAVAL_30_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 470 y = 118 }
+    year      = 2000
+    component = { id = 3301 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3302 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3303 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3304 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3305 name = "" type = naval_engineering difficulty = 16 }
+    required  = { 2600 5050 5070 5090 9450 }
+    effects =
+    { command = { type = new_model which = carrier value = 0 }
+      command = { type = activate_unit_type which = carrier }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5090 }
+      command = { type = info_may_cause which = 9450 }
+    }
+  }
+  application =
+  { id        = 3310
+    name      = TECH_APP_NAVAL_31_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 134 }
+    year      = 2000
+    component = { id = 3311 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3312 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3313 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3314 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3315 name = "" type = naval_engineering difficulty = 17 }
+    required  = { 2610 3300 7060 }
+    effects =
+    { command = { type = new_model which = carrier value = 1 }
+      command = { type = info_may_cause which = 7060 }
+      command = { type = scrap_model which = carrier value = 0 }
+    }
+  }
+  application =
+  { id        = 3320
+    name      = TECH_APP_NAVAL_32_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 150 }
+    year      = 2000
+    component = { id = 3321 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3322 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3323 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3324 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3325 name = "" type = naval_engineering difficulty = 18 }
+    required  = { 2620 3310 5150 5170 5190 7070 9460 }
+    effects =
+    { command = { type = new_model which = carrier value = 2 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5190 }
+      command = { type = info_may_cause which = 7070 }
+      command = { type = info_may_cause which = 9460 }
+      command = { type = scrap_model which = carrier value = 1 }
+    }
+  }
+  application =
+  { id        = 3330
+    name      = TECH_APP_NAVAL_33_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 166 }
+    year      = 2000
+    component = { id = 3331 name = "" type = naval_engineering difficulty = 19 }
+    component = { id = 3332 name = "" type = naval_engineering difficulty = 19 }
+    component = { id = 3333 name = "" type = naval_engineering difficulty = 19 }
+    component = { id = 3334 name = "" type = naval_engineering difficulty = 19 }
+    component = { id = 3335 name = "" type = naval_engineering difficulty = 19 }
+    required  = { 2630 3320 5250 5270 5290 7080 9470 }
+    effects =
+    { command = { type = new_model which = carrier value = 3 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5290 }
+      command = { type = info_may_cause which = 7080 }
+      command = { type = info_may_cause which = 9470 }
+      command = { type = scrap_model which = carrier value = 2 }
+    }
+  }
+  application =
+  { id        = 3340
+    name      = TECH_APP_NAVAL_34_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 182 }
+    year      = 2000
+    component = { id = 3341 name = "" type = naval_engineering difficulty = 20 }
+    component = { id = 3342 name = "" type = naval_engineering difficulty = 20 }
+    component = { id = 3343 name = "" type = naval_engineering difficulty = 20 }
+    component = { id = 3344 name = "" type = naval_engineering difficulty = 20 }
+    component = { id = 3345 name = "" type = naval_engineering difficulty = 20 }
+    required  = { 2640 3330 5350 5370 5390 7090 9480 }
+    effects =
+    { command = { type = new_model which = carrier value = 4 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5390 }
+      command = { type = info_may_cause which = 7090 }
+      command = { type = info_may_cause which = 9480 }
+      command = { type = scrap_model which = carrier value = 3 }
+    }
+  }
+  # ############### Light Carriers ###############
+  application =
+  { id        = 3400
+    name      = TECH_APP_NAVAL_40_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 310 y = 118 }
+    year      = 2000
+    component = { id = 3401 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3402 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3403 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3404 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3405 name = "" type = naval_engineering difficulty = 14 }
+    required  = { 2600 5050 5070 9450 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 0 }
+      command = { type = activate_unit_type which = escort_carrier }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 9450 }
+      command = { type = scrap_model which = escort_carrier value = 5 }
+      command = { type = scrap_model which = escort_carrier value = 6 }
+      command = { type = scrap_model which = escort_carrier value = 7 }
+      command = { type = scrap_model which = escort_carrier value = 8 }
+      command = { type = scrap_model which = escort_carrier value = 9 }
+    }
+  }
+  application =
+  { id        = 3410
+    name      = TECH_APP_NAVAL_41_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 134 }
+    year      = 2000
+    component = { id = 3411 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3412 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3413 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3414 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3415 name = "" type = naval_engineering difficulty = 15 }
+    required  = { 2610 3400 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 1 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = scrap_model which = escort_carrier value = 0 }
+    }
+  }
+  application =
+  { id        = 3420
+    name      = TECH_APP_NAVAL_42_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 150 }
+    year      = 2000
+    component = { id = 3421 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3422 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3423 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3424 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3425 name = "" type = naval_engineering difficulty = 16 }
+    required  = { 2620 3410 5150 5170 9460 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 2 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 9460 }
+      command = { type = scrap_model which = escort_carrier value = 1 }
+    }
+  }
+  application =
+  { id        = 3430
+    name      = TECH_APP_NAVAL_43_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 166 }
+    year      = 2000
+    component = { id = 3431 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3432 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3433 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3434 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3435 name = "" type = naval_engineering difficulty = 17 }
+    required  = { 2630 3420 5250 5270 9470 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 3 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 9470 }
+      command = { type = scrap_model which = escort_carrier value = 2 }
+    }
+  }
+  application =
+  { id        = 3440
+    name      = TECH_APP_NAVAL_44_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 182 }
+    year      = 2000
+    component = { id = 3441 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3442 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3443 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3444 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3445 name = "" type = naval_engineering difficulty = 18 }
+    required  = { 2640 3430 5350 5370 9480 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 4 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 9480 }
+      command = { type = scrap_model which = escort_carrier value = 3 }
+    }
+  }
+  # ############### Heavy Aircraft Carrying Cruisers ###############
+  application =
+  { id        = 3500
+    name      = TECH_APP_NAVAL_50_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 236 }
+    year      = 2000
+    component = { id = 3501 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3502 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3503 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3504 name = "" type = naval_engineering difficulty = 14 }
+    component = { id = 3505 name = "" type = naval_engineering difficulty = 14 }
+    required  = { 2600 3850 5050 5070 9450 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 5 }
+      command = { type = activate_unit_type which = escort_carrier }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 9450 }
+      command = { type = scrap_model which = escort_carrier value = 0 }
+      command = { type = scrap_model which = escort_carrier value = 1 }
+      command = { type = scrap_model which = escort_carrier value = 2 }
+      command = { type = scrap_model which = escort_carrier value = 3 }
+      command = { type = scrap_model which = escort_carrier value = 4 }
+    }
+  }
+  application =
+  { id        = 3510
+    name      = TECH_APP_NAVAL_51_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 252 }
+    year      = 2000
+    component = { id = 3511 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3512 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3513 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3514 name = "" type = naval_engineering difficulty = 15 }
+    component = { id = 3515 name = "" type = naval_engineering difficulty = 15 }
+    required  = { 2610 3500 3860 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 6 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = scrap_model which = escort_carrier value = 5 }
+    }
+  }
+  application =
+  { id        = 3520
+    name      = TECH_APP_NAVAL_52_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 268 }
+    year      = 2000
+    component = { id = 3521 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3522 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3523 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3524 name = "" type = naval_engineering difficulty = 16 }
+    component = { id = 3525 name = "" type = naval_engineering difficulty = 16 }
+    required  = { 2620 3510 3870 5150 5170 9460 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 7 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 9460 }
+      command = { type = scrap_model which = escort_carrier value = 6 }
+    }
+  }
+  application =
+  { id        = 3530
+    name      = TECH_APP_NAVAL_53_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 284 }
+    year      = 2000
+    component = { id = 3531 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3532 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3533 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3534 name = "" type = naval_engineering difficulty = 17 }
+    component = { id = 3535 name = "" type = naval_engineering difficulty = 17 }
+    required  = { 2630 3520 3880 5250 5270 9470 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 8 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 9470 }
+      command = { type = scrap_model which = escort_carrier value = 7 }
+    }
+  }
+  application =
+  { id        = 3540
+    name      = TECH_APP_NAVAL_54_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 320 y = 300 }
+    year      = 2000
+    component = { id = 3541 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3542 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3543 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3544 name = "" type = naval_engineering difficulty = 18 }
+    component = { id = 3545 name = "" type = naval_engineering difficulty = 18 }
+    required  = { 2640 3530 3890 5350 5370 9480 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 9 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 9480 }
+      command = { type = scrap_model which = escort_carrier value = 8 }
+    }
+  }
+  # ############### Transport ###############
+  application =
+  { id        = 3590
+    name      = TECH_APP_NAVAL_59_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 0 }
+    year      = 2000
+    component = { id = 3591 name = "" type = naval_artillery difficulty = 3 }
+    component = { id = 3592 name = "" type = naval_artillery difficulty = 3 }
+    component = { id = 3593 name = "" type = naval_artillery difficulty = 3 }
+    component = { id = 3594 name = "" type = naval_artillery difficulty = 3 }
+    component = { id = 3595 name = "" type = naval_artillery difficulty = 3 }
+    required  = { 5050 5070 }
+    effects =
+    { command = { type = new_model which = transports value = 0 }
+      command = { type = activate_unit_type which = transports }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+    }
+  }
+  # ############### Amphibious Assault Vessels ###############
+  application =
+  { id        = 3600
+    name      = TECH_APP_NAVAL_60_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 0 y = 16 }
+    year      = 2000
+    component = { id = 3601 name = "" type = small_taskforce_tactics difficulty = 10 }
+    component = { id = 3602 name = "" type = small_taskforce_tactics difficulty = 10 }
+    component = { id = 3603 name = "" type = small_taskforce_tactics difficulty = 10 }
+    component = { id = 3604 name = "" type = small_taskforce_tactics difficulty = 10 }
+    component = { id = 3605 name = "" type = small_taskforce_tactics difficulty = 10 }
+    required  = { 3590 4650 }
+    effects =
+    { command = { type = new_model which = transports value = 2 }
+      command = { type = info_may_cause which = 4650 }
+    }
+  }
+  application =
+  { id        = 3610
+    name      = TECH_APP_NAVAL_61_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 0 y = 32 }
+    year      = 2000
+    component = { id = 3611 name = "" type = small_taskforce_tactics difficulty = 11 }
+    component = { id = 3612 name = "" type = small_taskforce_tactics difficulty = 11 }
+    component = { id = 3613 name = "" type = small_taskforce_tactics difficulty = 11 }
+    component = { id = 3614 name = "" type = small_taskforce_tactics difficulty = 11 }
+    component = { id = 3615 name = "" type = small_taskforce_tactics difficulty = 11 }
+    required  = { 3600 }
+    effects =
+    { command = { type = new_model which = transports value = 3 }
+      command = { type = scrap_model which = transports value = 2 }
+    }
+  }
+  application =
+  { id        = 3620
+    name      = TECH_APP_NAVAL_62_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 0 y = 48 }
+    year      = 2000
+    component = { id = 3621 name = "" type = small_taskforce_tactics difficulty = 12 }
+    component = { id = 3622 name = "" type = small_taskforce_tactics difficulty = 12 }
+    component = { id = 3623 name = "" type = small_taskforce_tactics difficulty = 12 }
+    component = { id = 3624 name = "" type = small_taskforce_tactics difficulty = 12 }
+    component = { id = 3625 name = "" type = small_taskforce_tactics difficulty = 12 }
+    required  = { 3610 4660 5150 5170 }
+    effects =
+    { command = { type = new_model which = transports value = 4 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 4660 }
+      command = { type = scrap_model which = transports value = 3 }
+    }
+  }
+  application =
+  { id        = 3640
+    name      = TECH_APP_NAVAL_64_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 0 y = 64 }
+    year      = 2000
+    component = { id = 3641 name = "" type = small_taskforce_tactics difficulty = 13 }
+    component = { id = 3642 name = "" type = small_taskforce_tactics difficulty = 13 }
+    component = { id = 3643 name = "" type = small_taskforce_tactics difficulty = 13 }
+    component = { id = 3644 name = "" type = small_taskforce_tactics difficulty = 13 }
+    component = { id = 3645 name = "" type = small_taskforce_tactics difficulty = 13 }
+    required  = { 3620 4680 5350 5370 }
+    effects =
+    { command = { type = new_model which = transports value = 5 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 4680 }
+      command = { type = scrap_model which = transports value = 4 }
+    }
+  }
+  # ############### Attack Submarines SSK ###############
+  application =
+  { id        = 3700
+    name      = TECH_APP_NAVAL_70_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 110 }
+    year      = 2000
+    component = { id = 3701 name = "" type = seamanship difficulty = 12 }
+    component = { id = 3702 name = "" type = seamanship difficulty = 12 }
+    component = { id = 3703 name = "" type = seamanship difficulty = 12 }
+    component = { id = 3704 name = "" type = seamanship difficulty = 12 }
+    component = { id = 3705 name = "" type = seamanship difficulty = 12 }
+    required  = { 5050 5070 5090 }
+    effects =
+    { command = { type = activate_unit_type which = submarine }
+      command = { type = new_model which = submarine value = 0 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5090 }
+    }
+  }
+  application =
+  { id        = 37700
+    name      = TECH_APP_NAVAL_770_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 15 y = 126 }
+    year      = 2000
+    component = { id = 37701 name = "" type = seamanship difficulty = 6 }
+    component = { id = 37702 name = "" type = seamanship difficulty = 6 }
+    component = { id = 37703 name = "" type = seamanship difficulty = 6 }
+    component = { id = 37704 name = "" type = seamanship difficulty = 6 }
+    component = { id = 37705 name = "" type = seamanship difficulty = 6 }
+    required  = { 3700 }
+    effects =
+    { command = { type = new_model which = submarine value = 1 }
+      command = { type = scrap_model which = submarine value = 0 }
+    }
+  }
+  application =
+  { id        = 3710
+    name      = TECH_APP_NAVAL_71_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 142 }
+    year      = 2000
+    component = { id = 3711 name = "" type = seamanship difficulty = 13 }
+    component = { id = 3712 name = "" type = seamanship difficulty = 13 }
+    component = { id = 3713 name = "" type = seamanship difficulty = 13 }
+    component = { id = 3714 name = "" type = seamanship difficulty = 13 }
+    component = { id = 3715 name = "" type = seamanship difficulty = 13 }
+    required  = { 3700 }
+    effects =
+    { command = { type = new_model which = submarine value = 2 }
+      command = { type = scrap_model which = submarine value = 1 }
+      command = { type = scrap_model which = submarine value = 0 }
+    }
+  }
+  application =
+  { id        = 37710
+    name      = TECH_APP_NAVAL_771_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 15 y = 158 }
+    year      = 2000
+    component = { id = 37711 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37712 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37713 name = "" type = seamanship difficulty = 6 }
+    component = { id = 37714 name = "" type = seamanship difficulty = 6 }
+    component = { id = 37715 name = "" type = seamanship difficulty = 6 }
+    required  = { 3710 5150 5170 5190 }
+    effects =
+    { command = { type = new_model which = submarine value = 3 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5190 }
+      command = { type = scrap_model which = submarine value = 2 }
+    }
+  }
+  application =
+  { id        = 3720
+    name      = TECH_APP_NAVAL_72_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 174 }
+    year      = 2000
+    component = { id = 3721 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3722 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3723 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3724 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3725 name = "" type = seamanship difficulty = 14 }
+    required  = { 3710 5150 5170 5190 }
+    effects =
+    { command = { type = new_model which = submarine value = 4 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5190 }
+      command = { type = scrap_model which = submarine value = 3 }
+      command = { type = scrap_model which = submarine value = 2 }
+    }
+  }
+  application =
+  { id        = 37720
+    name      = TECH_APP_NAVAL_772_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 15 y = 190 }
+    year      = 2000
+    component = { id = 37721 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37722 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37723 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37724 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37725 name = "" type = seamanship difficulty = 7 }
+    required  = { 3720 5250 5270 5290 }
+    effects =
+    { command = { type = new_model which = submarine value = 5 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5290 }
+      command = { type = scrap_model which = submarine value = 4 }
+    }
+  }
+  application =
+  { id        = 3730
+    name      = TECH_APP_NAVAL_73_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 206 }
+    year      = 2000
+    component = { id = 3731 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3732 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3733 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3734 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3735 name = "" type = seamanship difficulty = 15 }
+    required  = { 3720 5250 5270 5290 }
+    effects =
+    { command = { type = new_model which = submarine value = 6 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5290 }
+      command = { type = scrap_model which = submarine value = 5 }
+      command = { type = scrap_model which = submarine value = 4 }
+    }
+  }
+  application =
+  { id        = 37730
+    name      = TECH_APP_NAVAL_773_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 15 y = 222 }
+    year      = 2000
+    component = { id = 37731 name = "" type = seamanship difficulty = 8 }
+    component = { id = 37732 name = "" type = seamanship difficulty = 8 }
+    component = { id = 37733 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37734 name = "" type = seamanship difficulty = 7 }
+    component = { id = 37735 name = "" type = seamanship difficulty = 7 }
+    required  = { 3730 5350 5370 5390 }
+    effects =
+    { command = { type = new_model which = submarine value = 7 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5390 }
+      command = { type = scrap_model which = submarine value = 6 }
+    }
+  }
+  application =
+  { id        = 3740
+    name      = TECH_APP_NAVAL_74_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 238 }
+    year      = 2000
+    component = { id = 3741 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3742 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3743 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3744 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3745 name = "" type = seamanship difficulty = 16 }
+    required  = { 3730 5350 5370 5390 }
+    effects =
+    { command = { type = new_model which = submarine value = 8 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5390 }
+      command = { type = scrap_model which = submarine value = 7 }
+      command = { type = scrap_model which = submarine value = 6 }
+    }
+  }
+  application =
+  { id        = 37740
+    name      = TECH_APP_NAVAL_774_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 15 y = 254 }
+    year      = 2000
+    component = { id = 37741 name = "" type = seamanship difficulty = 8 }
+    component = { id = 37742 name = "" type = seamanship difficulty = 8 }
+    component = { id = 37743 name = "" type = seamanship difficulty = 8 }
+    component = { id = 37744 name = "" type = seamanship difficulty = 8 }
+    component = { id = 37745 name = "" type = seamanship difficulty = 8 }
+    required  = { 3740 5450 5470 5490 }
+    effects =
+    { command = { type = new_model which = submarine value = 9 }
+      command = { type = info_may_cause which = 5450 }
+      command = { type = info_may_cause which = 5470 }
+      command = { type = info_may_cause which = 5490 }
+      command = { type = scrap_model which = submarine value = 8 }
+    }
+  }
+  # ############### Nuclear Propulsion Attack Submarines SSN ###############
+  application =
+  { id        = 3800
+    name      = TECH_APP_NAVAL_80_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 140 y = 126 }
+    year      = 2000
+    component = { id = 3801 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3802 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3803 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3804 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3805 name = "" type = seamanship difficulty = 14 }
+    required  = { 5050 5070 5090 7060 }
+    effects =
+    { command = { type = activate_unit_type which = submarine }
+      command = { type = new_model which = submarine value = 11 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5090 }
+      command = { type = info_may_cause which = 7060 }
+    }
+  }
+  application =
+  { id        = 3810
+    name      = TECH_APP_NAVAL_81_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 140 y = 142 }
+    year      = 2000
+    component = { id = 3811 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3812 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3813 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3814 name = "" type = seamanship difficulty = 14 }
+    component = { id = 3815 name = "" type = seamanship difficulty = 14 }
+    required  = { 3800 }
+    effects =
+    { command = { type = new_model which = submarine value = 12 }
+      command = { type = scrap_model which = submarine value = 11 }
+    }
+  }
+  application =
+  { id        = 38810
+    name      = TECH_APP_NAVAL_881_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 165 y = 158 }
+    year      = 2000
+    component = { id = 38811 name = "" type = seamanship difficulty = 7 }
+    component = { id = 38812 name = "" type = seamanship difficulty = 7 }
+    component = { id = 38813 name = "" type = seamanship difficulty = 7 }
+    component = { id = 38814 name = "" type = seamanship difficulty = 7 }
+    component = { id = 38815 name = "" type = seamanship difficulty = 7 }
+    required  = { 3810 5150 5170 5190 }
+    effects =
+    { command = { type = new_model which = submarine value = 13 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5190 }
+      command = { type = scrap_model which = submarine value = 12 }
+    }
+  }
+  application =
+  { id        = 3820
+    name      = TECH_APP_NAVAL_82_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 140 y = 174 }
+    year      = 2000
+    component = { id = 3821 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3822 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3823 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3824 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3825 name = "" type = seamanship difficulty = 15 }
+    required  = { 3810 5150 5170 5190 7070 }
+    effects =
+    { command = { type = new_model which = submarine value = 14 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5190 }
+      command = { type = info_may_cause which = 7070 }
+      command = { type = scrap_model which = submarine value = 13 }
+      command = { type = scrap_model which = submarine value = 12 }
+    }
+  }
+  application =
+  { id        = 38820
+    name      = TECH_APP_NAVAL_882_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 165 y = 190 }
+    year      = 2000
+    component = { id = 38821 name = "" type = seamanship difficulty = 8 }
+    component = { id = 38822 name = "" type = seamanship difficulty = 8 }
+    component = { id = 38823 name = "" type = seamanship difficulty = 7 }
+    component = { id = 38824 name = "" type = seamanship difficulty = 7 }
+    component = { id = 38825 name = "" type = seamanship difficulty = 7 }
+    required  = { 3820 5250 5270 5290 }
+    effects =
+    { command = { type = new_model which = submarine value = 15 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5290 }
+      command = { type = scrap_model which = submarine value = 14 }
+    }
+  }
+  application =
+  { id        = 3830
+    name      = TECH_APP_NAVAL_83_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 140 y = 206 }
+    year      = 2000
+    component = { id = 3831 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3832 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3833 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3834 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3835 name = "" type = seamanship difficulty = 16 }
+    required  = { 3820 5250 5270 5290 7080 }
+    effects =
+    { command = { type = new_model which = submarine value = 16 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5290 }
+      command = { type = info_may_cause which = 7080 }
+      command = { type = scrap_model which = submarine value = 15 }
+      command = { type = scrap_model which = submarine value = 14 }
+    }
+  }
+  application =
+  { id        = 38830
+    name      = TECH_APP_NAVAL_883_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 165 y = 222 }
+    year      = 2000
+    component = { id = 38831 name = "" type = seamanship difficulty = 8 }
+    component = { id = 38832 name = "" type = seamanship difficulty = 8 }
+    component = { id = 38833 name = "" type = seamanship difficulty = 8 }
+    component = { id = 38834 name = "" type = seamanship difficulty = 8 }
+    component = { id = 38835 name = "" type = seamanship difficulty = 8 }
+    required  = { 3830 5350 5370 5390 }
+    effects =
+    { command = { type = new_model which = submarine value = 17 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5390 }
+      command = { type = scrap_model which = submarine value = 16 }
+    }
+  }
+  application =
+  { id        = 3840
+    name      = TECH_APP_NAVAL_84_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 140 y = 238 }
+    year      = 2000
+    component = { id = 3841 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3842 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3843 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3844 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3845 name = "" type = seamanship difficulty = 17 }
+    required  = { 3830 5350 5370 5390 7090 }
+    effects =
+    { command = { type = new_model which = submarine value = 18 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5390 }
+      command = { type = info_may_cause which = 7090 }
+      command = { type = scrap_model which = submarine value = 17 }
+      command = { type = scrap_model which = submarine value = 16 }
+    }
+  }
+  application =
+  { id        = 38840
+    name      = TECH_APP_NAVAL_884_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 165 y = 254 }
+    year      = 2000
+    component = { id = 38841 name = "" type = seamanship difficulty = 9 }
+    component = { id = 38842 name = "" type = seamanship difficulty = 9 }
+    component = { id = 38843 name = "" type = seamanship difficulty = 9 }
+    component = { id = 38844 name = "" type = seamanship difficulty = 9 }
+    component = { id = 38845 name = "" type = seamanship difficulty = 9 }
+    required  = { 3840 5450 5470 5490 }
+    effects =
+    { command = { type = new_model which = submarine value = 19 }
+      command = { type = info_may_cause which = 5450 }
+      command = { type = info_may_cause which = 5470 }
+      command = { type = info_may_cause which = 5490 }
+      command = { type = scrap_model which = submarine value = 18 }
+    }
+  }
+  # ############### Ship to Ship Missiles ###############
+  application =
+  { id        = 3850
+    name      = TECH_APP_NAVAL_85_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 310 }
+    year      = 2000
+    component = { id = 3851 name = "" type = management difficulty = 5 }
+    component = { id = 3852 name = "" type = management difficulty = 5 }
+    component = { id = 3853 name = "" type = management difficulty = 5 }
+    component = { id = 3854 name = "" type = management difficulty = 5 }
+    component = { id = 3855 name = "" type = management difficulty = 5 }
+    required  = { 5090 }
+    effects =
+    { command = { type = info_may_cause which = 5090 }
+    }
+  }
+  application =
+  { id        = 3860
+    name      = TECH_APP_NAVAL_86_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 150 y = 310 }
+    year      = 2000
+    component = { id = 3861 name = "" type = management difficulty = 6 }
+    component = { id = 3862 name = "" type = management difficulty = 6 }
+    component = { id = 3863 name = "" type = management difficulty = 6 }
+    component = { id = 3864 name = "" type = management difficulty = 6 }
+    component = { id = 3865 name = "" type = management difficulty = 6 }
+    required  = { 3850 }
+    effects   = { }
+  }
+  application =
+  { id        = 3870
+    name      = TECH_APP_NAVAL_87_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 70 y = 326 }
+    year      = 2000
+    component = { id = 3871 name = "" type = management difficulty = 7 }
+    component = { id = 3872 name = "" type = management difficulty = 7 }
+    component = { id = 3873 name = "" type = management difficulty = 7 }
+    component = { id = 3874 name = "" type = management difficulty = 7 }
+    component = { id = 3875 name = "" type = management difficulty = 7 }
+    required  = { 3860 5190 }
+    effects =
+    { command = { type = info_may_cause which = 5190 }
+    }
+  }
+  application =
+  { id        = 3880
+    name      = TECH_APP_NAVAL_88_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = -10 y = 342 }
+    year      = 2000
+    component = { id = 3881 name = "" type = management difficulty = 8 }
+    component = { id = 3882 name = "" type = management difficulty = 8 }
+    component = { id = 3883 name = "" type = management difficulty = 8 }
+    component = { id = 3884 name = "" type = management difficulty = 8 }
+    component = { id = 3885 name = "" type = management difficulty = 8 }
+    required  = { 3880 5290 }
+    effects =
+    { command = { type = info_may_cause which = 5290 }
+    }
+  }
+  application =
+  { id        = 3890
+    name      = TECH_APP_NAVAL_89_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 150 y = 342 }
+    year      = 2000
+    component = { id = 3891 name = "" type = management difficulty = 9 }
+    component = { id = 3892 name = "" type = management difficulty = 9 }
+    component = { id = 3893 name = "" type = management difficulty = 9 }
+    component = { id = 3894 name = "" type = management difficulty = 9 }
+    component = { id = 3895 name = "" type = management difficulty = 9 }
+    required  = { 3890 5390 }
+    effects =
+    { command = { type = info_may_cause which = 5390 }
+    }
+  }
+  # ############### Nuclear Guided Missile Submarine ###############
+  application =
+  { id        = 3900
+    name      = TECH_APP_NAVAL_90_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 236 }
+    year      = 2000
+    component = { id = 3901 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3902 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3903 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3904 name = "" type = seamanship difficulty = 15 }
+    component = { id = 3905 name = "" type = seamanship difficulty = 15 }
+    required  = { 3850 5050 5070 7060 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 0 }
+      command = { type = activate_unit_type which = heavy_cruiser }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 7060 }
+    }
+  }
+  application =
+  { id        = 3910
+    name      = TECH_APP_NAVAL_91_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 252 }
+    year      = 2000
+    component = { id = 3911 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3912 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3913 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3914 name = "" type = seamanship difficulty = 16 }
+    component = { id = 3915 name = "" type = seamanship difficulty = 16 }
+    required  = { 3860 3900 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 1 }
+      command = { type = scrap_model which = heavy_cruiser value = 0 }
+    }
+  }
+  application =
+  { id        = 3920
+    name      = TECH_APP_NAVAL_92_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 268 }
+    year      = 2000
+    component = { id = 3921 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3922 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3923 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3924 name = "" type = seamanship difficulty = 17 }
+    component = { id = 3925 name = "" type = seamanship difficulty = 17 }
+    required  = { 3870 3910 5150 5170 7070 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 2 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 7070 }
+      command = { type = scrap_model which = heavy_cruiser value = 1 }
+    }
+  }
+  application =
+  { id        = 3930
+    name      = TECH_APP_NAVAL_93_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 284 }
+    year      = 2000
+    component = { id = 3931 name = "" type = seamanship difficulty = 18 }
+    component = { id = 3932 name = "" type = seamanship difficulty = 18 }
+    component = { id = 3933 name = "" type = seamanship difficulty = 18 }
+    component = { id = 3934 name = "" type = seamanship difficulty = 18 }
+    component = { id = 3935 name = "" type = seamanship difficulty = 18 }
+    required  = { 3880 3920 5250 5270 7080 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 3 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 7080 }
+      command = { type = scrap_model which = heavy_cruiser value = 2 }
+    }
+  }
+  application =
+  { id        = 3940
+    name      = TECH_APP_NAVAL_94_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 480 y = 300 }
+    year      = 2000
+    component = { id = 3941 name = "" type = seamanship difficulty = 19 }
+    component = { id = 3942 name = "" type = seamanship difficulty = 19 }
+    component = { id = 3943 name = "" type = seamanship difficulty = 19 }
+    component = { id = 3944 name = "" type = seamanship difficulty = 19 }
+    component = { id = 3945 name = "" type = seamanship difficulty = 19 }
+    required  = { 3890 3930 5350 5370 7090 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 4 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 7090 }
+      command = { type = scrap_model which = heavy_cruiser value = 3 }
+    }
+  }
+}

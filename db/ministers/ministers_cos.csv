@@ -1,0 +1,15 @@
+COS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+18001;Head of State;Abel Pacheco;2003;2050;2050;ML;Benevolent Gentleman;High;Apacheco;x
+18002;Head of Government;Abel Pacheco;2003;2050;2050;ML;Naive Optimist;High;Apacheco;x
+18003;Foreign Minister;Undistinguished Suit;2003;2050;2050;ML;Undistinguished Suit;High;Unknown;x
+18004;Minister of Armament;Military abolished;2003;2050;2050;ML;Undistinguished Suit;High;cosmilit;x
+18005;Minister of Security;Undistinguished Suit;2003;2050;2050;ML;Undistinguished Suit;High;Unknown;x
+18006;Head of Military Intelligence;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+18007;Chief of Staff;Military abolished;2003;2050;2050;NA;Undistinguished Suit;High;cosmilit;x
+18008;Chief of Army;Military abolished;2003;2050;2050;NA;Undistinguished Suit;High;cosmilit;x
+18009;Chief of Air Force;Military abolished;2003;2050;2050;NA;Undistinguished Suit;High;cosmilit;x
+18010;Chief of Navy;Military abolished;2003;2050;2050;NA;Undistinguished Suit;High;cosmilit;x
+;Replacements;;;;;;;x
+18011;Head of State;Oscar Arias;2003;2050;2050;SD;Benevolent Gentleman;High;Oarias;x
+18012;Head of Government;Oscar Arias;2003;2050;2050;SD;Silent Workhorse;High;Oarias;x
+18013;Foreign Minister;Bruno Stagno Ugarte;2003;2050;2050;SD;Great Compromiser;High;Bsugarte;x

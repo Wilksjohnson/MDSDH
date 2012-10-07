@@ -1,0 +1,44 @@
+HUN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+36001;Head of State;Mádl Ferenc;2003;2050;2050;SC;Benevolent Gentleman;High;M36001;x
+36002;Head of Government;Medgyessi Péter;2003;2050;2050;SL;Naive Optimist;High;M36002;x
+36003;Foreign Minister;Kovács László;2003;2050;2050;SL;Great Compromiser;Medium;M36003;x
+36004;Minister of Armament;Csillag István;2003;2050;2050;SL;Administrative Genius;Medium;M36004;x
+36005;Minister of Security;Lamperth Mónika;2003;2050;2050;SL;Efficient Sociopath;Medium;M36005;x
+36006;Head of Military Intelligence;Kiss Péter;2003;2050;2050;SL;Political Specialist;High;M36006;x
+36007;Chief of Staff;Szenes Zoltán;2003;2050;2050;SL;School of Defence;High;M36007;x
+36008;Chief of Army;Gyõrössy Ferenc;2003;2050;2050;SL;Guns and Butter Doctrine;Medium;M36008;x
+36009;Chief of Air Force;Sági János;2003;2050;2050;SL;Air Superiority Doctrine;Medium;M36009;x
+36042;Chief of Navy;Hajdú Gábor;2003;2050;2050;SL;Indirect Approach Doctrine;High;L36056;x
+;Replacements;;;;;;;x
+36010;Head of State;Szili Katalin;2003;2050;2050;SL;Autocratic Charmer;High;M36010;x
+36011;Head of Government;Gyurcsány Ferenc;2003;2050;2050;SL;Flamboyant Tough Guy;High;M36011;x
+36012;Head of Government;Orbán Viktor;2003;2050;2050;SC;Flamboyant Tough Guy;High;M36012;x
+36013;Foreign Minister;Somogyi Ferenc;2003;2050;2050;SL;Ideological Crusader;Medium;M36013;x
+36014;Foreign Minister;Martonyi János;2003;2050;2050;SC;Ideological Crusader;Medium;M36014;x
+36015;Minister of Armament;Kóka János;2003;2050;2050;SL;laissez-faire capitalist;Medium;M36015;x
+36016;Minister of Armament;Matolcsy György;2003;2050;2050;SC;Infantry Proponent;Medium;M36016;x
+36017;Minister of Security;Pintér Sándor;2003;2050;2050;SC;Crime Fighter;Medium;M36017;x
+36018;Head of Military Intelligence;Demeter Ervin;2003;2050;2050;SC;Dismal Enigma;Medium;M36018;x
+36019;Head of Military Intelligence;Kövér László;2003;2050;2050;SC;Political Specialist;Medium;M36019;x
+36020;Chief of Staff;Havril András;2003;2050;2050;SL;School of Manoeuvre;Medium;M36020;x
+36021;Chief of Army;Forgó József;2003;2050;2050;SL;Armoured Spearhead Doctrine;Medium;M36021;x
+36022;Chief of Army;Nagy Tibor;2003;2050;2050;SC;Guns and Butter Doctrine;Medium;M36022;x
+36023;Chief of Army;Tánczos László;2003;2050;2050;SL;Static Defence Doctrine;Medium;M36023;x
+36024;Chief of Air Force;Buckó Imre;2003;2050;2050;SC;Army Aviation Doctrine;Medium;M36024;x
+36025;Chief of Air Force;Varga János;2003;2050;2050;SD;Air Superiority Doctrine;Medium;M36025;x
+36026;Head of State;Sólyom László;2003;2050;2050;SC;Autocratic Charmer;High;M36026;x
+36027;Minister of Armament;Kákosy Csaba;2003;2050;2050;SL;Resource Industrialist;Medium;M36027;x
+36028;Minister of Armament;Bajnai Gordon;2003;2050;2050;SL;Corrupt Kleptocrat;Medium;M36028;x
+36029;Foreign Minister;Göncz Kinga;2003;2050;2050;SL;Apologetic Clerk;High;M36029;x
+36030;Minister of Security;Petrétei József;2003;2050;2050;SL;Prince of Terror;Medium;M36030;x
+36031;Minister of Security;Takács Albert;2003;2050;2050;SL;Back Stabber;Medium;M36031;x
+36032;Minister of Security;Draskovics Tibor;2003;2050;2050;SL;Crooked Kleptocrat;Medium;M36032;x
+36033;Head of Military Intelligence;Szilvásy György;2003;2050;2050;SL;Political Specialist;High;M36033;x
+36034;Head of Government;Thürmer Gyula;2003;2050;2050;LE;Flamboyant Tough Guy;Medium;M36034;x
+36035;Foreign Minister;Thürmer Gyula;2003;2050;2050;LE;Ideological Crusader;Medium;M36034;x
+36036;Head of Government;Csurka István;2003;2050;2050;FA;Political Protege;Medium;M36036;x
+36037;Minister of Security;Csurka István;2003;2050;2050;FA;Crooked Kleptocrat;Medium;M36036;x
+36038;Head of Government;Vona Gábor;2003;2050;2050;PA;Naive Optimist;High;M36038;x
+36039;Minister of Security;Gyüre Csaba;2003;2050;2050;PA;Crime Fighter;High;M36039;x
+36040;Head of Government;Szili Katalin;2003;2050;2050;SL;Naive Optimist;High;M36010;x
+36041;Head of Government;Bajnai Gordon;2009;2050;2050;SL;Silent Workhorse;High;M36028;x

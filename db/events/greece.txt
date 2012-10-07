@@ -1,0 +1,225 @@
+#########################################################
+#							#
+# Events for Greece (GRE) by Imperator1993              #
+#                                                       #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#900001 - ?# Main events
+#? - ?# Political events
+#900050 - 900060# Election events	 		
+#########################################################
+
+############################################
+### Greek election 2004 ###
+############################################
+event = {
+         id = 900050
+         random = no
+         country = GRE
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_900050_NAME"
+         desc = "EVT_900050_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 7 month = march year = 2004 }
+ 
+           action_a = {
+                  name = "New Democracy - center right coalition"
+                  ai_chance = 75
+		  command = { type = headofgovernment which = 32013 } #Karamanlis
+		  command = { type = foreignminister which = 32014} #Molyviatis
+		  command = { type = armamentminister which = 32015 } #Alogoskoufis
+		  command = { type = ministerofsecurity which = 32016 } #Voulgarakis
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 4 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 8 }
+           }
+           action_b = {
+                  name = "Panhellenic Socialist Movement - center left coalition"
+                  ai_chance = 25
+		  command = { type = headofgovernment which = 32033 } #Papandreou
+		  command = { type = foreignminister which = 32021 } #Pangalos
+		  command = { type = armamentminister which = 32022 } #Papantoniou
+		  command = { type = ministerofsecurity which = 32028} #Venizelos
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = freedom value = 8 }
+		  command = { type = set_domestic which = free_market value = 6 }
+           }
+	   action_c = {
+		  name = "Communist Party of Greece - commie coalition"
+	 	  ai_chance = 0
+		  command = { type = headofgovernment which = 32029 } #Papariga
+		  command = { type = foreignminister which = 32032 } #Theonas
+                  command = { type = armamentminister which = 32031 } #Dragasakis
+		  command = { type = ministerofsecurity which = 32028} #Venizelos
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = democratic value = 3 }
+		  command = { type = set_domestic which = free_market value = 3 }
+		  command = { type = set_domestic which = freedom value = 4 }
+	   }
+
+}
+
+############################################
+### Greek election 2007 ###
+############################################
+event = {
+         id = 900051
+         random = no
+         country = GRE
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_900051_NAME"
+         desc = "EVT_900051_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 16 month = september year = 2007 }
+ 
+           action_a = {
+                  name = "New Democracy - center right coalition"
+                  ai_chance = 75
+		  command = { type = headofgovernment which = 32013 } #Karamanlis
+		  command = { type = foreignminister which = 32014} #Molyviatis
+		  command = { type = armamentminister which = 32015 } #Alogoskoufis
+		  command = { type = ministerofsecurity which = 32016 } #Voulgarakis
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 4 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 8 }
+           }
+           action_b = {
+                  name = "Panhellenic Socialist Movement - center left coalition"
+                  ai_chance = 25
+		  command = { type = headofgovernment which = 32033 } #Papandreou
+		  command = { type = foreignminister which = 32021 } #Pangalos
+		  command = { type = armamentminister which = 32022 } #Papantoniou
+		  command = { type = ministerofsecurity which = 32028} #Venizelos
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = freedom value = 8 }
+		  command = { type = set_domestic which = free_market value = 6 }
+           }
+	   action_c = {
+		  name = "Communist Party of Greece - commie coalition"
+	 	  ai_chance = 0
+		  command = { type = headofgovernment which = 32029 } #Papariga
+		  command = { type = foreignminister which = 32032 } #Theonas
+                  command = { type = armamentminister which = 32031 } #Dragasakis
+		  command = { type = ministerofsecurity which = 32028} #Venizelos
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = democratic value = 3 }
+		  command = { type = set_domestic which = free_market value = 3 }
+		  command = { type = set_domestic which = freedom value = 4 }
+	   }
+
+}
+
+############################################
+### Greek election 2009 ###
+############################################
+event = {
+         id = 900052
+         random = no
+         country = GRE
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_900052_NAME"
+         desc = "EVT_900052_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 4 month = october year = 2009 }
+ 
+           action_a = {
+                  name = "Panhellenic Socialist Movement - center left coalition"
+                  ai_chance = 75
+		  command = { type = headofgovernment which = 32033 } #Papandreou
+		  command = { type = foreignminister which = 32021 } #Pangalos
+		  command = { type = armamentminister which = 32022 } #Papantoniou
+		  command = { type = ministerofsecurity which = 32028} #Venizelos
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = freedom value = 8 }
+		  command = { type = set_domestic which = free_market value = 6 }
+           }
+           action_b = {
+                  name = "New Democracy - center right coalition"
+                  ai_chance = 25
+		  command = { type = headofgovernment which = 32013 } #Karamanlis
+		  command = { type = foreignminister which = 32014} #Molyviatis
+		  command = { type = armamentminister which = 32015 } #Alogoskoufis
+		  command = { type = ministerofsecurity which = 32016 } #Voulgarakis
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 4 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 8 }
+           }
+	   action_c = {
+		  name = "Communist Party of Greece - commie coalition"
+	 	  ai_chance = 0
+		  command = { type = headofgovernment which = 32029 } #Papariga
+		  command = { type = foreignminister which = 32032 } #Theonas
+                  command = { type = armamentminister which = 32031 } #Dragasakis
+		  command = { type = ministerofsecurity which = 32028} #Venizelos
+		  command = { type = ministerofintelligence which = 32017 } #Apostolidis
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = democratic value = 3 }
+		  command = { type = set_domestic which = free_market value = 3 }
+		  command = { type = set_domestic which = freedom value = 4 }
+	   }
+
+}
+
+#############################################
+###### Greek presidential election 2005
+#############################################
+event = {
+   id = 900053
+   random = no
+   country = GRE
+   style = 0
+   picture = "elections"
+
+   trigger = { government = democratic
+	  atwar = no
+   }
+   
+   date = { day = 12 month = march year = 2005 }
+
+   name = "EVT_900053_NAME"
+   desc = "EVT_900053_DESC"
+
+   action_a = {
+      name = "Ok"
+      command = { type = headofstate which = 32011 }
+   }
+   }
+
+
+
+

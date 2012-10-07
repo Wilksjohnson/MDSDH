@@ -1,0 +1,17 @@
+SWE;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+15800;Karlberg Military Academy;carlbergac;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15801;Carl Gustav Bofors;Gustaf;7;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15802;Hagglunds Systems;hagglunds;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15803;Bofors;bofors;7;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15804;SAAB AB;Gripen;7;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15805;MUST;team_noimage;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15806;Volvo;Volvo;8;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15807;Saab Bofors Dynamics;T15810;8;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15808;Bodycote Metech;bcmetech;5;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15809;Swedish Army;Swedish Army;6;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15810;Swedish Air Force;Swedish Air Force;6;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15811;Swedish Navy;Swedish Navy;6;1000;2999;naval_training;seamanship;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15812;Kockums AB;T15808;6;1000;2999;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15813;Defence Research Agency;swedefr;5;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15814;Swedish Space Corporation;T15801;5;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15815;Logistics Department;ukrlogistics;6;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

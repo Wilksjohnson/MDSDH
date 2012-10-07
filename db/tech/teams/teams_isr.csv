@@ -1,0 +1,20 @@
+ISR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+7900;Command and Staff College;cscollegeisr;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7901;Israel Weapon Industries;iwiisr;7;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7902;Israel Military Industries;israelmilitary;9;1000;2999;mechanics;general_equipment;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7903;Soltam;soltamisr;8;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7904;Plasan;plasamisr;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7905;Israel Aerospace Industries;iaiisr;7;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7906;Shin Bet;shinbet;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7907;Hatehof;hatehof;6;1000;2999;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7908;Vishay Intertech;vishay;8;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7909;Rafael Systems;T7902;7;1000;2999;management;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7910;Elbit Systems;elbitisr;9;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7911;Elta;eltaisr;8;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7912;Israeli Army;T7908;9;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7913;General Staff;davidstar;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7914;Engineer Corps;isrengineer;8;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7915;Israeli Air Force;T7906;9;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7916;Israeli Sea Corps;isrseacorps;6;1000;2999;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7917;Negev Nuclear Research Center;T7900;7;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7918;Israel Shipyards;T7904;6;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

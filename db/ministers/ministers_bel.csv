@@ -1,0 +1,28 @@
+BEL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+7501;Head of State;S.A.R. Albert II;2003;2050;2050;ML;Popular Figurehead;High;M7501;x
+7502;Head of Government;Guy Verhofstadt;2003;2050;2050;ML;Naive Optimist;High;M7502;x
+7503;Foreign Minister;Louis Michel;2003;2050;2050;ML;Ideological Crusader;High;M7503;x
+7504;Minister of Armament;André Flahaut;2003;2050;2050;ML;laissez-faire capitalist;High;M7507;x
+7505;Minister of Security;Antoine Duquesne;2003;2050;2050;ML;Silent Lawyer;High;Aduquesne;x
+7506;Head of Military Intelligence;Michel Hellemans;2003;2050;2050;ML;Political Specialist;High;M7506;x
+7507;Chief of Staff;August Van Daele;2003;2050;2050;ML;School of Fire Support;High;Avdaele;x
+7508;Chief of Army;Oger Pochet;2003;2050;2050;ML;Guns and Butter Doctrine;High;M7508;x
+7509;Chief of Navy;Michel Hellemans;2003;2050;2050;ML;Open Seas Doctrine;High;M7509;x
+7510;Chief of Air Force;Michel Audrit;2003;2050;2050;ML;Air Superiority Doctrine;High;M7510;x
+;Replacements;;;;;;;x
+7511;Head of State;S.A.R. Albert II;2003;2050;2050;SL;Popular Figurehead;High;M7501;x
+7512;Head of Government;Yves Leterme;2008;2050;2050;ML;Ambitious Union Boss;High;Yleterme;x
+7513;Foreign Minister;Karel De Gucht;2003;2050;2050;SL;Biased Intellectual;High;Kdgucht;x
+7514;Minister of Armament;Pieter De Crem;2003;2050;2050;ML;Administrative Genius;High;Pdcrem;x
+7515;Minister of Security;Patrick Dewael;2003;2050;2050;SL;Compassionate Gentleman;High;Pdewael;x
+7516;Minister of Armament;Philippe Busquin;2003;2050;2050;SD;Theoretical Scientist;High;Pbusquin;x
+7517;Minister of Armament;Guy Coeme;2003;2050;2050;SD;Corrupt Kleptocrat;High;Gcoeme;x
+7518;Foreign Minister;Berni Collas;2003;2050;2050;SL;Great Compromiser;High;Bcollas;x
+7519;Minister of Security;Armand de Decker;2003;2050;2050;SL;Silent Lawyer;High;Addecker;x
+7520;Head of State;Daniel Féret;2003;2050;2050;FA;powerhungry demagogue;High;Dferet;x
+7521;Head of Government;Daniel Huygens;2003;2050;2050;FA;Political Protege;High;Dhuygens;x
+7522;Minister of Security;Marino Keulen;2003;2050;2050;SL;Man of the People;High;Mkeulen;x
+7523;Minister of Security;Karl-Heinz Lambertz;2003;2050;2050;SD;Crime Fighter;High;Khlambertz;x
+7524;Minister of Security;Luc Michel;2003;2050;2050;NS;Prince of Terror;High;Lmichel;x
+7525;Foreign Minister;Annemie Neyts-Uyttebroeck;2003;2050;2050;SL;Great Compromiser;High;Anuyttebroeck;x
+7526;Foreign Minister;Johan Verbeke;2003;2050;2050;SL;Great Compromiser;High;Jverbeke;x

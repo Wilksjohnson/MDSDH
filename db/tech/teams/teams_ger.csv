@@ -1,0 +1,28 @@
+GER;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+1;Führungsakademie;Führungsakademie;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2;Krauss-Maffei;T6220;9;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3;Rheinmetall;T6244;9;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4;Porsche;T6203;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5;Heckler & Koch;T6221;9;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6;EADS Deutschland;T6224;7;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7;Eurocopter Group;Eurocopter;7;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8;Siemens;T6210;9;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9;Bosch;T6218;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10;Juelich Research Centre;Julichrc;8;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11;EADS Electronics;eadselectronics;8;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12;BND;BNDger;8;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13;LFK;lfkger;7;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14;Diehl;T6242;7;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15;Max Planck Institute;T6211;8;1000;2999;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16;Deutsches Heer;T6229;8;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17;Command Staff;ger command staff;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+18;Joint Support Service;Joint Support Service;8;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+19;Luftwaffe;T6232;8;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+20;Blohm und Voss;T6235;7;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+21;Lürssen Werft Bremen;T6236;7;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22;Nordseewerke;Nordsee;6;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+23;Howaldtswerke-Deutsche Werft;T6239;7;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24;Deutsche Marine;T6231;7;1000;2999;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+25;Naval Air Wing;gernavair;5;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+26;Submarine Training Centre;gersubmarine;9;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+27;Naval Logistics;gernavlog;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

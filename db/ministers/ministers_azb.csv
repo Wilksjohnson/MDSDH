@@ -1,0 +1,29 @@
+AZB;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+5001;Head of State;Heydar Aliyev;2003;2050;2050;PA;Autocratic Charmer;High;Haliyev;x
+5002;Head of Government;Artur Rasizade;2003;2050;2050;PA;Flamboyant Tough Guy;High;M5002;x
+5003;Foreign Minister;Vilayat Guliyev;2003;2050;2050;PA;Biased Intellectual;High;Vguliyev;x
+5004;Minister of Armament;Safar Abiyev;2003;2050;2050;PA;Military Entrepreneur;High;M5004;x
+5005;Minister of Security;Ramil Usubov;2003;2050;2050;PA;Back Stabber;High;Rusubov;x
+5006;Head of Military Intelligence;Fikret Mamedov;2003;2050;2050;PA;Logistics Specialist;High;Unknown;x
+5007;Chief of Staff;Aleksandr Vasyak;2003;2050;2050;PA;School of Fire Support;High;Unknown;x
+5008;Chief of Army;Aleksandr Vasyak;2003;2050;2050;PA;Guns and Butter Doctrine;High;Unknown;x
+5009;Chief of Navy;Shahin Sultanov;2003;2050;2050;PA;Indirect Approach Doctrine;High;Ssultanov;x
+5010;Chief of Air Force;Rail Rzayev;2003;2050;2050;PA;Army Aviation Doctrine;High;Rrzayev;x
+;Replacements;;;;;;;x
+5011;Head of Government;Abbas Abbasov;2003;2050;2050;PA;Silent Workhorse;High;M5011;x
+5012;Head of Government;Elchin Efendiyev;2003;2050;2050;PA;Political Protege;High;M5012;x
+5013;Head of Government;Yaqub Eyyubov;2003;2050;2050;PA;Naive Optimist;High;M5013;x
+5014;Head of Government;Ali Hasanov;2003;2050;2050;PA;Backroom Backstabber;High;M5014;x
+5015;Head of Government;Abid Sharifov;2003;2050;2050;PA;Corporate Suit;High;M5015;x
+5016;Head of State;Ilham Aliyev;2003;2050;2050;PA;Powerhungry Demagogue;High;M5001;x
+5017;Head of Government;Ilham Aliyev;2003;2050;2050;PA;Political Protege;High;M5001;x
+5018;Foreign Minister;Elmar Mammadyarov;2003;2050;2050;PA;Iron Fisted Brute;High;M5003;x
+5019;Minister of Security;Fikret Mamedov;2003;2050;2050;PA;Prince of Terror;High;Unknown;x
+5020;Minister of Armament;Natig Aliyev;2003;2050;2050;PA;Resource Industrialist;High;Naliyev;x
+5021;Foreign Minister;Yasar Aliyev;2003;2050;2050;PA;Great Compromiser;High;Unknown;x
+5022;Head of State;Isa Gambar;2003;2050;2050;SL;Benevolent Gentleman;High;Igambar;x
+5023;Head of Government;Rasul Guliyev;2003;2050;2050;SL;Corporate Suit;High;Rguliyev;x
+5024;Foreign Minister;Ali Karimli;2003;2050;2050;SL;Ideological Crusader;High;Akarimli;x
+5025;Minister of Security;Eldar Mahmudov;2003;2050;2050;PA;Crime Fighter;High;Emahmudov;x
+5026;Chief of Staff;Najmaddin Sadykhov;2005;2050;2050;NA;School of Defence;High;Unknown;x
+5027;Chief of Army;Najmaddin Sadykhov;2003;2050;2050;NA;Elastic Defence Doctrine;High;Unknown;x

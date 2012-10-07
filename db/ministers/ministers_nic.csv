@@ -1,0 +1,23 @@
+NIC;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+59001;Head of State;Enrique Bolanos;2003;2050;2050;ML;Ruthless Powermonger;High;Ebolanos;X
+59002;Head of Government;Enrique Bolanos;2003;2050;2050;ML;Backroom Backstabber;High;Ebolanos;X
+59003;Foreign Minister;Norman Caldera;2003;2050;2050;ML;Biased Intellectual;High;Ncaldera;X
+59004;Minister of Armament;José Guerra Pastora;2003;2050;2050;ML;Tank Proponent;High;Jgpastora;X
+59005;Minister of Security;N/A;2003;2050;2050;ML;Undistinguished Suit;High;Unknown;X
+59006;Head of Military Intelligence;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;X
+59007;Chief of Staff;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;X
+59008;Chief of Army;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;X
+59009;Chief of Navy;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;X
+59010;Chief of Air Force;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;X
+;Replacements;;;;;;;x
+59011;Head of State;Daniel Ortega;2003;2050;2050;LWR;Pig-headed Isolationist;High;Dortega;X# hos since 2006
+59012;Head of Government;Daniel Ortega;2003;2050;2050;LWR;Ambitious Union Boss;High;Dortega;X# hog
+59013;Foreign Minister;Samuel Santos López;2003;2050;2050;LWR;Ideological Crusader;High;Sslopez;X# foreign
+59014;Minister of Armament;Avil Ramírez Valdivia;2005;2050;2050;ML;Administrative Genius;High;Arvaldivia;X
+59015;Minister of Armament;Ruth Tapia Roa ;2003;2050;2050;LWR;Corrupt Kleptocrat;High;Rtroa;X
+59016;Foreign Minister;Omar Cabezas;2003;2050;2050;LWR;Biased Intellectual;High;Ocabezas;X
+59017;Head of State;José Rizo Castellón;2006;2050;2050;SL;Barking Buffoon;High;Jrcastellon;X
+59018;Head of Government;José Rizo Castellón;2006;2050;2050;SL;Naive Optimist;High;Jrcastellon;X
+59019;Head of State;Eduardo Montealegre;2006;2050;2050;SL;Benevolent Gentleman;High;Emontealegre;X
+59020;Head of Government;Eduardo Montealegre;2006;2050;2050;SL;Silent Workhorse;High;Emontealegre;X
+59021;Minister of Armament;Humberto Ortega;2003;2050;2050;LWR;Infantry Proponent;High;Hortega;X# defense

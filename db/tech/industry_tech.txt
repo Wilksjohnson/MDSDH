@@ -1,0 +1,820 @@
+technology =
+{ id          = 5
+  category    = industry
+  name        = TECH_INDUSTRY_NAME
+  desc        = TECH_INDUSTRY_DESC
+  label =
+  { tag      = TECH_CAT_EACW
+    position = { x = 55 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_LACW
+    position = { x = 459 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_POCW
+    position = { x = 262 y = 82 }
+  }
+  label =
+  { tag      = TECH_CAT_21ST
+    position = { x = 65 y = 167 }
+  }
+  label =
+  { tag      = TECH_CAT_A21ST
+    position = { x = 464 y = 169 }
+  }
+  application =
+  { id        = 5010
+    name      = TECH_APP_INDUSTRY_1_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 0 }
+    year      = 2000
+    component = { id = 5001 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5002 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5003 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5004 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5005 name = "" type = industrial_engineering difficulty = 7 }
+    required  = { }
+    effects =
+    { command = { type = industrial_modifier which = supplies value = 5 }
+      command = { type = allow_building which = ic }
+      command = { type = allow_building which = infrastructure }
+      command = { type = allow_building which = air_base }
+      command = { type = allow_building which = naval_base }
+    }
+  }
+  application =
+  { id        = 5020
+    name      = TECH_APP_INDUSTRY_2_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 16 }
+    year      = 2000
+    component = { id = 5021 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5022 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5023 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5024 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5025 name = "" type = industrial_engineering difficulty = 7 }
+    required  = { 5010 }
+    effects   = { 
+      command = { type = industrial_modifier which = total value = 1 }
+    }
+  }
+  application =
+  { id        = 5030
+    name      = TECH_APP_INDUSTRY_3_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 32 }
+    year      = 2000
+    component = { id = 5031 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5032 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5033 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5034 name = "" type = industrial_engineering difficulty = 7 }
+    component = { id = 5035 name = "" type = industrial_engineering difficulty = 7 }
+    required  = { 5020 }
+    effects =
+    { command = { type = research_mod value = 2 }
+      command = { type = night_attack which = infantry value = 10 }
+      command = { type = night_attack which = cavalry value = 10 }
+      command = { type = night_attack which = motorized value = 10 }
+      command = { type = night_attack which = mechanized value = 10 }
+      command = { type = night_attack which = light_armor value = 10 }
+      command = { type = night_attack which = armor value = 10 }
+      command = { type = night_attack which = paratrooper value = 15 }
+      command = { type = night_attack which = marine value = 15 }
+      command = { type = night_attack which = bergsjaeger value = 15 }
+      command = { type = night_attack which = militia value = 15 }
+    }
+  }
+  application =
+  { id        = 5040
+    name      = TECH_APP_INDUSTRY_4_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 48 }
+    year      = 2000
+    component = { id = 5041 name = "" type = electronics difficulty = 7 }
+    component = { id = 5042 name = "" type = electronics difficulty = 7 }
+    component = { id = 5043 name = "" type = electronics difficulty = 7 }
+    component = { id = 5044 name = "" type = electronics difficulty = 7 }
+    component = { id = 5045 name = "" type = electronics difficulty = 7 }
+    required  = { 5030 }
+    effects =
+    { command = { type = research_mod value = 3 }
+    }
+  }
+  application =
+  { id        = 5050
+    name      = TECH_APP_INDUSTRY_5_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = -17 y = 68 }
+    year      = 2000
+    component = { id = 5051 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5052 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5053 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5054 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5055 name = "" type = mathematics difficulty = 8 }
+    required  = { 5040 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  application =
+  { id        = 5060
+    name      = TECH_APP_INDUSTRY_6_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = -17 y = 86 }
+    year      = 2000
+    component = { id = 5061 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5062 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5063 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5064 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5065 name = "" type = mathematics difficulty = 8 }
+    required  = { 5050 }
+    effects =
+    { command = { type = intelligence which = us value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  application =
+  { id        = 5070
+    name      = TECH_APP_INDUSTRY_7_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 108 y = 68 }
+    year      = 2000
+    component = { id = 5071 name = "" type = chemistry difficulty = 8 }
+    component = { id = 5072 name = "" type = chemistry difficulty = 8 }
+    component = { id = 5073 name = "" type = chemistry difficulty = 8 }
+    component = { id = 5074 name = "" type = chemistry difficulty = 8 }
+    component = { id = 5075 name = "" type = chemistry difficulty = 8 }
+    required  = { 5040 }
+    effects   = { }
+  }
+  application =
+  { id        = 5080
+    name      = TECH_APP_INDUSTRY_8_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 108 y = 86 }
+    year      = 2000
+    component = { id = 5081 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5082 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5083 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5084 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5085 name = "" type = chemistry difficulty = 9 }
+    required  = { 5070 }
+    effects   = { }
+  }
+  application =
+  { id        = 5090
+    name      = TECH_APP_INDUSTRY_9_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 104 }
+    year      = 2000
+    component = { id = 5091 name = "" type = management difficulty = 8 }
+    component = { id = 5092 name = "" type = management difficulty = 8 }
+    component = { id = 5093 name = "" type = management difficulty = 8 }
+    component = { id = 5094 name = "" type = management difficulty = 8 }
+    component = { id = 5095 name = "" type = management difficulty = 8 }
+    required  = { 5040 }
+    effects   = { }
+  }
+  application =
+  { id        = 5110
+    name      = TECH_APP_INDUSTRY_11_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 0 }
+    year      = 2000
+    component = { id = 5111 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5112 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5113 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5114 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5115 name = "" type = industrial_engineering difficulty = 8 }
+    required  = { 5030 }
+    effects =
+    { command = { type = industrial_modifier which = supplies value = 5 }
+    }
+  }
+  application =
+  { id        = 5120
+    name      = TECH_APP_INDUSTRY_12_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 16 }
+    year      = 2000
+    component = { id = 5121 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5122 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5123 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5124 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5125 name = "" type = industrial_engineering difficulty = 8 }
+    required  = { 5110 }
+    effects   = { 
+      command = { type = industrial_modifier which = total value = 1 }
+   }
+  }
+  application =
+  { id        = 5130
+    name      = TECH_APP_INDUSTRY_13_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 32 }
+    year      = 2000
+    component = { id = 5131 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5132 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5133 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5134 name = "" type = industrial_engineering difficulty = 8 }
+    component = { id = 5135 name = "" type = industrial_engineering difficulty = 8 }
+    required  = { 5120 }
+    effects =
+    { command = { type = research_mod value = 2 }
+      command = { type = night_attack which = infantry value = 10 }
+      command = { type = night_attack which = cavalry value = 10 }
+      command = { type = night_attack which = motorized value = 10 }
+      command = { type = night_attack which = mechanized value = 10 }
+      command = { type = night_attack which = light_armor value = 10 }
+      command = { type = night_attack which = armor value = 10 }
+      command = { type = night_attack which = paratrooper value = 15 }
+      command = { type = night_attack which = marine value = 15 }
+      command = { type = night_attack which = bergsjaeger value = 15 }
+      command = { type = night_attack which = militia value = 15 }
+    }
+  }
+  application =
+  { id        = 5140
+    name      = TECH_APP_INDUSTRY_14_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 48 }
+    year      = 2000
+    component = { id = 5141 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5142 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5143 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5144 name = "" type = mathematics difficulty = 8 }
+    component = { id = 5145 name = "" type = mathematics difficulty = 8 }
+    required  = { 5130 }
+    effects =
+    { command = { type = research_mod value = 3 }
+      command = { type = allow_building which = rocket_test }
+    }
+  }
+  application =
+  { id        = 5150
+    name      = TECH_APP_INDUSTRY_15_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 390 y = 68 }
+    year      = 2000
+    component = { id = 5151 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5152 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5153 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5154 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5155 name = "" type = mathematics difficulty = 9 }
+    required  = { 5140 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  application =
+  { id        = 5160
+    name      = TECH_APP_INDUSTRY_16_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 390 y = 86 }
+    year      = 2000
+    component = { id = 5161 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5162 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5163 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5164 name = "" type = mathematics difficulty = 9 }
+    component = { id = 5165 name = "" type = mathematics difficulty = 9 }
+    required  = { 5150 }
+    effects =
+    { command = { type = intelligence which = us value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  application =
+  { id        = 5170
+    name      = TECH_APP_INDUSTRY_17_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 515 y = 68 }
+    year      = 2000
+    component = { id = 5171 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5172 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5173 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5174 name = "" type = chemistry difficulty = 9 }
+    component = { id = 5175 name = "" type = chemistry difficulty = 9 }
+    required  = { 5140 }
+    effects   = { }
+  }
+  application =
+  { id        = 5180
+    name      = TECH_APP_INDUSTRY_18_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 515 y = 86 }
+    year      = 2000
+    component = { id = 5181 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5182 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5183 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5184 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5185 name = "" type = chemistry difficulty = 10 }
+    required  = { 5170 }
+    effects   = { }
+  }
+  application =
+  { id        = 5190
+    name      = TECH_APP_INDUSTRY_19_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 104 }
+    year      = 2000
+    component = { id = 5191 name = "" type = management difficulty = 9 }
+    component = { id = 5192 name = "" type = management difficulty = 9 }
+    component = { id = 5193 name = "" type = management difficulty = 9 }
+    component = { id = 5194 name = "" type = management difficulty = 9 }
+    component = { id = 5195 name = "" type = management difficulty = 9 }
+    required  = { 5140 }
+    effects   = { }
+  }
+  application =
+  { id        = 5210
+    name      = TECH_APP_INDUSTRY_21_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 249 y = 98 }
+    year      = 2000
+    component = { id = 5211 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5212 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5213 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5214 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5215 name = "" type = industrial_engineering difficulty = 9 }
+    required  = { 5130 }
+    effects =
+    { command = { type = industrial_modifier which = supplies value = 5 }
+    }
+  }
+  application =
+  { id        = 5220
+    name      = TECH_APP_INDUSTRY_22_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 249 y = 114 }
+    year      = 2000
+    component = { id = 5221 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5222 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5223 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5224 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5225 name = "" type = industrial_engineering difficulty = 9 }
+    required  = { 5210 }
+    effects   = { 
+      command = { type = industrial_modifier which = total value = 1 }
+   }
+  }
+  application =
+  { id        = 5230
+    name      = TECH_APP_INDUSTRY_23_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 249 y = 130 }
+    year      = 2000
+    component = { id = 5231 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5232 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5233 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5234 name = "" type = industrial_engineering difficulty = 9 }
+    component = { id = 5235 name = "" type = industrial_engineering difficulty = 9 }
+    required  = { 5220 }
+    effects =
+    { command = { type = research_mod value = 2 }
+      command = { type = night_attack which = infantry value = 10 }
+      command = { type = night_attack which = cavalry value = 10 }
+      command = { type = night_attack which = motorized value = 10 }
+      command = { type = night_attack which = mechanized value = 10 }
+      command = { type = night_attack which = light_armor value = 10 }
+      command = { type = night_attack which = armor value = 10 }
+      command = { type = night_attack which = paratrooper value = 15 }
+      command = { type = night_attack which = marine value = 15 }
+      command = { type = night_attack which = bergsjaeger value = 15 }
+      command = { type = night_attack which = militia value = 15 }
+    }
+  }
+  application =
+  { id        = 5240
+    name      = TECH_APP_INDUSTRY_24_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 249 y = 146 }
+    year      = 2000
+    component = { id = 5241 name = "" type = electronics difficulty = 9 }
+    component = { id = 5242 name = "" type = electronics difficulty = 9 }
+    component = { id = 5243 name = "" type = electronics difficulty = 9 }
+    component = { id = 5244 name = "" type = electronics difficulty = 9 }
+    component = { id = 5245 name = "" type = electronics difficulty = 9 }
+    required  = { 5230 }
+    effects =
+    { command = { type = research_mod value = 3 }
+    }
+  }
+  application =
+  { id        = 5250
+    name      = TECH_APP_INDUSTRY_25_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 188 y = 166 }
+    year      = 2000
+    component = { id = 5251 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5252 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5253 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5254 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5255 name = "" type = mathematics difficulty = 10 }
+    required  = { 5240 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  application =
+  { id        = 5260
+    name      = TECH_APP_INDUSTRY_26_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 188 y = 184 }
+    year      = 2000
+    component = { id = 5261 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5262 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5263 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5264 name = "" type = mathematics difficulty = 10 }
+    component = { id = 5265 name = "" type = mathematics difficulty = 10 }
+    required  = { 5250 }
+    effects =
+    { command = { type = intelligence which = us value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  application =
+  { id        = 5270
+    name      = TECH_APP_INDUSTRY_27_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 313 y = 166 }
+    year      = 2000
+    component = { id = 5271 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5272 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5273 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5274 name = "" type = chemistry difficulty = 10 }
+    component = { id = 5275 name = "" type = chemistry difficulty = 10 }
+    required  = { 5240 }
+    effects   = { }
+  }
+  application =
+  { id        = 5280
+    name      = TECH_APP_INDUSTRY_28_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 313 y = 184 }
+    year      = 2000
+    component = { id = 5281 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5282 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5283 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5284 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5285 name = "" type = chemistry difficulty = 11 }
+    required  = { 5270 }
+    effects   = { }
+  }
+  application =
+  { id        = 5290
+    name      = TECH_APP_INDUSTRY_29_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 249 y = 202 }
+    year      = 2000
+    component = { id = 5291 name = "" type = management difficulty = 10 }
+    component = { id = 5292 name = "" type = management difficulty = 10 }
+    component = { id = 5293 name = "" type = management difficulty = 10 }
+    component = { id = 5294 name = "" type = management difficulty = 10 }
+    component = { id = 5295 name = "" type = management difficulty = 10 }
+    required  = { 5240 }
+    effects   = { }
+  }
+  application =
+  { id        = 5310
+    name      = TECH_APP_INDUSTRY_31_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 184 }
+    year      = 2000
+    component = { id = 5311 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5312 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5313 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5314 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5315 name = "" type = industrial_engineering difficulty = 10 }
+    required  = { 5230 }
+    effects =
+    { command = { type = industrial_modifier which = supplies value = 5 }
+    }
+  }
+  application =
+  { id        = 5320
+    name      = TECH_APP_INDUSTRY_32_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 200 }
+    year      = 2000
+    component = { id = 5321 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5322 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5323 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5324 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5325 name = "" type = industrial_engineering difficulty = 10 }
+    required  = { 5310 }
+    effects   = { 
+      command = { type = industrial_modifier which = total value = 1 }
+   }
+  }
+  application =
+  { id        = 5330
+    name      = TECH_APP_INDUSTRY_33_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 216 }
+    year      = 2000
+    component = { id = 5331 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5332 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5333 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5334 name = "" type = industrial_engineering difficulty = 10 }
+    component = { id = 5335 name = "" type = industrial_engineering difficulty = 10 }
+    required  = { 5320 }
+    effects =
+    { command = { type = research_mod value = 2 }
+      command = { type = night_attack which = infantry value = 10 }
+      command = { type = night_attack which = cavalry value = 10 }
+      command = { type = night_attack which = motorized value = 10 }
+      command = { type = night_attack which = mechanized value = 10 }
+      command = { type = night_attack which = light_armor value = 10 }
+      command = { type = night_attack which = armor value = 10 }
+      command = { type = night_attack which = paratrooper value = 15 }
+      command = { type = night_attack which = marine value = 15 }
+      command = { type = night_attack which = bergsjaeger value = 15 }
+      command = { type = night_attack which = militia value = 15 }
+    }
+  }
+  application =
+  { id        = 5340
+    name      = TECH_APP_INDUSTRY_34_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 232 }
+    year      = 2000
+    component = { id = 5341 name = "" type = electronics difficulty = 10 }
+    component = { id = 5342 name = "" type = electronics difficulty = 10 }
+    component = { id = 5343 name = "" type = electronics difficulty = 10 }
+    component = { id = 5344 name = "" type = electronics difficulty = 10 }
+    component = { id = 5345 name = "" type = electronics difficulty = 10 }
+    required  = { 5330 }
+    effects =
+    { command = { type = research_mod value = 3 }
+    }
+  }
+  application =
+  { id        = 5350
+    name      = TECH_APP_INDUSTRY_35_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = -17 y = 252 }
+    year      = 2000
+    component = { id = 5351 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5352 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5353 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5354 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5355 name = "" type = mathematics difficulty = 11 }
+    required  = { 5340 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  application =
+  { id        = 5360
+    name      = TECH_APP_INDUSTRY_36_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = -17 y = 270 }
+    year      = 2000
+    component = { id = 5361 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5362 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5363 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5364 name = "" type = mathematics difficulty = 11 }
+    component = { id = 5365 name = "" type = mathematics difficulty = 11 }
+    required  = { 5350 }
+    effects =
+    { command = { type = intelligence which = us value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  application =
+  { id        = 5370
+    name      = TECH_APP_INDUSTRY_37_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 108 y = 252 }
+    year      = 2000
+    component = { id = 5371 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5372 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5373 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5374 name = "" type = chemistry difficulty = 11 }
+    component = { id = 5375 name = "" type = chemistry difficulty = 11 }
+    required  = { 5340 }
+    effects   = { }
+  }
+  application =
+  { id        = 5380
+    name      = TECH_APP_INDUSTRY_38_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 108 y = 270 }
+    year      = 2000
+    component = { id = 5381 name = "" type = chemistry difficulty = 12 }
+    component = { id = 5382 name = "" type = chemistry difficulty = 12 }
+    component = { id = 5383 name = "" type = chemistry difficulty = 12 }
+    component = { id = 5384 name = "" type = chemistry difficulty = 12 }
+    component = { id = 5385 name = "" type = chemistry difficulty = 12 }
+    required  = { 5370 }
+    effects   = { }
+  }
+  application =
+  { id        = 5390
+    name      = TECH_APP_INDUSTRY_39_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 46 y = 288 }
+    year      = 2000
+    component = { id = 5391 name = "" type = management difficulty = 11 }
+    component = { id = 5392 name = "" type = management difficulty = 11 }
+    component = { id = 5393 name = "" type = management difficulty = 11 }
+    component = { id = 5394 name = "" type = management difficulty = 11 }
+    component = { id = 5395 name = "" type = management difficulty = 11 }
+    required  = { 5340 }
+    effects   = { }
+  }
+  # Future Materials
+  application =
+  { id        = 5410
+    name      = TECH_APP_INDUSTRY_40_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 184 }
+    year      = 2000
+    component = { id = 5411 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5412 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5413 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5414 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5415 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    required  = { 5330 }
+    effects =
+    { command = { type = industrial_modifier which = supplies value = 5 }
+    }
+  }
+  # Future Machinery
+  application =
+  { id        = 5420
+    name      = TECH_APP_INDUSTRY_41_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 200 }
+    year      = 2000
+    component = { id = 5421 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5422 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5423 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5424 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5425 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    required  = { 5410 }
+    effects   = { 
+      command = { type = industrial_modifier which = total value = 1 }
+   }
+  }
+  # Future Electronics
+  application =
+  { id        = 5430
+    name      = TECH_APP_INDUSTRY_42_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 216 }
+    year      = 2000
+    component = { id = 5431 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5432 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5433 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5434 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    component = { id = 5435 name = "" type = industrial_engineering difficulty = 6 double_time = yes }
+    required  = { 5420 }
+    effects =
+    { command = { type = research_mod value = 2 }
+      command = { type = night_attack which = infantry value = 10 }
+      command = { type = night_attack which = cavalry value = 10 }
+      command = { type = night_attack which = motorized value = 10 }
+      command = { type = night_attack which = mechanized value = 10 }
+      command = { type = night_attack which = light_armor value = 10 }
+      command = { type = night_attack which = armor value = 10 }
+      command = { type = night_attack which = paratrooper value = 15 }
+      command = { type = night_attack which = marine value = 15 }
+      command = { type = night_attack which = bergsjaeger value = 15 }
+      command = { type = night_attack which = militia value = 15 }
+    }
+  }
+  # Future Computers
+  application =
+  { id        = 5440
+    name      = TECH_APP_INDUSTRY_43_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 232 }
+    year      = 2000
+    component = { id = 5441 name = "" type = electronics difficulty = 12 }
+    component = { id = 5442 name = "" type = electronics difficulty = 12 }
+    component = { id = 5443 name = "" type = electronics difficulty = 12 }
+    component = { id = 5444 name = "" type = electronics difficulty = 12 }
+    component = { id = 5445 name = "" type = electronics difficulty = 12 }
+    required  = { 5430 }
+    effects =
+    { command = { type = research_mod value = 3 }
+    }
+  }
+  # Future Encryption
+  application =
+  { id        = 5450
+    name      = TECH_APP_INDUSTRY_44_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 390 y = 252 }
+    year      = 2000
+    component = { id = 5451 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5452 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5453 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5454 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5455 name = "" type = mathematics difficulty = 13 }
+    required  = { 5440 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # Future Decrytpion
+  application =
+  { id        = 5460
+    name      = TECH_APP_INDUSTRY_45_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 390 y = 270 }
+    year      = 2000
+    component = { id = 5461 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5462 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5463 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5464 name = "" type = mathematics difficulty = 13 }
+    component = { id = 5465 name = "" type = mathematics difficulty = 13 }
+    required  = { 5450 }
+    effects =
+    { command = { type = intelligence which = us value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # Future Communication
+  application =
+  { id        = 5470
+    name      = TECH_APP_INDUSTRY_46_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 515 y = 252 }
+    year      = 2000
+    component = { id = 5471 name = "" type = chemistry difficulty = 13 }
+    component = { id = 5472 name = "" type = chemistry difficulty = 13 }
+    component = { id = 5473 name = "" type = chemistry difficulty = 13 }
+    component = { id = 5474 name = "" type = chemistry difficulty = 13 }
+    component = { id = 5475 name = "" type = chemistry difficulty = 13 }
+    required  = { 5440 }
+    effects   = { }
+  }
+  # Future Electronic Warfare
+  application =
+  { id        = 5480
+    name      = TECH_APP_INDUSTRY_47_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 515 y = 270 }
+    year      = 2000
+    component = { id = 5481 name = "" type = chemistry difficulty = 14 }
+    component = { id = 5482 name = "" type = chemistry difficulty = 14 }
+    component = { id = 5483 name = "" type = chemistry difficulty = 14 }
+    component = { id = 5484 name = "" type = chemistry difficulty = 14 }
+    component = { id = 5485 name = "" type = chemistry difficulty = 14 }
+    required  = { 5470 }
+    effects   = { }
+  }
+  # Future Targeting
+  application =
+  { id        = 5490
+    name      = TECH_APP_INDUSTRY_48_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 451 y = 288 }
+    year      = 2000
+    component = { id = 5491 name = "" type = management difficulty = 13 }
+    component = { id = 5492 name = "" type = management difficulty = 13 }
+    component = { id = 5493 name = "" type = management difficulty = 13 }
+    component = { id = 5494 name = "" type = management difficulty = 13 }
+    component = { id = 5495 name = "" type = management difficulty = 13 }
+    required  = { 5440 }
+    effects   = { }
+  }
+}

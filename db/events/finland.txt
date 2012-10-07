@@ -1,0 +1,409 @@
+#########################################################
+#							#
+# Events for Finland (FIN) by Kalkalash                 #
+# modified by Zokan                                     #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#28001 - 28300# Main events
+#28301 - 28450# Political events
+#28451 - 28500# Election events	 		
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Main events
+#############################################
+
+#############################################
+###### Finnish membership in NATO
+#############################################
+event = {
+         id = 28001
+         random = no
+         country = FIN
+         trigger = {
+                   government = democratic
+		   atwar = no
+		   headofstate = 28012 #Niinistö
+		   OR = {
+		   	ideology = social_conservative
+			ideology = market_liberal
+		   }
+
+         }
+ 
+         name = "EVT_28001_NAME"
+         desc = "EVT_28001_DESC"
+         style = 0
+	 picture = "nato"
+ 
+         date = { day = 15 month = january year = 2006 }
+	 offset = 17
+	 deathdate = { day = 30 month = december year = 2010 }
+ 
+           action_a = {
+                  name = "We will have a referendum about the issue"
+                  ai_chance = 99
+		  command = { type = relation which = RUS value = -5 }
+           }
+           action_b = {
+                  name = "Finland will not be a NATO member"
+                  ai_chance = 1
+		  command = { type = dissent value = 1 }
+		  command = { type = sleepevent which = 28002 }
+           }
+
+}
+#############################################
+###### Finnish NATO referendum
+#############################################
+event = {
+         id = 28002
+         random = no
+         country = FIN
+         trigger = {
+                   government = democratic
+		   event = 28001
+		   atwar = no
+		   headofstate = 28012 #Niinistö
+		   OR = {
+		   	ideology = social_conservative
+			ideology = market_liberal
+		   }
+
+         }
+ 
+         name = "EVT_28002_NAME"
+         desc = "EVT_28002_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 15 month = january year = 2006 }
+	 offset = 77
+	 deathdate = { day = 30 month = december year = 2010 }
+ 
+           action_a = {
+                  name = "Yes, Finland will join NATO"
+                  ai_chance = 60
+		  command = { type = relation which = RUS value = -50 }
+		  command = { type = relation which = USA value = 20 }
+		  command = { type = relation which = NOR value = 20 }
+           }
+           action_b = {
+                  name = "No, Finland will not join NATO"
+                  ai_chance = 40
+		  command = { type = sleepevent which = 28003 }
+		  command = { type = relation which = RUS value = 5 }
+           }
+
+}
+#############################################
+###### Finland joins NATO
+#############################################
+event = {
+         id = 28003
+         random = no
+         country = FIN
+         trigger = {
+                   government = democratic
+		   event = 28002
+		   atwar = no
+
+         }
+ 
+         name = "EVT_28003_NAME"
+         desc = "EVT_28003_DESC"
+         style = 0
+	 picture = "nato"
+ 
+         date = { day = 3 month = april year = 2008 }
+	 offset = 360
+	 deathdate = { day = 30 month = december year = 2019 }
+ 
+           action_a = {
+                  name = "Ok"
+		  command = { type = alliance which = U72 }
+		  command = { type = relation which = RUS value = -20 }
+		  command = { type = relation which = USA value = 20 }
+                  command = { type = relation which = GER value = 20 }
+                  command = { type = relation which = FRA value = 20 }
+                  command = { type = relation which = ENG value = 20 }
+		  command = { type = trigger which = 28004 }
+           }
+
+}
+#############################################
+###### Finland joins NATO
+#############################################
+event = {
+         id = 28004
+         random = no
+         country = USA
+ 
+         name = "EVT_28004_NAME"
+         desc = "EVT_28004_DESC"
+         style = 0
+	 picture = "nato"
+ 
+         date = { day = 3 month = april year = 2008 }
+	 offset = 360
+	 deathdate = { day = 30 month = december year = 2019 }
+ 
+           action_a = {
+                  name = "Ok"
+		  command = { type = guarantee which = USA where = EST }
+		  command = { type = access which = EST }
+           }
+
+}
+################################################
+###### NASAMS-system - By Kalkalash
+################################################
+event = {
+id = 28005
+random = no
+country = FIN
+trigger = {
+exists = NOR
+exists = RUS
+NOT = {
+ispuppet = NOR
+}
+
+}
+
+name = "EVT_28005_NAME"
+desc = "EVT_28005_DESC"
+style = 0
+picture = "no"
+
+date = { day = 28 month = april year = 2009 }
+
+action_a = {
+name = "Russia is a big threat, we need large investments"
+ai_chance = 20
+command = { type = money value = -500 }
+command = { type = relation which = USA value = 10 }
+command = { type = relation which = NOR value = 20 }
+command = { type = relation which = RUS value = -5 }
+command = { type = gain_tech which = 2730 } # post Cold War SP AA
+}
+action_b = {
+name = "Buy them, but only a minor investment"
+ai_chance = 70
+command = { type = money value = -200 }
+command = { type = relation which = USA value = 5 }
+command = { type = relation which = NOR value = 10 }
+command = { type = relation which = RUS value = -5 }
+command = { type = gain_tech which = 2730 } # post Cold War SP AA
+}
+action_c = {
+name = "Our current equipment is good enough"
+ai_chance = 10
+command = { }
+}
+}
+
+
+
+#############################################
+###### Political events
+#############################################
+
+#################################################
+##### Seppo Nevala retires - By Kalkalash
+#################################################
+event = {
+id = 28301
+random = no
+country = FIN
+trigger = {
+government = democratic
+
+}
+
+name = "EVT_28301_NAME"
+desc = "EVT_28301_DESC"
+style = 0
+picture = "no"
+
+date = { day = 1 month = december year = 2007 }
+
+action_a = {
+name = "OK (historical)"
+ai_chance = 90
+command = { type = sleepminister which = 28006 }
+}
+action_b = {
+name = "No"
+ai_chance = 10
+command = { type = dissent value = 1 }
+}
+}
+
+
+##############################################
+###### Ilkka Kanerva Resigns - By Kalkalash
+##############################################
+event = {
+id = 28302
+random = no
+country = FIN
+trigger = {
+government = democratic
+incabinet = 100000
+
+}
+
+name = "EVT_28302_NAME"
+desc = "EVT_28302_DESC"
+style = 0
+picture = "no"
+
+date = { day = 3 month = april year = 2008 }
+
+action_a = {
+name = "Ok (historical)"
+ai_chance = 80
+command = { type = sleepminister which = 100000 } # Ilkka Kanerva
+command = { type = foreignminister which = 100006 } # Alexander Stubb
+}
+action_b = {
+name = "He did nothing wrong"
+ai_chance = 20
+command = { type = dissent value = 2 }
+}
+}
+
+
+
+#############################################
+###### Election events
+#############################################
+
+#############################################
+###### Finnish presidential election 2006
+#############################################
+event = {
+         id = 28451
+         random = no
+         country = FIN
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_28451_NAME"
+         desc = "EVT_28451_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 15 month = january year = 2006 }
+ 
+           action_a = {
+                  name = "Tarja Halonen - social democrat"
+                  ai_chance = 70
+		  command = { type = headofstate which = 28001 } #Halonen
+           }
+           action_b = {
+                  name = "Sauli Niinistö - liberal conservative"
+                  ai_chance = 30
+		  command = { type = headofstate which = 28012 } #Niinistö
+		  command = { type = domestic which = political_left value = -1 }
+		  command = { type = relation which = USA value = 10 } 
+		  command = { type = relation which = RUS value = -10 } 
+           }
+
+}
+#############################################
+###### Finnish parliamentary election 2007
+#############################################
+event = {
+         id = 28452
+         random = no
+         country = FIN
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_28452_NAME"
+         desc = "EVT_28452_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 18 month = march year = 2007 }
+ 
+           action_a = {
+                  name = "Centre Party - centrist coalition"
+                  ai_chance = 50
+		  command = { type = headofgovernment which = 28011 } #Vanhanen
+		  command = { type = foreignminister which = 28013 } #Kanerva
+		  command = { type = armamentminister which = 28021 } #Häkamies
+		  command = { type = ministerofsecurity which = 28015 } #Holmlund
+		  command = { type = chiefofstaff which = 28028 } #Puheloinen
+		  command = { type = chiefofarmy which = 28024 } #Aspara
+		  command = { type = chiefofnavy which = 28025 } #Rannikko
+		  command = { type = chiefofair which = 28026 } #Lindberg
+		  command = { type = sleepleader which = 28010 } #Multamäki
+		  command = { type = sleepminister which = 28008 } #Multamäki
+		  command = { type = sleepminister which = 28007 } # Juhani Kaskeala
+		  command = { type = sleepleader which = 28024 } # same guy 
+		  command = { type = set_domestic which = political_left value = 6 }
+		  command = { type = set_domestic which = freedom value = 9 }
+		  command = { type = set_domestic which = free_market value = 8 }
+           }
+           action_b = {
+                  name = "Social Democratic Party - center left coalition"
+                  ai_chance = 25
+		  command = { type = headofgovernment which = 28022 } #Heinäluoma
+		  command = { type = foreignminister which = 28013 } #Kanerva
+		  command = { type = armamentminister which = 28021 } #Häkamies
+		  command = { type = ministerofsecurity which = 28015 } #Holmlund
+		  command = { type = chiefofstaff which = 28028 } #Puheloinen
+		  command = { type = chiefofarmy which = 28024 } #Aspara
+		  command = { type = chiefofnavy which = 28025 } #Rannikko
+		  command = { type = chiefofair which = 28026 } #Lindberg
+		  command = { type = sleepleader which = 28010 } #Multamäki
+		  command = { type = sleepminister which = 28008 } #Multamäki
+		  command = { type = sleepminister which = 28007 } # Juhani Kaskeala
+		  command = { type = sleepleader which = 28024 } # same guy 
+		  command = { type = set_domestic which = political_left value = 9 }
+		  command = { type = set_domestic which = freedom value = 9 }
+		  command = { type = set_domestic which = free_market value = 8 }
+           }
+	   action_c = {
+                  name = "National Coalition Party - center left coalition"
+                  ai_chance = 25
+		  command = { type = headofgovernment which = 28029 } #Katainen
+		  command = { type = foreignminister which = 28013 } #Kanerva
+		  command = { type = armamentminister which = 28021 } #Häkamies
+		  command = { type = ministerofsecurity which = 28015 } #Holmlund
+		  command = { type = chiefofstaff which = 28028 } #Puheloinen
+		  command = { type = chiefofarmy which = 28024 } #Aspara
+		  command = { type = chiefofnavy which = 28025 } #Rannikko
+		  command = { type = chiefofair which = 28026 } #Lindberg
+		  command = { type = sleepleader which = 28010 } #Multamäki
+		  command = { type = sleepminister which = 28008 } #Multamäki
+		  command = { type = sleepminister which = 28007 } # Juhani Kaskeala
+		  command = { type = sleepleader which = 28024 } # same guy 
+		  command = { type = set_domestic which = political_left value = 3 }
+		  command = { type = set_domestic which = freedom value = 8 }
+		  command = { type = set_domestic which = free_market value = 9 }
+           }
+	   action_d = {
+		  name = "Keep current"
+	 	  ai_chance = 0
+		  command = { type = dissent value = -0.5 }
+	   }
+
+}

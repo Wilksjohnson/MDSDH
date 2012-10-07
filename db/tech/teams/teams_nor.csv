@@ -1,0 +1,13 @@
+NOR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+712200;TRADOK;T12212;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712201;Kongsberg Defence;T12203;6;1000;2999;general_equipment;artillery;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712202;Norwegian Intelligence Service;norintel;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712203;Elkem;elkem;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712204;Kongsberg Spacetec;kspacetec;6;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712205;Simrad Optronics;simradoptr;6;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712206;Nammo;nammonor;6;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712207;Norwegian Army;norarmy;6;1000;2999;training;large_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712208;Royal Norwegian Air Force;luftforsvaret;6;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712209;Umoe Group;T12209;8;1990;2100;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712210;Aker Yards;akeryards;8;1990;2100;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+712211;Royal Norwegian Navy;sjoforsvaret;7;1990;2100;naval_training;seamanship;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

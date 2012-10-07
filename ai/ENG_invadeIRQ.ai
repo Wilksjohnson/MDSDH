@@ -1,0 +1,83 @@
+#ENG invasion of Iraq 2003 by novapaddy for MDS2 in 2012
+#
+max_garrison_prop = 0.1
+min_garrison_prop = 0.05
+combat = {
+IRQ = 300
+}
+reinforcement = 1.0
+###################################
+# Ground Combat, Leaders and Garrisons
+###################################
+garrison = {
+	home_multiplier 	= 0.5
+	overseas_multiplier = 0.5
+	home_peace_cap 		= 0
+	war_zone_odds 		= 5.0
+	key_point_prio_mult	= 0.3
+	revolt_risk_mult	= 0.3
+
+	# PRIORITIES:
+	beach			= 50		# Beach level 2
+	capital			= 1		# Our capital
+	human_border	= 0		# Ignored for allied human players
+	
+	opposing_alliance	= 20	# For neutrals, all alliances are "opposing"
+	claim_threat		= 0	# If we are neutral, countries with claims on us get this
+	unstable_border		= 0	# Bordering countries at war with someone else get this
+
+		
+	ignore = {
+		}
+		
+		province_priorities = {
+		1032 = 500 # basra
+		1034 = 400 # baghdad
+		1037 = 200 # nas
+		1028 = 150
+		1027 = 50 # rest of iraq
+		1029 = 50
+		1033 = 50
+		1036 = 50
+		1035 = 50
+		1030 = 50
+		1031 = 50
+		
+			
+		}
+	}	
+###################################
+# Invasions and Naval
+###################################
+invasion = { 
+	invasion			= yes
+ 	base				= 0.1	#Relative modifier. (lower = specific targets much more important.)
+	random				= 10.0	#How big a random range.  (1.0 = 1%)
+	coastal				= 0.1	#increase to avoid coastal forts more.
+	beach				= 0.01	#higher, avoid worst beaches.
+	max_distance  		= 100.0  #About the distance from Japan to Batavia
+	max_staging_distance = 100.0 # How far should the staging area be from the target invasion point
+	distance			= 0.01	#higher = avoid long distance.
+	pocket				= 20.0	#prioritise pockets, ie provinces with no adjacent controlled by same.
+	island				= 0.01	#prioritise taking pure islands.
+	enemy				= 1.0	#higher = much more vary of troops in province.
+	adjacentenemy 		= 0.2	#higher = much more vary of troops nearby
+	air_base			= 1.5 
+    naval_base 			= 1.5 
+    air_support 		= 3.0 
+    #redirect 			= priority
+	#ignore				= no
+	help_allies 		= no	#[yes/no]
+      
+	staging_province = {
+		27 # Portsmouth
+		348 # Gibraltar
+		1041 # Kuwait
+		}
+	target = {
+		1032 = 6000 #basra
+						
+		}
+	} 
+
+ 

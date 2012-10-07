@@ -1,0 +1,21 @@
+PRU;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+65501;Head of State;Alejandro Toledo;2003;2050;2050;ML;Weary Stiffneck;High;M65501;x 
+65502;Head of Government;Alejandro Toledo;2003;2050;2050;ML;Naive Optimist;High;M65501;x 
+65503;Foreign Minister;Allan Wagner;2003;2050;2050;SD;Great Compromiser;High;M65503;x 
+65504;Minister of Armament;Aurelio Loret de Mola;2003;2050;2050;SC;Resource Industrialist;High;M65504;x 
+65505;Minister of Security;Félix Murazzo;2003;2050;2050;ML;Silent Lawyer;High;M65505;x 
+65506;Head of Military Intelligence;Alfonso Panizo;2003;2050;2050;SC;Logistics Specialist;High;M65506;x 
+65507;Chief of Staff;Victor Bustamante;2003;2050;2050;SC;School of Fire Support;High;M65507;x 
+65508;Chief of Army;Roberto Chiabra;2003;2050;2050;ML;Elastic Defence Doctrine;High;M65508;x 
+65518;Chief of Navy;José Luis Noriega;2003;2050;2050;SC;Open Seas Doctrine;High;M65518;x 
+65519;Chief of Air Force;Orlando Denegri;2003;2050;2050;SC;Air Superiority Doctrine;High;M65519;x 
+;Replacements;;;;;;;x
+65511;Foreign Minister;Manuel Rodríguez Cuadros;2003;2050;2050;ML;Great Compromiser;High;M65511;x 
+65512;Minister of Armament;Roberto Chiabra;2003;2050;2050;ML;Tank Proponent;High;M65508;x 
+65513;Minister of Security;Gustavo Carrión;2003;2050;2050;SC;Crime Fighter;High;M65513;x 
+65514;Head of Military Intelligence;Daniel Mora Zevallos;2003;2050;2050;ML;Logistics Specialist;High;Unknown;x 
+65515;Head of Military Intelligence;Ricardo Arbocco;2003;2050;2050;SC;Political Specialist;High;M65509;x 
+65516;Chief of Staff;Aurelio Crovetto;2003;2050;2050;ML;School of Fire Support;High;M65510;x 
+65517;Chief of Army;Luis Muñoz;2003;2050;2050;ML;Guns and Butter Doctrine;High;Unknown;x 
+65509;Chief of Navy;Ricardo Arbocco;2003;2050;2050;SC;Base Control Doctrine;High;M65509;x 
+65510;Chief of Air Force;Aurelio Crovetto;2003;2050;2050;ML;Army Aviation Doctrine;High;M65510;x 

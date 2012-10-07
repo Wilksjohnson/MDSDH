@@ -1,0 +1,21 @@
+ITA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+8006;DIS;disita;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8007;Finmeccanica;finmeccanica;8;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8008;SELEX;selexita;7;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8009;Elsag Datamat;elsagita;5;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8010;ENEA;eneaita;7;1000;2999;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8011;Italian Army;T8009;7;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8012;General Staff;itgenstaff;7;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8013;Logistics Command;ukrlogistics;6;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8014;Italian Air Force;T8011;7;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8015;Naval Aviation;itnavaviation;7;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8016;Modena Military Academy;modenamilac;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8017;Beretta;beretta;6;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8018;Oto Melara;T8001;7;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8019;Iveco;iveco;7;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8020;AgustaWestland;agustawestland;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8021;Alenia Aermacchi;aleniaaer;6;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8022;Fincantieri;T8007;8;1000;2999;naval_engineering;naval_artillery;small_taskforce_tactics;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8023;Italian Navy;T8010;8;1000;2999;large_taskforce_tactics;carrier_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8024;Naval Logistics Force Command;itanavlog;8;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8025;Submarine Force Command;itasubmarine;6;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

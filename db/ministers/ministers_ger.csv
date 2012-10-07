@@ -1,0 +1,261 @@
+GER;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+31001;Head of State;Johannes Rau;2003;2050;2050;SD;Insignificant Layman;High;M31001;X
+31002;Head of Government;Gerhard Schröder;2003;2050;2050;SL;Ambitious Union Boss;High;M31002;x
+31003;Foreign Minister;Joschka Fischer;2003;2050;2050;SD;Great Compromiser;High;Joschka Fischer;X
+31004;Minister of Armament;Wolfgang Clement;2003;2050;2050;SL;laissez-faire capitalist;High;M31004;X
+31005;Minister of Security;Otto Schilly;2003;2050;2050;SL;Crime Fighter;High;M31005;X
+31006;Head of Military Intelligence;August Hanning;2003;2050;2050;SL;Technical Specialist;High;M31006;X
+31007;Chief of Staff;Wolfgang Schneiderhan;2003;2050;2050;SL;School of Defence;High;M31007;X
+31008;Chief of Army;Hans-Otto Budde;2003;2050;2050;SD;Armoured Spearhead Doctrine;High;M31008;X
+31009;Chief of Navy;Lutz Feldt;2003;2050;2050;SD;Open Seas Doctrine;High;M31009;X
+31010;Chief of Air Force;Klaus Peter Stieglitz;2003;2050;2050;ML;Air Superiority Doctrine;High;M31010;X
+;Replacements;;;;;;;x
+31011;Head of State;Horst Köhler;2003;2050;2050;ML;Benevolent Gentleman;High;M31011;X
+31012;Head of State;Udo Voigt;2003;2050;2050;FA;Powerhungry Demagogue;High;M31012;X
+31013;Head of State;Gregor Gysi;2003;2050;2050;LWR;Die-hard Reformer;High;M31013;X
+31014;Head of Government;Angela Merkel;2003;2050;2050;ML;Naive Optimist;High;M31014;X
+31015;Head of Government;Holger Apfel;2003;2050;2050;FA;Flamboyant Tough Guy;High;M31015;X
+31016;Head of Government;Lothar Bisky;2003;2050;2050;LWR;Naive Optimist;High;M31016;X
+31017;Head of Government;Guido Westerwelle;2003;2050;2050;ML;Silent Workhorse;High;M31017;X
+31018;Head of Government;Joschka Fischer;2003;2050;2050;SD;Ambitious Union Boss;High;Joschka Fischer;X
+31019;Foreign Minister;Peter Marx;2003;2050;2050;FA;Iron Fisted Brute;High;M31188;X
+31020;Foreign Minister;Wolfgang Gehrcke;2003;2050;2050;LWR;Ideological Crusader;High;M31020;X
+31021;Foreign Minister;Guido Westerwelle;2003;2050;2050;ML;Apologetic Clerk;High;M31017;X
+31022;Minister of Armament;Heidemarie Wieczorek-Zeul;2003;2050;2050;SD;Administrative Genius;High;M31022;X
+31023;Minister of Armament;Hans Eichel;2003;2050;2050;SD;Resource Industrialist;High;M31023;X
+31024;Minister of Armament;Sascha Roßmüller;2003;2050;2050;FA;Tank Proponent;High;M31024;X
+31025;Minister of Armament;Rolf Kutzmutz;2003;2050;2050;LWR;Administrative Genius;High;M31025;X
+31026;Minister of Armament;Renate Künast;2003;2050;2050;SD;Military Entrepreneur;High;M31026;X
+31027;Minister of Security;Brigitte Zypries;2003;2050;2050;SL;Silent Lawyer;High;M31027;X
+31028;Minister of Security;Ulrich Eigenfeld;2003;2050;2050;FA;Prince of Terror;High;M31028;X
+31029;Minister of Security;Harald Werner;2003;2050;2050;LWR;Man of the People;High;M31029;X
+31030;Head of Military Intelligence;Harald Werner;2003;2050;2050;LWR;Industrial Specialist;High;M31029;X
+31031;Head of Military Intelligence;Ulrich Eigenfeld;2003;2050;2050;FA;Political Specialist;High;M31028;X
+31032;Head of Military Intelligence;Otto Schilly;2003;2050;2050;SL;Dismal Enigma;High;M31005;X
+31033;Head of State;Gesine Schwan;2003;2050;2050;SD;Benevolent Gentleman;High;M31033;X
+31034;Head of State;Franz Müntefering;2003;2050;2050;SD;Stern Imperialist;High;M31034;X
+31035;Head of State;Wolfgang Thierse;2003;2050;2050;SD;Autocratic Charmer;High;M31035;X
+31036;Head of Government;Franz Müntefering;2003;2050;2050;SD;Silent Workhorse;High;M31034;X
+31037;Head of Government;Peter Struck;2003;2050;2050;SD;Backroom Backstabber;High;M31037;X
+31038;Head of Government;Matthias Platzeck;2003;2050;2050;SD;Ambitious Union Boss;High;M31038;X
+31039;Head of Government;Kurt Beck;2003;2050;2050;SD;Naive Optimist;High;M31039;X
+31040;Foreign Minister;Frank W. Steinmeier;2003;2050;2050;SD;Great Compromiser;High;M31040;X
+31041;Foreign Minister;Martin Schulz;2003;2050;2050;SD;The Cloak N Dagger Schemer;High;M31041;X
+31042;Foreign Minister;Matthias Platzeck;2003;2050;2050;SD;Biased Intellectual;High;M31038;X
+31043;Minister of Armament;Peter Sruck;2003;2050;2050;SD;Administrative Genius;High;M31037;X
+31044;Minister of Armament;Johannes Kahrs;2003;2050;2050;SD;Resource Industrialist;High;M31044;X
+31045;Minister of Armament;Jörn Thießen;2003;2050;2050;SD;Military Entrepreneur;High;M31045;X
+31046;Minister of Security;Sigmar Gabriel;2003;2050;2050;SD;Crime Fighter;High;M31046;X
+31047;Minister of Security;Hermann Scherr;2003;2050;2050;SD;Back Stabber;High;M31047;X
+31048;Minister of Security;Kurt Beck;2003;2050;2050;SD;Silent Lawyer;High;M31039;X
+31049;Head of Military Intelligence;Ernst Uhrlau;2003;2050;2050;SD;Dismal Enigma;High;M31049;X
+31050;Head of Military Intelligence;Frank W. Steinmeier;2003;2050;2050;SD;Political Specialist;High;M31040;X
+31051;Head of Military Intelligence;Garriel Duin;2003;2050;2050;SD;Technical Specialist;High;M31051;X
+31052;Chief of Staff;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31053;Chief of Staff;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31054;Chief of Army;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31055;Chief of Army;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31056;Chief of Navy;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31057;Chief of Navy;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31058;Chief of Air Force;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31059;Chief of Air Force;SD – Shadow;2003;2050;2050;SD;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31060;Head of State;Wolfgang Schäuble;2003;2050;2050;SC;Benevolent Gentleman;High;M31060;X
+31061;Head of State;Roland Koch;2003;2050;2050;SC;Ruthless Powermonger;High;M31061;X
+31062;Head of State;Norbert Lammer;2003;2050;2050;SC;Barking Buffoon;High;M31062;X
+31063;Head of Government;Edmund Stoiber;2003;2050;2050;SC;Naive Optimist;High;M31063;X
+31064;Head of Government;Christian Wulff;2003;2050;2050;SC;Political Protege;High;M31064;X
+31065;Head of Government;Günther Oettinger;2003;2050;2050;SC;Corporate Suit;High;M31065;X
+31066;Foreign Minister;Lothar dé Maziere;2003;2050;2050;SC;Biased Intellectual;High;M31066;X
+31067;Foreign Minister;Philipp  Mißfelder;2003;2050;2050;SC;Ideological Crusader;High;M31067;X
+31068;Foreign Minister;Werner Langen;2003;2050;2050;SC;The Cloak N Dagger Schemer;High;M31068;X
+31069;Minister of Armament;Franz Josef Jung;2003;2050;2050;SC;laissez-faire capitalist;High;M31069;X
+31070;Minister of Armament;Jürgen Rüttgers;2003;2050;2050;SC;Military Entrepreneur;High;M31074;X
+31071;Minister of Armament;Lothar dé Maziere;2003;2050;2050;SC;Resource Industrialist;High;M31066;X
+31072;Minister of Security;Wolfgang Schäuble;2003;2050;2050;SC;Prince of Terror;High;M31060;X
+31073;Minister of Security;Ulrich Junghanns;2003;2050;2050;SC;Man of the People;High;M31073;X
+31074;Minister of Security;Jürgen Rüttgers;2003;2050;2050;SC;Crime Fighter;High;M31074;X
+31075;Head of Military Intelligence;Eckert von Klaeden;2003;2050;2050;SC;Industrial Specialist;High;M31075;X
+31076;Head of Military Intelligence;Wolfgang Schäuble;2003;2050;2050;SC;Political Specialist;High;M31060;X
+31077;Chief of Staff;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31078;Chief of Staff;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31079;Chief of Army;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31080;Chief of Army;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31081;Chief of Navy;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31082;Chief of Navy;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31083;Chief of Air Force;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31084;Chief of Air Force;SC – Shadow;2003;2050;2050;SC;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31085;Head of State;Winfried Kretschmann;2003;2050;2050;SL;Pig-headed Isolationist;High;M31085;X
+31086;Head of State;Joschka Fischer;2003;2050;2050;SL;Popular Figurehead;High;Joschka Fischer;X
+31087;Head of Government;Joschka Fischer;2003;2050;2050;SL;Flamboyant Tough Guy;High;Joschka Fischer;X
+31088;Head of Government;Claudia Roth;2003;2050;2050;SL;Happy Amateur;High;M31088;X
+31089;Head of Government;Jürgen Trittin;2003;2050;2050;SL;Backroom Backstabber;High;M31089;X
+31090;Minister of Armament;Jürgen Trittin;2003;2050;2050;SL;laissez-faire capitalist;High;M31089;X
+31091;Minister of Armament;Fritz Kühn;2003;2050;2050;SL;Resource Industrialist;High;M31091;X
+31092;Minister of Armament;Dietmar Strehl;2003;2050;2050;SL;Tank Proponent;High;M31092;X
+31093;Foreign Minister;Reinard Büttikofer;2003;2050;2050;SL;Biased Intellectual;High;M31093;X
+31094;Foreign Minister;Steffi Lemke;2003;2050;2050;SL;Great Compromiser;High;M31094;X
+31095;Foreign Minister;Claudia Roth;2003;2050;2050;SL;Apologetic Clerk;High;M31088;X
+31096;Minister of Security;Tarek al-Wazir;2003;2050;2050;SL;Compassionate Gentleman;High;M31096;X
+31097;Minister of Security;Fritz Kühn;2003;2050;2050;SL;Crime Fighter;High;M31091;X
+31098;Minister of Security;Malte Spitz;2003;2050;2050;SL;Man of the People;High;M31098;X
+31099;Head of Military Intelligence;Bärbel Höhn;2003;2050;2050;SL;Political Specialist;High;M31099;X
+31100;Head of Military Intelligence;Astrid Rothe-Beinlich;2003;2050;2050;SL;Industrial Specialist;High;M31100;X
+31101;Head of Military Intelligence;David Cohn-Bendit;2003;2050;2050;SL;Technical Specialist;High;M31101;X
+31102;Chief of Staff;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31103;Chief of Staff;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31104;Chief of Navy;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31105;Chief of Navy;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31106;Chief of Army;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31107;Chief of Army;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31108;Chief of Air Force;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31109;Chief of Air Force;SL – Shadow;2003;2050;2050;SL;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31110;Head of State;Otto Graf Lambsdorf;2003;2050;2050;ML;Autocratic Charmer;High;M31110;X
+31111;Head of State;Paul Kirchoff;2003;2050;2050;ML;Die-hard Reformer;High;M31111;X
+31112;Head of Government;Wolfgang Gerhardt;2003;2050;2050;ML;Silent Workhorse;High;M31112;X
+31113;Head of Government;Silvana Koch-Mehrin;2003;2050;2050;ML;Corporate Suit;High;M31113;X
+31114;Head of Government;Dirk Niebel;2003;2050;2050;ML;Political Protege;High;M31114;X
+31115;Minister of Armament;Jörg van Essen;2003;2050;2050;ML;Tank Proponent;High;M31115;X
+31116;Minister of Armament;Hermann Otto Solms;2003;2050;2050;ML;Air Superiority Proponent;High;M31116;X
+31117;Minister of Armament;Andreas Pinkwart;2003;2050;2050;ML;laissez-faire capitalist;High;M31126;X
+31118;Foreign Minister;Wolfgang Gerhardt;2003;2050;2050;ML;Biased Intellectual;High;M31112;X
+31119;Foreign Minister;Dirk Niebel;2003;2050;2050;ML;Apologetic Clerk;High;M31114;X
+31120;Foreign Minister;Silvana Koch-Mehrin;2003;2050;2050;ML;Great Compromiser;High;M31113;X
+31121;Minister of Security;Silvana Koch-Mehrin;2003;2050;2050;ML;Compassionate Gentleman;High;M31113;X
+31122;Minister of Security;Rainer Brüderle;2003;2050;2050;ML;Efficient Sociopath;High;M31122;X
+31123;Minister of Security;Magnus Buhlert;2003;2050;2050;ML;Man of the People;High;M31123;X
+31124;Head of Military Intelligence;Hans-Jürgen Beerfeltz;2003;2050;2050;ML;Technical Specialist;High;M31124;X
+31125;Head of Military Intelligence;Alexander Graf Lambsdorf;2003;2050;2050;ML;Political Specialist;High;M31125;X
+31126;Head of Military Intelligence;Andreas Pinkwart;2003;2050;2050;ML;Dismal Enigma;High;M31126;X
+31127;Chief of Staff;Jörg van Essen;2003;2050;2050;ML;School of Fire Support;High;M31115;X
+31128;Chief of Staff;ML Shadow;2003;2050;2050;ML;school of defence;High;UNKNOWN;X
+31129;Chief of Navy;ML Shadow;2003;2050;2050;ML;Base Control Doctrine;High;UNKNOWN;X
+31130;Chief of Navy;ML Shadow;2003;2050;2050;ML;Indirect Approach Doctrine;High;UNKNOWN;X
+31131;Chief of Army;Jörg van Essen;2003;2050;2050;ML;Armoured Spearhead Doctrine;High;M31115;X
+31132;Chief of Army;ML Shadow;2003;2050;2050;ML;Guns and Butter Doctrine;High;UNKNOWN;X
+31133;Chief of Air Force;ML Shadow;2003;2050;2050;ML;Air Superiority Doctrine;High;UNKNOWN;X
+31134;Chief of Air Force;ML Shadow;2003;2050;2050;ML;Naval Aviation Doctrine;High;UNKNOWN;X
+31135;Head of State;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31136;Head of State;Jörg Schönbohm;2003;2050;2050;PA;Stern Imperialist;High;M31136;X
+31137;Head of Government;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31138;Head of Government;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31139;Head of Government;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31140;Minister of Armament;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31141;Minister of Armament;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31142;Minister of Armament;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31143;Foreign Minister;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31144;Foreign Minister;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31145;Foreign Minister;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31146;Minister of Security;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31147;Minister of Security;Ulrich Wegener;2003;2050;2050;PA;Crime Fighter;High;M31147;X
+31148;Minister of Security;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31149;Head of Military Intelligence;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31150;Head of Military Intelligence;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31151;Head of Military Intelligence;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31152;Chief of Staff;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31153;Chief of Staff;Reinhard Günzel;2003;2050;2050;PA;School of Psychology;High;M31153;X
+31154;Chief of Navy;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31155;Chief of Navy;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31156;Chief of Army;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31157;Chief of Army;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31158;Chief of Air Force;PA – Shadow;2003;2050;2050;PA;UNDISTINGUISHED SUIT;High;UNKNOWN;X
+31159;Chief of Air Force;Reinhard Günzel;2003;2050;2050;PA;vertical envelopment doctrine;High;M31153;X
+31160;Head of State;Gerhard Frey;2003;2050;2050;FA;Ruthless Powermonger;High;M31160;X
+31161;Head of State;Dieter Hübing;2003;2050;2050;FA;Powerhungry Demagogue;High;M31161;X
+31162;Head of Government;Rolf Schlierer;2003;2050;2050;FA;Naive Optimist;High;M31162;X
+31163;Head of Government;Ulrich Deuschle;2003;2050;2050;FA;Silent Workhorse;High;M31163;X
+31164;Head of Government;Johann Gärtner;2003;2050;2050;FA;Backroom Backstabber;High;M31164;X
+31165;Minister of Armament;Kurt Hoppe;2003;2050;2050;FA;Military Entrepreneur;High;M31165;X
+31166;Minister of Armament;Haymo Hoch;2003;2050;2050;FA;Battle Fleet Proponent;High;M31166;X
+31167;Minister of Armament;Rolf Goertz;2003;2050;2050;FA;Resource Industrialist;High;M31167;X
+31168;Foreign Minister;Gert Hoffmann;2003;2050;2050;FA;Ideological Crusader;High;M31168;X
+31169;Foreign Minister;Hans-Gerd Wiechmann;2003;2050;2050;FA;iron fisted brute;High;M31169;X
+31170;Foreign Minister;Siegfried Tittmann;2003;2050;2050;FA;General Staffer;High;M31170;X
+31171;Minister of Security;Johann Gärtner;2003;2050;2050;FA;Silent Lawyer;High;M31164;X
+31172;Minister of Security;Ursula Winkelsett;2003;2050;2050;FA;Prince of Terror;High;M31172;X
+31173;Minister of Security;Liane Hesselbarth;2003;2050;2050;FA;Efficient Sociopath;High;M31173;X
+31174;Head of Military Intelligence;Dirk Hacaj;2003;2050;2050;FA;Dismal Enigma;High;M31174;X
+31175;Head of Military Intelligence;Ursula Winkelsett;2003;2050;2050;FA;Naval Intelligence Specialist;High;M31172;X
+31176;Head of Military Intelligence;Ulrich Deuschle;2003;2050;2050;FA;Logistics Specialist;High;M31163;X
+31177;Chief of Staff;Kurt Hoppe;2003;2050;2050;FA;School of Fire Support;High;M31165;X
+31178;Chief of Staff;Haymo Hoch;2003;2050;2050;FA;School of Psychology;High;M31166;X
+31179;Chief of Navy;Haymo Hoch;2003;2050;2050;FA;Power Projection Doctrine;High;M31166;X
+31180;Chief of Navy;Liane Hesselbarth;2003;2050;2050;FA;Base Control Doctrine;High;M31173;X
+31181;Chief of Army;Kurt Hoppe;2003;2050;2050;FA;Armoured Spearhead Doctrine;High;M31165;X
+31182;Chief of Army;Rolf Goertz;2003;2050;2050;FA;Guns and Butter Doctrine;High;M31167;X
+31183;Chief of Air Force;Rolf Goertz;2003;2050;2050;FA;Army Aviation Doctrine;High;M31167;X
+31184;Chief of Air Force;Johann Gärtner;2003;2050;2050;FA;vertical envelopment doctrine;High;M31164;X
+31185;Head of State;Rolf Kosiek;2003;2050;2050;NS;Stern Imperialist;High;M31185;X
+31186;Head of State;Friedhelm Busse;2003;2050;2050;NS;Autocratic Charmer;High;M31186;X
+31187;Head of Government;Udo Voigt;2003;2050;2050;NS;Happy Amateur;High;M31187;X
+31188;Head of Government;Peter Marx;2003;2050;2050;NS;Political Protege;High;M31188;X
+31189;Head of Government;Horst Mahler;2003;2050;2050;NS;Naive Optimist;High;M31189;X
+31190;Minister of Armament;Peter Marx;2003;2050;2050;NS;Military Entrepreneur;High;M31188;X
+31191;Minister of Armament;Horst Mahler;2003;2050;2050;NS;Air to Ground Proponent;High;M31189;X
+31192;Minister of Armament;Stefan Köster;2003;2050;2050;NS;Corrupt Kleptocrat;High;M31192;X
+31193;Foreign Minister;Horst Mahler;2003;2050;2050;NS;Ideological Crusader;High;M31189;X
+31194;Foreign Minister;Peter Marx;2003;2050;2050;NS;iron fisted brute;High;M31188;X
+31195;Foreign Minister;Michael Burkert;2003;2050;2050;NS;The Cloak N Dagger Schemer;High;M31195;X
+31196;Minister of Security;Manfred Börm;2003;2050;2050;NS;Prince of Terror;High;M31196;X
+31197;Minister of Security;Norman Bodin;2003;2050;2050;NS;Crooked Kleptocrat;High;M31197;X
+31198;Minister of Security;Udo Voigt;2003;2050;2050;NS;Silent Lawyer;High;M31187;X
+31199;Head of Military Intelligence;Stephan Haase;2003;2050;2050;NS;Technical Specialist;High;M31199;X
+31200;Head of Military Intelligence;Uwe Leichsenring;2003;2050;2050;NS;Logistics Specialist;High;M31200;X
+31201;Head of Military Intelligence;Peter Marx;2003;2050;2050;NS;Political Specialist;High;M31188;X
+31202;Chief of Staff;Eckart Bräuniger;2003;2050;2050;NS;School of Fire Support;High;M13202;X
+31203;Chief of Staff;Otto Ritz;2003;2050;2050;NS;School of Manoeuvre;High;M31203;X
+31204;Chief of Navy;Erwin Kemna;2003;2050;2050;NS;Open Seas Doctrine;High;M31205;X
+31205;Chief of Navy;Sascha Roßmüller;2003;2050;2050;NS;Base Control Doctrine;High;M31024;X
+31206;Chief of Army;Uwe Leichsenring;2003;2050;2050;NS;Static Defence Doctrine;High;M31200;X
+31207;Chief of Army;Jürgen Rieger;2003;2050;2050;NS;Guns and Butter Doctrine;High;M31207;X
+31208;Chief of Air Force;Stefan Köster;2003;2050;2050;NS;Army Aviation Doctrine;High;M31192;X
+31209;Chief of Air Force;Lars Käppler;2003;2050;2050;NS;Air Superiority Doctrine;High;M31209;X
+31210;Head of State;Lothar Bisky;2003;2050;2050;LWR;Benevolent Gentleman;High;M31016;X
+31211;Head of State;Oscar Lafontaine;2003;2050;2050;LWR;Popular Figurehead;High;M31211;X
+31212;Head of Government;Oscar Lafontaine;2003;2050;2050;LWR;Happy Amateur;High;M31211;X
+31213;Head of Government;Gregor Gysi;2003;2050;2050;LWR;Naive Optimist;High;M31013;X
+31214;Head of Government;Katja Kipping;2003;2050;2050;LWR;Political Protege;High;M31214;X
+31215;Minister of Armament;Oscar Lafontaine;2003;2050;2050;LWR;Resource Industrialist;High;M31211;X
+31216;Minister of Armament;Wolfgang Methling;2003;2050;2050;LWR;Corrupt Kleptocrat;High;M31216;X
+31217;Minister of Armament;Karl Holluba;2003;2050;2050;LWR;Military Entrepreneur;High;M31217;X
+31218;Foreign Minister;Wolfgang Gehrcke;2003;2050;2050;LWR;Ideological Crusader;High;M31218;X
+31219;Foreign Minister;Petra Pau;2003;2050;2050;LWR;Biased Intellectual;High;M31219;X
+31220;Foreign Minister;Katina Schubert;2003;2050;2050;LWR;The Cloak N Dagger Schemer;High;M31220;X
+31221;Minister of Security;Helmut Scholz;2003;2050;2050;LWR;Silent Lawyer;High;M31221;X
+31222;Minister of Security;Katja Kipping;2003;2050;2050;LWR;Man of the People;High;M31214;X
+31223;Minister of Security;Hans Modrow;2003;2050;2050;LWR;Crime Fighter;High;M31223;X
+31224;Head of Military Intelligence;Hans Modrow;2003;2050;2050;LWR;Political Specialist;High;M31223;X
+31225;Head of Military Intelligence;Dietmar Bartsch;2003;2050;2050;LWR;Dismal Enigma;High;M31225;X
+31226;Head of Military Intelligence;Sahra Wagenknecht;2003;2050;2050;LWR;Industrial Specialist;High;M31126;X
+31227;Chief of Staff;Wolfgang Methling;2003;2050;2050;LWR;School of Fire Support;High;M31216;X
+31228;Chief of Staff;Helmut Scholz;2003;2050;2050;LWR;School of Manoeuvre;High;M31221;X
+31229;Chief of Navy;Sahra Wagenknecht;2003;2050;2050;LWR;Decisive Naval Battle Doctrine;High;M31126;X
+31230;Chief of Navy;Karl Holluba;2003;2050;2050;LWR;Power Projection Doctrine;High;M31217;X
+31231;Chief of Army;Wolfgang Gehrcke;2003;2050;2050;LWR;static defence doctrine;High;M31218;X
+31232;Chief of Army;Helmut Scholz;2003;2050;2050;LWR;elastic defence doctrine;High;M31221;X
+31233;Chief of Air Force;Wolfgang Methling;2003;2050;2050;LWR;Naval Aviation Doctrine;High;M31216;X
+31234;Chief of Air Force;Dietmar Bartsch;2003;2050;2050;LWR;Army Aviation Doctrine;High;M31225;X
+31235;Head of State;Stefan Engel;2003;2050;2050;LE;Die-hard Reformer;High;M31235;X
+31236;Head of State;Klaus Wallenstein;2003;2050;2050;LE;Popular Figurehead;High;M31236;X
+31237;Head of Government;Stefan Engel;2003;2050;2050;LE;Naive Optimist;High;M31235;X
+31238;Head of Government;Dieter Ilius;2003;2050;2050;LE;Backroom Backstabber;High;M31238;X
+31239;Head of Government;Günther Jacob;2003;2050;2050;LE;Corporate Suit;High;M31239;X
+31240;Minister of Armament;Berthold Huber;2003;2050;2050;LE;Infantry Proponent;High;M31240;X
+31241;Minister of Armament;Robert Kurz;2003;2050;2050;LE;Submarine Proponent;High;M31241;X
+31242;Minister of Armament;Anna Bartholomé;2003;2050;2050;LE;Theoretical Scientist;High;M31242;X
+31243;Foreign Minister;Peter Borgwardt;2003;2050;2050;LE;Ideological Crusader;High;M31243;X
+31244;Foreign Minister;Günther Jacob;2003;2050;2050;LE;Apologetic Clerk;High;M31239;X
+31245;Foreign Minister;Roland Meister;2003;2050;2050;LE;iron fisted brute;High;M31245;X
+31246;Minister of Security;Winfried Wolf;2003;2050;2050;LE;Crime Fighter;High;M31246;X
+31247;Minister of Security;Monika Gärtner-Engel;2003;2050;2050;LE;Back Stabber;High;M31247;X
+31248;Minister of Security;Jörg Weidemann;2003;2050;2050;LE;Man of the People;High;M31248;X
+31249;Head of Military Intelligence;Wolfgang Göller;2003;2050;2050;LE;Technical Specialist;High;M31249;X
+31250;Head of Military Intelligence;Günter Slave;2003;2050;2050;LE;Naval Intelligence Specialist;High;M31250;X
+31251;Head of Military Intelligence;Klaus Arnecke;2003;2050;2050;LE;Dismal Enigma;High;M31251;X
+31252;Chief of Staff;Klaus Arnecke;2003;2050;2050;LE;School of Psychology;High;M31251;X
+31253;Chief of Staff;Günter Slave;2003;2050;2050;LE;School of Mass Combat;High;M31250;X
+31254;Chief of Navy;Jörg Weideman;2003;2050;2050;LE;Base Control Doctrine;High;M31248;X
+31255;Chief of Navy;Günter Slave;2003;2050;2050;LE;Indirect Approach Doctrine;High;M31250;X
+31256;Chief of Army;Klaus Arnecke;2003;2050;2050;LE;Guns and Butter Doctrine;High;M31251;X
+31257;Chief of Army;Roland Meister;2003;2050;2050;LE;Armoured Spearhead Doctrine;High;M31245;X
+31258;Chief of Air Force;Peter Borgwardt;2003;2050;2050;LE;Air Superiority Doctrine;High;M31243;X
+31259;Chief of Air Force;Robert Kurz;2003;2050;2050;LE;Carpet Bombing Doctrine;High;M31241;X

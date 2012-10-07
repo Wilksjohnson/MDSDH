@@ -1,0 +1,22 @@
+SYR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+80001;Head of State;Bashar al-Assad;2003;2050;2050;FA;Ruthless Powermonger;High;M80001;x
+80002;Head of Government;Muhammad Mustafa Mero;2003;2050;2050;FA;Naive Optimist;High;Mmmero;x
+80003;Foreign Minister;Farouk al-Sharaa;2003;2050;2050;FA;Iron Fisted Brute;High;M80003;x
+80004;Minister of Armament;Mustafa Tlas;2003;2050;2050;FA;Military Entrepreneur;High;Mtlas;x
+80005;Minister of Security;Bahjat Suleiman;2003;2050;2050;FA;Back Stabber;High;Unknown;x
+80006;Head of Military Intelligence;Hasan Khalil;2003;2050;2050;FA;Political Specialist;High;M83006;x
+80007;Chief of Staff;Hasan Turkmani;2003;2050;2050;FA;School of Psychology;High;M83007;x
+80008;Chief of Army;Ali Habib;2003;2050;2050;FA;Decisive Battle Doctrine;High;M83008;x
+80009;Chief of Navy;Bassam Abu Asam;2003;2050;2050;FA;Open Seas Doctrine;High;Unknown;x
+80010;Chief of Air Force;Unknown;2003;2050;2050;FA;Air Superiority Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+80011;Head of State;Muhammad Naji al-Otari;2003;2050;2050;FA;Insignificant Layman;High;M80011;x
+80012;Minister of Security;Ghazi Kanaan;2003;2050;2050;FA;Prince of Terror;High;M80012;x
+80013;Head of Military Intelligence;Asef Shawkat;2005;2050;2050;FA;Dismal Enigma;High;M80013;x
+80014;Head of Military Intelligence;Ghazi Kanaan;2003;2050;2050;FA;Logistics Specialist;High;M80012;x
+80015;Chief of Staff;Ali Habib;2003;2050;2050;FA;School of Fire Support;High;M83008;x
+80016;Foreign Minister;Walid Muallem;2006;2050;2050;FA;Ideological Crusader;High;Wmuallem;x
+80017;Minister of Security;Bassam Abdel Majeed;2005;2050;2050;FA;Efficient Sociopath;High;Bamajeed;x
+80018;Minister of Armament;Hasan Turkmani;2003;2050;2050;FA;Tank Proponent;High;M83007;x
+80019;Head of Government;Abdullah Dardari;2003;2050;2050;FA;Silent Workhorse;High;Adardari;x
+80020;Head of Government;Farid Ghadry;2003;2050;2050;ML;Ambitious Union Boss;High;Fghadry;x

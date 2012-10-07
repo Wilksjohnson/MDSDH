@@ -1,0 +1,44 @@
+# 0 - Early ASW Suite
+model = {
+	cost 				= 2
+	buildtime			= 140
+	manpower 			= 0.2
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 1
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.1
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 1 - Late ASw Suite
+model = {
+	cost 				= 2.5
+	buildtime			= 140
+	manpower 			= 0.2
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 2
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 2
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.2
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+
+########################################
+

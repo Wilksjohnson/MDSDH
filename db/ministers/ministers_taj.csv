@@ -1,0 +1,22 @@
+TAJ;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+81001;Head of State;Emomali Rakhmonov;2003;2050;2050;PA;Powerhungry Demagogue;High;M81001;x
+81002;Head of Government;Oqil Oqilov;2003;2050;2050;PA;Flamboyant Tough Guy;High;M81002;x
+81003;Foreign Minister;Talbak Nazarov;2003;2050;2050;PA;Iron Fisted Brute;High;M82003;X
+81004;Minister of Armament;Sherali Khayrulloyev;2003;2050;2050;PA;Corrupt Kleptocrat;High;M81004;x
+81005;Minister of Security;Khayriddin Abdurahimov;2003;2050;2050;PA;Prince of Terror;High;Unknown;x
+81006;Head of Military Intelligence;Khayriddin Abdurahimov;2003;2050;2050;PA;Dismal Enigma;High;Unknown;x
+81007;Chief of Staff;Ramil Nadyrov;2003;2050;2050;PA;School of Psychology;High;M81007;x
+81008;Chief of Army;Ramil Nadyrov;2003;2050;2050;PA;Static Defence Doctrine;High;M81007;x
+81009;Chief of Navy;Unknown;2003;2050;2050;PA;Indirect Approach Doctrine;High;Unknown;x
+81010;Chief of Air Force;Unknown;2003;2050;2050;PA;Army Aviation Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+81011;Head of State;Said Abdullo Nuri;2003;2050;2050;SD;Popular Figurehead;High;M81011;x
+81012;Head of Government;Shamsiddin Shamsiddinov;2003;2050;2050;SD;Naive Optimist;High;Unknown;x
+81013;Minister of Security;Mirzo Ziyoyev;2003;2050;2050;SD;Crime Fighter;High;Unknown;x
+81014;Minister of Armament;Ramil Nadyrov;2003;2050;2050;PA;Infantry Proponent;High;M81007;x
+81015;Minister of Armament;Saidamir Zuhurov;2003;2050;2050;PA;laissez-faire capitalist;High;M81015;x
+81016;Chief of Staff;Saidamir Zuhurov;2003;2050;2050;PA;School of Defence;High;M81015;x
+81017;Chief of Army;Saidamir Zuhurov;2003;2050;2050;PA;Guns and Butter Doctrine;High;M81015;x
+81018;Minister of Security;Halifabobo Hamidov;2003;2050;2050;PA;Silent Lawyer;High;Unknown;x
+81019;Head of Military Intelligence;Mirzo Ziyoyev;2003;2050;2050;SD;Political Specialist;High;Unknown;x
+81020;Head of Military Intelligence;Halifabobo Hamidov;2003;2050;2050;PA;Logistics Specialist;High;Unknown;x

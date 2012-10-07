@@ -1,0 +1,347 @@
+#########################################################
+#							#
+# Events for Hungary (HUN)                              #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#36001 - 36300# Main events
+#36301 - 36450# Political events
+#36451 - 36500# Election events	 		
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Main events
+#############################################
+
+################
+##Lying-speech##
+################
+event = {
+	id = 36001
+	random = no
+	country = HUN
+
+	name = "EVT_36001_NAME"
+	desc = "EVT_36001_DESC"
+	style = 0
+
+	trigger = {
+		headofgovernment = 36011
+		NOT = { ispuppet = HUN }
+	}
+
+	date = { day = 17 month = september year = 2007 }
+	picture = "hun_riot1"
+
+	action_a = {
+		name = "It's a scandal"
+		command = { type = dissent value = 10 }
+	}
+}
+#################################
+##Anniversary of the Revolution##
+#################################
+event = {
+	id = 36002
+	random = no
+	country = HUN
+
+	name = "EVT_36002_NAME"
+	desc = "EVT_36002_DESC"
+	style = 0
+
+	trigger = {
+		headofgovernment = 36011
+		event = 36001
+		NOT = { ispuppet = HUN }
+	}
+
+	date = { day = 22 month = october year = 2007 }
+	picture = "hun_riot2"
+
+	action_a = {
+		name = "Crush the rebellion"
+		ai_chance = 90
+		command = { type = dissent value = 8 }
+		command = { type = domestic which = political_left value = 1 }
+		command = { type = domestic which = democratic value = -3 }
+	}
+	action_b = {
+		name = "Resign"
+		ai_chance = 10
+		command = { type = headofgovernment which = 36040 }
+		command = { type = domestic which = political_left value = -1 }
+	}
+}
+#####################
+##Government crisis##
+#####################
+event = {
+	id = 36003
+	random = no
+	country = HUN
+
+	name = "EVT_36003_NAME"
+	desc = "EVT_36003_DESC"
+	style = 0
+
+	trigger = {
+		government = democratic
+		NOT = { ispuppet = HUN }
+		headofgovernment = 36011
+	}
+
+	date = { day = 29 month = april year = 2008 }
+
+	action_a = {
+		name = "Administration in minority"
+		ai_chance = 95
+		command = { type = headofgovernment which = 36011 }
+		command = { type = foreignminister which = 36029 }
+		command = { type = armamentminister which = 36028 }
+		command = { type = ministerofsecurity which = 36032 }
+		command = { type = ministerofintelligence which = 36033 }
+		command = { type = domestic which = democratic value = -1 }
+	}
+	action_b = {
+		name = "Make a concession"
+		ai_chance = 5
+		command = { type = headofgovernment which = 36011 }
+		command = { type = foreignminister which = 36029 }
+		command = { type = armamentminister which = 36015 }
+		command = { type = ministerofsecurity which = 36005 }
+		command = { type = ministerofintelligence which = 36033 }
+		command = { type = domestic which = political_left value = 1 }
+	}
+}
+
+#############################################
+###### Political events
+#############################################
+
+##############################
+##Head of Government resigns##
+##############################
+event = {
+	id = 36301
+	random = no
+	country = HUN
+
+	name = "EVT_36301_NAME"
+	desc = "EVT_36301_DESC"
+	style = 0
+
+	trigger = {
+		headofgovernment = 36011
+		NOT = { ispuppet = HUN }
+	}
+
+	date = { day = 1 month = september year = 2004 }
+
+	action_a = {
+		name = "Let him resign - New Prime Minister"
+		ai_chance = 75
+		command = { type = headofgovernment which = 36011 }
+		command = { type = dissent value = 1 }
+	}
+	action_b = {
+		name = "Change The Minister"
+		ai_chance = 25
+		command = { type = armamentminister which = 36015 }
+		command = { type = dissent value = 1 }
+	}
+}
+#########################
+##Head of State Changes##
+#########################
+event = {
+	id = 36302
+	random = no
+	country = HUN
+
+	name = "EVT_36302_NAME"
+	desc = "EVT_36302_DESC"
+	style = 0
+
+	trigger = {
+		headofgovernment = 36011
+		NOT = { ispuppet = HUN }
+	}
+
+	date = { day = 10 month = june year = 2005 }
+
+	action_a = {
+		name = "Elect the social-party candidate"
+		ai_chance = 20
+		command = { type = headofstate which = 36010 }
+	}
+	action_b = {
+		name = "Elect the Independent Candidate"
+		ai_chance = 80
+		command = { type = headofstate which = 36026 }
+	}
+}
+###################################
+##The minister of armament resign##
+###################################
+event = {
+	id = 36303
+	random = no
+	country = HUN
+
+	name = "EVT_36303_NAME"
+	desc = "EVT_36303_DESC"
+	style = 0
+
+	trigger = {
+		government = democratic
+		NOT = { ispuppet = HUN }
+		OR = { headofgovernment = 36011
+			headofgovernment = 36040
+		}
+	}
+
+	date = { day = 2 month = december year = 2007 }
+
+	action_a = {
+		name = "Change the minister"
+		command = { type = armamentminister which = 36027 }
+	}
+}
+###################################
+##The minister of security resign##
+###################################
+event = {
+	id = 36304
+	random = no
+	country = HUN
+
+	name = "EVT_36304_NAME"
+	desc = "EVT_36304_DESC"
+	style = 0
+
+	trigger = {
+		government = democratic
+		NOT = { ispuppet = HUN }
+		OR = { headofgovernment = 36011
+			headofgovernment = 36040
+		}
+		event = 36009
+	}
+
+	date = { day = 31 month = may year = 2007 }
+
+	action_a = {
+		name = "Force to resign"
+		ai_chance = 95
+		command = { type = ministerofsecurity which = 36031 }
+		command = { type = dissent value = -1 }
+	}
+	action_b = {
+		name = "We don't need new minister"
+		ai_chance = 5
+		command = { type = dissent value = 1 }
+		command = { type = domestic which = democratic value = -1 }
+	}
+}
+
+#############################################
+###### Election events
+#############################################
+
+################################################## #######################
+# Hungarian parliamentary election 2006
+################################################## #######################
+event = {
+	id = 36451
+	random = no
+	country = HUN
+
+	name = "EVT_36451_NAME"
+	desc = "EVT_36451_DESC"
+	style = 0
+
+	trigger = {
+		headofgovernment = 36011
+		NOT = { ispuppet = HUN }
+		atwar = no
+	}
+	
+	date = { day = 23 month = april year = 2006 }
+
+
+	action_a = {
+	name = "Hungarian Socialist Party - leftist coalition"
+	ai_chance = 50
+		command = { type = headofgovernment which = 36011 }
+		command = { type = foreignminister which = 36029 }
+		command = { type = armamentminister which = 36015 }
+		command = { type = ministerofsecurity which = 36030 }
+		command = { type = relation which = USA value = 20 }
+		command = { type = domestic which = political_left value = 1 }
+	}
+	action_b = {
+		name = "Hungarian Civic Union - center right coalition"
+		ai_chance = 50
+		command = { type = headofgovernment which = 36012 }
+		command = { type = foreignminister which = 36013 }
+		command = { type = armamentminister which = 36016 }
+		command = { type = ministerofsecurity which = 36017 }
+		command = { type = ministerofintelligence which = 36018 }
+		command = { type = domestic which = political_left value = -1 }
+		command = { type = relation which = USA value = -20 }
+		command = { type = domestic which = interventionism value = -1 }
+	}
+}
+################################################## #######################
+# Hungarian Election of 2010
+################################################## #######################
+event = {
+id = 36452
+random = no
+country = HUN
+
+name = "EVT_36452_NAME"
+desc = "EVT_36452_DESC"
+style = 0
+
+	trigger = {
+		headofgovernment = 36011
+		NOT = { ispuppet = HUN }
+		atwar = no
+	}
+
+	date = { day = 10 month = april year = 2010 }
+
+	action_a = {
+		name = "Hungarian Socialist Party - leftist coalition"
+		ai_chance = 50
+		command = { type = headofgovernment which = 36011 }
+		command = { type = foreignminister which = 36029 }
+		command = { type = armamentminister which = 36015 }
+		command = { type = ministerofsecurity which = 36031 }
+		command = { type = ministerofintelligence which = 36006 }
+		command = { type = relation which = USA value = 10 }
+		command = { type = domestic which = political_left value = 1 }
+		command = { type = domestic which = interventionism value = 1 }
+	}
+	action_b = {
+		name = "Hungarian Civic Union - center right coalition"
+		ai_chance = 50
+		command = { type = headofgovernment which = 36012 }
+		command = { type = foreignminister which = 36013 }
+		command = { type = armamentminister which = 36016 }
+		command = { type = ministerofsecurity which = 36017 }
+		command = { type = ministerofintelligence which = 36018 }
+		command = { type = domestic which = political_left value = -1 }
+		command = { type = relation which = USA value = -10 }
+		command = { type = domestic which = interventionism value = -1 }
+	}
+}

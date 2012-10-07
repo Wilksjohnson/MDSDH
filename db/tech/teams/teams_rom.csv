@@ -1,0 +1,12 @@
+ROM;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+13700;National Military Academy;romanacademy;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13701;Romarm;T13701;6;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13702;Ratmil;ratmil;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13703;Cugir Plants;cugirplant;6;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13704;IAR;T13702;5;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13705;SRI;sri;6;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13706;Dacia;T13700;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13707;METRA;team_noimage;5;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13708;Romanian Army;T13710;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13709;Romanian Air Force;T13711;5;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13710;Romanian Navy;T13712;5;1000;2999;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

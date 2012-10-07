@@ -1,0 +1,6 @@
+# 0 Basic Cruise Missile
+model = { cost = 1 buildtime = 30 defaultorganisation = 40 morale = 100 manpower = 0 maxspeed = 750 surfacedefence = 30 airdefence = 15 strategicattack = 90 softattack = 45 hardattack = 45 range = 1500 supplyconsumption = 1 fuelconsumption = 1.5 }
+# 1 Improved Cruise Missile
+model = { cost = 2 buildtime = 40 defaultorganisation = 40 morale = 100 manpower = 0 maxspeed = 850 surfacedefence = 30 airdefence = 20 strategicattack = 120 softattack = 60 hardattack = 60 range = 2200 supplyconsumption = 1 fuelconsumption = 1.5 }
+# 2 Advanced Cruise Missile
+model = { cost = 3 buildtime = 50 defaultorganisation = 40 morale = 100 manpower = 0 maxspeed = 950 surfacedefence = 30 airdefence = 25 strategicattack = 150 softattack = 80 hardattack = 80 range = 3200 supplyconsumption = 1 fuelconsumption = 1.5 }

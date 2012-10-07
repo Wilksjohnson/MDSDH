@@ -1,0 +1,31 @@
+FIN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+28001;Head of State;Tarja Halonen;2003;2050;2050;SD;Benevolent Gentleman;High;M28001;x
+28002;Head of Government;Anneli Jäätteenmäki;2003;2050;2050;SL;Naive Optimist;Low;M28002;x
+28003;Foreign Minister;Erkki Tuomioja;2003;2050;2050;SD;Biased Intellectual;High;M28003;x
+28004;Minister of Armament;Seppo Kääriäinen;2003;2050;2050;SL;Administrative Genius;High;Skariainen;x
+28005;Minister of Security;Kari Rajamäki;2003;2050;2050;SD;Silent Lawyer;Low;M28005;x
+28006;Head of Military Intelligence;Seppo Nevala;2003;2050;2050;SC;Technical Specialist;Medium;M28006;x
+28007;Chief of Staff;Juhani Kaskeala;2003;2050;2050;NA;School of Mass Combat;Low;M28007;x
+28008;Chief of Army;Olli-Matti Multamäki;2003;2050;2050;NA;Elastic Defence Doctrine;High;M28008;x
+28009;Chief of Navy;Hans Holmström;2003;2050;2050;NA;Indirect Approach Doctrine;High;M28009;x
+28010;Chief of Air Force;Jouni Pystynen;2003;2050;2050;NA;Army Aviation Doctrine;High;Jpystynen;x
+;Replacements;;;;;;;x
+28011;Head of Government;Matti Vanhanen;2003;2050;2050;SL;Silent Workhorse;High;M28011;x
+28012;Head of State;Sauli Niinistö;2003;2050;2050;ML;Weary Stiffneck;High;M28012;x
+28013;Foreign Minister;Ilkka Kanerva;2003;2050;2050;ML;Great Compromiser;Medium;M100000;x
+28014;Minister of Armament;Jyrki Katainen;2009;2050;2050;SC;Administrative Genius;High;M100001;x
+28015;Minister of Security;Anne Holmlund;2003;2050;2050;SC;Silent Lawyer;High;M100002;x
+28016;Head of Military Intelligence;Ilkka Salmi ;2003;2050;2050;SC;Political Specialist;Medium;M100003;x
+28017;Chief of Army;Ilkka Kylä-harakka;2003;2050;2050;SC;Elastic Defence Doctrine;High;L28004;x
+28018;Minister of Armament;Eero Heinäluoma;2003;2050;2050;SD;Resource Industrialist;High;M100005;x
+28019;Head of State;Matti Vanhanen;2003;2050;2050;SL;Benevolent Gentleman;High;M28011;x
+28020;Foreign Minister;Alexander Stubb;2003;2050;2050;ML;Ideological Crusader;High;Astubb;x
+28021;Minister of Armament;Jyri Häkämies ;2003;2050;2050;ML;Resource Industrialist;High;Jhakamies;x
+28022;Head of Government;Eero Heinäluoma;2003;2050;2050;SD;Ambitious Union Boss;High;M100005;x
+28023;Head of Government;Jutta Urpilainen;2008;2050;2050;SD;Silent Workhorse;High;Jurpilainen;x
+28024;Chief of Army;Ilkka Aspara;2003;2050;2050;NA;Elastic Defence Doctrine;High;Iaspara;x
+28025;Chief of Navy;Juha Rannikko;2003;2050;2050;NA;Base Control Doctrine;High;Jrannikko;x
+28026;Chief of Air Force;Jarmo Lindberg;2003;2050;2050;NA;Air Superiority Doctrine;High;Jlindberg;x
+28027;Chief of Air Force;Jouni Pystynen;2003;2050;2050;NA;Army Aviation Doctrine;High;Jpystynen;x
+28028;Chief of Staff;Ari Puheloinen;2003;2050;2050;NA;School of Manoeuvre;High;Apuheloinen;x
+28029;Head of Government;Jyrki Katainen;2003;2050;2050;ML;Political Protege;High;M100001;x

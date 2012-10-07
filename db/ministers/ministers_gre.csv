@@ -1,0 +1,35 @@
+GRE;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+32001;Head of State;Kostis Stephanopoulos;2003;2050;2050;ML;Benevolent Gentleman;High;M32001;x
+32002;Head of Government;Costas Simitis;2003;2050;2050;SD;Silent Workhorse;High;M32002;x
+32003;Foreign Minister;Giorgios Papandreou;2003;2050;2050;SD;Great Compromiser;High;M32003;x
+32004;Minister of Armament;Nikos Christodoulakis;2003;2050;2050;SD;laissez-faire capitalist;High;M32004;x
+32005;Minister of Security;Kostas Skandalidis;2003;2050;2050;SD;Crime Fighter;High;Unknown;x
+32006;Head of Military Intelligence;Haralambos Stavrakakis;2003;2050;2050;ML;Dismal Enigma;High;Unknown;x
+32007;Chief of Staff;Panagiotis Chinofotis;2003;2050;2050;SD;School of Fire Support;High;M32007;x
+32008;Chief of Army;Nikolaos Douvas;2003;2050;2050;SD;Decisive Battle Doctrine;High;Unknown;x
+32009;Chief of Navy;Dimitrios Gousis;2003;2050;2050;SD;Open Seas Doctrine;High;M32009;x
+32010;Chief of Air Force;Panagiotis Papanikolaou;2003;2050;2050;SD;Air Superiority Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+32011;Head of State;Karolos Papoulias;2005;2050;2050;SD;Insignificant Layman;High;M32011;x
+32012;Head of State;Karolos Papoulias;2005;2050;2050;ML;Insignificant Layman;High;M32011;x
+32013;Head of Government;Costas Caramanlis;2004;2050;2050;ML;Corporate Suit;High;M32012;x
+32014;Foreign Minister;Petros Molyviatis;2004;2050;2050;ML;Great Compromiser;High;M32013;x
+32015;Minister of Armament;Giorgios Alogoskoufis;2004;2050;2050;ML;Administrative Genius;High;Unknown;x
+32016;Minister of Security;Giorgios Voulgarakis;2004;2050;2050;ML;Crime Fighter;High;Unknown;x
+32017;Head of Military Intelligence;Pavlos Apostolidis;2005;2050;2050;ML;Political Specialist;High;Unknown;x
+32018;Chief of Air Force;Giorgos Avlonitis;2004;2050;2050;ML;Air Superiority Doctrine;High;Unknown;x
+32019;Foreign Minister;Dora Bakoyyanis;2004;2050;2050;ML;Great Compromiser;High;Dbakoyannis;x
+32020;Foreign Minister;Marilisa Xenogiannakopoulou;2003;2050;2050;SD;Ideological Crusader;High;Mxeno;x
+32021;Foreign Minister;Theodoros Pangalos;2003;2050;2050;SD;Iron Fisted Brute;High;Tpangalos;x
+32022;Minister of Armament;Yiannos Papantoniou;2003;2050;2050;SD;Administrative Genius;High;Ypapantoniou;x
+32023;Minister of Armament;Spilios Spiliotopoulos;2003;2050;2050;ML;Air to Ground Proponent;High;Sspiliotopoulos;x
+32024;Minister of Armament;Vangelis Meimarakis;2006;2050;2050;ML;Theoretical Scientist;High;Unknown;x
+32025;Minister of Security;Prokopis Pavlopoulos;2004;2050;2050;ML;Silent Lawyer;High;Ppavlopoulos;x
+32026;Minister of Security;Georgios Voulgarakis;2004;2050;2050;ML;Back Stabber;High;Gvoulgarakis;x
+32027;Minister of Security;Vyron Polydoras;2003;2050;2050;SC;Crime Fighter;High;Vpolydoras;x
+32028;Minister of Security;Evangelos Venizelos;2003;2050;2050;SD;Silent Lawyer;High;Unknown;x
+32029;Head of Government;Aleka Papariga;2003;2050;2050;LE;Flamboyant Tough Guy;High;Apapariga;x
+32030;Head of State;Aleka Papariga;2003;2050;2050;LE;Barking Buffoon;High;Apapariga;x
+32031;Minister of Armament;Giannis Dragasakis;2003;2050;2050;LWR;Resource Industrialist;High;Unknown;x
+32032;Foreign Minister;Yiannis Theonas;2003;2050;2050;LWR;Ideological Crusader;High;Unknown;x
+32033;Head of Government;Giorgios Papandreou;2003;2050;2050;SD;Naive Optimist;High;M32003;x

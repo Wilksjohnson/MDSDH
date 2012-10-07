@@ -1,0 +1,41 @@
+RUS;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+13800;Frunze Academy;Frunze;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13801;Uralvagonzavod;Uralvagon;9;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13802;Kirov Factory;Kirov Plant;8;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13803;GAZ;GAZ;8;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13804;KMZ;kmz;8;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13805;Izmash;T13802;9;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13806;MiG;T13801;9;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13807;Sukhoi;sukhoi;9;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13808;Tupolev;T13811;8;1000;2999;aeronautics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13809;Mil;rus mil;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13810;Kamov;Kamov;6;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13811;GRU;gru;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13812;Magnitogorsk Works;Magnitogorsk;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13813;Motovilikha Plants;Motovilikha;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13814;KBP;KBP;8;1000;2999;management;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13815;Vympel;Vympel;8;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13816;Phazotron;Phazotron;8;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13817;NIIP;NIIP;8;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13818;Russian Navy;Russian Air Force;6;1000;2999;large_taskforce_tactics;carrier_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13819;Korolev Institute;Energia;8;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13820;Kurchatov Institute;T13812;8;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13821;Ground Forces;Russian Ground Forces;7;1000;2999;chemistry;large_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13822;Airborne Forces;rus airborne;9;1000;2999;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13823;Naval Infantry;rusnavinf;6;1000;2999;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13824;General Staff;rus staff;7;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13825;Logistics Department;rus logistics;7;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13826;Russian Air Force;Russian Air Force;7;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13827;Naval Aviation;rus naval aviation;7;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13828;Admiralty Shipyard;Admiralty Shipyard;7;1000;2999;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13829;Severnaya Verf;T13809;6;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13830;Zelenodolsk Shipyard;T13810;6;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13831;KMDB;KMDBukr;8;2099;2999;general_equipment;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13832;Malyshev Plant;team_noimage;8;2099;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13833;Antonov;Antonov;6;2099;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13834;Nikolaev Shipyard;nikolaevship;6;2099;2999;naval_engineering;naval_artillery;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13835;Yuzhnoye Design Bureau;yuzhnoye;7;2099;2999;rocketry;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13836;Rubin Design Bureau;rubin;8;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13837;Baltiysky Zavod;baltiski;7;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13838;Submarine Forces;russubmarine;9;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13839;Naval Logistics;rusnavlog;5;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

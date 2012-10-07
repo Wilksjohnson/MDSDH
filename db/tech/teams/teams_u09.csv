@@ -1,0 +1,14 @@
+U09;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+12100;National Military Academy;nkacademy;4;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12101;2nd Machine Group;chonmaho;5;1000;2999;general_equipment;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12102;National Intelligence Agency;nkintel;5;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12103;General Machinery Corporation;gmcorpnk;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12104;Industrial Technology Corporation;nkindcorptech;3;1000;2999;management;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12105;Korean People's Army;kparmy;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12106;General Staff;nkgstaff;5;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12107;Logistics Department;ukrlogistics;5;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12108;DPRK Air Force;dprkairforce;4;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12109;Korean People's Navy;kpnavy;2;1000;2999;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12110;National Shipbuilding Corp;nkshipbuilding;2;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12111;Yongbyon Nuclear Research Center;yongbyon;4;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12112;Artillery Guidance Bureau;artguidb;3;1000;2999;rocketry;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

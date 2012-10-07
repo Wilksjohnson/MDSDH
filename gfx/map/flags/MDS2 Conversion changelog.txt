@@ -1,0 +1,33 @@
+MDS2 Conversion Changelog - Wilksjohnson
+
+Thanks for providing fixes/troubleshooting: Supreeme, CocoBZ, Arcangelus, vanadio, Torment40, Warhell, and many others! :)
+
+Also, thanks to the original MDS2 team for creating this mod! :)
+
+V1.0
+
+# Corrected various fatal errors that caused the game to crash upon launch.
+
+
+V1.1
+
+# Save Games can now be loaded without crashing.
+# corrected many minister and leader errors that caused CTD.
+# Fixed the map errors by correctly implementing the MDS2 map.
+# Fixed incorrect format in minister files (Arcangelus)
+
+V1.2 (Current)
+
+# Corrected minister, leader, and tech team bugs. Many (not all) countries, such as DPRK now have correct tech teams, ministers, and leaders.
+# Corrected "date" bug in Hungarian db/event file.
+# Cleaned up the Russian, 2nd american civl war, abkahazia, albania, algeria, angola, argentina, armenia, and australia event files. This should make it a little
+easier for future modders.
+
+
+### Known Issues ###
+
+1. Any and all bugs from the original MDS2, as well as any incomplete content from MDS2.
+
+2. Several countries are missing ministers even though they are in the database.
+
+3. Pictures will not show up for many land, air, and naval units.

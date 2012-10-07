@@ -1,0 +1,1252 @@
+technology =
+{ id          = 6
+  category    = land_doctrines
+  name        = TECH_LD_NAME
+  desc        = TECH_LD_DESC
+  label =
+  { tag      = TECH_CAT_LOGISTICS
+    position = { x = 362 y = 135 }
+  }
+  label =
+  { tag      = TECH_CAT_OPEMPH
+    position = { x = 210 y = 284 }
+  }
+  label =
+  { tag      = TECH_CAT_NCO
+    position = { x = 1 y = 303 }
+  }
+  label =
+  { tag      = TECH_CAT_EACW
+    position = { x = 5 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_LACW
+    position = { x = 185 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_POCW
+    position = { x = 398 y = -15 }
+  }
+  label =
+  { tag      = TECH_CAT_21ST
+    position = { x = 16 y = 134 }
+  }
+  label =
+  { tag      = TECH_CAT_A21ST
+    position = { x = 191 y = 134 }
+  }
+  application =
+  { id        = 6010
+    name      = TECH_APP_LD_1_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 362 y = 152 }
+    year      = 2000
+    component = { id = 6011 name = "" type = training difficulty = 10 }
+    component = { id = 6012 name = "" type = training difficulty = 10 }
+    component = { id = 6013 name = "" type = training difficulty = 10 }
+    component = { id = 6014 name = "" type = training difficulty = 10 }
+    component = { id = 6015 name = "" type = training difficulty = 10 }
+    required  = { 6100 }
+    effects =
+    { command = { type = enable_task which = sea_transport }
+      #command = { type = enable_task which = none }
+      command = { type = enable_task which = rebase }
+      command = { type = enable_task which = strat_redeploy }
+      command = { type = task_efficiency which = strat_redeploy value = 0.50 }
+      command = { type = enable_task which = attack }
+      command = { type = enable_task which = support_attack }
+      command = { type = enable_task which = support_defense }
+      command = { type = enable_task which = reserves }
+      command = { type = enable_task which = anti_partisan_duty }
+      command = { type = enable_task which = amphibious_assault }
+      command = { type = allow_dig_in }
+    }
+  }
+  application =
+  { id        = 6020
+    name      = TECH_APP_LD_2_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 406 y = 168 }
+    year      = 2000
+    component = { id = 6021 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6022 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6023 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6024 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6025 name = "" type = centralized_execution difficulty = 5 }
+    required  = { 6010 }
+    effects =
+    { command = { type = attrition_mod value = 50 }
+      command = { type = repair_mod value = 50 }
+      command = { type = hq_supply_eff value = 10 }
+      command = { type = deactivate which = 6030 }
+      command = { type = deactivate which = 6040 }
+      command = { type = deactivate which = 6050 }
+      command = { type = deactivate which = 6060 }
+      command = { type = deactivate which = 6070 }
+      command = { type = deactivate which = 6080 }
+    }
+  }
+  application =
+  { id        = 6030
+    name      = TECH_APP_LD_3_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 362 y = 184 }
+    year      = 2000
+    component = { id = 6031 name = "" type = training difficulty = 10 }
+    component = { id = 6032 name = "" type = training difficulty = 10 }
+    component = { id = 6033 name = "" type = training difficulty = 10 }
+    component = { id = 6034 name = "" type = training difficulty = 10 }
+    component = { id = 6035 name = "" type = training difficulty = 10 }
+    required  = { 6010 }
+    effects   = { }
+  }
+  application =
+  { id        = 6040
+    name      = TECH_APP_LD_4_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 406 y = 200 }
+    year      = 2000
+    component = { id = 6041 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6042 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6043 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6044 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6045 name = "" type = centralized_execution difficulty = 5 }
+    required  = { 6030 }
+    effects =
+    { command = { type = attrition_mod value = 20 }
+      command = { type = repair_mod value = 40 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.10 }
+      command = { type = tc_occupied_mod value = 30 }
+      command = { type = relative_manpower value = -5 }
+      command = { type = max_organization which = land value = 20 }
+      command = { type = hq_supply_eff value = 20 }
+      command = { type = range which = naval value = 500 }
+      command = { type = deactivate which = 6050 }
+      command = { type = deactivate which = 6020 }
+      command = { type = deactivate which = 6070 }
+      command = { type = deactivate which = 6080 }
+    }
+  }
+  application =
+  { id        = 6050
+    name      = TECH_APP_LD_5_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 362 y = 216 }
+    year      = 2000
+    component = { id = 6051 name = "" type = training difficulty = 10 }
+    component = { id = 6052 name = "" type = training difficulty = 10 }
+    component = { id = 6053 name = "" type = training difficulty = 10 }
+    component = { id = 6054 name = "" type = training difficulty = 10 }
+    component = { id = 6055 name = "" type = training difficulty = 10 }
+    required  = { 6030 6200 }
+    effects   = { }
+  }
+  application =
+  { id        = 6060
+    name      = TECH_APP_LD_6_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 406 y = 232 }
+    year      = 2000
+    component = { id = 6061 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6062 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6063 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6064 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6065 name = "" type = centralized_execution difficulty = 5 }
+    required  = { 6050 4410 }
+    effects =
+    { command = { type = info_may_cause which = 4410 }
+      command = { type = attrition_mod value = 30 }
+      command = { type = repair_mod value = 30 }
+      command = { type = task_efficiency which = air_supply value = 0.25 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.20 }
+      command = { type = tc_occupied_mod value = 60 }
+      command = { type = relative_manpower value = -10 }
+      command = { type = max_organization which = land value = 30 }
+      command = { type = hq_supply_eff value = 30 }
+      command = { type = range which = naval value = 1500 }
+      command = { type = deactivate which = 6070 }
+      command = { type = deactivate which = 6020 }
+      command = { type = deactivate which = 6030 }
+      command = { type = deactivate which = 6040 }
+      command = { type = deactivate which = 6010 }
+    }
+  }
+  application =
+  { id        = 6070
+    name      = TECH_APP_LD_7_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 362 y = 248 }
+    year      = 2000
+    component = { id = 6071 name = "" type = training difficulty = 10 }
+    component = { id = 6072 name = "" type = training difficulty = 10 }
+    component = { id = 6073 name = "" type = training difficulty = 10 }
+    component = { id = 6074 name = "" type = training difficulty = 10 }
+    component = { id = 6075 name = "" type = training difficulty = 10 }
+    required  = { 6050 }
+    effects   = { }
+  }
+  application =
+  { id        = 6080
+    name      = TECH_APP_LD_8_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 406 y = 264 }
+    year      = 2000
+    component = { id = 6081 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6082 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6083 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6084 name = "" type = centralized_execution difficulty = 5 }
+    component = { id = 6085 name = "" type = centralized_execution difficulty = 5 }
+    required  = { 6070 4420 }
+    effects =
+    { command = { type = info_may_cause which = 4420 }
+      command = { type = attrition_mod value = 50 }
+      command = { type = repair_mod value = 10 }
+      command = { type = task_efficiency which = air_supply value = 0.5 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.30 }
+      command = { type = tc_occupied_mod value = 80 }
+      command = { type = relative_manpower value = -15 }
+      command = { type = max_organization which = land value = 40 }
+      command = { type = hq_supply_eff value = 40 }
+      command = { type = range which = naval value = 3000 }
+      command = { type = deactivate which = 6010 }
+      command = { type = deactivate which = 6020 }
+      command = { type = deactivate which = 6030 }
+      command = { type = deactivate which = 6040 }
+      command = { type = deactivate which = 6060 }
+    }
+  }
+  application =
+  { id        = 6100
+    name      = TECH_APP_LD_10_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 1 y = 1 }
+    year      = 2000
+    component = { id = 6101 name = "" type = training difficulty = 12 }
+    component = { id = 6102 name = "" type = training difficulty = 12 }
+    component = { id = 6103 name = "" type = training difficulty = 12 }
+    component = { id = 6104 name = "" type = training difficulty = 12 }
+    component = { id = 6105 name = "" type = training difficulty = 12 }
+    required  = { 5050 5070 5080 }
+    effects =
+    { command = { type = new_model which = hq value = 0 }
+      command = { type = activate_unit_type which = hq }
+      command = { type = morale which = land value = 5 }
+      command = { type = info_may_cause which = 5050 }
+      command = { type = info_may_cause which = 5070 }
+      command = { type = info_may_cause which = 5080 }
+    }
+  }
+  application =
+  { id        = 6110
+    name      = TECH_APP_LD_11_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 10 y = 17 }
+    year      = 2000
+    component = { id = 6111 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6112 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6113 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6114 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6115 name = "" type = large_unit_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = morale which = infantry value = 10 }
+      command = { type = morale which = cavalry value = 10 }
+      command = { type = morale which = motorized value = 10 }
+      command = { type = morale which = mechanized value = 10 }
+    }
+  }
+  application =
+  { id        = 6120
+    name      = TECH_APP_LD_12_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 22 y = 33 }
+    year      = 2000
+    component = { id = 6121 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6122 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6123 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6124 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6125 name = "" type = large_unit_tactics difficulty = 6 }
+    required  = { 6100 6110 }
+    effects =
+    { command = { type = morale which = armor value = 10 }
+      command = { type = morale which = light_armor value = 10 }
+    }
+  }
+  application =
+  { id        = 6130
+    name      = TECH_APP_LD_13_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 35 y = 49 }
+    year      = 2000
+    component = { id = 6131 name = "" type = decentralized_execution difficulty = 6 }
+    component = { id = 6132 name = "" type = decentralized_execution difficulty = 6 }
+    component = { id = 6133 name = "" type = decentralized_execution difficulty = 6 }
+    component = { id = 6134 name = "" type = decentralized_execution difficulty = 6 }
+    component = { id = 6135 name = "" type = decentralized_execution difficulty = 6 }
+    required  = { 6100 6110 6120 }
+    effects =
+    { command = { type = morale which = marine value = 10 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.5 }
+      command = { type = shore_attack which = marine value = 5 }
+      command = { type = shore_attack which = bergsjaeger value = 5 }
+      command = { type = shore_attack which = paratrooper value = 1 }
+      command = { type = shore_attack which = militia value = 2 }
+    }
+  }
+  application =
+  { id        = 6140
+    name      = TECH_APP_LD_14_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 10 y = 65 }
+    year      = 2000
+    component = { id = 6141 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6142 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6143 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6144 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6145 name = "" type = small_unit_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = enable_task which = airborne_assault }
+      command = { type = task_efficiency which = airborne_assault value = 0.25 }
+      command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = morale which = paratrooper value = 10 }
+    }
+  }
+  application =
+  { id        = 6150
+    name      = TECH_APP_LD_15_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 10 y = 81 }
+    year      = 2000
+    component = { id = 6151 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6152 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6153 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6154 name = "" type = small_unit_tactics difficulty = 6 }
+    component = { id = 6155 name = "" type = small_unit_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = morale which = militia value = 10 }
+    }
+  }
+  application =
+  { id        = 6160
+    name      = TECH_APP_LD_16_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 10 y = 98 }
+    year      = 2000
+    component = { id = 6161 name = "" type = large_unit_focus difficulty = 6 }
+    component = { id = 6162 name = "" type = large_unit_focus difficulty = 6 }
+    component = { id = 6163 name = "" type = large_unit_focus difficulty = 6 }
+    component = { id = 6164 name = "" type = large_unit_focus difficulty = 6 }
+    component = { id = 6165 name = "" type = large_unit_focus difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = surprise which = land value = 5 }
+      command = { type = morale which = bergsjaeger value = 10 }
+    }
+  }
+  application =
+  { id        = 6170
+    name      = TECH_APP_LD_17_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 10 y = 114 }
+    year      = 2000
+    component = { id = 6171 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6172 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6173 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6174 name = "" type = large_unit_tactics difficulty = 6 }
+    component = { id = 6175 name = "" type = large_unit_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects   = { }
+  }
+  application =
+  { id        = 6200
+    name      = TECH_APP_LD_20_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 1 }
+    year      = 2000
+    component = { id = 6201 name = "" type = training difficulty = 14 }
+    component = { id = 6202 name = "" type = training difficulty = 14 }
+    component = { id = 6203 name = "" type = training difficulty = 14 }
+    component = { id = 6204 name = "" type = training difficulty = 14 }
+    component = { id = 6205 name = "" type = training difficulty = 14 }
+    required  = { 5150 5170 5180 6100 }
+    effects =
+    { command = { type = new_model which = hq value = 1 }
+      command = { type = morale which = land value = 5 }
+      command = { type = info_may_cause which = 5150 }
+      command = { type = info_may_cause which = 5170 }
+      command = { type = info_may_cause which = 5180 }
+      command = { type = info_may_cause which = 7180 }
+      command = { type = scrap_model which = hq value = 0 }
+    }
+  }
+  application =
+  { id        = 6210
+    name      = TECH_APP_LD_21_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 189 y = 17 }
+    year      = 2000
+    component = { id = 6211 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6212 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6213 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6214 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6215 name = "" type = large_unit_tactics difficulty = 7 }
+    required  = { 6200 6110 }
+    effects =
+    { command = { type = morale which = infantry value = 10 }
+      command = { type = morale which = cavalry value = 10 }
+      command = { type = morale which = motorized value = 10 }
+      command = { type = morale which = mechanized value = 10 }
+    }
+  }
+  application =
+  { id        = 6220
+    name      = TECH_APP_LD_22_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 201 y = 33 }
+    year      = 2000
+    component = { id = 6221 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6222 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6223 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6224 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6225 name = "" type = large_unit_tactics difficulty = 7 }
+    required  = { 6200 6210 6120 }
+    effects =
+    { command = { type = morale which = armor value = 10 }
+      command = { type = morale which = light_armor value = 10 }
+    }
+  }
+  application =
+  { id        = 6230
+    name      = TECH_APP_LD_23_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 214 y = 49 }
+    year      = 2000
+    component = { id = 6231 name = "" type = decentralized_execution difficulty = 7 }
+    component = { id = 6232 name = "" type = decentralized_execution difficulty = 7 }
+    component = { id = 6233 name = "" type = decentralized_execution difficulty = 7 }
+    component = { id = 6234 name = "" type = decentralized_execution difficulty = 7 }
+    component = { id = 6235 name = "" type = decentralized_execution difficulty = 7 }
+    required  = { 6200 6210 6220 6130 }
+    effects =
+    { command = { type = morale which = marine value = 10 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.20 }
+      command = { type = shore_attack which = marine value = 5 }
+      command = { type = shore_attack which = bergsjaeger value = 5 }
+      command = { type = shore_attack which = paratrooper value = 1 }
+      command = { type = shore_attack which = militia value = 2 }
+    }
+  }
+  application =
+  { id        = 6240
+    name      = TECH_APP_LD_24_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 65 }
+    year      = 2000
+    component = { id = 6241 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6242 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6243 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6244 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6245 name = "" type = small_unit_tactics difficulty = 7 }
+    required  = { 6200 6140 }
+    effects =
+    { command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+      command = { type = morale which = paratrooper value = 10 }
+    }
+  }
+  application =
+  { id        = 6250
+    name      = TECH_APP_LD_25_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 81 }
+    year      = 2000
+    component = { id = 6251 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6252 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6253 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6254 name = "" type = small_unit_tactics difficulty = 7 }
+    component = { id = 6255 name = "" type = small_unit_tactics difficulty = 7 }
+    required  = { 6200 6150 }
+    effects =
+    { command = { type = morale which = militia value = 10 }
+    }
+  }
+  application =
+  { id        = 6260
+    name      = TECH_APP_LD_26_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 98 }
+    year      = 2000
+    component = { id = 6261 name = "" type = large_unit_focus difficulty = 7 }
+    component = { id = 6262 name = "" type = large_unit_focus difficulty = 7 }
+    component = { id = 6263 name = "" type = large_unit_focus difficulty = 7 }
+    component = { id = 6264 name = "" type = large_unit_focus difficulty = 7 }
+    component = { id = 6265 name = "" type = large_unit_focus difficulty = 7 }
+    required  = { 6200 6160 }
+    effects =
+    { command = { type = surprise which = land value = 5 }
+      command = { type = morale which = bergsjaeger value = 10 }
+    }
+  }
+  application =
+  { id        = 6270
+    name      = TECH_APP_LD_27_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 114 }
+    year      = 2000
+    component = { id = 6271 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6272 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6273 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6274 name = "" type = large_unit_tactics difficulty = 7 }
+    component = { id = 6275 name = "" type = large_unit_tactics difficulty = 7 }
+    required  = { 6200 6170 }
+    effects   = { }
+  }
+  application =
+  { id        = 6300
+    name      = TECH_APP_LD_30_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 372 y = 1 }
+    year      = 2000
+    component = { id = 6301 name = "" type = training difficulty = 16 }
+    component = { id = 6302 name = "" type = training difficulty = 16 }
+    component = { id = 6303 name = "" type = training difficulty = 16 }
+    component = { id = 6304 name = "" type = training difficulty = 16 }
+    component = { id = 6305 name = "" type = training difficulty = 16 }
+    required  = { 5250 5270 5280 6200 }
+    effects =
+    { command = { type = new_model which = hq value = 2 }
+      command = { type = morale which = land value = 5 }
+      command = { type = info_may_cause which = 5250 }
+      command = { type = info_may_cause which = 5270 }
+      command = { type = info_may_cause which = 5280 }
+      command = { type = info_may_cause which = 7200 }
+      command = { type = scrap_model which = hq value = 1 }
+    }
+  }
+  application =
+  { id        = 6310
+    name      = TECH_APP_LD_31_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 381 y = 17 }
+    year      = 2000
+    component = { id = 6311 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6312 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6313 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6314 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6315 name = "" type = large_unit_tactics difficulty = 8 }
+    required  = { 6300 6210 }
+    effects =
+    { command = { type = morale which = infantry value = 10 }
+      command = { type = morale which = cavalry value = 10 }
+      command = { type = morale which = motorized value = 10 }
+      command = { type = morale which = mechanized value = 10 }
+    }
+  }
+  application =
+  { id        = 6320
+    name      = TECH_APP_LD_32_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 393 y = 33 }
+    year      = 2000
+    component = { id = 6321 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6322 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6323 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6324 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6325 name = "" type = large_unit_tactics difficulty = 8 }
+    required  = { 6300 6310 6220 }
+    effects =
+    { command = { type = morale which = armor value = 10 }
+      command = { type = morale which = light_armor value = 10 }
+    }
+  }
+  application =
+  { id        = 6330
+    name      = TECH_APP_LD_33_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 406 y = 49 }
+    year      = 2000
+    component = { id = 6331 name = "" type = decentralized_execution difficulty = 8 }
+    component = { id = 6332 name = "" type = decentralized_execution difficulty = 8 }
+    component = { id = 6333 name = "" type = decentralized_execution difficulty = 8 }
+    component = { id = 6334 name = "" type = decentralized_execution difficulty = 8 }
+    component = { id = 6335 name = "" type = decentralized_execution difficulty = 8 }
+    required  = { 6300 6310 6320 6230 }
+    effects =
+    { command = { type = morale which = marine value = 10 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.20 }
+      command = { type = shore_attack which = marine value = 5 }
+      command = { type = shore_attack which = bergsjaeger value = 5 }
+      command = { type = shore_attack which = paratrooper value = 1 }
+      command = { type = shore_attack which = militia value = 2 }
+    }
+  }
+  application =
+  { id        = 6340
+    name      = TECH_APP_LD_34_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 372 y = 65 }
+    year      = 2000
+    component = { id = 6341 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6342 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6343 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6344 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6345 name = "" type = small_unit_tactics difficulty = 8 }
+    required  = { 6300 6240 }
+    effects =
+    { command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+      command = { type = morale which = paratrooper value = 10 }
+    }
+  }
+  application =
+  { id        = 6350
+    name      = TECH_APP_LD_35_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 372 y = 81 }
+    year      = 2000
+    component = { id = 6351 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6352 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6353 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6354 name = "" type = small_unit_tactics difficulty = 8 }
+    component = { id = 6355 name = "" type = small_unit_tactics difficulty = 8 }
+    required  = { 6300 6250 }
+    effects =
+    { command = { type = morale which = militia value = 10 }
+    }
+  }
+  application =
+  { id        = 6360
+    name      = TECH_APP_LD_36_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 372 y = 98 }
+    year      = 2000
+    component = { id = 6361 name = "" type = large_unit_focus difficulty = 8 }
+    component = { id = 6362 name = "" type = large_unit_focus difficulty = 8 }
+    component = { id = 6363 name = "" type = large_unit_focus difficulty = 8 }
+    component = { id = 6364 name = "" type = large_unit_focus difficulty = 8 }
+    component = { id = 6365 name = "" type = large_unit_focus difficulty = 8 }
+    required  = { 6300 6260 }
+    effects =
+    { command = { type = surprise which = land value = 5 }
+      command = { type = morale which = bergsjaeger value = 10 }
+    }
+  }
+  application =
+  { id        = 6370
+    name      = TECH_APP_LD_37_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 372 y = 114 }
+    year      = 2000
+    component = { id = 6371 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6372 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6373 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6374 name = "" type = large_unit_tactics difficulty = 8 }
+    component = { id = 6375 name = "" type = large_unit_tactics difficulty = 8 }
+    required  = { 6300 6270 }
+    effects   = { }
+  }
+  application =
+  { id        = 6400
+    name      = TECH_APP_LD_40_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 1 y = 150 }
+    year      = 2000
+    component = { id = 6401 name = "" type = training difficulty = 18 }
+    component = { id = 6402 name = "" type = training difficulty = 18 }
+    component = { id = 6403 name = "" type = training difficulty = 18 }
+    component = { id = 6404 name = "" type = training difficulty = 18 }
+    component = { id = 6405 name = "" type = training difficulty = 18 }
+    required  = { 5350 5370 5380 6300 }
+    effects =
+    { command = { type = new_model which = hq value = 3 }
+      command = { type = morale which = land value = 5 }
+      command = { type = info_may_cause which = 5350 }
+      command = { type = info_may_cause which = 5370 }
+      command = { type = info_may_cause which = 5380 }
+      command = { type = info_may_cause which = 7210 }
+      command = { type = scrap_model which = hq value = 2 }
+    }
+  }
+  application =
+  { id        = 6410
+    name      = TECH_APP_LD_41_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 10 y = 166 }
+    year      = 2000
+    component = { id = 6411 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6412 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6413 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6414 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6415 name = "" type = large_unit_tactics difficulty = 9 }
+    required  = { 6400 6310 }
+    effects =
+    { command = { type = morale which = infantry value = 10 }
+      command = { type = morale which = cavalry value = 10 }
+      command = { type = morale which = motorized value = 10 }
+      command = { type = morale which = mechanized value = 10 }
+    }
+  }
+  application =
+  { id        = 6420
+    name      = TECH_APP_LD_42_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 22 y = 182 }
+    year      = 2000
+    component = { id = 6421 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6422 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6423 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6424 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6425 name = "" type = large_unit_tactics difficulty = 9 }
+    required  = { 6400 6410 6320 }
+    effects =
+    { command = { type = morale which = armor value = 10 }
+      command = { type = morale which = light_armor value = 10 }
+    }
+  }
+  application =
+  { id        = 6430
+    name      = TECH_APP_LD_43_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 35 y = 198 }
+    year      = 2000
+    component = { id = 6431 name = "" type = decentralized_execution difficulty = 9 }
+    component = { id = 6432 name = "" type = decentralized_execution difficulty = 9 }
+    component = { id = 6433 name = "" type = decentralized_execution difficulty = 9 }
+    component = { id = 6434 name = "" type = decentralized_execution difficulty = 9 }
+    component = { id = 6435 name = "" type = decentralized_execution difficulty = 9 }
+    required  = { 6400 6410 6420 6330 }
+    effects =
+    { command = { type = morale which = marine value = 10 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.20 }
+      command = { type = shore_attack which = marine value = 5 }
+      command = { type = shore_attack which = bergsjaeger value = 5 }
+      command = { type = shore_attack which = paratrooper value = 1 }
+      command = { type = shore_attack which = militia value = 2 }
+    }
+  }
+  application =
+  { id        = 6440
+    name      = TECH_APP_LD_44_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 1 y = 214 }
+    year      = 2000
+    component = { id = 6441 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6442 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6443 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6444 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6445 name = "" type = small_unit_tactics difficulty = 9 }
+    required  = { 6400 6340 }
+    effects =
+    { command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+      command = { type = morale which = paratrooper value = 10 }
+    }
+  }
+  application =
+  { id        = 6450
+    name      = TECH_APP_LD_45_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 1 y = 230 }
+    year      = 2000
+    component = { id = 6451 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6452 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6453 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6454 name = "" type = small_unit_tactics difficulty = 9 }
+    component = { id = 6455 name = "" type = small_unit_tactics difficulty = 9 }
+    required  = { 6400 6350 }
+    effects =
+    { command = { type = morale which = militia value = 10 }
+    }
+  }
+  application =
+  { id        = 6460
+    name      = TECH_APP_LD_46_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 1 y = 246 }
+    year      = 2000
+    component = { id = 6461 name = "" type = large_unit_focus difficulty = 9 }
+    component = { id = 6462 name = "" type = large_unit_focus difficulty = 9 }
+    component = { id = 6463 name = "" type = large_unit_focus difficulty = 9 }
+    component = { id = 6464 name = "" type = large_unit_focus difficulty = 9 }
+    component = { id = 6465 name = "" type = large_unit_focus difficulty = 9 }
+    required  = { 6400 6360 }
+    effects =
+    { command = { type = surprise which = land value = 5 }
+      command = { type = morale which = bergsjaeger value = 10 }
+    }
+  }
+  application =
+  { id        = 6470
+    name      = TECH_APP_LD_47_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 1 y = 262 }
+    year      = 2000
+    component = { id = 6471 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6472 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6473 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6474 name = "" type = large_unit_tactics difficulty = 9 }
+    component = { id = 6475 name = "" type = large_unit_tactics difficulty = 9 }
+    required  = { 6400 6370 }
+    effects   = { }
+  }
+  application =
+  { id        = 6500
+    name      = TECH_APP_LD_50_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 150 }
+    year      = 2000
+    component = { id = 6501 name = "" type = training difficulty = 20 }
+    component = { id = 6502 name = "" type = training difficulty = 20 }
+    component = { id = 6503 name = "" type = training difficulty = 20 }
+    component = { id = 6504 name = "" type = training difficulty = 20 }
+    component = { id = 6505 name = "" type = training difficulty = 20 }
+    required  = { 5450 5470 5480 6400 }
+    effects =
+    { command = { type = new_model which = hq value = 4 }
+      command = { type = morale which = land value = 5 }
+      command = { type = info_may_cause which = 5450 }
+      command = { type = info_may_cause which = 5470 }
+      command = { type = info_may_cause which = 5480 }
+      command = { type = scrap_model which = hq value = 3 }
+    }
+  }
+  application =
+  { id        = 6510
+    name      = TECH_APP_LD_51_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 189 y = 166 }
+    year      = 2000
+    component = { id = 6511 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6512 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6513 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6514 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6515 name = "" type = large_unit_tactics difficulty = 10 }
+    required  = { 6500 6410 }
+    effects =
+    { command = { type = morale which = infantry value = 10 }
+      command = { type = morale which = cavalry value = 10 }
+      command = { type = morale which = motorized value = 10 }
+      command = { type = morale which = mechanized value = 10 }
+    }
+  }
+  application =
+  { id        = 6520
+    name      = TECH_APP_LD_52_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 201 y = 182 }
+    year      = 2000
+    component = { id = 6521 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6522 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6523 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6524 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6525 name = "" type = large_unit_tactics difficulty = 10 }
+    required  = { 6500 6510 6420 }
+    effects =
+    { command = { type = morale which = armor value = 10 }
+      command = { type = morale which = light_armor value = 10 }
+    }
+  }
+  application =
+  { id        = 6530
+    name      = TECH_APP_LD_53_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 214 y = 198 }
+    year      = 2000
+    component = { id = 6531 name = "" type = decentralized_execution difficulty = 10 }
+    component = { id = 6532 name = "" type = decentralized_execution difficulty = 10 }
+    component = { id = 6533 name = "" type = decentralized_execution difficulty = 10 }
+    component = { id = 6534 name = "" type = decentralized_execution difficulty = 10 }
+    component = { id = 6535 name = "" type = decentralized_execution difficulty = 10 }
+    required  = { 6500 6510 6520 6430 }
+    effects =
+    { command = { type = morale which = marine value = 10 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.20 }
+      command = { type = shore_attack which = marine value = 5 }
+      command = { type = shore_attack which = bergsjaeger value = 5 }
+      command = { type = shore_attack which = paratrooper value = 1 }
+      command = { type = shore_attack which = militia value = 2 }
+    }
+  }
+  application =
+  { id        = 6540
+    name      = TECH_APP_LD_54_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 214 }
+    year      = 2000
+    component = { id = 6541 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6542 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6543 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6544 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6545 name = "" type = small_unit_tactics difficulty = 10 }
+    required  = { 6500 6440 }
+    effects =
+    { command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+      command = { type = morale which = paratrooper value = 10 }
+    }
+  }
+  application =
+  { id        = 6550
+    name      = TECH_APP_LD_55_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 230 }
+    year      = 2000
+    component = { id = 6551 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6552 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6553 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6554 name = "" type = small_unit_tactics difficulty = 10 }
+    component = { id = 6555 name = "" type = small_unit_tactics difficulty = 10 }
+    required  = { 6500 6450 }
+    effects =
+    { command = { type = morale which = militia value = 10 }
+    }
+  }
+  application =
+  { id        = 6560
+    name      = TECH_APP_LD_56_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 246 }
+    year      = 2000
+    component = { id = 6561 name = "" type = large_unit_focus difficulty = 10 }
+    component = { id = 6562 name = "" type = large_unit_focus difficulty = 10 }
+    component = { id = 6563 name = "" type = large_unit_focus difficulty = 10 }
+    component = { id = 6564 name = "" type = large_unit_focus difficulty = 10 }
+    component = { id = 6565 name = "" type = large_unit_focus difficulty = 10 }
+    required  = { 6500 6460 }
+    effects =
+    { command = { type = surprise which = land value = 5 }
+      command = { type = morale which = bergsjaeger value = 10 }
+    }
+  }
+  application =
+  { id        = 6570
+    name      = TECH_APP_LD_57_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 180 y = 262 }
+    year      = 2000
+    component = { id = 6571 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6572 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6573 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6574 name = "" type = large_unit_tactics difficulty = 10 }
+    component = { id = 6575 name = "" type = large_unit_tactics difficulty = 10 }
+    required  = { 6500 6470 }
+    effects   = { }
+  }
+  application =
+  { id        = 6600
+    name      = TECH_APP_LD_60_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 204 y = 301 }
+    year      = 2000
+    component = { id = 6601 name = "" type = training difficulty = 6 }
+    component = { id = 6602 name = "" type = training difficulty = 6 }
+    component = { id = 6603 name = "" type = training difficulty = 6 }
+    component = { id = 6604 name = "" type = training difficulty = 6 }
+    component = { id = 6605 name = "" type = training difficulty = 6 }
+    required  = { 6200 }
+    effects =
+    { command = { type = counterattack value = 2 }
+      command = { type = assault value = 2 }
+      command = { type = encirclement value = 2 }
+      command = { type = ambush value = 2 }
+      command = { type = delay value = 2 }
+      command = { type = tactical_withdrawal value = 2 }
+      command = { type = breakthrough value = 2 }
+      command = { type = sce_frequency value = 0.5 }
+    }
+  }
+  application =
+  { id        = 6610
+    name      = TECH_APP_LD_61_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 204 y = 319 }
+    year      = 2000
+    component = { id = 6611 name = "" type = training difficulty = 5 }
+    component = { id = 6612 name = "" type = training difficulty = 5 }
+    component = { id = 6613 name = "" type = training difficulty = 5 }
+    component = { id = 6614 name = "" type = training difficulty = 5 }
+    component = { id = 6615 name = "" type = training difficulty = 5 }
+    required  = { 6600 }
+    effects =
+    { command = { type = deactivate which = 6630 }
+      command = { type = deactivate which = 6620 }
+      command = { type = counterattack value = 3 }
+      command = { type = delay value = 3 }
+      command = { type = tactical_withdrawal value = 3 }
+      command = { type = ambush value = 1 }
+    }
+  }
+  application =
+  { id        = 6620
+    name      = TECH_APP_LD_62_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 204 y = 336 }
+    year      = 2000
+    component = { id = 6621 name = "" type = training difficulty = 5 }
+    component = { id = 6622 name = "" type = training difficulty = 5 }
+    component = { id = 6623 name = "" type = training difficulty = 5 }
+    component = { id = 6624 name = "" type = training difficulty = 5 }
+    component = { id = 6625 name = "" type = training difficulty = 5 }
+    required  = { 6600 }
+    effects =
+    { command = { type = deactivate which = 6610 }
+      command = { type = deactivate which = 6630 }
+      command = { type = counterattack value = 2 }
+      command = { type = assault value = 2 }
+      command = { type = encirclement value = 2 }
+      command = { type = ambush value = 2 }
+      command = { type = delay value = 2 }
+      command = { type = tactical_withdrawal value = 2 }
+      command = { type = breakthrough value = 2 }
+    }
+  }
+  application =
+  { id        = 6630
+    name      = TECH_APP_LD_63_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 204 y = 353 }
+    year      = 2000
+    component = { id = 6631 name = "" type = training difficulty = 5 }
+    component = { id = 6632 name = "" type = training difficulty = 5 }
+    component = { id = 6633 name = "" type = training difficulty = 5 }
+    component = { id = 6634 name = "" type = training difficulty = 5 }
+    component = { id = 6635 name = "" type = training difficulty = 5 }
+    required  = { 6600 }
+    effects =
+    { command = { type = deactivate which = 6610 }
+      command = { type = deactivate which = 6620 }
+      command = { type = breakthrough value = 3 }
+      command = { type = encirclement value = 3 }
+      command = { type = assault value = 1 }
+      command = { type = ambush value = 2 }
+    }
+  }
+  application =
+  { id        = 6700
+    name      = TECH_APP_LD_64_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 324 y = 301 }
+    year      = 2000
+    component = { id = 6701 name = "" type = training difficulty = 7 }
+    component = { id = 6702 name = "" type = training difficulty = 7 }
+    component = { id = 6703 name = "" type = training difficulty = 7 }
+    component = { id = 6704 name = "" type = training difficulty = 7 }
+    component = { id = 6705 name = "" type = training difficulty = 7 }
+    required  = { 6300 6600 }
+    effects =
+    { command = { type = counterattack value = 2 }
+      command = { type = assault value = 2 }
+      command = { type = encirclement value = 2 }
+      command = { type = ambush value = 2 }
+      command = { type = delay value = 2 }
+      command = { type = tactical_withdrawal value = 2 }
+      command = { type = breakthrough value = 2 }
+      command = { type = sce_frequency value = 0.5 }
+    }
+  }
+  application =
+  { id        = 6710
+    name      = TECH_APP_LD_65_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 324 y = 319 }
+    year      = 2000
+    component = { id = 6711 name = "" type = training difficulty = 5 }
+    component = { id = 6712 name = "" type = training difficulty = 5 }
+    component = { id = 6713 name = "" type = training difficulty = 5 }
+    component = { id = 6714 name = "" type = training difficulty = 5 }
+    component = { id = 6715 name = "" type = training difficulty = 5 }
+    required  = { 6700 6610 }
+    effects =
+    { command = { type = deactivate which = 6730 }
+      command = { type = deactivate which = 6720 }
+      command = { type = counterattack value = 3 }
+      command = { type = delay value = 3 }
+      command = { type = tactical_withdrawal value = 3 }
+      command = { type = ambush value = 1 }
+    }
+  }
+  application =
+  { id        = 6720
+    name      = TECH_APP_LD_66_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 324 y = 336 }
+    year      = 2000
+    component = { id = 6721 name = "" type = training difficulty = 5 }
+    component = { id = 6722 name = "" type = training difficulty = 5 }
+    component = { id = 6723 name = "" type = training difficulty = 5 }
+    component = { id = 6724 name = "" type = training difficulty = 5 }
+    component = { id = 6725 name = "" type = training difficulty = 5 }
+    required  = { 6700 6620 }
+    effects =
+    { command = { type = deactivate which = 6710 }
+      command = { type = deactivate which = 6730 }
+      command = { type = counterattack value = 2 }
+      command = { type = assault value = 2 }
+      command = { type = encirclement value = 2 }
+      command = { type = ambush value = 2 }
+      command = { type = delay value = 2 }
+      command = { type = tactical_withdrawal value = 2 }
+      command = { type = breakthrough value = 2 }
+    }
+  }
+  application =
+  { id        = 6730
+    name      = TECH_APP_LD_67_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 324 y = 353 }
+    year      = 2000
+    component = { id = 6731 name = "" type = training difficulty = 5 }
+    component = { id = 6732 name = "" type = training difficulty = 5 }
+    component = { id = 6733 name = "" type = training difficulty = 5 }
+    component = { id = 6734 name = "" type = training difficulty = 5 }
+    component = { id = 6735 name = "" type = training difficulty = 5 }
+    required  = { 6700 6630 }
+    effects =
+    { command = { type = deactivate which = 6710 }
+      command = { type = deactivate which = 6720 }
+      command = { type = breakthrough value = 3 }
+      command = { type = encirclement value = 3 }
+      command = { type = assault value = 1 }
+      command = { type = ambush value = 2 }
+    }
+  }
+  application =
+  { id        = 6800
+    name      = TECH_APP_LD_68_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 446 y = 301 }
+    year      = 2000
+    component = { id = 6801 name = "" type = training difficulty = 8 }
+    component = { id = 6802 name = "" type = training difficulty = 8 }
+    component = { id = 6803 name = "" type = training difficulty = 8 }
+    component = { id = 6804 name = "" type = training difficulty = 8 }
+    component = { id = 6805 name = "" type = training difficulty = 8 }
+    required  = { 6400 6700 }
+    effects =
+    { command = { type = counterattack value = 2 }
+      command = { type = assault value = 2 }
+      command = { type = encirclement value = 2 }
+      command = { type = ambush value = 2 }
+      command = { type = delay value = 2 }
+      command = { type = tactical_withdrawal value = 2 }
+      command = { type = breakthrough value = 2 }
+      command = { type = sce_frequency value = 0.5 }
+    }
+  }
+  application =
+  { id        = 6810
+    name      = TECH_APP_LD_69_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 446 y = 319 }
+    year      = 2000
+    component = { id = 6811 name = "" type = training difficulty = 5 }
+    component = { id = 6812 name = "" type = training difficulty = 5 }
+    component = { id = 6813 name = "" type = training difficulty = 5 }
+    component = { id = 6814 name = "" type = training difficulty = 5 }
+    component = { id = 6815 name = "" type = training difficulty = 5 }
+    required  = { 6800 6710 }
+    effects =
+    { command = { type = deactivate which = 6830 }
+      command = { type = deactivate which = 6820 }
+      command = { type = counterattack value = 3 }
+      command = { type = tactical_withdrawal value = 3 }
+      command = { type = delay value = 3 }
+      command = { type = ambush value = 1 }
+    }
+  }
+  application =
+  { id        = 6820
+    name      = TECH_APP_LD_70_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 446 y = 336 }
+    year      = 2000
+    component = { id = 6821 name = "" type = training difficulty = 5 }
+    component = { id = 6822 name = "" type = training difficulty = 5 }
+    component = { id = 6823 name = "" type = training difficulty = 5 }
+    component = { id = 6824 name = "" type = training difficulty = 5 }
+    component = { id = 6825 name = "" type = training difficulty = 5 }
+    required  = { 6800 6720 }
+    effects =
+    { command = { type = deactivate which = 6810 }
+      command = { type = deactivate which = 6830 }
+      command = { type = counterattack value = 2 }
+      command = { type = assault value = 2 }
+      command = { type = encirclement value = 2 }
+      command = { type = ambush value = 2 }
+      command = { type = delay value = 2 }
+      command = { type = tactical_withdrawal value = 2 }
+      command = { type = breakthrough value = 2 }
+    }
+  }
+  application =
+  { id        = 6830
+    name      = TECH_APP_LD_71_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 446 y = 353 }
+    year      = 2000
+    component = { id = 6831 name = "" type = training difficulty = 5 }
+    component = { id = 6832 name = "" type = training difficulty = 5 }
+    component = { id = 6833 name = "" type = training difficulty = 5 }
+    component = { id = 6834 name = "" type = training difficulty = 5 }
+    component = { id = 6835 name = "" type = training difficulty = 5 }
+    required  = { 6800 6730 }
+    effects =
+    { command = { type = deactivate which = 6810 }
+      command = { type = deactivate which = 6820 }
+      command = { type = breakthrough value = 3 }
+      command = { type = encirclement value = 3 }
+      command = { type = assault value = 1 }
+      command = { type = ambush value = 2 }
+    }
+  }
+  application =
+  { id        = 6910
+    name      = TECH_APP_LD_72_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 5 y = 319 }
+    year      = 2000
+    component = { id = 6911 name = "" type = training difficulty = 6 }
+    component = { id = 6912 name = "" type = training difficulty = 6 }
+    component = { id = 6913 name = "" type = training difficulty = 6 }
+    component = { id = 6914 name = "" type = training difficulty = 6 }
+    component = { id = 6915 name = "" type = training difficulty = 6 }
+    required  = { }
+    effects   = { }
+  }
+  application =
+  { id        = 6920
+    name      = TECH_APP_LD_73_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 31 y = 336 }
+    year      = 2000
+    component = { id = 6921 name = "" type = training difficulty = 20 }
+    component = { id = 6922 name = "" type = training difficulty = 20 }
+    component = { id = 6923 name = "" type = training difficulty = 20 }
+    component = { id = 6924 name = "" type = training difficulty = 20 }
+    component = { id = 6925 name = "" type = training difficulty = 20 }
+    required  = { 6910 }
+    effects =
+    { command = { type = deactivate which = 6910 }
+    }
+  }
+  application =
+  { id        = 6930
+    name      = TECH_APP_LD_74_NAME
+    desc      = TECH_APP_LD_1_DESC
+    position  = { x = 71 y = 353 }
+    year      = 2000
+    component = { id = 6931 name = "" type = training difficulty = 12 }
+    component = { id = 6932 name = "" type = training difficulty = 12 }
+    component = { id = 6933 name = "" type = training difficulty = 12 }
+    component = { id = 6934 name = "" type = training difficulty = 12 }
+    component = { id = 6935 name = "" type = training difficulty = 12 }
+    required  = { 6920 }
+    effects =
+    { command = { type = morale which = land value = 30 }
+      command = { type = deactivate which = 6920 }
+      command = { type = deactivate which = 6910 }
+    }
+  }
+}

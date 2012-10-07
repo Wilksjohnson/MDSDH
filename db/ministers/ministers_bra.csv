@@ -1,0 +1,47 @@
+BRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+1101;Head of State;Luís Inácio Lula da Silva;2003;2050;2050;LWR;Popular Figurehead;High;M1101;x
+1102;Head of Government;Luís Inácio Lula da Silva;2003;2050;2050;LWR;Happy Amateur;High;M1101;x
+1103;Minister of Armament;José Viegas Filho;2003;2050;2050;LWR;air to sea proponent;High;Jvfilho;x
+1104;Foreign Minister;Celso Amorim;2003;2050;2050;SL;Biased Intellectual;High;M1104;x
+1105;Chief of Navy;Roberto de Guimarães;2003;2050;2050;NA;Base Control Doctrine;High;M1106;x
+1106;Chief of Army;Francisco de Albuquerque;2003;2050;2050;NA;Guns and Butter Doctrine;High;M1107;x
+1107;Chief of Air Force;Luiz Carlos Bueno;2003;2050;2050;NA;Air Superiority Doctrine;High;M1108;x
+1108;Head of Military Intelligence;Márcio Buzanelli;2003;2050;2050;SL;Technical Specialist;High;M1109;x
+1109;Chief of Staff;José Viegas;2003;2050;2050;NA;School of Psychology;High;M1122;x
+1110;Minister of Security;Márcio Thomaz Bastos;2003;2050;2050;SL;Silent Lawyer;High;M1125;x
+;Replacements;;;;;;;x
+1111;Chief of Staff;José Alencar;2003;2050;2050;ML;School of Defence;High;M1105;x
+1112;Minister of Armament;Dilma Vana Rousseff;2003;2050;2050;SD;Resource Industrialist;High;M1110;x
+1113;Head of State;Heloísa Helena;2003;2050;2050;LE;Die-hard Reformer;High;M1111;x
+1114;Head of Government;Heloísa Helena;2003;2050;2050;LE;Ambitious Union Boss;High;M1111;x
+1115;Foreign Minister;Luciana Genro;2003;2050;2050;LE;Iron Fisted Brute;High;M1113;x
+1116;Minister of Armament;João Alfredo;2003;2050;2050;LE;Administrative Genius;High;M1114;x
+1117;Head of State;Severino Cavalcanti;2003;2050;2050;FA;Barking Buffoon;High;M1115;x
+1118;Head of Government;Severino Cavalcanti;2003;2050;2050;FA;Corporate Suit;High;M1115;x
+1119;Minister of Armament;Ciro Nogueira;2003;2050;2050;PA;laissez-faire capitalist;High;M1117;x
+1120;Chief of Army;Jair Bolsonaro;2003;2050;2050;FA;Guns and Butter Doctrine;High;M1118;x
+1121;Head of State;José Serra;2003;2050;2050;ML;Insignificant Layman;High;M1119;x
+1122;Head of Government;José Serra;2003;2050;2050;ML;Silent Workhorse;High;M1119;x
+1123;Minister of Armament;Alberto Goldman;2003;2050;2050;SL;Theoretical Scientist;High;M1121;x
+1124;Head of State;Dom Luiz I;2003;2050;2050;PA;Autocratic Charmer;High;M1123;x
+1125;Head of Government;Enéas Ferreira Carneiro;2003;2050;2050;PA;Flamboyant Tough Guy;High;M1124;x
+1126;Minister of Security;Paulo de Tarso Ramos Ribeiro;2003;2050;2050;ML;Back Stabber;High;M1126;x
+1127;Head of State;Geraldo Alckmin;2003;2050;2050;SL;Benevolent Gentleman;High;Galckmin;x
+1128;Head of Government;Geraldo Alckmin;2003;2050;2050;SL;Silent Workhorse;High;Galckmin;x
+1129;Minister of Armament;Nelson Jobim;2003;2050;2050;SL;laissez-faire capitalist;High;Njobim;x
+1130;Minister of Armament;Waldir Pires;2003;2050;2050;SD;Corrupt Kleptocrat;High;Wpires;x
+1131;Minister of Armament;Jose Alencar;2003;2050;2050;SL;laissez-faire capitalist;High;Jalencar;x
+1132;Minister of Security;Tarso Genro;2003;2050;2050;SD;Compassionate Gentleman;High;Tgenro;x
+1133;Head of Military Intelligence;Paulo Fernando Lacerda;2003;2050;2050;NA;Dismal Enigma;High;Pflacerda;x
+1134;Head of Military Intelligence;Wilson Roberto Trezza;2005;2050;2050;NA;Political Specialist;High;Wrtrezza;x
+1135;Chief of Army;Enzo Peri;2003;2050;2050;NA;Guns and Butter Doctrine;High;Emperi;x
+1136;Chief of Navy;Julio Soares de Moura Neto;2003;2050;2050;NA;Indirect Approach Doctrine;High;Jsneto;x
+1137;Chief of Air Force;Juniti Saito;2003;2050;2050;NA;Air Superiority Doctrine;High;Jsaito;x
+1138;Minister of Security;Michel Temer;2003;2050;2050;ML;Crime Fighter;High;Mtemer;x
+1139;Minister of Armament;Aécio Neves;2003;2050;2050;SL;laissez-faire capitalist;High;Aneves;x
+1140;Foreign Minister;Sergio Guerra;2003;2050;2050;SL;Ideological Crusader;High;Sguerra;x
+1141;Minister of Security;Eduardo Campos;2003;2050;2050;SD;Silent Lawyer;High;Ecampos;x
+1142;Foreign Minister;Rodrigo Maia;2003;2050;2050;ML;Ideological Crusader;High;Rmaia;x
+1143;Head of State;Francisco Dornelles;2003;2050;2050;ML;Benevolent Gentleman;High;Fdornelles;x
+1144;Head of Government;Francisco Dornelles;2003;2050;2050;ML;Flamboyant Tough Guy;High;Fdornelles;x
+1145;Minister of Security;Ricardo Berzoini;2003;2050;2050;LWR;Man of the People;High;Rberzoini;x

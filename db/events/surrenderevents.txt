@@ -1,0 +1,553 @@
+#########################################################
+#							#
+# Surrender events                                      #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name
+#########################################################
+#101501 - 102000 # Main events
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Russia on the march
+#############################################
+
+#############################################
+###### Russia on the march
+#############################################
+event = {
+	id = 101501
+	random = no
+	country = RUS
+	trigger = { control = { province = 232 } war = { country = USA } }
+
+	name = "EVT_101501_NAME"
+	desc = "EVT_101501_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Russian army occupies Berlin
+#############################################
+event = {
+	id = 101502
+	random = no
+	country = RUS
+	trigger = { control = { province = 163 } war = { country = USA } }
+
+	name = "EVT_101502_NAME"
+	desc = "EVT_101502_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Russian army occupies Paris
+#############################################
+event = {
+	id = 101503
+	random = no
+	country = RUS
+	trigger = { control = { province = 55 } war = { country = USA } }
+
+	name = "EVT_101503_NAME"
+	desc = "EVT_101503_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Russian army occupies Brussels
+#############################################
+event = {
+	id = 101504
+	random = no
+	country = RUS
+	trigger = { control = { province = 116 } war = { country = USA } }
+
+	name = "EVT_101504_NAME"
+	desc = "EVT_101504_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Russian army occupies Rome
+#############################################
+event = {
+	id = 101505
+	random = no
+	country = RUS
+	trigger = { control = { province = 419 } war = { country = USA } }
+
+	name = "EVT_101505_NAME"
+	desc = "EVT_101505_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Russian army occupies Istanbul
+#############################################
+event = {
+	id = 101506
+	random = no
+	country = RUS
+	trigger = { control = { province = 409 } war = { country = USA } }
+
+	name = "EVT_101506_NAME"
+	desc = "EVT_101506_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Russian army occupies Madrid
+#############################################
+event = {
+	id = 101507
+	random = no
+	country = RUS
+	trigger = { control = { province = 460 } war = { country = USA } }
+
+	name = "EVT_101507_NAME"
+	desc = "EVT_101507_DESC"
+	style = 0
+	picture = "russianarmy"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Onwards!"
+		command = { type = dissent value = -1 }
+	}
+}
+
+#############################################
+###### Romania surrenders to Russia
+#############################################
+event = {
+	id = 101508
+	random = no
+	country = ROM
+	trigger = {
+		lost_IC = { country = ROM value = 50 }
+		war = { country = ROM }
+		war = { country = USA country = RUS }
+		control = { province = 617 }
+		control = { province = 304 }
+		NOT = { lost_national = { country = RUS value = 1 } } #not if Russian soil is being invaded
+	}
+
+	name = "EVT_101508_NAME"
+	desc = "EVT_101508_DESC"
+	style = 0
+	picture = "russiantanks"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "We surrender"
+		ai_chance = 80
+		command = { type = trigger which = 101509 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = CAN value = -100 }
+		command = { type = leave_alliance }
+		command = { type = end_guarantee which = USA where = ROM }
+		command = { type = end_access which = USA }
+	}
+	action = {
+		name = "We will never surrender!"
+		ai_chance = 20
+		command = { type = dissent value = 3 }
+	}
+}
+
+#############################################
+###### Romania surrenders to Russia
+#############################################
+event = {
+	id = 101509
+	random = no
+	country = RUS
+
+	name = "EVT_101509_NAME"
+	desc = "EVT_101509_DESC"
+	style = 0
+	picture = "no"
+
+	action = {
+		name = "We accept their surrender"
+		ai_chance = 60
+		command = { type = make_puppet which = ROM }
+	}
+	action = {
+		name = "Direct occupation is preferable"
+		ai_chance = 40
+		command = { type = dissent value = 1 }
+		command = { type = belligerence value = 3 }
+	}
+}
+
+#############################################
+###### Bulgaria surrenders to Russia
+#############################################
+event = {
+	id = 101510
+	random = no
+	country = BUL
+	trigger = {
+		lost_IC = { value = 5 }
+		war = { country = RUS }
+		war = { country = USA country = RUS }
+		NOT = {
+			war = { country = ROM country = RUS } #Romania has to be out of the war
+			lost_national = { country = RUS value = 1 } #not if Russian soil is being invaded
+		}
+		OR = {
+			puppet = { country = ROM country = RUS }
+			control = { province = 316 data = RUS }
+		}
+	}
+
+	name = "EVT_101510_NAME"
+	desc = "EVT_101510_DESC"
+	style = 0
+	picture = "russiantanks"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "We surrender"
+		ai_chance = 80
+		command = { type = trigger which = 101511 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = CAN value = -100 }
+		command = { type = leave_alliance }
+		command = { type = end_guarantee which = USA where = BUL }
+		command = { type = end_access which = USA }
+	}
+	action = {
+		name = "We will never surrender"
+		ai_chance = 20
+		command = { type = dissent value = 3 }
+	}
+}
+
+#############################################
+###### Bulgaria surrenders to Russia
+#############################################
+event = {
+	id = 101511
+	random = no
+	country = RUS
+
+	name = "EVT_101511_NAME"
+	desc = "EVT_101511_DESC"
+	style = 0
+	picture = "no"
+
+	action = {
+		name = "We accept their surrender"
+		ai_chance = 90
+		command = { type = make_puppet which = BUL }
+	}
+	action = {
+		name = "Direct occupation is preferable"
+		ai_chance = 10
+		command = { type = dissent value = 1 }
+		command = { type = belligerence value = 3 }
+	}
+}
+
+#############################################
+###### Norway surrenders to Russia
+#############################################
+event = {
+	id = 101512
+	random = no
+	country = NOR
+	trigger = {
+		lost_national = { value = 10 }
+		war = { country = RUS }
+		war = { country = USA country = RUS }
+		NOT = {
+			war = { country = SWE country = RUS } #Sweden has to be out of the war
+		 	war = { country = FIN country = RUS } #Finland has to be out of the war
+			lost_national = { country = RUS value = 1 } #not if Russian soil is being invaded
+		}
+	}
+
+	name = "EVT_101512_NAME"
+	desc = "EVT_101512_DESC"
+	style = 0
+	picture = "russiantanks"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "We surrender"
+		ai_chance = 80
+		command = { type = trigger which = 101513 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = CAN value = -100 }
+		command = { type = leave_alliance }
+		command = { type = end_guarantee which = USA where = NOR }
+		command = { type = end_access which = USA }
+	}
+	action = {
+		name = "We will never surrender"
+		ai_chance = 20
+		command = { type = dissent value = 3 }
+	}
+}
+
+#############################################
+###### Norway surrenders to Russia
+#############################################
+event = {
+	id = 101513
+	random = no
+	country = RUS
+
+	name = "EVT_101513_NAME"
+	desc = "EVT_101513_DESC"
+	style = 0
+	picture = "no"
+
+	action = {
+		name = "We accept their surrender"
+		ai_chance = 90
+		command = { type = make_puppet which = NOR }
+	}
+	action = {
+		name = "Direct occupation is preferable"
+		ai_chance = 10
+		command = { type = dissent value = 1 }
+		command = { type = belligerence value = 3 }
+	}
+}
+
+#############################################
+###### Japan surrenders to China
+#############################################
+event = {
+	id = 101514
+	random = no
+	country = JAP
+	trigger = {
+		lost_national = { value = 20 }
+		war = { country = CHC }
+		war = { country = USA country = CHC }
+		control = { province = 1563 data = CHC } #Okinawa
+		control = { province = 1564 data = CHC }
+		NOT = {
+			war = { country = CHI country = CHC } #Taiwan has to be out of the war
+		 	war = { country = PHI country = CHC } #Phillipines has to be out of the war
+			lost_national = { country = CHC value = 1 } #not if Chinese soil is being invaded
+		}
+	}
+
+	name = "EVT_101514_NAME"
+	desc = "EVT_101514_DESC"
+	style = 0
+	picture = "china_generals"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "A new order in Asia is here: We surrender"
+		ai_chance = 80
+		command = { type = trigger which = 101515 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = CAN value = -100 }
+		command = { type = leave_alliance }
+		command = { type = end_guarantee which = USA where = JAP }
+		command = { type = end_access which = USA }
+	}
+	action = {
+		name = "We will never surrender"
+		ai_chance = 20
+		command = { type = dissent value = 5 }
+	}
+}
+
+#############################################
+###### Japan surrenders to China
+#############################################
+event = {
+	id = 101515
+	random = no
+	country = CHC
+
+	name = "EVT_101515_NAME"
+	desc = "EVT_101515_DESC"
+	style = 0
+	picture = "china_generals"
+
+	action = {
+		name = "We accept their surrender"
+		ai_chance = 95
+		command = { type = make_puppet which = JAP }
+	}
+	action = {
+		name = "Direct occupation is preferable"
+		ai_chance = 5
+		command = { type = dissent value = 1 }
+		command = { type = belligerence value = 3 }
+	}
+}
+
+#############################################
+###### Normalisation of Japan
+#############################################
+event = {
+	id = 101516
+	random = no
+	country = CHC
+	trigger = { puppet = { country = JAP country = CHC } random = 5 }
+
+	name = "EVT_101516_NAME"
+	desc = "EVT_101516_DESC"
+	style = 0
+	picture = "jap"
+
+	date = { day = 23 month = march year = 2004 }
+	offset = 30
+	deathdate = { day = 30 month = december year = 2019 }
+
+	action = {
+		name = "Give control back to the japanese government"
+		ai_chance = 100
+		command = { type = end_mastery which = JAP }
+		command = { type = trigger which = 101517 }
+	}
+	action = {
+		name = "A firm hand is required in Japan"
+		ai_chance = 0
+		command = { type = dissent value = 3 }
+		command = { type = belligerence value = 2 }
+		command = { type = trigger which = 101518 }
+	}
+}
+
+#############################################
+###### Normalisation of Japan - China accepts
+#############################################
+event = {
+	id = 101517
+	random = no
+	country = JAP
+
+	name = "EVT_101517_NAME"
+	desc = "EVT_101517_DESC"
+	style = 0
+	picture = "jap"
+
+	action = {
+		name = "We have regained full sovereignity"
+		ai_chance = 100
+		command = { type = dissent value = -10 }
+		command = { type = relation which = CHC value = 50 }
+	}
+}
+
+#############################################
+###### Normalisation of Japan - China refuses
+#############################################
+event = {
+	id = 101518
+	random = no
+	country = JAP
+
+	name = "EVT_101518_NAME"
+	desc = "EVT_101518_DESC"
+	style = 0
+	picture = "jap"
+
+	action = {
+		name = "Horrible..."
+		ai_chance = 100
+		command = { type = dissent value = 20 }
+		command = { type = revolt which = 1552 }
+		command = { type = revolt which = 1552 }
+		command = { type = switch_allegiance which = -1 where = USA }
+		command = { type = switch_allegiance which = -1 where = USA }
+	}
+
+}

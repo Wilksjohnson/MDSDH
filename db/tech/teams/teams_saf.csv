@@ -1,0 +1,12 @@
+SAF;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+15000;National Military Academy;team_noimage;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15001;Vektor;vektor;7;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15002;Land Systems OMC;T15001;6;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15003;NIA;team_noimage;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15004;Mittal Steel South Africa;mittal;6;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15005;RRS;team_noimage;5;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15006;Denel Systems;T15000;5;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15007;Denel Aerospace;T15002;5;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15008;South African Army;T15006;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15009;South African Air Force;saairforce;5;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15008;South African Navy;sanavy;5;1000;2999;naval_training;seamanship;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

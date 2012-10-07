@@ -1,0 +1,76 @@
+# 0 - 
+model =
+{ cost                       = 12.6
+  buildtime                  = 300
+  manpower                   = 3
+  surfacedetectioncapability = 12
+  airdetectioncapability     = 10
+  subdetectioncapability     = 3
+  airdefence                 = 15
+  seaattack                  = 27
+  subattack                  = 3
+  airattack                  = 15
+  shorebombardment           = 20
+  distance                   = 2.6
+  supplyconsumption          = 2.5
+  fuelconsumption            = 1.5
+  upgrade_time_factor        = 1.0
+  upgrade_cost_factor        = 0.6
+}
+# 1 - 
+model =
+{ cost                       = 21.2
+  buildtime                  = 300
+  manpower                   = 3
+  surfacedetectioncapability = 15
+  airdetectioncapability     = 13
+  subdetectioncapability     = 4
+  airdefence                 = 21
+  seaattack                  = 33
+  subattack                  = 4
+  airattack                  = 21
+  shorebombardment           = 28
+  distance                   = 3.2
+  supplyconsumption          = 3
+  fuelconsumption            = 1.5
+  upgrade_time_factor        = 1.0
+  upgrade_cost_factor        = 0.6
+}
+# 2 - 
+model =
+{ cost                       = 27.7
+  buildtime                  = 300
+  manpower                   = 3
+  surfacedetectioncapability = 17
+  airdetectioncapability     = 15
+  subdetectioncapability     = 5
+  airdefence                 = 24
+  seaattack                  = 39
+  subattack                  = 5
+  airattack                  = 24
+  shorebombardment           = 36
+  distance                   = 3.8
+  supplyconsumption          = 3.5
+  fuelconsumption            = 1.5
+  upgrade_time_factor        = 1.0
+  upgrade_cost_factor        = 0.6
+}
+# 3 - 
+model =
+{ cost                       = 36
+  buildtime                  = 300
+  manpower                   = 3
+  surfacedetectioncapability = 20
+  airdetectioncapability     = 17
+  subdetectioncapability     = 6
+  airdefence                 = 27
+  seaattack                  = 45
+  subattack                  = 6
+  airattack                  = 27
+  shorebombardment           = 44
+  distance                   = 4.2
+  supplyconsumption          = 3.5
+  fuelconsumption            = 1.5
+  upgrade_time_factor        = 1.0
+  upgrade_cost_factor        = 0.6
+}

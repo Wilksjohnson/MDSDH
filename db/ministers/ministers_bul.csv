@@ -1,0 +1,41 @@
+BUL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+11501;Head of State;Georgi Parvanov;2003;2050;2050;ML;Benevolent Gentleman;High;M11501;x
+11502;Head of Government;Simeon Saxe-Coburg-Gotha;2003;2050;2050;ML;Corporate Suit;High;M11502;x
+11503;Foreign Minister;Solomon Passy;2003;2050;2050;ML;Biased Intellectual;High;M11503;x
+11504;Minister of Armament;Milen Veltchev;2003;2050;2050;ML;Administrative Genius;High;M11504;x
+11505;Minister of Security;Georgi Petkanov;2003;2050;2050;ML;Crime Fighter;High;M11505;x
+11506;Head of Military Intelligence;Valery Lazarov;2003;2050;2050;ML;Dismal Enigma;High;Unknown;x
+11507;Chief of Staff;Nikola Kolev;2003;2050;2050;SL;School of Defence;High;M11507;x
+11508;Chief of Army;Zlatan Stoikov;2003;2050;2050;ML;Static Defence Doctrine;High;M11508;x
+11509;Chief of Navy;Emil Lyutzkanov;2003;2050;2050;ML;Decisive Naval Battle Doctrine;High;Unknown;x
+11510;Chief of Air Force;Dimitar Georgiev;2003;2050;2050;ML;Air Superiority Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+11511;Head of State;Georgi Purvanov;2003;2050;2050;SL;Benevolent Gentleman;High;M11501;x
+11512;Head of State;Petar Stoyanov;2003;2050;2050;SL;Benevolent Gentleman;High;Pstoyanov;x
+11513;Head of State;Petar Stoyanov;2003;2050;2050;ML;Benevolent Gentleman;High;Pstoyanov;x
+11514;Head of Government;Sergei Stanishev;2003;2050;2050;SD;Flamboyant Tough Guy;High;Sstanishev;x
+11515;Foreign Minister;Vladimir Kisjov;2003;2050;2050;SL;Great Compromiser;High;Unknown;x
+11516;Foreign Minister;Evgeni Kirilov;2003;2050;2050;SD;Ideological Crusader;High;Ekirilov;x
+11517;Minister of Armament;Plamen Oresharski;2003;2050;2050;SD;Theoretical Scientist;High;Poresharski;x
+11518;Minister of Armament;Atanas Paparizov;2003;2050;2050;SD;laissez-faire capitalist;High;Apaparizov;x
+11519;Minister of Security;Emanuil Iordanov;2003;2050;2050;ML;Crooked Kleptocrat;High;Unknown;x
+11520;Minister of Security;Mladen Cherveniakov;2003;2050;2050;SD;Man of the People;High;Mcherveniakov;x
+11521;Chief of Staff;Miho Mihov;2003;2050;2050;ML;School of Psychology;High;Mmihov;x
+11522;Chief of Navy;Petar Petrov;2003;2050;2050;ML;Power Projection Doctrine;High;Unknown;x
+11523;Foreign Minister;Zhan Videnov;2003;2050;2050;SD;Apologetic Clerk;High;Unknown;x
+11524;Minister of Security;Stefan Sofiyanski;2003;2050;2050;ML;Silent Lawyer;High;Ssofiyanski;x
+11525;Head of State;Volen Siderov;2003;2050;2050;FA;Pig-headed Isolationist;High;Vsiderov;x
+11526;Head of Government;Volen Siderov;2003;2050;2050;FA;Flamboyant Tough Guy;High;Vsiderov;x
+11527;Minister of Armament;Georgi Pirinski;2003;2050;2050;SD;Corrupt Kleptocrat;High;Gpirinski;x
+11528;Head of Government;Alexander Paunov;2003;2050;2050;LWR;Happy Amateur;High;Apaunov;x
+11529;Minister of Armament;Angel Marin;2003;2050;2050;SD;Military Entrepreneur;High;Amarin;x
+11530;Foreign Minister;Meglena Kuneva;2005;2050;2050;SL;Biased Intellectual;High;Mkuneva;x
+11531;Foreign Minister;Ivaylo Kalfin;2005;2050;2050;SL;Ideological Crusader;High;Ikalfin;x
+11532;Foreign Minister;Konstantin Dimitrov;2003;2050;2050;ML;Great Compromiser;High;Kdimitrov;x
+11533;Foreign Minister;Desislav Chukolov;2007;2050;2050;FA;Ideological Crusader;High;Dchukolov;x
+11534;Minister of Armament;Veselin Bliznakov;2003;2050;2050;SL;Theoretical Scientist;High;Vbliznakov;x
+11535;Foreign Minister;Slavcho Binev;2003;2050;2050;FA;Apologetic Clerk;High;Unknown;x
+11536;Minister of Armament;Radoslav Bozadzhiev;2008;2050;2050;SL;Administrative Genius;High;Rbozadzhiev;x
+11537;Minister of Armament;Simeon Nikolov;2003;2050;2050;SL;Resource Industrialist;High;Snikolov;x
+11538;Minister of Armament;Spas Panchev;2004;2050;2050;SD;Theoretical Scientist;High;Spanchev;x
+11539;Minister of Security;Rumen Petkov;2003;2050;2050;SD;Crime Fighter;High;Rpetkov;x

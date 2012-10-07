@@ -1,0 +1,57 @@
+COL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+17501;Head of State;Álvaro Uribe Vélez;2003;2050;2050;SL;Benevolent Gentleman;High;Auvelez;x
+17502;Head of Government;Álvaro Uribe Vélez;2003;2050;2050;SL;Flamboyant Tough Guy;High;Auvelez;x
+17503;Foreign Minister;Carolina Barco;2003;2050;2050;SL;Great Compromiser;High;Cbarco;x
+17504;Minister of Armament;Marta Lucía Ramírez;2003;2050;2050;SL;Corrupt Kleptocrat;High;Mlramirez;x
+17505;Minister of Security;Fernando Hoyos;2003;2050;2050;SL;Silent Lawyer;High;Flhoyos;x
+17506;Head of Military Intelligence;Jorge Noguera Cotes;2003;2050;2050;SL;Political Specialist;High;Jncotes;x
+17507;Chief of Staff;Jorge Enrique Mora;2003;2050;2050;NA;School of Fire Support;High;Jemora;x
+17508;Chief of Army;Carlos Alberto Ospina;2003;2050;2050;NA;Elastic Defence Doctrine;High;Caospina;x
+17509;Chief of Navy;Mauricio Soto;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;Msgomez;x
+17510;Chief of Air Force;Hector Velasco;2003;2050;2050;NA;Army Aviation Doctrine;High;Hvelasco;x
+;Replacements;;;;;;;x
+17511;Foreign Minister;María Consuelo Araújo;2006;2050;2050;SL;Apologetic Clerk;High;Mcaraujo;x
+17512;Foreign Minister;Fernando Araújo;2007;2050;2050;SL;Ideological Crusader;High;Faraujo;x
+17513;Foreign Minister;Jaime Bermúdez;2006;2050;2050;SL;Biased Intellectual;High;Jbermudez;x
+17514;Foreign Minister;Marta Lucía Ramírez;2003;2050;2050;SL;Biased Intellectual;High;Mlramirez;x
+17515;Minister of Armament;Jorge Alberto Uribe;2003;2050;2050;SL;Laissez-Faire Capitalist;High;Jauribe;x
+17516;Minister of Armament;Camillo Ospina Bernal;2004;2050;2050;SL;Administrative Genius;High;Cobernal;x
+17517;Minister of Armament;Juan Manuel Santos;2004;2050;2050;SL;Corrupt Kleptocrat;High;Jmsantos;x
+17518;Minister of Armament;Freddy Padilla de León;2009;2050;2050;NA;Military Entrepreneur;High;Fpdleon;x
+17519;Chief of Staff;Freddy Padilla de León;2004;2050;2050;NA;School of Psychology;High;Fpdleon;x
+17520;Chief of Army;Freddy Padilla de León;2003;2050;2050;NA;Elastic Defence Doctrine;High;Fpdleon;x
+17521;Chief of Staff;Carlos Alberto Ospina;2003;2050;2050;NA;School of Manoeuvre;High;Caospina;x
+17522;Chief of Army;Reinaldo Castellanos Trujillo;2003;2050;2050;NA;Decisive Battle Doctrine;High;Rctrujillo;x
+17523;Chief of Army;Mario Montoya;2004;2050;2050;NA;Armoured Spearhead Doctrine;High;Mmontoya;x
+17524;Chief of Staff;Mario Montoya;2006;2050;2050;NA;School of Fire Support;High;Mmontoya;x
+17525;Chief of Army;Óscar Enrique González;2008;2050;2050;NA;Guns and Butter Doctrine;High;Oegonzalez;x
+17526;Chief of Staff;Óscar Enrique González;2010;2050;2050;NA;School of Manoeuvre;High;Oegonzalez;x
+17527;Chief of Navy;Guillermo Barrera Hurtado;2006;2050;2050;NA;Base Control Doctrine;High;Gbhurtado;x
+17528;Chief of Air Force;Jorge Ballesteros Rodríguez;2006;2050;2050;NA;Air Superiority Doctrine;High;Jbrodriguez;x
+17529;Head of state;Guillermo León Sáenz;2003;2050;2050;ST;powerhungry demagogue;High;Glsaenz;x
+17530;Minister of Armament;Víctor Suárez Rojas;2003;2050;2050;ST;Corrupt Kleptocrat;High;Vsrojas;x
+17531;Foreign Minister;Luis Albán Burbano;2003;2050;2050;ST;iron fisted brute;High;Laburbano;x
+17532;Head of Government;Jorge Torres Victoria;2003;2050;2050;ST;Backroom Backstabber;High;Jtvictoria;x
+17533;Minister of Security;Milton Redondo;2003;2050;2050;ST;Prince of Terror;High;Mredondo;x
+17534;Minister of Security;Rodrigo Londono-Echeverry;2003;2050;2050;ST;Back Stabber;High;Rlecheverry;x
+17535;Head of Military Intelligence;Luis Losada;2003;2050;2050;ST;Political Specialist;High;Llosada;x
+17536;Head of Military Intelligence;Luciano Arango;2003;2050;2050;ST;Logistics Specialist;High;Larango;x
+17537;Chief of Staff;Jose Cuevas;2003;2050;2050;ST;School of Psychology;High;Jcuevas;x
+17538;Minister of Security;Sabas Pretelt;2003;2050;2050;ML;Man of the People;High;Spretelt;x
+17539;Minister of Security;Carlos Sardi;2003;2050;2050;ML;Compassionate Gentleman;High;Chsardi;x
+17540;Head of State;Carlos Sardi;2010;2050;2050;ML;Benevolent Gentleman;High;Chsardi;x
+17541;Head of Government;Carlos Sardi;2010;2050;2050;ML;Flamboyant Tough Guy;High;Chsardi;x
+17542;Minister of Security;Fabio Valencia Cossio;2003;2050;2050;ML;Crime Fighter;High;Fvcossio;x
+17543;Head of State;Carlos Gaviria Díaz;2003;2050;2050;SD;Weary Stiffneck;High;Cgdiaz;x
+17544;Head of Government;Carlos Gaviria Díaz;2003;2050;2050;SD;Ambitious Union Boss;High;Cgdiaz;x
+17545;Foreign Minister;Vera Grabe;2003;2050;2050;SD;Ideological Crusader;High;Vgrabe;x
+17546;Minister of Security;Ivan Moreno Rojas;2003;2050;2050;SD;Silent Lawyer;High;Imrojas;x
+17547;Minister of Armament;Gustavo Petro;2003;2050;2050;SD;Tank Proponent;High;Gpurego;x
+17548;Head of Military Intelligence;Andres Penate;2003;2050;2050;SL;Industrial Specialist;High;Apgiraldo;x
+17549;Head of Military Intelligence;Maria Hurtado;2003;2050;2050;ML;Dismal Enigma;High;Mdphurtado;x
+17550;Chief of Air Force;Fernando Torres;2008;2050;2050;NA;Naval Aviation Doctrine;High;Fstorres;x
+17551;Chief of Navy;Carlos Pineda;2008;2050;2050;NA;Power Projection Doctrine;High;Chpgallo;x
+17552;Chief of Navy;Edgar Augusto Cely;2005;2050;2050;NA;Indirect Approach Doctrine;High;Eacely;x
+17553;Chief of Navy;Jaime Parra;2005;2050;2050;NA;Open Seas Doctrine;High;Japarra;x
+17554;Chief of Air Force;Edgar Alfonso Lésmez;2003;2050;2050;NA;Army Aviation Doctrine;High;Ealesmez;x
+17555;Chief of Army;Gilberto Ayala;2006;2050;2050;NA;Guns and Butter Doctrine;High;Grayala;x

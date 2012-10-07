@@ -1,0 +1,28 @@
+VIE;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+90001;Head of State;Tran Duc Luong;2003;2050;2050;LE;Insignificant Layman;High;M90001;x
+90002;Head of Government;Phan Van Khai;2003;2050;2050;LE;Silent Workhorse;High;M90002;x
+90003;Foreign Minister;Nguyen Dy Nien;2003;2050;2050;LE;Ideological Crusader;High;M90003;x
+90004;Minister of Armament;Pham Van Tra;2003;2050;2050;LE;Military Entrepreneur;High;M90007;x
+90005;Minister of Security;Le Hong Anh;2003;2050;2050;LE;Prince of Terror;High;M90005;x
+90006;Head of Military Intelligence;Unknown;2003;2050;2050;LE;Dismal Enigma;High;Unknown;x
+90007;Chief of Staff;Pham Van Tra;2003;2050;2050;LE;School of Psychology;High;M90007;x
+90008;Chief of Army;Phung Quang Thanh;2003;2050;2050;LE;Elastic Defence Doctrine;High;M90008;x
+90009;Chief of Navy;Doh Suan Kong;2003;2050;2050;LE;Indirect Approach Doctrine;High;M90009;x
+90010;Chief of Air Force;Nguyen Duc Suat;2003;2050;2050;LE;Army Aviation Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+90011;Head of State;Nguyen Minh Triet;2006;2050;2050;LE;Autocratic Charmer;High;Nmtriet;x
+90012;Head of Government;Nguyen Tan Dung;2006;2050;2050;LE;Naive Optimist;High;Ntdung;x
+90013;Minister of Armament;Hoang Trung Hai;2003;2050;2050;LE;Resource Industrialist;High;Hthai;x
+90014;Foreign Minister;Pham Ghia Khiem;2003;2050;2050;LE;Apologetic Clerk;High;Pgkhiem;x
+90015;Foreign Minister;Le Loung Minh;2003;2050;2050;LE;Great Compromiser;High;Llminh;x
+90016;Minister of Armament;Phung Quang Thanh;2006;2050;2050;LE;Military Entrepreneur;High;M90008;x
+90017;Chief of Staff;Phung Quang Thanh;2006;2050;2050;LE;School of Fire Support;High;M90008;x
+90018;Head of State;Nguyen Khanh;2003;2050;2050;ML;Die-hard Reformer;High;Nkhanh;x
+90019;Head of Government;Ha The Ruyet;2003;2050;2050;ML;Silent Workhorse;High;Htruyet;x
+90020;Foreign Minister;Nguyen Quoc Quan;2003;2050;2050;ML;Ideological Crusader;High;Nqquan;x
+90021;Minister of Armament;Tran Thanh Son;2003;2050;2050;ML;Military Entrepreneur;High;Unknown;x
+90022;Minister of Security;Nguyen Quoc Thai;2003;2050;2050;ML;Silent Lawyer;High;Unknown;x
+90023;Foreign Minister;Le Hoang;2003;2050;2050;ML;Biased Intellectual;High;Unknown;x
+90024;Minister of Armament;Phung Ngoc An;2003;2050;2050;ML;Tank Proponent;High;Unknown;x
+90025;Chief of Army;Nguyen Van Hien;2003;2050;2050;LE;Decisive Battle Doctrine;High;Unknown;x
+90026;Chief of Staff;Nguyen Khac Nghien;2006;2050;2050;LE;School of Defence;High;Nknghien;x

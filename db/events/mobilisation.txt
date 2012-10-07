@@ -1,0 +1,109 @@
+
+#############################################
+###### Mobilisation - by Killerrabbit       # 
+#############################################
+#############################################
+###### Mobilisation - Economic              # 
+#############################################
+event = {
+        id = 405
+        random = no
+ 	persistent = yes
+        trigger = {
+
+		NOT = { local_flag = mobilisation_a }
+		NOT = { local_flag = mobilisation_b }
+		NOT = { local_flag = mobilisation_c }
+		flag = warflag8
+                atwar = yes
+                domestic = { type = free_market value = 6 } 
+
+		          OR = {
+				atwar = CHC
+				atwar = USA
+				atwar = RUS
+				atwar = U72
+				}
+
+        }
+        name = "EVT_405_NAME"
+        desc = "EVT_405_DESC"
+        picture = "leopardc2"
+        style = 0
+ 
+        date = { day = 28 month = march year = 2006 }
+        offset = 7
+        deathdate = { day = 28 month = december year = 2019 }
+ 
+        action_a = {
+                name = "Total economic mobilisation"
+                ai_chance = 100
+                command = { type = set_domestic which = free_market value = 5 }
+                command = { type = set_domestic which = defense_lobby value = 10 }
+                command = { type = local_setflag which = mobilisation_a }
+                command = { type = resource which = supplies value = 100 }
+        }
+        action_b = {
+                name = "Only increase defence budget to wartime spending"
+                ai_chance = 0
+                command = { type = set_domestic which = defense_lobby value = 10 }
+                command = { type = local_setflag which = mobilisation_b }
+                command = { type = resource which = supplies value = 100 }
+        }
+        action_c = {
+                name = "We will manage without such measures"
+                ai_chance = 0
+                command = { type = local_setflag which = mobilisation_c }
+        }
+
+}
+#############################################
+######  Mobilisation - Defence Budget only 
+#############################################
+event = {
+        id = 406
+        random = no
+        persistent = yes
+        trigger = {
+
+		NOT = { local_flag = mobilisation_a }
+		NOT = { local_flag = mobilisation_b }
+		NOT = { local_flag = mobilisation_c }
+                flag = warflag8
+                atwar = yes
+		NOT = {	domestic = { type = free_market value = 6 } }
+		domestic = { type = free_market value = 1 }
+
+		          OR = {
+				atwar = CHC
+				atwar = USA
+				atwar = RUS
+				atwar = U72
+				}
+
+        }
+ 
+        name = "EVT_406_NAME"
+        desc = "EVT_406_DESC"
+        picture = "leopardc2"
+        style = 0
+
+        date = { day = 28 month = march year = 2006 }
+        offset = 7
+        deathdate = { day = 28 month = december year = 2019 }
+ 
+        action_a = {
+                name = "Increase defence budget to wartime spending"
+                ai_chance = 100
+                command = { type = set_domestic which = defense_lobby value = 10 }
+                command = { type = local_setflag which = mobilisation_b }                
+                command = { type = resource which = supplies value = 100 }
+        }
+        action_b = {
+                name = "We will manage without such measures"
+                ai_chance = 0
+                command = { type = local_setflag which = mobilisation_c }
+        }
+
+}
+

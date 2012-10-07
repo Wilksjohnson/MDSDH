@@ -1,0 +1,51 @@
+VEN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+89501;Head of State;Hugo Chávez;2003;2050;2050;LWR;Die-hard Reformer;High;M89501;x 
+89502;Head of Government;Hugo Chávez;2003;2050;2050;LWR;Flamboyant Tough Guy;High;M89501;x 
+89503;Foreign Minister;Roy Chaderton Matos;2003;2050;2050;LWR;Biased Intellectual;High;M89503;x 
+89504;Minister of Armament;José Luis Prieto;2003;2050;2050;LWR;Infantry Proponent;High;Unknown;x 
+89505;Minister of Security;Eugenio Gutiérrez;2003;2050;2050;LWR;Silent Lawyer;High;M89505;x 
+89506;Head of Military Intelligence;Miguel Rodríguez Torres;2003;2050;2050;LWR;Technical Specialist;High;M89506;x 
+89507;Chief of Staff;Lucas Rincón;2003;2050;2050;LWR;School of Fire Support;High;Lrromero;x 
+89508;Chief of Army;Jorge Luis García;2003;2050;2050;LWR;Armoured Spearhead Doctrine;High;M89508;x 
+89509;Chief of Navy;Camejo Arenas;2003;2050;2050;LWR;Indirect Approach Doctrine;High;Unknown;x 
+89510;Chief of Air Force;Roger Cordero Lara;2003;2050;2050;LWR;Air Superiority Doctrine;High;Unknown;x 
+;Replacements;;;;;;;x
+89511;Foreign Minister;Alí Rodríguez;2003;2050;2050;LWR;Great Compromiser;High;M89511;x 
+89512;Foreign Minister;Jose Vicente Rangel;2003;2050;2050;LWR;Ideological Crusader;High;M89512;x 
+89513;Minister of Armament;Jorge Luis García Carneiro;2003;2050;2050;LWR;Military Entrepreneur;High;M89508;x 
+89514;Minister of Security;Miguel Ramírez González;2003;2050;2050;LWR;Crime Fighter;High;M89514;x 
+89515;Chief of Staff;Jorge Luis García Carneiro;2003;2050;2050;LWR;School of Mass Combat;High;M89508;x 
+89516;Chief of Army;Raúl Baduel;2003;2050;2050;NA;Decisive Battle Doctrine;High;M89516;x 
+89517;Chief of Navy;Armando Laguna;2003;2050;2050;LWR;Indirect Approach Doctrine;High;Allaguna;x 
+89518;Minister of Armament;Gustavo Rangel;2003;2050;2050;LWR;Military Entrepreneur;High;Grangel;x 
+89519;Foreign Minister;Nicolas Maduro;2003;2050;2050;LWR;Ideological Crusader;High;Nmaduro;x 
+89520;Minister of Security;Tarek el Aissami;2005;2050;2050;LWR;Crooked Kleptocrat;High;Teaissami;x 
+89521;Foreign Minister;Francisco Arias Cárdenas;2003;2050;2050;LWR;General Staffer;High;Facardenas;x 
+89522;Chief of Staff;Raúl Baduel;2008;2050;2050;NA;School of Fire Support;High;M89516;x 
+89523;Minister of Armament;Ramón Carrizales;2003;2050;2050;LWR;Military Entrepreneur;High;Rcarrizales;x 
+89524;Minister of Security;Adán Chávez;2003;2050;2050;LWR;Man of the People;High;Achavez;x 
+89525;Minister of Security;Gian Carlo Di Martino;2008;2050;2050;LWR;Crooked Kleptocrat;High;Gcdmartino;x 
+89526;Head of State;Leopoldo López;2003;2050;2050;SL;Benevolent Gentleman;High;Llopez;x
+89527;Head of Government;Leopoldo López;2003;2050;2050;SL;Naive Optimist;High;Llopez;x
+89528;Foreign Minister;Moisés Naím;2003;2050;2050;SD;Biased Intellectual;High;Mnaim;x
+89529;Minister of Armament;Rafael Ramirez;2003;2050;2050;LWR;Resource Industrialist;High;Rramirez;x
+89530;Foreign Minister;Lucas Rincón Romero;2003;2050;2050;LWR;General Staffer;High;Lrromero;x
+89531;Chief of Army;Lucas Rincón Romero;2003;2050;2050;LWR;Elastic Defence Doctrine;High;Lrromero;x
+89532;Chief of Staff;Lucas Rincón Romero;2003;2050;2050;LWR;School of Psychology;High;Lrromero;x
+89533;Minister of Security;Tarek William Saab;2006;2050;2050;LWR;Crime Fighter;High;Twsaab;x
+89534;Foreign Minister;Jorge Valero Briceno;2003;2050;2050;LWR;Great Compromiser;High;Jvbriceno;x
+89535;Chief of Army;Carlos Figueroa;2005;2050;2050;NA;Armoured Spearhead Doctrine;High;Cfigueroa;x
+89536;Chief of Army;Pedro Azuaje;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Pazuaje;x
+89537;Chief of Staff;Pedro Azuaje;2003;2050;2050;NA;School of Manoeuvre;High;Pazuaje;x
+89538;Chief of Staff;Fredys Alonzo Carrión;2004;2050;2050;NA;School of Psychology;High;Facarrion;x
+89539;Chief of Air Force;Luis Acosta;2003;2050;2050;NA;Army Aviation Doctrine;High;Ljbacosta;x
+89540;Chief of Air Force;Jorge Pernalette;2008;2050;2050;NA;Naval Aviation Doctrine;High;Jaopernalette;x
+89541;Chief of Navy;Zahim Quintana Castro;2003;2050;2050;NA;Base Control Doctrine;High;Zaqcastro;x
+89542;Head of Military Intelligence;Alberto Martín;2003;2050;2050;NA;Naval Intelligence Specialist;High;Ajmmartin;x
+89543;Chief of Navy;Pedro Díaz;2005;2050;2050;NA;Power Projection Doctrine;High;Pjgdiaz;x
+89544;Minister of Security;Julio Borges;2006;2050;2050;SL;Silent Lawyer;High;Jborges;x
+89545;Head of State;Luis Ignacio Planas;2003;2050;2050;ML;Autocratic Charmer;High;Liplanas;x
+89546;Head of Government;Luis Ignacio Planas;2003;2050;2050;ML;Silent Workhorse;High;Liplanas;x
+89547;Foreign Minister;Henrique Salas Feo;2003;2050;2050;ML;Biased Intellectual;High;Hsfeo;x
+89548;Head of State;Manuel Rosales;2003;2050;2050;SL;Benevolent Gentleman;High;Mrosales;x
+89549;Head of Government;Manuel Rosales;2003;2050;2050;SL;Flamboyant Tough Guy;High;Mrosales;x

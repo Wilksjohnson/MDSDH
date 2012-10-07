@@ -1,0 +1,92 @@
+RUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+69001;Head of State;Vladimir Putin;2003;2050;2050;SC;Die-hard Reformer;High;M69001;x 
+69002;Head of Government;Mikhail Kasyanov;2003;2050;2050;ML;Corporate Suit;High;M69010;x 
+69003;Foreign Minister;Igor Ivanov;2003;2050;2050;SC;Apologetic Clerk;High;M69020;x 
+69004;Minister of Armament;Sergey Ivanov;2003;2050;2050;SC;laissez-faire capitalist;Very High;M69061;x 
+69005;Minister of Security;Nikolay Patrushev;2003;2050;2050;SC;Back Stabber;High;M69040;x 
+69006;Head of Military Intelligence;Sergey Lebedev;2003;2050;2050;SC;Dismal Enigma;High;M69050;x 
+69007;Chief of Staff;Anatoliy Kvashnin;2003;2050;2050;LE;School of Defence;Very High;M69060;x 
+69008;Chief of Army;Nikolai Kormiltsev;2003;2050;2050;LE;Guns and Butter Doctrine;High;M69070;x 
+69009;Chief of Navy;Vladimir Kuroyedov;2003;2050;2050;SL;Decisive Naval Battle Doctrine;High;M69080;x 
+69010;Chief of Air Force;Vladimir Mikhailov;2003;2050;2050;SC;Air Superiority Doctrine;Medium;M69090;x
+;Replacements;;;;;;;x
+69012;Head of State;Gennadiy Zyuganov;2003;2050;2050;LE;Weary Stiffneck;High;M69002;x 
+69013;Head of State;Sergey Glaziev;2003;2050;2050;FA;Stern Imperialist;High;M69003;x 
+69014;Head of State;Irina Hakamada;2003;2050;2050;ML;Die-hard Reformer;High;M69004;x 
+69015;Head of State;Nikolay Kharitonov;2003;2050;2050;LWR;Pig-headed Isolationist;High;M69005;x 
+69016;Head of State;Mikhail Gorbachev;2003;2050;2050;SL;Barking Buffoon;High;M69006;x 
+69017;Head of State;Eduard Limonov;2003;2050;2050;LWR;powerhungry demagogue;High;M69007;x 
+69018;Head of State;Mikhail Kasyanov;2003;2050;2050;ML;Insignificant Layman;High;M69008;x 
+69019;Head of State;Sergey Udaltsov;2003;2050;2050;ST;Stern Imperialist;High;M69009;x 
+69020;Head of Government;Mikhail Fradkov;2003;2050;2050;SC;Political Protege;High;M69011;x 
+69021;Head of Government;Viktor Zubkov;2003;2050;2050;SD;Silent Workhorse;High;M69012;x 
+69022;Head of Government;Viktor Chernomirdin;2003;2050;2050;SL;Naive Optimist;High;M69013;x 
+69023;Head of Government;Vladimir Ryzhkov;2003;2050;2050;ML;Happy Amateur;High;M69014;x 
+69024;Head of Government;Dmitriy Rogozin;2003;2050;2050;FA;Ambitious Union Boss;High;M69015;x 
+69025;Head of Government;Igor Sechin;2003;2050;2050;PA;Backroom Backstabber;High;M69016;x 
+69026;Head of Government;Sergey Mironov;2003;2050;2050;SC;Flamboyant Tough Guy;High;M69017;x 
+69027;Head of Government;Gennadiy Seleznev;2003;2050;2050;LE;Political Protege;High;M69018;x 
+69028;Head of Government;Nikita Belih;2003;2050;2050;ML;Naive Optimist;High;M69019;x 
+69029;Head of Government;Vladimir Plotnikov;2003;2050;2050;LWR;Happy Amateur;High;Vplotnikov;x
+69030;Head of Government;Gennadiy Zuganov;2003;2050;2050;LE;Flamboyant Tough Guy;High;M69002;x 
+69031;Foreign Minister;Sergey Lavrov;2003;2050;2050;PA;Great Compromiser;High;M69021;x 
+69032;Foreign Minister;Andrey Kozyrev;2003;2050;2050;SL;Great Compromiser;High;M69022;x 
+69033;Foreign Minister;Yevgeniy Primakov;2003;2050;2050;LE;Ideological Crusader;High;M69023;x 
+69034;Foreign Minister;Andrey Denisov;2003;2050;2050;NS;iron fisted brute;High;M69024;x 
+69035;Foreign Minister;Alexandr Grushko;2003;2050;2050;LWR;Apologetic Clerk;High;M69025;x 
+69036;Foreign Minister;Garry Kasparov;2003;2050;2050;ML;Biased Intellectual;High;M69026;x 
+69037;Foreign Minister;Maria Gaidar;2003;2050;2050;ML;Ideological Crusader;High;M69027;x 
+69038;Minister of Armament;Anatoliy Isaikin;2003;2050;2050;SC;Military Entrepreneur;High;M69031;x 
+69039;Minister of Armament;Nikolay Aksenenko;2003;2050;2050;SL;Corrupt Kleptocrat;High;M69032;x 
+69040;Minister of Armament;Vladimir Yakunin;2003;2050;2050;SL;Administrative Genius;High;M69033;x 
+69041;Minister of Armament;Igor Levitin;2003;2050;2050;SC;Tank Proponent;High;M69034;x 
+69042;Minister of Armament;Alexey Miller;2003;2050;2050;FA;laissez-faire capitalist;High;M69035;x 
+69043;Minister of Armament;Mikhail Pogosyan;2003;2050;2050;LE;Air Superiority Proponent;High;M69036;x 
+69044;Minister of Armament;Anatoliy Chubais;2003;2050;2050;ML;laissez-faire capitalist;High;M69037;x 
+69045;Minister of Security;Boris Gryzlov;2003;2050;2050;SC;Man of the People;High;M69041;x 
+69046;Minister of Security;Yuriy Chaika;2003;2050;2050;SL;Silent Lawyer;High;M69042;x 
+69047;Minister of Security;Vladimir Ustinov;2003;2050;2050;FA;Crooked Kleptocrat;High;M69043;x 
+69048;Minister of Security;Nikolay Kovalev;2003;2050;2050;LE;Compassionate Gentleman;High;M69044;x 
+69049;Minister of Security;Alexandr Chekalin;2003;2050;2050;NS;Prince of Terror;High;M69045;x 
+69050;Minister of Security;Viktor Cherkesov;2003;2050;2050;PA;Back Stabber;High;M69046;x 
+69051;Minister of Security;Rashid Nurgaliev;2003;2050;2050;LWR;Crime Fighter;High;M69047;x 
+69052;Minister of Security;Boris Nemtsov;2003;2050;2050;ML;Crooked Kleptocrat;High;M69048;x 
+69053;Head of Military Intelligence;Viacheslav Trubnikov;2003;2050;2050;SL;Political Specialist;High;M69051;x 
+69054;Head of Military Intelligence;Leonid Shebarshin;2003;2050;2050;ST;Technical Specialist;High;M69052;x 
+69055;Head of Military Intelligence;Valentin Korabelnikov;2003;2050;2050;PA;Logistics Specialist;High;M69053;x 
+69056;Head of Military Intelligence;Fedor Ladygin;2003;2050;2050;NS;Political Specialist;High;M69054;x
+69057;Head of Military Intelligence;Alexandr Litvinenko;2003;2050;2050;ML;Political Specialist;High;M69055;x
+69058;Chief of Staff;Alexey Maslov;2003;2050;2050;NA;School of Manoeuvre;High;M69072;x 
+69059;Head of Government;Sergey Ivanov;2007;2050;2050;SC;Silent Workhorse;Very High;M69061;x 
+69060;Chief of Staff;Yuriy Baluyevsky;2003;2050;2050;NA;School of Psychology;Very High;M69062;x 
+69061;Chief of Staff;Eduard Vorobiev;2003;2050;2050;NA;School of Manoeuvre;Very High;M69063;x 
+69062;Chief of Staff;Vladislav Putilin;2003;2050;2050;NA;School of Mass Combat;Very High;M69064;x 
+69063;Chief of Staff;Pavel Grachev;2003;2050;2050;NA;School of Psychology;Very High;M69065;x 
+69064;Chief of Staff;Yevgeniy Shaposhnikov;2003;2050;2050;NA;School of Manoeuvre;Very High;M69066;x 
+69065;Chief of Staff;Vladimir Masorin;2007;2050;2050;NA;School of Psychology;High;M69082;x 
+69066;Chief of Army;Nikolai Rogozhkin;2003;2050;2050;NA;Guns and Butter Doctrine;High;M69071;x 
+69067;Chief of Army;Alexey Maslov;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;M69072;x 
+69068;Chief of Army;Alexandr Morozov;2003;2050;2050;NA;Decisive Battle Doctrine;High;M69073;x 
+69069;Chief of Army;Vladimir Moltensky;2003;2050;2050;NA;Static Defence Doctrine;High;M69074;x 
+69070;Chief of Navy;Vladimir Visocky;2003;2050;2050;NA;Open Seas Doctrine;High;M69081;x 
+69071;Chief of Navy;Vladimir Masorin;2003;2050;2050;NA;Base Control Doctrine;High;M69082;x 
+69072;Chief of Navy;Gennadiy Suchkov;2003;2050;2050;NA;Indirect Approach Doctrine;High;M69083;x 
+69073;Chief of Navy;Vladimir Komoedov;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;M69084;x 
+69074;Chief of Navy;Alexandr Kletskov;2003;2050;2050;NA;Open Seas Doctrine;High;M69085;x 
+69075;Chief of Navy;Alexandr Goncharov;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;M69086;x 
+69076;Chief of Air Force;Alexandr Zelin;2003;2050;2050;NA;Carpet Bombing Doctrine;Medium;M69091;x
+69077;Chief of Air Force;Viktor Sokerin;2003;2050;2050;NA;Naval Aviation Doctrine;Medium;M69092;x
+69078;Chief of Air Force;Igor Hvorov;2003;2050;2050;NA;Carpet Bombing Doctrine;Medium;M69093;x
+69079;Chief of Air Force;Georgiy Shpak;2003;2050;2050;NA;Vertical Envelopment Doctrine;Medium;M69094;x
+69080;Foreign Minister;Petro Symonenko;2007;2050;2050;LE;Ideological Crusader;High;Symonenko;x
+69081;Head of Government;Alexander Grigoryevich Lukashenko;2007;2050;2050;PA;Backroom Backstabber;High;M7001;x 
+69082;Chief of Staff;Sergej Petrovich Gurulev;2007;2050;2050;NA;School of Defence;High;M7007;x 
+69083;Chief of Army;Stanislav Stanislavovich Smolsky;2007;2050;2050;NA;Elastic Defence Doctrine;High;M7008;x 
+69084;Chief of Air Force;Oleg Sergeyevich Paferov;2007;2050;2050;NA;Air Superiority Doctrine;High;M7010;x 
+69085;Minister of Armament;Viktor Hristenko;2003;2050;2050;PA;Resource Industrialist;High;M69030;x 
+69086;Head of State;Dmitry Medvedev;2008;2050;2050;SC;Benevolent Gentleman;High;Dmedvedev;x
+69087;Minister of Armament;Anatoliy Serdyukov;2007;2050;2050;SC;laissez-faire capitalist;High;Aserdyukov;x
+69088;Minister of Armament;Viktor Tyulkin;2003;2050;2050;LE;Theoretical Scientist;High;Unknown;x
+69089;Head of Government;Vladimir Putin;2004;2050;2050;SC;Flamboyant Tough Guy;High;M69001;x
+69090;Head of Government;Dmitry Medvedev;2008;2050;2050;SC;Naive Optimist;High;Dmedvedev;x
+69091;Minister of Armament;Boris Gromov;2003;2050;2050;LE;Military Entrepreneur;High;Bgromov;x

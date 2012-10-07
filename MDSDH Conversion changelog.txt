@@ -1,0 +1,148 @@
+MDSDH Conversion Changelog - Wilksjohnson
+
+
+Credits:
+
+Supeerme: Originally started the project with the idea to convert MDS2 to work on DH.
+
+Novapaddy: Created a functional map for the DH Full conversion. Also provided many gfx fixes for the MDS2 conversion and started the conversion to DH Full.
+
+CocoBZ: Created the 2012 map mod which the MDSDH map is based on. Also provided many different fixes.
+
+Kretoxian: Currently working on fixing the counters. Also provided several .inc files.
+
+Rumpnissen89: Provided his flag and shields for use in the mod.
+
+Hirz: Provided event fixes.
+
+Bergioyn: Provided event fixes.
+
+Arcangelus: Provided an early minister fix for MDS2 conversion. Also provided valuable bug testing.
+
+Many others who provided troubleshooting and bug reports! :)
+
+Also, thanks to the original MDS2 team for creating the original mod for ARMA! :)
+
+
+
+
+V0.1
+
+# First Release. Although there are many issues with this release, I decided to release it to show just how much progress has been made.
+
+V0.2
+
+# Fixes regarding country TAG's and events. The events should now be much more accurate. (CocoBZ/Novapaddy)
+# Kuwait now appears on the map and is a puppet of the USA. (CocoBZ/Novapaddy)
+# Tech Team fixes. (CocoBZ/Novapaddy)
+# About half the countries now have ministers, though many majors have not been converted yet.
+# Removed several airbases from Russia and poland.
+# Put South Korea and North Korea IC to correct levels(IC ONLY, used the MDS2 values as a base)
+
+V0.3
+
+# Fixed the Kosovo CTD. Kosovo is now a USA puppet. (CocoBZ)
+# Integrated Rumpnissen89 flag and shield pack. (Pack by Rumpnissen89. Converted by Kretoxian.)
+# Eliminated 112 extra airports. Small Increase in speed.
+# Increase in speed from .eug file (Novapaddy)
+# Improved OOB's for several countries (Kretoxian)
+# Finished converting all of the ministers. Some issues still exist.
+# Corrected revolt.txt. (CocoBZ)
+# Temporarily altered Iraq War(infra and units)
+# Fixed USA leaders.
+
+V0.4
+
+# Corrected several incorrect Minister TAGS. (Kretoxian reported it, CocoBZ fixed it.)
+# Corrected several incorrect .inc files. Fixed capital placements. (CocoBZ)
+# Updated revolt.txt file. (CocoBZ)
+# Corrected the province pictures. (CocoBZ)
+# Implemented correct flag for Burma. (Kretoxian)
+# Corrected save game issue. It is now possible to load saves. (CocoBZ)
+# Generic Decisions are now useable. I have also begun changing the pictures for the generic decisions into something more modern.
+# Started the conversion of certain events into Decisions. All instances are found in "Event To Decision Conversion List".
+
+V0.5
+
+# Implemented converted IC values. Countries now have MDS2 IC. (Paul Hanson)
+# Updated the counters. (Pack by Rumpnissen89. Converted by Kretoxian)
+# Updated various .inc files. (CocoBZ)
+# Updated .eug file. (CocoBZ)
+# Updated minister files. (CocoBZ)
+# Updated scenario pics. (Novapaddy)
+# Updated country skins. (Novapaddy)
+# Updated world names and scenario text. (Novapaddy)
+# MDSDH now has it's own startup icon.
+# Started to redo famous quotes.
+
+V0.6
+
+# Corrected issues in the .ai files. Used the correct name for special rocket artillery.
+# Fixed error with duplicate Serbian minister ID (ID 71073 changed to ID 71080)
+# Fixed many errors regarding leaders. More info available in the in-depth changelog.
+# Implemented new Australian OOB. (Kretoxian)
+# Changed Scenario name from "Modern Day Scenario 2" to "MDSDH"
+# Fixed many errors regarding minister personalities. More info available in the in-depth changelog.
+# Converted TAG for DPRK military leaders. They now show up in-game.
+# Implemented CocoBZ's EU Fix. The EU is now (somewhat) functional. More info in in-depth changelog. (CocoBZ)
+# Updated Models.csv file. (CocoBZ)
+
+V0.7
+
+# Extensive code fixes in order to regain mod stability. Eliminates almost all crashing! (Novapaddy)
+# Testing of code fixes and addition of fixes (Arcangelus)
+
+V0.7.1
+
+# Armenia DB Event file fixed. Changed ID's. (Novapaddy)
+# 99% of missing event pics are now in place (Novapaddy)
+# Half of all OOB's are finished. (Guglie_)
+# Refining Tech files. (vincesportsman)
+# New city pictures. (ottoman master)
+# Complete restructure of Taiwan files. (jimian)
+# New model pics.(Not yet implemented/AgentSmith2012)
+# Filled in an changed model pictures. (Novapaddy)
+# Large revision of .ai files. (Novapaddy)
+# Added certain events where required. (Novapaddy)
+# USA invasion of Iraq now works under AI control. (Novapaddy)
+# Implemented DPRK, South Korea, and Romania .inc files. (Arcangelus)
+# Added back decisions into game. (Novapaddy/Wilksjohnson)
+# Sahrawi removed as start up country. (Novapaddy)
+# Other minor changes. (Novapaddy)
+# Manpower gain is now at reasonable levels. (Novapaddy)
+
+V0.7.2
+
+# NOW COMPATIBLE WITH DH 1.03 RC1. (Novapaddy)
+# The files in the config folder have been completely redone. (Novapaddy)
+# DB files redone. (Novapaddy)
+# Map files redone. (Novapaddy)
+# New minister files. (Arcangelus)
+# Put all the bases into the bases.inc file. (Novapaddy)
+# 273 New AI Files created so each country can have an individual AI file. (Novapaddy)
+# Old Scenario removed from mod. (Novapaddy)
+# Changed tech year to 2000's. (Novapaddy)
+# Small gfx fixes for 1.03 Beta. (Novapaddy)
+
+V0.8
+
+# Re-implemented original MDS2 Industrial Capacity Values. (Paul Hanson)
+# Converted 22% of infrastructure values.
+# New Policy_effects file. It should fix the rampant partisan issues. (Arcangelus)
+# Modified text.csv file so that the Alliances now have correct names. NATO, ECON, Shanghai Pact (Arcangelus)
+# Modified Kuwait ai file to prevent Kuwait from cutting off supplies for the Americans in the invasion of Iraq.
+# 
+
+### Known Issues ###
+
+1. Cuban troops inside Gitmo at scenario start.
+
+2. Missing many tech pictures
+
+3. Need to remove the old Soviet forts in eastern europe.
+
+4. Obvious typos in the events.
+
+5. Need to change infrastructure values.
+
+6. Still need to implement some of Rumpnissen89's flags.

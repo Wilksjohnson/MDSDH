@@ -1,0 +1,41 @@
+SOM;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+74501;Head of State;Abdiqaasim Salad Hassan;2003;2050;2050;ML;Benevolent Gentleman;Medium;SOM006;x
+74502;Head of Government;Hassan Abshir Farah;2003;2050;2050;ML;Naive Optimist;High;SOM004;x
+74503;Foreign Minister;Ismael Bubba;2003;2050;2050;ML;Iron Fisted Brute;High;SOM017;x
+74504;Minister of Armament;Barre Adan Hirrale;2003;2050;2050;ML;Military Entrepreneur;Medium;SOM007;x
+74505;Minister of Security;Hussein Adaid;2003;2050;2050;ML;Compassionate Gentleman;High;Hadaid;x
+74506;Head of Military Intelligence;Hussein Aideed;2003;2050;2050;SC;Logistics Specialist;High;SOM013;x
+74507;Chief of Staff;Hassan Shatigadud;2003;2050;2050;SC;School of Mass Combat;Medium;SOM016;x
+74508;Chief of Army;Ismail Qassim Naji;2003;2050;2050;ML;Elastic Defence Doctrine;Medium;SOM021;x
+74509;Chief of Navy;Mohammed Omar Osman;2003;2050;2050;ML;Indirect Approach Doctrine;High;SOM010;x
+74510;Chief of Air Force;Khallid Jama;2003;2050;2050;ML;Army Aviation Doctrine;High;SOM020;x
+;Replacements;;;;;;;x
+74511;Head of State;Abdullahi Yusuf;2003;2050;2050;ML;Powerhungry Demagogue;Very High;SOM001;x
+74512;Head of State;Hassan Aweys;2003;2050;2050;NS;Powerhungry Demagogue;Low;SOM008;x
+74513;Head of Government;Nur Adde;2003;2050;2050;NS;Smiling Oilman;Medium;SOM014;x
+74514;Foreign Minister;Sharif Sheikh Ahmed;2003;2050;2050;PA;Biased Intellectual;Very High;SOM018;x
+74515;Minister of Security;Yusuf Inda'ade;2003;2050;2050;PA;Silent Lawyer;Low;SOM009;x
+74516;Minister of Armament;HAssan Al-Turki;2003;2050;2050;ML;Military Entrepreneur;High;SOM015;x
+74517;Minister of Armament;Abu Mansur;2003;2050;2050;ML;Military Entrepreneur;Medium;SOM019;x
+74518;Minister of Security;Hassan Abshir Farah;2003;2050;2050;ML;Prince of Terror;Medium;SOM004;x
+74519;Minister of Security;Sheikh Adan Mohamed Nur;2003;2050;2050;NS;Man of the People;Medium;SOM012;x
+74520;Head of Military Intelligence;Abdulkadir Arale;2003;2050;2050;ML;Dismal Enigma;High;Unknown;x
+74521;Head of Military Intelligence;Muhammed Habsade;2003;2050;2050;NS;Industrial Specialist;Medium;Mhabsade;x
+74522;Chief of Staff;Abdullahi Afrah;2003;2050;2050;NS;School of Fire Support;Medium;Unknown;x
+74523;Chief of Staff;Abdullahi Sheikh;2003;2050;2050;ML;School of Manoeuvre;High;Asheikh;x
+74524;Chief of Army;Salad Jelle;2003;2050;2050;NS;Elastic Defence Doctrine;Medium;Unknown;x
+74525;Chief of Army;Mohammed Botan;2003;2050;2050;ML;Guns and Butter Doctrine;High;Unknown;x
+74526;Chief of Navy;Salim Ibrow;2003;2050;2050;NS;Open Seas Doctrine;High;Unknown;x
+74527;Minister of Security;Mukhtar Robow;2003;2050;2050;NS;Prince of Terror;High;Mrobow;x
+74528;Foreign Minister;Ibrahim Addow;2003;2050;2050;PA;Great Compromiser;Low;Iaddow;x
+74529;Chief of Air Force;Fuad Qalaf;2003;2050;2050;NS;Army Aviation Doctrine;Very High;Fqalaf;x
+74530;Head of State;Sharif Sheikh Ahmed;2003;2050;2050;PA;Barking Buffoon;Very High;SOM018;x
+74531;Head of Government;Muhammad Yusuf;2003;2050;2050;ML;Political Protege;High;Mayusuf;x
+74532;Head of Government;Ali Mohamed Ghedi;2004;2050;2050;ML;Silent Workhorse;Medium;SOM003;x
+74533;Head of Government;Nur Hassan Hussein;2007;2050;2050;ML;Flamboyant Tough Guy;High;Nhhussein;x
+74534;Head of Government;Omar Ali Sharmarke;2009;2050;2050;ML;Silent Workhorse;High;Oasharmarke;x
+74535;Minister of Armament;Mohamed Abdi;2003;2050;2050;ML;Theoretical Scientist;High;Mabdi;x
+74536;Minister of Security;Mohamoud Gacmodhere;2003;2050;2050;ML;Prince of Terror;Medium;SOM011;x
+74537;Head of Government;Sharif Sheikh Ahmed;2003;2050;2050;PA;Naive Optimist;High;SOM018;x
+74538;Minister of Armament;Mukhtar Robow;2003;2050;2050;NS;Infantry Proponent;High;Mrobow;x
+74539;Chief of Navy;Farah Omar;2003;2050;2050;SC;Indirect Approach Doctrine;High;Fomar;x

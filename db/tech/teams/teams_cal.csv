@@ -1,0 +1,19 @@
+CAL;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+95501;California Military Academy;calmilac;7;1000;2999;infantry_focus;individual_courage;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95502;California Steel Industries;calsteel;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95503;United Motor Manufacturing;unitedmotor;5;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95504;California Arms;calarms;5;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95505;Northrop Grumman;T17505;9;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95506;Lockheed;T17503;8;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95507;California National Guard;calnatguard;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95508;California Air National Guard;calairguard;7;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95509;Naval Aviation;calnavavia;7;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95510;Californian Navy;calnavy;8;1000;2999;large_taskforce_tactics;carrier_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95511;Submarine Command;calsubcom;8;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95512;Naval Logistics Command;calnavlog;8;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95513;Intel;intel;8;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95514;Mare Island Naval Shipyard;mareisland;7;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95515;Long Beach Shipyard;longbeach;7;1000;2999;naval_artillery;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95516;Lawrence Berkeley Laboratory;berkeleylab;8;1000;2999;nuclear_physics;nuclear_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95517;National Intelligence Agency;calintel;6;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95518;Todd Pacific Shipyards;toddpacific;7;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

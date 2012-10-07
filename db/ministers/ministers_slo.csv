@@ -1,0 +1,31 @@
+SLO;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+73000;Head of State;Rudolph Schuster;2003;2050;2050;SL;Insignificant Layman;High;M73000;x
+73001;Head of Government;Mikuláš Dzurinda;2003;2050;2050;ML;Silent Workhorse;High;M73001;x
+73002;Foreign Minister;Eduard Kukan;2003;2050;2050;ML;Great Compromiser;High;M73002;x
+73003;Minister of Armament;Ivan Milkoš;2003;2050;2050;ML;laissez-faire capitalist;High;M73003;x
+73004;Minister of Security;Daniel Lipšic;2003;2050;2050;ML;Silent Lawyer;High;M73004;x
+73005;Head of Military Intelligence;Jan Mojzis;2003;2050;2050;SC;Dismal Enigma;High;M73005;x
+73006;Chief of Staff;Milan Cerovský;2003;2050;2050;SC;School of Psychology;High;M73006;x
+73007;Chief of Army;Milan Cerovský;2003;2050;2050;SC;Guns and Butter Doctrine;High;M73006;x
+73008;Chief of Air Force;Jozef Dunjaj;2003;2050;2050;SC;Air Superiority Doctrine;High;M73008;x
+73009;Head of State;Ivan Gašparovic;2003;2050;2050;ML;Insignificant Layman;High;M73009;x
+;Replacements;;;;;;;x
+73010;Head of State;Vladimír Meciar;2003;2050;2050;PA;Powerhungry Demagogue;High;M73010;x
+73011;Head of State;Eduard Kukan;2003;2050;2050;ML;Benevolent Gentleman;High;M73002;x
+73012;Head of State;Ján Králik;2003;2050;2050;SD;Pig-headed Isolationist;High;M73012;x
+73013;Head of State;Ján Slota;2003;2050;2050;SC;Stern Imperialist;High;M73013;x
+73014;Head of Government;Vladimír Meciar;2003;2050;2050;PA;Backroom Backstabber;High;M73010;x
+73015;Head of Government;Jozef Ševc;2003;2050;2050;LWR;Ambitious Union Boss;High;M73015;x
+73016;Head of Government;Robert Fico;2003;2050;2050;SD;Naive Optimist;High;M73016;x
+73017;Head of Government;Pavol Rusko;2003;2050;2050;SL;Corporate Suit;High;M73017;x
+73018;Head of Government;Anna Malíková;2003;2050;2050;SC;Political Protege;High;M73018;x
+73019;Foreign Minister;Monika Benová;2003;2050;2050;SD;Ideological Crusader;High;M73019;x
+73020;Foreign Minister;Dušan Švantner;2003;2050;2050;SC;Iron Fisted Brute;High;M73020;x
+73021;Minister of Armament;Dušan Caplovic;2003;2050;2050;SD;Administrative Genius;High;M73021;x
+73022;Minister of Armament;Pavol Rusko;2003;2050;2050;SL;laissez-faire capitalist;High;M73017;x
+73023;Minister of Armament;Juraj Liska;2003;2050;2050;ML;Infantry Proponent;High;M73023;x
+73024;Minister of Security;Pavol Paška;2003;2050;2050;SD;Man of the People;High;M73024;x
+73025;Minister of Security;Jan Mojzis;2003;2050;2050;SC;Back Stabber;High;M73005;x
+73026;Head of Military Intelligence;Vladimir Palko;2003;2050;2050;ML;Political Specialist;High;M73026;x
+73027;Chief of Staff;Lubomír Bulík;2003;2050;2050;ML;School of Defence;High;M73027;x
+73028;Chief of Army;Lubomír Bulík;2003;2050;2050;ML;elastic defence doctrine;High;M73027;x

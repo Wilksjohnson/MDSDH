@@ -1,0 +1,43 @@
+ARM;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+3001;Head of State;Robert Kocharyan;2003;2050;2050;SC;Autocratic Charmer;High;M3001;x
+3002;Head of Government;Andranik Margaryan;2003;2050;2050;SC;Corporate Suit;High;M3002;x
+3003;Foreign Minister;Vardan Oskanyan;2003;2050;2050;SC;General Staffer;High;M3003;x
+3004;Minister of Armament;Serzh Sargsyan;2003;2050;2050;SC;Infantry Proponent;High;M3004;x
+3005;Minister of Security;David Harutyunyan;2003;2050;2050;SC;Efficient Sociopath;High;M3005;x
+3006;Head of Military Intelligence;Basentsi Azoyan;2003;2050;2050;SC;Dismal Enigma;High;M3006;x
+3007;Chief of Staff;Mikael Arutyunian;2003;2050;2050;NA;School of Defence;High;M3007;x
+3008;Chief of Army;Mikael Arutyunian;2003;2050;2050;NA;elastic defence doctrine;High;M3007;x
+3009;Chief of Navy;N/A;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+3010;Chief of Air Force;Unknown;2003;2050;2050;NA;Army Aviation Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+3011;Head of State;Serzh Sargsyan;2008;2050;2050;SC;Weary Stiffneck;High;M3004;x
+3012;Head of Government;Serzh Sargsyan;2007;2050;2050;SC;Silent Workhorse;High;M3004;x
+3013;Head of Government;Tigran Sargsyan;2008;2050;2050;SC;Silent Workhorse;High;Tsargsyan;x
+3014;Minister of Armament;Mikael Harutyunyan;2003;2050;2050;SC;Military Entrepreneur;High;Mharutyunyan;x
+3015;Minister of Armament;Seyran Ohanyan;2008;2050;2050;SC;Military Entrepreneur;High;Sohanyan;x
+3016;Chief of Army;Seyran Ohanyan;2008;2050;2050;NA;Decisive Battle Doctrine;High;Sohanyan;x
+3017;Chief of Staff;Seyran Ohanyan;2008;2050;2050;NA;School of Manoeuvre;High;Sohanyan;x
+3018;Foreign Minister;Eduard Nalbandyan;2003;2050;2050;SC;Ideological Crusader;High;Enalbandian;x
+3019;Minister of Security;Gevorg Danielyan;2006;2050;2050;SC;Crooked Kleptocrat;High;Gdanielyan;x
+3020;Head of State;Artur Baghdasarian;2003;2050;2050;SL;Benevolent Gentleman;High;Abaghdasarian;x
+3021;Minister of Armament;Stepan Demirchyan;2003;2050;2050;LWR;Resource Industrialist;High;Sdemirchyan;x
+3022;Minister of Armament;Artashes Geghamyan;2003;2050;2050;SC;Administrative Genius;High;Ageghamyan;x
+3023;Foreign Minister;Raffi Hovannisian;2003;2050;2050;SL;Great Compromiser;High;Rhovannisian;x
+3024;Head of State;Vahan Hovhannisyan;2003;2050;2050;LWR;Stern Imperialist;High;Vhovhannisyan;x
+3025;Head of Government;Hrant Markarian;2003;2050;2050;LWR;Flamboyant Tough Guy;High;Hmarkarian;x
+3026;Foreign Minister;Armen Martirossian;2003;2050;2050;SC;Apologetic Clerk;High;Amartirossian;x
+3027;Foreign Minister;Armen Sargsyan;2003;2050;2050;ML;Great Compromiser;High;Asargsyan;x
+3028;Foreign Minister;Aram Gasparovich Sarkisyan;2003;2050;2050;LWR;Ideological Crusader;High;Unknown;x
+3029;Chief of Staff;Mikael Harutyunyan;2003;2050;2050;NA;School of Defence;High;Mharutyunyan;x
+3030;Chief of Army;Mikael Harutyunyan;2003;2050;2050;NA;Decisive Battle Doctrine;High;Mharutyunyan;x
+3031;Minister of Armament;Gurgen Daribaltayan;2005;2050;2050;SC;Tank Proponent;High;Unknown;x
+3032;Chief of Staff;Yuri Khachaturov;2008;2050;2050;NA;School of Fire Support;High;Ykhachaturov;x
+3033;Chief of Army;Yuri Khachaturov;2003;2050;2050;NA;elastic defence doctrine;High;Ykhachaturov;x
+3034;Chief of Army;Manuel Grigoryan;2006;2050;2050;NA;elastic defence doctrine;High;Mgrigoryan;x
+3035;Chief of Staff;Manuel Grigoryan;2010;2050;2050;NA;School of Defence;High;Mgrigoryan;x
+3036;Chief of Army;Samvel Karapetyan;2005;2050;2050;NA;Armoured Spearhead Doctrine;High;Skarapetyan;x
+3037;Head of State;Levon Ter-Petrossian;2003;2050;2050;ML;Benevolent Gentleman;High;Ltpetrossian;x
+3038;Head of Government;Aram Sargsyan;2003;2050;2050;ML;Silent Workhorse;High;Asargsyan2;x
+3039;Chief of Army;Enriko Apriamov;2004;2050;2050;NA;elastic defence doctrine;High;Eapriamov;x
+3040;Minister of Armament;Eduard Gevorgyan;2003;2050;2050;NA;Military Entrepreneur;High;Egevorgyan;x
+3041;Head of Military Intelligence;Eduard Gevorgyan;2003;2050;2050;NA;Technical Specialist;High;Egevorgyan;x

@@ -1,0 +1,25 @@
+IND;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+400;National Defence Academy;ndacademy;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+401;Heavy Vehicles Factory;Avadi;5;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+402;Larsen & Toubro;Larsen;6;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+403;Ishapore Rifle Factory;Ishapore;5;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+404;HAL;T3707;7;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+405;National Aerospace Labs;Saras;6;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+406;Joint Intelligence Committee;jintelcom;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+407;Eicher Group;Eicher;6;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+408;Tata Group;Tata;8;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+409;Bharat Electronics;T3700;7;1000;2999;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+410;DRDO;T3709;7;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+411;Indian Space Research Organisation;isroind;7;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+412;Nuclear Power Corp;Nuclear Power Corp;7;1000;2999;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+413;Indian Army;Indian Army;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+414;Integrated Defence Staff;intdefstaff;6;1000;2999;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+415;Indian Air Force;T3711;7;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+416;Indian Naval Air Arm;indnavalairarm;6;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+417;Cochin Shipyard;Cochin;7;1000;2999;naval_artillery;small_taskforce_tactics;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+418;Mazagon Dockyards;T3702;6;1000;2999;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+419;Garden Reach Shipbuilders and Engineers;T3703;4;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+420;Goa Shipyard;T3704;6;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+421;Indian Navy;T3712;7;1000;2999;large_taskforce_tactics;carrier_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+422;Naval Logistics and Material;indnavlog;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+423;Submarine Arm;indsubmarine;7;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

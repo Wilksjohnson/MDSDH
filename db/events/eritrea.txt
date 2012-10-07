@@ -1,0 +1,521 @@
+#########################################################
+#							#
+# Events for Eritrea (U18)                              #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#25001 - 25300# Main events
+#25301 - 25450# Political events
+#25451 - 25500# Election events	 		
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Main events
+#############################################
+
+#############################################
+###### Djiboutian–Eritrean border conflict
+#############################################
+event = {
+         id = 25001
+         random = no
+         country = U18	
+         trigger = {
+		   atwar = no
+		   exists = U14
+
+         }
+ 
+         name = "EVT_25001_NAME"
+         desc = "EVT_25001_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+         date = { day = 10 month = june year = 2008 }
+ 
+           action_a = {
+                  name = "Dig in on the rightful border and redraw the maps!"
+		  ai_chance = 99
+                  command = { type = relation which = U14 value = -100 }
+		  command = { type = relation which = ETH value = -50 }
+		  command = { type = relation which = FRA value = -50 }
+		  command = { type = trigger which = 25002 } # U14
+           }
+	   action_b = {
+                  name = "This area is not important"
+		  ai_chance = 1
+                  command = { type = dissent value = 1 }
+		  command = { type = relation which = U14 value = 10 }
+           }
+
+}
+#############################################
+###### Djiboutian–Eritrean border conflict
+#############################################
+event = {
+         id = 25002
+         random = no
+         country = U14
+ 
+         name = "EVT_25002_NAME"
+         desc = "EVT_25002_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "Mobilize the armed forces and ask for aid from abroad"
+		  ai_chance = 99
+                  command = { type = trigger which = 25003 } # U18
+		  command = { type = add_division value = mechanized when = 1 }
+		  command = { type = relation which = U18 value = -50 }
+           }
+	   action_b = {
+                  name = "Accede to their demands"
+		  ai_chance = 1
+                  command = { type = trigger which = 25013 } #U18
+           }
+
+}
+#############################################
+###### Djibouti defiant
+#############################################
+event = {
+         id = 25003
+         random = no
+         country = U18
+ 
+         name = "EVT_25003_NAME"
+         desc = "EVT_25003_DESC"
+         style = 0
+         picture = "maching"
+ 
+           action_a = {
+                  name = "They shall fall in three days!"
+		  ai_chance = 50
+		  command = { type = war which = U14 }
+		  command = { type = relation which = ETH value = -20 }
+		  command = { type = relation which = FRA value = -100 }
+		  command = { type = domestic which = interventionism value = 2 }
+		  command = { type = domestic which = defense_lobby value = 2 }
+		  command = { type = trigger which = 25005 } # FRA
+		  command = { type = trigger which = 25006 } # ETH
+           }
+	   action_b = {
+                  name = "It is not worth risking the wrath of both France and Ethiopia, call off the attack"
+		  ai_chance = 50
+		  command = { type = trigger which = 25004 } # U14
+		  command = { type = relation which = U14 value = 10 }
+		  command = { type = relation which = ETH value = 10 }
+		  command = { type = relation which = FRA value = 10 }
+		  command = { type = dissent value = 1 }
+           }
+
+}
+#############################################
+###### Eritrea backs down
+#############################################
+event = {
+         id = 25004
+         random = no
+         country = U14
+ 
+         name = "EVT_25004_NAME"
+         desc = "EVT_25004_DESC"
+         style = 0
+         picture = "no"
+ 
+           action_a = {
+                  name = "Cowards"
+		  command = { type = dissent value = -1 }
+           }
+
+}
+#############################################
+###### French response
+#############################################
+event = {
+         id = 25005
+         random = no
+         country = FRA
+ 
+         name = "EVT_25005_NAME"
+         desc = "EVT_25005_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "It is a matter of national security! Send troops to aid Djibouti!"
+		  ai_chance = 90
+		  command = { type = relation which = U18 value = -200 }
+		  command = { type = relation which = SUD value = -100 }
+		  command = { type = relation which = ETH value = 20 }
+		  command = { type = relation which = U14 value = 200 }
+		  command = { type = supplies value = -5000 }
+		  command = { type = oilpool value = -2000 }
+		  command = { type = domestic which = interventionism value = 2 }
+		  command = { type = domestic which = defense_lobby value = 1 }
+		  command = { type = dissent value = 2 }
+		  command = { type = trigger which = 25010 } #U14
+           }
+	   action_b = {
+                  name = "We should have left Africa years ago, this is not our problem"
+		  ai_chance = 10
+		  command = { type = relation which = U14 value = -50 }
+		  command = { type = domestic which = interventionism value = -1 }
+		  command = { type = dissent value = 2 }
+           }
+
+}
+#############################################
+###### Ethiopian response
+#############################################
+event = {
+         id = 25006
+         random = no
+         country = ETH
+ 
+         name = "EVT_25006_NAME"
+         desc = "EVT_25006_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "We cannot allow Djibouti to fall!"
+		  ai_chance = 30
+		  command = { type = alliance which = U14 }
+		  command = { type = relation which = U18 value = -200 }
+		  command = { type = relation which = SUD value = -100 }
+		  command = { type = relation which = FRA value = 20 }
+		  command = { type = relation which = U14 value = 200 }
+		  command = { type = domestic which = interventionism value = 2 }
+		  command = { type = domestic which = defense_lobby value = 1 }
+		  command = { type = trigger which = 25008 } # SUD
+           }
+	   action_b = {
+                  name = "Let us wait until the threat becomes real"
+		  ai_chance = 70
+		  command = { type = relation which = U14 value = -50 }
+		  command = { type = domestic which = interventionism value = -1 }
+		  command = { type = dissent value = 1 }
+           }
+
+}
+#############################################
+###### Djibouti occupied - Ethiopian response
+#############################################
+event = {
+         id = 25007
+         random = no
+         country = ETH
+
+	 trigger = {
+		   atwar = no
+		   control = { province = 833 data = U18 }
+		   NOT = {
+		   	exists = U14
+		   }
+
+         }
+ 
+         name = "EVT_25007_NAME"
+         desc = "EVT_25007_DESC"
+         style = 0
+         picture = "rasdoumeria"
+
+	 date = { day = 1 month = april year = 2003 }
+	 offset = 13
+	 deathdate = { day = 30 month = december year = 2019 }
+ 
+           action_a = {
+                  name = "This is a war of liberation, the UN will understand"
+		  ai_chance = 60
+		  command = { type = war which = U18 }
+		  command = { type = relation which = SUD value = -100 }
+		  command = { type = relation which = FRA value = 20 }
+		  command = { type = trigger which = 25009 } # SUD
+		  command = { type = domestic which = interventionism value = 1 }
+		  command = { type = domestic which = defense_lobby value = 1 }
+           }
+	   action_b = {
+                  name = "We must find other opportunities"
+		  ai_chance = 40
+		  command = { type = relation which = U18 value = 10 }
+		  command = { type = domestic which = interventionism value = -1 }
+		  command = { type = dissent value = 3 }
+           }
+
+}
+#############################################
+###### Ethiopian-Eritrean war - Sudanese response
+#############################################
+event = {
+         id = 25008
+         random = no
+         country = SUD
+ 
+         name = "EVT_25008_NAME"
+         desc = "EVT_25008_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "We must help Eritrea"
+		  ai_chance = 65
+		  command = { type = alliance which = U18 }
+		  command = { type = relation which = U18 value = 200 }
+		  command = { type = relation which = ETH value = -200 }
+		  command = { type = relation which = FRA value = -100 }
+		  command = { type = domestic which = interventionism value = 2 }
+		  command = { type = domestic which = defense_lobby value = 1 }
+           }
+	   action_b = {
+                  name = "This conflict doesn't concern us"
+		  ai_chance = 35
+		  command = { type = domestic which = interventionism value = -1 }
+		  command = { type = dissent value = 1 }
+           }
+
+}
+#############################################
+###### Ethiopian-Eritrean war - Sudanese response (event #2)
+#############################################
+event = {
+         id = 25009
+         random = no
+         country = SUD
+ 
+         name = "EVT_25009_NAME"
+         desc = "EVT_25009_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "We must help Eritrea"
+		  ai_chance = 65
+		  command = { type = alliance which = U18 }
+		  command = { type = relation which = U18 value = 200 }
+		  command = { type = relation which = ETH value = -200 }
+		  command = { type = relation which = FRA value = -100 }
+		  command = { type = domestic which = interventionism value = 2 }
+		  command = { type = domestic which = defense_lobby value = 1 }
+           }
+	   action_b = {
+                  name = "This conflict doesn't concern us"
+		  ai_chance = 35
+		  command = { type = domestic which = interventionism value = -1 }
+		  command = { type = dissent value = 1 }
+           }
+
+}
+#############################################
+###### Eritrean-Djibouti War - French intervention
+#############################################
+event = {
+         id = 25010
+         random = no
+         country = U14
+ 
+         name = "EVT_25010_NAME"
+         desc = "EVT_25010_DESC"
+         style = 0
+         picture = "varuna2004"
+ 
+           action_a = {
+                  name = "Excellent"
+		  command = { type = relation which = FRA value = 100 }
+		  command = { type = add_division value = mechanized when = 1 }
+		  command = { type = add_division value = mechanized when = 1 }
+		  command = { type = add_division value = mechanized when = 1 }
+		  command = { type = supplies value = 1000 }
+		  command = { type = oilpool value = 500 }
+           }
+
+}
+#############################################
+###### Horn of Africa War - Eritrea defeated
+#############################################
+event = {
+         id = 25011
+         random = no
+         country = ETH
+
+	 trigger = {
+		   control = { province = 816 data = ETH }
+		   control = { province = 815 data = ETH }
+		   control = { province = 817 data = ETH }
+		   NOT = {
+			war = { country = ETH country = SUD } #not if the outcome still hangs in the balance
+		   	exists = U18
+		   }
+
+         }
+ 
+         name = "EVT_25011_NAME"
+         desc = "EVT_25011_DESC"
+         style = 0
+         picture = "rusattack"
+
+	 date = { day = 1 month = april year = 2003 }
+	 offset = 13
+	 deathdate = { day = 30 month = december year = 2019 }
+ 
+           action_a = {
+                  name = "We agree to the UN resolution, establish a demilitarized zone"
+		  ai_chance = 99
+		  command = { type = independence which = U18 }
+		  command = { type = independence which = U14 } #just in case
+		  command = { type = relation which = USA value = 10 }
+		  command = { type = relation which = FRA value = 10 }
+		  command = { type = trigger which = 25012 } # FRA
+		  command = { type = belligerence value = -3 }
+		  command = { type = domestic which = defense_lobby value = -1 }
+		  command = { type = dissent value = 2 } #hawks unhappy
+           }
+	   action_b = {
+                  name = "We will not let our access to the sea be threatened again!"
+		  ai_chance = 1
+		  command = { type = relation which = USA value = -100 }
+		  command = { type = relation which = FRA value = -100 }
+		  command = { type = belligerence value = 10 }
+		  command = { type = domestic which = defense_lobby value = 1 }
+		  command = { type = domestic which = freedom value = -1 }
+		  command = { type = dissent value = 1 }
+           }
+
+}
+#############################################
+###### France takes over operations in the Demilitarized Zone
+#############################################
+event = {
+         id = 25012
+         random = no
+         country = FRA
+ 
+         name = "EVT_25012_NAME"
+         desc = "EVT_25012_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "Ok"
+		  command = { type = supplies value = -1000 }
+		  command = { type = oilpool value = -500 }
+           }
+
+}
+#############################################
+###### Djibouti folds
+#############################################
+event = {
+         id = 25013
+         random = no
+         country = U18
+ 
+         name = "EVT_25013_NAME"
+         desc = "EVT_25013_DESC"
+         style = 0
+         picture = "rasdoumeria"
+ 
+           action_a = {
+                  name = "Excellent"
+		  command = { type = dissent value = -3 }
+		  command = { type = make_puppet which = U14 }
+           }
+
+}
+#############################################
+###### Sea access compromised
+#############################################
+event = {
+         id = 25014
+         random = no
+         country = ETH
+         trigger = {
+		   atwar = no
+		   control = { province = 833 data = U18 }
+		   NOT = {
+			exists = U14
+		   }
+
+         }
+ 
+         name = "EVT_25001_NAME"
+         desc = "EVT_25001_DESC"
+         style = 0
+         picture = "shipment"
+ 
+         date = { day = 1 month = april year = 1003 }
+	 offset = 12
+	 deathdate = { day = 30 month = december year = 1019 }
+ 
+           action_a = {
+                  name = "Recognize Somaliland, their strategic position is more important than the political fallout"
+		  ai_chance = 50
+                  command = { type = relation which = SOM value = -200 }
+		  command = { type = relation which = FRA value = -30 }
+		  command = { type = relation which = USA value = -30 }
+		  command = { type = set_relation which = U66 value = 140 }
+		  command = { type = guarantee which = ETH where = U66 }
+		  command = { type = trigger which = 25015 }
+		  command = { type = belligerence value = 3 }
+		  command = { type = money value = -400 }
+           }
+	   action_b = {
+                  name = "We will use Kenya's ports"
+		  ai_chance = 50
+		  command = { type = trigger which = 25016 } #U90
+		  command = { type = money value = -100 }
+           }
+
+}
+#############################################
+###### Ethiopia recognizes our independence
+#############################################
+event = {
+         id = 25015
+         random = no
+         country = U66
+ 
+         name = "EVT_25015_NAME"
+         desc = "EVT_25015_DESC"
+         style = 0
+         picture = "shipment"
+ 
+           action_a = {
+                  name = "Excellent"
+		  command = { type = dissent value = -3 }
+		  command = { type = construct which = ic where = 817 value = 1 }
+		  command = { type = construct which = infrastructure where = 817 value = 20 }
+           }
+
+}
+#############################################
+###### Ethiopia establishes sea access through Kenya
+#############################################
+event = {
+         id = 25016
+         random = no
+         country = U90
+ 
+         name = "EVT_25016_NAME"
+         desc = "EVT_25016_DESC"
+         style = 0
+         picture = "shipment"
+ 
+           action_a = {
+                  name = "Ok"
+		  command = { type = relation which = ETH value = 50 }
+		  command = { type = construct which = infrastructure where = 838 value = 10 }
+		  command = { type = construct which = infrastructure where = 839 value = 10 }
+		  command = { type = construct which = infrastructure where = 830 value = 10 }
+		  command = { type = construct which = infrastructure where = 831 value = 10 }
+           }
+
+}

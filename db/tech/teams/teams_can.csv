@@ -1,0 +1,17 @@
+CAN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+2800;Royal Military College;canacademy;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2801;Diemaco;diemaco;8;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2802;General Motors Canada;gmcanada;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2803;Oerlikon;oerlikoncanada;6;1000;2999;management;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2804;Bombardier;bombardier;4;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2805;Intelligence Branch;canintel;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2806;SNC Lavalin;lavalin;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2807;Ultra Electronics;ultraelectronics;6;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2808;CMC Electronics;cmcelectronics;6;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2809;Canadian Army;canarmy;7;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2810;National Defence HQ;candefence;7;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2811;Materiel Command;canlogistic;5;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2812;Canadian Air Force;canairforce;7;1000;1970;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2813;Atomic Energy of Canada;aecl;4;1000;2999;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2814;Canadian Navy;cannavy;7;1000;2999;naval_training;seamanship;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2815;Marine Industries Limited;milcan;6;1000;2999;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

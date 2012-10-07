@@ -1,0 +1,64 @@
+# Second phase of Chinese invasions
+# Triggered once Taiwan is annexed
+
+# When WW3 starts it should concentrate on taking Taiwan first. This is very difficult, as Taiwan have a large 
+# sized army and only 4 provinces to defend. Kinmen (added province near the chinese mainland coast) should fall 
+# easily, so that leaves the island of Taiwan itself. China should get air superiority over the island, use it's 
+# fleet to provide shore-bombardment and land troops en masse. If possible, paratroopers should be used also.
+
+# Some forces should be guarding beaches on the mainland, of course, with concentrations around it's 3 main naval 
+# bases. Vietnam has a very large army, which of a large part will be sent as exp-forces to China. China should 
+# aid North Korea in it's war against South Korea, removing the only US-allied country on the mainland East-Asia. 
+
+# After Taiwan has been taken, the US should be heavily involved by now, so the mighty US fleet and aircrafts based 
+# of Guam and the Philippines needs to be be dealt with. China should use all of it's available aircrafts in naval 
+# bombing and ensuring air-superiority over the Philippines. Swiftly after Taiwan has been subdued, the Philippines 
+# should be invaded. This should be easy, unless the chinese fleet has been sunk. Guam should also be set as an 
+# invasion goal.
+
+
+combat = { KOR = 100 PHI = 100 USA = 100 }
+
+war = 60
+neutrality = 20 
+
+garrison = {
+
+	country_priorities = { KOR = 50 PHI = 50 USA = 50 }
+	province_priorities = { 
+1221 = 30 # Pyongyang
+1362 = 20 # Taipei
+}
+}
+
+front = {
+	province_priorities = {
+1228 = 30 # Seoul
+1683 = 50 # Guam
+1564 = 50 # Okinawa
+1563 = 50
+1565 = 80 # Manilla
+}
+}
+invasion = {
+      max_distance      = 100 # 80.0 
+      max_staging_distance = 100 #10
+
+	staging_province = {
+1221 # Pyongyang
+1346 # Ningbo
+1362 # Taipei
+}
+
+	target = { 
+1228 = 50 # Seoul
+1564 = 100 # Okinawa
+1561 = 100
+1683 = 100 # Guam
+1565 = 150 # Manilla
+2485 = 50 # Lingay Gulf
+1579 = 50 # Davao
+1228 = 50 # 
+} 
+} 
+}

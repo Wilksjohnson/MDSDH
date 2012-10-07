@@ -1,0 +1,26 @@
+BOL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+9501;Head of State;Gonzalo Sánchez de Lozada;2003;2050;2050;SC;Weary Stiffneck;High;M9501;x
+9502;Head of Government;Gonzalo Sánchez de Lozada;2003;2050;2050;SC;Corporate Suit;High;M9501;x
+9503;Foreign Minister;Carlos Saavedra Bruno;2003;2050;2050;SC;Apologetic Clerk;High;M9503;x
+9504;Minister of Armament;Freddy Teodovich;2003;2050;2050;SC;Infantry Proponent;High;M9504;x
+9505;Minister of Security;Edgar Pardo;2003;2050;2050;SC;Back Stabber;High;M9505;x
+9506;Head of Military Intelligence;Julio Valdivieso Schultze;2003;2050;2050;SC;Political Specialist;High;Unknown;x
+9507;Chief of Staff;Roberto Claros;2003;2050;2050;SC;School of Manoeuvre;High;M9507;x
+9508;Chief of Army;Juan Véliz Herrera;2003;2050;2050;SC;Armoured Spearhead Doctrine;High;M9508;x
+9509;Chief of Navy;Luis Aranda Granados;2003;2050;2050;ML;Base Control Doctrine;High;M9509;x
+9510;Chief of Air Force;José Quiroga;2003;2050;2050;SC;Army Aviation Doctrine;High;M9510;x
+;Replacements;;;;;;;x
+9511;Head of State;Carlos Mesa;2003;2050;2050;ML;Popular Figurehead;High;M9511;x
+9512;Head of State;Evo Morales;2003;2050;2050;LWR;Die-hard Reformer;High;M9520;x
+9513;Head of Government;Carlos Mesa;2003;2050;2050;ML;Happy Amateur;High;M9511;x
+9514;Head of Government;Evo Morales;2003;2050;2050;LWR;Happy Amateur;High;M9520;x
+9515;Foreign Minister;Juan Ignacio Siles;2003;2050;2050;ML;Great Compromiser;High;M9513;x
+9516;Minister of Armament;Carlos Sánchez Berzaín;2003;2050;2050;SC;Air Superiority Proponent;High;M9514;x
+9517;Minister of Armament;Gonzalo Arredondo;2003;2050;2050;ML;Infantry Proponent;High;M9515;x
+9518;Minister of Security;Jairo Sanabria;2003;2050;2050;SC;Crime Fighter;High;M9516;x
+9519;Minister of Security;David Aramayo;2003;2050;2050;ML;Crime Fighter;High;M9517;x
+9520;Head of Military Intelligence;Juan Carlos Saa;2003;2050;2050;ML;Political Specialist;High;M9518;x
+9521;Chief of Staff;Luis Aranda Granados;2003;2050;2050;ML;School of Fire Support;High;M9519;x
+9522;Chief of Army;César López Saavedra;2003;2050;2050;ML;elastic defence doctrine;High;M9522;x
+9523;Chief of Navy;Marco Antonio Justiniano;2003;2050;2050;ML;Indirect Approach Doctrine;High;Unknown;x
+9524;Chief of Air Force;Natalio Morales;2003;2050;2050;ML;Air Superiority Doctrine;High;Unknown;x

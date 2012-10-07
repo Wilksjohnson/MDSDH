@@ -1,0 +1,14 @@
+U06;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+40101;CERN;cern;9;1000;2100;nuclear_physics;nuclear_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40102;Eurocorps;eurocorps;8;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40103;EU Air Force;T6418;8;1000;2100;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40104;EU Navy;T6417;7;1000;2100;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40105;EADS;T5701;9;1000;2020;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40106;EADS Electronics;eadselectronics;8;1000;2999;chemistry;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40107;Submarine Forces;frenchsub;7;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40108;Fleet Logistics;franavlog;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40109;European Space Agency;europeanspaceagency;7;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40110;European Defence Agency;eda;8;1000;2060;artillery;mechanics;general_equipment;;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40111;DCNS;T5705;9;1000;2999;naval_engineering;naval_artillery;seamanship;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40112;Eurocopter;eurocopter;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40113;Siemens;T6210;9;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

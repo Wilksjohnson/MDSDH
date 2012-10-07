@@ -1,0 +1,9 @@
+SOV;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+92501;Military Academy of Quebec;quebecmilac;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92502;Bombardier;bombardier;4;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92503;SNC Lavalin;lavalin;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92504;CMC Electronics;cmcelectronics;6;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92505;Marine Industries Limited;milcan;6;1000;2999;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92506;Quebec Army;quebarmy;6;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92507;Quebec Navy;quebnavy;6;1000;2999;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92508;Quebec Air Force;quebairforce;6;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

@@ -1,0 +1,61 @@
+FRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+28501;Head of State;Jacques Chirac;2003;2050;2050;ML;Stern Imperialist;High;M28501;x
+28502;Head of Government;Jean-Pierre Raffarin;2003;2050;2050;ML;Political Protege;High;M28502;x
+28503;Foreign Minister;Dominique de Villepin ;2003;2050;2050;ML;Biased Intellectual;High;M28503;x
+28504;Minister of Armament;Michelle Alliot-Marie;2003;2050;2050;ML;Battle Fleet Proponent;High;M28504;x
+28505;Minister of Security;Nicolas Sarkozy;2003;2050;2050;ML;Crime Fighter;High;M28505;x
+28506;Head of Military Intelligence;Jean-Jacques Pascal;2003;2050;2050;ML;Technical Specialist;High;Unknown;x
+28507;Chief of Staff;Henri Bentegeat;2003;2050;2050;ML;School of Manoeuvre;High;M28507;x
+28508;Chief of Army;Bernard Thorette;2003;2050;2050;ML;Armoured Spearhead Doctrine;High;M28508;x
+28509;Chief of Navy;Jean-Louis Battet;2003;2050;2050;ML;Open Seas Doctrine;High;M28509;x
+28510;Chief of Air Force;Richard Wolsztynski;2003;2050;2050;ML;Air Superiority Doctrine;High;M28510;x
+;Replacements;;;;;;;x
+28511;Foreign Minister;Nicolas Sarkozy;2007;2050;2050;ML;Biased Intellectual;High;M28505;x
+28512;Minister of Security;Segolene Royal;2007;2050;2050;SD;Silent Lawyer;High;Royal;x
+28548;Foreign Minister;Nicolas Sarkozy;2003;2050;2050;SD;Biased Intellectual;High;M28505;x
+28549;Minister of Security;Segolene Royal;2003;2050;2050;ML;Silent Lawyer;High;Royal;x
+28513;Foreign Minister;Jean-Marie Le Pen;2003;2050;2050;FA;Ideological Crusader;High;Le Pen;x
+28514;Minister of Security;Marie-George Buffet;2003;2050;2050;LE;Man of the People;High;Buffet;x
+28515;Minister of Armament;Francois Hollande;2017;2050;2050;ML;Administrative Genius;High;Hollande;x
+28516;Head of Military Intelligence;Francois Fillon;2017;2050;2050;SD;Technical Specialist;High;Fillon;x
+28517;Foreign Minister;Dominique de Villepin ;2005;2050;2050;ML;Apologetic Clerk;High;M28503;x
+28518;Head of Military Intelligence;Francois Fillon;2006;2050;2050;ML;Technical Specialist;High;Fillon;x
+28519;Minister of Armament;Renaud Dutreil;2012;2050;2050;ML;laissez-faire capitalist;High;Dutreil;x
+28520;Head of Military Intelligence;Valerie Pecresse;2012;2050;2050;ML;Technical Specialist;High;Pecresse;x
+28521;Minister of Armament;Francois Hollande;2003;2050;2050;SD;Administrative Genius;High;Hollande;x
+28522;Minister of Armament;Laurent Fabius;2003;2050;2050;SD;laissez-faire capitalist;High;Fabius;x
+28523;Minister of Security;Bruno Gollnisch;2003;2050;2050;FA;Silent Lawyer;High;Gollnisch;x
+28524;Foreign Minister;Jean-Claude Gayssot;2003;2050;2050;LE;Apologetic Clerk;High;Gayssot;x
+28525;Foreign Minister;Carl Lang;2003;2050;2050;FA;Great Compromiser;High;Lang;x
+28526;Foreign Minister;Philippe de Villiers;2003;2050;2050;PA;Biased Intellectual;High;Villiers;x
+28527;Foreign Minister;Olivier Besancenot;2003;2050;2050;LE;Ideological Crusader;High;Besancenot;x
+28528;Foreign Minister;Michel Barnier;2004;2050;2050;ML;Biased Intellectual;High;Barnier;x
+28529;Foreign Minister;Philippe Douste-Blazy;2005;2050;2050;ML;Great Compromiser;High;Douste-Blazy;x
+28530;Foreign Minister;Bernard Kouchner;2005;2050;2050;ML;Great Compromiser;High;Kouchner;x
+28531;Foreign Minister;Bertrand Delanoe;2003;2050;2050;SD;Great Compromiser;High;Delanoe;x
+28532;Minister of Armament;Bruno Megret;2003;2050;2050;FA;Resource Industrialist;High;Megret;x
+28533;Minister of Armament;Alain Krivine;2003;2050;2050;LE;Corrupt Kleptocrat;High;Krivine;x
+28534;Minister of Armament;Herve Morin;2005;2050;2050;ML;Administrative Genius;High;Morin;x
+28535;Minister of Armament;Dominique Strauss-Kahn;2003;2050;2050;SD;Administrative Genius;High;Kahn;x
+28536;Minister of Security;Marie Le Pen;2003;2050;2050;PA;Compassionate Gentleman;High;MLe Pen;x
+28537;Minister of Security;Henri Emmanuelli;2003;2050;2050;SD;Compassionate Gentleman;High;Emmanuelli;x
+28538;Minister of Security;Robert Hue;2003;2050;2050;LE;Crime Fighter;High;Hue;x
+28539;Minister of Security;Dominique de Villepin ;2003;2050;2050;ML;Prince of Terror;High;M28503;x
+28540;Minister of Security;Francois Baroin;2005;2050;2050;SC;Undistinguished Suit;High;Baroin;x
+28541;Minister of Security;Michelle Alliot-Marie;2006;2050;2050;ML;Crime Fighter;High;M28504;x
+28542;Chief of Staff;Jean-Louis Georgelin;2005;2050;2050;ML;School of Psychology;High;Georgelin;x
+28543;Chief of Army;Jean-Pierre Kelche;2003;2050;2050;SD;Armoured Spearhead Doctrine;High;M28508;x
+28544;Chief of Army;Bruno Cuche;2005;2050;2050;ML;Decisive Battle Doctrine;High;Unknown;x
+28545;Chief of Navy;Alain Oudot de Dainville;2003;2050;2050;ML;Power Projection Doctrine;High;Dainville;x
+28546;Minister of Security;Brice Hortefeux;2003;2050;2050;ML;Silent Lawyer;High;Hortefeux;x
+28547;Minister of Armament;Pierre Lellouche;2003;2050;2050;ML;laissez-faire capitalist;High;Lellouche;x
+28550;Minister of Security;Jean-Marc Ayrault;2003;2050;2050;SD;Crime Fighter;High;Ayrault;x
+28551;Minister of Armament;Jean Glavany;2003;2050;2050;SD;Resource Industrialist;High;Glavany;x
+28552;Foreign Minister;Henri Jibrayel;2003;2050;2050;SD;Great Compromiser;High;Jibrayel;x
+28553;Foreign Minister;Arnaud Montebourg;2006;2050;2050;SD;Apologetic Clerk;High;Montebourg;x
+28554;Minister of Armament;Alain Richard;2003;2050;2050;SD;laissez-faire capitalist;High;Richard;x
+28555;Minister of Security;Alain Rousset;2003;2050;2050;SD;Man of the People;High;Rousset;x
+28556;Chief of Army;Elrick Irastorza;2007;2050;2050;NA;Armoured Spearhead Doctrine;High;Eirastorza;x
+28557;Chief of Staff;Elrick Irastorza;2009;2050;2050;NA;School of Psychology;High;Eirastorza;x
+28558;Chief of Navy;Pierre-Francois Forissier;2007;2050;2050;NA;Indirect Approach Doctrine;High;Pfforissier;x
+28559;Chief of Air Force;Stéphane Abrial;2005;2050;2050;NA;Naval Aviation Doctrine;High;Sabrial;x

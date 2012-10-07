@@ -1,0 +1,570 @@
+#########################################################
+#							#
+# Events for the European Union (U72)                   #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#101001 - 101199# Creation of Eurocorps events
+#101200 - 101299# Common EU AI events
+#101300 - 101500# Political/Election events	 		
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Creation of Eurocorps events
+#############################################
+
+#############################################
+###### Enlargement of Eurocorps - U72
+#############################################
+event = {
+         id = 101001
+         random = no
+         country = U72
+
+	 #trigger = { flag = warflag2 }
+ 
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+ 
+         date = { day = 1 month = april year = 2003 }
+	 offset = 5  #90
+	 date = { day = 30 month = december year = 2019 }
+ 
+           action_a = {
+                  name = "Go Ahead"
+		  ai_chance = 100
+		  command = { type = belligerence value = 2 }
+		  command = { type = setflag which = eurocorps }
+
+           }
+	   action_b = {
+                  name = "No"
+		  ai_chance = 0
+		  command = { type = belligerence value = -2 }
+		  command = { type = sleepevent which = 101002 }
+		  command = { type = sleepevent which = 101003 }
+		  command = { type = sleepevent which = 101004 }
+		  command = { type = sleepevent which = 101005 }
+		  command = { type = sleepevent which = 101006 }
+		  command = { type = sleepevent which = 101007 }
+		  command = { type = sleepevent which = 101008 }
+		  command = { type = sleepevent which = 101009 }
+		  command = { type = sleepevent which = 101010 }
+		  command = { type = sleepevent which = 101011 }
+		  command = { type = sleepevent which = 101012 }
+		  command = { type = sleepevent which = 101013 }
+		  command = { type = sleepevent which = 101014 }
+		  
+           }
+
+}
+
+#############################################
+###### Enlargement of Eurocorps - FRA
+#############################################
+
+event = {
+         id = 101002
+         random = no
+         country = FRA
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = U72 country = FRA }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 5
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 100
+		  command = { type = switch_allegiance which = -1 where = U72 }
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 0
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - GER
+#############################################
+
+event = {
+         id = 101003
+         random = no
+         country = GER
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = U72 country = GER }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 5
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 100
+		  command = { type = switch_allegiance which = -1 where = U72 }
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 0
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - BEL
+#############################################
+
+event = {
+         id = 101004
+         random = no
+         country = BEL
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = BEL country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 5
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 100
+		  command = { type = switch_allegiance which = -1 where = U72 }
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 0
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - SPA
+#############################################
+
+event = {
+         id = 101005
+         random = no
+         country = SPA
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = SPA country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 6
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 100
+		  command = { type = switch_allegiance which = -1 where = U72 }
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 0
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - POL
+#############################################
+
+event = {
+         id = 101006
+         random = no
+         country = POL
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = POL country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 6
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 100
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 0
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - ITA
+#############################################
+
+event = {
+         id = 101007
+         random = no
+         country = ITA
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = ITA country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 7
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - HOL
+#############################################
+
+event = {
+         id = 101008
+         random = no
+         country = HOL
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = HOL country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 7
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - CZE
+#############################################
+
+event = {
+         id = 101009
+         random = no
+         country = CZE
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = CZE country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 7
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - DEN
+#############################################
+
+event = {
+         id = 101010
+         random = no
+         country = DEN
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = DEN country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 7
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - POR
+#############################################
+
+event = {
+         id = 101011
+         random = no
+         country = POR
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = POR country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 7
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - ENG
+#############################################
+
+event = {
+         id = 101012
+         random = no
+         country = ENG
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = ENG country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 30
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - GRE
+#############################################
+
+event = {
+         id = 101013
+         random = no
+         country = GRE
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = GRE country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 7
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}
+#############################################
+###### Enlargement of Eurocorps - ROM
+#############################################
+
+event = {
+         id = 101014
+         random = no
+         country = ROM
+
+	 trigger = {
+
+         flag = eurocorps
+	 alliance = { country = ROM country = U72 }
+
+	 }
+         name = "EVT_101001_NAME"
+         desc = "EVT_101001_DESC"
+         style = 0
+	 picture = "euref"
+
+         date = { day = 1 month = april year = 2003 }
+	 offset = 30
+	 date = { day = 30 month = december year = 2019 }
+ 
+ 
+           action_a = {
+                  name = "Contribute with troops"
+		  ai_chance = 90
+		  command = { type = switch_allegiance which = -1 where = U72 }
+
+           }
+	   action_b = {
+                  name = "Our army will remain under national control"
+		  ai_chance = 10
+		  command = { type = relation which = U72 value = -40 }
+		  
+           }
+}

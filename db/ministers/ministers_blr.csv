@@ -1,0 +1,23 @@
+BLR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+7001;Head of State;Alexander Grigoryevich Lukashenko;2003;2050;2050;LE;Pig-headed Isolationist;High;M7001;x 
+7002;Head of Government;Gennady Novitsky;2003;2050;2050;LE;Political Protege;High;M7002;x 
+7003;Foreign Minister;Sergei Martynov;2003;2050;2050;LE;Great Compromiser;High;M7003;x 
+7004;Minister of Armament;Leonid Maltsev;2003;2050;2050;LE;Corrupt Kleptocrat;High;Lmaltsev;x 
+7005;Minister of Security;Stepan Sukhorenko;2003;2050;2050;LE;Back Stabber;High;M7005;x 
+7006;Head of Military Intelligence;Stepan Sukhorenko;2003;2050;2050;LE;Dismal Enigma;High;M7005;x 
+7007;Chief of Staff;Sergej Petrovich Gurulev;2003;2050;2050;LE;School of Defence;High;M7007;x 
+7008;Chief of Army;Stanislav Stanislavovich Smolsky;2003;2050;2050;LE;Elastic Defence Doctrine;High;M7008;x 
+7009;Chief of Air Force;Oleg Sergeyevich Paferov;2003;2050;2050;LE;Air Superiority Doctrine;High;M7010;x 
+7010;Chief of Navy;Unknown;2003;2050;2050;LA;Open Seas Doctrine;High;Unknown;
+;Replacements;;;;;;;x
+7011;Head of State;Alexander Milinkevich;2003;2050;2050;SL;die-hard reformer;High;M7011;x 
+7012;Head of Government;Sergey Sidorsky;2003;2050;2050;LE;Political Protege;High;M7012;x 
+7013;Head of Government;Anatoly Vladimirovich Lebedko;2003;2050;2050;ML;Ambitious Union Boss;High;M7013;x 
+7014;Foreign Minister;Alexander Dabravolski;2003;2050;2050;ML;Ideological Crusader;High;Adabravolski;x 
+7015;Minister of Armament;Nikolaj Statkevich;2003;2050;2050;SD;Resource Industrialist;High;M7015;x
+7016;Foreign Minister;Hienadz Buraukin;2003;2050;2050;LE;Biased Intellectual;High;Hburaukin;x
+7017;Head of Government;Alexander Dabravolski;2003;2050;2050;ML;Flamboyant Tough Guy;High;Adabravolski;x
+7018;Minister of Armament;Pavel Mariev;2003;2050;2050;LE;Resource Industrialist;High;Pmariev;x
+7019;Minister of Security;Vladimir Novosiad;2003;2050;2050;SL;Man of the People;High;Vnovosiad;x
+7020;Head of State;Zianon Pazniak;2003;2050;2050;SC;Stern Imperialist;High;Zpazniak;x
+7021;Minister of Armament;Jaroslav Romanchuk;2003;2050;2050;ML;laissez-faire capitalist;High;Jromanchuk;x

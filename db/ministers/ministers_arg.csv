@@ -1,0 +1,60 @@
+ARG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+2501;Head of State;Eduardo Duhalde;2003;2050;2050;SD;Barking Buffoon;High;M2501;x
+2502;Head of Government;Eduardo Duhalde;2003;2050;2050;SD;Political Protege;High;M2501;x
+2503;Foreign Minister;Carlos Ruckauf;2003;2050;2050;SD;Great Compromiser;High;M2503;x
+2504;Minister of Armament;Horacio Jaunarena;2003;2050;2050;SD;Corrupt Kleptocrat;High;M2504;x
+2505;Minister of Security;Roberto Giacomino;2003;2050;2050;SD;Crooked Kleptocrat;High;M2505;x
+2506;Head of Military Intelligence;Miguel Angel Toma;2003;2050;2050;NA;Industrial Specialist;High;Matoma;x
+2507;Chief of Staff;Juan Carlos Mugnolo;2003;2050;2050;NA;School of Defence;High;M2507;x
+2508;Chief of Army;Ricardo Brinzoni;2003;2050;2050;NA;Static Defence Doctrine;High;M2508;x
+2509;Chief of Navy;Joaquín Stella;2003;2050;2050;NA;Base Control Doctrine;High;M2509;x
+2510;Chief of Air Force;Walter Barbero;2003;2050;2050;NA;Air Superiority Doctrine;High;M2510;x
+;Replacements;;;;;;;x
+2511;Head of State;Néstor Kirchner;2003;2050;2050;SD;Popular Figurehead;High;M2511;x
+2512;Head of Government;Nestor Kirchner;2003;2050;2050;SD;Flamboyant Tough Guy;High;M2511;x
+2513;Foreign Minister;Rafael Bielsa;2003;2050;2050;SD;Great Compromiser;High;M2513;x
+2514;Minister of Armament;José Pampuro;2003;2050;2050;SD;Infantry Proponent;High;M2514;x
+2515;Minister of Security;Eduardo Héctor Prados;2003;2050;2050;ML;Crime Fighter;High;M2515;x
+2516;Head of Military Intelligence;Héctor Icazuriaga;2003;2050;2050;ML;Political Specialist;High;M2516;x
+2517;Chief of Staff;Jorge Alberto Chevalier;2003;2050;2050;SD;School of Manoeuvre;High;M2517;x
+2518;Chief of Army;Roberto Fernando Bendini;2003;2050;2050;ML;elastic defence doctrine;High;M2518;x
+2519;Chief of Navy;Jorge Godoy;2003;2050;2050;ML;Open Seas Doctrine;High;M2519;x
+2520;Chief of Air Force;Carlos Rohde;2003;2050;2050;NA;Air Superiority Doctrine;High;M2520;x
+2521;Chief of Air Force;Eduardo Schiaffino;2003;2050;2050;NA;vertical envelopment doctrine;High;M2521;x
+2522;Head of State;Christina Kirchner;2007;2050;2050;SD;Benevolent Gentleman;High;Ckirchner;x
+2523;Head of Government;Christina Kirchner;2007;2050;2050;SD;Flamboyant Tough Guy;High;Ckirchner;x
+2524;Head of State;Carlos Menem;2003;2050;2050;SL;Weary Stiffneck;High;Cmenem;x
+2525;Head of Government;Carlos Menem;2003;2050;2050;SL;Silent Workhorse;High;Cmenem;x
+2526;Head of State;Ricardo López Murphy;2003;2050;2050;ML;Benevolent Gentleman;High;Rlmurphy;x
+2527;Head of Government;Ricardo López Murphy;2003;2050;2050;ML;Corporate Suit;High;Rlmurphy;x
+2528;Head of State;Elisa Carrió;2007;2050;2050;SL;Benevolent Gentleman;High;Ecarrio;x
+2529;Head of Government;Elisa Carrió;2007;2050;2050;SL;Political Protege;High;Ecarrio;x
+2530;Head of State;Roberto Lavagna;2007;2050;2050;SL;Benevolent Gentleman;High;Rlavagna;x
+2531;Head of Government;Roberto Lavagna;2007;2050;2050;SL;Ambitious Union Boss;High;Rlavagna;x
+2532;Foreign Minister;Jorge Taiana;2003;2050;2050;SL;Great Compromiser;High;Jtaiana;x
+2533;Head of Military Intelligence;Sergio Acevedo;2003;2050;2050;NA;Political Specialist;High;Sacevedo;x
+2534;Minister of Armament;Nilda Garré;2003;2050;2050;SL;Tank Proponent;High;Ngarre;x
+2535;Minister of Security;Florencio Randazzo;2003;2050;2050;SL;Compassionate Gentleman;High;Frandazzo;x
+2536;Minister of Security;Anibal Fernandez;2003;2050;2050;SD;Crime Fighter;High;Afernandez;x
+2537;Minister of Armament;Mauricio Macri;2003;2050;2050;ML;laissez-faire capitalist;High;Mmacri;x
+2538;Foreign Minister;Esteban Bullrich;2003;2050;2050;ML;Ideological Crusader;High;Ebullrich;x
+2539;Head of State;Fernando Solanas;2003;2050;2050;LWR;Barking Buffoon;High;Fsolanas;x
+2540;Head of Government;Fernando Solanas;2003;2050;2050;LWR;Ambitious Union Boss;High;Fsolanas;x
+2541;Minister of Armament;Humberto Tumini;2003;2050;2050;LWR;Corrupt Kleptocrat;High;Htumini;x
+2542;Foreign Minister;Jorge Ceballos;2003;2050;2050;LWR;Biased Intellectual;High;Jceballos;x
+2543;Minister of Armament;Carlos Rovira;2003;2050;2050;SD;Theoretical Scientist;High;Crovira;x
+2544;Minister of Security;Jorge Altamira;2003;2050;2050;LE;Silent Lawyer;High;Jaltamira;x
+2545;Minister of Armament;Néstor Pitrola;2003;2050;2050;LE;Resource Industrialist;High;Npitrola;x
+2546;Foreign Minister;Gabriela Arroyo;2003;2050;2050;LE;Great Compromiser;High;Garroyo;x
+2547;Chief of Army;Luis Alberto Pozzi;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Lapozzi;x
+2548;Chief of Army;Daniel Camponovo;2003;2050;2050;NA;elastic defence doctrine;High;Dcamponovo;x
+2549;Chief of Army;Eduardo Lugani;2005;2050;2050;NA;elastic defence doctrine;High;Elugani;x
+2550;Chief of Army;Carlos Pedro Artuso;2003;2050;2050;NA;Armoured Spearhead Doctrine;High;Cartuso;x
+2551;Chief of Army;Jorge Eduardo Gómez;2005;2050;2050;NA;Guns and Butter Doctrine;High;Jegomezarg;x
+2552;Chief of Army;Gustavo Eduardo Lux;2003;2050;2050;NA;Static Defence Doctrine;High;Galux;x
+2553;Chief of Air Force;Normando Constantino;2004;2050;2050;NA;Army Aviation Doctrine;High;Nconstantino;x
+2554;Chief of Navy;Benito Rotolo;2003;2050;2050;NA;Power Projection Doctrine;High;Birotolo;x
+2555;Chief of Navy;Enrique Salvador Olmedo;2003;2050;2050;NA;Decisive Naval Battle Doctrine;High;Esolmedo;x
+2556;Chief of Navy;Oscar Radivoj;2004;2050;2050;NA;Indirect Approach Doctrine;High;Oradivoj;x
+2557;Chief of Navy;Luis Oscar Manino;2005;2050;2050;NA;Open Seas Doctrine;High;Lomanino;x
+2558;Chief of Navy;Carlos Paz;2006;2050;2050;NA;Base Control Doctrine;High;Capazarg;x

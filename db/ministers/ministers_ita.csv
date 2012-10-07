@@ -1,0 +1,92 @@
+ITA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+7700;Head of State;Carlo Azeglio Ciampi;2003;2050;2050;SC;Popular Figurehead;Very High;M7700;x
+7701;Head of State;Silvio Berlusconi;2003;2050;2050;ML;Barking Buffoon;High;M7701;x
+7702;Foreign Minister;Franco Frattini;2003;2050;2050;ML;Ideological Crusader;High;M582034;x
+7703;Minister of Armament;Antonio Marzano;2003;2050;2050;ML;Laissez-Faire Capitalist;High;M582037;x
+7704;Minister of Security;Giuseppe Pisanu;2003;2050;2050;ML;Man of the People;High;M7704;x
+7705;Head of Military Intelligence;Nicolò Pollari;2003;2050;2050;ML;Political Specialist;Medium;M582030;x
+7706;Chief of Staff;Rolando Mosca Moschini;2003;2050;2050;SC;School of Fire Support;High;M582031;x
+7707;Chief of Army;Antonio Martino;2003;2050;2050;SD;Guns and Butter Doctrine;High;M7707;x
+7708;Chief of Navy;Marcello De Donno;2003;2050;2050;SD;Indirect Approach Doctrine;High;M582028;x
+7709;Chief of Air Force;Sandro Ferracuti;2003;2050;2050;ML;Naval Aviation Doctrine;High;M582033;x
+;Replacements;;;;;;;x
+7712;Foreign Minister;Roberto Antonione;2003;2050;2050;ML;General Staffer;High;M7712;x
+7715;Head of Military Intelligence;Nicola Calipari;2003;2050;2050;ML;Logistics Specialist;Very High;M7715;x
+582034;Foreign Minister;Gianfranco Fini;2004;2050;2050;ML;iron fisted brute;High;M7702;x
+582035;Foreign Minister;Silvio Berlusconi;2003;2050;2050;ML;Great Compromiser;High;M7701;x
+582036;Foreign Minister;Renato Ruggiero;2003;2050;2050;ML;the cloak n dagger schemer;High;M7714;x
+582037;Minister of Armament;Claudio Scajola;2005;2050;2050;ML;Laissez-Faire Capitalist;High;M7703;x
+582038;Minister of Security;Claudio Scajola;2003;2050;2050;ML;Prince of Terror;High;M7703;x
+582039;Chief of Army;Salvatore Cicu;2003;2050;2050;ML;static defence doctrine;High;M7709;x
+7717;Head of Government;Giulio Tremonti;2005;2050;2050;ML;Happy Amateur;High;M7717;x
+7718;Minister of Security;Antonio D'Alì;2003;2050;2050;ML;crooked kleptocrat;High;M7718;x
+7719;Head of State;Giulio Andreotti;2006;2050;2050;SC;Weary Stiffneck;High;M7719;x
+7720;Head of State;Gianni Letta;2006;2050;2050;ML;Insignificant Layman;High;M7720;x
+7721;Head of State;Giorgio Napolitano;2006;2050;2050;SD;Insignificant Layman;Very High;M7721;x
+7722;Head of Government;Romano Prodi;2006;2050;2050;SL;Naive Optimist;Very High;M7722;x
+7723;Chief of Air Force;Vincenzo Camporini;2006;2050;2050;SC;Naval Aviation Doctrine;High;M7705;x
+582020;Foreign Minister;Massimo D'Alema;2006;2050;2050;SD;Great Compromiser;High;M7706;x
+582021;Minister of Security;Giuliano Amato;2006;2050;2050;SL;Silent Lawyer;High;M582021;x
+582022;Chief of Staff;Giampaolo Di Paola;2004;2050;2050;SC;school of manoeuvre;High;M582022;x
+582023;Chief of Navy;Paolo La Rosa;2006;2050;2050;SC;Open Seas Doctrine;High;M582023;x
+582024;Minister of Armament;Pierluigi Bersani;2006;2050;2050;SL;Laissez-faire Capitalist;High;M582024;x
+582025;Head of Military Intelligence;Bruno Branciforte;2006;2050;2050;ML;Industrial Specialist;High;M582025;x
+582026;Chief of Army;Arturo Parisi;2006;2050;2050;SL;Armoured Spearhead Doctrine;Very High;M582026;x
+582040;Head of Government;Massimo D'Alema;2006;2050;2050;SD;Flamboyant Tough Guy;Very High;M7706;x
+582041;Head of Government;Francesco Rutelli;2006;2050;2050;ML;Political Protege;High;M582041;x
+582042;Foreign Minister;Ugo Intini;2006;2050;2050;SD;Ideological Crusader;High;M582042;x
+582043;Minister of Security;Marco Minniti;2006;2050;2050;SD;Silent Lawyer;High;M582043;x
+582044;Minister of Armament;Sergio D'Antoni;2006;2050;2050;SL;Laissez-faire Capitalist;High;M582044;x
+582045;Chief of Army;Emidio Casula;2006;2050;2050;SD;Guns and Butter Doctrine;High;M582045;x
+582047;Chief of Air Force;Leonardo Tricarico;2004;2050;2050;SC;Naval Aviation Doctrine;High;M582047;x
+582048;Chief of Navy;Sergio Biraghi;2004;2050;2050;SD;Open Seas Doctrine;High;M582032;x
+582049;Minister of Armament;Adolfo Urso;2003;2050;2050;ML;Laissez-Faire Capitalist;High;M582049;x
+582050;Chief of Staff;Vincenzo Camporini;2003;2050;2050;SC;school of manoeuvre;Very High;M7705;x
+582051;Chief of Navy;Giovanni Vitaloni;2003;2050;2050;SD;Power Projection Doctrine;High;M582051;x
+582052;Chief of Air Force;Andrea Fornasiero;2003;2050;2050;SC;Air Superiority Doctrine;Very High;M582052;x
+582053;Head of Government;Marco Follini;2004;2050;2050;ML;Political Protege;High;M7713;x
+582054;Head of Government;Gianfranco Fini;2003;2050;2050;ML;Backroom Backstabber;High;M7702;x
+582055;Head of Government;Franco Marini;2008;2050;2050;ML;Silent Workhorse;Very High;M582055;x
+582056;Minister of Armament;Marco Stradiotto;2008;2050;2050;ML;Laissez-Faire Capitalist;High;M582056;x
+582057;Minister of Security;Ettore Rosato;2008;2050;2050;ML;Compassionate Gentleman;High;M582057;x
+582058;Foreign Minister;Franco Danieli;2006;2050;2050;SL;the cloak n dagger schemer;High;M582058;x
+582059;Head of Government;Pier Ferdinando Casini;2008;2050;2050;SC;Backroom Backstabber;High;M582059;x
+582060;Head of Government;Walter Veltroni;2008;2050;2050;SL;Naive Optimist;Very High;M582060;x
+582061;Head of Government;Fausto Bertinotti;2008;2050;2050;SD;Flamboyant Tough Guy;Very High;M582061;x
+582062;Foreign Minister;Cesare Salvi;2008;2050;2050;SD;Ideological Crusader;High;M582062;x
+582063;Foreign Minister;Alì Raschid;2008;2050;2050;SD;Biased Intellectual;Medium;M582063;x
+582064;Minister of Armament;Paolo Cento;2008;2050;2050;SD;Laissez-Faire Capitalist;High;M582064;x
+582065;Minister of Armament;Alfiero Grandi;2008;2050;2050;SL;Laissez-Faire Capitalist;High;M582065;x
+582066;Minister of Security;Oliviero Diliberto;2008;2050;2050;SD;Man of the People;High;M582066;x
+582067;Minister of Security;Franco Bonato;2008;2050;2050;SD;Crime Fighter;Very High;M582067;x
+582068;Chief of Army;Fabio Mussi;2008;2050;2050;SD;Decisive Battle Doctrine;High;M582068;x
+582069;Chief of Army;Manuela Palermi;2008;2050;2050;SD;Guns and Butter Doctrine;Very High;M582069;x
+582070;Head of Government;Giovanni Russo Spena;2008;2050;2050;SD;Backroom Backstabber;High;M582070;x
+582071;Head of Government;Bruno Tabacci;2008;2050;2050;ML;Silent Workhorse;Very High;M582071;x
+582072;Foreign Minister;Rocco Buttiglione;2008;2050;2050;SC;Ideological Crusader;High;M582072;x
+582073;Foreign Minister;Lorenzo Cesa;2008;2050;2050;SC;iron fisted brute;Medium;M582073;x
+582074;Minister of Armament;Savino Pezzotta;2008;2050;2050;SL;Laissez-Faire Capitalist;High;M582074;x
+582075;Minister of Armament;Michele Vietti;2008;2050;2050;SC;Laissez-Faire Capitalist;High;M582075;x
+582076;Minister of Security;Mario Baccini;2008;2050;2050;ML;Efficient Sociopath;High;M582076;x
+582077;Minister of Security;Bruno Tabacci;2008;2050;2050;ML;Silent Lawyer;Very High;M582071;x
+582078;Chief of Army;Francesco Bosi;2008;2050;2050;SC;Decisive Battle Doctrine;High;M582078;x
+582079;Chief of Army;Calogero Mannino;2008;2050;2050;SC;Guns and Butter Doctrine;Very High;M582079;x
+582081;Head of Government;Gianfranco Fini;2008;2050;2050;ML;Backroom Backstabber;Very High;M7702;x
+582082;Foreign Minister;Gianfranco Fini;2008;2050;2050;ML;iron fisted brute;High;M7702;x
+582083;Foreign Minister;Claudio Scajola;2008;2050;2050;ML;Ideological Crusader;High;M7703;x
+582084;Minister of Armament;Giulio Tremonti;2008;2050;2050;ML;Laissez-Faire Capitalist;High;M7717;x
+582085;Minister of Armament;Roberto Maroni;2008;2050;2050;ML;Laissez-Faire Capitalist;Medium;M582085;x
+582086;Minister of Security;Roberto Castelli;2008;2050;2050;ML;Efficient Sociopath;Medium;M582086;x
+582087;Minister of Security;Alfredo Mantovano;2008;2050;2050;ML;Compassionate Gentleman;Very High;M582087;x
+582088;Chief of Army;Lino Iannuzzi;2008;2050;2050;SC;Armoured Spearhead Doctrine;High;M582088;x
+582089;Chief of Army;Salvatore Cicu;2008;2050;2050;SC;static defence doctrine;High;M7709;x
+582090;Head of Government;Dario Franceschini;2008;2050;2050;ML;Naive Optimist;High;M582090;x
+582091;Foreign Minister;Massimo D'Alema;2008;2050;2050;SD;Great Compromiser;Very High;M7706;x
+582092;Foreign Minister;Piero Fassino;2008;2050;2050;SD;Ideological Crusader;Very High;M582092;x
+582093;Minister of Armament;Emma Bonino;2008;2050;2050;ML;Laissez-Faire Capitalist;High;M582093;x
+582094;Minister of Armament;Enzo Bianco;2008;2050;2050;SD;Laissez-Faire Capitalist;High;M582094;x
+582095;Minister of Security;Antonio Di Pietro;2008;2050;2050;SL;Crime Fighter;Very High;M582095;x
+582096;Minister of Security;Enrico Letta;2008;2050;2050;SL;Compassionate Gentleman;Very High;M582096;x
+582097;Chief of Army;Arturo Parisi;2008;2050;2050;SL;Armoured Spearhead Doctrine;Very High;M582026;x
+582098;Chief of Army;Valerio Zanone;2008;2050;2050;ML;Guns and Butter Doctrine;High;M582098;x
+582100;Minister of Armament;Spazio;2003;2050;2050;ML;Laissez-Faire Capitalist;High;unknown;x

@@ -1,0 +1,2092 @@
+##########
+# Format #
+##########
+#
+# COUNTRY_TAG = { [PARAMETERS] } 
+#
+##############
+# Parameters #
+##############
+#
+# date = { day = DD month = [MONTH_NAME] year = YYYY }			# Country cannot be released before this date
+# expirydate = { day = DD month = [MONTH_NAME] year = YYYY }	# Country cannot be released after this date
+#	MONTH_NAME: january / february / march / april / may / june / july / august / september / october / november / december
+#
+# minimum = { PROV_ID PROV_ID ... PROV_ID } 	# List of provinces (by IDs) that are required for this country to be released. These are considered as Core provinces.
+# extra = { PROV_ID PROV_ID ... PROV_ID } 		# List of provinces (by IDs) that are optional for this country. These are considered as Core provinces.
+# capital = PROV_ID								# ID of the province that is prefered to be capital of the new country. Usually it is part of minimum = { ... } list too.
+# revolt = no/yes[DEFAULT]						# If this country can be created by revolt (released by Rebels) or not. By default this is enabled.
+# liberate = no/yes[DEFAULT]					# If this country can be liberated by other countries or not. By default this is enabled.
+#
+# intrinsic_gov_type = [GOV_TYPE]	
+#	GOV_TYPE: 
+#		nazi / fascist / paternal_autocrat			# These are considered as RIGHT regimes and can be released only by RIGHT policy countries
+#		social_conservative / market_liberal [DEFAULT] / social_liberal / social_democrat	# These are considered as NEUTRAL regimes and can be released by any countries
+#		left_wing_radical / leninist / stalinist	# These are considered as LEFT regimes and can be released only LEFT policy countries
+# 	Defines prefered country regime. Used to refine availabe for relese countries list based on the policy of the current country. 
+#	If there are 2 or more countries sharing TAG or regular_id, the country with closest intrinsic_gov_type will be made available for release.
+#
+# regular_id = [TAG]	
+# 	Defines if this country is a shadow country of [TAG] (like GER and DDR for example). 
+#	Having more then one shadow country while allowed should be avoided when possible and those countries must differ in intrinsic_gov_type setting.
+#	This setting is used on coups/revolts and could trigger country TAG change. 
+#	It is used as a filter on available for release countries list generation making only one country available based on the intrinsic_gov_type - 
+#    the one with the closest Gov. type to the releaser country is made available.
+#	Wars between shadow countries and [TAG] are considered as civil and winner takes all (units, build queue etc.) on annexation.
+#
+# NOTE: intrinsic_gov_type and regular_id usage can be changed from misc.txt ("Filter used on available for release countries list based on regular_id and intrinsic_gov_type" modifier in "diplomacy" section)
+#
+##############################################
+# New (optional) parameters for Darkest Hour #
+##############################################
+#
+# country = { TAG1 TAG2 … TAGx }	# Only countries in that list can release the country
+# no = { TAG1 TAG2 … TAGx }			# Countries in that list cannot release the country
+# not = { TAG1 TAG2 … TAGx }		# The country cannot be released if any of those countries exist at the moment
+# claims = { PROV_ID …} 			# List of provinces (by IDs) that are claimed by this country. These are not required for release and are considered as Claimed provinces.
+# min = X  							# Allows release if at least X provinces of minimum list are controlled by releaser country. By default (no min entry or min = -1) it is equal to provinces in minimum list. 
+# min_extra = X 					# Allows release if at least X provinces of extra list are controlled by releaser country. By default (no min_ extra entry) it is 0. 
+#
+# coup = { TAG1 TAG2 … TAGx }		# Used only when "Used change TAG on coup logic." modifier in misc.txt is set to 1! 
+#	On coup country that have such list defined can change its TAG to countries from that list only 
+#	 (the TAG of country that can be created AND has the closest intrinsic_gov_type to the country that initiated the coup will be used for the switch).
+#
+# value = X.X (0.0 – 1.25) 			# Used by the old release model only (when no min or min_extra are defined). 
+#	When 'score' is above that value the country will be available for release (see below for details). By default (no value) it is 0.51.
+#	A country will be available for liberation if it has at least 0.51 final score (can be changed - see above). 
+#	Capital province gives 0.25 and (available minimum provinces / total minimum) provinces gives the rest. 
+#	Claims, cores and current capital excluded of the liberator are excluded from the above calculation! 
+#	If minimum list is empty, but extra is not, then extra list will be used in place of the minimum. Otherwise extra list is not used.
+#
+##############################################
+
+ ETH = { # Ethiopia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 822 823 820 829 825 830 819 821 818 828 831 826 827 824 
+ } 
+ extra = { 815 816 817 } 
+ capital = 825 
+ } 
+
+ AFG = { # Afghanistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2171 } 
+ 
+ extra = { 2168 2173 2172 2169 2170 1537 } 
+ capital = 2171 
+ } 
+  
+ ALB = { # Albania
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 359 362 361 360 } 
+ 
+ extra = { 329 334 } 
+ capital = 359 
+ } 
+  
+ ALG = { # Algeria
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 727 728 729 730 731 732 733 734 735 736 737 739 743 738 } 
+ extra = { } 
+ capital = 727 
+ } 
+ 
+ 
+ ANG = { # Angola
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 888 892 895 } 
+ extra = { 887 890 891 893 } 
+ capital = 895 
+ } 
+
+ U58 = { # Northern Cyprus
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 387 } 
+ capital = 387 
+ } 
+ 
+ ARG = { # Argentina
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2050 2048 2027 2054 } 
+ 
+ extra = { 2045 2026 2028 2055 2056  2029 2053 2035 2036 2037 2038 2039 2034 2044 2043 2049 } 
+ capital = 2048 
+ } 
+
+ ARM = { # Armenia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 711 } 
+ extra = { 712 714 } 
+ capital = 711 
+ }
+ 
+ AST = { # Australia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1697 1716 1698 1695 1688 1692 1689 1690 1694 1691 1703 1693 1711 
+ 1712 1715 1704 1705 1706 1717 1707 1710 1708 1709 1713 
+ 1701 1699 1714 1700 1702 1696 
+ } 
+ extra = { } 
+ capital = 1705 
+ } 
+
+ AUS = { # Austria
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 189 190 191 192 195 194 186 187 193 188 } 
+ extra = { } 
+ capital = 195 
+ no = { GER }
+ } 
+  
+ AZB = { #Azerbaijan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 713 } 
+ 
+ extra = { 712 714 } 
+ capital = 713 
+ }  
+ 
+ BEL = { # Belgium
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 114 115 116 112 113 108 117 111 110 } 
+ 
+ extra = {  } 
+ capital = 116 
+ } 
+
+ BEN = { #Benin-Sahel
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 949 951 } 
+ 
+ extra = { } 
+ capital = 951 
+ }  
+ 
+ BHU = { # Bhutan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1456 } 
+ 
+ extra = { } 
+ capital = 1456 
+ }  
+ 
+ BOL = { # Bolivia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2064 2021 2020 2019 2063 } 
+  extra = {   } 
+ capital = 2020 
+ } 
+
+ BOS = { # Bosnia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 355 354 353 } 
+ 
+ extra = { 356 357 358 } 
+ capital = 355 
+ }  
+ 
+ BRA = { # Brazil
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2060 2061 2004 2003 2002 2001 2005 2062 2071 2066 2065 2068 2069 2067 2076 2059 
+ 2075 2074 2073 2072 2070 2006 
+ } 
+ extra = { 2058 2057 } 
+ capital = 2067 
+ } 
+ 
+ BRU = { # Brunei
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1625 } 
+ 
+ extra = { } 
+ capital = 1625 
+ } 
+
+ BUL = { # Bulgaria
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 317 318 321 322 323 326 } 
+ extra = { 307 319 320 324 325 } 
+ capital = 321 
+ }  
+ 
+ BUR = { # Myanmar
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1411 1409 1420 1419 1415 1410 1417 1416 1418 1412 1413 1407 1408 1406 1414 } 
+ 
+ extra = { } 
+ capital = 1410 
+ } 
+  
+ BLR = { # Byleo Russia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 599 594 595 591 600 596 } 
+ 
+ extra = { 597 601 255 257 251 247 598 590 592 593 256 248 253 } 
+ capital = 599 
+ } 
+ 
+ CAM = { # Cameroon
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 911 909 910 928 925 933 } 
+ 
+ extra = { 916 } 
+ capital = 909 
+ } 
+
+ CMB = { # Cambodia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1400 1401 1402 1398} 
+ 
+ extra = { } 
+ capital = 1401 
+ }
+
+ CAN = { # Canada
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2110 2129 2113 2114 2148 2149 2112 2127 2130 2108 2111 2109 } 
+ 
+ extra = { 
+ 2137 2090 2089 2092 2105 2102 2099 2093 2091 2095 2094 2096 2103 2104 2101 2100 2097 2098 2107 2115 
+ 2106 2119 2117 2116 2123 2122 2121 2120 2125 2124 2135 2128 2132 2131 2134 2126 2133 2136 2138 2118 
+ } 
+ capital = 2108 
+ }  
+ 
+ 
+ U82 = { # Central Africa 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 923 926 } 
+ extra = { 919 927 } 
+ capital = 926 
+ } 
+
+
+ CHL = { # Chile 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2025 2022 2023 2032 } 
+ 
+ extra = { 2031 2024 2043 2030 } 
+ capital = 2025 
+ }  
+  
+ CHC = { # China - Communist
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1260 } 
+ 
+ extra = { 1217 1261 1303 1339 1334 1336 1340 1341 1319 1323 1322 1324 1325 1326 1316 1317 1344 1342 1337 1338 1345 1346 1347 1348 1357 1358 1359 1360 1354 1353 1318 1355 1309 1311 1312 1310 1304 1302 1258 1262 1257 1296 1292 1293 1297 1298 1305 1306 1291 1313 1307 1308 1356 1349 1335 1314 1315 1267 1256 1320 1321 1299 1343 1300 1301 1350 1351 1352 1333 1389 1390 1385 1386 1387 1388 1384 1378 1365 1376 1377 1375 1380 1381 1382 1383 1369 1370 1373 1379 1367 1361 1374 1368 1241 1247 1246 1251 1242 1254 1331 1332 1252 1253 1248 1249 1250 1327 1243 1244 1245 1328 1329 1330 1204 1212 1205 1199 1203 1200 1206 1213 1237 1207 1220 1218 1236 1201 1208 1209 1210 1211 1214 1215 1216 1235 1197 1198 1272 1268 1271 1264 1263 1265 1266 1283 1284 1285 1270  1255 1202 1238 1240 1239 1219 1371 1372 
+ } 
+ claims = { 
+  1362 1364 1363 1269 1259 #taiwan
+ 1455 1458 #Arunachal Pradesh
+	}
+ capital = 1247 
+ regular_id = CHI 
+ intrinsic_gov_type = leninist 
+ } 
+ 
+ 
+  
+ COL = { # Columbia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1990 1991 1987 1986 1994  2009 1756 1985 } 
+ 
+ extra = { } 
+ capital = 1990 
+ }
+
+
+U05 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		2086
+	}
+	extra = { } #belize
+	capital =  2086
+} 
+ 
+
+ U85 = { # Congo Brazz
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 907 908  } 
+ extra = { 917 918 } 
+ capital = 907 
+ }  
+
+ COS = { # Costa Rica
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2081 2083 } 
+ 
+ extra = { } 
+ capital = 2081 
+ }  
+ 
+ CRO = { # Croatia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 352 
+ } 
+ extra = { 343 344 345 347 350 351 406 356 358 } 
+ capital = 352 
+ } 
+ 
+ CZE = { # Czech republic
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 207  }
+ 
+ extra = {  200 206 205 197 199 198 201 196 202 204 203 } 
+ capital = 207 
+ }  
+ 
+ CUB = { # Cuba
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1776 1779 1775 1777 } 
+ 
+ extra = { 1778 } 
+ capital = 1776 
+ }  
+ CYP = { # Cyprus
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 388 
+ } 
+ extra = { 387 } 
+ capital = 388 
+ }  
+
+ U14 = { 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 833 } 
+ extra = { } #djibouti
+ capital = 833 
+ 
+ } 
+ 
+ DEN = { # Denmark
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 217 218 219 294 220 
+ } 
+ extra = { 216 } 
+ capital = 294 
+ }  
+
+ DOM = { # Dominican Republic
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1780 
+ } 
+ extra = { 1781 } 
+ capital = 1780 
+ } 
+
+ U66 = { # Somaliland
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 832
+ } 
+ extra = { } 
+ capital = 832 
+ } 
+ 
+ ECU = { # Ecuador
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2040 2042 2007   
+ } 
+ extra = {  2041 } 
+ capital = 2042 
+ }  
+
+ EGY = { # Egypt
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 790 780 785 779 799 784 783 778 789 792 788 787 786 791 796 800 801 
+ 793 794 797 795 798 } 
+ extra = { 1009 1004 1005 802 1006 1007 
+ 900 #suez canal 
+ 781 782
+ } 
+ capital = 787 
+ } 
+
+ SAL = { # El Salvador
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2079 
+ } 
+ extra = { } 
+ capital = 2079 
+ }  
+ 
+ 
+U02 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1759
+	}
+	extra = {} #antigua
+	capital =  1759
+} 
+
+ EQA = { # Equatorial Guinea
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 913 916 } 
+ extra = { } 
+ capital = 916 
+ } 
+ 
+ 
+ EST = { # Estonia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 274 270 275 271 272 273 
+ } 
+ extra = { } 
+ capital = 270 #Tallin 
+ }  
+ 
+ U56 = { # Zimbabwe
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 866 867 868
+ } 
+ extra = {  } 
+ capital = 867 
+ }  
+ 
+ FIN = { # Finland
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 513 511 526 524 525 518 519 521 527 520 514 516 515 523 529 522 528 533 530 
+ 512 } 
+ extra = {  } 
+ capital = 525 
+ }  
+
+ FRA = { 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 55 
+ 
+ } 
+ extra = { 
+ 105 107 104 52 51 49 87 90 94 85 86 89 81 82 80 70 84 79 67 40 77 71 75 69 68 62 65 66 54 63 100 59 50 99 45 
+ 60 61 37 38 39 57 58 42 43 44 47 72 73 93 78 74 76 
+ 83 48 91 103 88 97 64 95 96 106 
+ 92 46 41 53 102 56 101 98 } 
+ capital = 55 
+ } 
+ 
+
+GER = { # Germany
+ date = { day = 1 month = january year = 2003 }
+ expirydate = { day = 30 month = december year = 2030 }
+ minimum = { 126 145 127 131 142 147 141 137 174  171 176 146 148 154 151 152 153 156 169 157 163 162 172 170 173 177 138 134 132 178 175 179 104 107 105 133 144 160 180 136 139 135 129 128 130 216 261 392 389 149 110 150 140 143  }
+ extra = { } 
+ capital = 163
+}
+ 
+ GLD = { # Ghana
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 952 955 956 
+ } 
+ extra = { 954 953 } 
+ capital = 956 
+ } 
+ GUY = { # Guyana
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1997 
+ } 
+ extra = { 1998 } 
+ capital = 1997 
+ } 
+
+U13 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		999
+	}
+	extra = { 1000} #Comoros islands
+	capital =  999
+} 
+ 
+ GRE = { # Greece
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 372 373 377 } 
+ extra = { 367 371 382 374 368 375 383 364 365 366 369 370 381 380  376 363 
+ 378 # Dodekanisos 
+ 379 # Rhodos 
+ #333 328 # Skopje 
+ 388 387# Cyprus 
+ } 
+ capital = 377 
+ } 
+
+
+ GUA = { # Guatemala
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2088 2087 
+ } 
+ extra = { 2086 } 
+ capital = 2088 
+ } 
+ 
+ GUI = { # Guinea
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 966 965 } 
+ extra = { 963 967 } 
+ capital = 966 
+ }  
+
+ HAI = { # Haiti
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1781 
+ } 
+ extra = { 1780 } 
+ capital = 1781 
+ } 
+ 
+ U39 = {   #st lucia
+  date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1770
+ } 
+ extra = { } 
+ capital = 1770 
+ } 
+ 
+ 
+ HON = { # Honduras
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2085 2084 
+ } 
+ extra = { } 
+ capital = 2085 
+ } 
+ 
+ HUN = { # Hungary
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 276 277 284 278 282 280 281 283 279 
+ } 
+ extra = { } 
+ capital = 284 
+ } 
+ ICL = { # Iceland
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1  3 
+ } 
+ extra = { 2 } 
+ capital = 1 
+ } 
+ 
+ IND = { # India
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1459 
+ 
+ } 
+ extra = { 
+ 1519 1520 1468 1528 1481 1469 1478 1451 1454 1486 1490 1508 1479 1480 1516 1488 1453 1489 1491 1505 1506 1507 1492 1485 1470 1446 1447 1471 1476 1483 1477 1482 1484 1521 1522 1518 1523 1524 1460 1461 1462 1531 1463 1527 1525 1517 1512 1487 1493 1494 1501  1502 1503 1495 1504 1448 1500 1496 1514 1472 1535 1526 1497 1452 1473 1464 1465 1498 1499 1474 1466 1515 1475 1467 1540 1612 1513 1421 1439 1440 1441 1443 1455 1458 1442  
+ } 
+ capital = 1459 
+ }  
+ 
+ 
+ INO = { # Indonesia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1648 1651 1649 1654 1653 1655 1656 1647
+ } 
+ extra = { 1594 1595 1596 1597 1598 1599 1600 1601 1615 1616 1618 1619 1620 1621 1622 1623 1627 1628 1629 1630 1631 1632 1633 1634 1635 1636 1637 1638 1639 1640 1641 1642 1643 1644 1645 1646 1650 1652 1657 1658 1659 1660
+ } 
+ capital = 1647 
+ } 
+
+
+ 
+ PER = { # Iran
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1095 1081 1080 1085 1082 1089 1091 1090 1088 1086 1092 1094 1093 
+ } 
+ extra = { 1083 1084 1087 } 
+ capital = 1085 
+ }  
+
+ IRQ = { # Iraq
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1034 1035 1037 1028 1032 1031 1030 } 
+ extra = { 1033 1036 1027 1029 } 
+ capital = 1034
+ }  
+ 
+ IRE = { # Ireland
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 33 32 31 30 34 
+ } 
+ extra = { 35 36 } 
+ capital = 34 
+ }  
+
+  
+ ISR = { # Israel
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1008 } 
+ extra = { 1011 1010 1120 1013  } 
+ capital = 1008 
+ }  
+
+
+ ITA = { # Italy
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 425 422 424 421 420 416 423 415 414 419 410 412 411 393 408 396 398 407 400 413 417 404 405 402 399 406 403 
+ } 
+ extra = { 
+ 401 430 431 434 432 435 394 395 418 426 427 428 433 
+ } 
+ capital = 419 
+ }  
+ 
+ U88 = { # Ivory Coast 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 960 } 
+ extra = { 968 970 961 } 
+ capital = 962 
+ } 
+ 
+  
+ JAP = { # Japan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1544 1545 1549 1551 1550 1556 1552 1557 1558 1553 1554 1559 1560 1561 1555 1542 1547 1548 1546 
+ } 
+ extra = { 1543 1562 1563 1564 1662 1661 1663 1664 1672 1683 1541 } 
+ capital = 1552 
+ }  
+
+
+ JOR = { # Jordan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1022 1025 1024 1026 1023
+ } 
+ extra = { } 
+ capital = 1022 
+ } 
+ 
+ KAZ = { #Kazakhstan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 506 507 505 500 498 504 } 
+ extra = { 1114 1117 1118 1116 503 1110 1108 1113 1115 1111 502 
+ 499 1109 1112 501 } 
+ capital = 506 
+ } 
+ 
+ U90 = { # Kenya 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 843 841 842 839 } 
+ extra = { } 
+ capital = 841 
+ } 
+
+ 
+ KOR = { # Korea
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1230 1231 1232 1233 1228 1229 
+ } 
+ extra = { 
+ 1224 1226 1225 1227 1223 1221 1222 
+ } 
+ capital = 1228 
+ }  
+
+ PRK = { # Korea, peoples republic NORTH
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1223 1221 1226 1227 1224 1225 1222 
+ } 
+ extra = { 1228 1233 1232 1231 1230 1229 } 
+ capital = 1221 
+ regular_id = KOR 
+ intrinsic_gov_type = stalinist 
+ }  
+ 
+ 
+ KYG = { # Kyrgistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1107 1106 
+ } 
+ extra = { } 
+ capital = 1107 
+ } 
+ 
+ LAO = { # Laos
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1405 1394 1391 1404 
+ } 
+ extra = { } 
+ capital = 1405 
+ } 
+
+ 
+ 
+ LAT = { # Latvia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 267 269 268 264 266 } 
+ extra = { 265 } 
+ capital = 264 #Riga 
+ } 
+
+ LEB = { # Lebanon
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1018 1019 
+ } 
+ extra = { } 
+ capital = 1019 
+ } 
+
+ 
+ LIB = { # Liberia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 969 
+ } 
+ extra = { } 
+ capital = 969 
+ } 
+
+ LBY = { # Libya
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 761 753 769 770 771 765 766 760 768 762 773 754 755 756 757 751 750 752 
+ 774 } 
+ extra = { 758 759 763 764 775 767 772 776 777 } 
+ capital = 750 
+ } 
+
+ LIT = { # Lithaunia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 262 259 263 260
+ } 
+ extra = { 258 261 } 
+ capital = 258
+ 
+ }  
+
+ LUX = { # Luxembourg
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 109 
+ } 
+ extra = { } 
+ capital = 109 
+  } 
+
+
+ 
+ MAD = { # Madagaskar
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1001 1002 1003 
+ } 
+ extra = { } 
+ capital = 1002 
+ } 
+
+ MLY = { # Malaysia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1435 1436 1437 1438 1433 1434 
+ } 
+ extra = { 1432 1624 1625 1626 1629  } 
+ capital = 1438 
+ } 
+
+
+ MAL = { # Mali
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+   975 972 971 973 985 976
+ } 
+ extra = {      984 974 } 
+ capital = 976 
+ }  
+ 
+  U92 = { # Malta 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 429 } 
+ extra = { } 
+ capital = 429 
+ } 
+
+ U93 = { # Mauritania
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 981 } 
+ extra = { 982 986 } 
+ capital = 981 
+ } 
+ 
+ MEX = { # Mexico
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1966 1965 1970 1968 1974 1972 1971 1973 1967 1975 1976 
+ 1978 1980 
+ } 
+ extra = { 1981 1982 1979 1977 1969 } 
+ capital = 1974 
+ } 
+
+ MON = { # Mongolia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1124 1123 1125 1121 1122 1120 
+ } 
+ extra = { } 
+ capital = 1124 
+ }  
+
+ MTN = { # Montenegro
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 332 
+ } 
+ extra = { 335 } 
+ capital = 332 
+ } 
+ 
+ MOR = { # Moroccoa
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 721 717 724 718 722 725 726 723
+ } 
+ extra = { 987 715 988 989 719 716 720 } 
+ capital = 717 
+ } 
+ 
+ MOZ = { # Mozambique
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 853 854 857 858 856 855 
+ } 
+ extra = { } 
+ capital = 855 
+ }
+
+ NAM = { # Namibia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 885 886 882 883 884 
+ } 
+ extra = { } 
+ capital = 884 
+ } 
+
+ NEP = { # Nepal
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1457 
+ } 
+ extra = { } 
+ capital = 1457 
+ } 
+
+ 
+ 
+ HOL = { # Netherlands
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 122 123 119 124 120 
+ } 
+ extra = { 
+ 125 118 121 
+  } 
+ capital = 122 
+ }  
+
+ NZL = { # New Zealand
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1720 1718 1719 1721 1722 1723 
+ } 
+ extra = { } 
+ capital = 1721 
+ } 
+
+ NIC = { # Nicaragua
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2080 2082 
+ } 
+ extra = { } 
+ capital = 2080 
+ } 
+ 
+ NIG = { # Nigeria
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 939 929 940 932 938 937 941
+ } 
+ extra = { 930 931 933 934 935 936 } 
+ capital = 941 
+ }  
+ 
+ NOR = { # Norway
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 484 483 485 487 491 489 486 492 490 493 494 497 495 
+ } 
+ extra = { 496 488 } 
+ capital = 483 
+ } 
+
+ OMN = { # Oman
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1052 
+ } 
+ extra = { 1043 } 
+ capital = 1052 
+ }  
+ 
+ U84 = { # chad
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 920 921 922 924 } 
+ capital = 920 
+ }  
+ 
+
+ PAK = { # Pakistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1538 1533 1532 1534 1537 1530 1529
+ } 
+ extra = { 1536 1539 } 
+ capital = 1534
+ }  
+ 
+ PAL = { # Palestine
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1172 1009 } 
+ extra = { } 
+ capital = 1172 
+ }  
+ 
+ PAN = { # Panama
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2078 2077 
+ } 
+ extra = { 889 } 
+ capital = 2078 
+ }   
+ 
+ PAR = { # Paraguay
+ date = { day = 1 month = january year = 2003} 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2046 2047 
+ } 
+ extra = { } 
+ capital = 2047 
+ } 
+
+ 
+ PRU = { # Peru
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2017 2015 2016 2011 2014 2018 } 
+ extra = { 2008 2010 2033 2012 2013} 
+ capital = 2016 
+ }   
+ 
+ PHI = { # Philippines
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1572 1571 1565 1569 1566 1567 1570 1568 1577 1575 1573 1576 1574 1580 1578 1579 
+ } 
+ extra = { } 
+ capital = 1565 
+ } 
+  
+ POL = { # Poland
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 223 231 232 233 234 } 
+ extra = { 181 158 159 167 164 226 222 224 235 230 183 221 236 237 243 
+ # NEW 
+ 252 254 250 228 246 229 227 155 185 161 225 203 168 166 165 239
+ } 
+ capital = 232 
+  } 
+ 
+ POR = { # Portugal
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 481 476 479 477 478 482 480 
+ } 
+ extra = { } 
+ capital = 476 
+ } 
+
+
+ U67 = { # South Ossetia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 707 } 
+ extra = { } 
+ capital = 707 
+ } 
+ 
+ U51 = { # Qatar
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1038 } 
+ extra = { } 
+ capital = 1038
+ }  
+ 
+ 
+ U99 = { # Togo
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 948 950
+ } 
+ extra = { } 
+ capital = 950 
+ } 
+ 
+ ROM = { # Romania
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 308 309 310 311 314 316 } 
+ extra = { 315 285 297 312 295 621 289 299 291 286 303 304 288 296 306 313 298 305 302 301 292 287 293 300 } 
+ capital = 316 
+ }  
+
+ RUS = { # Russia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 553 572 663 589 669 560 535 542 580 604 678 551 582 602 } 
+ 
+ extra = { 688 686 681 543 547 538 539 537 536 534 706 702 696 695 
+ 694 691 692 697 698 700 645 659 662 661 660 666 665 658 668 
+ 670 667 675 674 672 664 673 684 693 655 642 651 650 656 
+ 578 683 682 679 571 680 677 676 548 556 554 569 570 585 574 540 541 559 561 
+ 557 549 550 552 566 586 581 587 579 657 654 652 634 647 646 644 643 
+ 633 649 653 648 567 573 565 575 577 562 558 563 544 546 
+ 1155 685 1157 1148 1140 1142 1143 1144 1145 1152 1153 1150 1146 1158 1147 
+ 1166 1167 1162 1163 1164 1165 1169 1179 1178 1177 1168 545 
+ 1156 1189 1186 1541 1139 583 584 568 1149 
+ 1141 1135 1138 1129 671 1134 1131 1137 1136 1132 699 1130 
+ 707 564 1151 1133 588 689 687 
+ 576 2721 690 1154 603 1542 
+ 1180 1181 1182 1183 1184 1176 1174 1188 1175 1187 1185 1190 1195 
+ 1194 1192 1193 1196 1191 555 
+ 701 710 708 703 709 704 705 
+ #1568 1114 
+ 1126 1127 1128 1069 1070 1170 1171 1161 
+ } 
+ capital = 553 
+  }  
+ 
+ U95 = { # Rwanda 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 846 } 
+ extra = { } 
+ capital = 846 
+ } 
+
+ U45 = { #SriLanka
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1509 1510 1511
+ } 
+ extra = { } 
+ capital = 1511 
+ } 
+
+ SAU = { #Saudi Arabia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1040 1047 1049 1046 1045 1044 1048 
+ } 
+ extra = { } 
+ capital = 1045 
+ }  
+ 
+ U26 = { # Macedonia 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 328 333 334
+ } 
+ extra = { } 
+ capital = 333
+ }  
+ 
+ SER = { # Serbia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 338 330 342 } 
+ extra = { 329 336 341 340 327 337 339 331 } # 
+ capital = 338 
+ }  
+
+ U96 = { # Senegal
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 977 978 980 983 } 
+ extra = { } 
+ capital = 978
+ } 
+
+ 
+ SIE = { # Sierra Leone
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 964 
+ } 
+ extra = { } 
+ capital = 964 
+ } 
+ 
+ 
+ U75 = { # Singapore
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1432 } 
+ extra = {  } 
+ capital = 1432 
+ } 
+
+ 
+ SLO = { #Slovakia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 208 211 212 214 
+ } 
+ extra = { 209 210 }  
+ capital = 208 # Bratislava 
+ }  
+
+ SLV = { # Slovenia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 349 } 
+ extra = { 346 403 } 
+ capital = 349 
+ }  
+ 
+ SOM = { # Somalia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 837 836 838 
+ } 
+ extra = { 832 834 835 } 
+ capital = 836 
+ }  
+
+ SAF = { # South Africa
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 879 880 875 881 872 876 878 873
+ } 
+ extra = {  } 
+ capital = 876 
+ } 
+
+ SPA = { #Spain 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 441 451 456 442 438 466 453 474 
+ } 
+ extra = { 348 443 444 460 457 458 472 471 470 467 463 468 464 461 436 440 437 715 452 447  
+  475 439  716 473 465 462 454 455 459 446 448 449 445 450 469 } 
+ capital = 460  
+ 
+ } 
+ 
+ SUD = { # Sudan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 803 804 806 808 813 814 811 810 805  
+ } 
+ extra = { } 
+ capital = 810 
+ }  
+ 
+ SWE = { #Sweden
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2167 2166 2165 2163 2164 2162 2161 2160 2159 2157 2154 2153 2155 2152 2156 2158 
+ } 
+ extra = { 526 } 
+ capital = 2159 
+ } 
+
+ SCH = { # Switzerland
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 392 391 389 390 } 
+ extra = { } 
+ capital = 392 
+ } 
+ 
+ 
+ SYR = { # Syria
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1021 1017 1016 1020 1014 1015 
+ } 
+ extra = { } 
+ capital = 1016 
+ }  
+
+ TAJ = { # Tajikistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1105 1104 
+ } 
+ extra = {  } 
+ capital = 1105 
+ } 
+   
+  
+ SIA = { # Thailand
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1430 1429 1424 1423 1422 1427 1426 1428 1425 
+ } 
+ extra = { 1431 } 
+ capital = 1423 
+ }  
+ CHI = { # Taiwan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1361 1362 1363 1364
+ } 
+ extra = { } 
+ capital = 1362 
+ }
+ 
+
+ TUN = { #Tunisia
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 741 742 746 745 747 748 749 744} 
+ extra = { 740 } 
+ capital = 747 
+ }  
+
+ 
+ TUR = { # Turkey
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 409 1078 1079 1057 1076 1068 1074 1058 1075 1065 386 
+ 1066 1059 1067 1071 1054 385 1077 } 
+ extra = { 1062 1063 1064 1060 1061 370 384 1072 1073 1055 1056 } 
+ capital = 1075 
+ }  
+
+ TRK = { # Turkmenistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1097 1098 
+ } 
+ extra = { } 
+ capital = 1097 
+ } 
+
+ 
+ UKR = { # Ukraine
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 633 634 215 300 302 306  
+ } 
+ extra = {  617 608 613 610 612 611 606 605 245 242 240 244 241 637 640 641 213 619 620 626 622 616 635 627 628 609 629 636 630 623 624 607 638 639 631 632 615 625 618 614 238 249  
+ } 
+ capital = 617 #Kiev 
+ } 
+ 
+ ENG = { # United Kingdom
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 15 17 18 24 22 28 25 29 26 27 19 20 8 12 14 21 16 23 9 
+ } 
+ extra = { 4 5 6 7 11 10 13 35 36 2045  896 993 1754 1757 1766 1772 1773 1774 348  
+ } 
+ capital = 29 
+ }  
+ 
+ USA = { # United States of America
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1809 
+ } 
+ extra = { 
+ 1953 1949 1948 1952 1951 1950 1947 1956 1954 1955 1960 1958 1963 1961 
+ 1962 1964 1813 1812 1814 1818 1815 1816 1817 1808 1807 1801 1797 1791 1795 1793 
+ 1792 1805 1803 1804 1790 1787 1788 1784 1785 1789 1796 1826 1806 
+ 1810 1811 1820 1819 1942 1943 1940 1939 1936 1937 1944 1931 1825 1821 1842 1845 1802 
+ 1957 1828 1934 1930 1929 1932 1918 1915 1925 1836 1833 1830 1829 1832 1839 
+ 1838 1841 1843 1834 1837 2140 2145 2144 2146 2151 1846 1850 1855 1856 1858 1857 1859 
+ 1860 1914 1913 1919 1910 1911 1924 1928 1926 1920 1921 1922 
+ 1905 1906 1904 1900 1901 1902 1898 1896 1907 1908 1897 1909 
+ 1868 1866 1862 1869 1865 1871 1873 1875 1876 1874 
+ 1877 1878 1882 1879 1880 1895 1893 1892 1899 1886 1887 1883 
+ 1888 1889 1884 2141 2142 2143 2139 
+ 1923 
+ 1831 1847 1935 1945 1885 1872 1863 2150 2147 1864 1778 
+ 1890 1891 1894 1881 
+ 1870 1861 1903 1851 1916 1927 1912 1852 1853 1854 1867 1849 1917 1933 1835 1840 1848 1844 1822 1823 1827 1941 1946 1959 1800 
+ 1794 1824 1798 1799 1786 1938 
+ } 
+ capital = 1809 
+ } 
+ 
+ 
+ URU = { # Urugay
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 2052 2051 
+ } 
+ extra = { } 
+ capital = 2052 
+ } 
+
+ UZB = { # Uzbehkistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1101 1102 1100 1103 1099 
+ } 
+ extra = { } 
+ capital = 1103 
+ }  
+ 
+ VEN = { # Venezuela
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1988 1989 1995 1996 1992 1993 
+ } 
+ extra = {  } 
+ capital = 1993
+ }  
+ 
+ U94 = { # Niger
+ date = { day = 1 month = january year = 2033 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 942 943 944 946 947 } 
+  extra = { } 
+ capital = 944 
+ 
+ } 
+ 
+  
+ U91 = { # Kuwait 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 1041 } 
+ extra = { } 
+ capital = 1041
+ } 
+  
+ VIE = { # Vietnam
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1392 1393 1395 1396 1397 1399 1403
+ } 
+ extra = { } 
+ capital = 1395
+ }  
+ 
+ U79 = { # South Sudan 
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 807 809 812  } 
+ extra = { } 
+ capital = 807
+  
+ } 
+
+ U98 = { # Trinidad and Tobago
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1758 1769
+ } 
+ extra = { } 
+ capital = 1758 
+ }  
+ 
+ YEM = { # Yemen
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1050 
+ } 
+ extra = { 1053 1051 } 
+ capital = 1050 
+ } 
+ 
+
+ U23 = { # Kosova
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 329 } 
+ extra = { } 
+ capital = 329
+ } 
+
+U01 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		710
+	}
+	extra = { } #abkhazia
+	capital =  710
+}
+U03 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1771
+	}
+	extra = { } #bahamas
+	capital =  1771
+}
+U74 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1444 1445 1449 1450 
+	}
+	extra = { } #bangladesh
+	capital =  1445
+}
+U04 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1764
+	}
+	extra = { } #barbados
+	capital =  1764
+}
+U06 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		869 870 871
+	}
+	extra = { } #botswana
+	capital =  870
+}
+U09 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		847
+	}
+	extra = { } #Burundi
+	capital =  847
+}
+U10 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		992
+	}
+	extra = { } #cape verde
+	capital =  992
+}
+CON = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		894 897 898 899 901 902 903 904 905 906
+	}
+	extra = { } #congo
+	capital =  899
+}
+U89 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1782
+	}
+	extra = { } #jamaica
+	capital =  1782
+}
+U18 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		815 816 817
+	}
+	extra = { } #eritrea
+	capital =  817
+}
+U72 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		107
+	}
+	extra = { } #eu
+	capital =  107
+}
+U19 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1728 1729
+	}
+	extra = { } #fiji
+	capital =  1728
+}
+U20 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1763	}
+	extra = { } #grenada
+	capital =  1763
+}
+U21 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		963	}
+	extra = { } #guinea-bissau
+	capital =  963
+}
+U22 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1678 1679 1746 1750 } #? 1746 1750
+	extra = { } #kiribati
+	capital =  1680
+}
+U24 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 874 } 
+	extra = { } #lesotho
+	capital =  874
+}
+U27 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 864 } 
+	extra = { } #malawi
+	capital =  864
+}
+U28 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1611 } 
+	extra = { } #maldives
+	capital =  1611
+}
+U29 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1677 } 
+	extra = { 1674 1675 1676 1681} #marshall islands
+	capital =  1677
+}
+U30 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 997 } 
+	extra = { } #mauritius
+	capital =  997
+}
+U54 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1665 } 
+	extra = { 1666 1667 1668 1669 } #micronesia
+	capital =  1665
+}
+U31 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 304 } 
+	extra = { 303 305  } #moldova
+	capital =  304
+}
+U57 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 712 } 
+	extra = { } #nagorno-karabakh
+	capital =  712
+}
+U32 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1682 } 
+	extra = { } #nauru
+	capital =  1682
+}
+U33 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1671 1670 } 
+	extra = { } #palau
+	capital =  1670
+}
+U34 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1602 1603 1604 1605 1606 1607 1608 1609 1610 1234 1587 1724 1725 1726 1727 } 
+	extra = { } #papua
+	capital =  1607
+}
+U60 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 987 988 } 
+	extra = { } #sahrawi
+	capital =  987
+}
+U35 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1760 } 
+	extra = { } #st kitts
+	capital =  1760
+}
+U40 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1755 } 
+	extra = { } #st vincent
+	capital =  1755
+}
+U41 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1731 } 
+	extra = { } #samoa
+	capital =  1731
+}
+U42 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 912 } 
+	extra = { } #sao tome
+	capital =  912
+}
+U43 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 998 } 
+	extra = { } #seychelles
+	capital =  998
+}
+U44 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1590 } 
+	extra = { 1588 1589 1591 1592 1593 } #solomon islands
+	capital =  1590
+}
+U46 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1999 } 
+	extra = {  } #suriname
+	capital =  1999
+}
+U47 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 877 } 
+	extra = {  } #swaziland
+	capital =  877
+}
+U69 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 621 } 
+	extra = {  } #transnistria
+	capital =  621
+}
+U52 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = { 1039 } 
+	extra = {  } #United Arab Emirates
+	capital =  1039
+}
+U70 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+	844 845} 
+	extra = {  } #uganda
+	capital =  844
+}
+U53 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+	1581 1582 1583 1584 } 
+	extra = {  } #vanuatu
+	capital =  1581
+}
+U55 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+	859 860 861 862 863 865  } 
+	extra = {  } #zambia
+	capital =  863
+}
+
+
+CAL = { #California
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1883 1884 1885 1886 1887 1888 1889 1890 1891 1892
+	}
+	extra = { }
+	capital =  1888
+	regular_id = U77
+}
+
+CGX = { #Novorossiya
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		637 638 639 640 641 632 633 634 635 636 622 625 620 626 623 624 630 631 627 306
+	}
+	extra = { }
+	capital =  641
+        regular_id = RUS
+}
+
+EUS = { # Euskadi
+	date = { day = 1 month = january year = 2003 } 
+	expirydate = { day = 30 month = december year = 2030 } 
+	minimum = { 
+		443
+	} 
+	extra = { 446 } 
+	capital = 446
+	regular_id = SPA
+}
+
+KUR = { # Kurdistan
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 
+ 1036 
+ } 
+ extra = { 1084 1063 1064 1060 1027 1062 1015 1029 } 
+ capital = 1036 
+ } 
+
+QUE = { # Quebec
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 2116 2123 2122 2121 2120 2125 2124 2117 2119 2127 } 
+ extra = { 2118 2136 2138 2137 2133 2132 2131 2134 2126 2128 2135 } 
+ capital = 1753 
+ }  
+
+TEX = { #Texas
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1919 1920 1921 1922 1923 1924 1925 1926 1927 1928
+	}
+	extra = { }
+	capital =  1925
+	regular_id = USA
+}
+
+U00 = { # Catalunya
+	date = { day = 1 month = january year = 2003 } 
+	expirydate = { day = 30 month = december year = 2030 } 
+	minimum = { 
+		440 437 439 436
+	} 
+	extra = { 80 } 
+	capital = 440
+	regular_id = SPA
+ } 
+
+U25 = { # Republic of Libya
+ date = { day = 1 month = january year = 2003 } 
+ expirydate = { day = 30 month = december year = 2030 } 
+ minimum = { 761 769 770 771 765 766 760 768 762 773 757 752 763
+ 764 774 767 772 777 775 } 
+ extra = { 758 759 776 753 754 755 756 751 750 } 
+ capital = 761 
+ } 
+
+ U49 = { # Azawad
+ date = { day = 1 month = january year = 2003 }
+ expirydate = { day = 30 month = december year = 2030 }
+ minimum = {
+ 984 985 974
+ }
+ extra = {  } 
+ capital = 985 
+ liberate = no 
+ } 
+
+U77 = { #Pacific States of America
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1878 1879 1880 1882 1872 1873 1874 1875 1876 1877 1869 1870 1871 1881
+	}
+	extra = { 1893 1894 1895 2089 2090 2091 2139 2140 2141 2142 2143 2144 2145 2146 2147 2148 2149 2093 2094 2095 2150 2151 2174 }
+	capital =  1877
+	regular_id = USA
+}
+
+U80 = { #SSA
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1784 1785 1786 1787 1788 1796 1790 1791 1792 1793 1794 1799 
+		1800 1798 1801 1802 1803 1804 1806 1797 1808 1842 1843 1844 1845 1846 1847 1849 
+		1850 1854 1839 1840 1841 1848 1829 1832 1837 1838 1821 1822 1823 1824 1825 1826 1827 1828
+	}
+	extra = { 
+		1953 1949 1948 1952 1951 1950 1947 1956 1954 1955 1960 1958 1963 1961 
+ 1962 1964 1813 1812 1814 1818 1815 1816 1817 1807 1795  
+ 1805 1789   
+ 1810 1811 1820 1819 1942 1943 1940 1939 1936 1937 1944 1931     
+ 1957 1934 1930 1929 1932 1918 1915 1925 1836 1833 1830   
+ 1834 2140 2145 2144 2146 2151 1855 1856 1858 1857 1859 
+ 1860 1914 1913 1919 1910 1911 1924 1928 1926 1920 1921 1922 
+ 1905 1906 1904 1900 1901 1902 1898 1896 1907 1908 1897 1909 
+ 1868 1866 1862 1869 1865 1871 1873 1875 1876 1874 
+ 1877 1878 1882 1879 1880 1895 1893 1892 1899 1886 1887 1883 
+ 1888 1889 1884 2141 2142 2143 2139 
+ 1923 1809
+ 1831 1935 1945 1885 1872 1863 2150 2147 1864 1778 
+ 1890 1891 1894 1881 
+ 1870 1861 1903 1851 1916 1927 1912 1852 1853 1867 1917 1933 1835 1941 1946 1959  
+ 1938
+	}
+	capital =  1845
+}
+
+U83 = { #Republika Srpska
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		353 355 356
+	}
+	extra = { }
+	capital =  353
+}
+
+U87 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		702
+	}
+	extra = { }
+	capital =  702
+}
+
+U97 = {
+	date = { day = 1 month = january year = 2003 }
+	expirydate = { day = 30 month = december year = 2030 }
+	minimum = {
+		1509
+	}
+	extra = { }
+	capital =  1509
+}
+
+U48 = { # Tanzania
+ date = { day = 1 month = january year = 1936} 
+ expirydate = { day = 30 month = december year = 2039 } 
+ minimum = { 848 849 850 851 852  } 
+ extra = { 
+ }  
+ capital = 850  
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+U22;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+96001;Colt;Colt;4;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96002;General Electric;T17502;5;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96003;Argonne National Labs;argonne;5;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96004;United Technologies;T17523;5;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96005;SSA Army;ssarmy;6;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96006;SSA Marine Corps;ssmarines;6;1000;2999;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96007;Joint Chiefs of Staff;us joint chiefs;6;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96008;SSA Air Force;ssairforce;6;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96009;Bath Iron Works;Arleigh;4;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96010;SSA Navy;ssnavy;6;1000;2999;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96011;General Dynamics Electric Boat;gdelboat;6;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96012;Submarine Command;subcommand;5;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96013;Fleet Logistics Command;fleetlogistics;5;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96014;Defense Intelligence Directorate;ssintel;7;1000;2999;mathematics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96015;Combined Arms Center;cac;4;2998;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96016;General Dynamics;T17513;6;2998;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96017;United Defense;united defence;5;2998;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96018;Textron Marine & Land Systems;T17522;4;2998;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96019;Northrop Grumman;T17505;6;2998;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96020;Lockheed Martin;T17503;6;2998;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96021;Boeing;T17504;6;2998;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96022;Bell Helicopter Textron;bell;5;2998;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96023;Raytheon;T17524;6;2998;2999;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96024;L-3 Communications;L-3;4;2998;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96025;Los Alamos National Laboratory;T17514;6;2998;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96026;NASA;T17515;6;2998;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96027;Consolidated Robotics;Consolidated Robotics;4;2998;2999;management;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96028;SSA Navy SFTI (Top Gun);topgun;6;2998;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96029;Ingalls Shipbuilding;Ingalls;5;2998;2999;naval_artillery;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+96030;Northrop Grumman Shipbuilding;Newport News;6;2998;2999;naval_artillery;naval_engineering;small_taskforce_tactics;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

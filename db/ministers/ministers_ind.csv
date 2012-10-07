@@ -1,0 +1,66 @@
+IND;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+37001;Head of State;A.P.J. Abdul Kalam;2003;2050;2050;ML;Popular Figurehead;High;M37001;x
+37002;Head of Government;Atal Bihari Vajpayee;2003;2050;2050;SC;Flamboyant Tough Guy;High;M37002;x
+37003;Foreign Minister;Yashwant Sinha;2003;2050;2050;SC;General Staffer;High;M37003;x
+37004;Minister of Armament;Jaswant Singh;2003;2050;2050;SC;Military Entrepreneur;Very High;M37004;x
+37005;Minister of Security;Arun Jaitley;2003;2050;2050;SC;Compassionate Gentleman;High;M37005;x
+37006;Head of Military Intelligence;C.D. Sahay;2003;2050;2050;ML;Technical Specialist;Very High;M37006;x
+37007;Chief of Staff;Pankaj Joshi;2003;2050;2050;SL;School of Manoeuvre;High;M37007;x
+37008;Chief of Army;Nrimal Chand Vij;2003;2050;2050;ML;elastic defence doctrine;High;M37008;x
+37009;Chief of Navy;Madhvendra Singh;2003;2050;2050;SD;Power Projection Doctrine;High;M37009;x
+37010;Chief of Air Force;Srinivasapuram Krishna Swamy;2003;2050;2050;ML;Air Superiority Doctrine;High;L37030;x
+;Replacements;;;;;;;x
+37011;Head of Government;Sonia Gandhi;2003;2050;2050;SL;Naive Optimist;High;M37011;x
+37012;Head of Government;Manmohan Singh;2003;2050;2050;SL;Political Protege;High;M37012;x
+37051;Head of Government;Rajnath Singh;2003;2050;2050;SC;Silent Workhorse;High;M37051;x
+37055;Head of Government;Prakash Karat;2003;2050;2050;ST;Backroom Backstabber;High;M37055;x
+37013;Head of State;Pratibha Patil;2003;2050;2050;SL;Benevolent Gentleman;High;M37013;x
+37014;Head of State;Shivraj Patil;2003;2050;2050;SL;Weary Stiffneck;High;M37014;x
+37052;Head of Government;Lal Krishna Advani;2003;2050;2050;SC;Flamboyant Tough Guy;High;M37052;x
+37056;Head of State;Sitaram Yechury;2003;2050;2050;ST;Powerhungry Demagogue;High;M37056;x
+37063;Head of State;Bhairon Singh Shekhawat;2003;2050;2050;SC;Benevolent Gentleman;High;M37063;x
+37015;Foreign Minister;Pranab Mukherjee;2003;2050;2050;SL;General Staffer;High;M37015;x
+37016;Foreign Minister;K. Natwar Singh;2003;2050;2050;SL;The Cloak N Dagger Schemer;High;M37016;x
+37020;Foreign Minister;Anand Sharma;2003;2050;2050;SL;Apologetic Clerk;High;M37020;x
+37026;Foreign Minister;E. Ahammed;2003;2050;2050;SD;Biased Intellectual;High;M37026;x
+37044;Foreign Minister;Vinod Khanna;2003;2050;2050;SC;Ideological Crusader;High;M37044;x
+37045;Foreign Minister;Omar Abdullah;2003;2050;2050;SC;Apologetic Clerk;High;M37045;x
+37046;Foreign Minister;Krishnam Raju;2003;2050;2050;SC;Great Compromiser;High;M37046;x
+37047;Foreign Minister;Vasundhara Raje;2003;2050;2050;SC;The Cloak N Dagger Schemer;High;M37047;x
+37017;Minister of Armament;P. Chidambaram;2003;2050;2050;ML;Administrative Genius;High;M37017;x
+37018;Minister of Armament;Sushilkumar Shinde;2003;2050;2050;SD;Resource Industrialist;High;M37018;x
+37019;Minister of Armament;Raghuvansh Prasad Singh;2003;2050;2050;SD;laissez-faire capitalist;High;M37019;x
+37022;Minister of Armament;Kamal Nath;2003;2050;2050;SL;Corrupt Kleptocrat;High;M37022;x
+37048;Minister of Armament;Atal Bihari Vajpayee;2003;2050;2050;SC;Resource Industrialist;High;M37002;x
+37049;Minister of Armament;Ram Singh Kaswan;2003;2050;2050;SC;Administrative Genius;High;M37049;x
+37050;Minister of Armament;Dilip Singh Judeo;2003;2050;2050;SC;Corrupt Kleptocrat;High;M37050;x
+37057;Minister of Armament;Basudeb Acharia;2003;2050;2050;ST;Resource Industrialist;High;M37057;x
+37021;Minister of Security;Hansraj Bhardwaj;2003;2050;2050;SL;Silent Lawyer;High;M37021;x
+37023;Minister of Security;Gavit Manikrao Hodlya;2003;2050;2050;SL;Man of the People;High;M37023;x
+37024;Minister of Security;Shriprakash Jaiswal;2003;2050;2050;SL;Compassionate Gentleman;High;M37024;x
+37025;Minister of Security;V. Radhika Selvi;2003;2050;2050;SD;Man of the People;High;M37025;x
+37053;Minister of Security;Sompal Singh Shastri;2003;2050;2050;SC;Man of the People;High;M37053;x
+37054;Minister of Security;Bhupendrasinh Prabhatsinh Solanki;2003;2050;2050;SC;Silent Lawyer;High;M37054;x
+37058;Minister of Security;V. S. Achuthanandan;2003;2050;2050;ST;Back Stabber;High;M37058;x
+37027;Chief of Staff;A. K. Antony;2003;2050;2050;SL;School of Fire Support;High;M37027;x
+37028;Chief of Staff;Inderjit Singh Rao;2003;2050;2050;SL;School of Mass Combat;High;M37028;x
+37029;Chief of Staff;Mallipudi Raju Pallam Mangapati;2003;2050;2050;SL;School of Defence;High;M37029;x
+37030;Chief of Staff;Hardev Singh Lidder;2003;2050;2050;SC;School of Manoeuvre;High;M37030;x
+37031;Chief of Staff;S Radhakrishnan;2003;2050;2050;SC;School of Mass Combat;High;M37031;x
+37032;Chief of Staff;S Padmanabhan;2003;2050;2050;SC;School of Fire Support;High;M37032;x
+37033;Chief of Staff;Shashindra Pal Tyagi;2003;2050;2050;SL;School of Psychology;High;M37033;x
+37034;Chief of Air Force;Shashindra Pal Tyagi;2003;2050;2050;SL;Air Superiority Doctrine;High;M37033;x
+37035;Chief of Air Force;Fali Homi Major;2003;2050;2050;SC;Army Aviation Doctrine;High;M37035;x
+37036;Chief of Air Force;Anil Yashwant Tipnis;2003;2050;2050;SC;Carpet Bombing Doctrine;High;M37036;x
+37037;Chief of Navy;Arun Prakash;2003;2050;2050;SC;Open Seas Doctrine;High;M37037;x
+37038;Chief of Navy;Sureesh Mehta;2003;2050;2050;SL;Decisive Naval Battle Doctrine;High;M37038;x
+37039;Chief of Navy;Sushil Kumar;2003;2050;2050;SC;Base Control Doctrine;High;M37039;x
+37041;Chief of Army;Deepak Kapoor;2003;2050;2050;SC;Decisive Battle Doctrine;High;M37041;x
+37042;Chief of Army;Joginder Jaswant Singh;2003;2050;2050;SC;Static Defence Doctrine;High;M37042;x
+37043;Chief of Army;Sundararajan Padmanabhan;2003;2050;2050;SL;elastic defence doctrine;High;M37043;x
+37059;Head of Military Intelligence;Ashok Chaturvedi;2003;2050;2050;SC;Industrial Specialist;High;M37059;x
+37060;Head of Military Intelligence;P. K. H. Tharakan;2003;2050;2050;SL;Political Specialist;High;M37060;x
+37061;Head of Military Intelligence;Vikram Sood;2003;2050;2050;SC;Logistics Specialist;High;M37061;x
+37062;Head of Military INtelligence;ABCD;2003;2050;2050;SC;Logistics Specialist;High;M37061;x
+37063;Head of State;Pranab Mukherjee;2003;2050;SL;Popular Figurehead;High;M37063;x
+37064;Head of State;P. A. Sangma;2003;2050;SC;Stern Imperialist;High;M37064;x

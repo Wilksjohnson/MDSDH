@@ -1,0 +1,17 @@
+SER;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+14200;Training Command;belmilac2;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14201;Zastava Arms;zastavaarms;5;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14202;Military Technical Institute;mtiser;6;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+14203;Utva;utva;4;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14204;VOA;team_noimage;6;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14205;Rad;radser;4;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14206;Imtel;imtelser;5;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14207;El Nis;elnis;5;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14208;Teleoptik;teleoptik;6;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14209;Serbian Army;serbarmy;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14210;General Staff;team_noimage;5;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14211;Logistics Department;serblogistic;5;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14212;Serbian Air Force;serbairforce;5;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14213;Djuro Djakovic;durodakovic;4;2998;2999;mechanics;artillery;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14214;Split Shipbuilding Institute;brodarski;3;2998;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14215;Serbian Navy;serbnavy;2;2998;2999;seamanship;naval_training;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

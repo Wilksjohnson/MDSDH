@@ -1,0 +1,29 @@
+JOR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+42001;Head of State;King Abdulah II;2003;2050;2050;SD;Autocratic Charmer;High;M42001;x
+42002;Head of Government;Ali Abu al-Ragheb;2003;2050;2050;SD;Silent Workhorse;High;M42002;x
+42003;Foreign Minister;Marwan Muasher;2003;2050;2050;SD;Apologetic Clerk;High;M42003;x
+42004;Minister of Armament;Ali Abu al-Ragheb;2003;2050;2050;SD;Resource Industrialist;High;M42002;x
+42005;Minister of Security;Ghaftan al-Majali;2003;2050;2050;SL;Compassionate Gentleman;High;Unknown;x
+42006;Head of Military Intelligence;Mohammad Affash al-Udwan;2003;2050;2050;NA;Dismal Enigma;High;M42006;x
+42007;Chief of Staff;Abd Khalaf al-Najada;2003;2050;2050;NA;School of Defence;High;Unknown;x
+42008;Chief of Army;Khalid Sarayrah;2003;2050;2050;NA;Guns and Butter Doctrine;High;Unknown;x
+42009;Chief of Navy;Ali Mahmoud al-Khasawna;2003;2050;2050;NA;Base Control Doctrine;High;Unknown;x
+42010;Chief of Air Force;Faisal bin Hussein;2003;2050;2050;NA;Army Aviation Doctrine;High;M42010;x
+;Replacements;;;;;;;x
+42011;Head of Government;Faisal al-Fayez;2003;2050;2050;SD;Silent Workhorse;High;Fafayez;x
+42012;Minister of Armament;Faisal al-Fayez;2003;2050;2050;SD;Administrative Genius;High;Fafayez;x
+42013;Head of Government;Adnan Badran;2003;2050;2050;SD;Naive Optimist;High;Abadran;x
+42014;Minister of Armament;Adnan Badran;2003;2050;2050;SD;Theoretical Scientist;High;Abadran;x
+42015;Head of Government;Marouf al-Bakhit;2005;2050;2050;SD;Flamboyant Tough Guy;High;Mabakhit;x
+42016;Minister of Armament;Marouf al-Bakhit;2005;2050;2050;SD;Resource Industrialist;High;Mabakhit;x
+42017;Head of Government;Nader al-Dahabi;2007;2050;2050;SD;old airmarshal;High;Nadahabi;x
+42018;Minister of Armament;Nader al-Dahabi;2003;2050;2050;SD;Air Superiority Proponent;High;Nadahabi;x
+42019;Chief of Air Force;Hussein Ahmad Shodash;2005;2050;2050;NA;Army Aviation Doctrine;High;Unknown;x
+42020;Head of State;Hamzeh Mansour;2003;2050;2050;FA;Stern Imperialist;High;Hmansour;x
+42021;Head of Government;Zuheir Abu Ragheb;2003;2050;2050;FA;Backroom Backstabber;High;Zaragheb;x
+42022;Minister of Security;Abdallah Akayleh;2003;2050;2050;FA;Silent Lawyer;High;Aakayleh;x
+42023;Minister of Armament;Azzam Huneidi;2003;2050;2050;FA;Administrative Genius;High;Ahuneidi;x
+42024;Foreign Minister;Tayseer Fityani;2003;2050;2050;FA;Biased Intellectual;High;Tfityani;x
+42025;Foreign Minister;Mohammad Hassan Bzour;2003;2050;2050;FA;Ideological Crusader;High;Mhbzour;x
+42026;Minister of Security;Mohammad Khalil Aqel;2003;2050;2050;FA;Crime Fighter;High;Mkaqel;x
+42027;Foreign Minister;Badr Mohammad Riati;2003;2050;2050;FA;Ideological Crusader;High;Bmriati;x

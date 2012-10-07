@@ -1,0 +1,35 @@
+AUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+4500;Head of State;Thomas Klestil;2003;2050;2050;ML;Benevolent Gentleman;High;M4500;x
+4501;Head of Government;Wolfgang Schussel;2003;2050;2050;ML;Naive Optimist;High;M4501;x
+4502;Foreign Minister;Benita Ferrero-Waldner;2003;2050;2050;ML;Great Compromiser;High;M4502;x
+4503;Minister of Armament;Günther Platter;2003;2050;2050;ML;Administrative Genius;High;Gplatter;x
+4504;Minister of Security;Ernst Strasser;2003;2050;2050;ML;Silent Lawyer;High;Estrasser;x
+4505;Head of Military Intelligence;Fritz Weber;2003;2050;2050;NA;Logistics Specialist;High;M4505;x
+4506;Chief of Staff;Roland Ertl;2003;2050;2050;NA;School of Defence;High;M4506;x
+4507;Chief of Army;Edmund Entacher;2003;2050;2050;NA;Guns and Butter Doctrine;High;M4507;x
+4508;Chief of Navy;None;2003;2050;2050;NA;Undistinguished Suit;High;M4508;x
+4509;Chief of Air Force;Erich Wolf;2003;2050;2050;NA;Air Superiority Doctrine;High;M4509;x
+;Replacements;;;;;;;x
+4510;Head of State;Heinz Fischer;2004;2050;2050;SD;Popular Figurehead;High;Hfischer;x
+4511;Head of State;Benita Ferrero-Waldner;2004;2050;2050;ML;Benevolent Gentleman;High;M4502;x
+4512;Head of State;Erwin Pröll;2010;2050;2050;ML;Die-hard Reformer;High;Eproll;x
+4513;Head of Government;Alfred Gusenbauer;2006;2050;2050;SD;Backroom Backstabber;High;Agusenbauer;x
+4514;Head of Government;Werner Faymann;2008;2050;2050;SD;Naive Optimist;High;Wfaymann;x
+4515;Foreign Minister;Ursula Plassnik;2003;2050;2050;ML;Ideological Crusader;High;Uplassnik;x
+4516;Foreign Minister;Michael Spindelegger;2003;2050;2050;SD;Biased Intellectual;High;Mspindelegger;x
+4517;Minister of Armament;Norbert Darabos;2006;2050;2050;SD;Corrupt Kleptocrat;High;Ndarabos;x
+4518;Minister of Security;Maria Fekter;2008;2050;2050;ML;Silent Lawyer;High;Mfekter;x
+4519;Minister of Security;Günther Platter;2003;2050;2050;ML;Compassionate Gentleman;High;Gplatter;x
+4520;Head of State;Jörg Haider;2003;2050;2050;PA;Benevolent Gentleman;High;Jhaider;x
+4521;Minister of Armament;Peter Westenthaler;2003;2050;2050;PA;Resource Industrialist;High;Pwestenthaler;x
+4522;Minister of Security;Heinz-Christian Strache;2005;2050;2050;PA;Crime Fighter;High;Hcstrache;x
+4523;Minister of Armament;Christian Buchmann;2003;2050;2050;ML;Laissez-Faire Capitalist;High;Cbuchmann;x
+4524;Minister of Security;Caspar Einem;2003;2050;2050;SD;Crime Fighter;High;Ceinem;x
+4525;Head of Government;Gerhard Dörfler;2003;2050;2050;PA;Silent Workhorse;High;Gdorfler;x
+4526;Foreign Minister;Martin Graf;2003;2050;2050;PA;Biased Intellectual;High;Mgraf;x
+4527;Head of State;Ursula Haubner;2008;2050;2050;PA;Weary Stiffneck;High;Uhaubner;x
+4528;Foreign Minister;Gerhard Pfanzelter;2003;2050;2050;SL;Great Compromiser;High;Gpfanzelter;x
+4529;Chief of Staff;Edmund Entacher;2005;2050;2050;NA;School of Fire Support;High;M4507;x
+4530;Chief of Army;Günter Höfler;2003;2050;2050;NA;Guns and Butter Doctrine;High;Ghofler;x
+4531;Chief of Staff;Günter Höfler;2005;2050;2050;NA;School of Psychology;High;Ghofler;x
+4532;Head of Government;Wilhelm Molterer;2007;2050;2050;ML;Flamboyant Tough Guy;High;Wmolterer;x

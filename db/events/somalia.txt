@@ -1,0 +1,724 @@
+#########################################################
+#							#
+# Events for Somalia (SOM) by Ariosto Marziani          #
+# modified by Zokan                                     #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#74501 - 74800# Main events
+#74801 - 74950# Political events
+#74951 - 75000# Election events	 		
+#########################################################
+
+############################################################################################################################
+
+#############################################
+###### Main events
+#############################################
+
+#######################################################################
+# 3.1 Rise of the Islamic Courts
+
+event = {
+id = 74501
+random = no
+country = SOM
+
+trigger = {
+	NOT = {
+		#ideology = national_socialist
+		#ideology = fascist
+	}
+	atwar = no
+}
+
+style = 0
+picture = "icu"
+
+date = { day = 6 month = june year = 2006 }
+
+name = "EVT_74501_NAME"
+desc = "EVT_74501_DESC"
+
+action_a = {
+name = "Glory to Allah!"
+command = { type = set_domestic which = political_left value = 2 }
+command = { type = set_domestic which = democratic value = 2 }
+command = { type = set_domestic which = freedom value = 3 }
+command = { type = set_domestic which = free_market value = 3 }
+
+command = { type = headofstate which = 74512 } # Aweys
+command = { type = headofgovernment which = 74537 } # Ahmed
+command = { type = foreignminister which = 74528 } # Addow
+command = { type = armamentminister which = 74538 } # Robow
+command = { type = ministerofsecurity which = 74515 } # Inda'ade
+command = { type = ministerofintelligence which = 74521 } # Habsade
+command = { type = chiefofstaff which = 74522 } # Afrah
+command = { type = chiefofarmy which = 74524 } # Jelle
+command = { type = chiefofnavy which = 74526 } # Ibrow
+command = { type = chiefofair which = 74529 } # Qalaf
+
+command = { type = dissent value = 10 }
+
+command = { type = removecore which = 1034 } # to simulate dissent and opposition to the new regime
+command = { type = removecore which = 1035 }
+command = { type = removecore which = 1036 }
+command = { type = removecore which = 1055 }
+command = { type = removecore which = 1058 }
+}
+}
+##########################
+# 3.2 Rise of the Islamic Courts
+
+event = {
+id = 74502
+random = no
+country = ETH
+
+trigger = {
+	event = 74501
+	atwar = no
+	exists = SOM
+         }
+
+style = 0
+picture = "icu"
+
+date = { day = 14 month = june year = 2006 }
+
+name = "EVT_74502_NAME"
+desc = "EVT_74502_DESC"
+
+action_a = {
+name = "Give them all the support we can"
+ai_chance = 95
+command = { type = trigger which = 74503 } # SOM
+command = { type = relation which = SOM value = -50 }
+}
+action_b = {
+name = "Somalia is not important"
+ai_chance = 5
+command = { type = dissent value = 3 }
+command = { type = relation which = SOM value = 10 }
+}
+}
+##########################
+# 3.3 Rise of the Islamic Courts
+
+event = {
+id = 74503
+random = no
+country = SOM
+picture = "no"
+
+name = "EVT_74503_NAME"
+desc = "EVT_74503_DESC"
+style = 0
+
+action_a = {
+name = "Damn!"
+command = { type = relation which = ETH value = -50 }
+command = { type = dissent value = 15 }
+
+}
+}
+##########################
+# 3.4 Rise of the Islamic Courts
+
+event = {
+id = 74504
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+	atwar = no
+         }
+
+picture = "osama"
+
+date = { day = 1 month = july year = 2006 }
+
+name = "EVT_74504_NAME"
+desc = "EVT_74504_DESC"
+style = 0
+
+action_a = {
+name = "Good"
+command = { type = dissent value = -1 }
+}
+}
+##########################
+# 3.5 Rise of the Islamic Courts
+
+event = {
+id = 74505
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+	atwar = no
+         }
+
+picture = "icu"
+
+date = { day = 1 month = august year = 2006 }
+
+name = "EVT_74505_NAME"
+desc = "EVT_74505_DESC"
+style = 0
+
+action_a = {
+name = "Good"
+command = { type = dissent value = -1 } # supposed to lower partisan activity slightly in 835
+command = { type = province_revoltrisk which = 835 value = -20 }
+}
+}
+##########################
+# 3.6 Rise of the Islamic Courts
+
+event = {
+id = 74506
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+	atwar = no
+         }
+
+picture = "icu"
+
+date = { day = 13 month = august year = 2006 }
+
+name = "EVT_74506_NAME"
+desc = "EVT_74506_DESC"
+style = 0
+
+action_a = {
+name = "Good"
+command = { type = dissent value = -1 } # supposed to lower partisan activity slightly in 835
+command = { type = province_revoltrisk which = 835 value = -20 }
+}
+}
+
+##########################
+# 3.7 Rise of the Islamic Courts
+
+event = {
+id = 74507
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+	atwar = no
+         }
+
+picture = "icu"
+
+name = "EVT_74507_NAME"
+desc = "EVT_74507_DESC"
+style = 0
+
+date = { day = 16 month = august year = 2006 }
+
+action_a = {
+name = "We can now have peace"
+command = { type = dissent value = -1 } # supposed to lower partisan activity almost completely in 835
+command = { type = province_revoltrisk which = 835 value = -100 }
+}
+}
+
+##########################
+# 3.8 Rise of the Islamic Courts
+
+event = {
+id = 74508
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+         }
+
+picture = "icu"
+
+date = { day = 28 month = august year = 2006 }
+
+name = "EVT_74508_NAME"
+desc = "EVT_74508_DESC"
+style = 0
+
+action_a = {
+name = "We must secure Kismayo before they arrive"
+command = { }
+}
+}
+##########################
+# 3.9 Rise of the Islamic Courts
+
+event = {
+id = 74509
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+         }
+
+picture = "icu"
+
+date = { day = 28 month = september year = 2006 }
+
+name = "EVT_74509_NAME"
+desc = "EVT_74509_DESC"
+style = 0
+
+action_a = {
+name = "The Sword of Allah shall not fail!"
+command = { type = province_revoltrisk which = 838 value = 95 } # massive increase of partisan activity in 838
+command = { type = dissent value = 1 }
+command = { type = relation which = ETH value = -100 }
+command = { type = relation which = U66 value = -100 } #Somaliland
+}
+}
+
+
+##########################
+# 3.10 Rise of the Islamic Courts
+
+event = {
+id = 74510
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+         }
+
+picture = "icu"
+
+date = { day = 15 month = october year = 2006 }
+
+name = "EVT_74510_NAME"
+desc = "EVT_74510_DESC"
+style = 0
+
+action_a = {
+name = "Let the UN give us mercy. Hoorah!"
+command = { type = dissent value = -1 } # major decrease in partisan activity in 838
+command = { type = province_revoltrisk which = 838 value = -100 }
+}
+}
+
+##########################
+# 3.11 Rise of the Islamic Courts
+
+event = {
+id = 74511
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+         }
+
+picture = "icu"
+
+date = { day = 26 month = october year = 2006 }
+
+name = "EVT_74511_NAME"
+desc = "EVT_74511_DESC"
+style = 0
+
+action_a = {
+name = "Allah will protect us!"
+command = { type = trigger which = 74512 } #SOM info event
+command = { type = relation which = ETH value = -100 }
+command = { type = relation which = U66 value = -100 }
+}
+}
+##########################
+# 3.12 Rise of the Islamic Courts
+
+event = {
+id = 74512
+random = no
+country = ETH
+
+picture = "icu"
+
+name = "EVT_74512_NAME"
+desc = "EVT_74512_DESC"
+style = 0
+
+action_a = {
+name = "Prepare for a possible intervention..."
+command = { type = dissent value = 3 }
+command = { type = province_revoltrisk which = 828 value = 50 } # slight increase in partisan activity in 828
+command = { type = province_revoltrisk which = 830 value = 50 } # slight increase in 830
+command = { type = province_revoltrisk which = 826 value = 65 } # moderate increase in 826
+}
+}
+##########################
+# 3.13 Rise of the Islamic Courts
+
+event = {
+id = 74513
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+         }
+
+picture = "no"
+
+date = { day = 17 month = november year = 2006 }
+
+name = "EVT_74513_NAME"
+desc = "EVT_74513_DESC"
+style = 0
+
+action_a = {
+name = "Let us hope that it brings order"
+command = { type = dissent value = -1 }
+}
+}
+##########################
+# 3.14 Rise of the Islamic Courts
+
+event = {
+id = 74514
+random = no
+country = SOM
+
+trigger = {
+	event = 74501
+	government = fascist
+         }
+
+picture = "icu"
+
+date = { day = 6 month = december year = 2006 }
+
+name = "EVT_74514_NAME"
+desc = "EVT_74515_DESC"
+style = 0
+
+action_a = {
+name = "We need to take Baidoa quickly then, don't we"
+command = { }
+}
+}
+##########################
+# 3.15 Rise of the Islamic Courts
+
+event = {
+id = 74515
+random = no
+country = U66
+
+trigger = {
+	event = 74514
+         }
+
+picture = "icu"
+
+date = { day = 8 month = december year = 2006 }
+
+name = "EVT_74515_NAME"
+desc = "EVT_74515_DESC"
+style = 0
+
+action_a = {
+name = "May Allah grant us victory"
+command = { type = province_revoltrisk which = 838 value = -70 } # major decrease in partisan activity in 838
+command = { type = relation which = ETH value = -50 }
+}
+}
+##########################
+# 3.16 Rise of the Islamic Courts - Ethiopian intervention
+
+event = {
+id = 74516
+random = no
+country = ETH
+
+trigger = {
+	event = 74514
+	exists = SOM
+         }
+
+picture = "icu"
+
+date = { day = 20 month = december year = 2006 }
+
+name = "EVT_74516_NAME"
+desc = "EVT_74516_DESC"
+style = 0
+
+action_a = {
+name = "Launch an intervention, we cannot allow ourselves to be surrounded"
+ai_chance = 100
+command = { type = trigger which = 74517 } # SOM
+command = { type = trigger which = 74518 } # USA
+command = { type = relation which = SOM value = -50 }
+}
+action_b = {
+name = "Somalia is not our concern"
+ai_chance = 0
+command = { type = dissent value = 10 } # Will get to consequences later; figured the historical context was more important
+
+}
+}
+##########################
+# 3.17 Ethiopian intervention
+
+event = {
+id = 74517
+random = no
+country = SOM
+picture = "somalian_war"
+
+name = "EVT_74517_NAME"
+desc = "EVT_74517_DESC"
+style = 0
+
+action_a = {
+name = "With Allah's help we will hold"
+command = { type = war which = ETH }
+}
+}
+##########################
+# Ethiopian intervention
+
+event = {
+id = 74518
+random = no
+country = USA
+picture = "somalian_war"
+
+name = "EVT_74518_NAME"
+desc = "EVT_74518_DESC"
+style = 0
+
+action_a = {
+name = "Hopefully the ICU will be deposed"
+command = { }
+}
+}
+##########################
+# 3.18 Fall of the Islamic Courts
+
+event = {
+id = 74519
+random = no
+country = SOM
+
+trigger = {
+	event = 74517
+	war = { country = ETH country = SOM }
+	control = { province = 836 data = ETH } # Ethiopia controls Mogadishu
+	NOT = {
+		lost_national = { country = ETH value = 1 } #not if Ethiopia has lost ground
+	}
+}
+
+date = { day = 20 month = december year = 2006   }
+offset = 1
+deathdate = { day = 30 month = december year = 2019 }
+
+picture = "no"
+
+name = "EVT_74519_NAME"
+desc = "EVT_74519_DESC"
+style = 0
+
+action_a = {
+name = "We will rise again!"
+command = { type = dissent value = -5 }
+command = { type = peace which = ETH }
+command = { type = trigger which = 74520 } # ETH
+
+command = { type = set_domestic which = political_left value = 4 }
+command = { type = set_domestic which = democratic value = 6 }
+command = { type = set_domestic which = freedom value = 5 }
+command = { type = set_domestic which = free_market value = 5 }
+
+command = { type = headofstate which = 74530 } # Ahmed
+command = { type = headofgovernment which = 74534 } # Oasharmarke
+command = { type = foreignminister which = 74503 } # Bubba
+command = { type = armamentminister which = 74535 } # Abdi
+command = { type = ministerofsecurity which = 74515 } # Inda'ade
+command = { type = ministerofintelligence which = 74520 } # Arale
+command = { type = chiefofstaff which = 74523 } # Sheikh
+command = { type = chiefofarmy which = 74525 } # Botan
+command = { type = chiefofnavy which = 74539 } # Omar
+command = { type = chiefofair which = 74510 } # Jama
+
+command = { type = addcore which = 1034 }
+command = { type = addcore which = 1035 }
+command = { type = addcore which = 1036 }
+command = { type = addcore which = 1055 }
+command = { type = addcore which = 1058 }
+}
+}
+
+##########################
+# 3.19 Somalia now governed by the TFG
+
+event = {
+id = 74520
+random = no
+country = ETH
+picture = "no"
+
+name = "EVT_74520_NAME"
+desc = "EVT_74520_DESC"
+style = 0
+
+action_a = {
+name = "Good"
+command = { type = make_puppet which = SOM }
+command = { type = relation which = U66 value = 50 }
+command = { type = relation which = USA value = 20 }
+}
+}
+#############################################
+###### Somalia under ICU control
+#############################################
+event = {
+         id = 74521
+         random = no
+         country = SOM
+         trigger = {
+                   event = 74501
+		   event = 74515 #Baidoa just about to fall
+		   government = fascist
+		   atwar = no #Somalia has not intervened, or failed to achieve a victory
+
+         }
+ 
+         name = "EVT_74521_NAME"
+         desc = "EVT_74521_DESC"
+         style = 0
+         picture = "icu"
+ 
+         date = { day = 13 month = january year = 2007 }
+ 
+           action_a = {
+                  name = "Thank Allah"
+                  command = { type = dissent value = -3 }
+		  command = { type = belligerence value = 10 }
+		  command = { type = trigger which = 74522 } #USA
+		  command = { type = trigger which = 74523 } #ETH
+		  command = { type = relation which = USA value = -200 }
+		  command = { type = relation which = ETH value = -200 }
+		  command = { type = relation which = U66 value = -200 }
+		  		  
+           }
+
+}
+#############################################
+###### Somalia under ICU control
+#############################################
+event = {
+         id = 74522
+         random = no
+         country = USA
+ 
+         name = "EVT_74522_NAME"
+         desc = "EVT_74522_DESC"
+         style = 0
+         picture = "icu"
+ 
+           action_a = {
+                  name = "This could have gone in another direction"
+                  command = { }
+		  		  
+           }
+
+}
+#############################################
+###### Somalia under ICU control
+#############################################
+event = {
+         id = 74523
+         random = no
+         country = ETH
+ 
+         name = "EVT_74523_NAME"
+         desc = "EVT_74523_DESC"
+         style = 0
+         picture = "icu"
+ 
+           action_a = {
+                  name = "This could have gone in another direction"
+                  command = { }
+		  		  
+           }
+
+}
+#############################################
+###### Greater Somalia
+#############################################
+event = {
+         id = 74524
+         random = no
+         country = SOM
+         trigger = {
+                   event = 74521
+		   government = fascist
+		   atwar = no
+
+         }
+ 
+         name = "EVT_74524_NAME"
+         desc = "EVT_74524_DESC"
+         style = 0
+         picture = "greater_somalia"
+ 
+         date = { day = 26 month = january year = 2007 }
+ 
+           action_a = {
+                  name = "All Somalis in one state!"
+		  ai_chance = 99
+                  command = { type = dissent value = -1 }
+		  command = { type = belligerence value = 5 }
+
+		  command = { type = addcore which = 1037 }
+		  command = { type = addcore which = 1051 }
+		  command = { type = addcore which = 1054 }
+
+		  command = { type = relation which = USA value = -50 }
+		  command = { type = relation which = ETH value = -50 }
+		  command = { type = relation which = U66 value = -50 }
+		  command = { type = relation which = U14 value = -50 }
+		  command = { type = relation which = U90 value = -50 }
+		  		  
+           }
+	   action_b = {
+                  name = "We have more urgent concerns at home"
+		  ai_chance = 1
+                  command = { }
+		  		  
+           }
+
+}

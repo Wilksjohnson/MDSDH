@@ -1,0 +1,40 @@
+# 0 - OV-10A
+model =
+{ cost                = 5
+  buildtime           = 160
+  manpower            = 1
+  maxspeed            = 700
+  defaultorganisation = 30
+  morale              = 30
+  surfacedefence      = 3
+  airdefence          = 2
+  softattack          = 18
+  hardattack          = 18
+  navalattack         = 0
+  airattack           = 1
+  supplyconsumption   = 0.1
+  range               = 700
+  fuelconsumption     = 0.1
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 0.6
+}
+# 1 - 
+model =
+{ cost                = 9
+  buildtime           = 160
+  manpower            = 1
+  maxspeed            = 700
+  defaultorganisation = 30
+  morale              = 30
+  surfacedefence      = 4
+  airdefence          = 2
+  softattack          = 26
+  hardattack          = 26
+  navalattack         = 0
+  airattack           = 1
+  supplyconsumption   = 0.1
+  range               = 800
+  fuelconsumption     = 0.1
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 0.6
+}

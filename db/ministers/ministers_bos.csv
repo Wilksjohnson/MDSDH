@@ -1,0 +1,52 @@
+BOS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+10000;Head of State;Mirko Sarovic;2003;2050;2050;SC;Barking Buffoon;Medium;M10000;x
+10001;Head of Government;Adnan Terzic;2003;2050;2050;SC;Naive Optimist;High;M10001;x
+10002;Foreign Minister;Mladen Ivanic;2003;2050;2050;SC;Apologetic Clerk;Medium;M10002;x
+10003;Minister of Armament;Nikola Radovanovic;2003;2050;2050;SC;Military Entrepreneur;Medium;M10003;x
+10004;Minister of Security;Barisa Colak;2003;2050;2050;SC;Silent Lawyer;Medium;M10004;x
+10005;Head of Military Intelligence;Sredoje Novic;2003;2050;2050;SC;Political Specialist;Medium;M10005;x
+10006;Chief of Staff;Sifet Podzic;2003;2050;2050;SC;School of Defence;Medium;L10029;x
+10007;Chief of Army;Sifet Podzic;2003;2050;2050;SC;elastic defence doctrine;Medium;L10029;x
+10008;Chief of Navy;Sifet Podzic;2003;2050;2050;SC;Base Control Doctrine;Medium;L10029;x
+10009;Chief of Air Force;Sifet Podzic;2003;2050;2050;SC;Army Aviation Doctrine;Medium;L10029;x
+;Replacements;;;;;;;x
+10010;Head of State;Sulejman Tihic;2003;2050;2050;SC;Insignificant Layman;High;M10010;x
+10011;Head of State;Ivo Miro Jovic;2003;2050;2050;SC;Insignificant Layman;Medium;M10011;x
+10012;Head of State;Borislav Paravac;2003;2050;2050;FA;Powerhungry Demagogue;Medium;M10012;x
+10013;Head of State;Beriz Belkic;2003;2050;2050;SC;Popular Figurehead;High;M10013;x
+10014;Head of State;Bakir Izetbegovic;2003;2050;2050;SC;Powerhungry Demagogue;High;M10014;x
+10015;Head of State;Dragan Covic;2003;2050;2050;SC;Autocratic Charmer;High;M10015;x
+10016;Head of State;Zivko Radisic;2003;2050;2050;ML;Popular Figurehead;High;M10016;x
+10017;Head of Government;Zlatko Lagumdzija;2003;2050;2050;SL;Flamboyant Tough Guy;High;M10017;x
+10018;Head of Government;Mladen Ivanic;2003;2050;2050;SC;Political Protege;High;M10002;x
+10019;Head of Government;Haris Silajdzic;2003;2050;2050;SC;Corporate Suit;High;M10019;x
+10020;Head of Government;Bakir Izetbegovic;2003;2050;2050;SC;Political Protege;High;M10014;x
+10021;Head of Government;Milorad Dodik;2003;2050;2050;SL;Silent Workhorse;High;M10021;x
+10022;Head of Government;Mladen Lijanovic;2003;2050;2050;ML;Ambitious Union Boss;High;M10022;x
+10023;Head of Government;Ognjen Tadic;2003;2050;2050;FA;Backroom Backstabber;Medium;M10023;x
+10024;Foreign Minister;Zlatko Lagumdzija;2003;2050;2050;SC;Great Compromiser;High;M10017;x
+10025;Foreign Minister;Haris Silajdzic;2003;2050;2050;SC;Ideological Crusader;High;M10019;x
+10026;Foreign Minister;Milorad Dodik;2003;2050;2050;SL;Great Compromiser;High;M10021;x
+10027;Foreign Minister;Selim Beslagic;2003;2050;2050;SL;Great Compromiser;High;M10027;x
+10028;Foreign Minister;Boro Bosic;2003;2050;2050;SC;Apologetic Clerk;High;M10028;x
+10029;Minister of Armament;Dragan Mikerevic;2003;2050;2050;SC;Corrupt Kleptocrat;High;M10029;x
+10030;Minister of Armament;Kresimir Zubak;2003;2050;2050;ML;Infantry Proponent;High;M10030;x
+10031;Minister of Armament;Azra Hadziahmetovic;2003;2050;2050;SL;laissez-faire capitalist;High;M10031;x
+10032;Minister of Armament;Nedzad Brankovic;2003;2050;2050;SC;Resource Industrialist;High;M10032;x
+10033;Minister of Security;Ahmet Hadzipasic;2003;2050;2050;SC;Back Stabber;High;M10033;x
+10034;Minister of Security;Kresimir Zubak;2003;2050;2050;SC;Prince of Terror;High;M10030;x
+10035;Minister of Security;Hasan Muratovic;2003;2050;2050;SC;Silent Lawyer;High;M10035;x
+10036;Minister of Security;Dragan Kalinic;2003;2050;2050;SC;Back Stabber;High;M10036;x
+10037;Head of Military Intelligence;Ivo Andric-Luzanski;2003;2050;2050;SC;Dismal Enigma;High;M10037;x
+10038;Head of Military Intelligence;Meliha Alic;2003;2050;2050;SC;Technical Specialist;High;M10038;x
+10039;Head of Military Intelligence;Munir Alibabic;2003;2050;2050;SL;Political Specialist;High;M10039;x
+10040;Chief of Staff;Novica Simic;2003;2050;2050;SC;School of Fire Support;High;L10000;x
+10041;Chief of Staff;Atif Dudakovic;2003;2050;2050;SC;School of Manoeuvre;High;L10010;x
+10042;Chief of Staff;Dusan Kukobat;2003;2050;2050;SC;School of Psychology;High;L10001;x
+10043;Chief of Army;Atif Dudakovic;2003;2050;2050;SC;elastic defence doctrine;High;L10010;x
+10044;Chief of Army;Novica Simic;2003;2050;2050;SC;Decisive Battle Doctrine;High;L10000;x
+10045;Chief of Army;Rasim Delic;2003;2050;2050;SL;Armoured Spearhead Doctrine;High;M10045;x
+10046;Chief of Navy;Atif Dudakovic;2003;2050;2050;SC;Power Projection Doctrine;High;L10010;x
+10047;Chief of Navy;Novica Simic;2003;2050;2050;SC;Base Control Doctrine;High;L10000;x
+10048;Chief of Air Force;Vlado Gvozden;2003;2050;2050;SC;Army Aviation Doctrine;High;L10039;x
+10049;Chief of Air Force;Erdin Hrustic;2003;2050;2050;SL;Naval Aviation Doctrine;High;L10036;x

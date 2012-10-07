@@ -1,0 +1,157 @@
+#########################################################
+#							#
+# Events for Argentina (ARG)                            #
+#                                			#
+#########################################################
+
+#########
+# Index #
+#########################################################
+#From	- To	#	Name 			 
+#########################################################
+#2501 - 2800# Main events
+#2801 - 2950# Political events
+#2951 - 3000# Election events	 		
+#########################################################
+
+### Election Events ###
+
+# 2951   ARG   Argentine presidential election 2003
+# 2952   ARG   Argentine presidential election 2007
+
+############################################################################################################################
+
+###################
+### Main events ###
+###################
+
+########################
+### Political events ###
+########################
+
+#######################
+### Election events ###
+#######################
+
+############################################
+### Argentine presidential election 2003 ###
+############################################
+event = {
+         id = 2951
+         random = no
+         country = ARG
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_2951_NAME"
+         desc = "EVT_2951_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 27 month = april year = 2003 }
+ 
+           action_a = {
+                  name = "Carlos Menem - Justicialist Party"
+                  ai_chance = 15
+		  command = { type = headofstate which = 2524 } #Menem
+		  command = { type = headofgovernment which = 2525 } #Menem
+		  command = { type = foreignminister which = 2513 } #Bielsa
+		  command = { type = armamentminister which = 2514 } #Pampuro
+		  command = { type = ministerofsecurity which = 2536 } #Fernandez
+		  command = { type = ministerofintelligence which = 2533 } #Acevedo
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 6 }
+           }
+           action_b = {
+                  name = "Néstor Kirchner - Front for Victory"
+                  ai_chance = 75
+		  command = { type = headofstate which = 2511 } #Kirchner
+		  command = { type = headofgovernment which = 2512 } #Kirchner
+		  command = { type = foreignminister which = 2513 } #Bielsa
+		  command = { type = armamentminister which = 2514 } #Pampuro
+		  command = { type = ministerofsecurity which = 2536 } #Fernandez
+		  command = { type = ministerofintelligence which = 2533 } #Acevedo
+		  command = { type = set_domestic which = political_left value = 9 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 6 }
+		  command = { type = relation which = USA value = -10 }
+		  command = { type = relation which = VEN value = 30 }
+		  command = { type = relation which = CUB value = 30 }
+		  command = { type = relation which = BRA value = 30 }
+		  command = { type = relation which = BOL value = 30 }
+		  
+           }
+	   action_c = {
+		  name = "Ricardo Murphy - Recreate for Growth party"
+	 	  ai_chance = 10
+		  command = { type = headofstate which = 2526 } #Murphy
+		  command = { type = headofgovernment which = 2526 } #Murphy
+		  command = { type = foreignminister which = 2538 } #Bullrich
+		  command = { type = armamentminister which = 2537 } #Macri
+		  command = { type = ministerofsecurity which = 2536 } #Fernandez
+		  command = { type = ministerofintelligence which = 2533 } #Acevedo
+		  command = { type = set_domestic which = political_left value = 3 }
+		  command = { type = set_domestic which = freedom value = 8 }
+		  command = { type = set_domestic which = free_market value = 8 }
+		  command = { type = relation which = USA value = 50 }
+		  command = { type = relation which = ENG value = 20 }
+		  command = { type = relation which = VEN value = -30 }
+		  command = { type = relation which = CUB value = -30 }
+		  command = { type = relation which = BRA value = -30 }
+		  command = { type = relation which = BOL value = -30 }
+	   }
+
+}
+############################################
+### Argentine presidential election 2007 ###
+############################################
+event = {
+         id = 2952
+         random = no
+         country = ARG
+         trigger = {
+                   government = democratic
+		   atwar = no
+
+         }
+ 
+         name = "EVT_2952_NAME"
+         desc = "EVT_2952_DESC"
+         style = 0
+	 picture = "elections"
+ 
+         date = { day = 28 month = october year = 2007 }
+ 
+           action_a = {
+                  name = "Elisa Carrió - Civic Coalition Confederation"
+                  ai_chance = 20
+		  command = { type = headofstate which = 2528 } #Carrió
+		  command = { type = headofgovernment which = 2529 } #Carrió
+		  command = { type = foreignminister which = 2513 } #Bielsa
+		  command = { type = armamentminister which = 2514 } #Pampuro
+		  command = { type = ministerofsecurity which = 2536 } #Fernandez
+		  command = { type = ministerofintelligence which = 2533 } #Acevedo
+		  command = { type = set_domestic which = political_left value = 8 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 6 }
+           }
+           action_b = {
+                  name = "Cristina Kirchner - Front for Victory"
+                  ai_chance = 80
+		  command = { type = headofstate which = 2522 } #Kirchner
+		  command = { type = headofgovernment which = 2523 } #Kirchner
+		  command = { type = foreignminister which = 2532 } #Taiana
+		  command = { type = armamentminister which = 2534 } #Garre
+		  command = { type = ministerofsecurity which = 2535 } #Randazzo
+		  command = { type = ministerofintelligence which = 2516 } #Icazuriaga
+		  command = { type = set_domestic which = political_left value = 9 }
+		  command = { type = set_domestic which = freedom value = 7 }
+		  command = { type = set_domestic which = free_market value = 6 }
+		  
+           }
+
+}

@@ -1,0 +1,12 @@
+U98;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+54101;Head of State;Yoweri Museveni;2003;2050;2050;LWR;Autocratic Charmer;High;M54100;x
+54102;Head of Government;Yoweri Museveni;2003;2050;2050;LWR;Silent Workhorse;High;M54100;x
+54103;Foreign Minister;Sam Kuteesa;2003;2050;2050;LWR;Great Compromiser;High;M54102;x
+54104;Minister of Armament;Ezra Suruma;2003;2050;2050;LWR;Resource Industrialist;High;M54103;x
+54105;Minister of Security;Amama Mbabazi;2003;2050;2050;LWR;Man of the People;High;M54104;x
+54106;Head of Military Intelligence;Crispus Kiyonga;2003;2050;2050;LWR;Political Specialist;High;M54106;x
+54107;Chief of Staff;Crispus Kiyonga;2003;2050;2050;LWR;School of Psychology;High;M54106;x
+54108;Chief of Army;Katumba Wamala;2003;2050;2050;LWR;Guns and Butter Doctrine;High;M54107;x
+54109;Chief of Navy;Undistinguished suit;2003;2050;2050;LWR;Undistinguished suit;High;Unknown;x
+54110;Chief of Air Force;Jim Owoyesigire;2003;2050;2050;LWR;Air Superiority Doctrine;High;M54109;x
+;Replacements;;;;;;;x

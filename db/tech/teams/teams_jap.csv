@@ -1,0 +1,28 @@
+JAP;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+8300;National Defence Academy;ndajapan;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8301;Mitsubishi Land Systems;T8305;8;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8302;Komatsu;komatsu2;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8303;Howa Machinery;howagun;8;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8304;Mitsubishi Aerospace;mitsubishiaero;8;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8305;Kawasaki Aerospace;kawasakiaero;8;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8306;Fuji Heavy Industries;fujiheavy;9;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8307;Mitsubishi Heavy Industries;T8306;9;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8308;Kawasaki Heavy Industries;kawasakiheavy;9;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8309;NEC;neclogo;7;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8310;Sony;sonylogo;9;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8311;Defence Intelligence HQ;definthq;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8312;Kawasaki Defence;kawasaki;9;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8313;Toshiba Defence;toshibadef;9;1000;2999;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8314;Fuji Electronics;fujielectric;9;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8315;Japan Atomic Energy Agency;japatom;9;1000;2999;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8316;Japan Aerospace Exploration Agency;jaxa;7;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8317;GSDF;gsdf;8;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8318;Joint Staff Office;jsdf;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8319;Logistics Command;ukrlogistics;6;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8320;ASDF;asdf;8;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8321;MSDF;msdf;8;1000;2999;large_taskforce_tactics;naval_training;seamanship;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8322;Kawasaki Shipbuilding;kawasakiship;7;1000;2999;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8323;Mitsubishi Shipbuilding;mitsubishiship;8;1000;2999;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8324;IHI Corporation;ihiship;7;1000;2999;industrial_engineering;naval_artillery;naval_engineering;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8325;Maritime Material Command;japnavlog;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8326;Fleet Submarine Force;japsubmarine;7;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

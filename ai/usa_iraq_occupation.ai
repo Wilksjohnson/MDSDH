@@ -1,0 +1,56 @@
+# USA AI until the war against Iran starts
+# Triggered once Iraq becomes a puppet
+
+
+exp_force_ratios = {
+ENG = 0.75
+IRQ = 0.75
+}
+
+combat = {  }
+
+trade = {
+
+embargo = {
+SYR
+PER
+PRK
+CUB
+  }
+}
+
+
+garrison = {
+
+	country_priorities = {
+PAK = 30
+PER = 100
+ }
+	province_priorities = {
+
+
+1041 = 30 # Kuwait base
+742  = 15 # Iraq proper
+346  = 15
+1034 = 15
+1032 = 30 #Iraq-Iran border
+1037 = 30
+1028 = 30
+741  = 30
+745  = 30
+1734  = 10 #Pearl Harbour
+1563 = 10 #Okinawa
+1564 = 10
+2169 = 50 #Afghanistan
+2172 = 50
+2171 = 40
+2168 = 40
+2170 = 40
+2173 = 20
+   }
+}
+
+front = {
+	province_priorities = { }
+  }
+}

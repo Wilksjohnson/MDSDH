@@ -1,0 +1,16 @@
+U52;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+86501;Head of State;Zayed Al-Nahayan;2003;2050;2050;PA;Benevolent Gentleman;High;M86501;x
+86502;Head of Government;Maktoum Al-Maktoum;2003;2050;2050;PA;Silent Workhorse;High;M86502;x
+86503;Foreign Minister;Rashid al-Nuaymi;2003;2050;2050;PA;Ideological Crusader;High;M86503;x
+86504;Minister of Armament;Maktoum Al-Maktoum ;2003;2050;2050;PA;Administrative Genius;High;M86502;x
+86505;Minister of Security;Mohammed Al-Dhahiri;2003;2050;2050;PA;Compassionate Gentleman;High;M86505;x
+86506;Head of Military Intelligence;Saif Al-Nahayan;2003;2050;2050;PA;Logistics Specialist;High;M86506;x
+86507;Chief of Staff;Zayed Al-Nahayan;2003;2050;2050;PA;School of Manoeuvre;High;M86501;x
+86508;Chief of Army;Unknown;2003;2050;2050;PA;Armoured Spearhead Doctrine;High;Unknown;x
+86509;Chief of Navy;Unknown;2003;2050;2050;PA;Indirect Approach Doctrine;High;Unknown;x
+86510;Chief of Air Force;Unknown;2003;2050;2050;PA;Air Superiority Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+86511;Head of State;Khalifa Al-Nahayan;2004;2050;2050;PA;Benevolent Gentleman;High;M86511;x
+86512;Head of Government;Mohammed Al-Maktoum;2006;2050;2050;PA;Corporate Suit;High;M86512;x
+86513;Foreign Minister;Mohammed Al-Maktoum;2006;2050;2050;PA;Great Compromiser;High;M86512;x
+86514;Minister of Armament;Khalifa Al-Nahayan;2004;2050;2050;PA;laissez-faire capitalist;High;M86511;x

@@ -1,0 +1,68 @@
+JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+41501;Head of State;Emperor Akihito;2003;2050;2050;ML;Benevolent Gentleman;High;M41501;x
+41502;Head of Government;Junichiro Koizumi;2003;2050;2050;ML;Silent Workhorse;High;M41502;x
+41503;Foreign Minister;Yoriko Kawaguchi;2003;2050;2050;ML;General Staffer;High;M41503;x
+41504;Minister of Armament;Shigeru Ishiba;2003;2050;2050;ML;Resource Industrialist;High;M41504;x
+41505;Minister of Security;Taro Aso;2003;2050;2050;ML;Crime Fighter;High;Taso;x
+41506;Head of Military Intelligence;Unknown;2003;2050;2050;ML;Industrial Specialist;High;Unknown;x
+41507;Chief of Staff;Shoji Takegouchi;2003;2050;2050;ML;School of Fire Support;High;Unknown;x
+41508;Chief of Army;Masahiro Nakatani;2003;2050;2050;SD;Guns and Butter Doctrine;High;Unknown;x
+41509;Chief of Navy;Kosei Fujita;2003;2050;2050;SD;Indirect Approach Doctrine;High;Unknown;x
+41510;Chief of Air Force;Kiyokatsu Fujiki;2003;2050;2050;ML;Naval Aviation Doctrine;High;Unknown;x
+;Replacements;;;;;;;x
+41511;Head of State;Emperor Akihito;2003;2050;2050;LE;Benevolent Gentleman;High;M41501;x
+41512;Head of State;Emperor Akihito;2003;2050;2050;SL;Benevolent Gentleman;High;M41501;x
+41513;Head of Government;Shinzo Abe;2006;2050;2050;ML;Flamboyant Tough Guy;High;Sabe;x
+41514;Head of Government;Yasuo Fukuda;2003;2050;2050;ML;Silent Workhorse;High;Yfukuda;x
+41515;Foreign Minister;Masahiko Komura;2007;2050;2050;ML;Great Compromiser;High;Mkomura;x
+41516;Foreign Minister;Nobutaka Machimura;2003;2050;2050;ML;Great Compromiser;High;Nmachimura;x
+41517;Foreign Minister;Taro Aso;2003;2050;2050;ML;Iron Fisted Brute;High;Taso;x
+41518;Foreign Minister;Ichiro Aisawa;2004;2050;2050;ML;Iron Fisted Brute;High;M41511;x
+41519;Foreign Minister;Masatoshi Abe;2003;2050;2050;ML;General Staffer;High;M41512;x
+41520;Minister of Armament;Fukushiro Nukaga;2003;2050;2050;ML;laissez-faire capitalist;High;Fnukaga;x
+41521;Minister of Armament;Fumio Kyuma;2004;2050;2050;ML;Administrative Genius;High;Fkyuma;x
+41522;Minister of Armament;Yuriko Koike;2005;2050;2050;ML;laissez-faire capitalist;High;Ykoike;x
+41523;Minister of Armament;Masahiko Komura;2004;2050;2050;ML;Tank Proponent;High;Mkomura;x
+41524;Minister of Security;Yoshihide Suga;2003;2050;2050;ML;Crime Fighter;High;Ysuga;x
+41525;Minister of Security;Hiroya Masuda;2006;2050;2050;ML;Compassionate Gentleman;High;Hmasuda;x
+41526;Minister of Security;Kiyoko Ono;2003;2050;2050;ML;Crime Fighter;High;M41514;x
+41527;Minister of Security;Yukio Jitsukawa;2003;2050;2050;ML;Compassionate Gentleman;High;M41515;x
+41528;Minister of Security;Heizo Takenaka;2005;2050;2050;ML;Man of the People;High;Htakenaka;x
+41529;Minister of Armament;Sadakazu Tanigaki;2005;2050;2050;ML;Administrative Genius;High;Stanigaki;x
+41530;Head of Government;Ichiro Ozawa;2003;2050;2050;SL;Flamboyant Tough Guy;High;Iozawa;x
+41531;Foreign Minister;Ren Hou;2009;2050;2050;SL;Ideological Crusader;High;Unknown;x
+41532;Foreign Minister;Yukio Edano;2006;2050;2050;SL;Apologetic Clerk;High;Unknown;x
+41533;Foreign Minister;Marutei Tsurunen;2003;2050;2050;SL;Great Compromiser;High;Mtsurunen;x
+41534;Minister of Armament;Katsuya Okada;2003;2050;2050;SL;laissez-faire capitalist;High;Kokada;x
+41535;Minister of Armament;Seiji Maehara;2006;2050;2050;SL;Resource Industrialist;High;Smaehara;x
+41536;Minister of Armament;Yukio Hatoyama;2003;2050;2050;SL;Theoretical Scientist;High;Yhatoyama;x
+41537;Minister of Security;Seiji Maehara;2003;2050;2050;SL;Compassionate Gentleman;High;Smaehara;x
+41538;Head of Government;Kazuo Shii;2003;2050;2050;LE;Flamboyant Tough Guy;High;Kshii;x
+41539;Head of State;Kazuo Shii;2003;2050;2050;LE;Barking Buffoon;High;Kshii;x
+41540;Foreign Minister;Tadayoshi Ichida;2003;2050;2050;LE;Ideological Crusader;High;Unknown;x
+41541;Foreign Minister;Tadao Hamano;2005;2050;2050;LE;General Staffer;High;Unknown;x
+41542;Minister of Armament;Ikuko Ishii;2003;2050;2050;LE;Battle Fleet Proponent;High;Unknown;x
+41543;Minister of Armament;Yasuo Ogata;2005;2050;2050;LE;Resource Industrialist;High;Unknown;x
+41544;Minister of Security;Tatsuo Kamioka;2003;2050;2050;LE;Crime Fighter;High;Unknown;x
+41545;Minister of Security;Tetsuzo Fuwa;2003;2050;2050;LE;Prince of Terror;High;Unknown;x
+41546;Minister of Security;Tadamichi Hasegawa;2003;2050;2050;LE;Back Stabber;High;Unknown;x
+41547;Minister of Security;Mizuho Fukushima;2003;2050;2050;SD;Crime Fighter;High;Mfukushima;x
+41548;Foreign Minister;Seiji Mataichi;2004;2050;2050;SD;Ideological Crusader;High;Unknown;x
+41549;Foreign Minister;Akihiro Ota;2003;2050;2050;SC;Great Compromiser;High;Aota;x
+41550;Minister of Armament;Kazuo Kitagawa;2003;2050;2050;SC;Air Superiority Proponent;High;Unknown;x
+41551;Foreign Minister;Otohiko Endo;2003;2050;2050;SC;Biased Intellectual;High;Oendo;x
+41552;Foreign Minister;Hiroshi Takano;2003;2050;2050;SC;Great Compromiser;High;Unknown;x
+41553;Foreign Minister;Isamu Ueda;2006;2050;2050;SC;General Staffer;High;Iueda;x
+41554;Foreign Minister;Mnishida;2010;2050;2050;SC;Great Compromiser;High;Mnishida;x
+41555;Minister of Security;Keiichi Ishii;2003;2050;2050;SC;Crime Fighter;High;Kishii;x
+41556;Head of Government;Sadakazu Tanigaki;2009;2050;2050;ML;Silent Workhorse;High;Stanigaki;x
+41557;Head of Government;Taro Aso;2006;2050;2050;ML;Flamboyant Tough Guy;High;Taso;x
+41558;Head of State;Emperor Naruhito;2003;2050;2050;ML;Benevolent Gentleman;High;Naruhito;x
+41559;Head of State;Emperor Naruhito;2003;2050;2050;LE;Benevolent Gentleman;High;Naruhito;x
+41560;Head of State;Emperor Naruhito;2003;2050;2050;SL;Benevolent Gentleman;High;Naruhito;x
+41561;Foreign Minister;Hirofumi Nakasone;2007;2050;2050;ML;Apologetic Clerk;High;Hnakasone;x
+41562;Minister of Security;Kunio Hatoyama;2007;2050;2050;ML;Silent Lawyer;High;Khatoyama;x
+41563;Minister of Armament;Yasukazu Hamada;2007;2050;2050;ML;laissez-faire capitalist;High;Unknown;x
+41564;Head of Government;Koaoru Yosano;2003;2050;2050;ML;Corporate Suit;High;Kyosano;x
+41565;Chief of Air Force;Tadashi Yoshida;2003;2050;2050;ML;Vertical Envelopment Doctrine;High;Yoshida;x
+41566;Chief of Air Force;Toshio Tamogami;2003;2050;2050;SC;Air Superiority Doctrine;High;Tamogami;x

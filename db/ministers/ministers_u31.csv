@@ -1,0 +1,31 @@
+U31;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+54001;Head of State;Vladimir Voronin;2001;2050;2050;LWR;Autocratic Charmer;High;M_U31_vladimir_voronin;X
+54002;Head of Government;Vasile Tarlev;2001;2050;2050;LWR;Silent Workhorse;Very High;M_U31_vasile_tarlev;X
+54003;Foreign Minister;Nicolae Dudau;2001;2005;2050;LWR;Apologetic Clerk;High;M_U31_nicolae_dudau;x
+54004;Minister of Armament;Victor Gaiciuc;2001;2005;2050;LWR;Corrupt Kleptocrat;High;M_U31_victor_gaiciuc;X
+54005;Minister of Security;Gheorghe Papuc;2002;2050;2050;LWR;Crooked Kleptocrat;High;M_U31_gheorghe_papuc;X
+54006;Head of Military Intelligence;Ion Ursu;2001;2008;2050;LWR;Logistics Specialist;High;M_U31_ion_ursu;X
+54007;Chief of Staff;Ion Coropcean;1998;2050;2050;LWR;School of Psychology;High;M_U31_ion_coropcean;X
+54008;Chief of Army;Ion Coropcean;1998;2050;2050;LWR;Guns and Butter Doctrine;High;M_U31_ion_coropcean;X
+54009;Chief of Air Force;Ion Coropcean;1998;2050;2050;LWR;Air Superiority Doctrine;High;M_U31_ion_coropcean;X
+;Replacements;;;;;;;x;;X
+54010;Head of State;Mihai Ghimpu;2000;2050;2050;ML;Benevolent Gentleman;High;M_U31_mihai_ghimpu;X
+54011;Head of State;Vlad Filat;2010;2050;2050;ML;Benevolent Gentleman;High;M_U31_vlad_filat;X
+54012;Head of State;Marian Lupu;2010;2050;2050;SD;Weary Stiffneck;High;M_U31_marian_lupu;X
+54013;Head of State;Nicolae Timofti;2012;2050;2050;ML;Benevolent Gentleman;High;M_U31_nicolae_timofti;X
+54014;Head of Government;Zinaida Greceanii;2008;2050;2050;LWR;Silent Workhorse;High;M_U31_zinaida_greceanii;X
+54015;Head of Government;Vitalie Pirlog;2009;2010;2050;LWR;Happy Amateur;High;M_U31_vitalie_pirlog;X
+54016;Head of Government;Vlad Filat;2000;2050;2050;ML;Naive Optimist;High;M_U31_vlad_filat;X
+54017;Foreign Minister;Andrei Stratan;2005;2050;2050;LWR;Apologetic Clerk;High;M_U31_andrei_stratan;X
+54018;Foreign Minister;Iurie Leanca;2000;2050;2050;ML;Great Compromiser;High;M_U31_iurie_leanca;X
+54004;Minister of Armament;Valeriu Plesca;2005;2008;2050;LWR;Resource Industrialist;High;M_U31_valeriu_plesca;X
+54018;Minister of Armament;Ion Coropcean;2007;2008;2050;LWR;Military Entrepreneur;High;M_U31_ion_coropcean;X
+54019;Minister of Armament;Vitalie Vrabie;2007;2050;2050;LWR;Corrupt Kleptocrat;High;M_U31_vitalie_vrabie;X
+54020;Minister of Armament;Vitalie Marinuta;2000;2050;2050;ML;Military Entrepreneur;High;M_U31_vitalie_marinuta;X
+54021;Minister of Security;Valentin Mejinschi;2008;2009;2050;LWR;Crime Fighter;High;M_U31_valentin_mejinschi;X
+54022;Minister of Security;Victor Catan;2000;2050;2050;ML;Compassionate Gentleman;High;M_U31_victor_catan;X
+54023;Minister of Security;Alexei Roibu;2000;2050;2050;ML;Silent Lawyer;High;M_U31_alexei_roibu;X
+54024;Head of Military Intelligence;Artur Resetnicov;2007;2010;2050;LWR;Political Specialist;High;M_U31_artur_resetnicov;X
+54025;Head of Military Intelligence;Gheorghe Mihai;2009;2012;2050;ML;Dismal Enigma;High;M_U31_gheorghe_mihai;X
+54026;Head of Military Intelligence;Valentin Dediu;2011;2050;2050;ML;Dismal Enigma;High;M_U31_valentin_dediu;X
+54027;Head of State;Mihai Ghimpu;2000;2050;2050;FA;Stern Imperialist;High;M_U31_mihai_ghimpu;X

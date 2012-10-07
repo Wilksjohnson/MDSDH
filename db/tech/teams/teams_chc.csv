@@ -1,0 +1,31 @@
+CHC;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+3400;PLA University of National Defence;T3401;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3401;NORINCO;norinco;8;1000;2999;general_equipment;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3402;Inner Mongolia First Machinery;innermongolia;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3403;Poly Technologies;poly;7;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3404;Chengdu Aircraft Corp;T3404;7;1000;2999;aeronautics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3405;Shenyang Aircraft Corp;T3406;7;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3406;Xian Aircraft Corp;Xian;6;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3407;China South Industries Group;T3412;6;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3408;Changhe Aircraft Corp;Changhe;6;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3409;Baosteel;Baosteel;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3410;Lenovo;lenovo;7;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3411;CEIEC;ceiec;7;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3412;Aerospace Science Corporation;aeroscience;7;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3413;CASIC;casic;7;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3414;China National Nuclear Corp;cnnc;7;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3415;Academy of the Sciences;academyscience;8;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3416;People's Liberation Army;T3408;7;1000;2999;training;large_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3417;PLA Marine Corps;pla marine corps;6;1000;2999;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3418;PLAAF Airborne Corps;plaaf airborne;9;1000;2999;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3419;General Military Commission;General Military Commission;7;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3420;General Logistics Department;chc logistics;9;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3421;People's Liberation Army Air Force;T3410;7;1000;1970;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3422;PLA Naval Air Force;planairforce;7;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3423;Ministry of State Security;Ministry of State Security;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3424;People's Liberation Army Navy;T3409;6;1000;2999;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3425;China State Shipbuilding Corp;cssc;7;1000;2999;naval_artillery;submarine_tactics;small_taskforce_tactics;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3426;Huludao Shipyard;Huangpu;6;1000;2999;submarine_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3427;China Shipbuilding Industry Corporation;Hudong;7;1000;2999;naval_artillery;submarine_tactics;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3428;Submarine Command;chcsubcommand;7;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3429;Naval Logistics Command;chcnavlog;6;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

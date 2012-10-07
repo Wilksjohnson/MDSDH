@@ -1,0 +1,69 @@
+PAK;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+62501;Head of State;Pervez Musharraf;2003;2050;2050;NA;Resigned Generalissimo;High;M62501;x
+62502;Head of Government;Zafarullah Khan Jamali;2003;2050;2050;SC;Political Protege;High;M62502;x
+62503;Foreign Minister;Khurshid Kasuri;2003;2050;2050;SC;Great Compromiser;High;M62503;x
+62504;Minister of Armament;Hamid Nawaz Khan;2003;2050;2050;SC;Military Entrepreneur;High;Hnkhan;x
+62505;Minister of Security;Khalid Ranjha;2003;2050;2050;SC;Crime Fighter;High;M62505;x
+62506;Head of Military Intelligence;Ehsan ul Haq;2003;2050;2050;PA;Logistics Specialist;High;M62506;x
+62507;Chief of Army;Muhammad Aziz Khan;2003;2050;2050;PA;Elastic Defence Doctrine;High;M62507;x
+62508;Chief of Army;Gen. Pervez Musharraf;2003;2050;2050;PA;Decisive Battle Doctrine;High;Pmusharraf;x
+62509;Chief of Navy;Shahid Karimullah;2003;2050;2050;PA;Base Control Doctrine;High;M62509;x
+62510;Chief of Air Force;Kaleem Saadat;2003;2050;2050;SC;Army Aviation Doctrine;High;Ksaadat;x
+;Replacements;;;;;;;x
+62511;Head of Government;Chaudhry Shujaat Hussain;2003;2050;2050;SC;Silent Workhorse;High;Cshussein;x
+62512;Head of Government;Shaukat Aziz;2004;2050;2050;SC;Corporate Suit;High;M62504;x
+62513;Head of Government;Muhammad Mian Soomro;2007;2050;2050;SC;Corporate Suit;High;Mmsoomro;x
+62514;Head of Government;Yousaf Raza Gillani;2003;2050;2050;SD;Ambitious Union Boss;High;Yrgillani;x
+62515;Foreign Minister;Inam-ul-Haq;2003;2050;2050;SC;Undistinguished Suit;High;Iuhaq;x
+62516;Foreign Minister;Shah Mehmood Qureshi;2003;2050;2050;SD;Great Compromiser;High;Smkureshi;x
+62517;Head of State;Asif Ali Zardari;2003;2050;2050;SD;Autocratic Charmer;High;Aazardari;x
+62518;Head of State;Benazir Bhutto;2003;2050;2050;SD;Benevolent Gentleman;High;Bbhutto;x
+62519;Head of Government;Benazir Bhutto;2003;2050;2050;SD;Naive Optimist;High;Bbhutto;x
+62520;Minister of Armament;Chaudhry Ahmed Mukhtar;2003;2050;2050;SD;Resource Industrialist;High;Unknown;x
+62521;Minister of Security;Chaudhry Aitzaz Ahsan;2003;2050;2050;SD;Crime Fighter;High;Caahsan;x
+62522;Minister of Security;Rehman Malik;2003;2050;2050;SD;Undistinguished Suit;High;Rmalik;x
+62523;Head of Government;Nawaz Sharif;2003;2050;2050;ML;Backroom Backstabber;High;Nsharif;x
+62524;Head of State;Nawaz Sharif;2003;2050;2050;ML;Autocratic Charmer;High;Nsharif;x
+62525;Minister of Security;Muhammad Barjees Tahir;2003;2050;2050;ML;Silent Lawyer;High;Mbtahir;x
+62526;Minister of Armament;Khawaja Muhammad Asif;2003;2050;2050;ML;Resource Industrialist;High;Kmasif;x
+62527;Minister of Security;S.M. Zafar;2003;2050;2050;SC;Crime Fighter;High;Smzafar;x
+62528;Minister of Security;Fazl-ur Rahman;2003;2050;2050;FA;Prince of Terror;High;Furahman;x
+62529;Head of State;Qazi Hussain Ahmad;2003;2050;2050;FA;Stern Imperialist;High;Qhahmad;x
+62530;Head of Government;Qazi Hussain Ahmad;2003;2050;2050;FA;Flamboyant Tough Guy;High;Qhahmad;x
+62531;Foreign Minister;Qazi Hussain Ahmad;2003;2050;2050;FA;Ideological Crusader;High;Qhahmad;x
+62532;Minister of Security;Khurshid Ahmad;2003;2050;2050;FA;Silent Lawyer;High;Kahmad;x
+62533;Minister of Armament;Liaqat Baloch;2003;2050;2050;FA;Corrupt Kleptocrat;High;Lbaloch;x
+62534;Head of State;Liaqat Baloch;2003;2050;2050;FA;Ruthless Powermonger;High;Lbaloch;x
+62535;Head of Government;Liaqat Baloch;2003;2050;2050;FA;Naive Optimist;High;Lbaloch;x
+62536;Chief of Army;Ashfaq Parvez Kayani;2007;2050;2050;PA;Armoured Spearhead Doctrine;High;Apkayani;x
+62537;Head of Military Intelligence;Ashfaq Parvez Kayani;2003;2050;2050;PA;Political Specialist;High;Apkayani;x
+62538;Chief of Staff;Ashfaq Parvez Kayani;2007;2050;2050;PA;School of Psychology;High;Apkayani;x
+62539;Chief of Staff;Ehsan ul Haq;2003;2050;2050;PA;School of Fire Support;High;M62506;x
+62540;Chief of Army;Ehsan ul Haq;2003;2050;2050;PA;Elastic Defence Doctrine;High;M62506;x
+62541;Chief of Staff;Tariq Majid;2005;2050;2050;SC;School of Fire Support;High;Tmajid;x
+62542;Chief of Army;Tariq Majid;2005;2050;2050;SC;Armoured Spearhead Doctrine;High;Tmajid;x
+62543;Chief of Navy;Muhammad Afzal Tahir;2003;2050;2050;SC;Power Projection Doctrine;High;Matahir;x
+62544;Chief of Staff;Muhammad Afzal Tahir;2005;2050;2050;SC;School of Psychology;High;Matahir;x
+62545;Chief of Air Force;Tanvir Mahmood Ahmed;2003;2050;2050;SC;Air Superiority Doctrine;High;Tmahmed;x
+62546;Chief of Army;Mohammad Yousaf;2003;2050;2050;PA;Armoured Spearhead Doctrine;High;Myousaf;x
+62547;Chief of Staff;Mohammad Yousaf;2003;2050;2050;PA;School of Manoeuvre;High;Myousaf;x
+62548;Chief of Army;Ahsan Saleem Hyat;2003;2050;2050;PA;Armoured Spearhead Doctrine;High;Ashyat;x
+62549;Chief of Staff;Ahsan Saleem Hyat;2003;2050;2050;PA;School of Manoeuvre;High;Ashyat;x
+62550;Chief of Army;Masood Aslam;2005;2050;2050;SC;Decisive Battle Doctrine;High;Maslam;x
+62551;Chief of Staff;Masood Aslam;2007;2050;2050;SC;School of Psychology;High;Maslam;x
+62552;Head of Military Intelligence;Nadeem Taj;2006;2050;2050;PA;Dismal Enigma;High;Ntaj;x
+62553;Chief of Army;Nadeem Taj;2006;2050;2050;PA;Guns and Butter Doctrine;High;Ntaj;x
+62554;Chief of Staff;Gen. Pervez Musharraf;2003;2050;2050;PA;School of Fire Support;High;Pmusharraf;x
+62555;Head of Military Intelligence;Tanvir Mahmood Ahmed;2003;2050;2050;FA;Political Specialist;High;Mahmed;x
+62556;Chief of Air Force;Rao Qamar Suleman;2006;2050;2050;SC;Army Aviation Doctrine;High;Rqsuleman;x
+62557;Chief of Navy;Noman Bashir;2007;2050;2050;SC;Power Projection Doctrine;High;Nbashir;x
+62558;Chief of Army;Muhammad Yusaf Khan;2003;2050;2050;PA;Armoured Spearhead Doctrine;High;Mykhan;x
+62559;Head of Military Intelligence;Athar Abbas;2005;2050;2050;SC;Logistics Specialist;High;Aabbas;x
+62560;Chief of Army;Waheed Arshad;2008;2050;2050;SC;Armoured Spearhead Doctrine;High;Warshad;x
+62561;Minister of Armament;Hamid Javed;2003;2050;2050;PA;Tank Proponent;High;Unknown;x
+62562;Minister of Security;Hamid Nawaz Khan;2003;2050;2050;PA;Man of the People;High;Hnkhan;x
+62563;Minister of Armament;Tariq Waseem Ghazi;2003;2050;2050;SC;Infantry Proponent;High;Twghazi;x
+62564;Minister of Armament;Kamran Rasool;2003;2050;2050;SC;Resource Industrialist;High;Krasool;x
+62565;Minister of Armament;Syed Athar Ali;2005;2050;2050;SC;Military Entrepreneur;High;Syaali;x
+62566;Head of Military Intelligence;Ahmad Shuja Pasha;2005;2050;2050;SC;Logistics Specialist;High;Aspasha;x
+62567;Chief of Staff;Mohammad Mustafa Khan;2005;2050;2050;SC;School of Defence;High;Mmkhan;x

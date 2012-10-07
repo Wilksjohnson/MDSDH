@@ -1,0 +1,18 @@
+CHI;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+16100;National Military Academy;taiwanacademy;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16101;205th Armory;taiwantank;7;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16102;ORDC;ordctai;6;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16103;AIDC;aidc;7;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16104;Military Intelligence Bureau;taiwanspec;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16105;Chung-Shan Institute;csitai;9;1000;2999;management;electronics;chemistry;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16106;China Steel Corporation;csc;9;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16107;National Science Council;TW_NSC;9;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16108;ROC Army;taiwanarmy;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16109;Marine Corps;taiwanmarines;8;1000;2999;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16110;Joint Chiefs of Staff;taiwanchiefs;7;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16111;Logistics Command;ukrlogistics;7;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16112;ROC Air Force;taiwanairforce;7;1000;2999;fighter_tactics;bomber_tactics;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16113;China Shipbuilding Corporation;csbc;6;1000;2999;submarine_tactics;naval_artillery;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16114;ROC Navy;taiwannavy;7;1000;2999;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16115;INER;inertai;7;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16116;TSMC;TW_TSMC;8;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

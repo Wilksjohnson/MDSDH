@@ -1,0 +1,6 @@
+# 0 - Basic
+model = { cost = 3 buildtime = 45 manpower = 2 defensiveness = 2 maxspeed = -1 softattack = 5 hardattack = 1 supplyconsumption = 0.75 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Improved
+model = { cost = 4 buildtime = 45 manpower = 2 defensiveness = 3 maxspeed = -1 softattack = 6 hardattack = 1 supplyconsumption = 0.75 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Advanced
+model = { cost = 5 buildtime = 45 manpower = 2 defensiveness = 4 maxspeed = -1 softattack = 7 hardattack = 3 supplyconsumption = 0.75 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }

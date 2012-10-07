@@ -1,0 +1,108 @@
+#4即
+#4即
+#4即
+#4即 
+#8劬Original HOI2 Main mod team:     
+#4即  
+#4即       
+#6即 - Biga, Lutenet99  
+#4即           
+#6即 - Killerrabbit, Radu        
+#4即   
+#6即 - Scud, Zokan
+#4即
+#6即 
+#4即
+#8即Graphics by:
+#4即
+#6即 - Lutenet99 (Lead designer)
+#4即
+#6即 - Killerrabbit, HoeksErasmus 
+#4即
+#4即           
+#8劬Tech Tree:      
+#4即
+#6即 - Radu  (Lead designer)         
+#6即  - Killerrabbit
+#4即           
+#6即         
+#8即劬Events:     
+#4即
+#6即 - Zokan  (Lead designer)
+#4即           
+#6即 - Scud,  Suikos         
+#4即
+#6即 - Killerrabbit, Guastardo
+#4即           
+#6即 - Fernando Torres,  Dain           
+#4即 
+#6即  - Danielshannon  
+#4即  
+#4即
+#8即MDS2DH in 2012          
+#6即          
+#6即 - Original HOI2 version ported
+#6即 - to Darkest Hour 1.02 Map by
+#6即 - novapaddy in 2012         
+#6即  
+#6即 - idea to bring HOI2 version into DH 
+#6即 - by Supeerme
+#4即
+#8即 - Significant contributors (2012):
+#8劬     
+#6即 - CocoBZ, Kretoxian
+#6即 - Paul Hanson, Rumpnissen89        
+#6即 - Hirz, Bergioyn, jimian
+#6即 - Arcangelus, Ottoman Master  
+#6即 - AgentSmith2012, Guglie_
+#6即 - Chronic
+#4即         
+#6即   Project Lead: Wilksjohnson
+#4即         
+#6即 - Final fixing to clear all 
+#6即 - Code Errors and Crashes,  
+#6即 - including Model-tree fixing 
+#6即 - by novapaddy
+#4劬     
+#8即 - We all hope you 
+#8即 - Enjoy the Mod!       
+#6即 
+#4即 
+      
+#4即 
+#4即           
+#8劬Thanks To:     
+#4即
+#4即         
+#6即 - Paradox Interactive
+#4即           
+#6即 - All Contributors           
+#4即   
+#6即 - People at our forum
+#4即
+                               
+
+#4劬Built on Hearts of Iron II: Doomsday 1.3a.   
+#4劬Uses Bink Video Technology. Copyright (C)
+#4劬1997-2000 by RAD Game Tools Inc.
+#4即
+#4即                     
+#4即            
+#4即
+#4即
+#4即            
+#4劬            
+#4即            
+#4即
+#4即
+#4即            
+#4即
+#4即
+#4即            
+#4即            
+#4即  
+#4即
+           
+
+-END 
+

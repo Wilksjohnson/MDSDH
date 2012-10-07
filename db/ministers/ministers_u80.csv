@@ -1,0 +1,43 @@
+U80;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+96001;Head of State;Bob Avakian;2003;2050;2050;ST;Ruthless Powermonger;Medium;Bob_Avakian;x
+96002;Head of State;Sam Webb;2003;2050;2050;LE;Die-hard Reformer;Medium;sam_webb;x
+96003;Head of State;Cindy Sheehan;2003;2050;2050;LWR;Pig-headed Isolationist;Medium;Cindy_Sheehan;x
+96004;Head of Government;Cynthia McKinney;2003;2050;2050;LWR;Ambitious Union Boss;Medium;cynthiamckinney;x
+96005;Head of Government;Sam Webb;2003;2050;2050;LE;Backroom Backstabber;Medium;sam_webb;x
+96006;Head of Government;Bob Avakian;2003;2050;2050;ST;Backroom Backstabber;Medium;Bob_Avakian;x
+96007;Foreign Minister;Ward Churchill;2003;2050;2050;LWR;Biased Intellectual;Medium;ward_churchill;x
+96008;Foreign Minister;Noam Chomsky;2003;2050;2050;LWR;Great Compromiser;Medium;noam_chomsky;x
+96009;Foreign Minister;Lenni Brenner;2003;2050;2050;LE;Ideological Crusader;Medium;lenni_brenner;x
+96010;Foreign Minister;Carl Dix;2003;2050;2050;ST;Ideological Crusader;Medium;carl_dix;x
+;Replacements;;;;;;;x
+96011;Foreign Minister;Gary Leupp;2003;2050;2050;ST;Biased Intellectual;Medium;Gary_Leupp;x
+96012;Foreign Minister;Noel Ignatiev;2003;2050;2050;ST;Biased Intellectual;Medium;noel_ignatiev;x
+96013;Minister of Armament;Michael Albert;2003;2050;2050;LWR;Resource Industrialist;Medium;michael_albert;x
+96014;Minister of Armament;M. Shahid Alam;2003;2050;2050;LE;Resource Industrialist;Medium;M_Shahid_Alam;x
+96015;Minister of Security;Noel Ignatiev;2003;2050;2050;ST;Efficient Sociopath;Medium;noel_ignatiev;x
+96016;Minister of Security;Carl Dix;2003;2050;2050;ST;Prince of Terror;Medium;carl_dix;x
+96017;Minister of Security;William Ramsey Clark;2003;2050;2050;LWR;Compassionate Gentleman;Medium;ramsey_Clark;x
+96018;Minister of Security;Tim Wise;2003;2050;2050;LWR;Man of the People;Medium;tim_wise;x
+96019;Minister of Security;Alurista;2003;2050;2050;ST;Man of the People;Medium;alurista;x
+96020;Minister of Security;C. Clark Kissinger;2003;2050;2050;ST;Silent Lawyer;Medium;C_Clark_Kissinger;x
+96021;Minister of Security;Doris Haddock;2003;2050;2050;LWR;Compassionate Gentleman;Medium;Granny_D;x
+96022;Head of Military Intelligence;Sunsara Taylor;2003;2050;2050;ST;Political Specialist;Medium;sunsara_taylor;x
+96023;Head of Military Intelligence;Noam Chomsky;2003;2050;2050;LWR;Political Specialist;Medium;noam_chomsky;x
+96024;Head of Military Intelligence;Michael Klonsky;2003;2050;2050;LE;Technical Specialist;Medium;michael_klonsky;x
+96025;Chief of Staff;Bob Avakian;2003;2050;2050;ST;School of Mass Combat;Medium;Bob_Avakian;x
+96026;Chief of Army;Bob Avakian;2003;2050;2050;ST;Decisive Battle Doctrine;Medium;Bob_Avakian;x
+96027;Foreign Minister;Cynthia McKinney;2004;2050;2050;LWR;Great Compromiser;Medium;cynthiamckinney;x
+96028;Head of State;Cynthia McKinney;2008;2050;2050;LWR;Pig-headed Isolationist;Medium;cynthiamckinney;x
+96029;Head of Government;Cindy Sheehan;2003;2050;2050;LWR;Naive Optimist;Medium;Cindy_Sheehan;x
+96030;Minister of Security;Teresa Gutierrez;2003;2050;2050;LE;Prince of Terror;Medium;teresa_gutierrez;x
+96031;Foreign Minister;John Parker;2003;2050;2050;LE;Great Compromiser;Medium;john_parker;x
+96032;Chief of Staff;Michael Prysner;2003;2050;2050;LE;School of Mass Combat;Medium;michael_prysner;x
+96033;Chief of Army;Michael Prysner;2003;2050;2050;LE;Decisive Battle Doctrine;Medium;michael_prysner;x
+96034;Chief of Air Force;H. Bruce Franklin;2003;2050;2050;ST;Naval Aviation Doctrine;Medium;H_Bruce_Franklin;x
+96035;Minister of Armament;H. Bruce Franklin;2003;2050;2050;ST;Battle Fleet Proponent;Medium;H_Bruce_Franklin;x
+96036;Chief of Navy;H. Bruce Franklin;2003;2050;2050;ST;Open Seas Doctrine;Medium;H_Bruce_Franklin;x
+96037;Chief of Air Force;Tim Goodrich;2003;2050;2050;LE;Army Aviation Doctrine;Medium;tim_goodrich;x
+96038;Chief of Navy;Kenneth Mayers;2003;2050;2050;LE;Base Control Doctrine;Medium;kenneth_Mayers;x
+96039;Minister of Armament;Gloria La Riva;2003;2050;2050;LE;Military Entrepreneur;Medium;gloria_la_riva;x
+96040;Minister of Security;Sergio Farias;2003;2050;2050;LWR;Man of the People;Medium;sergio_farias;x
+96041;Head of Military Intelligence;Ray McGovern;2003;2050;2050;SD;Dismal Enigma;Medium;ray_mcgovern;x

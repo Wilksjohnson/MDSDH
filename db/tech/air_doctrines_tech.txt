@@ -1,0 +1,1106 @@
+technology =
+{ id          = 9
+  category    = air_doctrines
+  name        = TECH_AD_NAME
+  desc        = TECH_AD_DESC
+  label =
+  { tag      = TECH_CAT_EACW
+    position = { x = 179 y = -3 }
+  }
+  label =
+  { tag      = TECH_CAT_LACW
+    position = { x = 341 y = -3 }
+  }
+  label =
+  { tag      = TECH_CAT_POCW
+    position = { x = 498 y = -3 }
+  }
+  label =
+  { tag      = TECH_CAT_21ST
+    position = { x = 280 y = 172 }
+  }
+  label =
+  { tag      = TECH_CAT_A21ST
+    position = { x = 429 y = 172 }
+  }
+  label =
+  { tag      = TECH_CAT_PILOT
+    position = { x = -7 y = -3 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAVI
+    position = { x = 108 y = 172 }
+  }
+  # ######### PILOT TRAINING REGIME #####################
+  application =
+  { id        = 9010 # 50 hours/year,very lax
+    name      = TECH_APP_AD_1_NAME
+    desc      = "50 hrs/year"
+    position  = { x = 10 y = 30 }
+    component = { id = 9011 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9012 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9013 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9014 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9015 name = "" type = fighter_tactics difficulty = 5 }
+    required  = { 9510 }
+    effects =
+    { command = { type = deactivate which = 9020 }
+      command = { type = deactivate which = 9030 }
+      command = { type = deactivate which = 9040 }
+      command = { type = deactivate which = 9520 }
+    }
+  }
+  application =
+  { id        = 9020 # 100 hours/year
+    name      = TECH_APP_AD_2_NAME
+    desc      = "100 hrs/year"
+    position  = { x = 10 y = 66 }
+    component = { id = 9021 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9022 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9023 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9024 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9025 name = "" type = fighter_tactics difficulty = 5 }
+    required  = { 9520 }
+    effects =
+    { command = { type = max_organization which = air value = 10 }
+      command = { type = supply_consumption which = multi_role value = 0.25 }
+      command = { type = fuel_consumption which = multi_role value = 0.2 }
+      command = { type = supply_consumption which = interceptor value = 0.25 }
+      command = { type = fuel_consumption which = interceptor value = 0.2 }
+      command = { type = supply_consumption which = tactical_bomber value = 0.25 }
+      command = { type = fuel_consumption which = tactical_bomber value = 0.2 }
+      command = { type = supply_consumption which = cag value = 0.25 }
+      command = { type = fuel_consumption which = cag value = 0.2 }
+      command = { type = build_cost which = multi_role value = 3 where = relative when = now }
+      command = { type = build_cost which = interceptor value = 3 where = relative when = now }
+      command = { type = build_cost which = tactical_bomber value = 3 where = relative when = now }
+      command = { type = build_cost which = cag value = 3 where = relative when = now }
+      command = { type = task_efficiency which = air_superiority value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = runway_cratering value = 0.1 }
+      command = { type = task_efficiency which = installation_strike value = 0.1 }
+      command = { type = task_efficiency which = port_strike value = 0.1 }
+      command = { type = task_efficiency which = naval_strike value = 0.1 }
+      command = { type = task_efficiency which = logistical_strike value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.1 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.1 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.1 }
+      command = { type = deactivate which = 9010 }
+      command = { type = deactivate which = 9030 }
+      command = { type = deactivate which = 9530 }
+      command = { type = deactivate which = 9040 }
+    }
+  }
+  application =
+  { id        = 9030 # 150 hours/year
+    name      = TECH_APP_AD_3_NAME
+    desc      = "150 hrs/year"
+    position  = { x = 10 y = 102 }
+    component = { id = 9031 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9032 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9033 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9034 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9035 name = "" type = fighter_tactics difficulty = 5 }
+    required  = { 9530 }
+    effects =
+    { command = { type = max_organization which = air value = 20 }
+      command = { type = supply_consumption which = multi_role value = 0.5 }
+      command = { type = fuel_consumption which = multi_role value = 0.4 }
+      command = { type = supply_consumption which = interceptor value = 0.5 }
+      command = { type = fuel_consumption which = interceptor value = 0.4 }
+      command = { type = supply_consumption which = tactical_bomber value = 0.5 }
+      command = { type = fuel_consumption which = tactical_bomber value = 0.4 }
+      command = { type = supply_consumption which = cag value = 0.5 }
+      command = { type = fuel_consumption which = cag value = 0.4 }
+      command = { type = build_cost which = multi_role value = 6 where = relative when = now }
+      command = { type = build_cost which = interceptor value = 6 where = relative when = now }
+      command = { type = build_cost which = tactical_bomber value = 6 where = relative when = now }
+      command = { type = build_cost which = cag value = 6 where = relative when = now }
+      command = { type = task_efficiency which = air_superiority value = 0.2 }
+      command = { type = task_efficiency which = ground_attack value = 0.2 }
+      command = { type = task_efficiency which = interdiction value = 0.2 }
+      command = { type = task_efficiency which = runway_cratering value = 0.2 }
+      command = { type = task_efficiency which = installation_strike value = 0.2 }
+      command = { type = task_efficiency which = port_strike value = 0.2 }
+      command = { type = task_efficiency which = naval_strike value = 0.2 }
+      command = { type = task_efficiency which = logistical_strike value = 0.2 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.2 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.2 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.2 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.2 }
+      command = { type = deactivate which = 9010 }
+      command = { type = deactivate which = 9020 }
+      command = { type = deactivate which = 9040 }
+      command = { type = deactivate which = 9540 }
+    }
+  }
+  application =
+  { id        = 9040 # 200 hours/year,intensive,NATO and US standard,highest in the world
+    name      = TECH_APP_AD_4_NAME
+    desc      = "200 hrs/year"
+    position  = { x = 10 y = 138 }
+    component = { id = 9041 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9042 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9043 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9044 name = "" type = fighter_tactics difficulty = 5 }
+    component = { id = 9045 name = "" type = fighter_tactics difficulty = 5 }
+    required  = { 9540 }
+    effects =
+    { command = { type = max_organization which = air value = 30 }
+      command = { type = supply_consumption which = multi_role value = 1.0 }
+      command = { type = fuel_consumption which = multi_role value = 0.8 }
+      command = { type = supply_consumption which = interceptor value = 1.0 }
+      command = { type = fuel_consumption which = interceptor value = 0.8 }
+      command = { type = supply_consumption which = tactical_bomber value = 1.0 }
+      command = { type = fuel_consumption which = tactical_bomber value = 0.8 }
+      command = { type = supply_consumption which = cag value = 1.0 }
+      command = { type = fuel_consumption which = cag value = 0.8 }
+      command = { type = build_cost which = multi_role value = 12 where = relative when = now }
+      command = { type = build_cost which = interceptor value = 12 where = relative when = now }
+      command = { type = build_cost which = tactical_bomber value = 12 where = relative when = now }
+      command = { type = build_cost which = cag value = 12 where = relative when = now }
+      command = { type = task_efficiency which = air_superiority value = 0.3 }
+      command = { type = task_efficiency which = ground_attack value = 0.3 }
+      command = { type = task_efficiency which = interdiction value = 0.3 }
+      command = { type = task_efficiency which = runway_cratering value = 0.3 }
+      command = { type = task_efficiency which = installation_strike value = 0.3 }
+      command = { type = task_efficiency which = port_strike value = 0.3 }
+      command = { type = task_efficiency which = naval_strike value = 0.3 }
+      command = { type = task_efficiency which = logistical_strike value = 0.3 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.3 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.3 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.3 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.3 }
+      command = { type = deactivate which = 9010 }
+      command = { type = deactivate which = 9020 }
+      command = { type = deactivate which = 9030 }
+    }
+  }
+  application =
+  { id        = 9510 # 50 hours/year
+    name      = "TECH_APP_AD_51_NAME"
+    desc      = "TECH_APP_AD_1_DESC"
+    position  = { x = -15 y = 14 }
+    component = { id = 9511 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9512 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9513 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9514 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9515 name = "" type = fighter_tactics difficulty = 10 }
+    required  = { }
+    effects   = { }
+  }
+  application =
+  { id        = 9520 # 100 hours/year
+    name      = "TECH_APP_AD_52_NAME"
+    desc      = "TECH_APP_AD_1_DESC"
+    position  = { x = -15 y = 50 }
+    component = { id = 9521 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9522 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9523 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9524 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9525 name = "" type = fighter_tactics difficulty = 10 }
+    required  = { 9510 }
+    effects   = { }
+  }
+  application =
+  { id        = 9530 # 150 hours/year
+    name      = "TECH_APP_AD_53_NAME"
+    desc      = "TECH_APP_AD_1_DESC"
+    position  = { x = -15 y = 86 }
+    component = { id = 9531 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9532 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9533 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9534 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9535 name = "" type = fighter_tactics difficulty = 10 }
+    required  = { 9520 }
+    effects   = { }
+  }
+  application =
+  { id        = 9540 # 200 hours/year
+    name      = "TECH_APP_AD_54_NAME"
+    desc      = "TECH_APP_AD_1_DESC"
+    position  = { x = -15 y = 122 }
+    component = { id = 9541 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9542 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9543 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9544 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9545 name = "" type = fighter_tactics difficulty = 10 }
+    required  = { 9530 }
+    effects   = { }
+  }
+  # ################### EARLY CW TECHS ###################################
+  application =
+  { id        = 9050 # Early CW Fighter Tactics
+    name      = TECH_APP_AD_5_NAME
+    desc      = "Early CW Fgt Tactics"
+    position  = { x = 160 y = 14 }
+    component = { id = 9051 name = "" type = fighter_tactics difficulty = 6 }
+    component = { id = 9052 name = "" type = fighter_tactics difficulty = 6 }
+    component = { id = 9053 name = "" type = fighter_tactics difficulty = 6 }
+    component = { id = 9054 name = "" type = fighter_tactics difficulty = 6 }
+    component = { id = 9055 name = "" type = fighter_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = max_organization which = multi_role value = 10 }
+      command = { type = max_organization which = interceptor value = 10 }
+      command = { type = enable_task which = air_superiority }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9060 # Early CW Battlefield Support
+    name      = TECH_APP_AD_6_NAME
+    desc      = "Early CW CAS"
+    position  = { x = 160 y = 32 }
+    component = { id = 9061 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9062 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9063 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9064 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9065 name = "" type = bomber_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = max_organization which = cas value = 10 }
+      command = { type = enable_task which = ground_attack }
+      command = { type = task_efficiency which = ground_attack value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9070 # Early CW Theater Interdiction
+    name      = TECH_APP_AD_7_NAME
+    desc      = "Early CW Interd"
+    position  = { x = 160 y = 50 }
+    component = { id = 9071 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9072 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9073 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9074 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9075 name = "" type = bomber_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = enable_task which = interdiction }
+      command = { type = enable_task which = logistical_strike }
+      command = { type = enable_task which = runway_cratering }
+      command = { type = enable_task which = installation_strike }
+      command = { type = enable_task which = port_strike }
+      command = { type = max_organization which = tactical_bomber value = 10 }
+      command = { type = task_efficiency which = interdiction value = 0.15 }
+      command = { type = task_efficiency which = port_strike value = 0.08 }
+      command = { type = task_efficiency which = installation_strike value = 0.08 }
+      command = { type = task_efficiency which = runway_cratering value = 0.08 }
+      command = { type = task_efficiency which = logistical_strike value = 0.08 }
+    }
+  }
+  application =
+  { id        = 9080 # Early CW Strat Bomb
+    name      = TECH_APP_AD_8_NAME
+    desc      = "Early CW Strat"
+    position  = { x = 160 y = 68 }
+    component = { id = 9081 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9082 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9083 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9084 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9085 name = "" type = bomber_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = enable_task which = strategic_bombardment }
+      command = { type = max_organization which = strategic_bomber value = 10 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.2 }
+      command = { type = task_efficiency which = installation_strike value = 0.07 }
+      command = { type = task_efficiency which = runway_cratering value = 0.07 }
+      command = { type = task_efficiency which = logistical_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9090 # Early CW Airborne Warfare
+    name      = TECH_APP_AD_9_NAME
+    desc      = "Early CW Airborne"
+    position  = { x = 160 y = 86 }
+    component = { id = 9091 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9092 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9093 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9094 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9095 name = "" type = bomber_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9100 # Early CW AWACS Ops
+    name      = TECH_APP_AD_10_NAME
+    desc      = "Early CW AWACS"
+    position  = { x = 170 y = 122 }
+    component = { id = 9101 name = "" type = piloting difficulty = 10 }
+    component = { id = 9102 name = "" type = piloting difficulty = 10 }
+    component = { id = 9103 name = "" type = piloting difficulty = 10 }
+    component = { id = 9104 name = "" type = piloting difficulty = 10 }
+    component = { id = 9105 name = "" type = piloting difficulty = 10 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = max_organization which = air value = 10 }
+    }
+  }
+  application =
+  { id        = 9110 # Early CW Naval Patrol
+    name      = TECH_APP_AD_11_NAME
+    desc      = "Early CW Naval Patrol"
+    position  = { x = 160 y = 104 }
+    component = { id = 9111 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9112 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9113 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9114 name = "" type = bomber_tactics difficulty = 6 }
+    component = { id = 9115 name = "" type = bomber_tactics difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = enable_task which = naval_strike }
+      command = { type = enable_task which = convoy_air_raiding }
+      command = { type = max_organization which = naval_bomber value = 10 }
+      command = { type = task_efficiency which = naval_strike value = 0.15 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.2 }
+      command = { type = task_efficiency which = port_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9120 # Early CW Simulators
+    name      = TECH_APP_AD_12_NAME
+    desc      = "Early CW Sim"
+    position  = { x = 180 y = 140 }
+    component = { id = 9121 name = "" type = electronics difficulty = 8 }
+    component = { id = 9122 name = "" type = electronics difficulty = 8 }
+    component = { id = 9123 name = "" type = electronics difficulty = 8 }
+    component = { id = 9124 name = "" type = electronics difficulty = 8 }
+    component = { id = 9125 name = "" type = electronics difficulty = 8 }
+    required  = { 5040 }
+    effects =
+    { command = { type = info_may_cause which = 5040 }
+      command = { type = max_organization which = air value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.05 }
+      command = { type = task_efficiency which = ground_attack value = 0.05 }
+      command = { type = task_efficiency which = interdiction value = 0.05 }
+      command = { type = task_efficiency which = runway_cratering value = 0.05 }
+      command = { type = task_efficiency which = installation_strike value = 0.05 }
+      command = { type = task_efficiency which = port_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_strike value = 0.05 }
+      command = { type = task_efficiency which = logistical_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.05 }
+    }
+  }
+  # ################### LATE CW TECHS ######################
+  application =
+  { id        = 9130 # Late CW Fighter Tactics
+    name      = TECH_APP_AD_13_NAME
+    desc      = "Late CW Fgt Tactics"
+    position  = { x = 320 y = 14 }
+    component = { id = 9131 name = "" type = fighter_tactics difficulty = 7 }
+    component = { id = 9132 name = "" type = fighter_tactics difficulty = 7 }
+    component = { id = 9133 name = "" type = fighter_tactics difficulty = 7 }
+    component = { id = 9134 name = "" type = fighter_tactics difficulty = 7 }
+    component = { id = 9135 name = "" type = fighter_tactics difficulty = 7 }
+    required  = { 6200 9050 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = max_organization which = multi_role value = 10 }
+      command = { type = max_organization which = interceptor value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9140 # Late CW Battlefield Support
+    name      = TECH_APP_AD_14_NAME
+    desc      = "Late CW CAS"
+    position  = { x = 320 y = 32 }
+    component = { id = 9141 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9142 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9143 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9144 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9145 name = "" type = bomber_tactics difficulty = 7 }
+    required  = { 6200 9060 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = max_organization which = cas value = 10 }
+      command = { type = task_efficiency which = ground_attack value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9150 # Late CW Theater Interdiction
+    name      = TECH_APP_AD_15_NAME
+    desc      = "Late CW Interd"
+    position  = { x = 320 y = 50 }
+    component = { id = 9151 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9152 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9153 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9154 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9155 name = "" type = bomber_tactics difficulty = 7 }
+    required  = { 6200 9070 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = max_organization which = tactical_bomber value = 10 }
+      command = { type = task_efficiency which = interdiction value = 0.15 }
+      command = { type = task_efficiency which = port_strike value = 0.08 }
+      command = { type = task_efficiency which = installation_strike value = 0.08 }
+      command = { type = task_efficiency which = runway_cratering value = 0.08 }
+      command = { type = task_efficiency which = logistical_strike value = 0.08 }
+    }
+  }
+  application =
+  { id        = 9160 # Late CW Strat Bomb
+    name      = TECH_APP_AD_16_NAME
+    desc      = "Late CW Strat"
+    position  = { x = 320 y = 68 }
+    component = { id = 9161 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9162 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9163 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9164 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9165 name = "" type = bomber_tactics difficulty = 7 }
+    required  = { 6200 9080 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = max_organization which = strategic_bomber value = 10 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.2 }
+      command = { type = task_efficiency which = installation_strike value = 0.07 }
+      command = { type = task_efficiency which = runway_cratering value = 0.07 }
+      command = { type = task_efficiency which = logistical_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9170 # Late CW Airborne Warfare
+    name      = TECH_APP_AD_17_NAME
+    desc      = "Late CW Airborne"
+    position  = { x = 320 y = 86 }
+    component = { id = 9171 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9172 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9173 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9174 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9175 name = "" type = bomber_tactics difficulty = 7 }
+    required  = { 6200 9090 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9180 # Late CW AWACS Ops
+    name      = TECH_APP_AD_18_NAME
+    desc      = "Late CW AWACS"
+    position  = { x = 330 y = 122 }
+    component = { id = 9181 name = "" type = piloting difficulty = 11 }
+    component = { id = 9182 name = "" type = piloting difficulty = 11 }
+    component = { id = 9183 name = "" type = piloting difficulty = 11 }
+    component = { id = 9184 name = "" type = piloting difficulty = 11 }
+    component = { id = 9185 name = "" type = piloting difficulty = 11 }
+    required  = { 6200 9100 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = max_organization which = air value = 10 }
+    }
+  }
+  application =
+  { id        = 9190 # Late CW Naval patrol
+    name      = TECH_APP_AD_19_NAME
+    desc      = "Late CW Nav Patrol"
+    position  = { x = 320 y = 104 }
+    component = { id = 9191 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9192 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9193 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9194 name = "" type = bomber_tactics difficulty = 7 }
+    component = { id = 9195 name = "" type = bomber_tactics difficulty = 7 }
+    required  = { 6200 9110 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = max_organization which = naval_bomber value = 10 }
+      command = { type = task_efficiency which = naval_strike value = 0.15 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.2 }
+      command = { type = task_efficiency which = port_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9200 # Late CW Simulators
+    name      = TECH_APP_AD_20_NAME
+    desc      = "Late CW Sim"
+    position  = { x = 340 y = 140 }
+    component = { id = 9201 name = "" type = electronics difficulty = 9 }
+    component = { id = 9202 name = "" type = electronics difficulty = 9 }
+    component = { id = 9203 name = "" type = electronics difficulty = 9 }
+    component = { id = 9204 name = "" type = electronics difficulty = 9 }
+    component = { id = 9205 name = "" type = electronics difficulty = 9 }
+    required  = { 5140 9120 }
+    effects =
+    { command = { type = info_may_cause which = 5140 }
+      command = { type = max_organization which = air value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.05 }
+      command = { type = task_efficiency which = ground_attack value = 0.05 }
+      command = { type = task_efficiency which = interdiction value = 0.05 }
+      command = { type = task_efficiency which = runway_cratering value = 0.05 }
+      command = { type = task_efficiency which = installation_strike value = 0.05 }
+      command = { type = task_efficiency which = port_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_strike value = 0.05 }
+      command = { type = task_efficiency which = logistical_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.05 }
+    }
+  }
+  # ################## POST CW TECHS ########################################
+  application =
+  { id        = 9210 # Post CW Fighter Tactics
+    name      = TECH_APP_AD_21_NAME
+    desc      = "Post CW Fgt Tactics"
+    position  = { x = 480 y = 14 }
+    component = { id = 9211 name = "" type = fighter_tactics difficulty = 8 }
+    component = { id = 9212 name = "" type = fighter_tactics difficulty = 8 }
+    component = { id = 9213 name = "" type = fighter_tactics difficulty = 8 }
+    component = { id = 9214 name = "" type = fighter_tactics difficulty = 8 }
+    component = { id = 9215 name = "" type = fighter_tactics difficulty = 8 }
+    required  = { 6300 9130 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = max_organization which = multi_role value = 10 }
+      command = { type = max_organization which = interceptor value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9220 # Post CW Battlefield Support
+    name      = TECH_APP_AD_22_NAME
+    desc      = "Post CW CAS"
+    position  = { x = 480 y = 32 }
+    component = { id = 9221 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9222 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9223 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9224 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9225 name = "" type = bomber_tactics difficulty = 8 }
+    required  = { 6300 9140 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = max_organization which = cas value = 10 }
+      command = { type = task_efficiency which = ground_attack value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9230 # Post CW Theater Interdiction
+    name      = TECH_APP_AD_23_NAME
+    desc      = "Post CW Interd"
+    position  = { x = 480 y = 50 }
+    component = { id = 9231 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9232 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9233 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9234 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9235 name = "" type = bomber_tactics difficulty = 8 }
+    required  = { 6300 9150 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = max_organization which = tactical_bomber value = 10 }
+      command = { type = task_efficiency which = interdiction value = 0.15 }
+      command = { type = task_efficiency which = port_strike value = 0.08 }
+      command = { type = task_efficiency which = installation_strike value = 0.08 }
+      command = { type = task_efficiency which = runway_cratering value = 0.08 }
+      command = { type = task_efficiency which = logistical_strike value = 0.08 }
+    }
+  }
+  application =
+  { id        = 9240 # Post CW Strat Bomb
+    name      = TECH_APP_AD_24_NAME
+    desc      = "Post CW Strat"
+    position  = { x = 480 y = 68 }
+    component = { id = 9241 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9242 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9243 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9244 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9245 name = "" type = bomber_tactics difficulty = 8 }
+    required  = { 6300 9160 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = max_organization which = strategic_bomber value = 10 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.2 }
+      command = { type = task_efficiency which = installation_strike value = 0.07 }
+      command = { type = task_efficiency which = runway_cratering value = 0.07 }
+      command = { type = task_efficiency which = logistical_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9250 # Post CW Airborne Warfare
+    name      = TECH_APP_AD_25_NAME
+    desc      = "Post CW Airborne"
+    position  = { x = 480 y = 86 }
+    component = { id = 9251 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9252 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9253 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9254 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9255 name = "" type = bomber_tactics difficulty = 8 }
+    required  = { 6300 9170 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9260 # Post CW AWACS Ops
+    name      = TECH_APP_AD_26_NAME
+    desc      = "Post CW AWACS"
+    position  = { x = 490 y = 122 }
+    component = { id = 9261 name = "" type = piloting difficulty = 12 }
+    component = { id = 9262 name = "" type = piloting difficulty = 12 }
+    component = { id = 9263 name = "" type = piloting difficulty = 12 }
+    component = { id = 9264 name = "" type = piloting difficulty = 12 }
+    component = { id = 9265 name = "" type = piloting difficulty = 12 }
+    required  = { 6300 9180 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = max_organization which = air value = 10 }
+    }
+  }
+  application =
+  { id        = 9270 # Post CW Naval patrol
+    name      = TECH_APP_AD_27_NAME
+    desc      = "Post CW Nav Patrol"
+    position  = { x = 480 y = 104 }
+    component = { id = 9271 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9272 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9273 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9274 name = "" type = bomber_tactics difficulty = 8 }
+    component = { id = 9275 name = "" type = bomber_tactics difficulty = 8 }
+    required  = { 6300 9190 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = max_organization which = naval_bomber value = 10 }
+      command = { type = task_efficiency which = naval_strike value = 0.15 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.2 }
+      command = { type = task_efficiency which = port_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9280 # Post CW Simulators
+    name      = TECH_APP_AD_28_NAME
+    desc      = "Post CW Sim"
+    position  = { x = 500 y = 140 }
+    component = { id = 9281 name = "" type = electronics difficulty = 10 }
+    component = { id = 9282 name = "" type = electronics difficulty = 10 }
+    component = { id = 9283 name = "" type = electronics difficulty = 10 }
+    component = { id = 9284 name = "" type = electronics difficulty = 10 }
+    component = { id = 9285 name = "" type = electronics difficulty = 10 }
+    required  = { 5240 9200 }
+    effects =
+    { command = { type = info_may_cause which = 5240 }
+      command = { type = max_organization which = air value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.05 }
+      command = { type = task_efficiency which = ground_attack value = 0.05 }
+      command = { type = task_efficiency which = interdiction value = 0.05 }
+      command = { type = task_efficiency which = runway_cratering value = 0.05 }
+      command = { type = task_efficiency which = installation_strike value = 0.05 }
+      command = { type = task_efficiency which = port_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_strike value = 0.05 }
+      command = { type = task_efficiency which = logistical_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.05 }
+    }
+  }
+  # ############## 21st CENTURY TECHS #############################
+  application =
+  { id        = 9290 # 21st Cent Fighter Tactics
+    name      = TECH_APP_AD_29_NAME
+    desc      = "2000s Fgt Tactics"
+    position  = { x = 255 y = 190 }
+    component = { id = 9291 name = "" type = fighter_tactics difficulty = 9 }
+    component = { id = 9292 name = "" type = fighter_tactics difficulty = 9 }
+    component = { id = 9293 name = "" type = fighter_tactics difficulty = 9 }
+    component = { id = 9294 name = "" type = fighter_tactics difficulty = 9 }
+    component = { id = 9295 name = "" type = fighter_tactics difficulty = 9 }
+    required  = { 6400 9210 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = max_organization which = multi_role value = 10 }
+      command = { type = max_organization which = interceptor value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9300 # 21st Cent Battlefield Support
+    name      = TECH_APP_AD_30_NAME
+    desc      = "2000s CAS"
+    position  = { x = 255 y = 208 }
+    component = { id = 9301 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9302 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9303 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9304 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9305 name = "" type = bomber_tactics difficulty = 9 }
+    required  = { 6400 9220 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = max_organization which = cas value = 10 }
+      command = { type = task_efficiency which = ground_attack value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9310 # 21st Cent Theater Interdiction
+    name      = TECH_APP_AD_31_NAME
+    desc      = "2000s Interd"
+    position  = { x = 255 y = 226 }
+    component = { id = 9311 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9312 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9313 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9314 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9315 name = "" type = bomber_tactics difficulty = 9 }
+    required  = { 6400 9230 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = max_organization which = tactical_bomber value = 10 }
+      command = { type = task_efficiency which = interdiction value = 0.15 }
+      command = { type = task_efficiency which = port_strike value = 0.08 }
+      command = { type = task_efficiency which = installation_strike value = 0.08 }
+      command = { type = task_efficiency which = runway_cratering value = 0.08 }
+      command = { type = task_efficiency which = logistical_strike value = 0.08 }
+    }
+  }
+  application =
+  { id        = 9320 # 21st Cent Strat Bomb
+    name      = TECH_APP_AD_32_NAME
+    desc      = "2000s Strat"
+    position  = { x = 255 y = 244 }
+    component = { id = 9321 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9322 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9323 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9324 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9325 name = "" type = bomber_tactics difficulty = 9 }
+    required  = { 6400 9240 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = max_organization which = strategic_bomber value = 10 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.2 }
+      command = { type = task_efficiency which = installation_strike value = 0.07 }
+      command = { type = task_efficiency which = runway_cratering value = 0.07 }
+      command = { type = task_efficiency which = logistical_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9330 # 21st Cent Airborne Warfare
+    name      = TECH_APP_AD_33_NAME
+    desc      = "2000s Airborne"
+    position  = { x = 255 y = 262 }
+    component = { id = 9331 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9332 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9333 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9334 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9335 name = "" type = bomber_tactics difficulty = 9 }
+    required  = { 6400 9250 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9340 # 21st Cent AWACS Ops
+    name      = TECH_APP_AD_34_NAME
+    desc      = "2000s AWACS"
+    position  = { x = 265 y = 298 }
+    component = { id = 9341 name = "" type = piloting difficulty = 13 }
+    component = { id = 9342 name = "" type = piloting difficulty = 13 }
+    component = { id = 9343 name = "" type = piloting difficulty = 13 }
+    component = { id = 9344 name = "" type = piloting difficulty = 13 }
+    component = { id = 9345 name = "" type = piloting difficulty = 13 }
+    required  = { 6400 9260 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = max_organization which = air value = 10 }
+    }
+  }
+  application =
+  { id        = 9350 # 21st Cent Naval patrol
+    name      = TECH_APP_AD_35_NAME
+    desc      = "2000s Nav Patrol"
+    position  = { x = 255 y = 280 }
+    component = { id = 9351 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9352 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9353 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9354 name = "" type = bomber_tactics difficulty = 9 }
+    component = { id = 9355 name = "" type = bomber_tactics difficulty = 9 }
+    required  = { 6400 9270 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = max_organization which = naval_bomber value = 10 }
+      command = { type = task_efficiency which = naval_strike value = 0.15 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.2 }
+      command = { type = task_efficiency which = port_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9360 # 21st Cent Simulators
+    name      = TECH_APP_AD_36_NAME
+    desc      = "2000s Sim"
+    position  = { x = 275 y = 316 }
+    component = { id = 9361 name = "" type = electronics difficulty = 11 }
+    component = { id = 9362 name = "" type = electronics difficulty = 11 }
+    component = { id = 9363 name = "" type = electronics difficulty = 11 }
+    component = { id = 9364 name = "" type = electronics difficulty = 11 }
+    component = { id = 9365 name = "" type = electronics difficulty = 11 }
+    required  = { 5340 9280 }
+    effects =
+    { command = { type = info_may_cause which = 5340 }
+      command = { type = max_organization which = air value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.05 }
+      command = { type = task_efficiency which = ground_attack value = 0.05 }
+      command = { type = task_efficiency which = interdiction value = 0.05 }
+      command = { type = task_efficiency which = runway_cratering value = 0.05 }
+      command = { type = task_efficiency which = installation_strike value = 0.05 }
+      command = { type = task_efficiency which = port_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_strike value = 0.05 }
+      command = { type = task_efficiency which = logistical_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.05 }
+    }
+  }
+  # ##################### FUTURE TECHS ######################################
+  application =
+  { id        = 9370 # Future Fighter Tactics
+    name      = TECH_APP_AD_37_NAME
+    desc      = "Future Fgt Tactics"
+    position  = { x = 415 y = 190 }
+    component = { id = 9371 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9372 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9373 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9374 name = "" type = fighter_tactics difficulty = 10 }
+    component = { id = 9375 name = "" type = fighter_tactics difficulty = 10 }
+    required  = { 6500 9290 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = max_organization which = multi_role value = 10 }
+      command = { type = max_organization which = interceptor value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9380 # Future Battlefield Support
+    name      = TECH_APP_AD_38_NAME
+    desc      = "Future CAS"
+    position  = { x = 415 y = 208 }
+    component = { id = 9381 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9382 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9383 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9384 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9385 name = "" type = bomber_tactics difficulty = 10 }
+    required  = { 6500 9300 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = max_organization which = cas value = 10 }
+      command = { type = task_efficiency which = ground_attack value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9390 # Future Theater Interdiction
+    name      = TECH_APP_AD_39_NAME
+    desc      = "Future Interd"
+    position  = { x = 415 y = 226 }
+    component = { id = 9391 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9392 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9393 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9394 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9395 name = "" type = bomber_tactics difficulty = 10 }
+    required  = { 6500 9310 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = max_organization which = tactical_bomber value = 10 }
+      command = { type = task_efficiency which = interdiction value = 0.15 }
+      command = { type = task_efficiency which = port_strike value = 0.08 }
+      command = { type = task_efficiency which = installation_strike value = 0.08 }
+      command = { type = task_efficiency which = runway_cratering value = 0.08 }
+      command = { type = task_efficiency which = logistical_strike value = 0.08 }
+    }
+  }
+  application =
+  { id        = 9400 # Future Strat Bomb
+    name      = TECH_APP_AD_40_NAME
+    desc      = "Future Strat"
+    position  = { x = 415 y = 244 }
+    component = { id = 9401 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9402 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9403 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9404 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9405 name = "" type = bomber_tactics difficulty = 10 }
+    required  = { 6500 9320 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = max_organization which = strategic_bomber value = 10 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.2 }
+      command = { type = task_efficiency which = installation_strike value = 0.07 }
+      command = { type = task_efficiency which = runway_cratering value = 0.07 }
+      command = { type = task_efficiency which = logistical_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9410 # Future Airborne Warfare
+    name      = TECH_APP_AD_41_NAME
+    desc      = "Future Airborne"
+    position  = { x = 415 y = 262 }
+    component = { id = 9411 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9412 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9413 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9414 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9415 name = "" type = bomber_tactics difficulty = 10 }
+    required  = { 6500 9330 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = paradrop_attack which = paratrooper value = 5 }
+      command = { type = task_efficiency which = airborne_assault value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9420 # Future AWACS Ops
+    name      = TECH_APP_AD_42_NAME
+    desc      = "Future AWACS"
+    position  = { x = 425 y = 298 }
+    component = { id = 9421 name = "" type = piloting difficulty = 14 }
+    component = { id = 9422 name = "" type = piloting difficulty = 14 }
+    component = { id = 9423 name = "" type = piloting difficulty = 14 }
+    component = { id = 9424 name = "" type = piloting difficulty = 14 }
+    component = { id = 9425 name = "" type = piloting difficulty = 14 }
+    required  = { 6500 9340 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = max_organization which = air value = 10 }
+    }
+  }
+  application =
+  { id        = 9430 # Future Naval patrol
+    name      = TECH_APP_AD_43_NAME
+    desc      = "Future Nav Patrol"
+    position  = { x = 415 y = 280 }
+    component = { id = 9431 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9432 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9433 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9434 name = "" type = bomber_tactics difficulty = 10 }
+    component = { id = 9435 name = "" type = bomber_tactics difficulty = 10 }
+    required  = { 6500 9350 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = max_organization which = naval_bomber value = 10 }
+      command = { type = task_efficiency which = naval_strike value = 0.15 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.2 }
+      command = { type = task_efficiency which = port_strike value = 0.07 }
+    }
+  }
+  application =
+  { id        = 9440 # Future Simulators
+    name      = TECH_APP_AD_44_NAME
+    desc      = "Future Sim"
+    position  = { x = 435 y = 316 }
+    component = { id = 9441 name = "" type = electronics difficulty = 12 }
+    component = { id = 9442 name = "" type = electronics difficulty = 12 }
+    component = { id = 9443 name = "" type = electronics difficulty = 12 }
+    component = { id = 9444 name = "" type = electronics difficulty = 12 }
+    component = { id = 9445 name = "" type = electronics difficulty = 12 }
+    required  = { 5440 9360 }
+    effects =
+    { command = { type = info_may_cause which = 5440 }
+      command = { type = max_organization which = air value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.05 }
+      command = { type = task_efficiency which = ground_attack value = 0.05 }
+      command = { type = task_efficiency which = interdiction value = 0.05 }
+      command = { type = task_efficiency which = runway_cratering value = 0.05 }
+      command = { type = task_efficiency which = installation_strike value = 0.05 }
+      command = { type = task_efficiency which = port_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_strike value = 0.05 }
+      command = { type = task_efficiency which = logistical_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.05 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.05 }
+    }
+  }
+  # ################ Naval Aviation Section ####################
+  application =
+  { id        = 9450 # Early CW CAG Tactics
+    name      = TECH_APP_AD_45_NAME
+    desc      = "Early CW CAG"
+    position  = { x = 85 y = 190 }
+    component = { id = 9451 name = "" type = aircraft_testing difficulty = 6 }
+    component = { id = 9452 name = "" type = aircraft_testing difficulty = 6 }
+    component = { id = 9453 name = "" type = aircraft_testing difficulty = 6 }
+    component = { id = 9454 name = "" type = aircraft_testing difficulty = 6 }
+    component = { id = 9455 name = "" type = aircraft_testing difficulty = 6 }
+    required  = { 6100 }
+    effects =
+    { command = { type = info_may_cause which = 6100 }
+      command = { type = enable_task which = naval_airbase_strike }
+      command = { type = enable_task which = naval_port_strike }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.15 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9460 # Late CW CAG Tactics
+    name      = TECH_APP_AD_46_NAME
+    desc      = "Late CW CAG"
+    position  = { x = 95 y = 208 }
+    component = { id = 9461 name = "" type = aircraft_testing difficulty = 7 }
+    component = { id = 9462 name = "" type = aircraft_testing difficulty = 7 }
+    component = { id = 9463 name = "" type = aircraft_testing difficulty = 7 }
+    component = { id = 9464 name = "" type = aircraft_testing difficulty = 7 }
+    component = { id = 9465 name = "" type = aircraft_testing difficulty = 7 }
+    required  = { 6200 9450 }
+    effects =
+    { command = { type = info_may_cause which = 6200 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.15 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9470 # Post CW CAG Tactics
+    name      = TECH_APP_AD_47_NAME
+    desc      = "Post CW CAG"
+    position  = { x = 95 y = 226 }
+    component = { id = 9471 name = "" type = aircraft_testing difficulty = 8 }
+    component = { id = 9472 name = "" type = aircraft_testing difficulty = 8 }
+    component = { id = 9473 name = "" type = aircraft_testing difficulty = 8 }
+    component = { id = 9474 name = "" type = aircraft_testing difficulty = 8 }
+    component = { id = 9475 name = "" type = aircraft_testing difficulty = 8 }
+    required  = { 6300 9460 }
+    effects =
+    { command = { type = info_may_cause which = 6300 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.15 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9480 # 21st Cent CW CAG Tactics
+    name      = TECH_APP_AD_48_NAME
+    desc      = "2000s CW CAG"
+    position  = { x = 95 y = 244 }
+    component = { id = 9481 name = "" type = aircraft_testing difficulty = 9 }
+    component = { id = 9482 name = "" type = aircraft_testing difficulty = 9 }
+    component = { id = 9483 name = "" type = aircraft_testing difficulty = 9 }
+    component = { id = 9484 name = "" type = aircraft_testing difficulty = 9 }
+    component = { id = 9485 name = "" type = aircraft_testing difficulty = 9 }
+    required  = { 6400 9470 }
+    effects =
+    { command = { type = info_may_cause which = 6400 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.15 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.15 }
+    }
+  }
+  application =
+  { id        = 9490 # Future CW CAG Tactics
+    name      = TECH_APP_AD_49_NAME
+    desc      = "Future CW CAG"
+    position  = { x = 95 y = 262 }
+    component = { id = 9491 name = "" type = aircraft_testing difficulty = 10 }
+    component = { id = 9492 name = "" type = aircraft_testing difficulty = 10 }
+    component = { id = 9493 name = "" type = aircraft_testing difficulty = 10 }
+    component = { id = 9494 name = "" type = aircraft_testing difficulty = 10 }
+    component = { id = 9495 name = "" type = aircraft_testing difficulty = 10 }
+    required  = { 6500 9480 }
+    effects =
+    { command = { type = info_may_cause which = 6500 }
+      command = { type = task_efficiency which = naval_airbase_strike value = 0.15 }
+      command = { type = task_efficiency which = naval_port_strike value = 0.15 }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+# 0 - Late CW Missile Battlecruiser
+model =
+{ cost                       = 9.5
+  buildtime                  = 750
+  defaultorganisation        = 30
+  morale                     = 30
+  manpower                   = 2
+  maxspeed                   = 32
+  surfacedetectioncapability = 11
+  airdetectioncapability     = 11
+  subdetectioncapability     = 14
+  visibility                 = 70
+  seadefence                 = 19
+  airdefence                 = 8
+  seaattack                  = 22
+  subattack                  = 0
+  airattack                  = 16
+  shorebombardment           = 8
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 4.5
+  fuelconsumption            = 1.5
+  distance                   = 3
+}
+# 1 - 21st Century Missile Battlecruiser
+model =
+{ cost                       = 16
+  buildtime                  = 750
+  defaultorganisation        = 30
+  morale                     = 30
+  manpower                   = 2
+  maxspeed                   = 33
+  surfacedetectioncapability = 15
+  airdetectioncapability     = 15
+  subdetectioncapability     = 16
+  visibility                 = 70
+  seadefence                 = 26
+  airdefence                 = 9
+  seaattack                  = 26
+  subattack                  = 1
+  airattack                  = 18
+  shorebombardment           = 11
+  transportcapability        = 0
+  range                      = 30000
+  supplyconsumption          = 5
+  fuelconsumption            = 1.6
+  distance                   = 4
+}

@@ -1,0 +1,374 @@
+name       = "Modern  Day  Scenario  2"
+panel      = "scenarios/data/scenario_2003.bmp"
+header =
+{ name       = "Modern  Day  Scenario  2"
+  startdate  = { year = 2003 }
+ selectable = { AFG ALB ALG ANG ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL COS CRO CUB CYP CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU ROM RUS SAF SAL SAU SCH SER SIA SIE SLO SLV SOM SPA SUD SWE SYR TAJ TRK TUN TUR UKR URU USA UZB VEN VIE YEM
+ U01 U02 U03 U04 U05 U06 U08 U09 U10 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U57 U58 U60 U66 U67 U69 U70 U72 U74 U75 U81
+ U82 U84 U85 U86 U88 U89 U90 U91 U92 U93 U94 U95 U96 U98 U99 }
+  ENG        = { }
+  GER        = { }
+  FRA        = { }
+  JAP        = { }
+  USA        = { }
+  CHC        = { }
+  IND        = { }
+  BRA        = { }
+  RUS        = { }
+  PER        = { }
+}
+globaldata =
+{ enddate   = { year = 2020 month = january day = 0 }
+  axis =
+  { id          = { type = 15000 id = 2 }
+    participant = { CHC }
+  }
+  allies =
+  { id          = { type = 15000 id = 1 }
+    participant = { USA ENG AST }
+  }
+  comintern =
+  { id          = { type = 15000 id = 3 }
+    participant = { PER }
+  }
+  alliance =
+  { id          = { type = 15000 id = 12 }
+    participant = { U72 FRA GER BEL LUX HOL ITA GRE DEN SPA POR CZE HUN POL }
+  }
+  alliance =
+  { id          = { type = 15000 id = 13 }
+    participant = { VEN CUB }
+  }
+  war =
+  { id        = { type = 9430 id = 1 }
+    date      = { year = 2003 month = march day = 20 }
+    enddate   = { year = 2003 month = september day = 2 } #6 month war #nova
+    attackers =
+    { id          = { type = 9430 id = 2 }
+      participant = { USA ENG AST U91 }
+    }
+    defenders =
+    { id          = { type = 9430 id = 3 }
+      participant = { IRQ }
+    }
+  }  
+  war =
+  { id        = { type = 9431 id = 1 }
+    date      = { year = 2003 month = march day = 20 }
+    enddate   = { year = 2003 month = march day = 22 }
+    attackers =
+    { id          = { type = 9431 id = 2 }
+      participant = { U95 U70}
+    }
+    defenders =
+    { id          = { type = 9431 id = 3 }
+      participant = { CON }
+    }
+  }
+  treaty =
+  { id         = { type = 16384 id = 1 }
+    type       = non_aggression
+    country    = "RUS"
+    country    = "NOR"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2007 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 2 }
+    type       = non_aggression
+    country    = "RUS"
+    country    = "FIN"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2007 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 3 }
+    type       = non_aggression
+    country    = "EGY"
+    country    = "ISR"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2006 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 4 }
+    type       = non_aggression
+    country    = "PER"
+    country    = "ARM"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2007 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 5 }
+    type       = non_aggression
+    country    = "PER"
+    country    = "AZB"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2007 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 6 }
+    type       = non_aggression
+    country    = "CHC"
+    country    = "MON"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2008 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 7 }
+    type       = non_aggression
+    country    = "IND"
+    country    = "U74"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2007 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 8 }
+    type       = non_aggression
+    country    = "USA"
+    country    = "MEX"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2008 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 9 }
+    type       = non_aggression
+    country    = "CHC"
+    country    = "NEP"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2006 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 10 }
+    type       = non_aggression
+    country    = "CHC"
+    country    = "BUR"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2009 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 11 }
+    type       = non_aggression
+    country    = "RUS"
+    country    = "PRK"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2009 month = march day = 30 }
+  }
+  treaty =
+  { id         = { type = 16384 id = 12 }
+    type       = non_aggression
+    country    = "SUD"
+    country    = "CON"
+    startdate  = { year = 2003 month = march day = 20 }
+    expirydate = { year = 2015 month = march day = 30 }
+  }
+  startdate = { year = 2003 month = march day = 22 }
+}
+
+ #Includes for global data
+include = "db\events.txt"
+
+# Victory points distribution
+include = "scenarios\2003\vp.inc"
+
+# Include files for each country tag used in the scenario
+include = "scenarios\2003\abkhazia.inc"
+include = "scenarios\2003\afghanistan.inc"
+include = "scenarios\2003\albania.inc"
+include = "scenarios\2003\algeria.inc"
+include = "scenarios\2003\angola.inc"
+include = "scenarios\2003\antigua.inc"
+include = "scenarios\2003\argentina.inc"
+include = "scenarios\2003\armenia.inc"
+include = "scenarios\2003\australia.inc"
+include = "scenarios\2003\austria.inc"
+include = "scenarios\2003\azerbaijan.inc"
+include = "scenarios\2003\bahamas.inc"
+include = "scenarios\2003\bangladesh.inc"
+include = "scenarios\2003\barbados.inc"
+include = "scenarios\2003\belarus.inc"
+include = "scenarios\2003\belgium.inc"
+include = "scenarios\2003\belize.inc"
+include = "scenarios\2003\benin.inc"
+include = "scenarios\2003\bhutan.inc"
+include = "scenarios\2003\bolivia.inc"
+include = "scenarios\2003\bosnia.inc"
+include = "scenarios\2003\botswana.inc"
+include = "scenarios\2003\brazil.inc"
+include = "scenarios\2003\brunei.inc"
+include = "scenarios\2003\bulgaria.inc"
+include = "scenarios\2003\burkina faso.inc"
+include = "scenarios\2003\burma.inc"
+include = "scenarios\2003\burundi.inc"
+include = "scenarios\2003\cambodia.inc"
+include = "scenarios\2003\cameroon.inc"
+include = "scenarios\2003\canada.inc"
+include = "scenarios\2003\cape verde.inc"
+#include = "scenarios\2003\caribbean.inc"
+include = "scenarios\2003\central africa.inc"
+include = "scenarios\2003\chad.inc"
+include = "scenarios\2003\china.inc"
+include = "scenarios\2003\chile.inc"
+include = "scenarios\2003\colombia.inc"
+include = "scenarios\2003\comoros.inc"
+include = "scenarios\2003\congo.inc"
+include = "scenarios\2003\rep congo.inc"
+include = "scenarios\2003\costa rica.inc"
+include = "scenarios\2003\ivory coast.inc"
+include = "scenarios\2003\croatia.inc"
+include = "scenarios\2003\cuba.inc"
+include = "scenarios\2003\cyprus.inc"
+include = "scenarios\2003\czech rep.inc"
+include = "scenarios\2003\denmark.inc"
+include = "scenarios\2003\djibouti.inc"
+include = "scenarios\2003\dominican.inc"
+include = "scenarios\2003\dominica.inc"
+include = "scenarios\2003\ecuador.inc"
+include = "scenarios\2003\egypt.inc"
+include = "scenarios\2003\equatorial-guinea.inc"
+include = "scenarios\2003\eritrea.inc"
+include = "scenarios\2003\estonia.inc"
+include = "scenarios\2003\ethiopia.inc"
+include = "scenarios\2003\eu.inc"
+include = "scenarios\2003\fiji.inc"
+include = "scenarios\2003\finland.inc"
+#include = "scenarios\2003\pacific.inc"
+include = "scenarios\2003\france.inc"
+include = "scenarios\2003\macedonia.inc"
+include = "scenarios\2003\gabon.inc"
+include = "scenarios\2003\gambia.inc"
+include = "scenarios\2003\georgia.inc"
+include = "scenarios\2003\germany.inc"
+include = "scenarios\2003\ghana.inc"
+include = "scenarios\2003\greece.inc"
+include = "scenarios\2003\grenada.inc"
+include = "scenarios\2003\guatemala.inc"
+include = "scenarios\2003\guinea.inc"
+include = "scenarios\2003\guinea-bissau.inc"
+include = "scenarios\2003\guyana.inc"
+include = "scenarios\2003\haiti.inc"
+include = "scenarios\2003\honduras.inc"
+include = "scenarios\2003\holland.inc"
+include = "scenarios\2003\hungary.inc"
+include = "scenarios\2003\iceland.inc"
+include = "scenarios\2003\india.inc"
+include = "scenarios\2003\indonesia.inc"
+include = "scenarios\2003\iran.inc"
+include = "scenarios\2003\iraq.inc"
+include = "scenarios\2003\ireland.inc"
+include = "scenarios\2003\israel.inc"
+include = "scenarios\2003\italy.inc"
+include = "scenarios\2003\jamaica.inc"
+include = "scenarios\2003\japan.inc"
+include = "scenarios\2003\jordan.inc"
+include = "scenarios\2003\prk.inc"
+include = "scenarios\2003\south korea.inc"
+include = "scenarios\2003\kazakhstan.inc"
+include = "scenarios\2003\kenya.inc"
+include = "scenarios\2003\kiribati.inc"
+include = "scenarios\2003\kosovo.inc"
+include = "scenarios\2003\kuwait.inc"
+include = "scenarios\2003\kyrgyzstan.inc"
+include = "scenarios\2003\laos.inc"
+include = "scenarios\2003\latvia.inc"
+include = "scenarios\2003\lebanon.inc"
+include = "scenarios\2003\lesotho.inc"
+include = "scenarios\2003\liberia.inc"
+include = "scenarios\2003\libya.inc"
+include = "scenarios\2003\lithuania.inc"
+include = "scenarios\2003\luxembourg.inc"
+include = "scenarios\2003\madagascar.inc"
+include = "scenarios\2003\malawi.inc"
+include = "scenarios\2003\mali.inc"
+include = "scenarios\2003\maldives.inc"
+include = "scenarios\2003\malta.inc"
+include = "scenarios\2003\marshall islands.inc"
+include = "scenarios\2003\mauritania.inc"
+include = "scenarios\2003\mauritius.inc"
+include = "scenarios\2003\mexico.inc"
+include = "scenarios\2003\malaysia.inc"
+include = "scenarios\2003\micronesia.inc"
+include = "scenarios\2003\moldova.inc"
+include = "scenarios\2003\mongolia.inc"
+include = "scenarios\2003\montenegro.inc"
+include = "scenarios\2003\morocco.inc"
+include = "scenarios\2003\mozambique.inc"
+include = "scenarios\2003\nagorno-karabakh.inc"
+include = "scenarios\2003\namibia.inc"
+include = "scenarios\2003\nauru.inc"
+include = "scenarios\2003\nepal.inc"
+include = "scenarios\2003\newzealand.inc"
+include = "scenarios\2003\niger.inc"
+include = "scenarios\2003\nigeria.inc"
+include = "scenarios\2003\nicaragua.inc"
+include = "scenarios\2003\norway.inc"
+include = "scenarios\2003\northern cyprus.inc"
+include = "scenarios\2003\oman.inc"
+include = "scenarios\2003\pakistan.inc"
+include = "scenarios\2003\palau.inc"
+include = "scenarios\2003\papua.inc"
+include = "scenarios\2003\palestine.inc"
+include = "scenarios\2003\panama.inc"
+include = "scenarios\2003\paraguay.inc"
+include = "scenarios\2003\peru.inc"
+include = "scenarios\2003\philippines.inc"
+include = "scenarios\2003\poland.inc"
+include = "scenarios\2003\portugal.inc"
+include = "scenarios\2003\qatar.inc"
+include = "scenarios\2003\transnistria.inc"
+include = "scenarios\2003\romania.inc"
+include = "scenarios\2003\russia.inc"
+include = "scenarios\2003\rwanda.inc"
+#include = "scenarios\2003\sahrawi.inc"
+include = "scenarios\2003\saint kitts.inc"
+include = "scenarios\2003\saint lucia.inc"
+include = "scenarios\2003\saint vincent.inc"
+include = "scenarios\2003\samoa.inc"
+include = "scenarios\2003\sao tome.inc"
+include = "scenarios\2003\saudi arabia.inc"
+include = "scenarios\2003\salvador.inc"
+include = "scenarios\2003\senegal.inc"
+include = "scenarios\2003\serbia.inc"
+include = "scenarios\2003\seychelles.inc"
+include = "scenarios\2003\sierra leone.inc"
+include = "scenarios\2003\singapore.inc"
+include = "scenarios\2003\slovakia.inc"
+include = "scenarios\2003\slovenia.inc"
+include = "scenarios\2003\solomon islands.inc"
+include = "scenarios\2003\somalia.inc"
+include = "scenarios\2003\somaliland.inc"
+include = "scenarios\2003\south africa.inc"
+include = "scenarios\2003\south ossetia.inc"
+include = "scenarios\2003\spain.inc"
+include = "scenarios\2003\sri lanka.inc"
+include = "scenarios\2003\sudan.inc"
+include = "scenarios\2003\suriname.inc"
+include = "scenarios\2003\swaziland.inc"
+include = "scenarios\2003\sweden.inc"
+include = "scenarios\2003\switzerland.inc"
+include = "scenarios\2003\syria.inc"
+include = "scenarios\2003\taiwan.inc"
+include = "scenarios\2003\tajikistan.inc"
+include = "scenarios\2003\tanzania.inc"
+include = "scenarios\2003\thailand.inc"
+include = "scenarios\2003\east timor.inc"
+include = "scenarios\2003\togo.inc"
+include = "scenarios\2003\tonga.inc"
+include = "scenarios\2003\trinidad.inc"
+include = "scenarios\2003\tunisia.inc"
+include = "scenarios\2003\turkey.inc"
+include = "scenarios\2003\turkmenistan.inc"
+include = "scenarios\2003\uganda.inc"
+include = "scenarios\2003\ukraine.inc"
+include = "scenarios\2003\uae.inc"
+include = "scenarios\2003\united kingdom.inc"
+include = "scenarios\2003\usa.inc"
+include = "scenarios\2003\uruguay.inc"
+include = "scenarios\2003\uzbekistan.inc"
+include = "scenarios\2003\vanuatu.inc"
+include = "scenarios\2003\venezuela.inc"
+include = "scenarios\2003\vietnam.inc"
+include = "scenarios\2003\yemen.inc"
+include = "scenarios\2003\zambia.inc"
+include = "scenarios\2003\zimbabwe.inc"
+include = "scenarios\2003\bases.inc"
+#include = "scenarios\2003\iclevels.inc"CANNOT BE FOUND?

@@ -1,0 +1,1947 @@
+technology =
+{ id          = 1
+  category    = infantry
+  name        = TECH_INFANTRY_NAME
+  desc        = TECH_INFANTRY_DESC
+  label =
+  { tag      = TECH_CAT_ARM
+    position = { x = 32 y = -8 }
+  }
+  label =
+  { tag      = TECH_CAT_MAR
+    position = { x = 405 y = 181 }
+  }
+  label =
+  { tag      = TECH_CAT_SOF
+    position = { x = 287 y = 82 }
+  }
+  label =
+  { tag      = TECH_CAT_SPEC
+    position = { x = 430 y = 63 }
+  }
+  label =
+  { tag      = TECH_CAT_SOFFF
+    position = { x = 338 y = 151 }
+  }
+  label =
+  { tag      = TECH_CAT_SOFFF
+    position = { x = 338 y = 109 }
+  }
+  label =
+  { tag      = TECH_CAT_SOFFF
+    position = { x = 338 y = 130 }
+  }
+  label =
+  { tag      = TECH_CAT_PAR
+    position = { x = 402 y = 281 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCAV
+    position = { x = 0 y = 299 }
+  }
+  label =
+  { tag      = TECH_CAT_GAR
+    position = { x = 259 y = 202 }
+  }
+  label =
+  { tag      = TECH_CAT_MEC
+    position = { x = 0 y = 63 }
+  }
+  label =
+  { tag      = TECH_CAT_MOT
+    position = { x = 0 y = 181 }
+  }
+  application =
+  { id          = 1000
+    name        = TECH_APP_INFANTRY_1_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_1_NAME
+    position    = { x = 30 y = 6 }
+    year      = 2000
+    component   = { id = 1001 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1002 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1003 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1004 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1005 name = "" type = combined_arms_focus difficulty = 1 }
+    required    = { 2200 2300 2500 2700 2800 6120 }
+    OR_required = { 2000 }
+    effects =
+    { command = { type = new_model which = light_armor value = 0 }
+      command = { type = new_model which = armor value = 7 }
+      command = { type = info_may_cause which = 2000 }
+      command = { type = info_may_cause which = 2200 }
+      command = { type = info_may_cause which = 2300 }
+      command = { type = info_may_cause which = 2500 }
+      command = { type = info_may_cause which = 2700 }
+      command = { type = info_may_cause which = 2800 }
+      command = { type = info_may_cause which = 6120 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1010
+    name        = TECH_APP_INFANTRY_2_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_2_NAME
+    position    = { x = 30 y = 22 }
+    year      = 2000
+    component   = { id = 1011 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1012 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1013 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1014 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1015 name = "" type = combined_arms_focus difficulty = 1 }
+    required    = { 2210 2310 2510 2710 2810 6120 }
+    OR_required = { 2010 }
+    effects =
+    { command = { type = new_model which = light_armor value = 1 }
+      command = { type = new_model which = armor value = 8 }
+      command = { type = info_may_cause which = 2010 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2310 }
+      command = { type = info_may_cause which = 2510 }
+      command = { type = info_may_cause which = 2710 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 6120 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1050
+    name        = TECH_APP_INFANTRY_3_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_3_NAME
+    position    = { x = 151 y = 6 }
+    year      = 2000
+    component   = { id = 1051 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1052 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1053 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1054 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1055 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 2210 2310 2510 2710 2810 6120 }
+    OR_required = { 2050 }
+    effects =
+    { command = { type = new_model which = light_armor value = 3 }
+      command = { type = new_model which = armor value = 11 }
+      command = { type = info_may_cause which = 2050 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2310 }
+      command = { type = info_may_cause which = 2510 }
+      command = { type = info_may_cause which = 2710 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 6120 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1060
+    name        = TECH_APP_INFANTRY_4_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_4_NAME
+    position    = { x = 151 y = 22 }
+    year      = 2000
+    component   = { id = 1061 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1062 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1063 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1064 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1065 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 2220 2320 2520 2720 2820 6220 }
+    OR_required = { 2060 }
+    effects =
+    { command = { type = new_model which = light_armor value = 4 }
+      command = { type = new_model which = armor value = 12 }
+      command = { type = info_may_cause which = 2060 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2320 }
+      command = { type = info_may_cause which = 2520 }
+      command = { type = info_may_cause which = 2720 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6220 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 3 }
+      command = { type = scrap_model which = armor value = 11 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1070
+    name        = TECH_APP_INFANTRY_5_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_5_NAME
+    position    = { x = 151 y = 38 }
+    year      = 2000
+    component   = { id = 1071 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1072 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1073 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1074 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1075 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 2230 2330 2530 2730 2830 6320 }
+    OR_required = { 2070 }
+    effects =
+    { command = { type = new_model which = light_armor value = 5 }
+      command = { type = new_model which = armor value = 13 }
+      command = { type = info_may_cause which = 2070 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2330 }
+      command = { type = info_may_cause which = 2530 }
+      command = { type = info_may_cause which = 2730 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6320 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 3 }
+      command = { type = scrap_model which = light_armor value = 4 }
+      command = { type = scrap_model which = armor value = 11 }
+      command = { type = scrap_model which = armor value = 12 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1110
+    name        = TECH_APP_INFANTRY_6_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_6_NAME
+    position    = { x = 272 y = 6 }
+    year      = 2000
+    component   = { id = 1111 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1112 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1113 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1114 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1115 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 2220 2320 2520 2720 2820 6220 }
+    OR_required = { 2110 }
+    effects =
+    { command = { type = new_model which = light_armor value = 7 }
+      command = { type = new_model which = armor value = 15 }
+      command = { type = info_may_cause which = 2110 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2320 }
+      command = { type = info_may_cause which = 2520 }
+      command = { type = info_may_cause which = 2720 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6220 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1120
+    name        = TECH_APP_INFANTRY_7_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_7_NAME
+    position    = { x = 272 y = 22 }
+    year      = 2000
+    component   = { id = 1121 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1122 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1123 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1124 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1125 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 2230 2330 2530 2730 2830 6320 }
+    OR_required = { 2120 }
+    effects =
+    { command = { type = new_model which = light_armor value = 8 }
+      command = { type = new_model which = armor value = 16 }
+      command = { type = info_may_cause which = 2120 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2330 }
+      command = { type = info_may_cause which = 2530 }
+      command = { type = info_may_cause which = 2730 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6320 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = light_armor value = 7 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 15 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1130
+    name        = TECH_APP_INFANTRY_8_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_8_NAME
+    position    = { x = 272 y = 38 }
+    year      = 2000
+    component   = { id = 1131 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1132 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1133 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1134 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1135 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 2240 2340 2540 2740 2840 6420 }
+    OR_required = { 2130 }
+    effects =
+    { command = { type = new_model which = light_armor value = 9 }
+      command = { type = new_model which = armor value = 17 }
+      command = { type = info_may_cause which = 2130 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2340 }
+      command = { type = info_may_cause which = 2540 }
+      command = { type = info_may_cause which = 2740 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6420 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = light_armor value = 7 }
+      command = { type = scrap_model which = light_armor value = 8 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 15 }
+      command = { type = scrap_model which = armor value = 16 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1150
+    name        = TECH_APP_INFANTRY_9_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_9_NAME
+    position    = { x = 393 y = 6 }
+    year      = 2000
+    component   = { id = 1151 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1152 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1153 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1154 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1155 name = "" type = combined_arms_focus difficulty = 3 }
+    required    = { 2230 2330 2530 2730 2830 6320 }
+    OR_required = { 2150 }
+    effects =
+    { command = { type = new_model which = light_armor value = 11 }
+      command = { type = new_model which = armor value = 19 }
+      command = { type = info_may_cause which = 2150 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2330 }
+      command = { type = info_may_cause which = 2530 }
+      command = { type = info_may_cause which = 2730 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6320 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = light_armor value = 3 }
+      command = { type = scrap_model which = light_armor value = 4 }
+      command = { type = scrap_model which = light_armor value = 5 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 11 }
+      command = { type = scrap_model which = armor value = 12 }
+      command = { type = scrap_model which = armor value = 13 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1160
+    name        = TECH_APP_INFANTRY_10_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_10_NAME
+    position    = { x = 393 y = 22 }
+    year      = 2000
+    component   = { id = 1161 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1162 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1163 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1164 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1165 name = "" type = combined_arms_focus difficulty = 4 }
+    required    = { 2240 2340 2540 2740 2840 6420 }
+    OR_required = { 2160 }
+    effects =
+    { command = { type = new_model which = light_armor value = 12 }
+      command = { type = new_model which = armor value = 20 }
+      command = { type = info_may_cause which = 2160 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2340 }
+      command = { type = info_may_cause which = 2540 }
+      command = { type = info_may_cause which = 2740 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6420 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = light_armor value = 3 }
+      command = { type = scrap_model which = light_armor value = 4 }
+      command = { type = scrap_model which = light_armor value = 5 }
+      command = { type = scrap_model which = light_armor value = 11 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 11 }
+      command = { type = scrap_model which = armor value = 12 }
+      command = { type = scrap_model which = armor value = 13 }
+      command = { type = scrap_model which = armor value = 19 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1180
+    name        = TECH_APP_INFANTRY_11_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_11_NAME
+    position    = { x = 514 y = 6 }
+    year      = 2000
+    component   = { id = 1181 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1182 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1183 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1184 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1185 name = "" type = combined_arms_focus difficulty = 4 }
+    required    = { 2240 2340 2540 2740 2840 6420 }
+    OR_required = { 2180 }
+    effects =
+    { command = { type = new_model which = light_armor value = 14 }
+      command = { type = new_model which = armor value = 22 }
+      command = { type = info_may_cause which = 2180 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2340 }
+      command = { type = info_may_cause which = 2540 }
+      command = { type = info_may_cause which = 2740 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6420 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = light_armor value = 3 }
+      command = { type = scrap_model which = light_armor value = 4 }
+      command = { type = scrap_model which = light_armor value = 5 }
+      command = { type = scrap_model which = light_armor value = 7 }
+      command = { type = scrap_model which = light_armor value = 8 }
+      command = { type = scrap_model which = light_armor value = 9 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 11 }
+      command = { type = scrap_model which = armor value = 12 }
+      command = { type = scrap_model which = armor value = 13 }
+      command = { type = scrap_model which = armor value = 15 }
+      command = { type = scrap_model which = armor value = 16 }
+      command = { type = scrap_model which = armor value = 17 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  application =
+  { id          = 1190
+    name        = TECH_APP_INFANTRY_12_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_12_NAME
+    position    = { x = 514 y = 22 }
+    year      = 2000
+    component   = { id = 1191 name = "" type = combined_arms_focus difficulty = 5 }
+    component   = { id = 1192 name = "" type = combined_arms_focus difficulty = 5 }
+    component   = { id = 1193 name = "" type = combined_arms_focus difficulty = 5 }
+    component   = { id = 1194 name = "" type = combined_arms_focus difficulty = 5 }
+    component   = { id = 1195 name = "" type = combined_arms_focus difficulty = 5 }
+    required    = { 2250 2350 2550 2750 2850 6520 }
+    OR_required = { 2190 }
+    effects =
+    { command = { type = new_model which = light_armor value = 15 }
+      command = { type = new_model which = armor value = 23 }
+      command = { type = info_may_cause which = 2190 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2350 }
+      command = { type = info_may_cause which = 2550 }
+      command = { type = info_may_cause which = 2750 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 6520 }
+      command = { type = activate_unit_type which = light_armor }
+      command = { type = activate_unit_type which = armor }
+      command = { type = scrap_model which = light_armor value = 0 }
+      command = { type = scrap_model which = light_armor value = 1 }
+      command = { type = scrap_model which = light_armor value = 3 }
+      command = { type = scrap_model which = light_armor value = 4 }
+      command = { type = scrap_model which = light_armor value = 5 }
+      command = { type = scrap_model which = light_armor value = 7 }
+      command = { type = scrap_model which = light_armor value = 8 }
+      command = { type = scrap_model which = light_armor value = 9 }
+      command = { type = scrap_model which = light_armor value = 14 }
+      command = { type = scrap_model which = armor value = 7 }
+      command = { type = scrap_model which = armor value = 8 }
+      command = { type = scrap_model which = armor value = 11 }
+      command = { type = scrap_model which = armor value = 12 }
+      command = { type = scrap_model which = armor value = 13 }
+      command = { type = scrap_model which = armor value = 15 }
+      command = { type = scrap_model which = armor value = 16 }
+      command = { type = scrap_model which = armor value = 17 }
+      command = { type = scrap_model which = armor value = 22 }
+      command = { type = scrap_model which = armor value = 0 }
+    }
+  }
+  # Motorized Brigade
+  application =
+  { id          = 1300
+    name        = TECH_APP_INFANTRY_20_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_20_NAME
+    position    = { x = -16 y = 198 }
+    year      = 2000
+    component   = { id = 1301 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1302 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1303 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1304 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1305 name = "" type = infantry_focus difficulty = 1 }
+    required    = { 2200 2400 2600 2800 6110 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = mechanized value = 0 }
+      command = { type = info_may_cause which = 2200 }
+      command = { type = info_may_cause which = 2400 }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 2800 }
+      command = { type = info_may_cause which = 6110 }
+      command = { type = activate_unit_type which = mechanized }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  application =
+  { id          = 1310
+    name        = TECH_APP_INFANTRY_21_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_21_NAME
+    position    = { x = -16 y = 214 }
+    year      = 2000
+    component   = { id = 1311 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1312 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1313 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1314 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1315 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 2210 2410 2610 2810 6110 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = mechanized value = 1 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2410 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 6110 }
+      command = { type = activate_unit_type which = mechanized }
+      command = { type = scrap_model which = mechanized value = 0 }
+    }
+  }
+  application =
+  { id          = 1320
+    name        = TECH_APP_INFANTRY_22_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_22_NAME
+    position    = { x = -16 y = 230 }
+    year      = 2000
+    component   = { id = 1321 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1322 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1323 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1324 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1325 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 2220 2420 2620 2820 6210 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = mechanized value = 2 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2420 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6210 }
+      command = { type = scrap_model which = mechanized value = 1 }
+      command = { type = scrap_model which = mechanized value = 0 }
+      command = { type = activate_unit_type which = mechanized }
+    }
+  }
+  application =
+  { id          = 1330
+    name        = TECH_APP_INFANTRY_23_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_23_NAME
+    position    = { x = -16 y = 246 }
+    year      = 2000
+    component   = { id = 1331 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1332 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1333 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1334 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1335 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 2230 2430 2630 2830 6310 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = mechanized value = 3 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2430 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6310 }
+      command = { type = activate_unit_type which = mechanized }
+      command = { type = scrap_model which = mechanized value = 2 }
+      command = { type = scrap_model which = mechanized value = 1 }
+      command = { type = scrap_model which = mechanized value = 0 }
+    }
+  }
+  application =
+  { id          = 1340
+    name        = TECH_APP_INFANTRY_24_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_24_NAME
+    position    = { x = -16 y = 262 }
+    year      = 2000
+    component   = { id = 1341 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1342 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1343 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1344 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1345 name = "" type = infantry_focus difficulty = 3 }
+    required    = { 2240 2440 2640 2840 6410 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = mechanized value = 4 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2440 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6410 }
+      command = { type = activate_unit_type which = mechanized }
+      command = { type = scrap_model which = mechanized value = 3 }
+      command = { type = scrap_model which = mechanized value = 2 }
+      command = { type = scrap_model which = mechanized value = 1 }
+      command = { type = scrap_model which = mechanized value = 0 }
+    }
+  }
+  application =
+  { id          = 1350
+    name        = TECH_APP_INFANTRY_25_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_25_NAME
+    position    = { x = -16 y = 278 }
+    year      = 2000
+    component   = { id = 1351 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1352 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1353 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1354 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1355 name = "" type = infantry_focus difficulty = 4 }
+    required    = { 2250 2450 2650 2850 6510 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = mechanized value = 5 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2450 }
+      command = { type = info_may_cause which = 2650 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 6510 }
+      command = { type = activate_unit_type which = mechanized }
+      command = { type = scrap_model which = mechanized value = 4 }
+      command = { type = scrap_model which = mechanized value = 3 }
+      command = { type = scrap_model which = mechanized value = 2 }
+      command = { type = scrap_model which = mechanized value = 1 }
+      command = { type = scrap_model which = mechanized value = 0 }
+    }
+  }
+  # Motorized Division
+  application =
+  { id          = 1400
+    name        = TECH_APP_INFANTRY_26_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_26_NAME
+    position    = { x = 105 y = 198 }
+    year      = 2000
+    component   = { id = 1401 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1402 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1403 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1404 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1405 name = "" type = infantry_focus difficulty = 1 }
+    required    = { 1300 2500 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = motorized value = 0 }
+      command = { type = info_may_cause which = 2500 }
+      command = { type = activate_unit_type which = motorized }
+    }
+  }
+  application =
+  { id          = 1410
+    name        = TECH_APP_INFANTRY_27_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_27_NAME
+    position    = { x = 105 y = 214 }
+    year      = 2000
+    component   = { id = 1411 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1412 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1413 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1414 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1415 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 1310 2510 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = motorized value = 1 }
+      command = { type = info_may_cause which = 2510 }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = scrap_model which = motorized value = 0 }
+    }
+  }
+  application =
+  { id          = 1420
+    name        = TECH_APP_INFANTRY_28_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_28_NAME
+    position    = { x = 105 y = 230 }
+    year      = 2000
+    component   = { id = 1421 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1422 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1423 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1424 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1425 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 1320 2520 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = motorized value = 2 }
+      command = { type = info_may_cause which = 2520 }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = scrap_model which = motorized value = 1 }
+      command = { type = scrap_model which = motorized value = 0 }
+    }
+  }
+  application =
+  { id          = 1430
+    name        = TECH_APP_INFANTRY_29_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_29_NAME
+    position    = { x = 105 y = 246 }
+    year      = 2000
+    component   = { id = 1431 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1432 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1433 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1434 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1435 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 1330 2530 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = motorized value = 3 }
+      command = { type = info_may_cause which = 2530 }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = scrap_model which = motorized value = 2 }
+      command = { type = scrap_model which = motorized value = 1 }
+      command = { type = scrap_model which = motorized value = 0 }
+    }
+  }
+  application =
+  { id          = 1440
+    name        = TECH_APP_INFANTRY_30_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_30_NAME
+    position    = { x = 105 y = 262 }
+    year      = 2000
+    component   = { id = 1441 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1442 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1443 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1444 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1445 name = "" type = infantry_focus difficulty = 3 }
+    required    = { 1340 2540 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = motorized value = 4 }
+      command = { type = info_may_cause which = 2540 }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = scrap_model which = motorized value = 3 }
+      command = { type = scrap_model which = motorized value = 2 }
+      command = { type = scrap_model which = motorized value = 1 }
+      command = { type = scrap_model which = motorized value = 0 }
+    }
+  }
+  application =
+  { id          = 1450
+    name        = TECH_APP_INFANTRY_31_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_31_NAME
+    position    = { x = 105 y = 278 }
+    year      = 2000
+    component   = { id = 1451 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1452 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1453 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1454 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1455 name = "" type = infantry_focus difficulty = 4 }
+    required    = { 1350 2550 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = motorized value = 5 }
+      command = { type = info_may_cause which = 2550 }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = scrap_model which = motorized value = 4 }
+      command = { type = scrap_model which = motorized value = 3 }
+      command = { type = scrap_model which = motorized value = 2 }
+      command = { type = scrap_model which = motorized value = 1 }
+      command = { type = scrap_model which = motorized value = 0 }
+    }
+  }
+  # Mechanized Brigade
+  application =
+  { id          = 1500
+    name        = TECH_APP_INFANTRY_32_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_32_NAME
+    position    = { x = -16 y = 80 }
+    year      = 2000
+    component   = { id = 1501 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1502 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1503 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1504 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1505 name = "" type = infantry_focus difficulty = 1 }
+    required    = { 2200 2300 2500 2700 2800 6120 }
+    OR_required = { 2000 }
+    effects =
+    { command = { type = new_model which = cavalry value = 0 }
+      command = { type = info_may_cause which = 2000 }
+      command = { type = info_may_cause which = 2200 }
+      command = { type = info_may_cause which = 2300 }
+      command = { type = info_may_cause which = 2500 }
+      command = { type = info_may_cause which = 2700 }
+      command = { type = info_may_cause which = 2800 }
+      command = { type = info_may_cause which = 6120 }
+      command = { type = activate_unit_type which = cavalry }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  application =
+  { id          = 1510
+    name        = TECH_APP_INFANTRY_33_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_33_NAME
+    position    = { x = -16 y = 96 }
+    year      = 2000
+    component   = { id = 1511 name = "" type = combined_arms_focus difficulty = 1 }
+    component   = { id = 1512 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1513 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1514 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1515 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 2210 2310 2510 2710 2810 6120 }
+    OR_required = { 2010 2050 }
+    effects =
+    { command = { type = new_model which = cavalry value = 1 }
+      command = { type = info_may_cause which = 2050 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2310 }
+      command = { type = info_may_cause which = 2510 }
+      command = { type = info_may_cause which = 2710 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 6120 }
+      command = { type = activate_unit_type which = cavalry }
+      command = { type = scrap_model which = cavalry value = 0 }
+    }
+  }
+  application =
+  { id          = 1520
+    name        = TECH_APP_INFANTRY_34_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_34_NAME
+    position    = { x = -16 y = 112 }
+    year      = 2000
+    component   = { id = 1521 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1522 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1523 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1524 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1525 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 2220 2320 2520 2720 2820 6220 }
+    OR_required = { 2060 2110 }
+    effects =
+    { command = { type = new_model which = cavalry value = 2 }
+      command = { type = info_may_cause which = 2110 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2320 }
+      command = { type = info_may_cause which = 2520 }
+      command = { type = info_may_cause which = 2720 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6220 }
+      command = { type = activate_unit_type which = cavalry }
+      command = { type = scrap_model which = cavalry value = 1 }
+      command = { type = scrap_model which = cavalry value = 0 }
+    }
+  }
+  application =
+  { id          = 1530
+    name        = TECH_APP_INFANTRY_35_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_35_NAME
+    position    = { x = -16 y = 128 }
+    year      = 2000
+    component   = { id = 1531 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1532 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1533 name = "" type = combined_arms_focus difficulty = 2 }
+    component   = { id = 1534 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1535 name = "" type = infantry_focus difficulty = 2 }
+    required    = { 2230 2330 2530 2730 2830 6320 }
+    OR_required = { 2070 2120 2150 }
+    effects =
+    { command = { type = new_model which = cavalry value = 3 }
+      command = { type = info_may_cause which = 2150 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2330 }
+      command = { type = info_may_cause which = 2530 }
+      command = { type = info_may_cause which = 2730 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6320 }
+      command = { type = activate_unit_type which = cavalry }
+      command = { type = scrap_model which = cavalry value = 2 }
+      command = { type = scrap_model which = cavalry value = 1 }
+      command = { type = scrap_model which = cavalry value = 0 }
+    }
+  }
+  application =
+  { id          = 1540
+    name        = TECH_APP_INFANTRY_36_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_36_NAME
+    position    = { x = -16 y = 144 }
+    year      = 2000
+    component   = { id = 1541 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1542 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1543 name = "" type = combined_arms_focus difficulty = 3 }
+    component   = { id = 1544 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1545 name = "" type = infantry_focus difficulty = 3 }
+    required    = { 2240 2340 2540 2740 2840 6420 }
+    OR_required = { 2130 2160 2180 }
+    effects =
+    { command = { type = new_model which = cavalry value = 4 }
+      command = { type = info_may_cause which = 2180 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2340 }
+      command = { type = info_may_cause which = 2540 }
+      command = { type = info_may_cause which = 2740 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6420 }
+      command = { type = activate_unit_type which = cavalry }
+      command = { type = scrap_model which = cavalry value = 3 }
+      command = { type = scrap_model which = cavalry value = 2 }
+      command = { type = scrap_model which = cavalry value = 1 }
+      command = { type = scrap_model which = cavalry value = 0 }
+    }
+  }
+  application =
+  { id          = 1550
+    name        = TECH_APP_INFANTRY_37_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_37_NAME
+    position    = { x = -16 y = 160 }
+    year      = 2000
+    component   = { id = 1551 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1552 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1553 name = "" type = combined_arms_focus difficulty = 4 }
+    component   = { id = 1554 name = "" type = infantry_focus difficulty = 4 }
+    component   = { id = 1555 name = "" type = infantry_focus difficulty = 4 }
+    required    = { 2250 2350 2550 2750 2850 6520 }
+    OR_required = { 2190 }
+    effects =
+    { command = { type = new_model which = cavalry value = 5 }
+      command = { type = info_may_cause which = 2190 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2350 }
+      command = { type = info_may_cause which = 2550 }
+      command = { type = info_may_cause which = 2750 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 6520 }
+      command = { type = activate_unit_type which = cavalry }
+      command = { type = scrap_model which = cavalry value = 4 }
+      command = { type = scrap_model which = cavalry value = 3 }
+      command = { type = scrap_model which = cavalry value = 2 }
+      command = { type = scrap_model which = cavalry value = 1 }
+      command = { type = scrap_model which = cavalry value = 0 }
+    }
+  }
+  # Mechanized Division
+  application =
+  { id        = 1200
+    name      = TECH_APP_INFANTRY_13_NAME
+    desc      = SHORT_TECH_APP_INFANTRY_13_NAME
+    position  = { x = 105 y = 80 }
+    year      = 2000
+    component = { id = 1201 name = "" type = combined_arms_focus difficulty = 1 }
+    component = { id = 1202 name = "" type = combined_arms_focus difficulty = 1 }
+    component = { id = 1203 name = "" type = combined_arms_focus difficulty = 1 }
+    component = { id = 1204 name = "" type = infantry_focus difficulty = 1 }
+    component = { id = 1205 name = "" type = infantry_focus difficulty = 1 }
+    required  = { 1500 }
+    effects =
+    { command = { type = new_model which = infantry value = 0 }
+      command = { type = activate_unit_type which = infantry }
+    }
+  }
+  application =
+  { id        = 1210
+    name      = TECH_APP_INFANTRY_14_NAME
+    desc      = SHORT_TECH_APP_INFANTRY_14_NAME
+    position  = { x = 105 y = 96 }
+    year      = 2000
+    component = { id = 1211 name = "" type = combined_arms_focus difficulty = 1 }
+    component = { id = 1212 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1213 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1214 name = "" type = infantry_focus difficulty = 1 }
+    component = { id = 1215 name = "" type = infantry_focus difficulty = 2 }
+    required  = { 1510 }
+    effects =
+    { command = { type = new_model which = infantry value = 1 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = scrap_model which = infantry value = 0 }
+    }
+  }
+  application =
+  { id        = 1220
+    name      = TECH_APP_INFANTRY_15_NAME
+    desc      = SHORT_TECH_APP_INFANTRY_15_NAME
+    position  = { x = 105 y = 112 }
+    year      = 2000
+    component = { id = 1221 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1222 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1223 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1224 name = "" type = infantry_focus difficulty = 2 }
+    component = { id = 1225 name = "" type = infantry_focus difficulty = 2 }
+    required  = { 1520 }
+    effects =
+    { command = { type = new_model which = infantry value = 2 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = scrap_model which = infantry value = 1 }
+      command = { type = scrap_model which = infantry value = 0 }
+    }
+  }
+  application =
+  { id        = 1230
+    name      = TECH_APP_INFANTRY_16_NAME
+    desc      = SHORT_TECH_APP_INFANTRY_16_NAME
+    position  = { x = 105 y = 128 }
+    year      = 2000
+    component = { id = 1231 name = "" type = combined_arms_focus difficulty = 3 }
+    component = { id = 1232 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1233 name = "" type = combined_arms_focus difficulty = 2 }
+    component = { id = 1234 name = "" type = infantry_focus difficulty = 3 }
+    component = { id = 1235 name = "" type = infantry_focus difficulty = 2 }
+    required  = { 1530 }
+    effects =
+    { command = { type = new_model which = infantry value = 3 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = scrap_model which = infantry value = 2 }
+      command = { type = scrap_model which = infantry value = 1 }
+      command = { type = scrap_model which = infantry value = 0 }
+    }
+  }
+  application =
+  { id        = 1240
+    name      = TECH_APP_INFANTRY_17_NAME
+    desc      = SHORT_TECH_APP_INFANTRY_17_NAME
+    position  = { x = 105 y = 144 }
+    year      = 2000
+    component = { id = 1241 name = "" type = combined_arms_focus difficulty = 3 }
+    component = { id = 1242 name = "" type = combined_arms_focus difficulty = 3 }
+    component = { id = 1243 name = "" type = combined_arms_focus difficulty = 3 }
+    component = { id = 1244 name = "" type = infantry_focus difficulty = 3 }
+    component = { id = 1245 name = "" type = infantry_focus difficulty = 3 }
+    required  = { 1540 }
+    effects =
+    { command = { type = new_model which = infantry value = 4 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = scrap_model which = infantry value = 3 }
+      command = { type = scrap_model which = infantry value = 2 }
+      command = { type = scrap_model which = infantry value = 1 }
+      command = { type = scrap_model which = infantry value = 0 }
+    }
+  }
+  application =
+  { id        = 1250
+    name      = TECH_APP_INFANTRY_18_NAME
+    desc      = SHORT_TECH_APP_INFANTRY_18_NAME
+    position  = { x = 105 y = 160 }
+    year      = 2000
+    component = { id = 1251 name = "" type = combined_arms_focus difficulty = 4 }
+    component = { id = 1252 name = "" type = combined_arms_focus difficulty = 4 }
+    component = { id = 1253 name = "" type = combined_arms_focus difficulty = 4 }
+    component = { id = 1254 name = "" type = infantry_focus difficulty = 4 }
+    component = { id = 1255 name = "" type = infantry_focus difficulty = 4 }
+    required  = { 1550 }
+    effects =
+    { command = { type = new_model which = infantry value = 5 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = scrap_model which = infantry value = 4 }
+      command = { type = scrap_model which = infantry value = 3 }
+      command = { type = scrap_model which = infantry value = 2 }
+      command = { type = scrap_model which = infantry value = 1 }
+      command = { type = scrap_model which = infantry value = 0 }
+    }
+  }
+  # Marine Brigade
+  application =
+  { id          = 1600
+    name        = TECH_APP_INFANTRY_38_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_38_NAME
+    position    = { x = 393 y = 198 }
+    year      = 2000
+    component   = { id = 1601 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1602 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1603 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1604 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1605 name = "" type = individual_courage difficulty = 1 }
+    required    = { 2220 2420 2620 2820 6230 2520 }
+    OR_required = { 2110 2060 }
+    effects =
+    { command = { type = new_model which = marine value = 11 }
+      command = { type = info_may_cause which = 2110 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2420 }
+      command = { type = info_may_cause which = 2520 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6230 }
+      command = { type = activate_unit_type which = marine }
+      command = { type = scrap_model which = marine value = 0 }
+    }
+  }
+  application =
+  { id          = 1610
+    name        = TECH_APP_INFANTRY_39_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_39_NAME
+    position    = { x = 393 y = 216 }
+    year      = 2000
+    component   = { id = 1611 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1612 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1613 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1614 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1615 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2230 2430 2630 2830 6330 2530 }
+    OR_required = { 2070 2120 2150 }
+    effects =
+    { command = { type = new_model which = marine value = 12 }
+      command = { type = info_may_cause which = 2150 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2430 }
+      command = { type = info_may_cause which = 2530 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6330 }
+      command = { type = activate_unit_type which = marine }
+      command = { type = scrap_model which = marine value = 11 }
+      command = { type = scrap_model which = marine value = 0 }
+    }
+  }
+  application =
+  { id          = 1620
+    name        = TECH_APP_INFANTRY_40_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_40_NAME
+    position    = { x = 393 y = 234 }
+    year      = 2000
+    component   = { id = 1621 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1622 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1623 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1624 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1625 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2240 2440 2640 2840 6430 2540 }
+    OR_required = { 2130 2160 2180 }
+    effects =
+    { command = { type = new_model which = marine value = 13 }
+      command = { type = info_may_cause which = 2180 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2440 }
+      command = { type = info_may_cause which = 2540 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6430 }
+      command = { type = activate_unit_type which = marine }
+      command = { type = scrap_model which = marine value = 12 }
+      command = { type = scrap_model which = marine value = 11 }
+      command = { type = scrap_model which = marine value = 0 }
+    }
+  }
+  application =
+  { id          = 1630
+    name        = TECH_APP_INFANTRY_41_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_41_NAME
+    position    = { x = 393 y = 252 }
+    year      = 2000
+    component   = { id = 1631 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1632 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1633 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1634 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1635 name = "" type = individual_courage difficulty = 3 }
+    required    = { 2250 2450 2650 2850 6530 2550 2190 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = marine value = 14 }
+      command = { type = info_may_cause which = 2190 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2450 }
+      command = { type = info_may_cause which = 2550 }
+      command = { type = info_may_cause which = 2650 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 6530 }
+      command = { type = activate_unit_type which = marine }
+      command = { type = scrap_model which = marine value = 13 }
+      command = { type = scrap_model which = marine value = 12 }
+      command = { type = scrap_model which = marine value = 11 }
+      command = { type = scrap_model which = marine value = 0 }
+    }
+  }
+  # Marine Division
+  application =
+  { id          = 1650
+    name        = TECH_APP_INFANTRY_42_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_42_NAME
+    position    = { x = 514 y = 198 }
+    year      = 2000
+    component   = { id = 1651 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1652 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1653 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1654 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1655 name = "" type = combined_arms_focus difficulty = 1 }
+    required    = { 1600 2720 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = marine value = 16 }
+      command = { type = info_may_cause which = 2720 }
+    }
+  }
+  application =
+  { id          = 1660
+    name        = TECH_APP_INFANTRY_43_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_43_NAME
+    position    = { x = 514 y = 216 }
+    year      = 2000
+    component   = { id = 1661 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1662 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1663 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1664 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1665 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 1610 2730 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = marine value = 17 }
+      command = { type = info_may_cause which = 2730 }
+      command = { type = scrap_model which = marine value = 16 }
+    }
+  }
+  application =
+  { id          = 1670
+    name        = TECH_APP_INFANTRY_44_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_44_NAME
+    position    = { x = 514 y = 234 }
+    year      = 2000
+    component   = { id = 1671 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1672 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1673 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1674 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1675 name = "" type = combined_arms_focus difficulty = 2 }
+    required    = { 1620 2740 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = marine value = 18 }
+      command = { type = info_may_cause which = 2740 }
+      command = { type = scrap_model which = marine value = 17 }
+      command = { type = scrap_model which = marine value = 16 }
+    }
+  }
+  application =
+  { id          = 1680
+    name        = TECH_APP_INFANTRY_45_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_45_NAME
+    position    = { x = 514 y = 252 }
+    year      = 2000
+    component   = { id = 1681 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1682 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1683 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1684 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1685 name = "" type = combined_arms_focus difficulty = 3 }
+    required    = { 1630 2750 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = marine value = 19 }
+      command = { type = info_may_cause which = 2750 }
+      command = { type = scrap_model which = marine value = 18 }
+      command = { type = scrap_model which = marine value = 17 }
+      command = { type = scrap_model which = marine value = 16 }
+    }
+  }
+  # Garrison 1965
+  application =
+  { id          = 1260
+    name        = TECH_APP_INFANTRY_46_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_46_NAME
+    position    = { x = 249 y = 218 }
+    year      = 2000
+    component   = { id = 1261 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1262 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1263 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1264 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1265 name = "" type = infantry_focus difficulty = 1 }
+    required    = { 2200 6100 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = garrison value = 7 }
+      command = { type = info_may_cause which = 2200 }
+      command = { type = info_may_cause which = 6100 }
+      command = { type = activate_unit_type which = garrison }
+      command = { type = scrap_model which = garrison value = 0 }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  # Garrison 1985
+  application =
+  { id          = 1270
+    name        = TECH_APP_INFANTRY_47_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_47_NAME
+    position    = { x = 250 y = 236 }
+    year      = 2000
+    component   = { id = 1271 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1272 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1273 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1274 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1275 name = "" type = infantry_focus difficulty = 1 }
+    required    = { 2220 6200 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = garrison value = 8 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 6200 }
+      command = { type = activate_unit_type which = garrison }
+      command = { type = scrap_model which = garrison value = 7 }
+      command = { type = scrap_model which = garrison value = 0 }
+    }
+  }
+  application =
+  { id          = 1280
+    name        = TECH_APP_INFANTRY_48_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_48_NAME
+    position    = { x = 250 y = 254 }
+    year      = 2000
+    component   = { id = 1281 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1282 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1283 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1284 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1285 name = "" type = infantry_focus difficulty = 1 }
+    required    = { 2240 6400 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = garrison value = 9 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 6400 }
+      command = { type = activate_unit_type which = garrison }
+      command = { type = scrap_model which = garrison value = 8 }
+      command = { type = scrap_model which = garrison value = 7 }
+      command = { type = scrap_model which = garrison value = 0 }
+    }
+  }
+  # Airmobile Cavalry Brigade
+  application =
+  { id          = 1700
+    name        = TECH_APP_INFANTRY_49_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_49_NAME
+    position    = { x = -16 y = 316 }
+    year      = 2000
+    component   = { id = 1701 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1702 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1703 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1704 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1705 name = "" type = individual_courage difficulty = 1 }
+    required    = { 2210 2610 2810 4650 6150 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = militia value = 1 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 4650 }
+      command = { type = info_may_cause which = 6150 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  application =
+  { id          = 1710
+    name        = TECH_APP_INFANTRY_50_NAME
+    desc        = SHORT_TECH_APP_INFANTRY_50_NAME
+    position    = { x = -16 y = 334 }
+    year      = 2000
+    component   = { id = 1711 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1712 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1713 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1714 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1715 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2220 2620 2820 4660 6250 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = militia value = 2 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 4660 }
+      command = { type = info_may_cause which = 6250 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 1 }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  application =
+  { id          = 1720
+    name        = TECH_APP_INFANTRY_51_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 105 y = 316 }
+    year      = 2000
+    component   = { id = 1721 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1722 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1723 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1724 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1725 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2230 2630 2830 4670 6350 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = militia value = 3 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 4670 }
+      command = { type = info_may_cause which = 6350 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 2 }
+      command = { type = scrap_model which = militia value = 1 }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  application =
+  { id          = 1730
+    name        = TECH_APP_INFANTRY_52_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 105 y = 334 }
+    year      = 2000
+    component   = { id = 1731 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1732 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1733 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1734 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1735 name = "" type = individual_courage difficulty = 3 }
+    required    = { 2240 2640 2840 4680 6450 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = militia value = 4 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 4680 }
+      command = { type = info_may_cause which = 6450 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 3 }
+      command = { type = scrap_model which = militia value = 2 }
+      command = { type = scrap_model which = militia value = 1 }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  application =
+  { id          = 1740
+    name        = TECH_APP_INFANTRY_53_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 226 y = 326 }
+    year      = 2000
+    component   = { id = 1741 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1742 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1743 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1744 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1745 name = "" type = individual_courage difficulty = 3 }
+    required    = { 2250 2650 2850 4680 6550 6570 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = militia value = 5 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2650 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 4680 }
+      command = { type = info_may_cause which = 6550 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 4 }
+      command = { type = scrap_model which = militia value = 3 }
+      command = { type = scrap_model which = militia value = 2 }
+      command = { type = scrap_model which = militia value = 1 }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  # Paratrooper Brigade
+  application =
+  { id          = 1800
+    name        = TECH_APP_INFANTRY_54_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 393 y = 298 }
+    year      = 2000
+    component   = { id = 1801 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1802 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1803 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1804 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1805 name = "" type = individual_courage difficulty = 1 }
+    required    = { 2210 2610 2810 6140 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = paratrooper value = 14 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 6140 }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = scrap_model which = paratrooper value = 0 }
+    }
+  }
+  application =
+  { id          = 1810
+    name        = TECH_APP_INFANTRY_55_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 393 y = 316 }
+    year      = 2000
+    component   = { id = 1811 name = "" type = infantry_focus difficulty = 1 }
+    component   = { id = 1812 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1813 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1814 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1815 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2220 2620 2820 6240 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = paratrooper value = 15 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6240 }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = scrap_model which = paratrooper value = 14 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+    }
+  }
+  application =
+  { id          = 1820
+    name        = TECH_APP_INFANTRY_56_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 393 y = 334 }
+    year      = 2000
+    component   = { id = 1821 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1822 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1823 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1824 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1825 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2230 2630 2830 6340 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = paratrooper value = 16 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6340 }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = scrap_model which = paratrooper value = 15 }
+      command = { type = scrap_model which = paratrooper value = 14 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+    }
+  }
+  application =
+  { id          = 1830
+    name        = TECH_APP_INFANTRY_57_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 514 y = 305 }
+    year      = 2000
+    component   = { id = 1831 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1832 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1833 name = "" type = infantry_focus difficulty = 2 }
+    component   = { id = 1834 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1835 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2240 2640 2840 6440 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = paratrooper value = 17 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6440 }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = scrap_model which = paratrooper value = 16 }
+      command = { type = scrap_model which = paratrooper value = 15 }
+      command = { type = scrap_model which = paratrooper value = 14 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+    }
+  }
+  application =
+  { id          = 1840
+    name        = TECH_APP_INFANTRY_58_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 514 y = 323 }
+    year      = 2000
+    component   = { id = 1841 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1842 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1843 name = "" type = infantry_focus difficulty = 3 }
+    component   = { id = 1844 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1845 name = "" type = individual_courage difficulty = 3 }
+    required    = { 2250 2650 2850 6540 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = paratrooper value = 18 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2650 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 6540 }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = scrap_model which = paratrooper value = 17 }
+      command = { type = scrap_model which = paratrooper value = 16 }
+      command = { type = scrap_model which = paratrooper value = 15 }
+      command = { type = scrap_model which = paratrooper value = 14 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+    }
+  }
+  # Special Operations Brigade
+  application =
+  { id          = 1900
+    name        = TECH_APP_INFANTRY_59_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 448 y = 80 }
+    year      = 2000
+    component   = { id = 1901 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1902 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1903 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1904 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1905 name = "" type = individual_courage difficulty = 1 }
+    required    = { 2200 2600 2800 6160 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 11 }
+      command = { type = info_may_cause which = 2200 }
+      command = { type = info_may_cause which = 2600 }
+      command = { type = info_may_cause which = 2800 }
+      command = { type = info_may_cause which = 6160 }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  application =
+  { id          = 1910
+    name        = TECH_APP_INFANTRY_60_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 448 y = 96 }
+    year      = 2000
+    component   = { id = 1911 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1912 name = "" type = individual_courage difficulty = 1 }
+    component   = { id = 1913 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1914 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1915 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2210 2610 2810 6160 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 12 }
+      command = { type = info_may_cause which = 2210 }
+      command = { type = info_may_cause which = 2610 }
+      command = { type = info_may_cause which = 2810 }
+      command = { type = info_may_cause which = 6160 }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = scrap_model which = bergsjaeger value = 11 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  application =
+  { id          = 1920
+    name        = TECH_APP_INFANTRY_61_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 448 y = 112 }
+    year      = 2000
+    component   = { id = 1921 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1922 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1923 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1924 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1925 name = "" type = individual_courage difficulty = 2 }
+    required    = { 2220 2620 2820 6260 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 13 }
+      command = { type = info_may_cause which = 2220 }
+      command = { type = info_may_cause which = 2620 }
+      command = { type = info_may_cause which = 2820 }
+      command = { type = info_may_cause which = 6260 }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = scrap_model which = bergsjaeger value = 12 }
+      command = { type = scrap_model which = bergsjaeger value = 11 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  application =
+  { id          = 1930
+    name        = TECH_APP_INFANTRY_62_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 448 y = 128 }
+    year      = 2000
+    component   = { id = 1931 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1932 name = "" type = individual_courage difficulty = 2 }
+    component   = { id = 1933 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1934 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1935 name = "" type = individual_courage difficulty = 3 }
+    required    = { 2230 2630 2830 6360 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 14 }
+      command = { type = info_may_cause which = 2230 }
+      command = { type = info_may_cause which = 2630 }
+      command = { type = info_may_cause which = 2830 }
+      command = { type = info_may_cause which = 6360 }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = scrap_model which = bergsjaeger value = 13 }
+      command = { type = scrap_model which = bergsjaeger value = 12 }
+      command = { type = scrap_model which = bergsjaeger value = 11 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  application =
+  { id          = 1940
+    name        = TECH_APP_INFANTRY_63_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 448 y = 144 }
+    year      = 2000
+    component   = { id = 1941 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1942 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1943 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1944 name = "" type = individual_courage difficulty = 3 }
+    component   = { id = 1945 name = "" type = individual_courage difficulty = 3 }
+    required    = { 2240 2640 2840 6460 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 15 }
+      command = { type = info_may_cause which = 2240 }
+      command = { type = info_may_cause which = 2640 }
+      command = { type = info_may_cause which = 2840 }
+      command = { type = info_may_cause which = 6460 }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = scrap_model which = bergsjaeger value = 14 }
+      command = { type = scrap_model which = bergsjaeger value = 13 }
+      command = { type = scrap_model which = bergsjaeger value = 12 }
+      command = { type = scrap_model which = bergsjaeger value = 11 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  application =
+  { id          = 1950
+    name        = TECH_APP_INFANTRY_64_NAME
+    desc        = TECH_APP_INFANTRY_1_DESC
+    position    = { x = 448 y = 160 }
+    year      = 2000
+    component   = { id = 1951 name = "" type = individual_courage difficulty = 4 }
+    component   = { id = 1952 name = "" type = individual_courage difficulty = 4 }
+    component   = { id = 1953 name = "" type = individual_courage difficulty = 4 }
+    component   = { id = 1954 name = "" type = individual_courage difficulty = 4 }
+    component   = { id = 1955 name = "" type = individual_courage difficulty = 4 }
+    required    = { 2250 2650 2850 6560 }
+    OR_required = { }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 16 }
+      command = { type = info_may_cause which = 2250 }
+      command = { type = info_may_cause which = 2650 }
+      command = { type = info_may_cause which = 2850 }
+      command = { type = info_may_cause which = 6560 }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = scrap_model which = bergsjaeger value = 15 }
+      command = { type = scrap_model which = bergsjaeger value = 14 }
+      command = { type = scrap_model which = bergsjaeger value = 13 }
+      command = { type = scrap_model which = bergsjaeger value = 12 }
+      command = { type = scrap_model which = bergsjaeger value = 11 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  application =
+  { id        = 1960
+    name      = TECH_APP_INFANTRY_65_NAME
+    desc      = TECH_APP_INFANTRY_1_DESC
+    position  = { x = 282 y = 140 }
+    year      = 2000
+    component = { id = 1961 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1962 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1963 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1964 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1965 name = "" type = individual_courage difficulty = 1 }
+    required  = { 1850 }
+    effects =
+    { command = { type = mountain_attack which = infantry value = 20 }
+      command = { type = mountain_attack which = cavalry value = 20 }
+      command = { type = mountain_attack which = motorized value = 20 }
+      command = { type = mountain_attack which = mechanized value = 20 }
+      command = { type = mountain_attack which = light_armor value = 10 }
+      command = { type = mountain_attack which = armor value = 10 }
+      command = { type = mountain_attack which = paratrooper value = 30 }
+      command = { type = mountain_attack which = marine value = 25 }
+      command = { type = mountain_attack which = bergsjaeger value = 35 }
+      command = { type = mountain_attack which = militia value = 30 }
+      command = { type = mountain_move which = infantry value = 10 }
+      command = { type = mountain_move which = cavalry value = 10 }
+      command = { type = mountain_move which = motorized value = 10 }
+      command = { type = mountain_move which = mechanized value = 10 }
+      command = { type = mountain_move which = light_armor value = 5 }
+      command = { type = mountain_move which = armor value = 5 }
+      command = { type = mountain_move which = paratrooper value = 15 }
+      command = { type = mountain_move which = marine value = 10 }
+      command = { type = mountain_move which = bergsjaeger value = 20 }
+      command = { type = mountain_move which = hq value = 10 }
+    }
+  }
+  application =
+  { id        = 1970
+    name      = TECH_APP_INFANTRY_66_NAME
+    desc      = TECH_APP_INFANTRY_1_DESC
+    position  = { x = 282 y = 120 }
+    year      = 2000
+    component = { id = 1971 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1972 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1973 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1974 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1975 name = "" type = individual_courage difficulty = 1 }
+    required  = { 1850 }
+    effects =
+    { command = { type = desert_attack which = infantry value = 30 }
+      command = { type = desert_attack which = cavalry value = 30 }
+      command = { type = desert_attack which = motorized value = 30 }
+      command = { type = desert_attack which = mechanized value = 30 }
+      command = { type = desert_attack which = light_armor value = 30 }
+      command = { type = desert_attack which = armor value = 30 }
+      command = { type = desert_attack which = paratrooper value = 30 }
+      command = { type = desert_attack which = marine value = 30 }
+      command = { type = desert_attack which = bergsjaeger value = 30 }
+      command = { type = desert_attack which = hq value = 30 }
+      command = { type = desert_attack which = militia value = 30 }
+      command = { type = desert_move which = infantry value = 30 }
+      command = { type = desert_move which = cavalry value = 30 }
+      command = { type = desert_move which = motorized value = 30 }
+      command = { type = desert_move which = mechanized value = 30 }
+      command = { type = desert_move which = light_armor value = 30 }
+      command = { type = desert_move which = armor value = 30 }
+      command = { type = desert_move which = paratrooper value = 30 }
+      command = { type = desert_move which = marine value = 30 }
+      command = { type = desert_move which = bergsjaeger value = 30 }
+      command = { type = desert_move which = hq value = 30 }
+    }
+  }
+  application =
+  { id        = 1980
+    name      = TECH_APP_INFANTRY_67_NAME
+    desc      = TECH_APP_INFANTRY_1_DESC
+    position  = { x = 282 y = 100 }
+    year      = 2000
+    component = { id = 1981 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1982 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1983 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1984 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1985 name = "" type = individual_courage difficulty = 1 }
+    required  = { 1850 }
+    effects =
+    { command = { type = muddy_attack which = infantry value = 20 }
+      command = { type = muddy_attack which = cavalry value = 20 }
+      command = { type = muddy_attack which = motorized value = 20 }
+      command = { type = muddy_attack which = mechanized value = 20 }
+      command = { type = muddy_attack which = light_armor value = 20 }
+      command = { type = muddy_attack which = armor value = 20 }
+      command = { type = muddy_attack which = paratrooper value = 30 }
+      command = { type = muddy_attack which = marine value = 40 }
+      command = { type = muddy_attack which = bergsjaeger value = 40 }
+      command = { type = muddy_attack which = militia value = 30 }
+      command = { type = muddy_move which = infantry value = 10 }
+      command = { type = muddy_move which = cavalry value = 10 }
+      command = { type = muddy_move which = motorized value = 10 }
+      command = { type = muddy_move which = mechanized value = 10 }
+      command = { type = muddy_move which = light_armor value = 10 }
+      command = { type = muddy_move which = armor value = 10 }
+      command = { type = muddy_move which = paratrooper value = 20 }
+      command = { type = muddy_move which = marine value = 30 }
+      command = { type = muddy_move which = bergsjaeger value = 20 }
+      command = { type = muddy_move which = hq value = 10 }
+      command = { type = swamp_attack which = infantry value = 10 }
+      command = { type = swamp_attack which = cavalry value = 10 }
+      command = { type = swamp_attack which = motorized value = 10 }
+      command = { type = swamp_attack which = mechanized value = 10 }
+      command = { type = swamp_attack which = light_armor value = 10 }
+      command = { type = swamp_attack which = armor value = 10 }
+      command = { type = swamp_attack which = paratrooper value = 10 }
+      command = { type = swamp_attack which = marine value = 20 }
+      command = { type = swamp_attack which = bergsjaeger value = 20 }
+      command = { type = swamp_attack which = militia value = 20 }
+      command = { type = swamp_move which = infantry value = 10 }
+      command = { type = swamp_move which = cavalry value = 10 }
+      command = { type = swamp_move which = motorized value = 10 }
+      command = { type = swamp_move which = mechanized value = 10 }
+      command = { type = swamp_move which = light_armor value = 10 }
+      command = { type = swamp_move which = armor value = 10 }
+      command = { type = swamp_move which = paratrooper value = 20 }
+      command = { type = swamp_move which = marine value = 20 }
+      command = { type = swamp_move which = bergsjaeger value = 20 }
+      command = { type = storm_attack which = infantry value = 10 }
+      command = { type = storm_attack which = cavalry value = 10 }
+      command = { type = storm_attack which = motorized value = 10 }
+      command = { type = storm_attack which = mechanized value = 10 }
+      command = { type = storm_attack which = light_armor value = 10 }
+      command = { type = storm_attack which = armor value = 10 }
+      command = { type = storm_attack which = paratrooper value = 20 }
+      command = { type = storm_attack which = marine value = 20 }
+      command = { type = storm_attack which = bergsjaeger value = 20 }
+      command = { type = storm_move which = infantry value = 10 }
+      command = { type = storm_move which = cavalry value = 10 }
+      command = { type = storm_move which = motorized value = 10 }
+      command = { type = storm_move which = mechanized value = 10 }
+      command = { type = storm_move which = light_armor value = 10 }
+      command = { type = storm_move which = armor value = 10 }
+      command = { type = storm_move which = paratrooper value = 20 }
+      command = { type = storm_move which = marine value = 20 }
+      command = { type = storm_move which = bergsjaeger value = 20 }
+      command = { type = jungle_attack which = infantry value = 10 }
+      command = { type = jungle_attack which = cavalry value = 10 }
+      command = { type = jungle_attack which = motorized value = 10 }
+      command = { type = jungle_attack which = mechanized value = 10 }
+      command = { type = jungle_attack which = light_armor value = 10 }
+      command = { type = jungle_attack which = armor value = 10 }
+      command = { type = jungle_attack which = paratrooper value = 10 }
+      command = { type = jungle_attack which = marine value = 20 }
+      command = { type = jungle_attack which = bergsjaeger value = 20 }
+      command = { type = jungle_attack which = militia value = 20 }
+      command = { type = jungle_move which = infantry value = 10 }
+      command = { type = jungle_move which = cavalry value = 10 }
+      command = { type = jungle_move which = motorized value = 10 }
+      command = { type = jungle_move which = mechanized value = 10 }
+      command = { type = jungle_move which = light_armor value = 10 }
+      command = { type = jungle_move which = armor value = 10 }
+      command = { type = jungle_move which = paratrooper value = 20 }
+      command = { type = jungle_move which = marine value = 20 }
+      command = { type = jungle_move which = bergsjaeger value = 20 }
+    }
+  }
+  application =
+  { id        = 1990
+    name      = TECH_APP_INFANTRY_68_NAME
+    desc      = TECH_APP_INFANTRY_1_DESC
+    position  = { x = 282 y = 160 }
+    year      = 2000
+    component = { id = 1991 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1992 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1993 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1994 name = "" type = individual_courage difficulty = 1 }
+    component = { id = 1995 name = "" type = individual_courage difficulty = 1 }
+    required  = { 1850 }
+    effects =
+    { command = { type = blizzard_attack which = infantry value = 30 }
+      command = { type = blizzard_attack which = cavalry value = 30 }
+      command = { type = blizzard_attack which = motorized value = 30 }
+      command = { type = blizzard_attack which = mechanized value = 30 }
+      command = { type = blizzard_attack which = light_armor value = 30 }
+      command = { type = blizzard_attack which = armor value = 30 }
+      command = { type = blizzard_attack which = paratrooper value = 30 }
+      command = { type = blizzard_attack which = marine value = 30 }
+      command = { type = blizzard_attack which = bergsjaeger value = 40 }
+      command = { type = blizzard_move which = infantry value = 30 }
+      command = { type = blizzard_move which = cavalry value = 30 }
+      command = { type = blizzard_move which = motorized value = 30 }
+      command = { type = blizzard_move which = mechanized value = 30 }
+      command = { type = blizzard_move which = light_armor value = 30 }
+      command = { type = blizzard_move which = armor value = 30 }
+      command = { type = blizzard_move which = paratrooper value = 30 }
+      command = { type = blizzard_move which = marine value = 30 }
+      command = { type = blizzard_move which = bergsjaeger value = 40 }
+      command = { type = blizzard_move which = hq value = 30 }
+      command = { type = snow_attack which = infantry value = 30 }
+      command = { type = snow_attack which = cavalry value = 30 }
+      command = { type = snow_attack which = motorized value = 30 }
+      command = { type = snow_attack which = mechanized value = 30 }
+      command = { type = snow_attack which = light_armor value = 30 }
+      command = { type = snow_attack which = armor value = 30 }
+      command = { type = snow_attack which = paratrooper value = 30 }
+      command = { type = snow_attack which = marine value = 30 }
+      command = { type = snow_attack which = bergsjaeger value = 35 }
+      command = { type = snow_move which = infantry value = 30 }
+      command = { type = snow_move which = cavalry value = 30 }
+      command = { type = snow_move which = motorized value = 30 }
+      command = { type = snow_move which = mechanized value = 30 }
+      command = { type = snow_move which = light_armor value = 30 }
+      command = { type = snow_move which = armor value = 30 }
+      command = { type = snow_move which = paratrooper value = 30 }
+      command = { type = snow_move which = marine value = 30 }
+      command = { type = snow_move which = bergsjaeger value = 35 }
+      command = { type = snow_move which = hq value = 30 }
+      command = { type = frozen_attack which = infantry value = 30 }
+      command = { type = frozen_attack which = cavalry value = 30 }
+      command = { type = frozen_attack which = motorized value = 30 }
+      command = { type = frozen_attack which = mechanized value = 30 }
+      command = { type = frozen_attack which = light_armor value = 30 }
+      command = { type = frozen_attack which = armor value = 30 }
+      command = { type = frozen_attack which = paratrooper value = 30 }
+      command = { type = frozen_attack which = marine value = 30 }
+      command = { type = frozen_attack which = bergsjaeger value = 35 }
+      command = { type = frozen_attack which = militia value = 30 }
+      command = { type = frozen_move which = infantry value = 30 }
+      command = { type = frozen_move which = cavalry value = 30 }
+      command = { type = frozen_move which = motorized value = 30 }
+      command = { type = frozen_move which = mechanized value = 30 }
+      command = { type = frozen_move which = light_armor value = 30 }
+      command = { type = frozen_move which = armor value = 30 }
+      command = { type = frozen_move which = paratrooper value = 30 }
+      command = { type = frozen_move which = marine value = 30 }
+      command = { type = frozen_move which = bergsjaeger value = 35 }
+      command = { type = frozen_move which = hq value = 30 }
+    }
+  }
+}

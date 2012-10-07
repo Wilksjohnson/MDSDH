@@ -1,0 +1,14 @@
+U99;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+83001;Head of State;Gnassingbé Eyadéma;2003;2050;2050;PA;Barking Buffoon;High;Geyadema;x
+83002;Head of Government;Gnassingbé Eyadéma;2003;2050;2050;PA;Ambitious Union Boss;High;Geyadema;x
+83003;Foreign Minister;Kofi Esaw;2003;2050;2050;PA;Apologetic Clerk;High;Kesaw;x
+83004;Minister of Armament;Faure Gnassingbe;2003;2050;2050;PA;Corrupt Kleptocrat;High;Fgnassingbe;x
+83005;Minister of Security;Atcha Titipkina;2003;2050;2050;PA;Silent Lawyer;High;Atitipkina;x
+83006;Head of Military Intelligence;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+83007;Chief of Staff;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+83008;Chief of Army;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+83009;Chief of Air Force;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+83010;Chief of Navy;Undistinguished Suit;2003;2050;2050;NA;Undistinguished Suit;High;Unknown;x
+;Replacements;;;;;;;x
+83011;Head of State;Faure Gnassingbe;2003;2050;2050;PA;Barking Buffoon;High;Fgnassingbe;x
+83012;Head of Government;Faure Gnassingbe;2003;2050;2050;PA;Naive Optimist;High;Fgnassingbe;x

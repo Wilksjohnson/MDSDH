@@ -1,0 +1,82 @@
+SER;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+71001;Head of State;Natasa Micic;2003;2050;2050;SL;Popular Figurehead;high;Nmicic;x
+71002;Head of Government;Zoran Zivkovic;2003;2050;2050;SL;Naive Optimist;high;M71021;x
+71003;Foreign Minister;Goran Svilanovic;2003;2050;2050;SL;Biased Intellectual;high;M71023;x
+71004;Minister of Armament;Boris Tadic;2003;2050;2050;SL;laissez-faire capitalist;high;M71001;x
+71005;Minister of Security;Dusan Mihajlovic;2003;2050;2050;SL;Crooked Kleptocrat;high;Dmihajlovic;x
+71006;Head of Military Intelligence;Misa Milicevic;2003;2050;2050;SL;Political Specialist;high;Unknown;x
+71007;Chief of Staff;Dragan Paskas;2003;2050;2050;NA;School of Manoeuvre;high;M72007;X
+71008;Chief of Army;Vladimir Lazarevic;2003;2050;2050;NA;Armoured Spearhead Doctrine;high;Vlazarevic;x
+71009;Chief of Navy;Mihajlo Zarkovic;2003;2050;2050;NA;Decisive Naval Battle Doctrine;high;Mzarkovic;x
+71010;Chief of Air Force;Branislav Petrovic;2003;2050;2050;NA;Air Superiority Doctrine;high;Unknown;x
+;Replacements;;;;;;;x
+71011;Head of Government;Vojislav Kostunica;2003;2050;2050;SC;Backroom Backstabber;high;M71002;x
+71012;Foreign Minister;Vuk Draskovic;2003;2050;2050;SC;Biased Intellectual;high;M72003;X
+71013;Minister of Security;Zoran Stankovic;2003;2050;2050;ML;Compassionate Gentleman;high;M71028;x
+71014;Chief of Staff;Mladen Cirkovic;2007;2050;2050;NA;School of Manoeuvre;high;M71032;x
+71015;Chief of Air Force;Dragan Katanic;2006;2050;2050;NA;Air Superiority Doctrine;high;M71025;x
+71016;Head of Government;Mirko Cvetkovic;2008;2050;2050;SL;Silent Workhorse;high;M71029;x
+71017;Foreign Minister;Vuk Jeremic;2007;2050;2050;SL;Great Compromiser;high;Vjeremic;x
+71018;Minister of Security;Dragan Sutanovac;2003;2050;2050;SL;Compassionate Gentleman;high;M71031;x
+71019;Head of State;Tomislav Nikolic;2003;2050;2050;PA;Autocratic Charmer;high;M71012;x
+71020;Head of Military Intelligence;Danica Draskovic;2003;2050;2050;SL;Political Specialist;high;M72010;X
+71021;Head of State;King Aleksandar II;2003;2050;2050;SC;Stern Imperialist;high;M71013;x
+71022;Head of State;King Aleksandar II;2003;2050;2050;SL;Stern Imperialist;high;M71013;x
+71023;Head of Government;Vuk Draskovic ;2003;2050;2050;SC;Ambitious Union Boss;high;M72003;X
+71024;Foreign Minister;Velimir Ilic;2003;2050;2050;SC;Iron Fisted Brute;high;M71015;x
+71025;Minister of Security;Vojslav Mihailovic;2003;2050;2050;SC;Crime Fighter;high;M71014;x
+71026;Minister of Armament;Zoran Andjelkovic;2003;2050;2050;SD;Corrupt Kleptocrat;high;M71016;x
+71027;Minister of Security;Ivica Dacic;2008;2050;2050;SD;Back Stabber;high;M71018;x
+71028;Head of Government;Tomislav Nikolic;2003;2050;2050;PA;Backroom Backstabber;high;M71012;x
+71029;Minister of Security;Aleksandar Vucic;2003;2050;2050;PA;Prince of Terror;high;M71019;x
+71030;Head of Military Intelligence;Aleksandar Vucic;2003;2050;2050;PA;Political Specialist;high;M71019;x
+71031;Minister of Security;Gordana-Pop Lazic;2003;2050;2050;FA;Silent Lawyer;high;M71020;x
+71032;Minister of Security;Dragan Jocic;2003;2050;2050;ML;Efficient Sociopath;high;M72005;X
+71033;Minister of Armament;Prvoslav Davinic;2003;2050;2050;SL;Infantry Proponent;high;M72004;x
+71034;Chief of Staff;Ljubisa Jokic;2005;2050;2050;NA;School of Fire Support;high;M71026;x
+71035;Chief of Army;Ljubisa Jokic;2003;2050;2050;NA;Guns and Butter Doctrine;high;M71026;x
+71036;Minister of Armament;Dragan Sutanovac;2007;2050;2050;SL;Corrupt Kleptocrat;high;M71031;x
+71037;Chief of Army;Mladen Cirkovic;2003;2050;2050;NA;Armoured Spearhead Doctrine;high;M71032;x
+71038;Chief of Staff;Zdravko Ponos;2006;2050;2050;ML;School of Psychology;high;Zponos;x
+71039;Chief of Army;Zdravko Ponos;2005;2050;2050;ML;Guns and Butter Doctrine;high;Zponos;x
+71040;Chief of Army;Miloje Miletic;2005;2050;2050;NA;Decisive Battle Doctrine;high;Mmiletic;x
+71041;Chief of Staff;Miloje Miletic;2007;2050;2050;NA;School of Fire Support;high;Mmiletic;x
+71042;Chief of Staff;Ljubisa Dikovic;2012;2050;2050;NA;School of Psychology;high;Ljdikovic;x
+71043;Head of Military Intelligence;Rade Bulatovic;2003;2050;2050;ML;Political Specialist;high;M72006;x
+71044;Minister of Security;Zoran Alimpic;2010;2050;2050;SL;Crime Fighter;high;Zalimpic;x
+71045;Minister of Security;Vladan Batic;2003;2050;2050;ML;Silent Lawyer;high;Vbatic;x
+71046;Foreign Minister;Biserka Jevtimijevic Drinjakovic;2014;2050;2050;SL;Great Compromiser;high;Bjdrinjakovic;x
+71047;Head of Government;Nenad Canak;2003;2050;2050;SL;Flamboyant Tough Guy;high;Ncanak;x
+71048;Head of State;Nenad Canak;2003;2050;2050;SL;Benevolent Gentleman;high;Ncanak;x
+71049;Minister of Armament;Igor Jovicic;2010;2050;2050;ML;Administrative Genius;high;Ijovicic;x
+71050;Foreign Minister;Milan Parivodic;2008;2050;2050;ML;Great Compromiser;high;Mparivodic;x
+71051;Minister of Security;Borislav Pelevic;2003;2050;2050;PA;Back Stabber;high;Bpelevic;x
+71052;Minister of Security;Dusan Petrovic;2007;2050;2050;SL;Man of the People;high;Dpetrovic;x
+71053;Foreign Minister;Jovan Ratkovic;2008;2050;2050;SL;Apologetic Clerk;high;Jratkovic;x
+71054;Foreign Minister;Aleksandar Vucic;2003;2050;2050;PA;Iron Fisted Brute;high;M71019;x
+71055;Minister of Armament;Zoran Stankovic;2003;2050;2050;ML;laissez-faire capitalist;high;M71028;x
+71056;Head of Government;Boris Tadic;2003;2050;2050;SL;Flamboyant Tough Guy;high;M71001;x
+71057;Head of State;Boris Tadic;2003;2050;2050;SL;Benevolent Gentleman;high;M71001;x
+71058;Head of State;Ivica Dacic;2004;2050;2050;SD;Pig-headed Isolationist;high;M71018;x
+71059;Head of State;Dragan Marsicanin;2004;2050;2050;ML;Weary Stiffneck;high;Dmarsicanin;x
+71060;Chief of Air Force;Nebojsa Djukanovic;2010;2050;2050;NA;Army Aviation Doctrine;high;Ndjukanovic;x
+71061;Chief of Army;Vojin Jondic;2011;2050;2050;NA;Elastic Defence Doctrine;high;Vjondic;x
+71062;Head of Military Intelligence;Zivko Terzic;2008;2050;2050;NA;Naval Intelligence Specialist;high;Zterzic;x
+71063;Head of Military Intelligence;Zdravko Jelisavcic;2003;2050;2050;NA;Logistics Specialist;high;Zjelisavcic;x
+71064;Chief of Army;Milomir Miladinovic;2003;2050;2050;NA;Decisive Battle Doctrine;high;Mmiladinovic;x
+71065;Chief of Staff;Milomir Miladinovic;2004;2050;2050;NA;School of Defence;high;Mmiladinovic;x
+71066;Chief of Staff;Mihajlo Zarkovic;2004;2050;2050;NA;School of Psychology;high;Mzarkovic;x
+71067;Chief of Army;Jovan Lakcevic;2003;2050;2050;NA;Elastic Defence Doctrine;high;Jlakcevic;x
+71068;Chief of Staff;Jovan Lakcevic;2005;2050;2050;NA;School of Fire Support;high;Jlakcevic;x
+71069;Head of Military Intelligence;Milan Zaric;2003;2050;2050;NA;Logistics Specialist;high;Mzaric;x
+71070;Head of Military Intelligence;Svetko Kovac;2003;2050;2050;NA;Logistics Specialist;high;Svetkokovac;x
+71071;Head of Government;Dragan Todorovic;2003;2050;2050;PA;Political Protege;high;Dtodorovic;x
+71072;Head of State;Vojislav Seselj;2009;2050;2050;FA;Barking Buffoon;high;Vseselj;x
+71080;Minister of Armament;Veselin Sljivancanin;2009;2050;2050;PA;Tank Proponent;high;Vsljivancanin;X# hague
+71073;Minister of Armament;Mile Mrksic;2009;2050;2050;PA;Corrupt Kleptocrat;high;Mmrksic;X# hague
+71074;Minister of Security;Milan Martic;2009;2050;2050;FA;Back Stabber;high;Mmartic;X# hague
+71075;Minister of Armament;Ratko Mladic;2009;2050;2050;FA;Military Entrepreneur;high;Rmladic;X# fugitive
+71076;Minister of Security;Goran Hadzic;2009;2050;2050;FA;Back Stabber;high;Ghadzic;X# fugitive
+71077;Chief of Staff;Veselin Sljivancanin;2009;2050;2050;FA;School of Fire Support;high;Vsljivancanin_l;X# hague
+71078;Minister of Security;Momcilo Krajisnik;2009;2050;2050;FA;Prince of Terror;high;Mkrajisnik;X# hague
+71079;Chief of Staff;Nebojsa Pavkovic;2009;2050;2050;FA;School of Mass Combat;high;Npavkovic;X# hague

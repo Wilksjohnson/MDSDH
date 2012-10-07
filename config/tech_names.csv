@@ -1,0 +1,1444 @@
+RT_ARTILLERY;Artillery Design;;;;;;;;;;X
+RT_MECHANICS;AFV Design;;;;;;;;;;X
+RT_ELECTRONICS;Computers;;;;;;;;;;X
+RT_CHEMISTRY;Communication;;;;;;;;;;X
+RT_TRAINING;Command and Control;;;;;;;;;;X
+RT_GENERAL_EQUIPMENT;Infantry Equipment;;;;;;;;;;X
+RT_ROCKETRY;Hi-Tech Development;;;;;;;;;;X
+RT_NAVAL_ENGINEERING;Carrier Design;;;;;;;;;;X
+RT_AERONAUTICS;Aircraft Design;;;;;;;;;;X
+RT_NUCLEAR_PHYSICS;Nuclear Physics;;;;;;;;;;X
+RT_NUCLEAR_ENGINEERING;Nuclear Engineering;;;;;;;;;;X
+RT_MANAGEMENT;Targeting;;;;;;;;;;X
+RT_INDUSTRIAL_ENGINEERING;Industry;;;;;;;;;;X
+RT_MATHEMATICS;Cryptography;;;;;;;;;;X
+RT_SMALL_UNIT_TACTICS;Vertical Envelopment;;;;;;;;;;X
+RT_LARGE_UNIT_TACTICS;Mechanized Warfare;;;;;;;;;;X
+RT_CENTRALIZED_EXECUTION;Logistics;;;;;;;;;;X
+RT_DECENTRALIZED_EXECUTION;Amphibious Operations;;;;;;;;;;X
+RT_TECHNICAL_EFFICIENCY;Helicopter Design;;;;;;;;;;X
+RT_INDIVIDUAL_COURAGE;Specialist Formations;;;;;;;;;;X
+RT_INFANTRY_FOCUS;Infantry Formations;;;;;;;;;;X
+RT_COMBINED_ARMS_FOCUS;Armored Formations;;;;;;;;;;X
+RT_LARGE_UNIT_FOCUS;Specialized Ops;;;;;;;;;;X
+RT_NAVAL_ARTILLERY;Small Hull Design;;;;;;;;;;X
+RT_NAVAL_TRAINING;Fleet Logistics;;;;;;;;;;X
+RT_AIRCRAFT_TESTING;Naval Aviation Tactics;;;;;;;;;;X
+RT_FIGHTER_TACTICS;Fighter Tactics;;;;;;;;;;X
+RT_BOMBER_TACTICS;Bomber Tactics;;;;;;;;;;X
+RT_LARGE_TASKFORCE_TACTICS;Surface Tactics;;;;;;;;;;X
+RT_SMALL_TASKFORCE_TACTICS;Large Hull Design;;;;;;;;;;X
+RT_SEAMANSHIP;Submarine Design;;;;;;;;;;X
+RT_PILOTING;AWACS Ops;;;;;;;;;;X
+RT_SUBMARINE_TACTICS;Submarine Tactics;;;;;;;;;;x
+RT_CARRIER_TACTICS;Carrier Tactics;;;;;;;;;;x
+##;;;;;;;;;;;X
+TECH_CAT_MANUFACTURING;Manufacturing;;;;Produktion;;;;;;X
+TECH_CAT_ROCKETRY;Rocketry;;;;Raketentechnik;;;;;;X
+TECH_CAT_AGRICULTURE;Agriculture;;;;Landwirtschaft;;;;;;X
+TECH_CAT_RRWARNING;Radar Warning;;;;Radarüberwachung;;;;;;X
+TECH_CAT_CRYPTOGRAPHY;Communication;;;;Communication;;;;;;X
+TECH_CAT_SYNTHETICOIL;Renewable Energy;;;;Renewable Energy;;;;;;X
+TECH_CAT_NUCLEAR;Nuclear Energy;;;;Atom;;;;;;X
+TECH_CAT_BOMBERS;Carrier Air Group;;;;Flugzeugträgerstaffel;;;;;;X
+TECH_CAT_TACTBOMBERS;Tactical Bombers;;;;Taktische Bomber;;;;;;X
+TECH_CAT_STRATBOMBERS;Strategic Bombers;;;;Strategische Bomber;;;;;;X
+TECH_CAT_CAS;Close Air Support;;;;Close Air Support;;;;;;X
+TECH_CAT_NAVBOMBERS;Naval Patrol;;;;Marine Bomber;;;;;;X
+TECH_CAT_AIRTRANSP;Air Transports;;;;Lufttransporter;;;;;;X
+TECH_CAT_ATOMIC;Nuclear Technology;;;;Atomwaffen;;;;;;x
+TECH_CAT_SPACE;Satellite Systems;;;;Space Technology;;;;;;x
+TECH_CAT_SCOM;Supercomputers;;;;Space Technology;;;;;;x
+TECH_CAT_UCAVS;Unmanned Drones;;;;Space Technology;;;;;;x
+TECH_CAT_STEALTH;Stealth Technology;;;;Stealth Technology;;;;;;x
+TECH_CAT_ARM;Armoured Brigade/Division;;;;;;;;;;x
+TECH_CAT_MAR;Marine Infantry;;;;;;;;;;x
+TECH_CAT_ICBM;Balistic Missiles;;;;;;;;;;x
+TECH_CAT_AENERGY;Energy;;;;;;;;;;x
+TECH_CAT_AWEAPONS;Weapons;;;;;;;;;;x
+TECH_CAT_RENERGY;Fuel Efficiency;;;;;;;;;;x
+TECH_CAT_HYDRO;Hydrogen Fuel Cells;;;;;;;;;;x
+TECH_CAT_FUTSOL;Future Solider Project;;;;;;;;;;x
+TECH_CAT_SOF;Terrain Specialization;;;;;;;;;;x
+TECH_CAT_SPEC;Specialized Operations Brigade;;;;;;;;;;x
+TECH_CAT_SOFFF;|;;;;;;;;;;x
+TECH_CAT_PAR;Paratrooper Brigade;;;;;;;;;;x
+TECH_CAT_GAR;Garrison Brigade;;;;;;;;;;x
+TECH_CAT_AIRCAV;Airmobile Cavalry Brigade;;;;;;;;;;x
+TECH_CAT_MEC;Mechanized Infantry;;;;;;;;;;x
+TECH_CAT_MOT;Motorized Infantry;;;;;;;;;;x
+TECH_CAT_TANKPROD;Tank Production;;;;;;;;;;x
+TECH_CAT_AIRPROD;Aircraft Production;;;;;;;;;;x
+TECH_CAT_MBT;Main Battle Tank;;;;;;;;;;x
+TECH_CAT_TAPC;Tracked Armored Personell Carriers / IFV's;;;;;;;;;;x
+TECH_CAT_WAPC;Wheeled Armored Personell Carriers;;;;;;;;;;x
+TECH_CAT_INFEQUIP;Infantry Equipment;;;;;;;;;;x
+TECH_CAT_SPART;Self-Propelled Artillery;;;;;;;;;;x
+TECH_CAT_SAM;Surface-to-Air Missiles;;;;;;;;;;x
+TECH_CAT_SPAA;Self-Propelled AA;;;;;;;;;;x
+TECH_CAT_AT;Anti-Tank Weapons;;;;;;;;;;x
+TECH_CAT_MR;Multirole Fighter;;;;;;;;;;x
+TECH_CAT_LR;Long Range;;;;;;;;;;x
+TECH_CAT_SR;Short Range;;;;;;;;;;x
+TECH_CAT_STRATEGIC;Strategic Bomber;;;;;;;;;;x
+TECH_CAT_STRIKE;Strike Fighter;;;;;;;;;;x
+TECH_CAT_TRA;Air Transport;;;;;;;;;;x
+TECH_CAT_NAV;Naval Patrol;;;;;;;;;;x
+TECH_CAT_AH;Attack Helicopter;;;;;;;;;;x
+TECH_CAT_JET;Jet Light Bomber;;;;;;;;;;x
+TECH_CAT_CAS;Close Air Support;;;;;;;;;;x
+TECH_CAT_CAG;Carrier Air Group;;;;;;;;;;x
+TECH_CAT_ATA;Air-to-Air Missiles;;;;;;;;;;x
+TECH_CAT_ATG;Air-to-Ground Missiles;;;;;;;;;;x
+TECH_CAT_ATS;Air-to-Sea Missiles;;;;;;;;;;x
+TECH_CAT_OPEMPH;Operational Emphasis;;;;;;;;;;x
+TECH_CAT_LOGISTICS;Logistics / Power Projection;;;;;;;;;;x
+TECH_CAT_NCO;Non Commissioned Officer Initiative;;;;;;;;;;x
+TECH_CAT_EACW;Early Cold War;;;;;;;;;;x
+TECH_CAT_MICW;Mid Cold War;;;;;;;;;;x
+TECH_CAT_LACW;Late Cold War;;;;;;;;;;x
+TECH_CAT_POCW;Post Cold War;;;;;;;;;;x
+TECH_CAT_21ST;21st Century;;;;;;;;;;x
+TECH_CAT_A21ST;Adv. 21st Century;;;;;;;;;;x
+TECH_CAT_ECM;Electronic Countermeasures;;;;;;;;;;x
+TECH_CAT_PILOT;Pilot Training Regime;;;;;;;;;;x
+TECH_CAT_FRIGATE;Frigates;;;;;;;;;;x
+TECH_CAT_DESTROY;Destroyers;;;;;;;;;;x
+TECH_CAT_CRUISER;Guided Missile Cruisers;;;;;;;;;;x
+TECH_CAT_BATTLECRUISER;Nuclear Battlecruisers;;;;;;;;;;x
+TECH_CAT_SEATRANS;Transport Ships;;;;;;;;;;x
+TECH_CAT_STS;Ship-to-Ship Missiles;;;;;;;;;;x
+TECH_CAT_SSK;Diesel Submarines (SSK);;;;;;;;;;x
+TECH_CAT_SSN;Nuclear Submarines (SSN);;;;;;;;;;x
+TECH_CAT_SSGN;SSGN's;;;;;;;;;;x
+TECH_CAT_CARRIER;Aircraft Carriers;;;;;;;;;;x
+TECH_CAT_LCARRIER;Light Carriers;;;;;;;;;;x
+TECH_CAT_HACC;Heavy Aircraft Carrying Cruisers;;;;;;;;;;x
+TECH_CAT_FFFLO;Frigate Flotilla;;;;;;;;;;x
+TECH_CAT_DDFLO;Destroyer Flotilla;;;;;;;;;;x
+TECH_CAT_CGFLO;Cruiser Battlegroup;;;;;;;;;;x
+TECH_CAT_CVFLO;Carrier Task Force;;;;;;;;;;x
+TECH_CAT_NAVAVI;Naval Aviation;;;;;;;;;;x
+##;;;;;;;;;;;X
+##;;;;;;;;;;;X
+TECH_INFANTRY_NAME;Army Organisation;;;;;;;;;;X
+TECH_INFANTRY_DESC;;;;;;:;;;;;X
+TECH_ARMOR_NAME;Army Equipment;;;;;;;;;;X
+TECH_ARMOR_DESC;;;;;;:;;;;;X
+TECH_LD_NAME;Army Doctrines;;;;;;;;;;X
+TECH_LD_DESC;;;;;;:;;;;;X
+TECH_NAVAL_NAME;Navy;;;;;;;;;;X
+TECH_NAVAL_DESC;;;;;;:;;;;;X
+TECH_ND_NAME;Navy Doctrines;;;;;;;;;;X
+TECH_ND_DESC;;;;;;:;;;;;X
+TECH_SW_NAME;Secret Technologies;;;;;;;;;;X
+TECH_SW_DESC;;;;;;:;;;;;X
+TECH_AD_NAME;Air Force Doctrines;;;;;;;;;;X
+TECH_AD_DESC;;;;;;:;;;;;X
+TECH_INDUSTRY_NAME;Industry;;;;;;;;;;X
+TECH_INDUSTRY_DESC;;;;;;:;;;;;X
+TECH_AIRCRAFT_NAME;Air Force;;;;;;;;;;X
+TECH_AIRCRAFT_DESC;;;;;;:;;;;;X
+SHORT_TECH_APP_ARMOR_1_NAME;Early Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_10_NAME;21st Century Upg;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_11_NAME;21st Century MBT;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_12_NAME;Future Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_13_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_14_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_15_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_16_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_17_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_18_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_19_NAME;Foreign Purchase;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_2_NAME;Mid CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_20_NAME;Licence Prod.;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_21_NAME;Domestic Prod.;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_22_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_23_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_24_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_25_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_26_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_27_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_28_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_29_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_3_NAME;Mid Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_30_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_31_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_32_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_33_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_34_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_35_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_36_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_37_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_38_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_39_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_4_NAME;Late CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_40_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_41_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_42_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_43_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_44_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_45_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_46_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_47_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_48_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_49_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_5_NAME;Post CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_50_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_51_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_52_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_53_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_54_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_55_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_56_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_57_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_6_NAME;Late Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_7_NAME;Post CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_8_NAME;21st Century Upg;;;;;;;;;;X
+SHORT_TECH_APP_ARMOR_9_NAME;Post Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_1_NAME;Early Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_10_NAME;21st Century Upg;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_11_NAME;21st Century MBT;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_12_NAME;Future Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_13_NAME;Division 1965;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_14_NAME;Division 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_15_NAME;Division 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_16_NAME;Division 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_17_NAME;Division 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_18_NAME;Division 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_20_NAME;Brigade 1965;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_21_NAME;Brigade 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_22_NAME;Brigade 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_23_NAME;Brigade 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_24_NAME;Brigade 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_25_NAME;Brigade 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_26_NAME;Division 1965;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_27_NAME;Division 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_28_NAME;Division 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_29_NAME;Division 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_30_NAME;Division 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_31_NAME;Division 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_32_NAME;Brigade 1965;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_33_NAME;Brigade 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_34_NAME;Brigade 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_35_NAME;Brigade 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_36_NAME;Brigade 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_37_NAME;Brigade 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_38_NAME;Brigade 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_39_NAME;Brigade 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_40_NAME;Brigade 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_41_NAME;Brigade 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_42_NAME;Division 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_43_NAME;Division 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_44_NAME;Division 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_45_NAME;Division 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_46_NAME;Garrison 1965;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_47_NAME;Garrison 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_48_NAME;Garrison 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_49_NAME;Airmobile 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_50_NAME;Airmobile 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_51_NAME;Airmobile 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_52_NAME;Airmobile 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_53_NAME;Airmobile 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_54_NAME;Paratrooper 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_55_NAME;Paratrooper 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_56_NAME;Paratrooper 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_57_NAME;Paratrooper 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_58_NAME;Paratrooper 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_59_NAME;Specialist 1965;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_60_NAME;Specialist 1975;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_61_NAME;Specialist 1985;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_62_NAME;Specialist 1995;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_63_NAME;Specialist 2005;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_64_NAME;Specialist 2015;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_65_NAME;Mountain;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_66_NAME;Desert;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_67_NAME;Tropic;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_68_NAME;Winter;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_2_NAME;Mid CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_3_NAME;Mid Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_4_NAME;Late CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_5_NAME;Post CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_6_NAME;Late Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_7_NAME;Post CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_8_NAME;21st Century Upg;;;;;;;;;;X
+SHORT_TECH_APP_INFANTRY_9_NAME;Post Cold War MBT;;;;;;;;;;X
+SHORT_TECH_APP_LD_1_NAME;Local;;;;;;;;;;X
+SHORT_TECH_APP_LD_2_NAME;Implementation;;;;;;;;;;X
+SHORT_TECH_APP_LD_3_NAME;Regional;;;;;;;;;;X
+SHORT_TECH_APP_LD_4_NAME;Implementation;;;;;;;;;;X
+SHORT_TECH_APP_LD_5_NAME;Continental;;;;;;;;;;X
+SHORT_TECH_APP_LD_6_NAME;Implementation;;;;;;;;;;X
+SHORT_TECH_APP_LD_7_NAME;Worldwide;;;;;;;;;;X
+SHORT_TECH_APP_LD_8_NAME;Implementation;;;;;;;;;;X
+SHORT_TECH_APP_LD_10_NAME;C2I;;;;;;;;;;X
+SHORT_TECH_APP_LD_11_NAME;Mech Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_12_NAME;Armored Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_13_NAME;Amph Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_14_NAME;Paradrop Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_15_NAME;Airmobile Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_16_NAME;Spec Ops Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_17_NAME;Gunship Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_20_NAME;C3I;;;;;;;;;;X
+SHORT_TECH_APP_LD_21_NAME;Mech Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_22_NAME;Armored Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_23_NAME;Amph Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_24_NAME;Paradrop Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_25_NAME;Airmobile Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_26_NAME;Spec Ops Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_27_NAME;Gunship Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_30_NAME;C4I;;;;;;;;;;X
+SHORT_TECH_APP_LD_31_NAME;Mech Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_32_NAME;Armored Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_33_NAME;Amph Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_34_NAME;Paradrop Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_35_NAME;Airmobile Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_36_NAME;Spec Ops Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_37_NAME;Gunship Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_40_NAME;C4I2;;;;;;;;;;X
+SHORT_TECH_APP_LD_41_NAME;Mech Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_42_NAME;Armored Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_43_NAME;Amph Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_44_NAME;Paradrop Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_45_NAME;Airmobile Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_46_NAME;Spec Ops Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_47_NAME;Gunship Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_50_NAME;C4ISTAR;;;;;;;;;;X
+SHORT_TECH_APP_LD_51_NAME;Mech Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_52_NAME;Armored Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_53_NAME;Amph Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_54_NAME;Paradrop Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_55_NAME;Airmobile Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_56_NAME;Spec Ops Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_57_NAME;Gunship Apps;;;;;;;;;;X
+SHORT_TECH_APP_LD_60_NAME;CW Op. Art;;;;;;;;;;X
+SHORT_TECH_APP_LD_61_NAME;Defensive;;;;;;;;;;X
+SHORT_TECH_APP_LD_62_NAME;Balanced;;;;;;;;;;X
+SHORT_TECH_APP_LD_63_NAME;Offensive;;;;;;;;;;X
+SHORT_TECH_APP_LD_64_NAME;Post CW Op. Art;;;;;;;;;;X
+SHORT_TECH_APP_LD_65_NAME;Defensive;;;;;;;;;;X
+SHORT_TECH_APP_LD_66_NAME;Balanced;;;;;;;;;;X
+SHORT_TECH_APP_LD_67_NAME;Offensive;;;;;;;;;;X
+SHORT_TECH_APP_LD_68_NAME;21st Cent Op. Art;;;;;;;;;;X
+SHORT_TECH_APP_LD_69_NAME;Defensive;;;;;;;;;;X
+SHORT_TECH_APP_LD_70_NAME;Balanced;;;;;;;;;;X
+SHORT_TECH_APP_LD_71_NAME;Offensive;;;;;;;;;;X
+SHORT_TECH_APP_LD_72_NAME;Discourage;;;;;;;;;;X
+SHORT_TECH_APP_LD_73_NAME;Re-examination;;;;;;;;;;X
+SHORT_TECH_APP_LD_74_NAME;Encourage;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_1_NAME;Materials;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_2_NAME;Machinery;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_3_NAME;Electronics;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_4_NAME;Computing Machines;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_5_NAME;Encryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_6_NAME;Decryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_7_NAME;Communication;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_8_NAME;Electronic Warfare;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_9_NAME;Targeting;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_11_NAME;Materials;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_12_NAME;Machinery;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_13_NAME;Electronics;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_14_NAME;Computing Machines;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_15_NAME;Encryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_16_NAME;Decryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_17_NAME;Communication;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_18_NAME;Electronic Warfare;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_19_NAME;Targeting;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_21_NAME;Materials;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_22_NAME;Machinery;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_23_NAME;Electronics;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_24_NAME;Computing Machines;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_25_NAME;Encryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_26_NAME;Decryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_27_NAME;Communication;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_28_NAME;Electronic Warfare;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_29_NAME;Targeting;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_31_NAME;Materials;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_32_NAME;Machinery;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_33_NAME;Electronics;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_34_NAME;Computing Machines;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_35_NAME;Encryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_36_NAME;Decryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_37_NAME;Communication;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_38_NAME;Electronic Warfare;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_39_NAME;Targeting;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_40_NAME;Materials;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_41_NAME;Machinery;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_42_NAME;Electronics;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_43_NAME;Computing Machines;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_44_NAME;Encryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_45_NAME;Decryption;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_46_NAME;Communication;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_47_NAME;Electronic Warfare;;;;;;;;;;X
+SHORT_TECH_APP_INDUSTRY_48_NAME;Targeting;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_1_NAME;2nd Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_2_NAME;3rd Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_3_NAME;4th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_4_NAME;4.5th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_5_NAME;5th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_6_NAME;5.5th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_7_NAME;2nd Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_8_NAME;3rd Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_9_NAME;4th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_10_NAME;4.5th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_11_NAME;5th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_12_NAME;5.5th Generation;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_13_NAME;Foreign Purchase;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_14_NAME;Licence;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_15_NAME;Domestic;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_16_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_17_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_18_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_19_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_20_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_21_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_22_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_23_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_24_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_25_NAME;Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_26_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_27_NAME;Jet Light Bomber;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_30_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_31_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_32_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_33_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_34_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_35_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_36_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_37_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_38_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_39_NAME;Adv 21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_40_NAME;Early Cold War CAG;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_41_NAME;Late Cold War CAG;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_42_NAME;Post Cold War CAG;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_43_NAME;21st Century CAG;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_44_NAME;Conversion;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_45_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_46_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_47_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_48_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_49_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_50_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_51_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_52_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_53_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_54_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_55_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_56_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_57_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_58_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_59_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_60_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_61_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_62_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_63_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_AIRCRAFT_64_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_SW_1_NAME;First Steps;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_2_NAME;Gun-Type Nuke;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_3_NAME;Implosion Nuke;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_4_NAME;Fusion-Boosted;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_5_NAME;Hydrogen Bomb;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_6_NAME;1st Gen Reactor;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_7_NAME;2nd Gen Reactor;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_8_NAME;3rd Gen Reactor;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_9_NAME;4th Gen Reactor;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_10_NAME;Early CW BM;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_11_NAME;Late CW ICBM;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_12_NAME;Post CW ICBM;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_13_NAME;21st Cent ICBM;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_14_NAME;First Steps;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_15_NAME;Digital Integration;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_16_NAME;Infantry Weapons;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_17_NAME;Combat Armor;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_18_NAME;Comm Sats;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_19_NAME;Spy Sats;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_20_NAME;Weather Sats;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_21_NAME;GPS;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_22_NAME;Future Comp;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_23_NAME;Decryp SuperComp;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_24_NAME;Recon Drones;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_25_NAME;Armed Recon Drns;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_26_NAME;LR Recon Drns;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_27_NAME;Radar Abs Mat;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_28_NAME;Low RCS;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_29_NAME;Stealth Strike;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_30_NAME;Stealth Strategic;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_31_NAME;Late CW Engines;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_32_NAME;Post CW Engines;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_33_NAME;Biodiesel;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_34_NAME;First Steps;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_35_NAME;Prototypes;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_36_NAME;Fuel Cells;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_37_NAME;Implementation;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_38_NAME;Hybrid Engines;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_SW_39_NAME;Military Hybrid;;;;Fort. CVL;;;;;;X
+SHORT_TECH_APP_AD_1_NAME;Implementation;;;;Defensive LÜ;;;;;;X
+SHORT_TECH_APP_AD_2_NAME;Implementation;;;;Abfang LÜ;;;;;;X
+SHORT_TECH_APP_AD_3_NAME;Implementation;;;;Schnell-Bereitschaft;;;;;;X
+SHORT_TECH_APP_AD_4_NAME;Implementation;;;;Verb. Abfangvorgang;;;;;;X
+SHORT_TECH_APP_AD_5_NAME;Fighter Tactics;;;;Elek. Verteidigung;;;;;;X
+SHORT_TECH_APP_AD_6_NAME;Battlefield Support;;;;Verb. Abfangvorgang;;;;;;X
+SHORT_TECH_APP_AD_7_NAME;Interdiction;;;;Fort. Feinderkennung;;;;;;X
+SHORT_TECH_APP_AD_8_NAME;Strategic Bombing;;;;Fort. Abfangtaktiken;;;;;;X
+SHORT_TECH_APP_AD_9_NAME;Airborne Warfare;;;;Aggressive LÜ;;;;;;X
+SHORT_TECH_APP_AD_10_NAME;AWACS Ops;;;;Eskort LÜ;;;;;;X
+SHORT_TECH_APP_AD_11_NAME;Naval Patrol;;;;LR Abfangsysteme;;;;;;X
+SHORT_TECH_APP_AD_12_NAME;Simulators;;;;Offensive LÜ;;;;;;X
+SHORT_TECH_APP_AD_13_NAME;Fighter Tactics;;;;Luftdominanz Doktrin;;;;;;X
+SHORT_TECH_APP_AD_14_NAME;Battlefield Support;;;;Stealth-Systeme;;;;;;X
+SHORT_TECH_APP_AD_15_NAME;Interdiction;;;;LR Kampf;;;;;;X
+SHORT_TECH_APP_AD_16_NAME;Strategic Bombing;;;;Fort. Luftdominanz;;;;;;X
+SHORT_TECH_APP_AD_17_NAME;Airborne Warfare;;;;Luftabwehr;;;;;;X
+SHORT_TECH_APP_AD_18_NAME;AWACS Ops;;;;Tiefe Luftschläge;;;;;;X
+SHORT_TECH_APP_AD_19_NAME;Naval Patrol;;;;Versorgungsstörung;;;;;;X
+SHORT_TECH_APP_AD_20_NAME;Simulators;;;;Präzise Schläge;;;;;;X
+SHORT_TECH_APP_AD_21_NAME;Fighter Tactics;;;;Führungsunterdrück.;;;;;;X
+SHORT_TECH_APP_AD_22_NAME;Battlefield Support;;;;Hochrisiko Zielzerst.;;;;;;X
+SHORT_TECH_APP_AD_23_NAME;Interdiction;;;;Stealth-Systeme;;;;;;X
+SHORT_TECH_APP_AD_24_NAME;Strategic Bombing;;;;Zielauswahl;;;;;;X
+SHORT_TECH_APP_AD_25_NAME;Airborne Warfare;;;;Luftunterstüzung;;;;;;X
+SHORT_TECH_APP_AD_26_NAME;AWACS Ops;;;;CAS-Taktiken;;;;;;X
+SHORT_TECH_APP_AD_27_NAME;Naval Patrol;;;;Verb. CAS-Taktiken;;;;;;X
+SHORT_TECH_APP_AD_28_NAME;Simulators;;;;Cluster-Bomben;;;;;;X
+SHORT_TECH_APP_AD_29_NAME;Fighter Tactics;;;;Präzise Angriffe;;;;;;X
+SHORT_TECH_APP_AD_30_NAME;Battlefield Support;;;;J-Star;;;;;;X
+SHORT_TECH_APP_AD_31_NAME;Interdiction;;;;Kill BoX;;;;;;X
+SHORT_TECH_APP_AD_32_NAME;Strategic Bombing;;;;LR Luftunterstützung;;;;;;X
+SHORT_TECH_APP_AD_33_NAME;Airborne Warfare;;;;Training/Unterstützung;;;;;;X
+SHORT_TECH_APP_AD_34_NAME;AWACS Ops;;;;Frühes Training/Unterstützung;;;;;;X
+SHORT_TECH_APP_AD_35_NAME;Naval Patrol;;;;Flughafen-Angriffe;;;;;;X
+SHORT_TECH_APP_AD_36_NAME;Simulators;;;;Simulatoren;;;;;;X
+SHORT_TECH_APP_AD_37_NAME;Fighter Tactics;;;;Reccon Drohnen;;;;;;X
+SHORT_TECH_APP_AD_38_NAME;Battlefield Support;;;;Mod. Luftbetankung;;;;;;X
+SHORT_TECH_APP_AD_39_NAME;Interdiction;;;;AWACS;;;;;;X
+SHORT_TECH_APP_AD_40_NAME;Strategic Bombing;;;;Mod. Flughafen-Angriffe;;;;;;X
+SHORT_TECH_APP_AD_41_NAME;Airborne Warfare;;;;Mod. Außentanks;;;;;;X
+SHORT_TECH_APP_AD_42_NAME;AWACS Ops;;;;Real. Kampftraining;;;;;;X
+SHORT_TECH_APP_AD_43_NAME;Naval Patrol;;;;LR UAV Recon;;;;;;X
+SHORT_TECH_APP_AD_44_NAME;Simulators;;;;Comp. Reperatur;;;;;;X
+SHORT_TECH_APP_AD_45_NAME;Early Cold War;;;;VR-Simulatoren;;;;;;X
+SHORT_TECH_APP_AD_46_NAME;Late Cold War;;;;Strat. Bombardierung;;;;;;X
+SHORT_TECH_APP_AD_47_NAME;Post Cold War;;;;Carped Bombing;;;;;;X
+SHORT_TECH_APP_AD_48_NAME;21st Century;;;;CW Doktrinen;;;;;;X
+SHORT_TECH_APP_AD_49_NAME;Adv 21st Century;;;;Frühe Präzisionswaff.;;;;;;X
+SHORT_TECH_APP_AD_51_NAME;50 Hours/Year;;;;Mod. Außentanks;;;;;;X
+SHORT_TECH_APP_AD_52_NAME;100 Hours/Year;;;;Real. Kampftraining;;;;;;X
+SHORT_TECH_APP_AD_53_NAME;150 Hours/Year;;;;LR UAV Recon;;;;;;X
+SHORT_TECH_APP_AD_54_NAME;200 Hours/Year;;;;Comp. Reperatur;;;;;;X
+SHORT_TECH_APP_ND_0_NAME;Frigate Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_1_NAME;Frigate Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_2_NAME;Frigate Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_3_NAME;Frigate Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_4_NAME;Frigate Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_10_NAME;Destroyer Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_11_NAME;Destroyer Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_12_NAME;Destroyer Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_13_NAME;Destroyer Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_14_NAME;Destroyer Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_20_NAME;Cruiser Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_21_NAME;Cruiser Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_22_NAME;Cruiser Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_23_NAME;Cruiser Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_24_NAME;Cruiser Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_30_NAME;Carrier Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_31_NAME;Carrier Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_32_NAME;Carrier Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_33_NAME;Carrier Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_34_NAME;Carrier Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_40_NAME;Submarine Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_41_NAME;Submarine Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_42_NAME;Submarine Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_43_NAME;Submarine Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_44_NAME;Submarine Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_50_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_51_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_52_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_53_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_54_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ND_60_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_61_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_62_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_63_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_64_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ND_70_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_71_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_72_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_73_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_74_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ND_80_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_81_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_82_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_83_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_ND_84_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_ND_90_NAME;Naval Logistics;;;;;;;;;;X
+SHORT_TECH_APP_ND_91_NAME;Naval Logistics;;;;;;;;;;X
+SHORT_TECH_APP_ND_92_NAME;Naval Logistics;;;;;;;;;;X
+SHORT_TECH_APP_ND_93_NAME;Naval Logistics;;;;;;;;;;X
+SHORT_TECH_APP_ND_94_NAME;Naval Logistics;;;;;;;;;;X
+SHORT_TECH_APP_ND_95_NAME;Convoy Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_96_NAME;Convoy Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_97_NAME;Convoy Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_98_NAME;Convoy Ops;;;;;;;;;;X
+SHORT_TECH_APP_ND_99_NAME;Convoy Ops;;;;;;;;;;X
+TECH_APP_AIRCRAFT_30_DESC;Early CW Naval Patrol;;;;Einfacher Marinebomber;;;;;;X
+TECH_APP_AIRCRAFT_30_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_31_NAME;Mid CW Naval Patrol;;;;Verbesserter Marinebomber;;;;;;X
+TECH_APP_AIRCRAFT_31_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_32_NAME;Late CW Naval Patrol;;;;Moderner Marinebomber;;;;;;X
+TECH_APP_AIRCRAFT_32_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_33_NAME;21st Cent Naval Patrol;;;;Verbesserter Moderner Marinebomber;;;;;;X
+TECH_APP_AIRCRAFT_33_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_34_NAME;Adv 21st Cent Naval Patrol;;;;Fortschrittlicher Marinebomber;;;;;;X
+TECH_APP_AIRCRAFT_34_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_35_NAME;Mid CW Air Transport;;;;Frühes Transportflugzeug;;;;;;X
+TECH_APP_AIRCRAFT_35_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_36_NAME;Late CW Air Transport;;;;Einfaches Transportflugzeug;;;;;;X
+TECH_APP_AIRCRAFT_36_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_37_NAME;Post CW Air Transport;;;;Verbessertes Transportflugzeug;;;;;;X
+TECH_APP_AIRCRAFT_37_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_38_NAME;21st Cent Air Transport;;;;Fortschrittliches Transportflugzeug;;;;;;X
+TECH_APP_AIRCRAFT_38_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_39_NAME;Adv 21st Cent Air Transport;;;;Verbessertes Fortschrittliches Transportflugzeug;;;;;;X
+TECH_APP_AIRCRAFT_39_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_49_DESC;Early CW Air-to-Air Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_49_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_50_DESC;Late CW Air-to-Air Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_50_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_51_NAME;Post CW Air-to-Air Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_51_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_52_NAME;21st Century Air-to-Air Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_52_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_53_NAME;Early CW Air-to-Ground Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_53_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_54_NAME;Late CW Air-to-Ground Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_54_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_55_NAME;Post CW Air-to-Ground Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_55_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_56_NAME;21st Century Air-to-Ground Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_56_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_57_NAME;Early CW Air-to-Sea Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_57_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_58_NAME;Late CW Air-to-Sea Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_58_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_59_NAME;Post CW Air-to-Sea Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_59_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_60_NAME;21st Century CW Air-to-Sea Missile;;;;;;;;;;X
+TECH_APP_AIRCRAFT_60_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_61_NAME;Early CW ECM/EW;;;;;;;;;;X
+TECH_APP_AIRCRAFT_61_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_62_NAME;Late CW ECM/EW;;;;;;;;;;X
+TECH_APP_AIRCRAFT_62_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_63_NAME;Post CW ECM/EW;;;;;;;;;;X
+TECH_APP_AIRCRAFT_63_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_64_NAME;21st Century CW ECM/EW;;;;;;;;;;X
+TECH_APP_AIRCRAFT_64_DESC;;;;;;;;;;;X
+TECH_APP_LD_1_NAME;Local Logistics;;;;;;;;;;X
+TECH_APP_LD_2_NAME;Logistic Chain Implementation;;;;;;;;;;X
+TECH_APP_LD_3_NAME;Regional Logistics;;;;;;;;;;X
+TECH_APP_LD_4_NAME;Logistic Chain Implementation;;;;;;;;;;X
+TECH_APP_LD_5_NAME;Continental Logistics;;;;;;;;;;X
+TECH_APP_LD_6_NAME;Logistic Chain Implementation;;;;;;;;;;X
+TECH_APP_LD_7_NAME;Worldwide Logistics;;;;;;;;;;X
+TECH_APP_LD_8_NAME;Logistic Chain Implementation;;;;;;;;;;X
+TECH_APP_LD_10_NAME;Command, Control & Intelligence;;;;;;;;;;X
+TECH_APP_LD_11_NAME;Mechanized Applications;;;;;;;;;;X
+TECH_APP_LD_12_NAME;Armored Applications;;;;;;;;;;X
+TECH_APP_LD_13_NAME;Amphibious Applications;;;;;;;;;;X
+TECH_APP_LD_14_NAME;Paradrop Applications;;;;;;;;;;X
+TECH_APP_LD_15_NAME;Airmobile Applications;;;;;;;;;;X
+TECH_APP_LD_16_NAME;Special Operations;;;;;;;;;;X
+TECH_APP_LD_17_NAME;Gunship Applications;;;;;;;;;;X
+TECH_APP_LD_20_NAME;Command, Control, Communications & Intelligence;;;;;;;;;;X
+TECH_APP_LD_21_NAME;Mechanized Applications;;;;;;;;;;X
+TECH_APP_LD_22_NAME;Armored Applications;;;;;;;;;;X
+TECH_APP_LD_23_NAME;Amphibious Applications;;;;;;;;;;X
+TECH_APP_LD_24_NAME;Paradrop Applications;;;;;;;;;;X
+TECH_APP_LD_25_NAME;Airmobile Applications;;;;;;;;;;X
+TECH_APP_LD_26_NAME;Special Operations;;;;;;;;;;X
+TECH_APP_LD_27_NAME;Gunship Applications;;;;;;;;;;X
+TECH_APP_LD_30_NAME;Command, Control, Communications, Computers & Intelligence;;;;;;;;;;X
+TECH_APP_LD_31_NAME;Mechanized Applications;;;;;;;;;;X
+TECH_APP_LD_32_NAME;Armored Applications;;;;;;;;;;X
+TECH_APP_LD_33_NAME;Amphibious Applications;;;;;;;;;;X
+TECH_APP_LD_34_NAME;Paradrop Applications;;;;;;;;;;X
+TECH_APP_LD_35_NAME;Airmobile Applications;;;;;;;;;;X
+TECH_APP_LD_36_NAME;Special Operations;;;;;;;;;;X
+TECH_APP_LD_37_NAME;Gunship Applications;;;;;;;;;;X
+TECH_APP_LD_40_NAME;C4I Interoperability;;;;;;;;;;X
+TECH_APP_LD_41_NAME;Mechanized Applications;;;;;;;;;;X
+TECH_APP_LD_42_NAME;Armored Applications;;;;;;;;;;X
+TECH_APP_LD_43_NAME;Amphibious Applications;;;;;;;;;;X
+TECH_APP_LD_44_NAME;Paradrop Applications;;;;;;;;;;X
+TECH_APP_LD_45_NAME;Airmobile Applications;;;;;;;;;;X
+TECH_APP_LD_46_NAME;Special Operations;;;;;;;;;;X
+TECH_APP_LD_47_NAME;Gunship Applications;;;;;;;;;;X
+TECH_APP_LD_50_NAME;C4I, Surveillance, Targenting & Recon;;;;;;;;;;X
+TECH_APP_LD_51_NAME;Mechanized Applications;;;;;;;;;;X
+TECH_APP_LD_52_NAME;Armored Applications;;;;;;;;;;X
+TECH_APP_LD_53_NAME;Amphibious Applications;;;;;;;;;;X
+TECH_APP_LD_54_NAME;Paradrop Applications;;;;;;;;;;X
+TECH_APP_LD_55_NAME;Airmobile Applications;;;;;;;;;;X
+TECH_APP_LD_56_NAME;Special Operations;;;;;;;;;;X
+TECH_APP_LD_57_NAME;Gunship Applications;;;;;;;;;;X
+TECH_APP_LD_60_NAME;Cold War Operational Art;;;;;;;;;;X
+TECH_APP_LD_61_NAME;Defensive Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_62_NAME;Balanced Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_63_NAME;Offensive Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_64_NAME;Post Cold War Operational Art;;;;;;;;;;X
+TECH_APP_LD_65_NAME;Defensive Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_66_NAME;Balanced Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_67_NAME;Offensive Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_68_NAME;21st Century Operational Art;;;;;;;;;;X
+TECH_APP_LD_69_NAME;Defensive Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_70_NAME;Balanced Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_71_NAME;Offensive Operational Emphasis;;;;;;;;;;X
+TECH_APP_LD_72_NAME;Discourage NCO Initiative;;;;;;;;;;X
+TECH_APP_LD_73_NAME;Post Cold War Re-Assessment;;;;;;;;;;X
+TECH_APP_LD_74_NAME;Encourage NCO Initiative;;;;;;;;;;X
+TECH_APP_INDUSTRY_1_NAME;Early CW Materials;;;;;;;;;;X
+TECH_APP_INDUSTRY_2_NAME;Early CW Machinery;;;;;;;;;;X
+TECH_APP_INDUSTRY_3_NAME;Early CW Electronics;;;;;;;;;;X
+TECH_APP_INDUSTRY_4_NAME;Early CW Computing Machines;;;;;;;;;;X
+TECH_APP_INDUSTRY_5_NAME;Early CW Encryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_6_NAME;Early CW Decryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_7_NAME;Early CW Communication;;;;;;;;;;X
+TECH_APP_INDUSTRY_8_NAME;Early CW Electronic Warfare;;;;;;;;;;X
+TECH_APP_INDUSTRY_9_NAME;Early CW Targeting;;;;;;;;;;X
+TECH_APP_INDUSTRY_11_NAME;Late CW Materials;;;;;;;;;;X
+TECH_APP_INDUSTRY_12_NAME;Late CW Machinery;;;;;;;;;;X
+TECH_APP_INDUSTRY_13_NAME;Late CW Electronics;;;;;;;;;;X
+TECH_APP_INDUSTRY_14_NAME;Late CW Computing Machines;;;;;;;;;;X
+TECH_APP_INDUSTRY_15_NAME;Late CW Encryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_16_NAME;Late CW Decryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_17_NAME;Late CW Communication;;;;;;;;;;X
+TECH_APP_INDUSTRY_18_NAME;Late CW Electronic Warfare;;;;;;;;;;X
+TECH_APP_INDUSTRY_19_NAME;Late CW Targeting;;;;;;;;;;X
+TECH_APP_INDUSTRY_21_NAME;Post CW Materials;;;;;;;;;;X
+TECH_APP_INDUSTRY_22_NAME;Post CW Machinery;;;;;;;;;;X
+TECH_APP_INDUSTRY_23_NAME;Post CW Electronics;;;;;;;;;;X
+TECH_APP_INDUSTRY_24_NAME;Post CW Computing Machines;;;;;;;;;;X
+TECH_APP_INDUSTRY_25_NAME;Post CW Encryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_26_NAME;Post CW Decryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_27_NAME;Post CW Communication;;;;;;;;;;X
+TECH_APP_INDUSTRY_28_NAME;Post CW Electronic Warfare;;;;;;;;;;X
+TECH_APP_INDUSTRY_29_NAME;Post CW Targeting;;;;;;;;;;X
+TECH_APP_INDUSTRY_31_NAME;21st Century Materials;;;;;;;;;;X
+TECH_APP_INDUSTRY_32_NAME;21st Century Machinery;;;;;;;;;;X
+TECH_APP_INDUSTRY_33_NAME;21st Century Electronics;;;;;;;;;;X
+TECH_APP_INDUSTRY_34_NAME;21st Century Computing Machines;;;;;;;;;;X
+TECH_APP_INDUSTRY_35_NAME;21st Century Encryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_36_NAME;21st Century Decryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_37_NAME;21st Century Communication;;;;;;;;;;X
+TECH_APP_INDUSTRY_38_NAME;21st Century Electronic Warfare;;;;;;;;;;X
+TECH_APP_INDUSTRY_39_NAME;21st Century Targeting;;;;;;;;;;X
+TECH_APP_INDUSTRY_40_NAME;Future Materials;;;;;;;;;;X
+TECH_APP_INDUSTRY_41_NAME;Future Machinery;;;;;;;;;;X
+TECH_APP_INDUSTRY_42_NAME;Future Electronics;;;;;;;;;;X
+TECH_APP_INDUSTRY_43_NAME;Future Computing Machines;;;;;;;;;;X
+TECH_APP_INDUSTRY_44_NAME;Future Encryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_45_NAME;Future Decryption;;;;;;;;;;X
+TECH_APP_INDUSTRY_46_NAME;Future Communication;;;;;;;;;;X
+TECH_APP_INDUSTRY_47_NAME;Future Electronic Warfare;;;;;;;;;;X
+TECH_APP_INDUSTRY_48_NAME;Future Targeting;;;;;;;;;;X
+TECH_APP_ARMOR_1_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_1_NAME;Early Cold War MBT;;;;;;;;;;X
+TECH_APP_ARMOR_10_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_10_NAME;21st Century Upg - Post CW MBT;;;;;;;;;;X
+TECH_APP_ARMOR_11_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_11_NAME;21st Century MBT;;;;;;;;;;X
+TECH_APP_ARMOR_12_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_12_NAME;Future Upg - 21st Century MBT;;;;;;;;;;X
+TECH_APP_ARMOR_13_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_13_NAME;Early Cold War Infantry Equipment;;;;;;;;;;X
+TECH_APP_ARMOR_14_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_14_NAME;Mid Cold War Infantry Equipment;;;;;;;;;;X
+TECH_APP_ARMOR_15_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_15_NAME;Late Cold War Infantry Equipment;;;;;;;;;;X
+TECH_APP_ARMOR_16_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_16_NAME;Post Cold War Infantry Equipment;;;;;;;;;;X
+TECH_APP_ARMOR_17_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_17_NAME;21st Century Infantry Equipment;;;;;;;;;;X
+TECH_APP_ARMOR_18_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_18_NAME;Advanced 21st Century Infantry Equipment;;;;;;;;;;X
+TECH_APP_ARMOR_19_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_19_NAME;Foreign Tank Purchase;;;;;;;;;;X
+TECH_APP_ARMOR_2_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_2_NAME;Mid CW Upg - Early CW MBT;;;;;;;;;;X
+TECH_APP_ARMOR_20_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_20_NAME;Licence Tank Production;;;;;;;;;;X
+TECH_APP_ARMOR_21_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_21_NAME;Domestic Tank Production;;;;;;;;;;X
+TECH_APP_ARMOR_22_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_22_NAME;Early Cold War Tracked APCs;;;;;;;;;;X
+TECH_APP_ARMOR_23_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_23_NAME;Mid Cold War Tracked APCs;;;;;;;;;;X
+TECH_APP_ARMOR_24_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_24_NAME;Late Cold War Tracked APCs;;;;;;;;;;X
+TECH_APP_ARMOR_25_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_25_NAME;Post Cold War Tracked APCs;;;;;;;;;;X
+TECH_APP_ARMOR_26_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_26_NAME;21st Century Tracked APCs;;;;;;;;;;X
+TECH_APP_ARMOR_27_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_27_NAME;Advanced 21st Century Tracked APCs;;;;;;;;;;X
+TECH_APP_ARMOR_28_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_28_NAME;Early Cold War Wheeled APCs;;;;;;;;;;X
+TECH_APP_ARMOR_29_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_29_NAME;Mid Cold War Wheeled APCs;;;;;;;;;;X
+TECH_APP_ARMOR_3_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_3_NAME;Mid Cold War MBT;;;;;;;;;;X
+TECH_APP_ARMOR_30_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_30_NAME;Late Cold War Wheeled APCs;;;;;;;;;;X
+TECH_APP_ARMOR_31_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_31_NAME;Post Cold War Wheeled APCs;;;;;;;;;;X
+TECH_APP_ARMOR_32_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_32_NAME;21st Century Wheeled APCs;;;;;;;;;;X
+TECH_APP_ARMOR_33_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_33_NAME;Advanced 21st Century Wheeled APCs;;;;;;;;;;X
+TECH_APP_ARMOR_34_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_34_NAME;Early Cold War Self-Propelled Artillery;;;;;;;;;;X
+TECH_APP_ARMOR_35_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_35_NAME;Mid Cold War Self-Propelled Artillery;;;;;;;;;;X
+TECH_APP_ARMOR_36_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_36_NAME;Late Cold War Self-Propelled Artillery;;;;;;;;;;X
+TECH_APP_ARMOR_37_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_37_NAME;Post Cold War Self-Propelled Artillery;;;;;;;;;;X
+TECH_APP_ARMOR_38_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_38_NAME;21st Century Self-Propelled Artillery;;;;;;;;;;X
+TECH_APP_ARMOR_39_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_39_NAME;Advanced 21st Century Self-Propelled Artillery;;;;;;;;;;X
+TECH_APP_ARMOR_4_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_4_NAME;Late CW Upg - Mid CW MBT;;;;;;;;;;X
+TECH_APP_ARMOR_40_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_40_NAME;Early Cold War Surface-to-Air Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_41_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_41_NAME;Mid Cold War Surface-to-Air Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_42_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_42_NAME;Late Cold War Surface-to-Air Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_43_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_43_NAME;Post Cold War Surface-to-Air Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_44_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_44_NAME;21st Century Surface-to-Air Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_45_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_45_NAME;Advanced 21st Surface-to-Air Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_46_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_46_NAME;Early Cold War Self-Propelled AA;;;;;;;;;;X
+TECH_APP_ARMOR_47_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_47_NAME;Mid Cold War Self-Propelled AA;;;;;;;;;;X
+TECH_APP_ARMOR_48_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_48_NAME;Late Cold War Self-Propelled AA;;;;;;;;;;X
+TECH_APP_ARMOR_49_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_49_NAME;Post Cold War Self-Propelled AA;;;;;;;;;;X
+TECH_APP_ARMOR_5_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_5_NAME;Post CW Upg - Mid CW MBT;;;;;;;;;;X
+TECH_APP_ARMOR_50_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_50_NAME;21st Century Self-Propelled AA;;;;;;;;;;X
+TECH_APP_ARMOR_51_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_51_NAME;Advanced 21st Self-Propelled AA;;;;;;;;;;X
+TECH_APP_ARMOR_52_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_52_NAME;Early Cold War Anti-Tank Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_53_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_53_NAME;Mid Cold War Anti-Tank Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_54_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_54_NAME;Late Cold War Anti-Tank Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_55_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_55_NAME;Post Cold War Anti-Tank Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_56_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_56_NAME;21st Century Anti-Tank Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_57_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_57_NAME;Advanced 21st Anti-Tank Missiles;;;;;;;;;;X
+TECH_APP_ARMOR_6_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_6_NAME;Late Cold War MBT;;;;;;;;;;X
+TECH_APP_ARMOR_7_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_7_NAME;Post CW Upg - Late CW MBT;;;;;;;;;;X
+TECH_APP_ARMOR_8_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_8_NAME;21st Century Upg - Late CW MBT;;;;;;;;;;X
+TECH_APP_ARMOR_9_DESC;;;;;;;;;;;X
+TECH_APP_ARMOR_9_NAME;Post Cold War MBT;;;;;;;;;;X
+TECH_APP_INFANTRY_1_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_1_NAME;Early Cold War Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_2_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_2_NAME;Mid CW Upg - Early CW Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_3_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_3_NAME;Mid Cold War Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_4_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_4_NAME;Late CW Upg - Mid CW Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_5_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_5_NAME;Post CW Upg - Mid CW Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_6_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_6_NAME;Late Cold War Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_7_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_7_NAME;Post CW Upg - Late CW Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_8_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_8_NAME;21st Century Upg - Late CW Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_9_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_9_NAME;Post Cold War Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_10_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_10_NAME;21st Century Upg - Post CW Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_11_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_11_NAME;21st Century Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_12_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_12_NAME;Future Upg - 21st Century Armored Div/Bde;;;;;;;;;;X
+TECH_APP_INFANTRY_13_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_13_NAME;Mechanized Division 1965;;;;;;;;;;X
+TECH_APP_INFANTRY_14_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_14_NAME;Mechanized Division 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_15_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_15_NAME;Mechanized Division 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_16_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_16_NAME;Mechanized Division 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_17_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_17_NAME;Mechanized Division 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_18_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_18_NAME;Mechanized Division 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_20_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_20_NAME;Motorized Brigade 1965;;;;;;;;;;X
+TECH_APP_INFANTRY_21_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_21_NAME;Motorized Brigade 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_22_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_22_NAME;Motorized Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_23_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_23_NAME;Motorized Brigade 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_24_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_24_NAME;Motorized Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_25_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_25_NAME;Motorized Brigade 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_26_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_26_NAME;Motorized Division 1965;;;;;;;;;;X
+TECH_APP_INFANTRY_27_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_27_NAME;Motorized Division 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_28_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_28_NAME;Motorized Division 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_29_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_29_NAME;Motorized Division 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_30_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_30_NAME;Motorized Division 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_31_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_31_NAME;Motorized Division 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_32_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_32_NAME;Mechanized Brigade 1965;;;;;;;;;;X
+TECH_APP_INFANTRY_33_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_33_NAME;Mechanized Brigade 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_34_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_34_NAME;Mechanized Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_35_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_35_NAME;Mechanized Brigade 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_36_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_36_NAME;Mechanized Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_37_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_37_NAME;Mechanized Brigade 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_38_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_38_NAME;Marine Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_39_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_39_NAME;Marine Brigade 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_40_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_40_NAME;Marine Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_41_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_41_NAME;Marine Brigade 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_42_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_42_NAME;Marine Division 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_43_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_43_NAME;Marine Division 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_44_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_44_NAME;Marine Division 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_45_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_45_NAME;Marine Division 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_46_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_46_NAME;Garrison Brigade 1965;;;;;;;;;;X
+TECH_APP_INFANTRY_47_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_47_NAME;Garrison Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_48_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_48_NAME;Garrison Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_49_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_49_NAME;Airmobile Cavalry Brigade 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_50_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_50_NAME;Airmobile Cavalry Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_51_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_51_NAME;Airmobile Cavalry Brigade 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_52_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_52_NAME;Airmobile Cavalry Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_53_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_53_NAME;Airmobile Cavalry Brigade 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_54_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_54_NAME;Paratrooper Brigade 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_55_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_55_NAME;Paratrooper Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_56_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_56_NAME;Paratrooper Brigade 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_57_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_57_NAME;Paratrooper Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_58_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_58_NAME;Paratrooper Brigade 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_59_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_59_NAME;Specialist Infantry Brigade 1965;;;;;;;;;;X
+TECH_APP_INFANTRY_60_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_60_NAME;Specialist Infantry Brigade 1975;;;;;;;;;;X
+TECH_APP_INFANTRY_61_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_61_NAME;Specialist Infantry Brigade 1985;;;;;;;;;;X
+TECH_APP_INFANTRY_62_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_62_NAME;Specialist Infantry Brigade 1995;;;;;;;;;;X
+TECH_APP_INFANTRY_63_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_63_NAME;Specialist Infantry Brigade 2005;;;;;;;;;;X
+TECH_APP_INFANTRY_64_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_64_NAME;Specialist Infantry Brigade 2015;;;;;;;;;;X
+TECH_APP_INFANTRY_65_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_65_NAME;Mountain Specialization;;;;;;;;;;X
+TECH_APP_INFANTRY_66_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_66_NAME;Desert Specialization;;;;;;;;;;X
+TECH_APP_INFANTRY_67_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_67_NAME;Tropical Specialization;;;;;;;;;;X
+TECH_APP_INFANTRY_68_DESC;;;;;;;;;;;X
+TECH_APP_INFANTRY_68_NAME;Winter Specialization;;;;;;;;;;X
+TECH_APP_NAVAL_0_NAME;Early Cold War Frigate;;;;;;;;;;X
+TECH_APP_NAVAL_1_NAME;Mid Cold War Frigate;;;;;;;;;;X
+TECH_APP_NAVAL_2_NAME;Late Cold War Frigate;;;;;;;;;;X
+TECH_APP_NAVAL_3_NAME;Post Cold War Frigate;;;;;;;;;;X
+TECH_APP_NAVAL_4_NAME;21st Century Frigate;;;;;;;;;;X
+TECH_APP_NAVAL_1_DESC;;;;;;;;;;;X
+TECH_APP_NAVAL_10_NAME;Early Cold War Destroyer;;;;;;;;;;X
+TECH_APP_NAVAL_11_NAME;Mid Cold War Destroyer;;;;;;;;;;X
+TECH_APP_NAVAL_12_NAME;Late Cold War Destroyer;;;;;;;;;;X
+TECH_APP_NAVAL_13_NAME;Post Cold War Destroyer;;;;;;;;;;X
+TECH_APP_NAVAL_14_NAME;21st Century Destroyer;;;;;;;;;;X
+TECH_APP_NAVAL_20_NAME;Early CW Guided Missile Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_21_NAME;Mid CW Guided Missile Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_22_NAME;Late CW Guided Missile Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_23_NAME;Post CW Guided Missile Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_24_NAME;21st Cent Guided Missile Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_222_NAME;Late CW Nuclear Battlecruiser;;;;;;;;;;X
+TECH_APP_NAVAL_224_NAME;21st Cent Nuclear Battlecruiser;;;;;;;;;;X
+TECH_APP_NAVAL_30_NAME;Early CW Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_31_NAME;Mid CW Nuclear Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_32_NAME;Late CW Nuclear Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_33_NAME;Post CW Nuclear Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_34_NAME;21st Cent Nuclear Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_40_NAME;Early CW Light Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_41_NAME;Mid CW Light Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_42_NAME;Late CW Light Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_43_NAME;Post CW Light Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_44_NAME;21st Cent Light Carrier;;;;;;;;;;X
+TECH_APP_NAVAL_50_NAME;Early CW Aircraft Carrying Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_51_NAME;Mid CW Aircraft Carrying Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_52_NAME;Late CW Aircraft Carrying Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_53_NAME;Post CW Aircraft Carrying Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_54_NAME;21st Cent Aircraft Carrying Cruiser;;;;;;;;;;X
+TECH_APP_NAVAL_59_NAME;Cargo Transport;;;;;;;;;;X
+TECH_APP_NAVAL_60_NAME;Early CW Landing Platform Helicopter;;;;;;;;;;X
+TECH_APP_NAVAL_61_NAME;Mid CW Landing Helicopter Assault;;;;;;;;;;X
+TECH_APP_NAVAL_62_NAME;Late CW Landing Helicopter Dock;;;;;;;;;;X
+TECH_APP_NAVAL_64_NAME;21st Cent Amphibious Assault Vessel;;;;;;;;;;X
+TECH_APP_NAVAL_70_NAME;Early CW Diesel Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_770_NAME;Diesel Submarine Mid CW Upg;;;;;;;;;;X
+TECH_APP_NAVAL_71_NAME;Mid CW Diesel Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_771_NAME;Diesel Submarine Late CW Upg;;;;;;;;;;X
+TECH_APP_NAVAL_72_NAME;Late CW Diesel Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_772_NAME;Diesel Submarine Post CW Upg;;;;;;;;;;X
+TECH_APP_NAVAL_73_NAME;Post CW Diesel Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_773_NAME;Diesel Submarine 21st Cent Upg;;;;;;;;;;X
+TECH_APP_NAVAL_74_NAME;21st Cent Diesel Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_774_NAME;Diesel Submarine Future Upg;;;;;;;;;;X
+TECH_APP_NAVAL_80_NAME;Early CW Nuclear Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_81_NAME;Mid CW Nuclear Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_881_NAME;Nuclear Submarine Late CW Upg;;;;;;;;;;X
+TECH_APP_NAVAL_82_NAME;Late CW Nuclear Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_882_NAME;Nuclear Submarine Post CW Upg;;;;;;;;;;X
+TECH_APP_NAVAL_83_NAME;Post CW Nuclear Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_883_NAME;Nuclear Submarine 21st Cent Upg;;;;;;;;;;X
+TECH_APP_NAVAL_84_NAME;21st Cent Nuclear Submarine;;;;;;;;;;X
+TECH_APP_NAVAL_884_NAME;Nuclear Submarine Future Upg;;;;;;;;;;X
+TECH_APP_NAVAL_85_NAME;Early CW Ship to Ship Missile;;;;;;;;;;X
+TECH_APP_NAVAL_86_NAME;Mid CW Ship to Ship Missile;;;;;;;;;;X
+TECH_APP_NAVAL_87_NAME;Late CW Ship to Ship Missile;;;;;;;;;;X
+TECH_APP_NAVAL_88_NAME;Post CW Ship to Ship Missile;;;;;;;;;;X
+TECH_APP_NAVAL_89_NAME;21st Cent Ship to Ship Missile;;;;;;;;;;X
+TECH_APP_NAVAL_90_NAME;Early CW Guided Missile Nuclear Sub;;;;;;;;;;X
+TECH_APP_NAVAL_91_NAME;Mid CW Guided Missile Nuclear Sub;;;;;;;;;;X
+TECH_APP_NAVAL_92_NAME;Late CW Guided Missile Nuclear Sub;;;;;;;;;;X
+TECH_APP_NAVAL_93_NAME;Post CW Guided Missile Nuclear Sub;;;;;;;;;;X
+TECH_APP_NAVAL_94_NAME;21st Cent Guided Missile Nuclear Sub;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_0_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_1_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_2_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_3_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_4_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_1_DESC;;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_10_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_11_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_12_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_13_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_14_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_20_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_21_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_22_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_23_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_24_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_222_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_224_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_30_NAME;Early Cold War CV;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_31_NAME;Mid Cold War CVN;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_32_NAME;Late Cold War CVN;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_33_NAME;Post Cold War CVN;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_34_NAME;21st Cold War CVN;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_40_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_41_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_42_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_43_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_44_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_50_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_51_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_52_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_53_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_54_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_59_NAME;Cargo Transport;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_60_NAME;Early CW LPH;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_61_NAME;Mid CW LHA;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_62_NAME;Late CW LHD;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_64_NAME;21st Cent AAV;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_70_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_770_NAME;Mid CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_71_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_771_NAME;Late CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_72_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_772_NAME;Post CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_73_NAME;Post CW Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_773_NAME;21st Cent Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_74_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_774_NAME;Adv 21st Cent Upg;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_80_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_81_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_881_NAME;Late CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_82_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_882_NAME;Post CW Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_83_NAME;Post CW Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_883_NAME;21st Cent Upgrade;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_84_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_884_NAME;Adv 21st Cent Upg;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_85_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_86_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_87_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_88_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_89_NAME;21st Century;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_90_NAME;Early Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_91_NAME;Mid Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_92_NAME;Late Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_93_NAME;Post Cold War;;;;;;;;;;X
+SHORT_TECH_APP_NAVAL_94_NAME;21st Century;;;;;;;;;;X
+TECH_APP_AIRCRAFT_1_NAME;2nd Gen Short Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_1_DESC;;;;;;;;;;;X
+TECH_APP_AIRCRAFT_2_NAME;3rd Gen Short Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_3_NAME;4th Gen Short Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_4_NAME;4.5th Gen Short Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_5_NAME;5th Gen Short Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_6_NAME;5.5th Gen Short Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_7_NAME;2nd Gen Long Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_8_NAME;3rd Gen Long Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_9_NAME;4th Gen Long Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_10_NAME;4.5th Gen Long Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_11_NAME;5th Gen Long Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_12_NAME;5.5th Gen Long Range Multirole Fighter;;;;;;;;;;X
+TECH_APP_AIRCRAFT_16_NAME;Early CW Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_17_NAME;Mid CW Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_18_NAME;Late CW Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_19_NAME;21st Cent Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_20_NAME;Early CW Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_21_NAME;Mid CW Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_22_NAME;Late CW Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_24_NAME;21st Cent Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_25_NAME;Cold War Close Air Support;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_26_NAME;Post CW Close Air Support;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_27_NAME;Light Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_30_NAME;Early CW Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_31_NAME;Mid CW Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_32_NAME;Late CW Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_33_NAME;21st Cent Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_34_NAME;Future Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_35_NAME;Mid CW Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_36_NAME;Late CW Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_37_NAME;Post CW Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_38_NAME;2000s Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_39_NAME;Future Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_40_NAME;Early CW CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_41_NAME;Late CW CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_42_NAME;Post CW CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_43_NAME;21st Cent CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_44_NAME;Transport Helicopter Conversion;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_45_NAME;Early CW Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_46_NAME;Late CW Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_47_NAME;Post CW Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_48_NAME;21st Cent Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_49_NAME;Early CW Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_50_NAME;Late CW Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_51_NAME;Post CW Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_52_NAME;21st Cent Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_53_NAME;Early CW Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_54_NAME;Late CW Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_55_NAME;Post CW Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_56_NAME;21st Cent Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_57_NAME;Early CW Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_58_NAME;Late CW Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_59_NAME;Post CW Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_60_NAME;21st Cent Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_61_NAME;Early CW ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_62_NAME;Late CW ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_63_NAME;Post CW ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_64_NAME;21st Cent ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AD_1_NAME;50 Hours/Year Implementation;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AD_1_DESC;;;;;;;;;;;X
+TECH_APP_AD_2_NAME;100 Hours/Year Implementation;;;;Abfang Luftüberlegenheit;;;;;;X
+TECH_APP_AD_2_DESC;;;;;;;;;;;X
+TECH_APP_AD_3_NAME;150 Hours/Year Implementation;;;;Schnelle Bereitschaft;;;;;;X
+TECH_APP_AD_3_DESC;;;;;;;;;;;X
+TECH_APP_AD_4_NAME;200 Hours/Year Implementation;;;;Verbesserter Abfangvorgang;;;;;;X
+TECH_APP_AD_4_DESC;;;;;;;;;;;X
+TECH_APP_AD_5_NAME;Early CW Fighter Tactics;;;;Elektronische Verteidigung;;;;;;X
+TECH_APP_AD_5_DESC;;;;;;;;;;;X
+TECH_APP_AD_6_NAME;Early CW Battlefield Support;;;;Verbundener Abfangvorgang;;;;;;X
+TECH_APP_AD_6_DESC;;;;;;;;;;;X
+TECH_APP_AD_7_NAME;Early CW Theater Interdiction;;;;Fortschrittliche Feinderkennung;;;;;;X
+TECH_APP_AD_7_DESC;;;;;;;;;;;X
+TECH_APP_AD_8_NAME;Early CW Strategic Bombing;;;;Fortschrittliche Abfangtaktiken;;;;;;X
+TECH_APP_AD_8_DESC;;;;;;;;;;;X
+TECH_APP_AD_9_NAME;Early CW Airborne Warfare;;;;Aggressive Luftüberlegenheit;;;;;;X
+TECH_APP_AD_9_DESC;;;;;;;;;;;X
+TECH_APP_AD_10_NAME;Early CW AWACS Operations;;;;Eskortierende Luftüberlegenheit;;;;;;X
+TECH_APP_AD_10_DESC;;;;;;;;;;;X
+TECH_APP_AD_11_NAME;Early CW Naval Patrol;;;;Weitreichende Abfangsysteme;;;;;;X
+TECH_APP_AD_11_DESC;;;;;;;;;;;X
+TECH_APP_AD_12_NAME;Early CW Simulators;;;;Offensive Luftüberlegenheit;;;;;;X
+TECH_APP_AD_12_DESC;;;;;;;;;;;X
+TECH_APP_AD_13_NAME;Late CW Fighter Tactics;;;;Luftdominanz Doktrin;;;;;;X
+TECH_APP_AD_13_DESC;;;;;;;;;;;X
+TECH_APP_AD_14_NAME;Late CW Battlefield Support;;;;Angewandte Stealth-Systeme;;;;;;X
+TECH_APP_AD_14_DESC;;;;;;;;;;;X
+TECH_APP_AD_15_NAME;Late CW Theater Interdiction;;;;Praktischer Long Range Kampf;;;;;;X
+TECH_APP_AD_15_DESC;;;;;;;;;;;X
+TECH_APP_AD_16_NAME;Late CW Strategic Bombing;;;;Fortschrittliche Luftdominanz;;;;;;X
+TECH_APP_AD_16_DESC;;;;;;;;;;;X
+TECH_APP_AD_17_NAME;Late CW Airborne Warfare;;;;Luftabwehr;;;;;;X
+TECH_APP_AD_17_DESC;;;;;;;;;;;X
+TECH_APP_AD_18_NAME;Late CW AWACS Operations;;;;Tiefe Luftschläge;;;;;;X
+TECH_APP_AD_18_DESC;;;;;;;;;;;X
+TECH_APP_AD_19_NAME;Late CW Naval Patrol;;;;Versorgungsstörung;;;;;;X
+TECH_APP_AD_19_DESC;;;;;;;;;;;X
+TECH_APP_AD_20_NAME;Late CW Simulators;;;;Präzise Schläge;;;;;;X
+TECH_APP_AD_20_DESC;;;;;;;;;;;X
+TECH_APP_AD_21_NAME;Post CW Fighter Tactics;;;;Führungsunterdrückung;;;;;;X
+TECH_APP_AD_21_DESC;;;;;;;;;;;X
+TECH_APP_AD_22_NAME;Post CW Battlefield Support;;;;Hochrisiko Zielzerstörung;;;;;;X
+TECH_APP_AD_22_DESC;;;;;;;;;;;X
+TECH_APP_AD_23_NAME;Post CW Theater Interdiction;;;;Angewandte Stealth-Systeme;;;;;;X
+TECH_APP_AD_23_DESC;;;;;;;;;;;X
+TECH_APP_AD_24_NAME;Post CW Strategic Bombing;;;;Zielauswahl;;;;;;X
+TECH_APP_AD_24_DESC;;;;;;;;;;;X
+TECH_APP_AD_25_NAME;Post CW Airborne Warfare;;;;Luftunterstüzungs-Doktrin;;;;;;X
+TECH_APP_AD_25_DESC;;;;;;;;;;;X
+TECH_APP_AD_26_NAME;Post CW AWACS Operations;;;;CAS-Taktiken;;;;;;X
+TECH_APP_AD_26_DESC;;;;;;;;;;;X
+TECH_APP_AD_27_NAME;Post CW Naval Patrol;;;;Verbesserte CAS-Taktiken;;;;;;X
+TECH_APP_AD_27_DESC;;;;;;;;;;;X
+TECH_APP_AD_28_NAME;Post CW Simulators;;;;Cluster-Bomben;;;;;;X
+TECH_APP_AD_28_DESC;;;;;;;;;;;X
+TECH_APP_AD_29_NAME;21st Century Fighter Tactics;;;;Präzise Angriffe;;;;;;X
+TECH_APP_AD_29_DESC;;;;;;;;;;;X
+TECH_APP_AD_30_NAME;21st Century Battlefield Support;;;;J-Star Unterstützung;;;;;;X
+TECH_APP_AD_30_DESC;;;;;;;;;;;X
+TECH_APP_AD_31_NAME;21st Century Theater Interdiction;;;;Kill Box Taktik;;;;;;X
+TECH_APP_AD_31_DESC;;;;;;;;;;;X
+TECH_APP_AD_32_NAME;21st Century Strategic Bombing;;;;Long Range Luftunterstützung;;;;;;X
+TECH_APP_AD_32_DESC;;;;;;;;;;;X
+TECH_APP_AD_33_NAME;21st Century Airborne Warfare;;;;Training und Unterstützung;;;;;;X
+TECH_APP_AD_33_DESC;;;;;;;;;;;X
+TECH_APP_AD_34_NAME;21st Century AWACS Operations;;;;Frühes Training und Unterstützung;;;;;;X
+TECH_APP_AD_34_DESC;;;;;;;;;;;X
+TECH_APP_AD_35_NAME;21st Century Naval Patrol;;;;Flughafen-Angriffe;;;;;;X
+TECH_APP_AD_35_DESC;;;;;;;;;;;X
+TECH_APP_AD_36_NAME;21st Century Simulators;;;;Simulatoren;;;;;;X
+TECH_APP_AD_36_DESC;;;;;;;;;;;X
+TECH_APP_AD_37_NAME;Adv 21st Century Fighter Tactics;;;;Aufklärungsdrohnen;;;;;;X
+TECH_APP_AD_37_DESC;;;;;;;;;;;X
+TECH_APP_AD_38_NAME;Adv 21st Century Battlefield Support;;;;Moderne Luftbetankung;;;;;;X
+TECH_APP_AD_38_DESC;;;;;;;;;;;X
+TECH_APP_AD_39_NAME;Adv 21st Century Theater Interdiction;;;;AWACS;;;;;;X
+TECH_APP_AD_39_DESC;;;;;;;;;;;X
+TECH_APP_AD_40_NAME;Adv 21st Century Strategic Bombing;;;;Moderne Flughafen-Angriffe;;;;;;X
+TECH_APP_AD_40_DESC;;;;;;;;;;;X
+TECH_APP_AD_41_NAME;Adv 21st Century Airborne Warfare;;;;Moderne Außentanks;;;;;;X
+TECH_APP_AD_41_DESC;;;;;;;;;;;X
+TECH_APP_AD_42_NAME;Adv 21st Century AWACS Operations;;;;Realistisches Kampftraining;;;;;;X
+TECH_APP_AD_42_DESC;;;;;;;;;;;x
+TECH_APP_AD_43_NAME;Adv 21st Century Naval Patrol;;;;Long Range Drohnenaufklärer;;;;;;X
+TECH_APP_AD_43_DESC;;;;;;;;;;;x
+TECH_APP_AD_44_NAME;Adv 21st Century Simulators;;;;Computerunterstützte Reperatursysteme;;;;;;X
+TECH_APP_AD_44_DESC;;;;;;;;;;;x
+TECH_APP_AD_45_NAME;Early CW Naval Aviation;;;;VR-Simulatoren;;;;;;X
+TECH_APP_AD_45_DESC;;;;;;;;;;;x
+TECH_APP_AD_46_NAME;Late CW Naval Aviation;;;;Strategische Bombardierung;;;;;;X
+TECH_APP_AD_46_DESC;;;;;;;;;;;x
+TECH_APP_AD_47_NAME;Post CW Naval Aviation;;;;Carped Bombing;;;;;;X
+TECH_APP_AD_47_DESC;;;;;;;;;;;x
+TECH_APP_AD_48_NAME;21st Century Naval Aviation;;;;CW Doktrinen;;;;;;X
+TECH_APP_AD_48_DESC;;;;;;;;;;;x
+TECH_APP_AD_49_NAME;Adv 21st Century Naval Aviation;;;;Frühe Präzisionswaffen;;;;;;X
+TECH_APP_AD_49_DESC;;;;;;;;;;;x
+TECH_APP_AD_51_NAME;50 Flight Hours/Year;;;;Moderne Anti-Bunker Bomben;;;;;;X
+TECH_APP_AD_51_DESC;;;;;;;;;;;x
+TECH_APP_AD_52_NAME;100 Flight Hours/Year;;;;Nervencenter-Doktrin;;;;;;X
+TECH_APP_AD_52_DESC;;;;;;;;;;;x
+TECH_APP_AD_53_NAME;150 Flight Hours/Year;;;;Fortschrittliche Präzisionswaffen;;;;;;X
+TECH_APP_AD_53_DESC;;;;;;;;;;;x
+TECH_APP_AD_54_NAME;200 Flight Hours/Year;;;;Angewandte Stealth-Systeme;;;;;;X
+TECH_APP_AD_54_DESC;;;;;;;;;;;x
+TECH_APP_ND_0_NAME;Early CW Frigate Operations;;;;;;;;;;x
+TECH_APP_ND_1_NAME;Mid CW Frigate Operations;;;;;;;;;;x
+TECH_APP_ND_1_DESC;;;;;;;;;;;x
+TECH_APP_ND_2_NAME;Late CW Frigate Operations;;;;;;;;;;x
+TECH_APP_ND_3_NAME;Post CW Frigate Operations;;;;;;;;;;x
+TECH_APP_ND_4_NAME;21st Cent Frigate Operations;;;;;;;;;;x
+TECH_APP_ND_10_NAME;Early CW Destroyer Operations;;;;;;;;;;x
+TECH_APP_ND_11_NAME;Mid CW Destroyer Operations;;;;;;;;;;x
+TECH_APP_ND_12_NAME;Late CW Destroyer Operations;;;;;;;;;;x
+TECH_APP_ND_13_NAME;Post CW Destroyer Operations;;;;;;;;;;x
+TECH_APP_ND_14_NAME;21st Cent Destroyer Operations;;;;;;;;;;x
+TECH_APP_ND_20_NAME;Early CW Cruiser Operations;;;;;;;;;;x
+TECH_APP_ND_21_NAME;Mid CW Cruiser Operations;;;;;;;;;;x
+TECH_APP_ND_22_NAME;Late CW Cruiser Operations;;;;;;;;;;x
+TECH_APP_ND_23_NAME;Post CW Cruiser Operations;;;;;;;;;;x
+TECH_APP_ND_24_NAME;21st Cent Cruiser Operations;;;;;;;;;;x
+TECH_APP_ND_30_NAME;Early CW Carrier Operations;;;;;;;;;;x
+TECH_APP_ND_31_NAME;Mid CW Carrier Operations;;;;;;;;;;x
+TECH_APP_ND_32_NAME;Late CW Carrier Operations;;;;;;;;;;x
+TECH_APP_ND_33_NAME;Post CW Carrier Operations;;;;;;;;;;x
+TECH_APP_ND_34_NAME;21st Cent Carrier Operations;;;;;;;;;;x
+TECH_APP_ND_40_NAME;Early CW Submarine Operations;;;;;;;;;;x
+TECH_APP_ND_41_NAME;Mid CW Submarine Operations;;;;;;;;;;x
+TECH_APP_ND_42_NAME;Late CW Submarine Operations;;;;;;;;;;x
+TECH_APP_ND_43_NAME;Post CW Submarine Operations;;;;;;;;;;x
+TECH_APP_ND_44_NAME;21st Cent Submarine Operations;;;;;;;;;;x
+TECH_APP_ND_50_NAME;Early CW Frigate Flotilla;;;;;;;;;;x
+TECH_APP_ND_51_NAME;Mid CW Frigate Flotilla;;;;;;;;;;x
+TECH_APP_ND_52_NAME;Late CW Frigate Flotilla;;;;;;;;;;x
+TECH_APP_ND_53_NAME;Post CW Frigate Flotilla;;;;;;;;;;x
+TECH_APP_ND_54_NAME;21st Cent Frigate Flotilla;;;;;;;;;;x
+TECH_APP_ND_60_NAME;Early CW Destroyer Flotilla;;;;;;;;;;x
+TECH_APP_ND_61_NAME;Mid CW Destroyer Flotilla;;;;;;;;;;x
+TECH_APP_ND_62_NAME;Late CW Destroyer Flotilla;;;;;;;;;;x
+TECH_APP_ND_63_NAME;Post CW Destroyer Flotilla;;;;;;;;;;x
+TECH_APP_ND_64_NAME;21st Cent Destroyer Flotilla;;;;;;;;;;x
+TECH_APP_ND_70_NAME;Early CW Cruiser Battlegroup;;;;;;;;;;x
+TECH_APP_ND_71_NAME;Mid CW Cruiser Battlegroup;;;;;;;;;;x
+TECH_APP_ND_72_NAME;Late CW Cruiser Battlegroup;;;;;;;;;;x
+TECH_APP_ND_73_NAME;Post CW Cruiser Battlegroup;;;;;;;;;;x
+TECH_APP_ND_74_NAME;21st Cent Cruiser Battlegroup;;;;;;;;;;x
+TECH_APP_ND_80_NAME;Early CW Carrier Task Force;;;;;;;;;;x
+TECH_APP_ND_81_NAME;Mid CW Carrier Task Force;;;;;;;;;;x
+TECH_APP_ND_82_NAME;Late CW Carrier Task Force;;;;;;;;;;x
+TECH_APP_ND_83_NAME;Post CW Carrier Task Force;;;;;;;;;;x
+TECH_APP_ND_84_NAME;21st Cent Carrier Task Force;;;;;;;;;;x
+TECH_APP_ND_90_NAME;Early CW Naval Logistics;;;;;;;;;;x
+TECH_APP_ND_91_NAME;Mid CW Naval Logistics;;;;;;;;;;x
+TECH_APP_ND_92_NAME;Late CW Naval Logistics;;;;;;;;;;x
+TECH_APP_ND_93_NAME;Post CW Naval Logistics;;;;;;;;;;x
+TECH_APP_ND_94_NAME;21st Cent Naval Logistics;;;;;;;;;;x
+TECH_APP_ND_95_NAME;Early CW Convoy Operations;;;;;;;;;;x
+TECH_APP_ND_96_NAME;Mid CW Convoy Operations;;;;;;;;;;x
+TECH_APP_ND_97_NAME;Late CW Convoy Operations;;;;;;;;;;x
+TECH_APP_ND_98_NAME;Post CW Convoy Operations;;;;;;;;;;x
+TECH_APP_ND_99_NAME;21st Cent Convoy Operations;;;;;;;;;;x
+TECH_APP_AIRCRAFT_1_NAME;2nd Gen Short Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_2_NAME;3rd Gen Short Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_3_NAME;4th Gen Short Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_4_NAME;4.5th Gen Short Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_5_NAME;5th Gen Short Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_6_NAME;5.5th Gen Short Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_7_NAME;2nd Gen Long Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_8_NAME;3rd Gen Long Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_9_NAME;4th Gen Long Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_10_NAME;4.5th Gen Long Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_11_NAME;5th Gen Long Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_12_NAME;5.5th Gen Long Range Multirole Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_16_NAME;Early CW Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_17_NAME;Mid CW Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_18_NAME;Late CW Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_19_NAME;21st Cent Strategic Bomber;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_20_NAME;Early CW Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_21_NAME;Mid CW Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_22_NAME;Late CW Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_24_NAME;21st Cent Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_25_NAME;Cold War Close Air Support;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_26_NAME;Post CW Close Air Support;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_27_NAME;Light Strike Fighter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_30_NAME;Early CW Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_31_NAME;Mid CW Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_32_NAME;Late CW Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_33_NAME;21st Cent Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_34_NAME;Future Naval Patrol;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_35_NAME;Mid CW Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_36_NAME;Late CW Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_37_NAME;Post CW Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_38_NAME;2000s Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_39_NAME;Future Transport;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_40_NAME;Early CW CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_41_NAME;Late CW CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_42_NAME;Post CW CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_43_NAME;21st Cent CAG;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_44_NAME;Transport Helicopter Conversion;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_45_NAME;Early CW Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_46_NAME;Late CW Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_47_NAME;Post CW Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_48_NAME;21st Cent Attack Helicopter;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_49_NAME;Early CW Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_50_NAME;Late CW Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_51_NAME;Post CW Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_52_NAME;21st Cent Air-to-Air Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_53_NAME;Early CW Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_54_NAME;Late CW Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_55_NAME;Post CW Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_56_NAME;21st Cent Air-to-Ground Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_57_NAME;Early CW Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_58_NAME;Late CW Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_59_NAME;Post CW Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_60_NAME;21st Cent Air-to-Sea Missiles;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_61_NAME;Early CW ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_62_NAME;Late CW ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_63_NAME;Post CW ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_AIRCRAFT_64_NAME;21st Cent ECM,EW Packages;;;;Defensive Luftüberlegenheit;;;;;;X
+TECH_APP_SW_1_NAME;First Steps;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_2_NAME;Gun-Type Nuke;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_3_NAME;Implosion Nuke;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_4_NAME;Fusion-Boosted Nuke;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_5_NAME;Hydrogen Bomb;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_6_NAME;1st Generation Nuclear Reactor;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_7_NAME;2nd Generation Nuclear Reactor;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_8_NAME;3rd Generation Nuclear Reactor;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_9_NAME;4th Generation Nuclear Reactor;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_10_NAME;Early CW Balistic Missile;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_11_NAME;Late CW ICBM;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_12_NAME;Post CW ICBM;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_13_NAME;21st Century ICBM;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_14_NAME;Future Solider First Steps;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_15_NAME;Future Solider Digital Integration;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_16_NAME;Future Solider Infantry Weapons;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_17_NAME;Future Solider Combat Armor;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_18_NAME;Communication Satellites;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_19_NAME;Spy Satellites;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_20_NAME;Weather Satellites;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_21_NAME;Global Positioning Satellites;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_22_NAME;Future Computers;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_23_NAME;Decryption SuperComputers;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_24_NAME;Recon Drones;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_25_NAME;Armed Recon Drones;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_26_NAME;Long Range Recon Drones;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_27_NAME;Radar Absorbent Materials;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_28_NAME;Low Radar Cross Section Design;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_29_NAME;Stealth Strike Fighter;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_30_NAME;Stealth Strategic Bomber;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_31_NAME;Late CW Fuel-Efficient Engines;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_32_NAME;Post CW Fuel-Efficient Engines;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_33_NAME;Biodiesel;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_34_NAME;Fuel Cell First Steps;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_35_NAME;Hydrogen Fuel Cell Prototypes;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_36_NAME;Functional Hydrogen Fuel Cells;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_37_NAME;Future Solider Implementation;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_38_NAME;Hybrid Vehicle Engines;;;;Fort. CVL;;;;;;X
+TECH_APP_SW_39_NAME;Military Hybrid Vehicle Engines;;;;Fort. CVL;;;;;;X
+#EOF;;;;;;;;;;;X
+#EOF;;;;;;;;;;;X

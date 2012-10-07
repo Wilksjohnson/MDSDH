@@ -1,0 +1,17 @@
+BRA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+22000;AMAN;amanbra;4;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22001;Avibras;T22000;6;1000;2999;artillery;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22002;IMBEL;T22002;5;1000;2999;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22003;Helibras;helibras;4;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22004;Embraer;T22003;5;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22005;Semco;semcobra;6;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22006;WEG Industries;wegindustries;4;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22007;Brazilian Army;T22007;5;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22008;Joint Chiefs of Staff;brachiefs;5;1000;2999;training;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22009;Brazil Air Force;T22009;5;1000;2999;fighter_tactics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22010;Brazilian Naval Aviation;branavair;5;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22011;CNEN;cnenbra;4;1000;2999;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22012;CTA;T22005;5;1000;2999;management;chemistry;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22013;Brazilian Navy;T22010;5;1000;2999;carrier_tactics;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22014;Arsenal de Marinha;arsdemarinha;5;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22015;Brazilian Intelligence Agency;braintel;4;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
