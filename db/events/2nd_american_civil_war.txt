@@ -3,7 +3,8 @@
 # 2nd American Civil War event chain by danielshannon   #
 # modified by Zokan                                     #
 #                                                       #
-#  Modified for Darkest Hour by Wilksjohnson            #
+#  Modified for Darkest Hour by Wilksjohnson  		#
+#  It looks like Github works! Yay! :)			#
 #                                			#
 #########################################################
 
