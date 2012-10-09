@@ -1,6 +1,8 @@
 #######################;;;;;;;;;;;X
 # muster; -1- ; -2- ; -3- ; -4- ; -5- ; -6- ;; -8- ;;;X
 #######################;;;;;;;;;;;X
+MODEL_AFG_4_0;T-55;;;;;;;;;;X
+MODEL_AFG_4_1;T-62;;;;;;;;;;X
 MODEL_AFG_12_1;MiG-23 Flogger;;;;;;;;;;X
 MODEL_AFG_13_2;Mig-29 Fulcrum;;;;;;;;;;X
 MODEL_AFG_13_3;F-16C Fighting Falcon;;;;;;;;;;X
@@ -167,7 +169,7 @@ MODEL_ARG_5_22;Leopard 4;;;;;;;;;;X
 MODEL_ARG_5_23;Leopard 4A6;;;;;;;;;;X
 MODEL_ARG_13_0;IAI Nesher;;;;;;;;;;X
 MODEL_ARG_13_1;IAI Dagger;;;;;;;;;;X
-MODEL_ARG_15_0;FMA IA 58 Pucará;;;;;;;;;;X
+MODEL_ARG_15_0;FMA IA 58 Pucarï¿½;;;;;;;;;;X
 MODEL_ARG_15_1;A-4AR Fightinghawk;;;;;;;;;;X
 MODEL_ARG_18_0;C-130 Hercules;;;;;;;;;;X
 MODEL_ARG_18_1;;;;;;;;;;;X
@@ -214,7 +216,7 @@ MODEL_ARM_5_23;T-95B;;;;;;;;;;X
 MODEL_AST_4_0;Centurion;;;;;;;;;;X
 MODEL_AST_4_1;Centurion Mk13;;;;;;;;;;X
 MODEL_AST_4_3;Leopard 1;;;;;;;;;;X
-MODEL_AST_4_4;Leopard 1A3;;;;;;;;;;X
+MODEL_AST_4_4;Leopard AS1;;;;;;;;;;X
 MODEL_AST_4_5;Leopard 1A5;;;;;;;;;;X
 MODEL_AST_4_7;M1 Abrams;;;;;;;;;;X
 MODEL_AST_4_8;M1A1 Abrams;;;;;;;;;;X
@@ -224,7 +226,7 @@ MODEL_AST_4_12;M4A2 Clay;;;;;;;;;;X
 MODEL_AST_5_7;Centurion;;;;;;;;;;X
 MODEL_AST_5_8;Centurion Mk13;;;;;;;;;;X
 MODEL_AST_5_11;Leopard 1;;;;;;;;;;X
-MODEL_AST_5_12;Leopard 1A3;;;;;;;;;;X
+MODEL_AST_5_12;Leopard AS1;;;;;;;;;;X
 MODEL_AST_5_13;Leopard 1A5;;;;;;;;;;X
 MODEL_AST_5_15;M1 Abrams;;;;;;;;;;X
 MODEL_AST_5_16;M1A1 Abrams;;;;;;;;;;X
@@ -327,7 +329,7 @@ MODEL_AZB_17_1;Su-25 Frogfoot-T;;;;Su-25;;;;;;X
 #;;;;;;;;;;;
 MODEL_BEL_4_3;Leopard 1;;;;;;;;;;X
 MODEL_BEL_4_4;Leopard 1A3;;;;;;;;;;X
-MODEL_BEL_4_5;Leopard 1A5;;;;;;;;;;X
+MODEL_BEL_4_5;Leopard 1A5BE;;;;;;;;;;X
 MODEL_BEL_4_7;Leopard 2;;;;;;;;;;X
 MODEL_BEL_4_8;Leopard 2A4;;;;;;;;;;X
 MODEL_BEL_4_9;Leopard 2A6;;;;;;;;;;X
@@ -337,7 +339,7 @@ MODEL_BEL_4_14;Leopard 4;;;;;;;;;;X
 MODEL_BEL_4_15;Leopard 4A6;;;;;;;;;;X
 MODEL_BEL_5_11;Leopard 1;;;;;;;;;;X
 MODEL_BEL_5_12;Leopard 1A3;;;;;;;;;;X
-MODEL_BEL_5_13;Leopard 1A5;;;;;;;;;;X
+MODEL_BEL_5_13;Leopard 1A5BE;;;;;;;;;;X
 MODEL_BEL_5_15;Leopard 2;;;;;;;;;;X
 MODEL_BEL_5_16;Leopard 2A4;;;;;;;;;;X
 MODEL_BEL_5_17;Leopard 2A6;;;;;;;;;;X
@@ -538,7 +540,7 @@ MODEL_BRA_18_1;C-130J Super Hercules;;;;;;;;;;X
 MODEL_BRA_18_2;CASA C-295;;;;;;;;;;X
 MODEL_BRA_18_3;Embraer C-390;;;;;;;;;;X
 MODEL_BRA_25_0;Garcia-Class;;;;;;;;;;X
-MODEL_BRA_25_1;Niterói-Class;;;;;;;;;;X
+MODEL_BRA_25_1;Niterï¿½i-Class;;;;;;;;;;X
 MODEL_BRA_25_2;;;;;;;;;;;X
 MODEL_BRA_25_3;;;;;;;;;;;X
 MODEL_BRA_25_4;;;;;;;;;;;X
@@ -548,8 +550,8 @@ MODEL_BRA_28_0;Oberon-Class;;;;;;;;;;X
 MODEL_BRA_28_1;Imp. Oberon-Class;;;;;;;;;;X
 MODEL_BRA_28_2;Tupi-Class;;;;;;;;;;X
 MODEL_BRA_28_3;Tikuna-Class;;;;;;;;;;X
-MODEL_BRA_28_4;Scorpène-Class;;;;;;;;;;X
-MODEL_BRA_28_5;Imp. Scorpène-Class;;;;;;;;;;X
+MODEL_BRA_28_4;Scorpï¿½ne-Class;;;;;;;;;;X
+MODEL_BRA_28_5;Imp. Scorpï¿½ne-Class;;;;;;;;;;X
 MODEL_BRA_28_6;Marlin Class;;;;;;;;;;X
 MODEL_BRA_28_7;Imp. Marlin Class;;;;;;;;;;X
 MODEL_BRA_30_0;;;;;;;;;;;X
@@ -655,8 +657,8 @@ MODEL_CAN_4_3;Leopard 1;;;;;;;;;;X
 MODEL_CAN_4_4;Leopard C1;;;;;;;;;;X
 MODEL_CAN_4_5;Leopard C2;;;;;;;;;;X
 MODEL_CAN_4_7;Leopard 2;;;;;;;;;;X
-MODEL_CAN_4_8;Leopard 2A4;;;;;;;;;;X
-MODEL_CAN_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_CAN_4_8;Leopard 2A4M CAN;;;;;;;;;;X
+MODEL_CAN_4_9;Leopard 2A6M CAN;;;;;;;;;;X
 MODEL_CAN_4_11;Leopard 3;;;;;;;;;;X
 MODEL_CAN_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_CAN_4_14;Leopard 4;;;;;;;;;;X
@@ -667,8 +669,8 @@ MODEL_CAN_5_11;Leopard 1;;;;;;;;;;X
 MODEL_CAN_5_12;Leopard C1;;;;;;;;;;X
 MODEL_CAN_5_13;Leopard C2;;;;;;;;;;X
 MODEL_CAN_5_15;Leopard 2;;;;;;;;;;X
-MODEL_CAN_5_16;Leopard 2A4;;;;;;;;;;X
-MODEL_CAN_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_CAN_5_16;Leopard 2A4M CAN;;;;;;;;;;X
+MODEL_CAN_5_17;Leopard 2A6M CAN;;;;;;;;;;X
 MODEL_CAN_5_19;Leopard 3;;;;;;;;;;X
 MODEL_CAN_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_CAN_5_22;Leopard 4;;;;;;;;;;X
@@ -938,7 +940,7 @@ MODEL_CHL_4_3;AMX-30;;;;;;;;;;X
 MODEL_CHL_4_4;AMX-30B2;;;;;;;;;;X
 MODEL_CHL_4_5;Leopard 1A5;;;;;;;;;;X
 MODEL_CHL_4_7;Leopard 2;;;;;;;;;;X
-MODEL_CHL_4_8;Leopard 2A4;;;;;;;;;;X
+MODEL_CHL_4_8;Leopard 2A4CHL;;;;;;;;;;X
 MODEL_CHL_4_9;Leopard 2A6;;;;;;;;;;X
 MODEL_CHL_4_11;Leopard 3;;;;;;;;;;X
 MODEL_CHL_4_12;Leopard 3A5;;;;;;;;;;X
@@ -948,7 +950,7 @@ MODEL_CHL_5_11;AMX-30;;;;;;;;;;X
 MODEL_CHL_5_12;AMX-30B2;;;;;;;;;;X
 MODEL_CHL_5_13;Leopard 1A5;;;;;;;;;;X
 MODEL_CHL_5_15;Leopard 2;;;;;;;;;;X
-MODEL_CHL_5_16;Leopard 2A4;;;;;;;;;;X
+MODEL_CHL_5_16;Leopard 2A4CHL;;;;;;;;;;X
 MODEL_CHL_5_17;Leopard 2A6;;;;;;;;;;X
 MODEL_CHL_5_19;Leopard 3;;;;;;;;;;X
 MODEL_CHL_5_20;Leopard 3A5;;;;;;;;;;X
@@ -970,8 +972,8 @@ MODEL_CHL_28_0;Oberon-Class;;;;;;;;;;X
 MODEL_CHL_28_1;Imp. Oberon-Class;;;;;;;;;;X
 MODEL_CHL_28_2;Type 209-Class;;;;;;;;;;X
 MODEL_CHL_28_3;Type 209A-Class;;;;;;;;;;X
-MODEL_CHL_28_6;Scorpène-Class;;;;;;;;;;X
-MODEL_CHL_28_7;Imp. Scorpène-Class;;;;;;;;;;X
+MODEL_CHL_28_6;Scorpï¿½ne-Class;;;;;;;;;;X
+MODEL_CHL_28_7;Imp. Scorpï¿½ne-Class;;;;;;;;;;X
 #;;;;;;;;;;;
 MODEL_CMB_4_0;Type 59;;;;;;;;;;X
 MODEL_CMB_4_1;Type 59D;;;;;;;;;;X
@@ -1148,7 +1150,7 @@ MODEL_CZE_4_0;T-55;;;;;;;;;;X
 MODEL_CZE_4_1;T-62;;;;;;;;;;X
 MODEL_CZE_4_3;T-72;;;;;;;;;;X
 MODEL_CZE_4_4;T-72A;;;;;;;;;;X
-MODEL_CZE_4_5;T-72BM;;;;;;;;;;X
+MODEL_CZE_4_5;T-72M4 CZ;;;;;;;;;;X
 MODEL_CZE_4_7;Leopard 2;;;;;;;;;;X
 MODEL_CZE_4_8;Leopard 2A4;;;;;;;;;;X
 MODEL_CZE_4_9;Leopard 2A6;;;;;;;;;;X
@@ -1160,7 +1162,7 @@ MODEL_CZE_5_7;T-55;;;;;;;;;;X
 MODEL_CZE_5_8;T-62;;;;;;;;;;X
 MODEL_CZE_5_11;T-72;;;;;;;;;;X
 MODEL_CZE_5_12;T-72A;;;;;;;;;;X
-MODEL_CZE_5_13;T-72BM;;;;;;;;;;X
+MODEL_CZE_5_13;T-72M4 CZ;;;;;;;;;;X
 MODEL_CZE_5_15;Leopard 2;;;;;;;;;;X
 MODEL_CZE_5_16;Leopard 2A4;;;;;;;;;;X
 MODEL_CZE_5_17;Leopard 2A6;;;;;;;;;;X
@@ -1191,14 +1193,14 @@ BRIG_MODEL_CZE_8_4;;;;;;;;;;;X
 #;;;;;;;;;;;
 MODEL_DEN_4_7;Leopard 2;;;;;;;;;;X
 MODEL_DEN_4_8;Leopard 2A4;;;;;;;;;;X
-MODEL_DEN_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_DEN_4_9;Leopard 2A5DK;;;;;;;;;;X
 MODEL_DEN_4_11;Leopard 3;;;;;;;;;;X
 MODEL_DEN_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_DEN_4_14;Leopard 4;;;;;;;;;;X
 MODEL_DEN_4_15;Leopard 4A6;;;;;;;;;;X
 MODEL_DEN_5_15;Leopard 2;;;;;;;;;;X
 MODEL_DEN_5_16;Leopard 2A4;;;;;;;;;;X
-MODEL_DEN_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_DEN_5_17;Leopard 2A5DK;;;;;;;;;;X
 MODEL_DEN_5_19;Leopard 3;;;;;;;;;;X
 MODEL_DEN_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_DEN_5_22;Leopard 4;;;;;;;;;;X
@@ -1215,8 +1217,8 @@ MODEL_DEN_25_2;Absalon-Class;;;;;;;;;;X
 MODEL_DEN_25_4;;;;;;;;;;;X
 MODEL_DEN_28_0;Tumleren-Class;;;;;;;;;;X
 MODEL_DEN_28_1;Imp. Tumleren-Class;;;;;;;;;;X
-MODEL_DEN_28_2;Näcken-Class;;;;;;;;;;X
-MODEL_DEN_28_3;Imp. Näcken-Class;;;;;;;;;;X
+MODEL_DEN_28_2;Nï¿½cken-Class;;;;;;;;;;X
+MODEL_DEN_28_3;Imp. Nï¿½cken-Class;;;;;;;;;;X
 #;;;;;;;;;;;
 MODEL_ECU_4_0;T-55;;;;;;;;;;X
 MODEL_ECU_4_1;T-62;;;;;;;;;;X
@@ -1248,21 +1250,21 @@ MODEL_ECU_15_0;A-37 Dragonfly;;;;;;;;;;X
 MODEL_ECU_25_0;Type 12 Condell-Class;;;;;;;;;;X
 MODEL_ECU_28_2;Type 209 Thomson-Class;;;;;;;;;;X
 #;;;;;;;;;;;
-MODEL_EGY_4_0;T-55;;;;;;;;;;X
-MODEL_EGY_4_1;T-62;;;;;;;;;;X
-MODEL_EGY_4_3;M60 Patton;;;;;;;;;;X
-MODEL_EGY_4_4;M60A1 Patton;;;;;;;;;;X
-MODEL_EGY_4_5;M60A3 Patton;;;;;;;;;;X
+MODEL_EGY_4_0;T-55E;;;;;;;;;;X
+MODEL_EGY_4_1;Ramses 2;;;;;;;;;;X
+MODEL_EGY_4_3;T-62E;;;;;;;;;;X
+MODEL_EGY_4_4;M60A3 Patton;;;;;;;;;;X
+MODEL_EGY_4_5;M60-2000;;;;;;;;;;X
 MODEL_EGY_4_7;M1 Abrams;;;;;;;;;;X
 MODEL_EGY_4_8;M1A1 Abrams;;;;;;;;;;X
 MODEL_EGY_4_9;M1A2 Abrams;;;;;;;;;;X
 MODEL_EGY_4_11;M4A1 Clay;;;;;;;;;;X
 MODEL_EGY_4_12;M4A2 Clay;;;;;;;;;;X
-MODEL_EGY_5_7;T-55;;;;;;;;;;X
-MODEL_EGY_5_8;T-62;;;;;;;;;;X
-MODEL_EGY_5_11;M60 Patton;;;;;;;;;;X
-MODEL_EGY_5_12;M60A1 Patton;;;;;;;;;;X
-MODEL_EGY_5_13;M60A3 Patton;;;;;;;;;;X
+MODEL_EGY_5_7;T-55E;;;;;;;;;;X
+MODEL_EGY_5_8;Ramses 2;;;;;;;;;;X
+MODEL_EGY_5_11;T-62E;;;;;;;;;;X
+MODEL_EGY_5_12;M60A3 Patton;;;;;;;;;;X
+MODEL_EGY_5_13;M60-2000;;;;;;;;;;X
 MODEL_EGY_5_15;M1 Abrams;;;;;;;;;;X
 MODEL_EGY_5_16;M1A1 Abrams;;;;;;;;;;X
 MODEL_EGY_5_17;M1A2 Abrams;;;;;;;;;;X
@@ -1575,7 +1577,7 @@ MODEL_FRA_23_4;;;;;;;;;;;X
 MODEL_FRA_24_0;Jeanne d'Arc-Class;;;;;;;;;;X
 MODEL_FRA_25_0;;;;;;;;;;;X
 MODEL_FRA_25_1;;;;;;;;;;;X
-MODEL_FRA_25_2;Floréal-Class;;;;;;;;;;X
+MODEL_FRA_25_2;Florï¿½al-Class;;;;;;;;;;X
 MODEL_FRA_25_3;La Fayette-Class;;;;;;;;;;X
 MODEL_FRA_25_4;Aquitaine-Class;;;;;;;;;;X
 MODEL_FRA_27_0;Clemenceau-Class;;;;;;;;;;X
@@ -1583,14 +1585,14 @@ MODEL_FRA_27_1;;;;;;;;;;;X
 MODEL_FRA_27_2;Charles de Gaulle-Class;;;;;;;;;;X
 MODEL_FRA_27_3;Richelieu-Class;;;;;;;;;;X
 MODEL_FRA_27_4;Luckner-Class;;;;;;;;;;X
-MODEL_FRA_28_0;Daphné-Class;;;;;;;;;;X
-MODEL_FRA_28_1;Imp. Daphné-Class;;;;;;;;;;X
+MODEL_FRA_28_0;Daphnï¿½-Class;;;;;;;;;;X
+MODEL_FRA_28_1;Imp. Daphnï¿½-Class;;;;;;;;;;X
 MODEL_FRA_28_2;Agosta-Class;;;;;;;;;;X
 MODEL_FRA_28_3;Agosta 90B-Class;;;;;;;;;;X
 MODEL_FRA_28_4;;;;;;;;;;;X
 MODEL_FRA_28_5;;;;;;;;;;;X
-MODEL_FRA_28_6;Scorpène-Class;;;;;;;;;;X
-MODEL_FRA_28_7;Imp. Scorpène-Class;;;;;;;;;;X
+MODEL_FRA_28_6;Scorpï¿½ne-Class;;;;;;;;;;X
+MODEL_FRA_28_7;Imp. Scorpï¿½ne-Class;;;;;;;;;;X
 MODEL_FRA_28_8;Orque-Class;;;;;;;;;;X
 MODEL_FRA_28_9;Imp. Orque-Class;;;;;;;;;;X
 MODEL_FRA_28_11;;;;;;;;;;;X
@@ -1611,18 +1613,18 @@ BRIG_MODEL_FRA_8_0;Alouette III;;;;;;;;;;X
 BRIG_MODEL_FRA_8_1;SA 341 Gazelle;;;;;;;;;;X
 BRIG_MODEL_FRA_8_2;SA 342 Gazelle;;;;;;;;;;X
 BRIG_MODEL_FRA_8_3;HAP Tigre;;;;;;;;;;X
-BRIG_MODEL_FRA_8_4;HAP Léopard;;;;;;;;;;X
-BRIG_MODEL_FRA_14_0;F-8B Crusader/Super-Étendard;;;;;;;;;;X
-BRIG_MODEL_FRA_14_1;F-8E Crusader/Super-Étendard;;;;;;;;;;X
+BRIG_MODEL_FRA_8_4;HAP Lï¿½opard;;;;;;;;;;X
+BRIG_MODEL_FRA_14_0;F-8B Crusader/Super-ï¿½tendard;;;;;;;;;;X
+BRIG_MODEL_FRA_14_1;F-8E Crusader/Super-ï¿½tendard;;;;;;;;;;X
 BRIG_MODEL_FRA_14_2;Rafale M;;;;;;;;;;X
 BRIG_MODEL_FRA_14_3;Rafale BN;;;;;;;;;;X
 #;;;;;;;;;;;
 MODEL_GEO_4_0;T-55;;;;;;;;;;X
-MODEL_GEO_4_1;T-62;;;;;;;;;;X
+MODEL_GEO_4_1;T-55AM;;;;;;;;;;X
 MODEL_GEO_4_3;T-72;;;;;;;;;;X
 MODEL_GEO_4_4;T-72A;;;;;;;;;;X
-MODEL_GEO_4_5;T-72BM;;;;;;;;;;X
-MODEL_GEO_4_7;T-84;;;;;;;;;;X
+MODEL_GEO_4_5;T-72B;;;;;;;;;;X
+MODEL_GEO_4_7;T-72M1 SIM-1;;;;;;;;;;X
 MODEL_GEO_4_8;T-84 Oplot;;;;;;;;;;X
 MODEL_GEO_4_9;T-84 Oplot-M;;;;;;;;;;X
 MODEL_GEO_4_11;Leopard 3;;;;;;;;;;X
@@ -1630,11 +1632,11 @@ MODEL_GEO_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_GEO_4_14;Leopard 4;;;;;;;;;;X
 MODEL_GEO_4_15;Leopard 4A6;;;;;;;;;;X
 MODEL_GEO_5_7;T-55;;;;;;;;;;X
-MODEL_GEO_5_8;T-62;;;;;;;;;;X
+MODEL_GEO_5_8;T-55AM;;;;;;;;;;X
 MODEL_GEO_5_11;T-72;;;;;;;;;;X
 MODEL_GEO_5_12;T-72A;;;;;;;;;;X
-MODEL_GEO_5_13;T-72BM;;;;;;;;;;X
-MODEL_GEO_5_15;T-84;;;;;;;;;;X
+MODEL_GEO_5_13;T-72B;;;;;;;;;;X
+MODEL_GEO_5_15;T-72M1 SIM-1;;;;;;;;;;X
 MODEL_GEO_5_16;T-84 Oplot;;;;;;;;;;X
 MODEL_GEO_5_17;T-84 Oplot-M;;;;;;;;;;X
 MODEL_GEO_5_19;Leopard 3;;;;;;;;;;X
@@ -1642,7 +1644,7 @@ MODEL_GEO_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_GEO_5_22;Leopard 4;;;;;;;;;;X
 MODEL_GEO_5_23;Leopard 4A6;;;;;;;;;;X
 MODEL_GEO_17_0;Su-25 Frogfoot;;;;;;;;;;X
-MODEL_GEO_17_1;;;;;;;;;;;X
+MODEL_GEO_17_1;Su-25UB;;;;;;;;;;X
 MODEL_GEO_18_0;An-12 Cub;;;;;;;;;;X
 MODEL_GEO_18_1;Il-76 Candid;;;;;;;;;;X
 MODEL_GEO_18_2;An-124 Condor;;;;;;;;;;X
@@ -1707,12 +1709,12 @@ MODEL_GER_18_3;Airbus A-400M Atlas;;;;;;;;;;X
 MODEL_GER_18_4;Airbus A-500M;;;;;;;;;;X
 MODEL_GER_20_0;;;;;;;;;;;X
 MODEL_GER_20_1;;;;;;;;;;;X
-MODEL_GER_22_0;Lütjens-Class;;;;;;;;;;X
+MODEL_GER_22_0;Lï¿½tjens-Class;;;;;;;;;;X
 MODEL_GER_22_1;;;;;;;;;;;X
 MODEL_GER_22_2;Sachsen-Class;;;;;;;;;;X
-MODEL_GER_22_3;Baden-Württemberg-Class;;;;;;;;;;X
+MODEL_GER_22_3;Baden-Wï¿½rttemberg-Class;;;;;;;;;;X
 MODEL_GER_22_4;F126-Class;;;;;;;;;;X
-MODEL_GER_25_0;Köln-Class;;;;;;;;;;X
+MODEL_GER_25_0;Kï¿½ln-Class;;;;;;;;;;X
 MODEL_GER_25_1;Bremen-Class;;;;;;;;;;X
 MODEL_GER_25_2;Brandenburg-Class;;;;;;;;;;X
 MODEL_GER_25_3;Rheinland-Class;;;;;;;;;;X
@@ -1746,11 +1748,11 @@ BRIG_MODEL_GER_8_4;HAP Leopard;;;;;;;;;;X
 MODEL_GRE_4_0;M47 Patton;;;;;;;;;;X
 MODEL_GRE_4_1;M48 Patton;;;;;;;;;;X
 MODEL_GRE_4_3;Leopard 1;;;;;;;;;;X
-MODEL_GRE_4_4;Leopard 1A3;;;;;;;;;;X
-MODEL_GRE_4_5;Leopard 1A5;;;;;;;;;;X
+MODEL_GRE_4_4;M46A5 MOLF;;;;;;;;;;X
+MODEL_GRE_4_5;Leopard 1A5GR;;;;;;;;;;X
 MODEL_GRE_4_7;Leopard 2;;;;;;;;;;X
 MODEL_GRE_4_8;Leopard 2A3;;;;;;;;;;X
-MODEL_GRE_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_GRE_4_9;Leopard 2A6 HEL;;;;;;;;;;X
 MODEL_GRE_4_11;Leopard 3;;;;;;;;;;X
 MODEL_GRE_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_GRE_4_14;Leopard 4;;;;;;;;;;X
@@ -1758,11 +1760,11 @@ MODEL_GRE_4_15;Leopard 4A6;;;;;;;;;;X
 MODEL_GRE_5_7;M47 Patton;;;;;;;;;;X
 MODEL_GRE_5_8;M48 Patton;;;;;;;;;;X
 MODEL_GRE_5_11;Leopard 1;;;;;;;;;;X
-MODEL_GRE_5_12;Leopard 1A3;;;;;;;;;;X
-MODEL_GRE_5_13;Leopard 1A5;;;;;;;;;;X
+MODEL_GRE_5_12;M48A5 MOLF;;;;;;;;;;X
+MODEL_GRE_5_13;Leopard 1A5GR;;;;;;;;;;X
 MODEL_GRE_5_15;Leopard 2;;;;;;;;;;X
 MODEL_GRE_5_16;Leopard 2A3;;;;;;;;;;X
-MODEL_GRE_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_GRE_5_17;Leopard 2A6 HEL;;;;;;;;;;X
 MODEL_GRE_5_19;Leopard 3;;;;;;;;;;X
 MODEL_GRE_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_GRE_5_22;Leopard 4;;;;;;;;;;X
@@ -1969,8 +1971,8 @@ MODEL_IND_28_2;Shishumar-Class;;;;;;;;;;X
 MODEL_IND_28_3;Imp. Shishumar-Class;;;;;;;;;;X
 MODEL_IND_28_4;Sindhughosh-Class;;;;;;;;;;X
 MODEL_IND_28_5;Imp. Sindhughosh-Class;;;;;;;;;;X
-MODEL_IND_28_6;Scorpène-Class;;;;;;;;;;X
-MODEL_IND_28_7;Imp. Scorpène-Class;;;;;;;;;;X
+MODEL_IND_28_6;Scorpï¿½ne-Class;;;;;;;;;;X
+MODEL_IND_28_7;Imp. Scorpï¿½ne-Class;;;;;;;;;;X
 MODEL_IND_28_8;;;;;;;;;;;X
 MODEL_IND_28_9;;;;;;;;;;;X
 MODEL_IND_28_11;;;;;;;;;;;X
@@ -1996,7 +1998,9 @@ BRIG_MODEL_IND_14_0;Sea Harrier;;;;;;;;;;X
 BRIG_MODEL_IND_14_1;Su-33 Flanker-D;;;;;;;;;;X
 BRIG_MODEL_IND_14_2;MiG-29K Fulcrum-D;;;;;;;;;;X
 BRIG_MODEL_IND_14_3;Su-38K Firefox-D;;;;;;;;;;X
-#;;;;;;;;;;;
+#;;;;;;;;;;; 
+MODEL_INO_4_8;Leopard 2A4 Revolution;;;;;;;::;X
+MODEL_INO_5_17;Leopard 2A4 Revolution;;;;;;;;;X
 MODEL_INO_12_2;Su-27 Flanker;;;;;;;;;;X
 MODEL_INO_12_3;Su-35 Flanker-F;;;;;;;;;;X
 MODEL_INO_12_4;Su-38 Firefox;;;;;;;;;;X
@@ -2019,9 +2023,9 @@ MODEL_IRQ_4_1;T-62;;;;;;;;;;X
 MODEL_IRQ_4_3;T-72;;;;;;;;;;X
 MODEL_IRQ_4_4;T-72 Asad Babil;;;;;;;;;;X
 MODEL_IRQ_4_5;T-72BM;;;;;;;;;;X
-MODEL_IRQ_4_7;T-80;;;;;;;;;;X
-MODEL_IRQ_4_8;T-80U;;;;;;;;;;X
-MODEL_IRQ_4_9;T-80UM2;;;;;;;;;;X
+MODEL_IRQ_4_7;M1 Abrams;;;;;;;;;;X
+MODEL_IRQ_4_8;M1A1 Abrams;;;;;;;;;;X
+MODEL_IRQ_4_9;M1A2 Abrams;;;;;;;;;;X
 MODEL_IRQ_4_11;T-90;;;;;;;;;;X
 MODEL_IRQ_4_12;T-90M;;;;;;;;;;X
 MODEL_IRQ_4_14;T-95;;;;;;;;;;X
@@ -2031,9 +2035,9 @@ MODEL_IRQ_5_8;T-62;;;;;;;;;;X
 MODEL_IRQ_5_11;T-72;;;;;;;;;;X
 MODEL_IRQ_5_12;T-72 Asad Babil;;;;;;;;;;X
 MODEL_IRQ_5_13;T-72BM;;;;;;;;;;X
-MODEL_IRQ_5_15;T-80;;;;;;;;;;X
-MODEL_IRQ_5_16;T-80U;;;;;;;;;;X
-MODEL_IRQ_5_17;T-80UM2;;;;;;;;;;X
+MODEL_IRQ_5_15;M1 Abrams;;;;;;;;;;X
+MODEL_IRQ_5_16;M1A1 Abrams;;;;;;;;;;X
+MODEL_IRQ_5_17;M1A2 Abrams;;;;;;;;;;X
 MODEL_IRQ_5_19;T-90;;;;;;;;;;X
 MODEL_IRQ_5_20;T-90M;;;;;;;;;;X
 MODEL_IRQ_5_22;T-95;;;;;;;;;;X
@@ -2076,7 +2080,7 @@ MODEL_ISR_5_13;Magach 7;;;;;;;;;;X
 MODEL_ISR_5_15;Merkava;;;;;;;;;;X
 MODEL_ISR_5_16;Merkava III;;;;;;;;;;X
 MODEL_ISR_5_17;Merkava IV;;;;;;;;;;X
-MODEL_ISR_12_0;Super Mystère;;;;;;;;;;X
+MODEL_ISR_12_0;Super Mystï¿½re;;;;;;;;;;X
 MODEL_ISR_12_1;F4E Kurnass;;;;;;;;;;X
 MODEL_ISR_12_2;F-15A Baz;;;;;;;;;;X
 MODEL_ISR_12_3;F-15A Baz;;;;;;;;;;X
@@ -2233,8 +2237,8 @@ MODEL_JAP_5_22;Type 21;;;;;;;;;;X
 MODEL_JAP_5_23;Type 21 Mk2;;;;;;;;;;X
 MODEL_JAP_12_0;F-104J Starfighter;;;;;;;;;;X
 MODEL_JAP_12_1;F-4EJ Phantom II;;;;;;;;;;X
-MODEL_JAP_12_2;F–15J Eagle;;;;;;;;;;X
-MODEL_JAP_12_3;F–15DJ Eagle;;;;;;;;;;X
+MODEL_JAP_12_2;Fï¿½15J Eagle;;;;;;;;;;X
+MODEL_JAP_12_3;Fï¿½15DJ Eagle;;;;;;;;;;X
 MODEL_JAP_12_4;F-22J Raptor;;;;;;;;;;X
 MODEL_JAP_12_5;F-22DJ Raptor;;;;;;;;;;X
 MODEL_JAP_13_0;F-104J Starfighter;;;;;;;;;;X
@@ -2297,10 +2301,10 @@ BRIG_MODEL_JAP_14_2;F/A-18 Hornet;;;;F/A-18 Hornet;;;;;;X
 BRIG_MODEL_JAP_14_3;EF-2005N Hurricane;;;;EF-2005N Hurricane;;;;;;X
 #;;;;;;;;;;;
 MODEL_JOR_4_0;Centurion;;;;;;;;;;X
-MODEL_JOR_4_1;Centurion Mk10;;;;;;;;;;X
+MODEL_JOR_4_1;Tariq;;;;;;;;;;X
 MODEL_JOR_4_3;Chieftain;;;;;;;;;;X
-MODEL_JOR_4_4;Chieftain Mk10;;;;;;;;;;X
-MODEL_JOR_4_5;Chieftain Mk13;;;;;;;;;;X
+MODEL_JOR_4_4;M60A3;;;;;;;;;;X
+MODEL_JOR_4_5;Khaled;;;;;;;;;;X
 MODEL_JOR_4_7;Challenger;;;;;;;;;;X
 MODEL_JOR_4_8;Challenger Mk2;;;;;;;;;;X
 MODEL_JOR_4_9;Challenger Mk3;;;;;;;;;;X
@@ -2309,10 +2313,10 @@ MODEL_JOR_4_12;Challenger 2 LIP;;;;;;;;;;X
 MODEL_JOR_4_14;Challenger 3;;;;;;;;;;X
 MODEL_JOR_4_15;Challenger 3 Mk10;;;;;;;;;;X
 MODEL_JOR_5_7;Centurion;;;;;;;;;;X
-MODEL_JOR_5_8;Centurion Mk10;;;;;;;;;;X
+MODEL_JOR_5_8;Tariq;;;;;;;;;;X
 MODEL_JOR_5_11;Chieftain;;;;;;;;;;X
-MODEL_JOR_5_12;Chieftain Mk10;;;;;;;;;;X
-MODEL_JOR_5_13;Chieftain Mk13;;;;;;;;;;X
+MODEL_JOR_5_12;M60A3;;;;;;;;;;X
+MODEL_JOR_5_13;Khaled;;;;;;;;;;X
 MODEL_JOR_5_15;Challenger;;;;;;;;;;X
 MODEL_JOR_5_16;Challenger Mk2;;;;;;;;;;X
 MODEL_JOR_5_17;Challenger Mk3;;;;;;;;;;X
@@ -2645,6 +2649,7 @@ MODEL_MOR_25_2;Floreal-Class;;;;;;;;;;X
 MODEL_MOR_25_3;La Fayette-Class;;;;;;;;;;X
 MODEL_MOR_25_4;FREMM-Class;;;;;;;;;;X
 #;;;;;;;;;;;
+MODEL_MLY_4_5;PT-91M;;;;;;;;;;X
 MODEL_MLY_13_1;F-5 Freedom Fighter;;;;;;;;;;X
 MODEL_MLY_13_2;MiG-29 Fulcrum;;;;;;;;;;X
 MODEL_MLY_13_3;F-18D Hornet;;;;;;;;;;X
@@ -2662,7 +2667,7 @@ MODEL_NIG_22_1;MEKO 260-Class;;;;;;;;;;X
 #;;;;;;;;;;;
 MODEL_NOR_4_3;Leopard 1;;;;;;;;;;X
 MODEL_NOR_4_4;Leopard 1A3;;;;;;;;;;X
-MODEL_NOR_4_5;Leopard 1A5;;;;;;;;;;X
+MODEL_NOR_4_5;Leopard 1A5 NO2;;;;;;;;;;X
 MODEL_NOR_4_7;Leopard 2;;;;;;;;;;X
 MODEL_NOR_4_8;Leopard 2A4;;;;;;;;;;X
 MODEL_NOR_4_9;Leopard 2A6;;;;;;;;;;X
@@ -2672,7 +2677,7 @@ MODEL_NOR_4_14;Leopard 4;;;;;;;;;;X
 MODEL_NOR_4_15;Leopard 4A6;;;;;;;;;;X
 MODEL_NOR_5_11;Leopard 1;;;;;;;;;;X
 MODEL_NOR_5_12;Leopard 1A3;;;;;;;;;;X
-MODEL_NOR_5_13;Leopard 1A5;;;;;;;;;;X
+MODEL_NOR_5_13;Leopard 1A5 NO2;;;;;;;;;;X
 MODEL_NOR_5_15;Leopard 2;;;;;;;;;;X
 MODEL_NOR_5_16;Leopard 2A4;;;;;;;;;;X
 MODEL_NOR_5_17;Leopard 2A6;;;;;;;;;;X
@@ -2776,8 +2781,8 @@ MODEL_PAK_25_1;Oliver H. Perry-Class;;;;;;;;;;X
 MODEL_PAK_25_2;Zulfiqar-Class;;;;;;;;;;X
 MODEL_PAK_25_3;Jiangkai-Class;;;;;;;;;;X
 MODEL_PAK_25_4;Jiangxia-Class;;;;;;;;;;X
-MODEL_PAK_28_0;Daphné-Class;;;;;;;;;;X
-MODEL_PAK_28_1;Imp. Daphné-Class;;;;;;;;;;X
+MODEL_PAK_28_0;Daphnï¿½-Class;;;;;;;;;;X
+MODEL_PAK_28_1;Imp. Daphnï¿½-Class;;;;;;;;;;X
 MODEL_PAK_28_2;Agosta-Class;;;;;;;;;;X
 MODEL_PAK_28_3;Agosta 90B-Class;;;;;;;;;;X
 MODEL_PAK_28_6;Yuan-Class;;;;;;;;;;X
@@ -2949,7 +2954,7 @@ MODEL_POR_13_4;F-35 Lightning II;;;;;;;;;;X
 MODEL_POR_13_5;F-35D Lightning II;;;;;;;;;;X
 MODEL_POR_15_0;A-7P Corsair II;;;;;;;;;;X
 MODEL_POR_18_0;Nord Noratlas;;;;;;;;;;X
-MODEL_POR_25_0;João Belo-Class;;;;;;;;;;X
+MODEL_POR_25_0;Joï¿½o Belo-Class;;;;;;;;;;X
 MODEL_POR_25_1;;;;;;;;;;;X
 MODEL_POR_25_2;Vasco da Gama-Class;;;;;;;;;;X
 MODEL_POR_25_3;;;;;;;;;;;X
@@ -3008,7 +3013,7 @@ BRIG_MODEL_PRK_8_3;Mi-28NAe Havock;;;;;;;;;;X
 BRIG_MODEL_PRK_8_4;Mi-28N2 Havock-E;;;;;;;;;;X
 #;;;;;;;;;;;
 MODEL_PRU_4_0;T-55;;;;;;;;;;X
-MODEL_PRU_4_1;T-62;;;;;;;;;;X
+MODEL_PRU_4_1;T-55M2A1 Leon 2;;;;;;;;;;X
 MODEL_PRU_4_3;Leopard 1;;;;;;;;;;X
 MODEL_PRU_4_4;Leopard 1A3;;;;;;;;;;X
 MODEL_PRU_4_5;Leopard 1A5;;;;;;;;;;X
@@ -3020,7 +3025,7 @@ MODEL_PRU_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_PRU_4_14;Leopard 4;;;;;;;;;;X
 MODEL_PRU_4_15;Leopard 4A6;;;;;;;;;;X
 MODEL_PRU_5_7;T-55;;;;;;;;;;X
-MODEL_PRU_5_8;T-62;;;;;;;;;;X
+MODEL_PRU_5_8;T-55M2A1 Leon 2;;;;;;;;;;X
 MODEL_PRU_5_11;Leopard 1;;;;;;;;;;X
 MODEL_PRU_5_12;Leopard 1A3;;;;;;;;;;X
 MODEL_PRU_5_13;Leopard 1A5;;;;;;;;;;X
@@ -3265,8 +3270,8 @@ MODEL_SAF_18_4;Airbus A500M;;;;;;;;;;X
 MODEL_SAF_25_0;President-Class;;;;;;;;;;X
 MODEL_SAF_25_3;Valour-Class;;;;;;;;;;X
 MODEL_SAF_25_4;;;;;;;;;;;X
-MODEL_SAF_28_0;Daphné-Class;;;;;;;;;;X
-MODEL_SAF_28_1;Imp. Daphné-Class;;;;;;;;;;X
+MODEL_SAF_28_0;Daphnï¿½-Class;;;;;;;;;;X
+MODEL_SAF_28_1;Imp. Daphnï¿½-Class;;;;;;;;;;X
 MODEL_SAF_28_2;Type 209-Class;;;;;;;;;;X
 MODEL_SAF_28_3;Heroine-Class;;;;;;;;;;X
 BRIG_MODEL_SAF_8_0;Alouette III;;;;;;;;;;X
@@ -3312,7 +3317,7 @@ MODEL_SAU_4_4;M60A1 Patton;;;;;;;;;;X
 MODEL_SAU_4_5;M60A3 Patton;;;;;;;;;;X
 MODEL_SAU_4_7;M1 Abrams;;;;;;;;;;X
 MODEL_SAU_4_8;M1A1 Abrams;;;;;;;;;;X
-MODEL_SAU_4_9;M1A2 Abrams;;;;;;;;;;X
+MODEL_SAU_4_9;M1A2S Abrams;;;;;;;;;;X
 MODEL_SAU_4_11;M4A1 Clay;;;;;;;;;;X
 MODEL_SAU_4_12;M4A2 Clay;;;;;;;;;;X
 MODEL_SAU_4_14;M6A1 Jackson;;;;;;;;;;X
@@ -3324,7 +3329,7 @@ MODEL_SAU_5_12;M60A1 Patton;;;;;;;;;;X
 MODEL_SAU_5_13;M60A3 Patton;;;;;;;;;;X
 MODEL_SAU_5_15;M1 Abrams;;;;;;;;;;X
 MODEL_SAU_5_16;M1A1 Abrams;;;;;;;;;;X
-MODEL_SAU_5_17;M1A2 Abrams;;;;;;;;;;X
+MODEL_SAU_5_17;M1A2S Abrams;;;;;;;;;;X
 MODEL_SAU_5_19;M4A1 Clay;;;;;;;;;;X
 MODEL_SAU_5_20;M4A2 Clay;;;;;;;;;;X
 MODEL_SAU_5_22;M6A1 Jackson;;;;;;;;;;X
@@ -3364,8 +3369,8 @@ MODEL_SCH_4_3;Panzer 68;;;;;;;;;;X
 MODEL_SCH_4_4;Panzer 68A3;;;;;;;;;;X
 MODEL_SCH_4_5;Panzer 68A5;;;;;;;;;;X
 MODEL_SCH_4_7;Leopard 2;;;;;;;;;;X
-MODEL_SCH_4_8;Leopard 2A4;;;;;;;;;;X
-MODEL_SCH_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_SCH_4_8;Leopard Pz 87(2A4);;;;;;;;;;X
+MODEL_SCH_4_9;Leopard Pz 87-140(2A6);;;;;;;;;;X
 MODEL_SCH_4_11;Leopard 3;;;;;;;;;;X
 MODEL_SCH_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_SCH_4_14;Leopard 4;;;;;;;;;;X
@@ -3376,8 +3381,8 @@ MODEL_SCH_5_11;Panzer 68;;;;;;;;;;X
 MODEL_SCH_5_12;Panzer 68A3;;;;;;;;;;X
 MODEL_SCH_5_13;Panzer 68A5;;;;;;;;;;X
 MODEL_SCH_5_15;Leopard 2;;;;;;;;;;X
-MODEL_SCH_5_16;Leopard 2A4;;;;;;;;;;X
-MODEL_SCH_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_SCH_5_16;Leopard Pz 87(2A4);;;;;;;;;;X
+MODEL_SCH_5_17;Leopard Pz 87-140(2A6);;;;;;;;;;X
 MODEL_SCH_5_19;Leopard 3;;;;;;;;;;X
 MODEL_SCH_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_SCH_5_22;Leopard 4;;;;;;;;;;X
@@ -3634,7 +3639,7 @@ MODEL_SPA_4_4;AMX-30B2;;;;;;;;;;X
 MODEL_SPA_4_5;AMX-32;;;;;;;;;;X
 MODEL_SPA_4_7;Leopard 2;;;;;;;;;;X
 MODEL_SPA_4_8;Leopard 2A4;;;;;;;;;;X
-MODEL_SPA_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_SPA_4_9;Leopard 2E;;;;;;;;;;X
 MODEL_SPA_4_11;Leopard 3;;;;;;;;;;X
 MODEL_SPA_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_SPA_4_14;Leopard 4;;;;;;;;;;X
@@ -3646,7 +3651,7 @@ MODEL_SPA_5_12;AMX-30B2;;;;;;;;;;X
 MODEL_SPA_5_13;AMX-32;;;;;;;;;;X
 MODEL_SPA_5_15;Leopard 2;;;;;;;;;;X
 MODEL_SPA_5_16;Leopard 2A4;;;;;;;;;;X
-MODEL_SPA_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_SPA_5_17;Leopard 2E;;;;;;;;;;X
 MODEL_SPA_5_19;Leopard 3;;;;;;;;;;X
 MODEL_SPA_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_SPA_5_22;Leopard 4;;;;;;;;;;X
@@ -3674,11 +3679,11 @@ MODEL_SPA_18_4;Airbus A500M;;;;;;;;;;X
 MODEL_SPA_22_0;Oquendo-Class;;;;;;;;;;X
 MODEL_SPA_22_1;;;;;;;;;;;X
 MODEL_SPA_22_2;;;;;;;;;;;X
-MODEL_SPA_22_3;Alvaro de Bazán-Class;;;;;;;;;;X
+MODEL_SPA_22_3;Alvaro de Bazï¿½n-Class;;;;;;;;;;X
 MODEL_SPA_22_4;;;;;;;;;;;X
 MODEL_SPA_25_0;Baleares-Class;;;;;;;;;;X
 MODEL_SPA_25_1;;;;;;;;;;;X
-MODEL_SPA_25_2;Santa María-Class ;;;;;;;;;;X
+MODEL_SPA_25_2;Santa Marï¿½a-Class ;;;;;;;;;;X
 MODEL_SPA_25_3;;;;;;;;;;;X
 MODEL_SPA_25_4;;;;;;;;;;;X
 MODEL_SPA_27_0;;;;;;;;;;;X
@@ -3686,8 +3691,8 @@ MODEL_SPA_27_1;Principe de Asturias-Class;;;;;;;;;;X
 MODEL_SPA_27_2;Juan Carlos I-Class;;;;;;;;;;X
 MODEL_SPA_27_3;;;;;;;;;;;X
 MODEL_SPA_27_4;;;;;;;;;;;X
-MODEL_SPA_28_0;Delfín-Class;;;;;;;;;;X
-MODEL_SPA_28_1;Imp. Delfín;;;;;;;;;;X
+MODEL_SPA_28_0;Delfï¿½n-Class;;;;;;;;;;X
+MODEL_SPA_28_1;Imp. Delfï¿½n;;;;;;;;;;X
 MODEL_SPA_28_2;Galerna-Class;;;;;;;;;;X
 MODEL_SPA_28_3;Imp. Galerna-Class;;;;;;;;;;X
 MODEL_SPA_28_4;S-80-Class;;;;;;;;;;X
@@ -3745,8 +3750,8 @@ MODEL_SWE_4_3;Leopard 1;;;;;;;;;;X
 MODEL_SWE_4_4;Leopard 1A3;;;;;;;;;;X
 MODEL_SWE_4_5;Leopard 1A5;;;;;;;;;;X
 MODEL_SWE_4_7;Leopard 2;;;;;;;;;;X
-MODEL_SWE_4_8;Leopard 2A4;;;;;;;;;;X
-MODEL_SWE_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_SWE_4_8;Leopard Strv.122(2A4);;;;;;;;;;X
+MODEL_SWE_4_9;Leopard Strv.122(2A6);;;;;;;;;;X
 MODEL_SWE_4_11;Leopard 3;;;;;;;;;;X
 MODEL_SWE_4_12;Leopard 3A5;;;;;;;;;;X
 MODEL_SWE_4_14;Leopard 4;;;;;;;;;;X
@@ -3757,8 +3762,8 @@ MODEL_SWE_5_11;Leopard 1;;;;;;;;;;X
 MODEL_SWE_5_12;Leopard 1A3;;;;;;;;;;X
 MODEL_SWE_5_13;Leopard 1A5;;;;;;;;;;X
 MODEL_SWE_5_15;Leopard 2;;;;;;;;;;X
-MODEL_SWE_5_16;Leopard 2A4;;;;;;;;;;X
-MODEL_SWE_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_SWE_5_16;Leopard Strv.122(2A4);;;;;;;;;;X
+MODEL_SWE_5_17;Leopard Strv.122(2A6);;;;;;;;;;X
 MODEL_SWE_5_19;Leopard 3;;;;;;;;;;X
 MODEL_SWE_5_20;Leopard 3A5;;;;;;;;;;X
 MODEL_SWE_5_22;Leopard 4;;;;;;;;;;X
@@ -3783,14 +3788,14 @@ MODEL_SWE_22_4;Vestrbotton-Class;;;;;;;;;;X
 MODEL_SWE_25_2;Linkoeping-Class;;;;;;;;;;X
 MODEL_SWE_25_3;Trollhaettan-Class;;;;;;;;;;X
 MODEL_SWE_25_4;Falun-Class;;;;;;;;;;x
-MODEL_SWE_28_0;Sjöormen-Class;;;;;;;;;;X
-MODEL_SWE_28_2;Näcken-Class;;;;;;;;;;X
-MODEL_SWE_28_4;Västergötland-Class;;;;;;;;;;X
-MODEL_SWE_28_5;Södermanland-Class;;;;;;;;;;X
+MODEL_SWE_28_0;Sjï¿½ormen-Class;;;;;;;;;;X
+MODEL_SWE_28_2;Nï¿½cken-Class;;;;;;;;;;X
+MODEL_SWE_28_4;Vï¿½stergï¿½tland-Class;;;;;;;;;;X
+MODEL_SWE_28_5;Sï¿½dermanland-Class;;;;;;;;;;X
 MODEL_SWE_28_6;Gotland-Class;;;;;;;;;;X
 MODEL_SWE_28_7;Imp. Gotland-Class;;;;;;;;;;X
-MODEL_SWE_28_8;Skåne-Class;;;;;;;;;;X
-MODEL_SWE_28_9;Imp. Skåne-Class;;;;;;;;;;X
+MODEL_SWE_28_8;Skï¿½ne-Class;;;;;;;;;;X
+MODEL_SWE_28_9;Imp. Skï¿½ne-Class;;;;;;;;;;X
 BRIG_MODEL_SWE_8_0;UH-1 Huey;;;;;;;;;;X
 BRIG_MODEL_SWE_8_1;UH-1D Iroquois;;;;;;;;;;X
 BRIG_MODEL_SWE_8_2;MBB Bo 105CB-3;;;;;;;;;;X
@@ -3903,7 +3908,7 @@ MODEL_TUR_4_4;M60A1 Patton;;;;;;;;;;X
 MODEL_TUR_4_5;M60A3 Patton;;;;;;;;;;X
 MODEL_TUR_4_7;Leopard 2;;;;;;;;;;X
 MODEL_TUR_4_8;Leopard 2A4;;;;;;;;;;X
-MODEL_TUR_4_9;Leopard 2A6;;;;;;;;;;X
+MODEL_TUR_4_9;Leopard 2NG;;;;;;;;;;X
 MODEL_TUR_4_11;Altay;;;;;;;;;;X
 MODEL_TUR_4_12;Altay T2;;;;;;;;;;X
 MODEL_TUR_4_14;Leopard 4;;;;;;;;;;X
@@ -3915,7 +3920,7 @@ MODEL_TUR_5_12;M60A1 Patton;;;;;;;;;;X
 MODEL_TUR_5_13;M60A3 Patton;;;;;;;;;;X
 MODEL_TUR_5_15;Leopard 2;;;;;;;;;;X
 MODEL_TUR_5_16;Leopard 2A4;;;;;;;;;;X
-MODEL_TUR_5_17;Leopard 2A6;;;;;;;;;;X
+MODEL_TUR_5_17;Leopard 2NG;;;;;;;;;;X
 MODEL_TUR_5_19;Altay;;;;;;;;;;X
 MODEL_TUR_5_20;Altay T2;;;;;;;;;;X
 MODEL_TUR_5_22;Leopard 4;;;;;;;;;;X
@@ -3980,7 +3985,7 @@ BRIG_MODEL_TUR_10_4;Otokar Cobra;;;;Otokar Cobra;;;;;;X
 #;;;;;;;;;;;
 MODEL_VEN_4_3;T-72;;;;;;;;;;X
 MODEL_VEN_4_4;T-72A;;;;;;;;;;X
-MODEL_VEN_4_5;T-72BM;;;;;;;;;;X
+MODEL_VEN_4_5;T-72M1V;;;;;;;;;;X
 MODEL_VEN_4_7;T-80;;;;;;;;;;X
 MODEL_VEN_4_8;T-80U;;;;;;;;;;X
 MODEL_VEN_4_9;T-80UM2;;;;;;;;;;X
@@ -3990,7 +3995,7 @@ MODEL_VEN_4_14;T-95;;;;;;;;;;X
 MODEL_VEN_4_15;T-95B;;;;;;;;;;X
 MODEL_VEN_5_11;T-72;;;;;;;;;;X
 MODEL_VEN_5_12;T-72A;;;;;;;;;;X
-MODEL_VEN_5_13;T-72BM;;;;;;;;;;X
+MODEL_VEN_5_13;T-72M1V;;;;;;;;;;X
 MODEL_VEN_5_15;T-80;;;;;;;;;;X
 MODEL_VEN_5_16;T-80U;;;;;;;;;;X
 MODEL_VEN_5_17;T-80UM2;;;;;;;;;;X
@@ -4337,6 +4342,8 @@ MODEL_YEM_5_19;T-90;;;;;;;;;;X
 MODEL_YEM_5_20;T-90M;;;;;;;;;;X
 MODEL_YEM_5_22;T-95;;;;;;;;;;X
 MODEL_YEM_5_23;T-95B;;;;;;;;;;X
+#;;;;;;;;;;; 
+MODEL_U01_4_0;T-55AM;;;;;;;;;;X 
 #;;;;;;;;;;;
 MODEL_U03_4_0;T-55;;;;;;;;;;X
 MODEL_U03_4_1;T-62;;;;;;;;;;X
